@@ -1,0 +1,104 @@
+[
+  {
+    "date": "2026-07-18",
+    "tags": [
+      "Technologie / Chine",
+      "Économie / États-Unis",
+      "Régulation / Europe",
+      "Technologie / Chine",
+      "Technologie / International"
+    ],
+    "regions": [
+      "chine",
+      "etats-unis",
+      "europe",
+      "international"
+    ],
+    "summary_cn": "CXMT上海IPO | Apple市值登顶 | 欧盟AI监管新规 | 中国芯片突围 | Meta租云给Anthropic",
+    "briefs": [
+      {
+        "tag": "Technologie / Chine",
+        "title_cn": "CXMT上海IPO",
+        "title": "Le géant chinois des puces mémoire CXMT lève 8,6 milliards $ à Shanghai",
+        "body": "ChangXin Memory Technologies (CXMT), le premier fabricant chinois de puces mémoire DRAM et le quatrième mondial, a fait son entrée à la Bourse de Shanghai le 27 juillet dans le cadre de la plus grande introduction en bourse d'Asie en 2026. L'opération, d'un montant de 8,6 milliards de dollars (29,5 milliards de yuans), a été 243 fois sursouscrite par les investisseurs particuliers. CXMT, qui détient environ 7,7 % du marché mondial de la DRAM, prévoit d'utiliser ces fonds pour moderniser ses lignes de production et développer de nouvelles technologies.",
+        "source": "DealStreetAsia / SCMP",
+        "pub_date": "juillet 2026"
+      },
+      {
+        "tag": "Économie / États-Unis",
+        "title_cn": "Apple市值超越Nvidia",
+        "title": "Apple dépasse Nvidia, Wall Street profite du super cycle de l'IA",
+        "body": "Apple est devenue l'entreprise la plus valorisée au monde avec 4 880 milliards de dollars, détrônant Nvidia, alors que les investisseurs élargissent leur focus au-delà des pure players des semi-conducteurs. Parallèlement, les grandes banques d'affaires américaines engrangent des revenus records grâce à ce que Goldman Sachs appelle le « super cycle d'investissement dans l'IA ». Citigroup a gagné plus de 70 millions de dollars sur l'introduction en Bourse de SK Hynix, tandis que Bank of America a accordé une ligne de crédit de 520 millions à OpenAI.",
+        "source": "Les Echos / Financial Times",
+        "pub_date": "juillet 2026"
+      },
+      {
+        "tag": "Régulation / Europe",
+        "title_cn": "欧盟AI法案修正通过",
+        "title": "L'UE adopte le Digital Omnibus, premier assouplissement de l'AI Act",
+        "body": "Le Conseil de l'Union européenne a officiellement adopté le « Digital Omnibus sur l'IA », le premier amendement majeur à l'AI Act depuis son entrée en vigueur en 2024. Le texte repousse les obligations pour les systèmes d'IA à haut risque au 2 décembre 2027, soit plus d'un an de délai supplémentaire. En revanche, les obligations de transparence entreront en vigueur le 2 août 2026 : les entreprises devront marquer les contenus générés par l'IA et informer les utilisateurs lors d'une interaction avec un système d'IA.",
+        "source": "Euronews / Le Monde",
+        "pub_date": "29 juin 2026"
+      },
+      {
+        "tag": "Technologie / Chine",
+        "title_cn": "中国AI芯片爆发增长",
+        "title": "Les alternatives chinoises à Nvidia explosent face aux restrictions US",
+        "body": "Moore Threads Technology a annoncé une hausse de son chiffre d'affaires de 135 à 149 % au premier semestre 2026, grâce à la demande pour ses GPU et sa puce phare MTT S5000. Hygon Information a enregistré une croissance de 55 à 70 %, portée par ses processeurs et cartes d'accélération IA. Ces résultats illustrent l'émergence d'un écosystème de puces IA chinois, stimulé par les restrictions américaines et les investissements du 15e Plan quinquennal.",
+        "source": "South China Morning Post",
+        "pub_date": "juillet 2026"
+      },
+      {
+        "tag": "Technologie / International",
+        "title_cn": "Meta拟租云设施给Anthropic",
+        "title": "Meta en négociations pour louer son infrastructure cloud à Anthropic",
+        "body": "Meta est en discussions avancées pour louer une partie de son infrastructure informatique à Anthropic, la startup américaine d'IA concurrente d'OpenAI. L'accord potentiel, estimé à 10 milliards de dollars sur deux ans, marquerait une nouvelle stratégie de monétisation pour Meta. Pour Anthropic, ce partenariat permettrait d'accéder à davantage de capacités de calcul pour entraîner et déployer ses modèles d'IA, alors que l'entreprise se prépare à entrer en Bourse.",
+        "source": "CNN Business",
+        "pub_date": "17 juillet 2026"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "la sursouscription",
+        "definition": "Situation où le nombre d'ordres d'achat dépasse le nombre d'actions proposées lors d'une introduction en Bourse."
+      },
+      {
+        "word": "détrôner",
+        "definition": "Remplacer quelqu'un ou quelque chose à la première place."
+      },
+      {
+        "word": "le super cycle",
+        "definition": "Période prolongée de croissance exceptionnelle dans un secteur économique."
+      },
+      {
+        "word": "l'amendement (m.)",
+        "definition": "Modification apportée à un texte de loi en cours d'examen."
+      },
+      {
+        "word": "la transparence",
+        "definition": "Principe exigeant que les entreprises informent clairement les utilisateurs de leurs pratiques."
+      },
+      {
+        "word": "le chiffre d'affaires",
+        "definition": "Montant total des ventes d'une entreprise sur une période donnée."
+      },
+      {
+        "word": "le semi-conducteur",
+        "definition": "Composant électronique essentiel utilisé dans les puces informatiques."
+      },
+      {
+        "word": "l'infrastructure informatique (f.)",
+        "definition": "Ensemble des équipements et installations nécessaires au fonctionnement des systèmes numériques."
+      },
+      {
+        "word": "rentabiliser",
+        "definition": "Tirer un profit économique d'un investissement."
+      },
+      {
+        "word": "la recomposition",
+        "definition": "Réorganisation profonde d'un secteur ou d'un marché."
+      }
+    ],
+    "word_count": 404
+  }
+]
