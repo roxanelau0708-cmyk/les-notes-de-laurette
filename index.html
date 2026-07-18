@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Les Notes de Laurette</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>Les Notes de Laurette</h1>
+  <p>Veille technologique · Chine, États-Unis, Europe</p>
+</header>
+
+<div class="market-bar" id="market-bar"></div>
+
+<main>
+  <section class="filters">
+    <button class="filter-btn active" data-filter="all">Tous</button>
+    <button class="filter-btn region" data-filter="chine">🇨🇳 Chine</button>
+    <button class="filter-btn region" data-filter="etats-unis">🇺🇸 États-Unis</button>
+    <button class="filter-btn region" data-filter="europe">🇪🇺 Europe</button>
+    <button class="filter-btn region" data-filter="international">🌍 International</button>
+  </section>
+
+  <section id="article-list" class="article-list"></section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
