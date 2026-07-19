@@ -195,7 +195,7 @@ const MARKET_SYMBOLS = [
   { id: '%5EGSPC', label: 'S&P 500' },
   { id: '%5ENDX', label: 'NASDAQ 100' },
   { id: '%5ERUT', label: 'Russell 2000' },
-  { id: 'GC%3DF', label: 'Gold', interval: '1d', range: '5d' },
+  { id: 'GC%3DF', label: 'Gold', interval: '15m', range: '1d' },
   { id: '000300.SS', label: 'CSI 300' },
   { id: '000905.SS', label: 'CSI 500' },
   { id: 'HSTECH.HK', label: 'HSTECH' },
