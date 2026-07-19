@@ -195,7 +195,7 @@ const MARKET_SYMBOLS = [
   { id: '%5EGSPC', label: 'S&P 500' },
   { id: '%5ENDX', label: 'NASDAQ 100' },
   { id: '%5ERUT', label: 'Russell 2000' },
-  { id: 'GC%3DF', label: 'Gold' },
+  { id: 'GC%3DF', label: 'Gold', interval: '1d', range: '1mo' },
   { id: '000300.SS', label: 'CSI 300' },
   { id: '000905.SS', label: 'CSI 500' },
   { id: 'HSTECH.HK', label: 'HSTECH' },
@@ -232,7 +232,7 @@ async function fetchMarketData() {
 
   // Step 1: fetch intraday data (fast, for price + change)
   const results = await Promise.allSettled(MARKET_SYMBOLS.map(s =>
-    fetchYahoo(s.id, '5m', '1d')
+    fetchYahoo(s.id, s.interval || '5m', s.range || '1d')
   ));
 
   // Step 2: for symbols with no intraday sparkline, fetch 1mo daily as fallback

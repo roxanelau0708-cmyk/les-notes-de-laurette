@@ -1,5 +1,82 @@
 [
   {
+    "date": "2026-07-19",
+    "tags": [
+      "Société / Environnement",
+      "International / Europe",
+      "International / Politique",
+      "Technologie / Chine",
+      "Économie / Chine"
+    ],
+    "regions": [
+      "europe",
+      "international",
+      "chine"
+    ],
+    "summary_cn": "枫丹白露10%焚毁 | 法德防务历史突破 | 美伊冲突升级 | 世界AI大会上海开幕 | 中国高技术制造业增长13.3%",
+    "briefs": [
+      {
+        "tag": "Technologie / Chine",
+        "title_cn": "世界AI大会2026在上海开幕",
+        "title": "La Conférence mondiale sur l'IA s'ouvre à Shanghai avec des prévisions record pour la robotique",
+        "body": "La Conférence mondiale sur l'intelligence artificielle 2026 a ouvert ses portes à Shanghai, réunissant plus de 100 entreprises et 200 produits liés à l'IA. Parmi les annonces marquantes, Morgan Stanley a relevé ses prévisions pour le marché des robots humanoïdes à 50 000 unités en 2026, contre 14 000 auparavant, anticipant un marché de 20 milliards de dollars cette année et de 150 milliards d'ici 2030. UBS a rapporté que les commandes de composants IA sont réservées jusqu'à fin 2027, avec des bénéfices en hausse de 80 à 90 % cette année.",
+        "source": "People's Daily / Morgan Stanley",
+        "pub_date": "19 juillet 2026"
+      },
+      {
+        "tag": "Économie / Chine",
+        "title_cn": "中国高技术制造业增长13.3%",
+        "title": "Le secteur high-tech chinois bondit de 13,3 %, porté par l'IA et les semi-conducteurs",
+        "body": "La production de l'industrie high-tech chinoise a bondi de 13,3 % au premier semestre 2026, bien au-dessus de la croissance industrielle globale de 5,4 %, selon les données officielles publiées le 19 juillet. Les secteurs clés incluent la production de robots industriels (+28 %), d'équipements d'impression 3D (+48,5 %) et de circuits intégrés (279,8 milliards d'unités, soit plus de 1,5 milliard de puces par jour). Les bénéfices du secteur high-tech ont grimpé de 44,7 % sur les cinq premiers mois, confirmant la transformation structurelle de l'économie chinoise.",
+        "source": "People's Daily / CCTV",
+        "pub_date": "19 juillet 2026"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "le pyromane",
+        "definition": "Personne qui provoque volontairement des incendies."
+      },
+      {
+        "word": "la dissuasion",
+        "definition": "Stratégie visant à dissuader un ennemi d'attaquer par la menace de représailles."
+      },
+      {
+        "word": "le détroit",
+        "definition": "Passage maritime étroit entre deux terres, reliant deux mers."
+      },
+      {
+        "word": "la frappe",
+        "definition": "Action militaire consistant à lancer une attaque ciblée."
+      },
+      {
+        "word": "le robot humanoïde",
+        "definition": "Robot dont la conception imite le corps humain."
+      },
+      {
+        "word": "la prévision",
+        "definition": "Estimation de l'évolution future d'une situation ou d'un marché."
+      },
+      {
+        "word": "le composant",
+        "definition": "Élément entrant dans la fabrication d'un appareil électronique."
+      },
+      {
+        "word": "bondir",
+        "definition": "Augmenter fortement et rapidement."
+      },
+      {
+        "word": "le circuit intégré",
+        "definition": "Composant électronique miniaturisé regroupant de nombreux transistors sur une puce."
+      },
+      {
+        "word": "la transformation structurelle",
+        "definition": "Changement profond de la structure économique d'un pays."
+      }
+    ],
+    "word_count": 467
+  },
+  {
     "date": "2026-07-18",
     "tags": [
       "Technologie / Chine",
