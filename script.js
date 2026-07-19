@@ -195,7 +195,6 @@ const MARKET_SYMBOLS = [
   { id: '%5EGSPC', label: 'S&P 500' },
   { id: '%5ENDX', label: 'NASDAQ 100' },
   { id: '%5ERUT', label: 'Russell 2000' },
-  { id: 'GC%3DF', label: 'Gold', interval: '2m', range: '1d' },
   { id: '000300.SS', label: 'CSI 300' },
   { id: '000905.SS', label: 'CSI 500' },
   { id: 'HSTECH.HK', label: 'HSTECH' },
@@ -244,29 +243,11 @@ async function fetchMarketData() {
     if (valid < 2) fallbacks.push(i);
   });
   const fallbackPromises = fallbacks.map(i => {
-    const s = MARKET_SYMBOLS[i];
-    const sym = decodeURIComponent(s.id);
-    if (sym === 'GC=F') return fetchYahoo(s.id, '5m', '1d');
-    return fetchYahoo(s.id, '1d', '1mo');
+    return fetchYahoo(MARKET_SYMBOLS[i].id, '1d', '1mo');
   });
   const fallbackResults = await Promise.allSettled(fallbackPromises);
   const fallbackMap = {};
   fallbacks.forEach((i, j) => { fallbackMap[i] = fallbackResults[j]; });
-
-  // Step 3: if gold still has no data, try daily bars (last resort)
-  const goldIdx = MARKET_SYMBOLS.findIndex(s => decodeURIComponent(s.id) === 'GC=F');
-  if (goldIdx >= 0) {
-    const r = results[goldIdx];
-    const fr = fallbackMap[goldIdx];
-    const frClose = fr?.value?.chart?.result?.[0]?.indicators?.quote?.[0]?.close;
-    const frValid = frClose ? frClose.filter(c => c != null).length : 0;
-    const firstClose = r?.value?.chart?.result?.[0]?.indicators?.quote?.[0]?.close;
-    const firstValid = firstClose ? firstClose.filter(c => c != null).length : 0;
-    if (firstValid < 2 && frValid < 2) {
-      const finalResult = await fetchYahoo('GC%3DF', '1d', '5d');
-      fallbackMap[goldIdx] = finalResult;
-    }
-  }
 
   let html = '';
   MARKET_SYMBOLS.forEach((s, i) => {
