@@ -496,8 +496,8 @@ function renderDictResult(data, el) {
       if (def.examples && def.examples.length > 0) {
         defHtml += `<div class="dr-examples">`;
         def.examples.slice(0, 3).forEach(ex => {
-          defHtml += `<div class="dr-example"><span class="dr-ex-fr">${escHtml(ex.fr)}</span>`;
-          if (ex.zh) defHtml += `<span class="dr-ex-zh">— ${escHtml(ex.zh)}</span>`;
+          defHtml += `<div class="dr-example"><div class="dr-ex-fr">${escHtml(ex.fr)}</div>`;
+          if (ex.zh) defHtml += `<div class="dr-ex-zh">${escHtml(ex.zh)}</div>`;
           defHtml += `</div>`;
         });
         defHtml += `</div>`;

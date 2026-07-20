@@ -274,6 +274,7 @@ body {
   line-height: 2;
   color: #344054;
   margin-bottom: 24px;
+  text-align: justify;
 }
 
 .av-source {
@@ -459,7 +460,6 @@ body {
 }
 
 .dr-ex-fr { color: #344054; }
-.dr-ex-zh { color: #98a2b3; margin-left: 2px; }
 
 .dr-example .dr-ex-fr {
   color: #344054;
@@ -467,7 +467,6 @@ body {
 
 .dr-example .dr-ex-zh {
   color: #98a2b3;
-  margin-left: 4px;
 }
 
 /* Common usages */
