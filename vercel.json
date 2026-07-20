@@ -1,5 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/yahoo", "destination": "/api/yahoo.js" }
+    { "source": "/api/yahoo", "destination": "/api/yahoo.js" },
+    { "source": "/api/dict", "destination": "/api/dict.js" }
   ]
 }

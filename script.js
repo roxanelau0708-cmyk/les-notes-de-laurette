@@ -68,12 +68,34 @@ function showArticleView(article, briefIndex) {
 
   document.getElementById('back-to-list').addEventListener('click', showListView);
   window.scrollTo(0, 0);
+
+  // Show dict bar when viewing an article
+  const dictBar = document.querySelector('.dict-bar');
+  const dictResults = document.getElementById('dict-results');
+  const dictBack = document.getElementById('dict-back');
+  dictBar.style.display = 'block';
+  dictResults.classList.remove('active');
+  dictResults.innerHTML = '';
+  dictBack.style.display = 'none';
+  document.getElementById('dict-status').textContent = '';
+
+  window._articleView = { article, briefIndex };
 }
 
 function showListView() {
   const filters = document.querySelector('.filters');
   filters.style.display = 'flex';
   renderList(allArticles);
+
+  // Hide dict bar when returning to list
+  document.querySelector('.dict-bar').style.display = 'none';
+  const dr = document.getElementById('dict-results');
+  dr.classList.remove('active');
+  dr.innerHTML = '';
+  document.getElementById('dict-back').style.display = 'none';
+  document.getElementById('dict-status').textContent = '';
+
+  window._articleView = null;
 }
 
 // ========== LIST RENDER ==========
@@ -354,4 +376,219 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('article-list').innerHTML =
         `<div class="empty-state">${err.message}</div>`;
     });
+
+  initDict();
 });
+
+// ========== DICTIONARY ==========
+
+const DICT_API = '/api/dict?word=';
+
+function initDict() {
+  const form = document.getElementById('dict-form');
+  const input = document.getElementById('dict-input');
+  const backBtn = document.getElementById('dict-back');
+  const resultsEl = document.getElementById('dict-results');
+  const statusEl = document.getElementById('dict-status');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const word = input.value.trim().toLowerCase();
+    if (!word) return;
+    doDictSearch(word);
+  });
+
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeDict();
+    }
+  });
+
+  // Keyboard shortcut: press / to focus search (only when dict-bar is visible)
+  document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && !e.ctrlKey && !e.metaKey && !e.altKey) {
+      const tag = document.activeElement?.tagName;
+      if (tag !== 'INPUT' && tag !== 'TEXTAREA' && tag !== 'SELECT') {
+        const db = document.querySelector('.dict-bar');
+        if (db && db.style.display !== 'none') {
+          e.preventDefault();
+          input.focus();
+        }
+      }
+    }
+  });
+
+  backBtn.addEventListener('click', closeDict);
+
+  function closeDict() {
+    const resultsEl = document.getElementById('dict-results');
+    const statusEl = document.getElementById('dict-status');
+    const backBtn = document.getElementById('dict-back');
+    resultsEl.classList.remove('active');
+    resultsEl.innerHTML = '';
+    backBtn.style.display = 'none';
+    statusEl.textContent = '';
+
+    if (window._articleView) {
+      // Return to article
+      showArticleView(window._articleView.article, window._articleView.briefIndex);
+    } else {
+      document.querySelector('.filters').style.display = 'flex';
+      window.scrollTo(0, 0);
+    }
+  }
+
+  window.doDictSearch = async function(word) {
+    const input = document.getElementById('dict-input');
+    const resultsEl = document.getElementById('dict-results');
+    const backBtn = document.getElementById('dict-back');
+    const statusEl = document.getElementById('dict-status');
+    input.value = word;
+    document.querySelector('.filters').style.display = 'none';
+    backBtn.style.display = 'inline';
+    resultsEl.classList.add('active');
+    resultsEl.innerHTML = '<div class="dr-loading">Recherche en cours…</div>';
+    statusEl.textContent = `Recherche de « ${word} »…`;
+    window.scrollTo(0, 0);
+
+    try {
+      const r = await fetch(DICT_API + encodeURIComponent(word));
+      if (!r.ok) throw new Error('Erreur serveur');
+      const data = await r.json();
+
+      if (data.not_found) {
+        resultsEl.innerHTML = `<div class="dr-not-found"><strong>« ${word} »</strong> introuvable. Essayez un autre mot.</div>`;
+        statusEl.textContent = `Aucun résultat pour « ${word} ».`;
+        return;
+      }
+
+      renderDictResult(data, resultsEl);
+      statusEl.textContent = `Résultat pour « ${word} »`;
+    } catch (err) {
+      resultsEl.innerHTML = `<div class="dr-error">Erreur : ${err.message}</div>`;
+      statusEl.textContent = 'Erreur de recherche.';
+    }
+  };
+}
+
+function renderDictResult(data, el) {
+  const parts = [];
+
+  // Word + phonetic
+  let headerHtml = `<div class="dr-word">${escHtml(data.word)}</div>`;
+  if (data.phonetic) {
+    const audioUrl = `https://www.frdic.com/dicts/fr/${encodeURIComponent(data.word)}`;
+    headerHtml += `<div class="dr-phonetic">[${escHtml(data.phonetic)}] <a class="dr-audio" href="${audioUrl}" target="_blank" rel="noopener">🔊 发音</a></div>`;
+  }
+  headerHtml += `<hr class="dr-divider">`;
+  parts.push(headerHtml);
+
+  // Definitions
+  if (data.definitions && data.definitions.length > 0) {
+    let defHtml = `<div class="dr-section">`;
+    defHtml += `<div class="dr-section-title">法汉词典</div>`;
+    data.definitions.forEach(def => {
+      defHtml += `<div class="dr-def">`;
+      if (def.pos) defHtml += `<div class="dr-pos">${escHtml(def.pos)}</div>`;
+      defHtml += `<div class="dr-meaning">${escHtml(def.meaning)}</div>`;
+      if (def.examples && def.examples.length > 0) {
+        defHtml += `<div class="dr-examples">`;
+        def.examples.forEach(ex => {
+          defHtml += `<div class="dr-example"><span class="dr-ex-fr">${escHtml(ex.fr)}</span>`;
+          if (ex.zh) defHtml += `<span class="dr-ex-zh">— ${escHtml(ex.zh)}</span>`;
+          defHtml += `</div>`;
+        });
+        defHtml += `</div>`;
+      }
+      defHtml += `</div>`;
+    });
+    defHtml += `</div>`;
+    parts.push(defHtml);
+  }
+
+  // Common usages
+  if (data.common_usages && data.common_usages.length > 0) {
+    let cuHtml = `<div class="dr-section">`;
+    cuHtml += `<div class="dr-section-title">常见用法</div>`;
+    data.common_usages.forEach(u => {
+      cuHtml += `<div class="dr-usage">${escHtml(u.fr)}</div>`;
+    });
+    cuHtml += `</div>`;
+    parts.push(cuHtml);
+  }
+
+  // Synonyms & Antonyms
+  if ((data.synonyms && data.synonyms.length > 0) || (data.antonyms && data.antonyms.length > 0)) {
+    let saHtml = `<div class="dr-section">`;
+    if (data.synonyms && data.synonyms.length > 0) {
+      saHtml += `<div class="dr-section-title">近义词</div>`;
+      saHtml += `<div class="dr-wordlist">`;
+      data.synonyms.forEach(s => {
+        saHtml += `<a href="#" class="dict-search-link" data-word="${escAttr(s)}">${escHtml(s)}</a>`;
+      });
+      saHtml += `</div>`;
+    }
+    if (data.antonyms && data.antonyms.length > 0) {
+      saHtml += `<div style="margin-top:10px"><div class="dr-section-title">反义词</div>`;
+      saHtml += `<div class="dr-wordlist">`;
+      data.antonyms.forEach(a => {
+        saHtml += `<a href="#" class="dict-search-link" data-word="${escAttr(a)}">${escHtml(a)}</a>`;
+      });
+      saHtml += `</div></div>`;
+    }
+    saHtml += `</div>`;
+    parts.push(saHtml);
+  }
+
+  // Related words
+  if (data.related_words && data.related_words.length > 0) {
+    let rwHtml = `<div class="dr-section">`;
+    rwHtml += `<div class="dr-section-title">联想词</div>`;
+    rwHtml += `<div class="dr-related">`;
+    data.related_words.forEach(rw => {
+      rwHtml += `<span><a href="#" class="dict-search-link" data-word="${escAttr(rw.word)}">${escHtml(rw.word)}</a>`;
+      if (rw.meaning) rwHtml += `<span class="dr-r-zh">${escHtml(rw.meaning)}</span>`;
+      rwHtml += `</span>`;
+    });
+    rwHtml += `</div></div>`;
+    parts.push(rwHtml);
+  }
+
+  // Conjugation link
+  if (data.has_conjugation) {
+    parts.push(`<div class="dr-section"><div class="dr-section-title">动词变位</div><a class="dr-conj-link" href="${escAttr(data.conjugation_url)}" target="_blank" rel="noopener">查看 ${escHtml(data.word)} 的变位 →</a></div>`);
+  }
+
+  // Example sentences
+  if (data.sentences && data.sentences.length > 0) {
+    let senHtml = `<div class="dr-section">`;
+    senHtml += `<div class="dr-section-title">例句</div>`;
+    data.sentences.forEach(s => {
+      senHtml += `<div class="dr-sentence"><div class="dr-s-fr">${escHtml(s.fr)}</div><div class="dr-s-zh">${escHtml(s.zh)}</div></div>`;
+    });
+    senHtml += `</div>`;
+    parts.push(senHtml);
+  }
+
+  el.innerHTML = parts.join('');
+
+  // Click delegation for dict search links
+  el.querySelectorAll('.dict-search-link').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      doDictSearch(link.dataset.word);
+    });
+  });
+}
+
+function escHtml(s) {
+  if (!s) return '';
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+function escAttr(s) {
+  if (!s) return '';
+  return escHtml(s).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
