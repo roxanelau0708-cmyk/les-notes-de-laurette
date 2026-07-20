@@ -454,9 +454,9 @@ body {
 .dr-example {
   font-size: 0.88rem;
   color: #667085;
-  padding: 4px 0 4px 16px;
+  padding: 6px 0 6px 16px;
   border-left: 2px solid #e4e7ec;
-  margin-bottom: 2px;
+  margin-bottom: 8px;
 }
 
 .dr-ex-fr { color: #344054; }
@@ -473,7 +473,7 @@ body {
 .dr-usage {
   font-size: 0.9rem;
   color: #344054;
-  padding: 3px 0;
+  padding: 6px 0;
 }
 
 .dr-usage .dr-u-zh {
@@ -517,9 +517,10 @@ body {
 
 .dr-sentence {
   font-size: 0.9rem;
-  padding: 6px 0;
+  padding: 8px 0;
   border-bottom: 1px solid #f0f0f0;
 }
+.dr-sentence:last-child { border-bottom: none; }
 .dr-sentence:last-child { border-bottom: none; }
 .dr-s-fr { color: #344054; }
 .dr-s-zh { color: #98a2b3; font-size: 0.85rem; }

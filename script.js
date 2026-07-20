@@ -513,7 +513,9 @@ function renderDictResult(data, el) {
     let cuHtml = `<div class="dr-section">`;
     cuHtml += `<div class="dr-section-title">常见用法</div>`;
     data.common_usages.slice(0, 6).forEach(u => {
-      cuHtml += `<div class="dr-usage">${escHtml(u.fr)}</div>`;
+      cuHtml += `<div class="dr-usage"><div>${escHtml(u.fr)}</div>`;
+      if (u.zh) cuHtml += `<div class="dr-u-zh">${escHtml(u.zh)}</div>`;
+      cuHtml += `</div>`;
     });
     cuHtml += `</div>`;
     parts.push(cuHtml);
@@ -565,7 +567,7 @@ function renderDictResult(data, el) {
   if (data.sentences && data.sentences.length > 0) {
     let senHtml = `<div class="dr-section">`;
     senHtml += `<div class="dr-section-title">例句</div>`;
-    data.sentences.forEach(s => {
+    data.sentences.slice(0, 6).forEach(s => {
       senHtml += `<div class="dr-sentence"><div class="dr-s-fr">${escHtml(s.fr)}</div><div class="dr-s-zh">${escHtml(s.zh)}</div></div>`;
     });
     senHtml += `</div>`;
