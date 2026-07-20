@@ -145,9 +145,21 @@ function parse(html, word) {
     const mainSection = commonIdx !== -1 ? fcSection.slice(0, commonIdx) : fcSection;
     const commonSection = commonIdx !== -1 ? fcSection.slice(commonIdx) : '';
 
-    // Parse common usages
+    // Parse common usages — split by <br> into individual phrases
     if (commonSection) {
-      data.common_usages = extractEgWithTrans(commonSection);
+      data.common_usages = [];
+      const rawLines = commonSection.split(/<br\s*\/?>/i);
+      for (const line of rawLines) {
+        const cleaned = unent(line);
+        if (!cleaned || cleaned === '常见用法') continue;
+        // Try to split FR and ZH at first CJK character
+        const m = cleaned.match(/^(.+?)([一-鿿㐀-䶿豈-﫿　-〿＀-￯].*)$/);
+        if (m) {
+          data.common_usages.push({ fr: m[1].trim(), zh: m[2].trim() });
+        } else {
+          data.common_usages.push({ fr: cleaned, zh: '' });
+        }
+      }
     }
 
     // Split main section by cara (part of speech)
