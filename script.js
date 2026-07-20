@@ -490,10 +490,12 @@ function renderDictResult(data, el) {
     data.definitions.forEach(def => {
       defHtml += `<div class="dr-def">`;
       if (def.pos) defHtml += `<div class="dr-pos">${escHtml(def.pos)}</div>`;
-      defHtml += `<div class="dr-meaning">${escHtml(def.meaning)}</div>`;
+      // Split numbered meanings into separate lines
+      const lines = def.meaning.split(/(?=\d+\.)/).filter(Boolean);
+      defHtml += `<div class="dr-meaning">${lines.map(l => escHtml(l).trim()).join('<br>')}</div>`;
       if (def.examples && def.examples.length > 0) {
         defHtml += `<div class="dr-examples">`;
-        def.examples.forEach(ex => {
+        def.examples.slice(0, 3).forEach(ex => {
           defHtml += `<div class="dr-example"><span class="dr-ex-fr">${escHtml(ex.fr)}</span>`;
           if (ex.zh) defHtml += `<span class="dr-ex-zh">— ${escHtml(ex.zh)}</span>`;
           defHtml += `</div>`;
@@ -506,11 +508,11 @@ function renderDictResult(data, el) {
     parts.push(defHtml);
   }
 
-  // Common usages
+  // Common usages (max 3)
   if (data.common_usages && data.common_usages.length > 0) {
     let cuHtml = `<div class="dr-section">`;
     cuHtml += `<div class="dr-section-title">常见用法</div>`;
-    data.common_usages.forEach(u => {
+    data.common_usages.slice(0, 3).forEach(u => {
       cuHtml += `<div class="dr-usage">${escHtml(u.fr)}</div>`;
     });
     cuHtml += `</div>`;
@@ -523,7 +525,7 @@ function renderDictResult(data, el) {
     if (data.synonyms && data.synonyms.length > 0) {
       saHtml += `<div class="dr-section-title">近义词</div>`;
       saHtml += `<div class="dr-wordlist">`;
-      data.synonyms.forEach(s => {
+      data.synonyms.slice(0, 2).forEach(s => {
         saHtml += `<a href="#" class="dict-search-link" data-word="${escAttr(s)}">${escHtml(s)}</a>`;
       });
       saHtml += `</div>`;
@@ -531,7 +533,7 @@ function renderDictResult(data, el) {
     if (data.antonyms && data.antonyms.length > 0) {
       saHtml += `<div style="margin-top:10px"><div class="dr-section-title">反义词</div>`;
       saHtml += `<div class="dr-wordlist">`;
-      data.antonyms.forEach(a => {
+      data.antonyms.slice(0, 2).forEach(a => {
         saHtml += `<a href="#" class="dict-search-link" data-word="${escAttr(a)}">${escHtml(a)}</a>`;
       });
       saHtml += `</div></div>`;
