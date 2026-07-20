@@ -508,11 +508,11 @@ function renderDictResult(data, el) {
     parts.push(defHtml);
   }
 
-  // Common usages (max 3)
+  // Common usages (max 6)
   if (data.common_usages && data.common_usages.length > 0) {
     let cuHtml = `<div class="dr-section">`;
     cuHtml += `<div class="dr-section-title">常见用法</div>`;
-    data.common_usages.slice(0, 3).forEach(u => {
+    data.common_usages.slice(0, 6).forEach(u => {
       cuHtml += `<div class="dr-usage">${escHtml(u.fr)}</div>`;
     });
     cuHtml += `</div>`;
