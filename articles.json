@@ -1,5 +1,107 @@
 [
   {
+    "date": "2026-07-21",
+    "tags": [
+      "Société / Environnement",
+      "International / Europe",
+      "International / Politique",
+      "Technologie / Chine",
+      "Économie / Chine"
+    ],
+    "regions": [
+      "francophonie",
+      "europe",
+      "international",
+      "chine"
+    ],
+    "summary_cn": "枫丹白露10%焚毁 | 法德防务历史突破 | 美伊冲突升级 | 世界AI大会上海开幕 | 中国高技术制造业增长13.3%",
+    "briefs": [
+      {
+        "tag": "Société / Environnement",
+        "title_cn": "枫丹白露森林大火",
+        "title": "Incendie à Fontainebleau : près de 10 % de la forêt classée à l'UNESCO réduite en cendres",
+        "body": "Un violent incendie a ravagé environ 2 000 hectares de la forêt de Fontainebleau, soit près de 10 % de cette réserve de biosphère classée à l'UNESCO. Le feu, qui s'est déclaré le 12 juillet, serait d'origine humaine : deux ouvriers du bâtiment ont été mis en examen pour incendie involontaire, et deux jeunes de 18 ans ont été placés en détention provisoire pour incendie volontaire. Le président Emmanuel Macron, qui s'est rendu sur place le 16 juillet, a décrété une politique de « tolérance zéro » envers les pyromanes et annoncé un guichet de dons via la Fondation du patrimoine.",
+        "source": "France Info / Le Monde",
+        "pub_date": "juillet 2026"
+      },
+      {
+        "tag": "International / Europe",
+        "title_cn": "法德加强防务合作",
+        "title": "Macron et Merz scellent un accord historique sur la dissuasion nucléaire",
+        "body": "Le chancelier allemand Friedrich Merz et le président Emmanuel Macron se sont rencontrés les 17 et 18 juillet en Rhénanie-du-Nord-Westphalie pour renforcer la coopération de défense européenne. Pour la première fois, l'Allemagne participera à un exercice nucléaire organisé par la France, marquant une avancée historique dans la dissuasion commune. Les deux dirigeants ont également annoncé un exercice militaire de la « coalition des volontaires » pour l'Ukraine à l'automne. En revanche, le programme d'avion de combat SCAF reste bloqué sur le volet avion, bien que la coopération se poursuive sur les technologies clés.",
+        "source": "Xinhua / France Info",
+        "pub_date": "18 juillet 2026"
+      },
+      {
+        "tag": "International / Politique",
+        "title_cn": "美伊冲突升级",
+        "title": "Frappe américaine sur une centrale nucléaire iranienne : Téhéran menace le détroit d'Ormuz",
+        "body": "Les tensions entre les États-Unis et l'Iran ont atteint un nouveau sommet après une frappe américaine sur le site de la centrale nucléaire iranienne de Darkhovin, en construction dans le sud-ouest du pays. Les Gardiens de la Révolution ont annoncé avoir stoppé deux navires « en infraction » tentant de traverser le détroit d'Ormuz, affirmant exercer un contrôle total sur cette voie stratégique. Le guide suprême iranien Mojtaba Khamenei a déclaré que cette violation américaine du protocole d'accord de paix récemment signé prouvait que la signature du président Trump était « sans valeur ».",
+        "source": "Xinhua / TASS",
+        "pub_date": "19 juillet 2026"
+      },
+      {
+        "tag": "Technologie / Chine",
+        "title_cn": "世界AI大会2026在上海开幕",
+        "title": "La Conférence mondiale sur l'IA s'ouvre à Shanghai avec des prévisions record pour la robotique",
+        "body": "La Conférence mondiale sur l'intelligence artificielle 2026 a ouvert ses portes à Shanghai, réunissant plus de 100 entreprises et 200 produits liés à l'IA. Parmi les annonces marquantes, Morgan Stanley a relevé ses prévisions pour le marché des robots humanoïdes à 50 000 unités en 2026, contre 14 000 auparavant, anticipant un marché de 20 milliards de dollars cette année et de 150 milliards d'ici 2030. UBS a rapporté que les commandes de composants IA sont réservées jusqu'à fin 2027, avec des bénéfices en hausse de 80 à 90 % cette année.",
+        "source": "People's Daily / Morgan Stanley",
+        "pub_date": "19 juillet 2026"
+      },
+      {
+        "tag": "Économie / Chine",
+        "title_cn": "中国高技术制造业增长13.3%",
+        "title": "Le secteur high-tech chinois bondit de 13,3 %, porté par l'IA et les semi-conducteurs",
+        "body": "La production de l'industrie high-tech chinoise a bondi de 13,3 % au premier semestre 2026, bien au-dessus de la croissance industrielle globale de 5,4 %, selon les données officielles publiées le 19 juillet. Les secteurs clés incluent la production de robots industriels (+28 %), d'équipements d'impression 3D (+48,5 %) et de circuits intégrés (279,8 milliards d'unités, soit plus de 1,5 milliard de puces par jour). Les bénéfices du secteur high-tech ont grimpé de 44,7 % sur les cinq premiers mois, confirmant la transformation structurelle de l'économie chinoise.",
+        "source": "People's Daily / CCTV",
+        "pub_date": "19 juillet 2026"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "le pyromane",
+        "definition": "Personne qui provoque volontairement des incendies."
+      },
+      {
+        "word": "la dissuasion",
+        "definition": "Stratégie visant à dissuader un ennemi d'attaquer par la menace de représailles."
+      },
+      {
+        "word": "le détroit",
+        "definition": "Passage maritime étroit entre deux terres, reliant deux mers."
+      },
+      {
+        "word": "la frappe",
+        "definition": "Action militaire consistant à lancer une attaque ciblée."
+      },
+      {
+        "word": "le robot humanoïde",
+        "definition": "Robot dont la conception imite le corps humain."
+      },
+      {
+        "word": "la prévision",
+        "definition": "Estimation de l'évolution future d'une situation ou d'un marché."
+      },
+      {
+        "word": "le composant",
+        "definition": "Élément entrant dans la fabrication d'un appareil électronique."
+      },
+      {
+        "word": "bondir",
+        "definition": "Augmenter fortement et rapidement."
+      },
+      {
+        "word": "le circuit intégré",
+        "definition": "Composant électronique miniaturisé regroupant de nombreux transistors sur une puce."
+      },
+      {
+        "word": "la transformation structurelle",
+        "definition": "Changement profond de la structure économique d'un pays."
+      }
+    ],
+    "word_count": 467
+  },
+  {
     "date": "2026-07-19",
     "tags": [
       "Société / Environnement",

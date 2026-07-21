@@ -3,7 +3,7 @@ let allArticles = [];
 let activeRegion = null;
 
 const REGION_EMOJI = {
-  'chine': '🇨🇳', 'etats-unis': '🇺🇸', 'europe': '🇪🇺', 'international': '🌍'
+  'chine': '🇨🇳', 'etats-unis': '🇺🇸', 'europe': '🇪🇺', 'international': '🌍', 'francophonie': '🇫🇷'
 };
 
 function regionFromTag(tag) {
@@ -11,11 +11,13 @@ function regionFromTag(tag) {
   if (tag.includes('États-Unis')) return 'etats-unis';
   if (tag.includes('Europe')) return 'europe';
   if (tag.includes('International')) return 'international';
-  return null;
+  if (tag.includes('Québec') || tag.includes('Suisse') || tag.includes('Belgique') || tag.includes('Afrique') || tag.includes('Francophonie')) return 'francophonie';
+  // Tags without explicit region → Francophonie
+  return 'francophonie';
 }
 
 function regionLabel(r) {
-  return { 'chine': 'Chine', 'etats-unis': 'États-Unis', 'europe': 'Europe', 'international': 'International' }[r] || r;
+  return { 'chine': 'Chine', 'etats-unis': 'États-Unis', 'europe': 'Europe', 'international': 'International', 'francophonie': 'Francophonie' }[r] || r;
 }
 
 // === Flatten briefs ===
