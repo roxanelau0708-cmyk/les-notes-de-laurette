@@ -59,9 +59,11 @@ function showArticleView(article, briefIndex) {
     <div class="article-view">
       <div class="av-back" id="back-to-list">← Retour</div>
       <div class="av-header">
-        <div class="av-date">${dateDisplay} · ${REGION_EMOJI[region]} ${brief.tag}</div>
+        <div class="av-date">${dateDisplay} · ${REGION_EMOJI[region]} ${brief.tag}
+        ${brief.auto ? '<span class="auto-badge auto">Auto</span>' : '<span class="auto-badge editorial">Rédaction</span>'}
       </div>
-      <div class="av-title-cn">${brief.title_cn}</div>
+      </div>
+      ${brief.title_cn ? `<div class="av-title-cn">${brief.title_cn}</div>` : ''}
       <div class="av-title-fr">${brief.title}</div>
       <div class="av-body">${brief.body}</div>
       <div class="av-source"><strong>Source :</strong> ${brief.source} · ${brief.pub_date}</div>
@@ -71,11 +73,9 @@ function showArticleView(article, briefIndex) {
   document.getElementById('back-to-list').addEventListener('click', showListView);
   window.scrollTo(0, 0);
 
-  // Show dict bar when viewing an article
-  const dictBar = document.querySelector('.dict-bar');
+  // Reset dict UI when entering article view
   const dictResults = document.getElementById('dict-results');
   const dictBack = document.getElementById('dict-back');
-  dictBar.style.display = 'block';
   dictResults.classList.remove('active');
   dictResults.innerHTML = '';
   dictBack.style.display = 'none';
@@ -89,8 +89,7 @@ function showListView() {
   filters.style.display = 'flex';
   renderList(allArticles);
 
-  // Hide dict bar when returning to list
-  document.querySelector('.dict-bar').style.display = 'none';
+  // Reset dict UI when returning to list
   const dr = document.getElementById('dict-results');
   dr.classList.remove('active');
   dr.innerHTML = '';
@@ -122,12 +121,13 @@ function renderTousView(articles, container) {
 
   container.innerHTML = items.map(item => {
     const dateDisplay = item.date.replace(/-/g, '/');
+    const titleCn = item.title_cn || '';
     return `
       <div class="tous-row" data-date="${item.date}" data-brief="${item.briefIndex}">
         <span class="tous-date">${dateDisplay}</span>
         <span class="tous-emoji">${REGION_EMOJI[item.region]}</span>
         <span class="tous-title-fr">${item.title}</span>
-        <span class="tous-title-cn">${item.title_cn}</span>
+        ${titleCn ? `<span class="tous-title-cn">${titleCn}</span>` : ''}
       </div>
     `;
   }).join('');
@@ -158,6 +158,7 @@ function renderRegionalView(articles, container) {
         ${byDate[d].map(item => `
           <div class="tous-row" data-date="${item.date}" data-brief="${item.briefIndex}">
             <span class="tous-title-fr" style="padding-left:16px">${item.title}</span>
+            ${item.sourceArticle?.briefs?.[item.briefIndex]?.auto ? '<span class="auto-badge auto">Auto</span>' : ''}
           </div>
         `).join('')}
       </div>
@@ -376,7 +377,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(err => {
       document.getElementById('article-list').innerHTML =
-        `<div class="empty-state">${err.message}</div>`;
+        `<div class="empty-state">⚠️ ${err.message}</div>`;
     });
 
   initDict();

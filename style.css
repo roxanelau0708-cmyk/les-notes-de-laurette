@@ -284,6 +284,28 @@ body {
   border-top: 1px solid #e4e7ec;
 }
 
+/* === Auto Badge === */
+.auto-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 10px;
+  margin-left: 8px;
+  vertical-align: middle;
+  letter-spacing: 0.03em;
+}
+.auto-badge.auto {
+  background: #eef2ff;
+  color: #4338ca;
+  border: 1px solid #c7d2fe;
+}
+.auto-badge.editorial {
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}
+
 /* === Empty State === */
 .empty-state {
   text-align: center;
@@ -297,7 +319,7 @@ body {
   background: #fff;
   border-bottom: 1px solid #e4e7ec;
   padding: 8px 16px;
-  display: none;
+  display: block;
 }
 
 .dict-form {
