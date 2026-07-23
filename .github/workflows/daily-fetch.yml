@@ -2,8 +2,8 @@ name: Daily RSS Fetch
 
 on:
   schedule:
-    # 10:00 Beijing time (UTC+8) = 02:00 UTC
-    - cron: '0 2 * * *'
+    # 7:00 Beijing time (UTC+8) = 23:00 UTC
+    - cron: '0 23 * * *'
   workflow_dispatch:
 
 jobs:
