@@ -12,7 +12,7 @@ import sys
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime, date, timezone, timedelta
+from datetime import datetime, date, timezone
 from html import unescape
 
 # ── 信源配置 ──
@@ -327,16 +327,8 @@ def main():
         if not (a.get("auto") and a["date"] == today_str)
     ]
 
-    # 保留手动文章（auto=false 或无 auto 字段）+ 最近 14 天的 auto 文章
-    cutoff = (today - timedelta(days=14)).isoformat()
-    kept = []
-    for a in existing:
-        if not a.get("auto"):
-            kept.append(a)
-        elif a["date"] >= cutoff:
-            kept.append(a)
-        else:
-            print(f"  🗑 Supprimé: {a['date']} (auto, plus de 14 jours)")
+    # 保留全部文章，不做自动删除（用户看完后手动清理）
+    kept = list(existing)
 
     kept.insert(0, new_article)
 

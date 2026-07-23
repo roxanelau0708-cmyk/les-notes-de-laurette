@@ -20,6 +20,14 @@ function regionLabel(r) {
   return { 'chine': 'Chine', 'etats-unis': 'États-Unis', 'europe': 'Europe', 'international': 'International', 'francophonie': 'Francophonie' }[r] || r;
 }
 
+function isRead(date, briefIndex) {
+  return localStorage.getItem(`read_${date}_${briefIndex}`) === 'true';
+}
+
+function isHideRead() {
+  return document.getElementById('hide-read')?.checked === true;
+}
+
 // === Flatten briefs ===
 function flattenBriefs(articles) {
   const items = [];
@@ -54,6 +62,10 @@ function showArticleView(article, briefIndex) {
 
   const dateDisplay = article.date.replace(/-/g, '/');
   const region = regionFromTag(brief.tag);
+  const noteKey = `note_${article.date}_${briefIndex}`;
+  const readKey = `read_${article.date}_${briefIndex}`;
+  const savedNote = localStorage.getItem(noteKey) || '';
+  const isRead = localStorage.getItem(readKey) === 'true';
 
   container.innerHTML = `
     <div class="article-view">
@@ -61,17 +73,61 @@ function showArticleView(article, briefIndex) {
       <div class="av-header">
         <div class="av-date">${dateDisplay} · ${REGION_EMOJI[region]} ${brief.tag}
         ${brief.auto ? '<span class="auto-badge auto">Auto</span>' : '<span class="auto-badge editorial">Rédaction</span>'}
+        ${isRead ? '<span class="read-badge">✓ Lu</span>' : ''}
       </div>
       </div>
       ${brief.title_cn ? `<div class="av-title-cn">${brief.title_cn}</div>` : ''}
       <div class="av-title-fr">${brief.title}</div>
       <div class="av-body">${brief.body}</div>
       <div class="av-source"><strong>Source :</strong> ${brief.source} · ${brief.pub_date}</div>
+      <div class="av-notes">
+        <div class="av-notes-bar">
+          <button class="av-read-btn" id="mark-read-btn">${isRead ? '✓ Lu' : '☐ Marquer comme lu'}</button>
+          <span class="av-notes-label">📝 Notes</span>
+        </div>
+        <textarea class="av-notes-input" id="notes-input" rows="4" placeholder="Prendre une note…">${savedNote}</textarea>
+        <div class="av-notes-footer">
+          <span class="av-notes-status" id="notes-status"></span>
+          <button class="av-notes-del" id="notes-del">Supprimer la note</button>
+        </div>
+      </div>
     </div>
   `;
 
   document.getElementById('back-to-list').addEventListener('click', showListView);
   window.scrollTo(0, 0);
+
+  // Mark as read
+  document.getElementById('mark-read-btn').addEventListener('click', () => {
+    const newVal = localStorage.getItem(readKey) !== 'true';
+    localStorage.setItem(readKey, newVal);
+    // Re-render to update UI
+    showArticleView(article, briefIndex);
+  });
+
+  // Auto-save notes
+  const notesInput = document.getElementById('notes-input');
+  let saveTimer;
+  notesInput.addEventListener('input', () => {
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(() => {
+      localStorage.setItem(noteKey, notesInput.value);
+      document.getElementById('notes-status').textContent = '✓ Sauvegardé';
+      setTimeout(() => {
+        const st = document.getElementById('notes-status');
+        if (st) st.textContent = '';
+      }, 1500);
+    }, 500);
+  });
+
+  // Delete note
+  document.getElementById('notes-del').addEventListener('click', () => {
+    if (notesInput.value.trim()) {
+      localStorage.removeItem(noteKey);
+      notesInput.value = '';
+      document.getElementById('notes-status').textContent = '✓ Note supprimée';
+    }
+  });
 
   // Reset dict UI when entering article view
   const dictResults = document.getElementById('dict-results');
@@ -117,17 +173,26 @@ function renderList(articles) {
 }
 
 function renderTousView(articles, container) {
-  const items = flattenBriefs(articles);
+  let items = flattenBriefs(articles);
+  if (isHideRead()) {
+    items = items.filter(item => !isRead(item.date, item.briefIndex));
+  }
+  if (items.length === 0) {
+    container.innerHTML = '<div class="empty-state">Tout est lu ! ✅</div>';
+    return;
+  }
 
   container.innerHTML = items.map(item => {
     const dateDisplay = item.date.replace(/-/g, '/');
     const titleCn = item.title_cn || '';
+    const read = isRead(item.date, item.briefIndex);
     return `
-      <div class="tous-row" data-date="${item.date}" data-brief="${item.briefIndex}">
+      <div class="tous-row ${read ? 'read' : ''}" data-date="${item.date}" data-brief="${item.briefIndex}">
         <span class="tous-date">${dateDisplay}</span>
         <span class="tous-emoji">${REGION_EMOJI[item.region]}</span>
         <span class="tous-title-fr">${item.title}</span>
         ${titleCn ? `<span class="tous-title-cn">${titleCn}</span>` : ''}
+        ${read ? '<span class="read-badge">✓</span>' : ''}
       </div>
     `;
   }).join('');
@@ -141,8 +206,15 @@ function renderTousView(articles, container) {
 }
 
 function renderRegionalView(articles, container) {
-  const items = flattenBriefs(articles).filter(i => i.region === activeRegion);
+  let items = flattenBriefs(articles).filter(i => i.region === activeRegion);
+  if (isHideRead()) {
+    items = items.filter(item => !isRead(item.date, item.briefIndex));
+  }
 
+  if (items.length === 0) {
+    container.innerHTML = '<div class="empty-state">Tout est lu ! ✅</div>';
+    return;
+  }
   const byDate = {};
   items.forEach(item => {
     if (!byDate[item.date]) byDate[item.date] = [];
@@ -155,12 +227,15 @@ function renderRegionalView(articles, container) {
     return `
       <div class="region-date-group">
         <div class="region-date-header">${dateDisplay}</div>
-        ${byDate[d].map(item => `
-          <div class="tous-row" data-date="${item.date}" data-brief="${item.briefIndex}">
+        ${byDate[d].map(item => {
+          const read = isRead(item.date, item.briefIndex);
+          return `
+          <div class="tous-row ${read ? 'read' : ''}" data-date="${item.date}" data-brief="${item.briefIndex}">
             <span class="tous-title-fr" style="padding-left:16px">${item.title}</span>
             ${item.sourceArticle?.briefs?.[item.briefIndex]?.auto ? '<span class="auto-badge auto">Auto</span>' : ''}
-          </div>
-        `).join('')}
+            ${read ? '<span class="read-badge">✓</span>' : ''}
+          </div>`;
+        }).join('')}
       </div>
     `;
   }).join('');
@@ -373,6 +448,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => {
       allArticles = data;
       setupFilters();
+      document.getElementById('hide-read').addEventListener('change', applyFilters);
       applyFilters();
     })
     .catch(err => {

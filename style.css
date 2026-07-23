@@ -568,6 +568,128 @@ body {
   color: #98a2b3;
 }
 
+/* === Read Badge === */
+.read-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 10px;
+  margin-left: 6px;
+  vertical-align: middle;
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}
+
+.tous-row.read {
+  opacity: 0.5;
+}
+.tous-row.read .tous-title-fr {
+  text-decoration: line-through;
+  color: #98a2b3;
+}
+
+.filter-row {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 4px 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.filter-row label {
+  font-size: 0.82rem;
+  color: #667085;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  user-select: none;
+}
+.filter-row input[type="checkbox"] {
+  accent-color: #1e3a5f;
+}
+
+/* === Notes Section === */
+.av-notes {
+  margin-top: 28px;
+  padding-top: 16px;
+  border-top: 1px solid #e4e7ec;
+}
+.av-notes-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.av-read-btn {
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  padding: 5px 14px;
+  border-radius: 16px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  color: #344054;
+  font-weight: 500;
+  transition: all 0.15s;
+}
+.av-read-btn:hover {
+  border-color: #15803d;
+  color: #15803d;
+}
+.av-notes-label {
+  font-size: 0.82rem;
+  color: #667085;
+  font-weight: 500;
+}
+.av-notes-input {
+  width: 100%;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  line-height: 1.6;
+  resize: vertical;
+  outline: none;
+  transition: border-color 0.15s;
+  color: #1a1a2e;
+  background: #fafbfc;
+}
+.av-notes-input:focus {
+  border-color: #1e3a5f;
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(30, 58, 95, 0.08);
+}
+.av-notes-input::placeholder {
+  color: #98a2b3;
+}
+.av-notes-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+  min-height: 1.5em;
+}
+.av-notes-status {
+  font-size: 0.78rem;
+  color: #15803d;
+}
+.av-notes-del {
+  background: none;
+  border: none;
+  font-size: 0.78rem;
+  color: #dc2626;
+  cursor: pointer;
+  padding: 2px 8px;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+.av-notes-del:hover {
+  background: #fef2f2;
+}
+
 /* Conjugation link */
 .dr-conj-link {
   display: inline-block;
