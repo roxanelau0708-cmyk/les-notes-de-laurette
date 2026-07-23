@@ -18,75 +18,30 @@ from html import unescape
 # ── 信源配置 ──
 # 全部为法语信源，覆盖法语区社会/经济/科技 + 法语视角的美国科技
 SOURCES = [
-    # ── 法语区综合 ──
-    {
-        "url": "https://www.lemonde.fr/rss/une.xml",
-        "region": "francophonie",
-        "tag": "Société",
-        "label": "Le Monde",
-    },
-    {
-        "url": "https://www.lemonde.fr/economie/rss_full.xml",
-        "region": "francophonie",
-        "tag": "Économie",
-        "label": "Le Monde",
-    },
-    {
-        "url": "https://www.lefigaro.fr/rss/figaro_une.xml",
-        "region": "francophonie",
-        "tag": "Société",
-        "label": "Le Figaro",
-    },
-    {
-        "url": "https://www.france24.com/fr/rss",
-        "region": "international",
-        "tag": "International",
-        "label": "France 24",
-    },
-    {
-        "url": "https://www.rfi.fr/fr/rss",
-        "region": "international",
-        "tag": "International",
-        "label": "RFI",
-    },
-    # ── 经济 ──
-    {
-        "url": "https://www.lesechos.fr/rss.xml",
-        "region": "francophonie",
-        "tag": "Économie",
-        "label": "Les Echos",
-    },
-    {
-        "url": "https://www.bfmtv.com/rss/economie/",
-        "region": "francophonie",
-        "tag": "Économie",
-        "label": "BFM Eco",
-    },
-    # ── 科技（法语视角报道全球科技，含美国科技）──
-    {
-        "url": "https://www.01net.com/rss/actualites/",
-        "region": "etats-unis",
-        "tag": "Technologie",
-        "label": "01net",
-    },
-    {
-        "url": "https://www.usine-digitale.fr/rss",
-        "region": "etats-unis",
-        "tag": "Technologie",
-        "label": "Usine Digitale",
-    },
-    {
-        "url": "https://www.lesnumeriques.com/rss/news.xml",
-        "region": "etats-unis",
-        "tag": "Technologie",
-        "label": "Les Numériques",
-    },
-    {
-        "url": "https://www.clubic.com/feed.rss",
-        "region": "etats-unis",
-        "tag": "Technologie",
-        "label": "Clubic",
-    },
+    # ── 法语区 · 法国综合 ──
+    {"url": "https://www.lemonde.fr/rss/une.xml",             "region": "francophonie", "tag": "Société",      "label": "Le Monde"},
+    {"url": "https://www.lefigaro.fr/rss/figaro_une.xml",    "region": "francophonie", "tag": "Société",      "label": "Le Figaro"},
+    {"url": "https://www.lepoint.fr/rss.xml",                 "region": "francophonie", "tag": "Société",      "label": "Le Point"},
+    # ── 法语区 · 魁北克/瑞士/比利时 ──
+    {"url": "https://www.ledevoir.com/rss/manuel.xml",       "region": "francophonie", "tag": "Société",      "label": "Le Devoir"},
+    {"url": "https://ici.radio-canada.ca/rss/",               "region": "francophonie", "tag": "Société",      "label": "Radio-Canada"},
+    {"url": "https://www.letemps.ch/rss",                    "region": "francophonie", "tag": "Société",      "label": "Le Temps"},
+    # ── 国际 ──
+    {"url": "https://www.france24.com/fr/rss",                "region": "international","tag": "International","label": "France 24"},
+    {"url": "https://www.rfi.fr/fr/rss",                     "region": "international","tag": "International","label": "RFI"},
+    # ── 经济 / 美国金融市场（法语视角）──
+    {"url": "https://www.lesechos.fr/rss.xml",                "region": "francophonie", "tag": "Économie",     "label": "Les Echos"},
+    {"url": "https://www.bfmtv.com/rss/economie/",           "region": "francophonie", "tag": "Économie",     "label": "BFM Eco"},
+    {"url": "https://www.latribune.fr/rss/toutes-les-actualites.rss", "region": "francophonie", "tag": "Économie", "label": "La Tribune"},
+    {"url": "https://finance.lesechos.fr/rss",               "region": "etats-unis",   "tag": "Économie",     "label": "Les Echos Finance"},
+    # ── 科技（法语视角，含美国科技/AI/金融市场科技）──
+    {"url": "https://www.01net.com/rss/actualites/",         "region": "etats-unis",   "tag": "Technologie",  "label": "01net"},
+    {"url": "https://www.usine-digitale.fr/rss",              "region": "etats-unis",   "tag": "Technologie",  "label": "Usine Digitale"},
+    {"url": "https://www.lesnumeriques.com/rss/news.xml",    "region": "etats-unis",   "tag": "Technologie",  "label": "Les Numériques"},
+    {"url": "https://www.clubic.com/feed.rss",               "region": "etats-unis",   "tag": "Technologie",  "label": "Clubic"},
+    {"url": "https://www.lemonde.fr/technologies/rss_full.xml","region": "etats-unis", "tag": "Technologie",  "label": "Le Monde Tech"},
+    # ── 中国科技（法语视角）──
+    {"url": "https://www.lesechos.fr/rss-theme/2210-chine",  "region": "chine",        "tag": "Économie",     "label": "Les Echos Chine"},
 ]
 
 # ── 路径 ──
