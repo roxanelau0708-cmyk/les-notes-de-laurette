@@ -18,6 +18,7 @@ from html import unescape
 # ── 信源配置 ──
 # 全部为法语信源，覆盖法语区社会/经济/科技 + 法语视角的美国科技
 SOURCES = [
+    # ── 法语区综合 ──
     {
         "url": "https://www.lemonde.fr/rss/une.xml",
         "region": "francophonie",
@@ -25,10 +26,10 @@ SOURCES = [
         "label": "Le Monde",
     },
     {
-        "url": "https://www.lesechos.fr/rss.xml",
+        "url": "https://www.lemonde.fr/economie/rss_full.xml",
         "region": "francophonie",
         "tag": "Économie",
-        "label": "Les Echos",
+        "label": "Le Monde",
     },
     {
         "url": "https://www.lefigaro.fr/rss/figaro_une.xml",
@@ -48,9 +49,23 @@ SOURCES = [
         "tag": "International",
         "label": "RFI",
     },
+    # ── 经济 ──
+    {
+        "url": "https://www.lesechos.fr/rss.xml",
+        "region": "francophonie",
+        "tag": "Économie",
+        "label": "Les Echos",
+    },
+    {
+        "url": "https://www.bfmtv.com/rss/economie/",
+        "region": "francophonie",
+        "tag": "Économie",
+        "label": "BFM Eco",
+    },
+    # ── 科技（法语视角报道全球科技，含美国科技）──
     {
         "url": "https://www.01net.com/rss/actualites/",
-        "region": "etats-unis",         # 01net 用法语视角报道美国科技
+        "region": "etats-unis",
         "tag": "Technologie",
         "label": "01net",
     },
@@ -67,10 +82,10 @@ SOURCES = [
         "label": "Les Numériques",
     },
     {
-        "url": "https://www.bfmtv.com/rss/economie/",
-        "region": "francophonie",
-        "tag": "Économie",
-        "label": "BFM Eco",
+        "url": "https://www.clubic.com/feed.rss",
+        "region": "etats-unis",
+        "tag": "Technologie",
+        "label": "Clubic",
     },
 ]
 
@@ -81,8 +96,10 @@ ARTICLES_PATH = os.path.join(SITE_DIR, "articles.json")
 
 # ── RSS 抓取 ──
 
-def fetch_url(url, timeout=15):
-    """带超时和 User-Agent 的 HTTP GET"""
+def fetch_url(url, timeout=20):
+    """带超时、User-Agent、gzip 和 SSL 降级的 HTTP GET"""
+    import ssl
+
     req = urllib.request.Request(
         url,
         headers={
@@ -92,14 +109,24 @@ def fetch_url(url, timeout=15):
                 "Chrome/125.0.0.0 Safari/537.36"
             ),
             "Accept": "application/rss+xml, application/xml, text/xml, */*",
+            "Accept-Encoding": "gzip, deflate",
         }
     )
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
-            return resp.read()
-    except Exception as e:
-        print(f"  ⚠ Échec: {url} — {e}")
-        return None
+    for ctx in (ssl.create_default_context(), ssl._create_unverified_context()):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout, context=ctx) as resp:
+                if resp.status >= 400:
+                    print(f"    HTTP {resp.status}")
+                    continue
+                return resp.read()
+        except Exception as e:
+            en = type(e).__name__
+            if "certificate" in en.lower() or "ssl" in en.lower():
+                continue  # SSL 错误 → 降级重试
+            print(f"    ⚠ {en}: {e}")
+            return None
+    print(f"    ⚠ SSL échoué (même après fallback)")
+    return None
 
 
 def parse_date_str(date_str):
@@ -122,7 +149,7 @@ def parse_date_str(date_str):
 
 
 def parse_rss(xml_data):
-    """解析 RSS 2.0 / Atom 格式，返回 item 列表"""
+    """解析 RSS 2.0 / Atom 格式，返回 item 列表（含分类标签）"""
     items = []
     try:
         root = ET.fromstring(xml_data)
@@ -136,12 +163,14 @@ def parse_rss(xml_data):
         desc = _clean_html(unescape(item.findtext("description", "") or ""))
         pub = item.findtext("pubDate", "") or ""
         link = item.findtext("link", "") or ""
+        cats = [c.text.strip() for c in item.iter("category") if c.text]
         if title:
             items.append({
                 "title": title.strip(),
-                "desc": desc[:500].strip(),
+                "desc": desc[:600].strip(),
                 "pub_date": pub.strip(),
                 "link": link.strip(),
+                "categories": cats,
             })
 
     # ── Atom ──
@@ -150,32 +179,34 @@ def parse_rss(xml_data):
         for entry in root.iter(f"{ns}entry"):
             title_el = entry.find(f"{ns}title")
             title = _clean_html(unescape(title_el.text or "")) if title_el is not None else ""
-
             desc = ""
             for tag in (f"{ns}content", f"{ns}summary"):
                 el = entry.find(tag)
                 if el is not None and el.text:
                     desc = _clean_html(unescape(el.text))
                     break
-
             pub = ""
             for tag in (f"{ns}published", f"{ns}updated"):
                 el = entry.find(tag)
                 if el is not None and el.text:
                     pub = el.text
                     break
-
             link = ""
             link_el = entry.find(f"{ns}link")
             if link_el is not None:
                 link = link_el.get("href", "")
-
+            cats = []
+            for cat in entry.iter(f"{ns}category"):
+                term = cat.get("term", "") or cat.get("label", "")
+                if term:
+                    cats.append(term.strip())
             if title:
                 items.append({
                     "title": title.strip(),
-                    "desc": desc[:500].strip(),
+                    "desc": desc[:600].strip(),
                     "pub_date": pub.strip(),
                     "link": link.strip(),
+                    "categories": cats,
                 })
 
     return items
@@ -249,7 +280,26 @@ def main():
         print(f"   → {len(items)} articles")
         for item in items:
             item["region"] = src["region"]
-            item["tag"] = src["tag"]
+            # 优先使用 RSS 提供的分类标签
+            tag = src["tag"]
+            if item.get("categories"):
+                # 从 RSS 分类里找个匹配的
+                cat = item["categories"][0]
+                # 映射常见分类到统一标签体系
+                cat_lower = cat.lower()
+                if any(k in cat_lower for k in ("tech", "numériqu", "informatique", "start-up")):
+                    tag = "Technologie"
+                elif any(k in cat_lower for k in ("économ", "financ", "entreprise", "bourse")):
+                    tag = "Économie"
+                elif any(k in cat_lower for k in ("politique", "gouvern", "président")):
+                    tag = "Politique"
+                elif any(k in cat_lower for k in ("sport", "culture", "sociét", "santé", "environn")):
+                    tag = "Société"
+                elif any(k in cat_lower for k in ("international", "monde", "étranger", "europe")):
+                    tag = "International"
+                else:
+                    tag = cat  # 保留原始分类
+            item["tag"] = tag
             item["source_label"] = src["label"]
         all_new.extend(items)
 
