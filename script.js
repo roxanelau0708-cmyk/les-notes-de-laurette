@@ -184,15 +184,23 @@ function renderTousView(articles, container) {
 
   container.innerHTML = items.map(item => {
     const dateDisplay = item.date.replace(/-/g, '/');
-    const titleCn = item.title_cn || '';
     const read = isRead(item.date, item.briefIndex);
+    // 精简中文：截取前 20 个字或到第一个标点
+    let kw = (item.title_cn || '').trim();
+    if (kw) {
+      const punct = kw.search(/[，,。、；：]/);
+      if (punct > 0 && punct <= 25) kw = kw.slice(0, punct);
+      else kw = kw.slice(0, 22);
+    }
     return `
       <div class="tous-row ${read ? 'read' : ''}" data-date="${item.date}" data-brief="${item.briefIndex}">
-        <span class="tous-date">${dateDisplay}</span>
-        <span class="tous-emoji">${REGION_EMOJI[item.region]}</span>
-        <span class="tous-title-fr">${item.title}</span>
-        ${titleCn ? `<span class="tous-title-cn">${titleCn}</span>` : ''}
-        ${read ? '<span class="read-badge">✓</span>' : ''}
+        <div class="tous-main">
+          <span class="tous-date">${dateDisplay}</span>
+          <span class="tous-emoji">${REGION_EMOJI[item.region]}</span>
+          <span class="tous-title-fr">${item.title}</span>
+          ${read ? '<span class="read-badge">✓</span>' : ''}
+        </div>
+        ${kw ? `<div class="tous-kw">${kw}</div>` : ''}
       </div>
     `;
   }).join('');
@@ -229,11 +237,20 @@ function renderRegionalView(articles, container) {
         <div class="region-date-header">${dateDisplay}</div>
         ${byDate[d].map(item => {
           const read = isRead(item.date, item.briefIndex);
+          let kw = (item.title_cn || '').trim();
+          if (kw) {
+            const punct = kw.search(/[，,。、；：]/);
+            if (punct > 0 && punct <= 25) kw = kw.slice(0, punct);
+            else kw = kw.slice(0, 22);
+          }
           return `
           <div class="tous-row ${read ? 'read' : ''}" data-date="${item.date}" data-brief="${item.briefIndex}">
-            <span class="tous-title-fr" style="padding-left:16px">${item.title}</span>
-            ${item.sourceArticle?.briefs?.[item.briefIndex]?.auto ? '<span class="auto-badge auto">Auto</span>' : ''}
-            ${read ? '<span class="read-badge">✓</span>' : ''}
+            <div class="tous-main">
+              <span class="tous-title-fr" style="padding-left:16px">${item.title}</span>
+              ${item.sourceArticle?.briefs?.[item.briefIndex]?.auto ? '<span class="auto-badge auto">Auto</span>' : ''}
+              ${read ? '<span class="read-badge">✓</span>' : ''}
+            </div>
+            ${kw ? `<div class="tous-kw" style="padding-left:16px">${kw}</div>` : ''}
           </div>`;
         }).join('')}
       </div>
