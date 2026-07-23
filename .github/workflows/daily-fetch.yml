@@ -1,0 +1,28 @@
+name: Daily RSS Fetch
+
+on:
+  schedule:
+    # 10:00 Beijing time (UTC+8) = 02:00 UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run RSS fetcher
+        run: python3 scripts/fetch-rss.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "auto-bot"
+          git config user.email "auto@les-notes-de-laurette"
+          git add articles.json
+          if git diff --cached --quiet; then
+            echo "No changes to articles.json"
+          else
+            git commit -m "auto: fetch daily news $(date +%Y-%m-%d)"
+            git push
+          fi
