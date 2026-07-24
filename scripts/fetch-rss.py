@@ -5,6 +5,7 @@ fetch-rss.py — RSS 新闻聚合器
 使用 Python 标准库，无外部依赖
 """
 
+import gzip
 import json
 import os
 import re
@@ -73,10 +74,21 @@ def fetch_url(url, timeout=20):
                 if resp.status >= 400:
                     print(f"    HTTP {resp.status}")
                     continue
-                return resp.read()
+                raw = resp.read()
+                # 手动解压 gzip/deflate（Python 3.9 urllib 不会自动解压）
+                encoding = resp.headers.get("Content-Encoding", "")
+                if "gzip" in encoding:
+                    raw = gzip.decompress(raw)
+                elif "deflate" in encoding:
+                    import zlib
+                    raw = zlib.decompress(raw)
+                return raw
         except Exception as e:
             en = type(e).__name__
-            if "certificate" in en.lower() or "ssl" in en.lower():
+            msg = str(e).lower()
+            if ("certificate" in en.lower() or "ssl" in en.lower()
+                    or "ssl" in msg or "certificate" in msg or "eof" in msg
+                    or "handshake" in msg):
                 continue  # SSL 错误 → 降级重试
             print(f"    ⚠ {en}: {e}")
             return None
