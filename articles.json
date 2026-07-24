@@ -2,141 +2,136 @@
   {
     "date": "2026-07-24",
     "tags": [
-      "Technologie",
-      "Tour de France",
-      "International",
-      "Conjoncture",
-      "Politique",
-      "Bons plans Maison"
+      "Société"
     ],
     "regions": [
       "francophonie"
     ],
-    "summary_cn": "B&W Px8 迈凯伦版损失 200 欧元：您应该购买这款 599 欧元的豪华头盔吗？ | 超值高保真音响：369 欧元的 Elipson Prestige Facet 8B 真的很划算吗？ | 环法自行车赛：Alpe d’Huez 24 小时耐力赛，Grande Boucle 最受欢迎的度假胜地 | 乌克兰战争：弗拉基米尔·普京的轻率逃跑 | 帕特里克·圣保罗的社论：“普京战争的代价”",
+    "summary_cn": "吉伦特省火灾实况：阿卡雄盆地附近发生特别严重的火灾，所有瓦尔地块都因火灾而关闭 | 在一些居民和特朗普政府对疫苗持怀疑态度的背景下，美国麻疹疫情“失控” | 中东战争期间 TotalEnergies 在六个月内盈利 112 亿美元 | 因谴责拘留条件而受到制裁的萨拉赫·阿卜杜斯拉姆与监狱管理部门对峙 | 中东战争直播：伊朗声称轰炸了美国在约旦和科威特的军事基地",
     "briefs": [
       {
-        "tag": "Technologie",
-        "title_cn": "B&W Px8 迈凯伦版损失 200 欧元：您应该购买这款 599 欧元的豪华头盔吗？",
-        "title": "Le B&W Px8 McLaren Edition perd 200 euros : faut-il craquer pour ce casque de luxe à 599 euros ?",
-        "body": "Oui, le B&W Px8 McLaren Edition reste un excellent casque Bluetooth haut de gamme à 599 euros, surtout si vous accordez autant d’importance au design qu’à la qualité sonore. Il combine des transducteurs en carbone de 40 mm, une restitution riche et détaillée, une réduction de bruit active et 30 heures d’autonomie. Il faut simplement savoir que l’édition McLaren se distingue principalement par son esthétique et qu’une nouvelle génération, le Px8 S2 McLaren Edition, est désormais disponible.",
-        "source": "Le Figaro",
-        "pub_date": "24 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/bons-plans/high-tech/le-b-w-px8-mclaren-edition-perd-200-euros-faut-il-craquer-pour-ce-casque-de-luxe-a-599-euros-20260724"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "超值高保真音响：369 欧元的 Elipson Prestige Facet 8B 真的很划算吗？",
-        "title": "Bon plan hi-fi : les Elipson Prestige Facet 8B à 369 euros sont-elles une vraie affaire ?",
-        "body": "Oui, les Elipson Prestige Facet 8B constituent une très belle affaire à 369 euros la paire. Ces enceintes bibliothèque d’une marque française associent un haut-parleur médium-grave de 17 cm, un tweeter à dôme souple et une sensibilité élevée de 91 dB. Elles conviennent particulièrement à ceux qui recherchent une écoute précise, douce et équilibrée sans installer de grandes colonnes dans leur salon.",
-        "source": "Le Figaro",
-        "pub_date": "24 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/bons-plans/high-tech/bon-plan-hi-fi-les-elipson-prestige-facet-8b-a-369-euros-sont-elles-une-vraie-affaire-20260724"
-      },
-      {
-        "tag": "Tour de France",
-        "title_cn": "环法自行车赛：Alpe d’Huez 24 小时耐力赛，Grande Boucle 最受欢迎的度假胜地",
-        "title": "Tour de France : les 24 heures de l’Alpe d’Huez, la station fétiche de la Grande Boucle",
-        "body": "La station du massif de l’Oisans accueillera deux arrivées d’étape, vendredi et samedi. Dans une ambiance de fête.",
-        "source": "Le Figaro",
+        "tag": "Société",
+        "title_cn": "吉伦特省火灾实况：阿卡雄盆地附近发生特别严重的火灾，所有瓦尔地块都因火灾而关闭",
+        "title": "EN DIRECT, incendie en Gironde : un incendie particulièrement intense près du bassin d’Arcachon, tous les massifs du Var fermés à cause des feux",
+        "body": "Le feu en Gironde, qualifié d’exceptionnellement intense par les pompiers, a vu sa surface multipliée par six en moins de trois heures et progresse vers Arès et Lège-Cap-Ferret. Dans le Var, le feu qui a parcouru 2 500 hectares n’était toujours pas fixé.",
+        "source": "Le Monde",
         "pub_date": "23 July 2026",
         "auto": true,
-        "link": "https://www.lefigaro.fr/sports/cyclisme/tour-de-france/tour-de-france-les-24-heures-de-l-alpe-d-huez-la-station-fetiche-de-la-grande-boucle-20260723"
+        "link": "https://www.lemonde.fr/planete/live/2026/07/23/en-direct-incendie-en-gironde-2-000-hectares-parcourus-par-les-flammes-12-000-personnes-evacuees_6730417_3244.html"
       },
       {
-        "tag": "International",
-        "title_cn": "乌克兰战争：弗拉基米尔·普京的轻率逃跑",
-        "title": "Guerre en Ukraine : la fuite en avant de Vladimir Poutine",
-        "body": "ANALYSE - Alors que le conflit consume chaque mois des dizaines de milliers de soldats, le président russe ne laisse entrevoir aucune perspective de compromis.",
-        "source": "Le Figaro",
+        "tag": "Société",
+        "title_cn": "在一些居民和特朗普政府对疫苗持怀疑态度的背景下，美国麻疹疫情“失控”",
+        "title": "Une épidémie de rougeole « hors de contrôle » aux Etats-Unis, sur fond de vaccino-scepticisme d’une partie des habitants et de l’administration Trump",
+        "body": "Le pays fait face à une accélération du nombre de cas de cette maladie aux conséquences sanitaires potentiellement graves. La baisse de la couverture vaccinale est la principale cause de cette crise.",
+        "source": "Le Monde",
         "pub_date": "23 July 2026",
         "auto": true,
-        "link": "https://www.lefigaro.fr/international/guerre-en-ukraine-la-fuite-en-avant-de-vladimir-poutine-20260723"
+        "link": "https://www.lemonde.fr/planete/article/2026/07/23/la-rougeole-hors-de-controle-aux-etats-unis-sur-fond-de-vaccino-scepticisme_6730520_3244.html"
       },
       {
-        "tag": "International",
-        "title_cn": "帕特里克·圣保罗的社论：“普京战争的代价”",
-        "title": "L’éditorial de Patrick Saint-Paul : « Le prix de la guerre de Poutine »",
-        "body": "Sur le front, un système mafieux s’est mis en place. Ceux qui refusent de payer sont « annulés », exécutés par leurs commandants ou envoyés à la boucherie face aux drones ukrainiens.",
-        "source": "Le Figaro",
+        "tag": "Société",
+        "title_cn": "中东战争期间 TotalEnergies 在六个月内盈利 112 亿美元",
+        "title": "TotalEnergies engrange 11,2 milliards de dollars de bénéfice en six mois, sur fond de guerre au Moyen-Orient",
+        "body": "La major pétrolière a enregistré un bond de 72 % de son résultat net au cours du premier semestre 2026.",
+        "source": "Le Monde",
         "pub_date": "23 July 2026",
         "auto": true,
-        "link": "https://www.lefigaro.fr/vox/monde/l-editorial-de-patrick-saint-paul-le-prix-de-la-guerre-de-poutine-20260723"
+        "link": "https://www.lemonde.fr/economie/article/2026/07/23/totalenergies-engrange-11-2-milliards-de-dollars-de-benefice-en-six-mois-sur-fond-de-guerre-au-moyen-orient_6730624_3234.html"
       },
       {
-        "tag": "Conjoncture",
-        "title_cn": "债务：现在的借贷利率为4%，这让法国更加窒息",
-        "title": "Dette : ce taux d’emprunt désormais à 4 % qui étouffe encore un peu plus la France",
-        "body": "DÉCRYPTAGE - Le taux d’intérêt de la dette publique à dix ans a franchi un seuil qu’il n’avait plus atteint depuis 2009.",
-        "source": "Le Figaro",
+        "tag": "Société",
+        "title_cn": "因谴责拘留条件而受到制裁的萨拉赫·阿卜杜斯拉姆与监狱管理部门对峙",
+        "title": "Salah Abdeslam, sanctionné pour avoir dénoncé ses conditions de détention, se confronte à l’administration pénitentiaire",
+        "body": "Le dernier membre encore en vie du commando des attentats du 13 novembre 2015, condamné à la perpétuité incompressible et à l’isolement depuis dix ans, est décidé à assumer un rapport de force.",
+        "source": "Le Monde",
         "pub_date": "23 July 2026",
         "auto": true,
-        "link": "https://www.lefigaro.fr/conjoncture/dette-ce-taux-d-emprunt-desormais-a-4-qui-etouffe-encore-un-peu-plus-la-france-20260723"
+        "link": "https://www.lemonde.fr/societe/article/2026/07/23/sanctionne-pour-avoir-conteste-ses-conditions-de-detention-salah-abdeslam-est-decide-a-faire-valoir-ses-droits_6730416_3224.html"
       },
       {
-        "tag": "Technologie",
-        "title_cn": "学生朋友们，这款功能强大、轻便的联想笔记本电脑跌破 200 欧元大关",
-        "title": "Amis étudiants, ce PC portable Lenovo puissant et léger passe sous la barre des 200 €",
-        "body": "Vous êtes étudiant et souhaitez faire l’acquisition d’un PC portable performant pour la rentrée prochaine ? Découvrez le Chromebook Lenovo IdeaPad Slim 3 14 pouces, qui fait l’objet d’une jolie remise de 100 euros chez Cdiscount",
-        "source": "Le Figaro",
+        "tag": "Société",
+        "title_cn": "中东战争直播：伊朗声称轰炸了美国在约旦和科威特的军事基地",
+        "title": "EN DIRECT, guerre au Moyen-Orient : l’Iran revendique des bombardements sur des sites militaires américains en Jordanie et au Koweït",
+        "body": "Alors que l’armée américaine a dit avoir procédé à une « nouvelle série de frappes contre l’Iran pour la 12ᵉ nuit d’affilée », Téhéran affirme avoir détruit un radar américain du système antimissile Thaad en Jordanie. Au Koweït, l’armée iranienne dit avoir visé notamment des dépôts de munitions et des réservoirs de carburant.",
+        "source": "Le Monde",
         "pub_date": "23 July 2026",
         "auto": true,
-        "link": "https://www.lefigaro.fr/bons-plans/high-tech/amis-etudiants-ce-pc-portable-lenovo-puissant-et-leger-passe-sous-la-barre-des-200-20260723"
+        "link": "https://www.lemonde.fr/international/live/2026/07/23/en-direct-guerre-au-moyen-orient-l-iran-revendique-des-bombardements-sur-des-sites-militaires-americains-en-jordanie-et-au-koweit_6725301_3210.html"
       },
       {
-        "tag": "Politique",
-        "title_cn": "2027 年总统大选：在布列塔尼，加布里埃尔·阿塔尔 (Gabriel Attal) 与米歇尔·爱德华·勒克莱尔 (Michel-Édouard Leclerc) 为他的“工资冲击”辩护",
-        "title": "Présidentielle 2027 : en Bretagne, Gabriel Attal défend son « choc des salaires » avec Michel-Édouard Leclerc",
-        "body": "REPORTAGE - En déplacement dans le Finistère, le candidat de Renaissance a lancé jeudi son été auprès de « la France qui travaille ».",
-        "source": "Le Figaro",
+        "tag": "Société",
+        "title_cn": "现场直播，乌克兰战争：乌克兰在俄罗斯和克里米亚发生的爆炸事件造成人员死亡；莫斯科继续袭击能源设施",
+        "title": "EN DIRECT, guerre en Ukraine : des morts dans des bombardements ukrainiens en Russie et en Crimée ; Moscou poursuit ses attaques contre des installations énergétiques",
+        "body": "Une personne est morte dans la région russe de Belgorod, près de la frontière avec l’Ukraine, dans une attaque de drone ukrainienne dans la nuit de mercredi à jeudi. En Crimée, péninsule annexée en 2014 par la Russie, une personne a aussi été tuée.",
+        "source": "Le Monde",
         "pub_date": "23 July 2026",
         "auto": true,
-        "link": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-en-bretagne-gabriel-attal-defend-son-choc-des-salaires-avec-michel-edouard-leclerc-20260723"
+        "link": "https://www.lemonde.fr/international/live/2026/07/23/en-direct-guerre-en-ukraine-les-dernieres-informations-au-23-juillet-2026_6725306_3210.html"
       },
       {
-        "tag": "Technologie",
-        "title_cn": "达索系统以 20 亿美元收购 ArisGlobal，在健康人工智能领域取得重大打击",
-        "title": "En rachetant ArisGlobal pour 2 milliards de dollars, Dassault Systèmes frappe un grand coup dans l’IA pour la santé",
-        "body": "DÉCRYPTAGE - Le champion français des logiciels industriels réalise la deuxième plus grosse acquisition de son histoire en rachetant cet éditeur américain spécialisé dans des opérations critiques pour les grands laboratoires.",
-        "source": "Le Figaro",
+        "tag": "Société",
+        "title_cn": "加布里埃尔·卢斯托 (Gabriel Loustau)，一位冉冉升起的人物，极右翼血统的继承人，被判处六个月监禁",
+        "title": "Gabriel Loustau, figure montante et héritier d’une lignée d’extrême droite, condamné à six mois de prison",
+        "body": "Petit-fils de Fernand Loustau, ami de Jean-Marie Le Pen, et fils d’Axel Loustau, proche de la cheffe de file du RN, Marine Le Pen, le jeune homme de 25 ans a été reconnu coupable de violences, mardi 21 juillet.",
+        "source": "Le Monde",
         "pub_date": "23 July 2026",
         "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/en-rachetant-arisglobal-pour-2-milliards-de-dollars-dassault-systemes-frappe-un-grand-coup-dans-l-ia-pour-la-sante-20260723"
+        "link": "https://www.lemonde.fr/societe/article/2026/07/23/qui-est-gabriel-loustau-figure-montante-de-l-ultradroite-condamne-a-six-mois-de-prison_6730519_3224.html"
       },
       {
-        "tag": "International",
-        "title_cn": "被扔进洞里、遭受折磨和“取消”：普京的肮脏战争，一场剥削和镇压本国士兵的犯罪和黑手党生意",
-        "title": "Jetés dans des trous, torturés et « annulés » : la sale guerre de Poutine, un business criminel et mafieux qui exploite et broie ses propres soldats",
-        "body": "ENQUÊTE - L’analyse de près de 9 500 courriers, dont la plupart ont été adressés par des soldats russes ou par leurs proches à la commissaire pour les Droits de l’homme, lève un coin du voile sur les pratiques barbares qui prospèrent sur le front ukrainien.",
-        "source": "Le Figaro",
+        "tag": "Société",
+        "title_cn": "两名保姆因将 12 名儿童塞进非法日托中心地下室的汽车中而受到审判",
+        "title": "Deux assistantes maternelles seront jugées pour avoir entassé 12 enfants dans une voiture au sous-sol d’une crèche illégale",
+        "body": "Les deux femmes, dont l’une avait un agrément suspendu, ont tenté de contourner un contrôle de la PMI à Yerres, en Essonne.",
+        "source": "Le Monde",
         "pub_date": "23 July 2026",
         "auto": true,
-        "link": "https://www.lefigaro.fr/international/jetes-dans-des-trous-tortures-et-annules-la-sale-guerre-de-poutine-un-business-criminel-et-mafieux-qui-exploite-et-broie-ses-propres-soldats-20260723"
+        "link": "https://www.lemonde.fr/societe/article/2026/07/23/deux-assistantes-maternelles-d-une-creche-illegale-jugees-apres-avoir-cache-12-enfants-dans-une-voiture-lors-d-un-controle-dans-l-essonne_6730383_3224.html"
       },
       {
-        "tag": "Bons plans Maison",
-        "title_cn": "Ninja BlendBoss：带旅行瓶的搅拌机，今年夏天大受欢迎",
-        "title": "Ninja BlendBoss : le blender avec gourde de voyage qui fait un véritable carton cet été",
-        "body": "Tout le monde craque pour le blender Ninja BlendBoss ! Avec son design canon, sa puissance de mixage et ses programmes automatiques, il fait des ravages dans toutes les cuisines modernes.",
-        "source": "Le Figaro",
+        "tag": "Société",
+        "title_cn": "“工作时偶尔不戴假肢，眼睛就会集中在我缺失的乳房上”：胸部，这个可以隐藏疾病的欲望对象",
+        "title": "« Les rares fois où je ne porte pas ma prothèse au travail, les regards se braquent sur mon sein absent » : la poitrine, cet objet du désir qui peut cacher la maladie",
+        "body": "« Sois belle et produis » (4/6). Attributs féminins par excellence, les seins sont aussi le siège du cancer le plus fréquent chez les femmes. Une maladie qui, dans le monde du travail, se heurte parfois à l’invisibilisation de la souffrance.",
+        "source": "Le Monde",
         "pub_date": "23 July 2026",
         "auto": true,
-        "link": "https://www.lefigaro.fr/bons-plans/maison/ninja-blendboss-le-blender-avec-gourde-de-voyage-qui-fait-un-veritable-carton-cet-ete-20260723"
+        "link": "https://www.lemonde.fr/campus/article/2026/07/23/les-rares-fois-ou-je-ne-porte-pas-ma-prothese-au-travail-les-regards-se-braquent-sur-mon-sein-absent-la-poitrine-cet-objet-du-desir-qui-peut-cacher-la-maladie_6730345_4401467.html"
       },
       {
-        "tag": "Technologie",
-        "title_cn": "人工智能竞赛使谷歌及其现金流面临压力",
-        "title": "La course à l’IA met Google et sa trésorerie sous pression",
-        "body": "DÉCRYPTAGE - Pour la première fois depuis 22 ans, le géant américain affiche un flux de trésorerie négatif. Il va encore augmenter ses investissements dans l’IA sur l’année.",
-        "source": "Le Figaro",
+        "tag": "Société",
+        "title_cn": "2026 年环法自行车赛：山区是短跑运动员讨厌的地形，他们努力在最后期限前完成任务",
+        "title": "Tour de France 2026 : la montagne, terrain honni des sprinteurs, qui luttent pour rentrer dans les délais",
+        "body": "Après avoir franchi quatre massifs montagneux, les coureurs entrent dans les Alpes avec la 18ᵉ étape entre Voiron et Orcières-Merlette. Pour les sprinteurs, qui souffrent dès que la route prend de l’altitude, une mauvaise journée s’annonce à l’arrière du peloton.",
+        "source": "Le Monde",
         "pub_date": "23 July 2026",
         "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/la-course-a-l-ia-met-google-et-sa-tresorerie-sous-pression-20260723"
+        "link": "https://www.lemonde.fr/sport/article/2026/07/23/tour-de-france-2026-la-montagne-terrain-honni-des-sprinteurs-qui-luttent-pour-rentrer-dans-les-delais_6730587_3242.html"
+      },
+      {
+        "tag": "Société",
+        "title_cn": "2001 年热那亚八国集团会议上卡洛·朱利安尼的死亡和警察的暴力行为，成为意大利从未克服的创伤",
+        "title": "La mort de Carlo Giuliani et la violence policière au G8 de Gênes en 2001, un traumatisme jamais surmonté en Italie",
+        "body": "En marge du sommet international, les forces de l’ordre avaient déployé une brutalité inouïe, Amnesty International dénonçant plus tard « une violation des droits de l’homme d’une ampleur sans précédent dans l’histoire récente de l’Europe. »",
+        "source": "Le Monde",
+        "pub_date": "23 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/international/article/2026/07/23/en-italie-la-blessure-toujours-ouverte-de-la-repression-lors-du-g8-de-genes-en-2001_6730108_3210.html"
+      },
+      {
+        "tag": "Société",
+        "title_cn": "安提比斯海洋世界：向西班牙转移8只海豚已开始，非政府组织谴责“金钱策划的耻辱”",
+        "title": "Marineland d’Antibes : le transfert de huit dauphins vers l’Espagne a commencé, des ONG dénoncent « une honte orchestrée par l’argent »",
+        "body": "Dans un communiqué, l’association One Voice a dénoncé « un scandale d’Etat et un voyage à haut risque pour des animaux dont la sécurité n’est pas assurée ».",
+        "source": "Le Monde",
+        "pub_date": "23 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/planete/article/2026/07/23/marineland-d-antibes-le-transfert-de-huit-dauphins-a-commence-vers-l-espagne_6730621_3244.html"
       }
     ],
     "vocab": [],
-    "word_count": 432,
+    "word_count": 431,
     "auto": true
   },
   {
