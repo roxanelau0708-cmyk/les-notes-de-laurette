@@ -28,14 +28,40 @@ function isHideRead() {
   return document.getElementById('hide-read')?.checked === true;
 }
 
+function isDeleted(date, briefIndex) {
+  return localStorage.getItem(`del_${date}_${briefIndex}`) === 'true';
+}
+
+function markDeleted(date, briefIndex) {
+  localStorage.setItem(`del_${date}_${briefIndex}`, 'true');
+  localStorage.setItem(`read_${date}_${briefIndex}`, 'true');
+}
+
+function cleanReadArticles() {
+  // 清理所有已读文章
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (key && key.startsWith('read_') && localStorage.getItem(key) === 'true') {
+      // key = read_YYYY-MM-DD_INDEX
+      const underscore = key.indexOf('_');
+      const lastUnderscore = key.lastIndexOf('_');
+      const date = key.slice(underscore + 1, lastUnderscore);
+      const idx = key.slice(lastUnderscore + 1);
+      localStorage.setItem(`del_${date}_${idx}`, 'true');
+    }
+  }
+  applyFilters();
+}
+
 // === Flatten briefs ===
 function flattenBriefs(articles) {
   const items = [];
   articles.forEach(a => {
     a.briefs.forEach((b, idx) => {
+      if (isDeleted(a.date, idx)) return;
       items.push({
         date: a.date,
-        region: regionFromTag(b.tag) || 'international',
+        region: b.region || regionFromTag(b.tag) || 'international',
         topic: b.tag.split(' / ')[0],
         title_cn: b.title_cn,
         title: b.title,
@@ -61,7 +87,7 @@ function showArticleView(article, briefIndex) {
   if (count) count.style.display = 'none';
 
   const dateDisplay = article.date.replace(/-/g, '/');
-  const region = regionFromTag(brief.tag);
+  const region = brief.region || regionFromTag(brief.tag);
   const noteKey = `note_${article.date}_${briefIndex}`;
   const readKey = `read_${article.date}_${briefIndex}`;
   const savedNote = localStorage.getItem(noteKey) || '';
@@ -83,6 +109,7 @@ function showArticleView(article, briefIndex) {
       <div class="av-notes">
         <div class="av-notes-bar">
           <button class="av-read-btn" id="mark-read-btn">${isRead ? '✓ Lu' : '☐ Marquer comme lu'}</button>
+          <button class="av-del-btn" id="del-btn">🗑 Supprimer</button>
           <span class="av-notes-label">📝 Notes</span>
         </div>
         <textarea class="av-notes-input" id="notes-input" rows="4" placeholder="Prendre une note…">${savedNote}</textarea>
@@ -103,6 +130,14 @@ function showArticleView(article, briefIndex) {
     localStorage.setItem(readKey, newVal);
     // Re-render to update UI
     showArticleView(article, briefIndex);
+  });
+
+  // Delete article
+  document.getElementById('del-btn').addEventListener('click', () => {
+    if (confirm('Supprimer cet article ?')) {
+      markDeleted(article.date, briefIndex);
+      showListView();
+    }
   });
 
   // Auto-save notes
@@ -294,13 +329,19 @@ function setupFilters() {
       applyFilters();
     });
   });
+
+  document.getElementById('clean-read-btn').addEventListener('click', () => {
+    if (confirm('Supprimer tous les articles lus ?')) {
+      cleanReadArticles();
+    }
+  });
 }
 
 function applyFilters() {
   let filtered = allArticles;
   if (activeRegion) {
     filtered = filtered.filter(a =>
-      a.briefs.some(b => regionFromTag(b.tag) === activeRegion)
+      a.briefs.some(b => (b.region || regionFromTag(b.tag)) === activeRegion)
     );
   }
   renderList(filtered);

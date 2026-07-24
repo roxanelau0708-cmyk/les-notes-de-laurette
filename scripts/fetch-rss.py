@@ -10,6 +10,7 @@ import json
 import os
 import re
 import sys
+import unicodedata
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
@@ -184,6 +185,142 @@ def _clean_html(text):
     return re.sub(r"<[^>]+>", "", text).strip()
 
 
+def shorten_french_title(title):
+    """缩短法语新闻标题——去掉前缀、取冒号前的主干、超出 65 字截断"""
+    if not title:
+        return title
+    t = title.strip()
+
+    # 去掉常见前缀
+    for p in ["EN DIRECT, ", "EN DIRECT : ", "EN DIRECT — ", "DIRECT, ", "DIRECT : ",
+              "INFO ", "VIDEO - ", "VIDÉO - ", "EXCLUSIF - ", "EXCLUSIF : "]:
+        if t.upper().startswith(p.upper()):
+            t = t[len(p):]
+            break
+
+    # 取冒号或长破折号前的部分（核心主题）
+    for sep in [" : ", " : ", " — ", " — "]:
+        if sep in t:
+            before = t.split(sep, 1)[0]
+            if 8 <= len(before) <= 70:
+                t = before
+                break
+
+    # 65 字截断
+    if len(t) > 65:
+        truncated = t[:65]
+        last_space = truncated.rfind(" ")
+        if last_space > 30:
+            truncated = truncated[:last_space]
+        t = truncated + "…"
+
+    return t.strip()
+
+
+GEO_RULES = [
+    # 国际冲突 / 重大国际事件（优先，避免被具体国家名抢走）
+    (["moyen-orient", "iran", "israel", "gaza", "palestine",
+      "hezbollah", "hamas", "teheran", "jordanie", "koweit",
+      "irak", "syrie", "yemen",
+      "ukraine", "russie", "moscou", "kiev", "crimee", "belgorod",
+      "otan", "onu", "nations unies",
+      "afghanistan", "coree du nord", "inde", "bresil",
+      "japon", "tokyo", "birmanie", "soudan"], "international"),
+    # 具体地区
+    (["chine", "chinois", "pekin", "shanghai", "shenzhen",
+      "xi jinping", "taiwan", "hong kong"], "chine"),
+    (["etats-unis", "etats unis",
+      "americain", "washington", "new york",
+      "trump", "biden", "silicon valley",
+      "maison-blanche", "pentagone", "usa"], "etats-unis"),
+    (["europe", "europeen", "ue", "bruxelles",
+      "union europeenne",
+      "allemagne", "berlin", "royaume-uni", "londres",
+      "italie", "rome", "espagne", "madrid",
+      "pays-bas", "autriche", "suede", "norvege",
+      "pologne", "grece"], "europe"),
+]
+
+
+def _unaccent(text):
+    """去掉变音符号"""
+    nfkd = unicodedata.normalize("NFD", text)
+    return "".join(c for c in nfkd if not unicodedata.category(c).startswith("M"))
+
+
+def detect_region(fr_title, fr_desc, source_region):
+    """根据标题、摘要的内容判断实际地理区域，不再盲从来源标注"""
+    text = _unaccent((fr_title + " " + fr_desc).lower())
+    for keywords, region in GEO_RULES:
+        for kw in keywords:
+            if _unaccent(kw.lower()) in text:
+                return region
+    return source_region
+
+
+# ── 内容过滤 & 多样性选择 ──
+
+EXCLUDE_WAR = [
+    "guerre", "conflit arm", "frappe", "bombarde",
+    "offensive", "combat", "tir", "missile", "explosion",
+    "attaque", "drone", "armée", "soldat", "tué", "blessé",
+    "champ de bataille", "incursion", "escarmouche",
+]
+
+EXCLUDE_PERSON = [
+    "condamné à", "prison", "emprisonné", "détention",
+    "procès", "jugé", "peine de", "sanctionné", "incarcéré",
+    "perpétuité", "isolement",
+]
+
+CULTURAL = [
+    "écrivain", "artiste", "musique", "cinéma", "livre",
+    "roman", "poème", "peinture", "théâtre", "exposition",
+    "culture", "patrimoine", "littérature", "photographie",
+    "architecture", "sculpture", "danse", "concert",
+    "festival", "musée", "bibliothèque",
+]
+
+
+def should_exclude(title, desc):
+    """过滤战争细节和纯人物新闻；文化相关的不滤"""
+    text = (title + " " + (desc or "")).lower()
+    if any(kw in text for kw in CULTURAL):
+        return False
+    if any(kw in text for kw in EXCLUDE_WAR):
+        return True
+    if any(kw in text for kw in EXCLUDE_PERSON):
+        return True
+    return False
+
+
+def select_diverse(items, total=12):
+    """轮询各 tag 取文章，保证 topic 丰富度，每 tag 最多 4 条"""
+    from collections import defaultdict
+    by_tag = defaultdict(list)
+    for item in items:
+        by_tag[item.get("tag", "Autre")].append(item)
+
+    sorted_tags = sorted(by_tag, key=lambda t: len(by_tag[t]))
+    counts = defaultdict(int)
+    selected = []
+
+    while len(selected) < total:
+        picked = False
+        for t in sorted_tags:
+            if len(selected) >= total:
+                break
+            if counts[t] >= 4 or counts[t] >= len(by_tag[t]):
+                continue
+            selected.append(by_tag[t][counts[t]])
+            counts[t] += 1
+            picked = True
+        if not picked:
+            break  # 没更多可取了
+
+    return selected[:total]
+
+
 # ── 翻译 ──
 
 def translate(text, src="fr", dst="zh-CN"):
@@ -282,15 +419,26 @@ def main():
 
     if not deduped:
         print("ℹ️  Aucun nouvel article à ajouter.")
-        # 即使没有新文章也继续执行，确保保留最近内容
         return
 
-    # 5. 翻译 & 构建 briefs（取前 12 条）
+    # 5. 过滤 + 多样性选文
+    candidates = [item for item in deduped
+                  if not should_exclude(item["title"], item.get("desc", ""))]
+    selected = select_diverse(candidates, total=12)
+    print(f"📋 {len(selected)} articles retenus ({len(candidates)} candidats après filtrage)")
+
+    # 6. 翻译 & 构建 briefs
     today = date.today()
     today_str = today.isoformat()
 
     briefs = []
-    for item in deduped[:12]:
+    for item in selected:
+        # 缩短标题 + 检测实际地区
+        item["title"] = shorten_french_title(item["title"])
+        item["region"] = detect_region(
+            item["title"], item.get("desc", ""), item.get("region", "francophonie")
+        )
+
         # 中文标题
         title_cn = translate(item["title"])
         if not title_cn:
@@ -318,11 +466,12 @@ def main():
             "pub_date": pub_date_str,
             "auto": True,
             "link": item["link"],
+            "region": item["region"],
         })
 
-    # 6. 构建当日文章条目
+    # 7. 构建当日文章条目
     tags = list(dict.fromkeys(b["tag"] for b in briefs))  # 有序去重
-    regions = list(dict.fromkeys(item["region"] for item in deduped[:12]))
+    regions = list(dict.fromkeys(item["region"] for item in selected))
     summaries_cn = [b["title_cn"] for b in briefs if b["title_cn"]]
     summary_line = " | ".join(summaries_cn[:5]) if summaries_cn else ""
 
@@ -337,7 +486,7 @@ def main():
         "auto": True,
     }
 
-    # 7. 合并到已有列表
+    # 8. 合并到已有列表
     # 移除今天的 auto 旧版本（如果有）
     existing = [
         a for a in existing
@@ -349,7 +498,7 @@ def main():
 
     kept.insert(0, new_article)
 
-    # 8. 写回
+    # 9. 写回
     with open(ARTICLES_PATH, "w", encoding="utf-8") as f:
         json.dump(kept, f, ensure_ascii=False, indent=2)
 

@@ -2,136 +2,160 @@
   {
     "date": "2026-07-24",
     "tags": [
-      "Société"
+      "World",
+      "Animaux",
+      "Patrimoine",
+      "Bons plans",
+      "Horlogerie",
+      "Outre-Mer",
+      "Afrique",
+      "Asie-Pacifique",
+      "Connaissances",
+      "Musique",
+      "Politique",
+      "Contre-Faits"
     ],
     "regions": [
-      "francophonie"
+      "international",
+      "europe"
     ],
-    "summary_cn": "吉伦特省火灾实况：阿卡雄盆地附近发生特别严重的火灾，所有瓦尔地块都因火灾而关闭 | 在一些居民和特朗普政府对疫苗持怀疑态度的背景下，美国麻疹疫情“失控” | 中东战争期间 TotalEnergies 在六个月内盈利 112 亿美元 | 因谴责拘留条件而受到制裁的萨拉赫·阿卜杜斯拉姆与监狱管理部门对峙 | 中东战争直播：伊朗声称轰炸了美国在约旦和科威特的军事基地",
+    "summary_cn": "奥伦·卡斯：“唐纳德·特朗普能否超越母亲…… | 一只猫失踪九个月，多亏了一个人的帮助才找到了…… | 巴黎圣母院的当代彩色玻璃窗甚至会吸引“…… | [Le Figaro] YouScribe : plongez dans vos lectures de l’été avec cet… | [Le Figaro] UN ÉTÉ FRANÇAIS – Pierre Lannier x 10 ATM Bora, destination…",
     "briefs": [
       {
-        "tag": "Société",
-        "title_cn": "吉伦特省火灾实况：阿卡雄盆地附近发生特别严重的火灾，所有瓦尔地块都因火灾而关闭",
-        "title": "EN DIRECT, incendie en Gironde : un incendie particulièrement intense près du bassin d’Arcachon, tous les massifs du Var fermés à cause des feux",
-        "body": "Le feu en Gironde, qualifié d’exceptionnellement intense par les pompiers, a vu sa surface multipliée par six en moins de trois heures et progresse vers Arès et Lège-Cap-Ferret. Dans le Var, le feu qui a parcouru 2 500 hectares n’était toujours pas fixé.",
-        "source": "Le Monde",
-        "pub_date": "23 July 2026",
+        "tag": "World",
+        "title_cn": "奥伦·卡斯：“唐纳德·特朗普能否超越母亲……",
+        "title": "Oren Cass: “Will Donald Trump Manage to Move Beyond Mere…",
+        "body": "Following the war against Iran, the founder of the American Compass think tank — who is close to U.S. Vice President JD Vance — has been highly critical of President Donald Trump’s foreign policy.",
+        "source": "Le Figaro",
+        "pub_date": "24 July 2026",
         "auto": true,
-        "link": "https://www.lemonde.fr/planete/live/2026/07/23/en-direct-incendie-en-gironde-2-000-hectares-parcourus-par-les-flammes-12-000-personnes-evacuees_6730417_3244.html"
+        "link": "https://www.lefigaro.fr/en/world/oren-cass-will-donald-trump-manage-to-move-beyond-mere-demolition-20260724",
+        "region": "international"
       },
       {
-        "tag": "Société",
-        "title_cn": "在一些居民和特朗普政府对疫苗持怀疑态度的背景下，美国麻疹疫情“失控”",
-        "title": "Une épidémie de rougeole « hors de contrôle » aux Etats-Unis, sur fond de vaccino-scepticisme d’une partie des habitants et de l’administration Trump",
-        "body": "Le pays fait face à une accélération du nombre de cas de cette maladie aux conséquences sanitaires potentiellement graves. La baisse de la couverture vaccinale est la principale cause de cette crise.",
-        "source": "Le Monde",
-        "pub_date": "23 July 2026",
+        "tag": "Animaux",
+        "title_cn": "一只猫失踪九个月，多亏了一个人的帮助才找到了……",
+        "title": "Porté disparu pendant neuf mois, un chat retrouvé grâce à un…",
+        "body": "Contactée par le refuge d’un autre département, la famille de Gribouille est venue le récupérer, plusieurs mois après sa disparition. Son identification a été rendue possible grâce à un bon réflexe, malheureusement boudé par de nombreux propriétaires.",
+        "source": "Le Figaro",
+        "pub_date": "24 July 2026",
         "auto": true,
-        "link": "https://www.lemonde.fr/planete/article/2026/07/23/la-rougeole-hors-de-controle-aux-etats-unis-sur-fond-de-vaccino-scepticisme_6730520_3244.html"
+        "link": "https://www.lefigaro.fr/animaux/porte-disparu-pendant-neuf-mois-un-chat-retrouve-grace-a-un-dispositif-obligatoire-en-france-20260724",
+        "region": "europe"
       },
       {
-        "tag": "Société",
-        "title_cn": "中东战争期间 TotalEnergies 在六个月内盈利 112 亿美元",
-        "title": "TotalEnergies engrange 11,2 milliards de dollars de bénéfice en six mois, sur fond de guerre au Moyen-Orient",
-        "body": "La major pétrolière a enregistré un bond de 72 % de son résultat net au cours du premier semestre 2026.",
-        "source": "Le Monde",
-        "pub_date": "23 July 2026",
+        "tag": "Patrimoine",
+        "title_cn": "巴黎圣母院的当代彩色玻璃窗甚至会吸引“……",
+        "title": "Les vitraux contemporains de Notre-Dame séduiront même « les…",
+        "body": "En visite dans les ateliers Simon-Marq, la ministre de la Culture estime que l’inauguration en décembre sera un « très grand moment ». D’ici là, le tribunal administratif aura rendu son jugement, ce qui semble n’inquiéter personne à Reims.",
+        "source": "Le Figaro",
+        "pub_date": "24 July 2026",
         "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/07/23/totalenergies-engrange-11-2-milliards-de-dollars-de-benefice-en-six-mois-sur-fond-de-guerre-au-moyen-orient_6730624_3234.html"
+        "link": "https://www.lefigaro.fr/culture/patrimoine/les-vitraux-contemporains-de-notre-dame-seduiront-meme-les-esprits-negatifs-selon-catherine-pegard-20260724",
+        "region": "europe"
       },
       {
-        "tag": "Société",
-        "title_cn": "因谴责拘留条件而受到制裁的萨拉赫·阿卜杜斯拉姆与监狱管理部门对峙",
-        "title": "Salah Abdeslam, sanctionné pour avoir dénoncé ses conditions de détention, se confronte à l’administration pénitentiaire",
-        "body": "Le dernier membre encore en vie du commando des attentats du 13 novembre 2015, condamné à la perpétuité incompressible et à l’isolement depuis dix ans, est décidé à assumer un rapport de force.",
-        "source": "Le Monde",
-        "pub_date": "23 July 2026",
+        "tag": "Bons plans",
+        "title_cn": "[Le Figaro] YouScribe : plongez dans vos lectures de l’été avec cet…",
+        "title": "YouScribe : plongez dans vos lectures de l’été avec cet…",
+        "body": "Avec un seul abonnement pour accéder à une galaxie de livres audio, guides de voyages, classiques de la littérature et titres de presse, YouScribe est le compagnon idéal de votre été. Profitez de l’abonnement à un prix inédit !",
+        "source": "Le Figaro",
+        "pub_date": "24 July 2026",
         "auto": true,
-        "link": "https://www.lemonde.fr/societe/article/2026/07/23/sanctionne-pour-avoir-conteste-ses-conditions-de-detention-salah-abdeslam-est-decide-a-faire-valoir-ses-droits_6730416_3224.html"
+        "link": "https://www.lefigaro.fr/bons-plans/youscribe-plongez-dans-vos-lectures-de-l-ete-avec-cet-abonnement-tout-compris-a-moins-de-10-euros-par-mois-20260724",
+        "region": "europe"
       },
       {
-        "tag": "Société",
-        "title_cn": "中东战争直播：伊朗声称轰炸了美国在约旦和科威特的军事基地",
-        "title": "EN DIRECT, guerre au Moyen-Orient : l’Iran revendique des bombardements sur des sites militaires américains en Jordanie et au Koweït",
-        "body": "Alors que l’armée américaine a dit avoir procédé à une « nouvelle série de frappes contre l’Iran pour la 12ᵉ nuit d’affilée », Téhéran affirme avoir détruit un radar américain du système antimissile Thaad en Jordanie. Au Koweït, l’armée iranienne dit avoir visé notamment des dépôts de munitions et des réservoirs de carburant.",
-        "source": "Le Monde",
-        "pub_date": "23 July 2026",
+        "tag": "Horlogerie",
+        "title_cn": "[Le Figaro] UN ÉTÉ FRANÇAIS – Pierre Lannier x 10 ATM Bora, destination…",
+        "title": "UN ÉTÉ FRANÇAIS – Pierre Lannier x 10 ATM Bora, destination…",
+        "body": "Tout l’été, focus sur la nouvelle vague des montres françaises...La maison familiale alsacienne s’associe au youtubeur horloger Julien Laufer, le temps d’une édition limitée estivale à prix sage.",
+        "source": "Le Figaro",
+        "pub_date": "24 July 2026",
         "auto": true,
-        "link": "https://www.lemonde.fr/international/live/2026/07/23/en-direct-guerre-au-moyen-orient-l-iran-revendique-des-bombardements-sur-des-sites-militaires-americains-en-jordanie-et-au-koweit_6725301_3210.html"
+        "link": "https://www.lefigaro.fr/horlogerie/un-ete-francais-pierre-lannier-x-10-atm-bora-destination-polynesie-20260724",
+        "region": "europe"
       },
       {
-        "tag": "Société",
-        "title_cn": "现场直播，乌克兰战争：乌克兰在俄罗斯和克里米亚发生的爆炸事件造成人员死亡；莫斯科继续袭击能源设施",
-        "title": "EN DIRECT, guerre en Ukraine : des morts dans des bombardements ukrainiens en Russie et en Crimée ; Moscou poursuit ses attaques contre des installations énergétiques",
-        "body": "Une personne est morte dans la région russe de Belgorod, près de la frontière avec l’Ukraine, dans une attaque de drone ukrainienne dans la nuit de mercredi à jeudi. En Crimée, péninsule annexée en 2014 par la Russie, une personne a aussi été tuée.",
-        "source": "Le Monde",
-        "pub_date": "23 July 2026",
+        "tag": "Outre-Mer",
+        "title_cn": "[France 24] Sécheresse",
+        "title": "Sécheresse",
+        "body": "De la Caraïbe au Pacifique, en passant par l'océan Indien, la sécheresse s'installe. A Futuna, l'absence de pluie menace les cultures. Sept communes subissent des restrictions à La Réunion, comme en Martinique et en Guadeloupe où les niveaux des nappes phréatiques sont faibles. Tour d'horizon avec Isabelle Braouet.",
+        "source": "France 24",
+        "pub_date": "24 July 2026",
         "auto": true,
-        "link": "https://www.lemonde.fr/international/live/2026/07/23/en-direct-guerre-en-ukraine-les-dernieres-informations-au-23-juillet-2026_6725306_3210.html"
+        "link": "https://www.france24.com/fr/%C3%A9missions/outre-mer/20260724-s%C3%A9cheresse-alerte-au-manque-d-eau-en-outre-mer",
+        "region": "europe"
       },
       {
-        "tag": "Société",
-        "title_cn": "加布里埃尔·卢斯托 (Gabriel Loustau)，一位冉冉升起的人物，极右翼血统的继承人，被判处六个月监禁",
-        "title": "Gabriel Loustau, figure montante et héritier d’une lignée d’extrême droite, condamné à six mois de prison",
-        "body": "Petit-fils de Fernand Loustau, ami de Jean-Marie Le Pen, et fils d’Axel Loustau, proche de la cheffe de file du RN, Marine Le Pen, le jeune homme de 25 ans a été reconnu coupable de violences, mardi 21 juillet.",
-        "source": "Le Monde",
-        "pub_date": "23 July 2026",
+        "tag": "Afrique",
+        "title_cn": "[France 24] Sanchez à Alger, Dakar soutient Sall, gazoduc Maroc - Nigeria",
+        "title": "Sanchez à Alger, Dakar soutient Sall, gazoduc Maroc - Nigeria",
+        "body": "Sanchez à Alger, Dakar soutient Sall, gazoduc Maroc - Nigeria",
+        "source": "France 24",
+        "pub_date": "24 July 2026",
         "auto": true,
-        "link": "https://www.lemonde.fr/societe/article/2026/07/23/qui-est-gabriel-loustau-figure-montante-de-l-ultradroite-condamne-a-six-mois-de-prison_6730519_3224.html"
+        "link": "https://www.france24.com/fr/afrique/20260724-recap-hebdo-afrique-sanchez-algerie-senegal-onu-sall-gazoduc-maroc-nigeria",
+        "region": "international"
       },
       {
-        "tag": "Société",
-        "title_cn": "两名保姆因将 12 名儿童塞进非法日托中心地下室的汽车中而受到审判",
-        "title": "Deux assistantes maternelles seront jugées pour avoir entassé 12 enfants dans une voiture au sous-sol d’une crèche illégale",
-        "body": "Les deux femmes, dont l’une avait un agrément suspendu, ont tenté de contourner un contrôle de la PMI à Yerres, en Essonne.",
-        "source": "Le Monde",
-        "pub_date": "23 July 2026",
+        "tag": "Asie-Pacifique",
+        "title_cn": "[RFI] Inde: un soutien majeur du «parti des cafards» obtient des…",
+        "title": "Inde: un soutien majeur du «parti des cafards» obtient des…",
+        "body": "En Inde, la mobilisation étudiante se poursuit avec aujourd'hui une journée de protestation nationale pour réclamer la démission du ministre de l'Éducation sur fond de fraudes à répétition aux examens nationaux et de montée en puissance du « parti des cafards » popularisé sur les réseaux sociaux. Même si son un de ses soutiens majeurs, Sonam Wangchuk, a mis fin jeudi à sa grève de la faim après avoir obtenu des garanties du gouvernement.",
+        "source": "RFI",
+        "pub_date": "24 July 2026",
         "auto": true,
-        "link": "https://www.lemonde.fr/societe/article/2026/07/23/deux-assistantes-maternelles-d-une-creche-illegale-jugees-apres-avoir-cache-12-enfants-dans-une-voiture-lors-d-un-controle-dans-l-essonne_6730383_3224.html"
+        "link": "https://www.rfi.fr/fr/asie-pacifique/20260724-inde-le-leader-du-parti-des-cafards-arr%C3%AAte-sa-gr%C3%A8ve-de-la-faim-apr%C3%A8s-avoir-obtenu-des-garanties-du-gouvernement",
+        "region": "international"
       },
       {
-        "tag": "Société",
-        "title_cn": "“工作时偶尔不戴假肢，眼睛就会集中在我缺失的乳房上”：胸部，这个可以隐藏疾病的欲望对象",
-        "title": "« Les rares fois où je ne porte pas ma prothèse au travail, les regards se braquent sur mon sein absent » : la poitrine, cet objet du désir qui peut cacher la maladie",
-        "body": "« Sois belle et produis » (4/6). Attributs féminins par excellence, les seins sont aussi le siège du cancer le plus fréquent chez les femmes. Une maladie qui, dans le monde du travail, se heurte parfois à l’invisibilisation de la souffrance.",
-        "source": "Le Monde",
-        "pub_date": "23 July 2026",
+        "tag": "Connaissances",
+        "title_cn": "[RFI] En Islande, une loi vieille de 400 ans autorisait à tuer les…",
+        "title": "En Islande, une loi vieille de 400 ans autorisait à tuer les…",
+        "body": "En 1615, de nombreux Basques sont massacrés en Islande. Leur mise à mort est alors garantie par un décret local, adopté sur fond de raids et de pillages entre les communautés islandaises et les pêcheurs basques venus chasser la baleine autour de l’île. Cette loi est restée en vigueur pendant quatre cents ans.",
+        "source": "RFI",
+        "pub_date": "24 July 2026",
         "auto": true,
-        "link": "https://www.lemonde.fr/campus/article/2026/07/23/les-rares-fois-ou-je-ne-porte-pas-ma-prothese-au-travail-les-regards-se-braquent-sur-mon-sein-absent-la-poitrine-cet-objet-du-desir-qui-peut-cacher-la-maladie_6730345_4401467.html"
+        "link": "https://www.rfi.fr/fr/connaissances/20260724-en-islande-une-loi-vieille-de-400-ans-autorisait-de-tuer-les-basques",
+        "region": "europe"
       },
       {
-        "tag": "Société",
-        "title_cn": "2026 年环法自行车赛：山区是短跑运动员讨厌的地形，他们努力在最后期限前完成任务",
-        "title": "Tour de France 2026 : la montagne, terrain honni des sprinteurs, qui luttent pour rentrer dans les délais",
-        "body": "Après avoir franchi quatre massifs montagneux, les coureurs entrent dans les Alpes avec la 18ᵉ étape entre Voiron et Orcières-Merlette. Pour les sprinteurs, qui souffrent dès que la route prend de l’altitude, une mauvaise journée s’annonce à l’arrière du peloton.",
-        "source": "Le Monde",
-        "pub_date": "23 July 2026",
+        "tag": "Musique",
+        "title_cn": "[RFI] Le retour des Nèg'Marrons, reggae éternel",
+        "title": "Le retour des Nèg'Marrons, reggae éternel",
+        "body": "Découverts avec le single « La Monnaie » au mitan des années 1990, les Nèg'Marrons ont tracé la route. Sous le drapeau Secteur Ä, Jacky et Ben J ont traversé les décennies et reviennent avec un nouvel album après dix ans de silence discographique. Featuring avec Booba, nouvelle génération, évolution du son et lyrics militants, les deux Nèg' sont au micro de RFI.",
+        "source": "RFI",
+        "pub_date": "24 July 2026",
         "auto": true,
-        "link": "https://www.lemonde.fr/sport/article/2026/07/23/tour-de-france-2026-la-montagne-terrain-honni-des-sprinteurs-qui-luttent-pour-rentrer-dans-les-delais_6730587_3242.html"
+        "link": "https://www.rfi.fr/fr/musique/20260724-le-retour-des-n%C3%A8g-marrons-reggae-%C3%A9ternel",
+        "region": "europe"
       },
       {
-        "tag": "Société",
-        "title_cn": "2001 年热那亚八国集团会议上卡洛·朱利安尼的死亡和警察的暴力行为，成为意大利从未克服的创伤",
-        "title": "La mort de Carlo Giuliani et la violence policière au G8 de Gênes en 2001, un traumatisme jamais surmonté en Italie",
-        "body": "En marge du sommet international, les forces de l’ordre avaient déployé une brutalité inouïe, Amnesty International dénonçant plus tard « une violation des droits de l’homme d’une ampleur sans précédent dans l’histoire récente de l’Europe. »",
-        "source": "Le Monde",
-        "pub_date": "23 July 2026",
+        "tag": "Politique",
+        "title_cn": "[Le Figaro] «Un Conseil d’État qui deviendrait trop idéologue s’exposerait à…",
+        "title": "«Un Conseil d’État qui deviendrait trop idéologue s’exposerait à…",
+        "body": "FIGAROVOX/TRIBUNE - Les critiques suscitées par la nomination de Christine Maugüe à la tête du Conseil d’Etat, en raison de son engagement auprès de Christiane Taubira, traduisent une inquiétude légitime des Français quant à la politisation de cette institution, estime le juriste Jean-Pierre Camby.",
+        "source": "Le Figaro",
+        "pub_date": "24 July 2026",
         "auto": true,
-        "link": "https://www.lemonde.fr/international/article/2026/07/23/en-italie-la-blessure-toujours-ouverte-de-la-repression-lors-du-g8-de-genes-en-2001_6730108_3210.html"
+        "link": "https://www.lefigaro.fr/vox/politique/un-conseil-d-etat-qui-deviendrait-trop-ideologue-s-exposerait-a-un-desaveu-du-peuple-20260724",
+        "region": "europe"
       },
       {
-        "tag": "Société",
-        "title_cn": "安提比斯海洋世界：向西班牙转移8只海豚已开始，非政府组织谴责“金钱策划的耻辱”",
-        "title": "Marineland d’Antibes : le transfert de huit dauphins vers l’Espagne a commencé, des ONG dénoncent « une honte orchestrée par l’argent »",
-        "body": "Dans un communiqué, l’association One Voice a dénoncé « un scandale d’Etat et un voyage à haut risque pour des animaux dont la sécurité n’est pas assurée ».",
-        "source": "Le Monde",
-        "pub_date": "23 July 2026",
+        "tag": "Contre-Faits",
+        "title_cn": "[France 24] L'Italie, une forteresse contre l'immigration ?",
+        "title": "L'Italie, une forteresse contre l'immigration ?",
+        "body": "Élue sur la promesse de freiner l'immigration, Giorgia Meloni a multiplié les décrets. Pour quels résultats ? Elle a aussi promis d'externaliser l'accueil des migrants en Albanie dès son arrivée au pouvoir. Mais l'ouverture de ces centres s'est soldée par un échec après avoir été bloqué par la justice.",
+        "source": "France 24",
+        "pub_date": "24 July 2026",
         "auto": true,
-        "link": "https://www.lemonde.fr/planete/article/2026/07/23/marineland-d-antibes-le-transfert-de-huit-dauphins-a-commence-vers-l-espagne_6730621_3244.html"
+        "link": "https://www.france24.com/fr/%C3%A9missions/contre-faits/20260724-l-italie-une-forteresse-contre-l-immigration",
+        "region": "europe"
       }
     ],
     "vocab": [],
-    "word_count": 431,
+    "word_count": 518,
     "auto": true
   },
   {
@@ -157,7 +181,7 @@
       {
         "tag": "Société",
         "title_cn": "巴黎Samusocial罢工仍在继续，工会谴责“太多家庭重返街头”",
-        "title": "La grève au Samusocial de Paris se poursuit, les syndicats dénoncent « la remise à la rue de trop nombreuses familles »",
+        "title": "La grève au Samusocial de Paris se poursuit, les syndicats…",
         "body": "Selon la direction, le service d’aide fait face à un dépassement de son plafond annuel de dépenses consacrées à l’hébergement, et à un durcissement des critères d’accès.",
         "source": "Le Monde",
         "pub_date": "23 July 2026",
@@ -167,7 +191,7 @@
       {
         "tag": "Société",
         "title_cn": "在巴斯蒂亚，“科西嘉-马格里布”展览回顾了该岛和北非之间的来回迁徙",
-        "title": "A Bastia, l’exposition « Corsica-Maghreb » rappelle les allers-retours migratoires entre l’île et l’Afrique du Nord",
+        "title": "A Bastia, l’exposition « Corsica-Maghreb » rappelle les…",
         "body": "Le musée de la ville propose un passionnant regard croisé sur les relations entre la Corse et le Maghreb, à travers 336 oeuvres, objets et documents.",
         "source": "Le Monde",
         "pub_date": "23 July 2026",
@@ -177,7 +201,7 @@
       {
         "tag": "Société",
         "title_cn": "执法中的自卫推定：为何拟议的法律受到争议？",
-        "title": "Présomption de légitime défense pour les forces de l’ordre : pourquoi la proposition de loi fait débat ?",
+        "title": "Présomption de légitime défense pour les forces de l’ordre",
         "body": "Mardi 21 juillet, l’Assemblée a classé la pétition qui s’oppose à ce texte, elle ne sera donc pas débattue.",
         "source": "Le Monde",
         "pub_date": "22 July 2026",
@@ -187,7 +211,7 @@
       {
         "tag": "Société",
         "title_cn": "CSG、税收减免、资产……随着 2027 年的临近，退休人员领取工资的途径越来越多",
-        "title": "CSG, abattement fiscal, patrimoine... Les pistes pour faire payer les retraités s’accumulent à l’approche de 2027",
+        "title": "CSG, abattement fiscal, patrimoine... Les pistes pour faire…",
         "body": "DÉCRYPTAGE - Au-delà de la question de l’âge de départ à la retraite, suspendu jusqu’à la présidentielle, un autre débat s’installe : celui de la fiscalité des 17 millions de retraités français, qui représentent 25 % de la dépense publique.",
         "source": "Le Figaro",
         "pub_date": "23 July 2026",
@@ -197,7 +221,7 @@
       {
         "tag": "Société",
         "title_cn": "它看起来很自然，但却是：来自孔布卢这个壮丽的人工山湖的独特配方",
-        "title": "Il a l’air naturel et pourtant : les recettes inédites de ce sublime lac artificiel de montagne à Combloux",
+        "title": "Il a l’air naturel et pourtant",
         "body": "Filtré par les plantes, le plan d’eau biotope de Combloux nécessite un entretien particulier, une jauge plafonnée et des baigneurs responsables. Mais offre en retour une spectaculaire baignade face au Mont-Blanc et aux géants de Haute-Savoie.",
         "source": "Le Figaro",
         "pub_date": "23 July 2026",
@@ -207,7 +231,7 @@
       {
         "tag": "Société",
         "title_cn": "“他的信仰与普通美国人相似”：乔·罗根，播客之王，肆无忌惮的舆论制造者",
-        "title": "« Ses convictions ressemblent à celles d’un Américain moyen » : Joe Rogan, le roi des podcasteurs, faiseur d’opinion débridé",
+        "title": "« Ses convictions ressemblent à celles d’un Américain moyen »",
         "body": "Le plus écouté des podcasteurs du monde a soutenu Donald Trump lors de l’élection présidentielle de 2024, avant de s’en éloigner depuis quelques mois.",
         "source": "Le Figaro",
         "pub_date": "23 July 2026",
@@ -217,7 +241,7 @@
       {
         "tag": "Société",
         "title_cn": "“他们在两天内解决了两起悬案”：巴约讷附近，美国潜水员在阿杜尔河的令人难以置信的行动",
-        "title": "«Ils ont résolu deux cold cases en deux jours» : près de Bayonne, l’incroyable opération de plongeurs américains dans l’Adour",
+        "title": "«Ils ont résolu deux cold cases en deux jours»",
         "body": "RÉCIT - Les véhicules de Joëlle Pouy et David Stévenin, disparus en 2017 et 2018, ont été retrouvés à quelques heures d’intervalle cette semaine, grâce à l’intervention bénévole d’une équipe spécialisée dans l’élucidation d’affaires classées et qui compte 3,6 millions d’abonnés sur YouTube.",
         "source": "Le Figaro",
         "pub_date": "23 July 2026",
@@ -227,7 +251,7 @@
       {
         "tag": "Société",
         "title_cn": "莫雷蒂、泽勒、阿弗莱克、赫尔佐格……威尼斯电影节公布入围影片",
-        "title": "Moretti, Zeller, Affleck, Herzog... La Mostra de Venise dévoile sa sélection",
+        "title": "Moretti, Zeller, Affleck, Herzog... La Mostra de Venise dévoile…",
         "body": "La 83e édition de la Mostra de Venise, qui se tiendra du 2 au 12 septembre, a annoncé la liste des films en lice pour le Lion d’or.",
         "source": "Le Figaro",
         "pub_date": "23 July 2026",
@@ -237,7 +261,7 @@
       {
         "tag": "Société",
         "title_cn": "法国巴黎银行盈利能力提高并接近其他欧洲领先企业",
-        "title": "BNP Paribas améliore sa rentabilité et se rapproche de celle des autres leaders européens",
+        "title": "BNP Paribas améliore sa rentabilité et se rapproche de celle des…",
         "body": "Au deuxième trimestre, grâce à la bonne tenue de ses activités, les bénéfices de la première banque française ont bondi de 33%.",
         "source": "Le Figaro",
         "pub_date": "23 July 2026",
@@ -247,7 +271,7 @@
       {
         "tag": "Société",
         "title_cn": "2027 年总统大选：马琳·勒庞将参加由 Medef 于 8 月 27 日组织的候选人辩论",
-        "title": "Présidentielle 2027 : Marine Le Pen participera bien au débat des candidats organisé le 27 août par le Medef",
+        "title": "Présidentielle 2027",
         "body": "INFO LE FIGARO - La candidate RN, qui a répondu favorablement à l’invitation qui lui avait été lancée, participera pour la première fois aux universités d’été de l’organisation patronale, à Roland-Garros.",
         "source": "Le Figaro",
         "pub_date": "23 July 2026",
@@ -257,7 +281,7 @@
       {
         "tag": "Société",
         "title_cn": "Pierre Paulin 带领设计盛大登陆蒙彼利埃",
-        "title": "Avec Pierre Paulin, le design fait son entrée en fanfare à Montpellier",
+        "title": "Avec Pierre Paulin, le design fait son entrée en fanfare à…",
         "body": "REPORTAGE - Le Musée Fabre célèbre le créateur français qui révolutionna l’art des sièges, en les gansant de stretch, et bouleversa l’intérieur de l’Élysée, avec le fumoir pour les Pompidou, récemment restauré. Le clou de l’exposition.",
         "source": "Le Figaro",
         "pub_date": "23 July 2026",
@@ -288,7 +312,7 @@
       {
         "tag": "Technologie / Chine",
         "title_cn": "世界AI大会2026在上海开幕",
-        "title": "La Conférence mondiale sur l'IA s'ouvre à Shanghai avec des prévisions record pour la robotique",
+        "title": "La Conférence mondiale sur l'IA s'ouvre à Shanghai avec des…",
         "body": "La Conférence mondiale sur l'intelligence artificielle 2026 a ouvert ses portes à Shanghai, réunissant plus de 100 entreprises et 200 produits liés à l'IA. Parmi les annonces marquantes, Morgan Stanley a relevé ses prévisions pour le marché des robots humanoïdes à 50 000 unités en 2026, contre 14 000 auparavant, anticipant un marché de 20 milliards de dollars cette année et de 150 milliards d'ici 2030. UBS a rapporté que les commandes de composants IA sont réservées jusqu'à fin 2027, avec des bénéfices en hausse de 80 à 90 % cette année.",
         "source": "People's Daily / Morgan Stanley",
         "pub_date": "19 juillet 2026"
@@ -296,7 +320,7 @@
       {
         "tag": "Économie / Chine",
         "title_cn": "中国高技术制造业增长13.3%",
-        "title": "Le secteur high-tech chinois bondit de 13,3 %, porté par l'IA et les semi-conducteurs",
+        "title": "Le secteur high-tech chinois bondit de 13,3 %, porté par l'IA et…",
         "body": "La production de l'industrie high-tech chinoise a bondi de 13,3 % au premier semestre 2026, bien au-dessus de la croissance industrielle globale de 5,4 %, selon les données officielles publiées le 19 juillet. Les secteurs clés incluent la production de robots industriels (+28 %), d'équipements d'impression 3D (+48,5 %) et de circuits intégrés (279,8 milliards d'unités, soit plus de 1,5 milliard de puces par jour). Les bénéfices du secteur high-tech ont grimpé de 44,7 % sur les cinq premiers mois, confirmant la transformation structurelle de l'économie chinoise.",
         "source": "People's Daily / CCTV",
         "pub_date": "19 juillet 2026"
@@ -366,7 +390,7 @@
       {
         "tag": "Technologie / Chine",
         "title_cn": "CXMT上海IPO",
-        "title": "Le géant chinois des puces mémoire CXMT lève 8,6 milliards $ à Shanghai",
+        "title": "Le géant chinois des puces mémoire CXMT lève 8,6 milliards $ à…",
         "body": "ChangXin Memory Technologies (CXMT), le premier fabricant chinois de puces mémoire DRAM et le quatrième mondial, a fait son entrée à la Bourse de Shanghai le 27 juillet dans le cadre de la plus grande introduction en bourse d'Asie en 2026. L'opération, d'un montant de 8,6 milliards de dollars (29,5 milliards de yuans), a été 243 fois sursouscrite par les investisseurs particuliers. CXMT, qui détient environ 7,7 % du marché mondial de la DRAM, prévoit d'utiliser ces fonds pour moderniser ses lignes de production et développer de nouvelles technologies.",
         "source": "DealStreetAsia / SCMP",
         "pub_date": "juillet 2026"
@@ -382,7 +406,7 @@
       {
         "tag": "Régulation / Europe",
         "title_cn": "欧盟AI法案修正通过",
-        "title": "L'UE adopte le Digital Omnibus, premier assouplissement de l'AI Act",
+        "title": "L'UE adopte le Digital Omnibus, premier assouplissement de l'AI…",
         "body": "Le Conseil de l'Union européenne a officiellement adopté le « Digital Omnibus sur l'IA », le premier amendement majeur à l'AI Act depuis son entrée en vigueur en 2024. Le texte repousse les obligations pour les systèmes d'IA à haut risque au 2 décembre 2027, soit plus d'un an de délai supplémentaire. En revanche, les obligations de transparence entreront en vigueur le 2 août 2026 : les entreprises devront marquer les contenus générés par l'IA et informer les utilisateurs lors d'une interaction avec un système d'IA.",
         "source": "Euronews / Le Monde",
         "pub_date": "29 juin 2026"
@@ -390,7 +414,7 @@
       {
         "tag": "Technologie / Chine",
         "title_cn": "中国AI芯片爆发增长",
-        "title": "Les alternatives chinoises à Nvidia explosent face aux restrictions US",
+        "title": "Les alternatives chinoises à Nvidia explosent face aux…",
         "body": "Moore Threads Technology a annoncé une hausse de son chiffre d'affaires de 135 à 149 % au premier semestre 2026, grâce à la demande pour ses GPU et sa puce phare MTT S5000. Hygon Information a enregistré une croissance de 55 à 70 %, portée par ses processeurs et cartes d'accélération IA. Ces résultats illustrent l'émergence d'un écosystème de puces IA chinois, stimulé par les restrictions américaines et les investissements du 15e Plan quinquennal.",
         "source": "South China Morning Post",
         "pub_date": "juillet 2026"
@@ -398,7 +422,7 @@
       {
         "tag": "Technologie / International",
         "title_cn": "Meta拟租云设施给Anthropic",
-        "title": "Meta en négociations pour louer son infrastructure cloud à Anthropic",
+        "title": "Meta en négociations pour louer son infrastructure cloud à…",
         "body": "Meta est en discussions avancées pour louer une partie de son infrastructure informatique à Anthropic, la startup américaine d'IA concurrente d'OpenAI. L'accord potentiel, estimé à 10 milliards de dollars sur deux ans, marquerait une nouvelle stratégie de monétisation pour Meta. Pour Anthropic, ce partenariat permettrait d'accéder à davantage de capacités de calcul pour entraîner et déployer ses modèles d'IA, alors que l'entreprise se prépare à entrer en Bourse.",
         "source": "CNN Business",
         "pub_date": "17 juillet 2026"

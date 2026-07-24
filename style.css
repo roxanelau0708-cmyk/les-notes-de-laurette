@@ -628,6 +628,22 @@ body {
 .filter-row input[type="checkbox"] {
   accent-color: #1e3a5f;
 }
+.clean-btn {
+  margin-left: auto;
+  border: 1px solid #e4e7ec;
+  background: #fff;
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-size: 0.78rem;
+  cursor: pointer;
+  color: #667085;
+  transition: all 0.15s;
+}
+.clean-btn:hover {
+  border-color: #dc2626;
+  color: #dc2626;
+  background: #fef2f2;
+}
 
 /* === Notes Section === */
 .av-notes {
@@ -655,6 +671,21 @@ body {
 .av-read-btn:hover {
   border-color: #15803d;
   color: #15803d;
+}
+.av-del-btn {
+  border: 1px solid #fecaca;
+  background: #fff;
+  padding: 5px 14px;
+  border-radius: 16px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  color: #dc2626;
+  font-weight: 500;
+  transition: all 0.15s;
+}
+.av-del-btn:hover {
+  background: #fef2f2;
+  border-color: #dc2626;
 }
 .av-notes-label {
   font-size: 0.82rem;
