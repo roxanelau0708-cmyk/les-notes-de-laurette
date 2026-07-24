@@ -9,17 +9,18 @@
       "Horlogerie",
       "Outre-Mer",
       "Afrique",
+      "Contre-Faits",
       "Asie-Pacifique",
       "Connaissances",
-      "Musique",
       "Politique",
-      "Contre-Faits"
+      "Amériques"
     ],
     "regions": [
       "international",
-      "europe"
+      "europe",
+      "etats-unis"
     ],
-    "summary_cn": "奥伦·卡斯：“唐纳德·特朗普能否超越母亲…… | 一只猫失踪九个月，多亏了一个人的帮助才找到了…… | 巴黎圣母院的当代彩色玻璃窗甚至会吸引“…… | [Le Figaro] YouScribe : plongez dans vos lectures de l’été avec cet… | [Le Figaro] UN ÉTÉ FRANÇAIS – Pierre Lannier x 10 ATM Bora, destination…",
+    "summary_cn": "奥伦·卡斯：“唐纳德·特朗普能否超越母亲…… | 一只猫失踪九个月，多亏了一个人的帮助才找到了…… | 巴黎圣母院的当代彩色玻璃窗甚至会吸引“…… | YouScribe：用这个深入你的夏季阅读…… | 法国之夏 – Pierre Lannier x 10 ATM Bora，目的地……",
     "briefs": [
       {
         "tag": "World",
@@ -56,7 +57,7 @@
       },
       {
         "tag": "Bons plans",
-        "title_cn": "[Le Figaro] YouScribe : plongez dans vos lectures de l’été avec cet…",
+        "title_cn": "YouScribe：用这个深入你的夏季阅读……",
         "title": "YouScribe : plongez dans vos lectures de l’été avec cet…",
         "body": "Avec un seul abonnement pour accéder à une galaxie de livres audio, guides de voyages, classiques de la littérature et titres de presse, YouScribe est le compagnon idéal de votre été. Profitez de l’abonnement à un prix inédit !",
         "source": "Le Figaro",
@@ -67,7 +68,7 @@
       },
       {
         "tag": "Horlogerie",
-        "title_cn": "[Le Figaro] UN ÉTÉ FRANÇAIS – Pierre Lannier x 10 ATM Bora, destination…",
+        "title_cn": "法国之夏 – Pierre Lannier x 10 ATM Bora，目的地……",
         "title": "UN ÉTÉ FRANÇAIS – Pierre Lannier x 10 ATM Bora, destination…",
         "body": "Tout l’été, focus sur la nouvelle vague des montres françaises...La maison familiale alsacienne s’associe au youtubeur horloger Julien Laufer, le temps d’une édition limitée estivale à prix sage.",
         "source": "Le Figaro",
@@ -78,7 +79,7 @@
       },
       {
         "tag": "Outre-Mer",
-        "title_cn": "[France 24] Sécheresse",
+        "title_cn": "干旱",
         "title": "Sécheresse",
         "body": "De la Caraïbe au Pacifique, en passant par l'océan Indien, la sécheresse s'installe. A Futuna, l'absence de pluie menace les cultures. Sept communes subissent des restrictions à La Réunion, comme en Martinique et en Guadeloupe où les niveaux des nappes phréatiques sont faibles. Tour d'horizon avec Isabelle Braouet.",
         "source": "France 24",
@@ -89,7 +90,7 @@
       },
       {
         "tag": "Afrique",
-        "title_cn": "[France 24] Sanchez à Alger, Dakar soutient Sall, gazoduc Maroc - Nigeria",
+        "title_cn": "桑切斯在阿尔及尔、达喀尔支持萨尔、摩洛哥-尼日利亚天然气管道",
         "title": "Sanchez à Alger, Dakar soutient Sall, gazoduc Maroc - Nigeria",
         "body": "Sanchez à Alger, Dakar soutient Sall, gazoduc Maroc - Nigeria",
         "source": "France 24",
@@ -99,8 +100,19 @@
         "region": "international"
       },
       {
+        "tag": "Contre-Faits",
+        "title_cn": "梅洛尼，欧洲极右翼领袖？",
+        "title": "Meloni, cheffe de file de la droite radicale en Europe ?",
+        "body": "Giorgia Meloni, présidente du Conseil des ministres italiens depuis octobre 2022 est la première femme à diriger l'Italie. Dès son accession au pouvoir la dirigeante d'extrême droite a voulu être un pont entre l'Amérique de Donald Trump et la droite radicale européenne. Elle a même été la seule dirigeante européenne invitée à l'investiture du milliardaire américain pour son second mandat.",
+        "source": "France 24",
+        "pub_date": "24 July 2026",
+        "auto": true,
+        "link": "https://www.france24.com/fr/%C3%A9missions/contre-faits/20260724-meloni-cheffe-de-file-de-la-droite-radicale-en-europe",
+        "region": "etats-unis"
+      },
+      {
         "tag": "Asie-Pacifique",
-        "title_cn": "[RFI] Inde: un soutien majeur du «parti des cafards» obtient des…",
+        "title_cn": "印度：“蟑螂党”获得主要支持",
         "title": "Inde: un soutien majeur du «parti des cafards» obtient des…",
         "body": "En Inde, la mobilisation étudiante se poursuit avec aujourd'hui une journée de protestation nationale pour réclamer la démission du ministre de l'Éducation sur fond de fraudes à répétition aux examens nationaux et de montée en puissance du « parti des cafards » popularisé sur les réseaux sociaux. Même si son un de ses soutiens majeurs, Sonam Wangchuk, a mis fin jeudi à sa grève de la faim après avoir obtenu des garanties du gouvernement.",
         "source": "RFI",
@@ -111,7 +123,7 @@
       },
       {
         "tag": "Connaissances",
-        "title_cn": "[RFI] En Islande, une loi vieille de 400 ans autorisait à tuer les…",
+        "title_cn": "在冰岛，一项已有 400 年历史的法律允许杀害……",
         "title": "En Islande, une loi vieille de 400 ans autorisait à tuer les…",
         "body": "En 1615, de nombreux Basques sont massacrés en Islande. Leur mise à mort est alors garantie par un décret local, adopté sur fond de raids et de pillages entre les communautés islandaises et les pêcheurs basques venus chasser la baleine autour de l’île. Cette loi est restée en vigueur pendant quatre cents ans.",
         "source": "RFI",
@@ -121,19 +133,8 @@
         "region": "europe"
       },
       {
-        "tag": "Musique",
-        "title_cn": "[RFI] Le retour des Nèg'Marrons, reggae éternel",
-        "title": "Le retour des Nèg'Marrons, reggae éternel",
-        "body": "Découverts avec le single « La Monnaie » au mitan des années 1990, les Nèg'Marrons ont tracé la route. Sous le drapeau Secteur Ä, Jacky et Ben J ont traversé les décennies et reviennent avec un nouvel album après dix ans de silence discographique. Featuring avec Booba, nouvelle génération, évolution du son et lyrics militants, les deux Nèg' sont au micro de RFI.",
-        "source": "RFI",
-        "pub_date": "24 July 2026",
-        "auto": true,
-        "link": "https://www.rfi.fr/fr/musique/20260724-le-retour-des-n%C3%A8g-marrons-reggae-%C3%A9ternel",
-        "region": "europe"
-      },
-      {
         "tag": "Politique",
-        "title_cn": "[Le Figaro] «Un Conseil d’État qui deviendrait trop idéologue s’exposerait à…",
+        "title_cn": "“一个过于意识形态化的国务委员会将使自己暴露在......",
         "title": "«Un Conseil d’État qui deviendrait trop idéologue s’exposerait à…",
         "body": "FIGAROVOX/TRIBUNE - Les critiques suscitées par la nomination de Christine Maugüe à la tête du Conseil d’Etat, en raison de son engagement auprès de Christiane Taubira, traduisent une inquiétude légitime des Français quant à la politisation de cette institution, estime le juriste Jean-Pierre Camby.",
         "source": "Le Figaro",
@@ -143,19 +144,19 @@
         "region": "europe"
       },
       {
-        "tag": "Contre-Faits",
-        "title_cn": "[France 24] L'Italie, une forteresse contre l'immigration ?",
-        "title": "L'Italie, une forteresse contre l'immigration ?",
-        "body": "Élue sur la promesse de freiner l'immigration, Giorgia Meloni a multiplié les décrets. Pour quels résultats ? Elle a aussi promis d'externaliser l'accueil des migrants en Albanie dès son arrivée au pouvoir. Mais l'ouverture de ces centres s'est soldée par un échec après avoir été bloqué par la justice.",
+        "tag": "Amériques",
+        "title_cn": "唐纳德·特朗普重返年度新闻晚会，被中断……",
+        "title": "Donald Trump de retour au gala annuel de la presse, interrompu…",
+        "body": "Le président américain Donald Trump doit assister vendredi soir au dîner des correspondants de la Maison Blanche, un évènement reprogrammé trois mois après la tentative d’assassinat présumée l'ayant visé lors de ce gala annuel de la presse.",
         "source": "France 24",
         "pub_date": "24 July 2026",
         "auto": true,
-        "link": "https://www.france24.com/fr/%C3%A9missions/contre-faits/20260724-l-italie-une-forteresse-contre-l-immigration",
-        "region": "europe"
+        "link": "https://www.france24.com/fr/am%C3%A9riques/20260724-donald-trump-de-retour-gala-annuel-presse-interrompu-fin-avril-fusillade-d%C3%AEner-correspondants-maison-blanche",
+        "region": "etats-unis"
       }
     ],
     "vocab": [],
-    "word_count": 518,
+    "word_count": 503,
     "auto": true
   },
   {
