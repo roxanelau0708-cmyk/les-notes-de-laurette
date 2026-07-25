@@ -169,6 +169,23 @@ body {
   line-height: 1.4;
 }
 
+.del-row-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.7rem;
+  color: #ccc;
+  padding: 2px 6px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  line-height: 1;
+  transition: color 0.15s, background 0.15s;
+}
+.del-row-btn:hover {
+  color: #dc2626;
+  background: #fef2f2;
+}
+
 .tous-kw {
   font-size: 0.75rem;
   color: #98a2b3;
@@ -600,13 +617,7 @@ body {
   border: 1px solid #bbf7d0;
 }
 
-.tous-row.read {
-  opacity: 0.5;
-}
-.tous-row.read .tous-title-fr {
-  text-decoration: line-through;
-  color: #98a2b3;
-}
+/* 已读标记不再有视觉样式 */
 
 .filter-row {
   max-width: 780px;

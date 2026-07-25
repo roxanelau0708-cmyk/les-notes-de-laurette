@@ -20,36 +20,32 @@ function regionLabel(r) {
   return { 'chine': 'Chine', 'etats-unis': 'États-Unis', 'europe': 'Europe', 'international': 'International', 'francophonie': 'Francophonie' }[r] || r;
 }
 
-function isRead(date, briefIndex) {
-  return localStorage.getItem(`read_${date}_${briefIndex}`) === 'true';
+function isRead(link) {
+  return localStorage.getItem(`read_${link}`) === 'true';
 }
 
 function isHideRead() {
   return document.getElementById('hide-read')?.checked === true;
 }
 
-function isDeleted(date, briefIndex) {
-  return localStorage.getItem(`del_${date}_${briefIndex}`) === 'true';
+function isDeleted(link) {
+  return localStorage.getItem(`del_${link}`) === 'true';
 }
 
-function markDeleted(date, briefIndex) {
-  localStorage.setItem(`del_${date}_${briefIndex}`, 'true');
-  localStorage.setItem(`read_${date}_${briefIndex}`, 'true');
+function markDeleted(link) {
+  localStorage.setItem(`del_${link}`, 'true');
+  localStorage.setItem(`read_${link}`, 'true');
 }
 
 function cleanReadArticles() {
-  // 清理所有已读文章
+  const toRemove = [];
   for (let i = 0; i < localStorage.length; i++) {
     const key = localStorage.key(i);
-    if (key && key.startsWith('read_') && localStorage.getItem(key) === 'true') {
-      // key = read_YYYY-MM-DD_INDEX
-      const underscore = key.indexOf('_');
-      const lastUnderscore = key.lastIndexOf('_');
-      const date = key.slice(underscore + 1, lastUnderscore);
-      const idx = key.slice(lastUnderscore + 1);
-      localStorage.setItem(`del_${date}_${idx}`, 'true');
+    if (key && (key.startsWith('read_') || key.startsWith('del_'))) {
+      toRemove.push(key);
     }
   }
+  toRemove.forEach(k => localStorage.removeItem(k));
   applyFilters();
 }
 
@@ -58,9 +54,11 @@ function flattenBriefs(articles) {
   const items = [];
   articles.forEach(a => {
     a.briefs.forEach((b, idx) => {
-      if (isDeleted(a.date, idx)) return;
+      const link = b.link || `${a.date}_${idx}`;
+      if (isDeleted(link)) return;
       items.push({
         date: a.date,
+        link: link,
         region: b.region || regionFromTag(b.tag) || 'international',
         topic: b.tag.split(' / ')[0],
         title_cn: b.title_cn,
@@ -88,8 +86,9 @@ function showArticleView(article, briefIndex) {
 
   const dateDisplay = article.date.replace(/-/g, '/');
   const region = brief.region || regionFromTag(brief.tag);
-  const noteKey = `note_${article.date}_${briefIndex}`;
-  const readKey = `read_${article.date}_${briefIndex}`;
+  const link = brief.link || `${article.date}_${briefIndex}`;
+  const noteKey = `note_${link}`;
+  const readKey = `read_${link}`;
   const savedNote = localStorage.getItem(noteKey) || '';
   const isRead = localStorage.getItem(readKey) === 'true';
 
@@ -135,7 +134,7 @@ function showArticleView(article, briefIndex) {
   // Delete article
   document.getElementById('del-btn').addEventListener('click', () => {
     if (confirm('Supprimer cet article ?')) {
-      markDeleted(article.date, briefIndex);
+      markDeleted(link);
       showListView();
     }
   });
@@ -210,7 +209,7 @@ function renderList(articles) {
 function renderTousView(articles, container) {
   let items = flattenBriefs(articles);
   if (isHideRead()) {
-    items = items.filter(item => !isRead(item.date, item.briefIndex));
+    items = items.filter(item => !isRead(item.link));
   }
   if (items.length === 0) {
     container.innerHTML = '<div class="empty-state">Tout est lu ! ✅</div>';
@@ -219,7 +218,7 @@ function renderTousView(articles, container) {
 
   container.innerHTML = items.map(item => {
     const dateDisplay = item.date.replace(/-/g, '/');
-    const read = isRead(item.date, item.briefIndex);
+    const read = isRead(item.link);
     // 精简中文：截取前 20 个字或到第一个标点
     let kw = (item.title_cn || '').trim();
     if (kw) {
@@ -228,12 +227,13 @@ function renderTousView(articles, container) {
       else kw = kw.slice(0, 22);
     }
     return `
-      <div class="tous-row ${read ? 'read' : ''}" data-date="${item.date}" data-brief="${item.briefIndex}">
+      <div class="tous-row" data-date="${item.date}" data-brief="${item.briefIndex}" data-link="${item.link}">
         <div class="tous-main">
           <span class="tous-date">${dateDisplay}</span>
           <span class="tous-emoji">${REGION_EMOJI[item.region]}</span>
           <span class="tous-title-fr">${item.title}</span>
           ${read ? '<span class="read-badge">✓</span>' : ''}
+          <button class="del-row-btn" title="Supprimer">✕</button>
         </div>
         ${kw ? `<div class="tous-kw">${kw}</div>` : ''}
       </div>
@@ -241,6 +241,14 @@ function renderTousView(articles, container) {
   }).join('');
 
   container.querySelectorAll('.tous-row').forEach(el => {
+    const link = el.dataset.link;
+    el.querySelector('.del-row-btn')?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (confirm('Supprimer cet article ?')) {
+        markDeleted(link);
+        el.remove();
+      }
+    });
     el.addEventListener('click', () => {
       const article = allArticles.find(a => a.date === el.dataset.date);
       if (article) showArticleView(article, parseInt(el.dataset.brief));
@@ -251,7 +259,7 @@ function renderTousView(articles, container) {
 function renderRegionalView(articles, container) {
   let items = flattenBriefs(articles).filter(i => i.region === activeRegion);
   if (isHideRead()) {
-    items = items.filter(item => !isRead(item.date, item.briefIndex));
+    items = items.filter(item => !isRead(item.link));
   }
 
   if (items.length === 0) {
@@ -271,7 +279,7 @@ function renderRegionalView(articles, container) {
       <div class="region-date-group">
         <div class="region-date-header">${dateDisplay}</div>
         ${byDate[d].map(item => {
-          const read = isRead(item.date, item.briefIndex);
+          const read = isRead(item.link);
           let kw = (item.title_cn || '').trim();
           if (kw) {
             const punct = kw.search(/[，,。、；：]/);
@@ -279,11 +287,12 @@ function renderRegionalView(articles, container) {
             else kw = kw.slice(0, 22);
           }
           return `
-          <div class="tous-row ${read ? 'read' : ''}" data-date="${item.date}" data-brief="${item.briefIndex}">
+          <div class="tous-row" data-date="${item.date}" data-brief="${item.briefIndex}" data-link="${item.link}">
             <div class="tous-main">
               <span class="tous-title-fr" style="padding-left:16px">${item.title}</span>
               ${item.sourceArticle?.briefs?.[item.briefIndex]?.auto ? '<span class="auto-badge auto">Auto</span>' : ''}
               ${read ? '<span class="read-badge">✓</span>' : ''}
+              <button class="del-row-btn" title="Supprimer">✕</button>
             </div>
             ${kw ? `<div class="tous-kw" style="padding-left:16px">${kw}</div>` : ''}
           </div>`;
@@ -293,6 +302,14 @@ function renderRegionalView(articles, container) {
   }).join('');
 
   container.querySelectorAll('.tous-row').forEach(el => {
+    const link = el.dataset.link;
+    el.querySelector('.del-row-btn')?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (confirm('Supprimer cet article ?')) {
+        markDeleted(link);
+        el.remove();
+      }
+    });
     el.addEventListener('click', () => {
       const article = allArticles.find(a => a.date === el.dataset.date);
       if (article) showArticleView(article, parseInt(el.dataset.brief));

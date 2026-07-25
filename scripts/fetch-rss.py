@@ -282,6 +282,28 @@ CULTURAL = [
 ]
 
 
+FRENCH_STOPS = {
+    'le', 'la', 'les', 'de', 'des', 'du', 'et', 'est', 'un', 'une',
+    'dans', 'sur', 'pour', 'avec', 'par', 'pas', 'plus', 'que', 'qui',
+    'à', 'au', 'aux', 'en', 'ce', 'ces', 'son', 'sa', 'ses', 'il',
+    'elle', 'nous', 'vous', 'ils', 'elles', 'mais', 'ou', 'donc',
+    'car', 'ne', 'pas', 'se', 'sont', 'fait', 'très', 'tout', 'tous',
+    'cette', 'leur', 'leurs', 'être', 'avoir', 'faire', 'comme',
+    'dans', 'avec', 'sans', 'chez', 'entre',
+}
+
+
+def is_french_text(text):
+    """法语检测：通过法语停用词判断文本是否为法语"""
+    if not text:
+        return True
+    words = set(re.findall(r"\b[a-zàâçéèêëîïôûùüÿñ]\w+\b", text.lower()))
+    if not words:
+        return True
+    french_count = len(words & FRENCH_STOPS)
+    return french_count >= 2
+
+
 def should_exclude(title, desc):
     """过滤战争细节和纯人物新闻；文化相关的不滤"""
     text = (title + " " + (desc or "")).lower()
@@ -421,8 +443,15 @@ def main():
         print("ℹ️  Aucun nouvel article à ajouter.")
         return
 
+    # 过滤非法语内容
+    french_only = [item for item in deduped
+                   if is_french_text(item["title"] + " " + item.get("desc", ""))]
+    eng_count = len(deduped) - len(french_only)
+    if eng_count:
+        print(f"🗑️  {eng_count} articles non-français exclus")
+
     # 5. 过滤 + 多样性选文
-    candidates = [item for item in deduped
+    candidates = [item for item in french_only
                   if not should_exclude(item["title"], item.get("desc", ""))]
     selected = select_diverse(candidates, total=12)
     print(f"📋 {len(selected)} articles retenus ({len(candidates)} candidats après filtrage)")
