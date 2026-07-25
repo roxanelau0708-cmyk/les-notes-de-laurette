@@ -1,5 +1,167 @@
 [
   {
+    "date": "2026-07-25",
+    "tags": [
+      "Animaux",
+      "Jardin",
+      "Maison",
+      "Quiz français",
+      "Horlogerie",
+      "Bons plans",
+      "Politique",
+      "Journal de l'Afrique",
+      "À l'Affiche !",
+      "Outre-Mer",
+      "Amériques",
+      "L’Asie en mouvement"
+    ],
+    "regions": [
+      "europe",
+      "francophonie",
+      "etats-unis",
+      "international",
+      "chine"
+    ],
+    "summary_cn": "我与菲莱、皮埃罗和格里苏的生活 | 周末郊游亲近自然 | 装修激情 | “腔棘鱼”、“弯曲”……您是……专家吗？ | 2026 年环法自行车赛",
+    "briefs": [
+      {
+        "tag": "Animaux",
+        "title_cn": "我与菲莱、皮埃罗和格里苏的生活",
+        "title": "Ma vie avec Philaé, Pierrot et Grisou",
+        "body": "Alors que plus d’un Français sur deux vit avec un animal de compagnie, nous leur donnons la parole afin qu’il nous parle du lien unique qu’ils ont noué avec leur chien ou leur chat. Aujourd’hui, c’est Karine qui nous parle de ses chats.",
+        "source": "Le Figaro",
+        "pub_date": "25 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/animaux/ma-vie-avec-philae-pierrot-et-grisou-c-est-un-monde-nouveau-qui-s-ouvre-a-vous-20260725",
+        "region": "europe"
+      },
+      {
+        "tag": "Jardin",
+        "title_cn": "周末郊游亲近自然",
+        "title": "Sorties week-end nature",
+        "body": "Aux portes de la capitale ou face à la grande bleue, deux lieux où flâner, respirer et admirer une biodiversité foisonnante vous attendent ce samedi ou ce dimanche.",
+        "source": "Le Figaro",
+        "pub_date": "25 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/jardin/sorties-week-end-nature-un-grand-parc-historique-francilien-ou-un-jardin-exotique-face-a-la-mer-20260725",
+        "region": "europe"
+      },
+      {
+        "tag": "Maison",
+        "title_cn": "装修激情",
+        "title": "Passion décoration",
+        "body": "Chaque époque voit défiler ses propres tendances, ses propres influences. En matière de décoration, certaines ont marqué les esprits, si bien qu’elles reviennent encore et toujours à la mode. Êtes-vous suffisamment calé sur le sujet pour les identifier ? Faites le quiz.",
+        "source": "Le Figaro",
+        "pub_date": "25 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/maison/passion-decoration-saurez-vous-nommer-ces-styles-sans-vous-tromper-20260725",
+        "region": "europe"
+      },
+      {
+        "tag": "Quiz français",
+        "title_cn": "“腔棘鱼”、“弯曲”……您是……专家吗？",
+        "title": "«Cœlacanthe», «Anfractuosité»... Êtes-vous un expert de la…",
+        "body": "QUIZ - L’orthographe française recèle de pièges en tout genre. Saurez-vous les éviter ?",
+        "source": "Le Figaro",
+        "pub_date": "25 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/langue-francaise/quiz-francais/coelacanthe-anfractuosite-etes-vous-un-expert-de-la-langue-francaise-20260725",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Horlogerie",
+        "title_cn": "2026 年环法自行车赛",
+        "title": "Tour de France 2026",
+        "body": "Entre Tissot, Breitling, Tudor et surtout Richard Mille, on n’aura sans doute jamais autant croisé de montres que sur ce Tour de France 2026.",
+        "source": "Le Figaro",
+        "pub_date": "25 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/horlogerie/tour-de-france-2026-ces-marques-de-montres-qui-se-piquent-de-velo-20260725",
+        "region": "europe"
+      },
+      {
+        "tag": "Bons plans",
+        "title_cn": "芙蕾达·麦克法登",
+        "title": "Freida McFadden",
+        "body": "Freida McFadden est l’autrice la plus en vue du moment. Laissez-vous embarquer cet été par la reine du thriller psychologique. Le Dîner, La Prof et Les Secrets de la femme de ménage vous attendent en livre de poche sur Amazon.",
+        "source": "Le Figaro",
+        "pub_date": "25 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/bons-plans/freida-mcfadden-voici-ses-3-meilleurs-thrillers-a-devorer-cet-ete-20260725",
+        "region": "europe"
+      },
+      {
+        "tag": "Politique",
+        "title_cn": "让-吕克·梅朗雄，激进主义和过度行为是唯一的道路……",
+        "title": "Jean-Luc Mélenchon, la radicalité et l’outrance pour seul chemin…",
+        "body": "RÉCIT - La France insoumise a dû faire face ces derniers jours à plusieurs polémiques. Pour autant, aucune secousse ne semble perturber la dynamique du mouvement dans l’opinion.",
+        "source": "Le Figaro",
+        "pub_date": "24 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/elections/presidentielles/jean-luc-melenchon-la-radicalite-et-l-outrance-pour-seul-chemin-vers-2027-20260724",
+        "region": "europe"
+      },
+      {
+        "tag": "Journal de l'Afrique",
+        "title_cn": "美国干预马里？巴马科没有证实……",
+        "title": "Vers une intervention américaine au Mali ? Bamako ne confirme…",
+        "body": "Les États Unis envisagent-elles une prochaine intervention militaire au Mali ? Mercredi, le journal américain Le Washington Post a affirmé que « l’Administration Trump étudie des options militaires au Mali ». Cette information a suscité de nombreux commentaires depuis…",
+        "source": "France 24",
+        "pub_date": "24 July 2026",
+        "auto": true,
+        "link": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260724-vers-une-intervention-am%C3%A9ricaine-au-mali-bamako-ne-confirme-pas",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "À l'Affiche !",
+        "title_cn": "朴赞郁在阿尔勒摄影节上",
+        "title": "Park Chan-wook aux Rencontres d'Arles",
+        "body": "On le savait cinéaste virtuose, on le découvre désormais photographe. Le réalisateur sud-coréen Park Chan-wook, récompensé pour \"Oldboy ou \"Decision to Leave\", président du jury du dernier Festival de Cannes, expose pour la première fois ses photos en Europe, aux Rencontres d'Arles. Louise Dupont a eu le droit à une visite privée.",
+        "source": "France 24",
+        "pub_date": "24 July 2026",
+        "auto": true,
+        "link": "https://www.france24.com/fr/%C3%A9missions/%C3%A0-l-affiche/20260724-park-chan-wook-aux-rencontres-d-arles-du-cin%C3%A9ma-%C3%A0-la-photo",
+        "region": "europe"
+      },
+      {
+        "tag": "Outre-Mer",
+        "title_cn": "干旱",
+        "title": "Sécheresse",
+        "body": "De la Caraïbe au Pacifique, en passant par l'océan Indien, la sécheresse s'installe. A Futuna, l'absence de pluie menace les cultures. Sept communes subissent des restrictions à La Réunion, comme en Martinique et en Guadeloupe où les niveaux des nappes phréatiques sont faibles. Tour d'horizon avec Isabelle Braouet.",
+        "source": "France 24",
+        "pub_date": "24 July 2026",
+        "auto": true,
+        "link": "https://www.france24.com/fr/%C3%A9missions/outre-mer/20260724-s%C3%A9cheresse-alerte-au-manque-d-eau-en-outre-mer",
+        "region": "europe"
+      },
+      {
+        "tag": "Amériques",
+        "title_cn": "国际刑事法院总检察长卡里姆·汗被解雇...",
+        "title": "Le procureur général de la CPI Karim Khan démis de ses fonctions…",
+        "body": "La décision était attendue et elle marque un tournant dans l'histoire de la Cour Pénale Internationale : le procureur de la CPI Karim Khan est relevé de ses fonctions pour «faute grave» et «manquement grave aux devoirs de sa charge», a annoncé l'Assemblée. Karim Khan était suspendu depuis 2025, la Cour a donc décidé de le révoquer défintivement après la tenue d'une réunion exceptionnelle vendredi 24 juillet dans l'après-midi au siège de l'ONU à New York.",
+        "source": "RFI",
+        "pub_date": "24 July 2026",
+        "auto": true,
+        "link": "https://www.rfi.fr/fr/am%C3%A9riques/20260724-le-procureur-g%C3%A9n%C3%A9ral-de-la-cpi-karim-khan-d%C3%A9mis-de-ses-fonctions-apr%C3%A8s-des-accusations-de-harc%C3%A8lement-sexuel",
+        "region": "international"
+      },
+      {
+        "tag": "L’Asie en mouvement",
+        "title_cn": "唐纳德·特朗普，对习近平来说是个好消息吗？",
+        "title": "Donald Trump, une bonne nouvelle pour Xi Jinping?",
+        "body": "Est-ce que le mandat de Donald Trump ne serait pas finalement une très bonne affaire pour la Chine ? Le Républicain, à la rhétorique particulièrement hostile envers Pékin durant la campagne, s’est progressivement adouci. Après s’être rendu lui-même en Chine, il a annoncé cette semaine la visite d'État de Xi Jinping aux États-Unis le 24 septembre.",
+        "source": "RFI",
+        "pub_date": "24 July 2026",
+        "auto": true,
+        "link": "https://www.rfi.fr/fr/podcasts/l-asie-en-mouvement/20260724-donald-trump-une-bonne-nouvelle-pour-xi-jinping",
+        "region": "chine"
+      }
+    ],
+    "vocab": [],
+    "word_count": 490,
+    "auto": true
+  },
+  {
     "date": "2026-07-24",
     "tags": [
       "World",
