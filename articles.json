@@ -2,6 +2,7 @@
   {
     "date": "2026-07-25",
     "tags": [
+      "Bons plans Maison",
       "Animaux",
       "Jardin",
       "Maison",
@@ -12,18 +13,27 @@
       "Journal de l'Afrique",
       "À l'Affiche !",
       "Outre-Mer",
-      "Amériques",
-      "L’Asie en mouvement"
+      "Amériques"
     ],
     "regions": [
       "europe",
       "francophonie",
       "etats-unis",
-      "international",
-      "chine"
+      "international"
     ],
-    "summary_cn": "我与菲莱、皮埃罗和格里苏的生活 | 周末郊游亲近自然 | 装修激情 | “腔棘鱼”、“弯曲”……您是……专家吗？ | 2026 年环法自行车赛",
+    "summary_cn": "这款 Silvercrest 设备售价不到 20 欧元，绝对是一款热门产品…… | 我与菲莱、皮埃罗和格里苏的生活 | 周末郊游亲近自然 | 装修激情 | “腔棘鱼”、“弯曲”……您是……专家吗？",
     "briefs": [
+      {
+        "tag": "Bons plans Maison",
+        "title_cn": "这款 Silvercrest 设备售价不到 20 欧元，绝对是一款热门产品……",
+        "title": "Cet appareil Silvercrest à moins de 20 € fait un carton absolu…",
+        "body": "On peut se dire que cuire du riz à la casserole ou au micro-ondes suffit amplement, mais ceux qui ont déjà testé un cuiseur à riz ne sont pas du même avis. Si vous pensez que cet appareil pèse dans le budget, Lidl prouve que non, avec sa version Silvercrest.",
+        "source": "Le Figaro",
+        "pub_date": "25 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/bons-plans/maison/cet-appareil-silvercrest-a-moins-de-20-fait-un-carton-absolu-chez-lidl-20260725",
+        "region": "europe"
+      },
       {
         "tag": "Animaux",
         "title_cn": "我与菲莱、皮埃罗和格里苏的生活",
@@ -136,7 +146,7 @@
       },
       {
         "tag": "Amériques",
-        "title_cn": "国际刑事法院总检察长卡里姆·汗被解雇...",
+        "title_cn": "国际刑事法院总检察长卡里姆·汗被解雇……",
         "title": "Le procureur général de la CPI Karim Khan démis de ses fonctions…",
         "body": "La décision était attendue et elle marque un tournant dans l'histoire de la Cour Pénale Internationale : le procureur de la CPI Karim Khan est relevé de ses fonctions pour «faute grave» et «manquement grave aux devoirs de sa charge», a annoncé l'Assemblée. Karim Khan était suspendu depuis 2025, la Cour a donc décidé de le révoquer défintivement après la tenue d'une réunion exceptionnelle vendredi 24 juillet dans l'après-midi au siège de l'ONU à New York.",
         "source": "RFI",
@@ -144,21 +154,10 @@
         "auto": true,
         "link": "https://www.rfi.fr/fr/am%C3%A9riques/20260724-le-procureur-g%C3%A9n%C3%A9ral-de-la-cpi-karim-khan-d%C3%A9mis-de-ses-fonctions-apr%C3%A8s-des-accusations-de-harc%C3%A8lement-sexuel",
         "region": "international"
-      },
-      {
-        "tag": "L’Asie en mouvement",
-        "title_cn": "唐纳德·特朗普，对习近平来说是个好消息吗？",
-        "title": "Donald Trump, une bonne nouvelle pour Xi Jinping?",
-        "body": "Est-ce que le mandat de Donald Trump ne serait pas finalement une très bonne affaire pour la Chine ? Le Républicain, à la rhétorique particulièrement hostile envers Pékin durant la campagne, s’est progressivement adouci. Après s’être rendu lui-même en Chine, il a annoncé cette semaine la visite d'État de Xi Jinping aux États-Unis le 24 septembre.",
-        "source": "RFI",
-        "pub_date": "24 July 2026",
-        "auto": true,
-        "link": "https://www.rfi.fr/fr/podcasts/l-asie-en-mouvement/20260724-donald-trump-une-bonne-nouvelle-pour-xi-jinping",
-        "region": "chine"
       }
     ],
     "vocab": [],
-    "word_count": 490,
+    "word_count": 484,
     "auto": true
   },
   {
