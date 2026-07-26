@@ -1,5 +1,165 @@
 [
   {
+    "date": "2026-07-26",
+    "tags": [
+      "Animaux",
+      "Jardin",
+      "Maison",
+      "Actu des mots",
+      "Formule 1",
+      "Politique",
+      "Cinéma",
+      "Musique",
+      "Journal de l'Afrique",
+      "Amériques",
+      "C'est dans ta nature",
+      "Y'a quoi sur tes réseaux?"
+    ],
+    "regions": [
+      "europe",
+      "francophonie",
+      "international"
+    ],
+    "summary_cn": "法国森林动物 | 就像在酒店一样 | 非凡的房子 | “莉赛特很好” | 匈牙利大奖赛",
+    "briefs": [
+      {
+        "tag": "Animaux",
+        "title_cn": "法国森林动物",
+        "title": "Animaux des forêts françaises",
+        "body": "QUIZ - À travers les documentaires, les films ou même les contes, les animaux des forêts font partie de notre culture depuis l’enfance. Nombreux sont ceux qui croient tout savoir sur eux. Et pourtant ! Seul un fin connaisseur saura reconnaître les animaux des forêts présents et répondre sans faute aux 10 questions de ce test.",
+        "source": "Le Figaro",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/animaux/animaux-des-forets-francaises-seuls-les-plus-forts-obtiendront-la-note-maximale-a-ce-quiz-20260726",
+        "region": "europe"
+      },
+      {
+        "tag": "Jardin",
+        "title_cn": "就像在酒店一样",
+        "title": "Comme à l’hôtel",
+        "body": "Installation domestique très prisée, la piscine extérieure continue de faire des émules chez les propriétaires, qui tentent de la rendre toujours plus désirable. Certaines font particulièrement rêver. La preuve en images.",
+        "source": "Le Figaro",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/jardin/comme-a-l-hotel-ces-fabuleuses-piscines-exterieures-tout-droit-sorties-d-un-reve-20260726",
+        "region": "europe"
+      },
+      {
+        "tag": "Maison",
+        "title_cn": "非凡的房子",
+        "title": "Extraordinaires maisons",
+        "body": "Elles résultent d’une créativité sans limite, tournée vers l’extraordinaire. De São Paulo à Mexico, de la baie de Cannes à la Suisse, partez à la découverte de maisons d’architectes hors du commun, dotées d’atouts spectaculaires.",
+        "source": "Le Figaro",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/maison/extraordinaires-maisons-quand-les-architectes-defient-le-rationnel-20260726",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Actu des mots",
+        "title_cn": "“莉赛特很好”",
+        "title": "«Lisette va bien»",
+        "body": "RÉCIT - Il y a tout juste 85 ans, en 1941, les premiers messages cachés par stéganographie étaient diffusés par Radio Londres pour organiser la Résistance. Une technique encore employée de nos jours.",
+        "source": "Le Figaro",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/langue-francaise/actu-des-mots/lisette-va-bien-ces-messages-secrets-qui-ont-sauve-la-france-20260726",
+        "region": "europe"
+      },
+      {
+        "tag": "Formule 1",
+        "title_cn": "匈牙利大奖赛",
+        "title": "GP de Hongrie",
+        "body": "Après la Belgique, direction la Hongrie pour la suite de la saison de F1. Heure, chaîne... Découvrez toutes les informations utiles pour suivre le Grand Prix de dimanche.",
+        "source": "Le Figaro",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/sports/formule-1/gp-de-hongrie-sur-quelle-chaine-et-a-quelle-heure-voir-la-course-en-direct-20260726",
+        "region": "europe"
+      },
+      {
+        "tag": "Politique",
+        "title_cn": "“右翼的法国愿景和左翼的法国愿景......",
+        "title": "« Une vision de droite d’être la France et de gauche d’être…",
+        "body": "MACRON ET LES RITUELS DU POUVOIR (5/5) - Cérémonies militaires, hommages nationaux, panthéonisations… Le chef de l’État a tenté de dégager un fil rouge de ses choix en matière de mémoire, non sans distiller des messages politiques.",
+        "source": "Le Figaro",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/politique/une-vision-de-droite-d-etre-la-france-et-de-gauche-d-etre-francais-emmanuel-macron-dix-ans-de-commemorations-sous-le-signe-du-en-meme-temps-20260726",
+        "region": "europe"
+      },
+      {
+        "tag": "Cinéma",
+        "title_cn": "“突然，头低了下去”",
+        "title": "«Brusquement, la tête a plongé»",
+        "body": "RÉCIT - Budget explosé, acteurs en surchauffe, réalisateurs dépassés, accidents… Chaque semaine, nous vous racontons comment certains grands films sont nés dans la douleur.",
+        "source": "Le Figaro",
+        "pub_date": "25 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/cinema/brusquement-la-tete-a-plonge-les-dents-de-la-mer-un-tournage-qui-vire-au-cauchemar-20260725",
+        "region": "europe"
+      },
+      {
+        "tag": "Musique",
+        "title_cn": "当阿尔勒成为法国弗拉门戈之都",
+        "title": "Quand Arles devient la capitale française du flamenco",
+        "body": "Outre une programmation éclectique, la 9e édition du festival FlamencA qui se tient du 29 juillet au 15 août, propose un hommage au chanteur arlésien José Reyes.",
+        "source": "Le Figaro",
+        "pub_date": "25 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/musique/quand-arles-devient-la-capitale-francaise-du-flamenco-20260725",
+        "region": "europe"
+      },
+      {
+        "tag": "Journal de l'Afrique",
+        "title_cn": "“基拉伊，共和爱国者”……的新党",
+        "title": "\"Kiiraay, les patriotes républicains\" le nouveau parti du…",
+        "body": "Sénégal : la majorité se réorganise, la bataille d'influence est lancée. Le président Bassirou Diomaye Faye dévoile ce samedi le nom de son nouveau parti, Kiiraay, les patriotes républicains, tandis que son Premier ministre Ousmane Sonko consolide les rangs du Pastef. Entre nouvelles adhésions, départs et jeux d'alliances, le paysage politique sénégalais est en pleine recomposition.",
+        "source": "France 24",
+        "pub_date": "25 July 2026",
+        "auto": true,
+        "link": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260725-kiiraay-les-patriotes-r%C3%A9publicains-le-nouveau-parti-du-pr%C3%A9sident-s%C3%A9n%C3%A9galais-d%C3%A9voil%C3%A9",
+        "region": "europe"
+      },
+      {
+        "tag": "Amériques",
+        "title_cn": "巴西：弗拉维奥·博尔索纳罗被提名为总统候选人……",
+        "title": "Brésil: Flavio Bolsonaro investi candidat pour la présidentielle…",
+        "body": "Après la Coupe du monde, la politique reprend ses droits au Brésil. Le Parti libéral a lancé officiellement ce samedi 25 juillet la candidature de Flavio Bolsonaro à la présidence en vue des élections du 4 octobre. Le sénateur, et surtout fils de l'ancien président d'extrême droite Jair Bolsonaro, détenu pour tentative de coup d'État, affrontera notamment Lula, le président sortant, qui devrait annoncer le week-end prochain sa candidature pour un quatrième mandat.",
+        "source": "RFI",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.rfi.fr/fr/am%C3%A9riques/20260726-br%C3%A9sil-flavio-bolsonaro-investi-candidat-pour-la-pr%C3%A9sidentielle-d-octobre",
+        "region": "international"
+      },
+      {
+        "tag": "C'est dans ta nature",
+        "title_cn": "面对高温和热浪，非常聪明的动物",
+        "title": "Face à la chaleur et aux canicules, des animaux très ingénieux",
+        "body": "Certaines espèces animales se sont adaptées à des températures élevées. Voici leurs « trucs et astuces » pour rester au frais.",
+        "source": "RFI",
+        "pub_date": "25 July 2026",
+        "auto": true,
+        "link": "https://www.rfi.fr/fr/podcasts/c-est-dans-ta-nature/20260725-face-%C3%A0-la-chaleur-et-aux-canicules-des-animaux-tr%C3%A8s-ing%C3%A9nieux",
+        "region": "international"
+      },
+      {
+        "tag": "Y'a quoi sur tes réseaux?",
+        "title_cn": "热浪，热浪，还有和萝拉发脾气……",
+        "title": "La canicule, les coups de chaud et les coups de colère avec Lola…",
+        "body": "Lola a vécu les vagues de chaleur successives dans son studio à Nantes, l'une des villes qui a connu les températures les plus extrêmes du début de l'été. Astuces, débrouille et révolte ont rythmé ses réseaux.",
+        "source": "RFI",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.rfi.fr/fr/podcasts/y-a-quoi-sur-tes-r%C3%A9seaux/20260726-la-canicule-les-coups-de-chaud-et-les-coups-de-col%C3%A8re-avec-lola-depuis-nantes",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 457,
+    "auto": true
+  },
+  {
     "date": "2026-07-25",
     "tags": [
       "Bons plans Maison",
