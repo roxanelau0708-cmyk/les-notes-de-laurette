@@ -18,32 +18,27 @@ from datetime import datetime, date, timezone
 from html import unescape
 
 # ── 信源配置 ──
-# 全部为法语信源，覆盖法语区社会/经济/科技 + 法语视角的美国科技
+# 全部为法语媒体，按经济/科技/文化三大类分频道订阅，不再抓综合RSS
 SOURCES = [
-    # ── 法语区 · 法国综合 ──
-    {"url": "https://www.lemonde.fr/rss/une.xml",             "region": "francophonie", "tag": "Société",      "label": "Le Monde"},
-    {"url": "https://www.lefigaro.fr/rss/figaro_une.xml",    "region": "francophonie", "tag": "Société",      "label": "Le Figaro"},
-    {"url": "https://www.lepoint.fr/rss.xml",                 "region": "francophonie", "tag": "Société",      "label": "Le Point"},
-    # ── 法语区 · 魁北克/瑞士/比利时 ──
-    {"url": "https://www.ledevoir.com/rss/manuel.xml",       "region": "francophonie", "tag": "Société",      "label": "Le Devoir"},
-    {"url": "https://ici.radio-canada.ca/rss/",               "region": "francophonie", "tag": "Société",      "label": "Radio-Canada"},
-    {"url": "https://www.letemps.ch/rss",                    "region": "francophonie", "tag": "Société",      "label": "Le Temps"},
-    # ── 国际 ──
-    {"url": "https://www.france24.com/fr/rss",                "region": "international","tag": "International","label": "France 24"},
-    {"url": "https://www.rfi.fr/fr/rss",                     "region": "international","tag": "International","label": "RFI"},
-    # ── 经济 / 美国金融市场（法语视角）──
-    {"url": "https://www.lesechos.fr/rss.xml",                "region": "francophonie", "tag": "Économie",     "label": "Les Echos"},
-    {"url": "https://www.bfmtv.com/rss/economie/",           "region": "francophonie", "tag": "Économie",     "label": "BFM Eco"},
-    {"url": "https://www.latribune.fr/rss/toutes-les-actualites.rss", "region": "francophonie", "tag": "Économie", "label": "La Tribune"},
-    {"url": "https://finance.lesechos.fr/rss",               "region": "etats-unis",   "tag": "Économie",     "label": "Les Echos Finance"},
-    # ── 科技（法语视角，含美国科技/AI/金融市场科技）──
-    {"url": "https://www.01net.com/rss/actualites/",         "region": "etats-unis",   "tag": "Technologie",  "label": "01net"},
-    {"url": "https://www.usine-digitale.fr/rss",              "region": "etats-unis",   "tag": "Technologie",  "label": "Usine Digitale"},
-    {"url": "https://www.lesnumeriques.com/rss/news.xml",    "region": "etats-unis",   "tag": "Technologie",  "label": "Les Numériques"},
-    {"url": "https://www.clubic.com/feed.rss",               "region": "etats-unis",   "tag": "Technologie",  "label": "Clubic"},
-    {"url": "https://www.lemonde.fr/technologies/rss_full.xml","region": "etats-unis", "tag": "Technologie",  "label": "Le Monde Tech"},
-    # ── 中国科技（法语视角）──
-    {"url": "https://www.lesechos.fr/rss-theme/2210-chine",  "region": "chine",        "tag": "Économie",     "label": "Les Echos Chine"},
+    # ── 经济 ──
+    {"url": "https://www.lemonde.fr/economie/rss_full.xml",          "region": "francophonie", "tag": "Économie",     "label": "Le Monde"},
+    {"url": "https://www.lefigaro.fr/rss/figaro_economie.xml",       "region": "francophonie", "tag": "Économie",     "label": "Le Figaro"},
+    {"url": "https://www.challenges.fr/rss.xml",                     "region": "francophonie", "tag": "Économie",     "label": "Challenges"},
+    {"url": "https://www.bfmtv.com/rss/economie/",                  "region": "francophonie", "tag": "Économie",     "label": "BFM Eco"},
+    {"url": "https://www.france24.com/fr/economie/rss",             "region": "international", "tag": "Économie",    "label": "France 24"},
+
+    # ── 科技 ──
+    {"url": "https://www.lemonde.fr/technologies/rss_full.xml",     "region": "francophonie", "tag": "Technologie",  "label": "Le Monde"},
+    {"url": "https://www.lefigaro.fr/rss/figaro_secteur_high-tech.xml", "region": "francophonie", "tag": "Technologie",  "label": "Le Figaro"},
+    {"url": "https://www.numerama.com/feed/",                       "region": "francophonie", "tag": "Technologie",  "label": "Numerama"},
+    {"url": "https://siecledigital.fr/feed/",                       "region": "francophonie", "tag": "Technologie",  "label": "Siècle Digital"},
+    {"url": "https://www.zdnet.fr/rss/",                            "region": "francophonie", "tag": "Technologie",  "label": "ZDNet"},
+
+    # ── 文化 ──
+    {"url": "https://www.lemonde.fr/culture/rss_full.xml",          "region": "francophonie", "tag": "Culture",      "label": "Le Monde"},
+    {"url": "https://www.lefigaro.fr/rss/figaro_culture.xml",       "region": "francophonie", "tag": "Culture",      "label": "Le Figaro"},
+    {"url": "https://www.france24.com/fr/culture/rss",              "region": "international", "tag": "Culture",     "label": "France 24"},
+    {"url": "https://www.rfi.fr/fr/culture/rss",                    "region": "international", "tag": "Culture",     "label": "RFI"},
 ]
 
 # ── 路径 ──
@@ -281,6 +276,23 @@ CULTURAL = [
     "festival", "musée", "bibliothèque",
 ]
 
+# ── 不要的标签 ──
+# Le Figaro 等媒体的细碎分类：宠物、园艺、装修、钟表、促销/广告、语言小测等
+EXCLUDE_TAGS = {
+    "Animaux", "Jardin", "Maison", "Horlogerie", "Bons plans",
+    "Quiz français", "À l'Affiche !", "Outre-Mer",
+    "Connaissances", "Météo",
+}
+
+EXCLUDE_FLUFF_TITLE = [
+    "quiz", "testez", "saurez-vous",
+    "bons plans", "promo", "code promo",
+    "soldes", "amazon",
+    "jeu concours", "concours",
+    "horoscope", "astrologie",
+    "meteo", "météo",
+]
+
 
 FRENCH_STOPS = {
     'le', 'la', 'les', 'de', 'des', 'du', 'et', 'est', 'un', 'une',
@@ -304,14 +316,18 @@ def is_french_text(text):
     return french_count >= 2
 
 
-def should_exclude(title, desc):
-    """过滤战争细节和纯人物新闻；文化相关的不滤"""
+def should_exclude(tag, title, desc):
+    """过滤：边角料标签、宠物/装修/促销等软内容、战争细节、纯人物新闻"""
+    if tag in EXCLUDE_TAGS:
+        return True
     text = (title + " " + (desc or "")).lower()
     if any(kw in text for kw in CULTURAL):
         return False
     if any(kw in text for kw in EXCLUDE_WAR):
         return True
     if any(kw in text for kw in EXCLUDE_PERSON):
+        return True
+    if any(kw in text for kw in EXCLUDE_FLUFF_TITLE):
         return True
     return False
 
@@ -406,25 +422,31 @@ def main():
         print(f"   → {len(items)} articles")
         for item in items:
             item["region"] = src["region"]
-            # 优先使用 RSS 提供的分类标签
+            # 频道级 RSS，信源自带的 tag 是准确的
+            # 仅在 RSS 分类明确指向另一目标分类时重映射
             tag = src["tag"]
+            TARGET_TAGS = {"Économie", "Technologie", "Culture"}
             if item.get("categories"):
-                # 从 RSS 分类里找个匹配的
-                cat = item["categories"][0]
-                # 映射常见分类到统一标签体系
-                cat_lower = cat.lower()
-                if any(k in cat_lower for k in ("tech", "numériqu", "informatique", "start-up")):
-                    tag = "Technologie"
-                elif any(k in cat_lower for k in ("économ", "financ", "entreprise", "bourse")):
-                    tag = "Économie"
-                elif any(k in cat_lower for k in ("politique", "gouvern", "président")):
-                    tag = "Politique"
-                elif any(k in cat_lower for k in ("sport", "culture", "sociét", "santé", "environn")):
-                    tag = "Société"
-                elif any(k in cat_lower for k in ("international", "monde", "étranger", "europe")):
-                    tag = "International"
-                else:
-                    tag = cat  # 保留原始分类
+                cat = item["categories"][0].lower()
+                # 注意：按完整词匹配，避免短词（"art", "ia"）误伤无关单词
+                words = set(re.findall(r"[a-zéèêëàâîïôûùüÿç]+", cat))
+                mapping = {
+                    "Technologie": {"tech", "numérique", "numériques", "informatique",
+                                    "science", "sciences", "espace", "innovation",
+                                    "high-tech", "cybersécurité", "ia", "start-up",
+                                    "startups", "startup"},
+                    "Économie":    {"économie", "économique", "finances", "finance",
+                                    "entreprise", "entreprises", "bourse", "marchés",
+                                    "marché", "industrie", "conso", "consommation",
+                                    "immobilier"},
+                    "Culture":     {"culture", "cinéma", "livre", "musique",
+                                    "exposition", "théâtre", "spectacle",
+                                    "arts", "artistique"},
+                }
+                for mapped_tag, kws in mapping.items():
+                    if mapped_tag in TARGET_TAGS and words & kws:
+                        tag = mapped_tag
+                        break
             item["tag"] = tag
             item["source_label"] = src["label"]
         all_new.extend(items)
@@ -452,7 +474,7 @@ def main():
 
     # 5. 过滤 + 多样性选文
     candidates = [item for item in french_only
-                  if not should_exclude(item["title"], item.get("desc", ""))]
+                  if not should_exclude(item.get("tag", ""), item["title"], item.get("desc", ""))]
     selected = select_diverse(candidates, total=12)
     print(f"📋 {len(selected)} articles retenus ({len(candidates)} candidats après filtrage)")
 
