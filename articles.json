@@ -1,5 +1,158 @@
 [
   {
+    "date": "2026-07-27",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "chine",
+      "francophonie",
+      "etats-unis",
+      "europe",
+      "international"
+    ],
+    "summary_cn": "芯片：中国制造商CXMT份额猛增500%...... | 我们敢于将克里斯托弗·诺兰的电影从最差到...... | 热浪 | Instagram 希望禁止在人们不知情的情况下拍摄的内容...... | 您的孩子太小而无法在电影院观看《奥德赛》吗？这…",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "芯片：中国制造商CXMT份额猛增500%......",
+        "title": "Puces : l’action du fabricant chinois CXMT s'envole de 500% lors…",
+        "body": "L’entreprise est actuellement valorisée à plus de 450 milliards d’euros, devenant la plus élevée de Chine. Fondé en 2016, CXMT est le quatrième plus gros fabricant de puces mémoires DRAM. Pékin veut dorénavant concurrencer Taïwan et la Corée du Sud sur cette industrie en plein essor.",
+        "source": "Le Figaro",
+        "pub_date": "27 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/puces-l-action-du-fabricant-chinois-cxmt-s-envole-de-500-lors-de-sa-premiere-journee-en-bourse-20260727",
+        "region": "chine"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "我们敢于将克里斯托弗·诺兰的电影从最差到......",
+        "title": "On a osé classer les films de Christopher Nolan du pire au…",
+        "body": "À l'occasion de la sortie de L'Odyssée, nouveau blockbuster massif signé Christopher Nolan, on a décidé de dresser un classement des films de la carrière du cinéaste. On s'y est mis à quatre pour une objectivité totale.",
+        "source": "Numerama",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2299781-on-a-ose-classer-les-films-de-christopher-nolan-du-pire-au-meilleur.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "热浪",
+        "title": "Canicule",
+        "body": "Si les maires ne peuvent passer outre un avis défavorable de l’architecte des bâtiments de France, le Parlement étudie néanmoins un allègement pour les protections solaires.",
+        "source": "Le Monde",
+        "pub_date": "27 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/07/27/canicule-quand-l-architecte-des-batiments-de-france-s-oppose-a-une-climatisation_6733678_3234.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "Instagram 希望禁止在人们不知情的情况下拍摄的内容......",
+        "title": "Instagram veut bannir les contenus de gens filmés à leur insu…",
+        "body": "Le patron du réseau social a promis de sévir contre ces vidéos montrant des passants ou salariés harcelés par des créateurs de contenus filmant avec leurs lunettes-caméra.",
+        "source": "Le Figaro",
+        "pub_date": "25 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/instagram-veut-bannir-les-contenus-de-gens-filmes-a-leur-insu-par-ses-lunettes-ray-ban-meta-20260725",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "您的孩子太小而无法在电影院观看《奥德赛》吗？这…",
+        "title": "Vos enfants sont trop jeunes pour voir L’Odyssée au cinéma ? Ce…",
+        "body": "Vous avez vu L’Odyssée de Christopher Nolan au cinéma et vous aimeriez bien montrer le film à vos enfants. Problème : ils sont encore trop jeunes. Il existe heureusement de nombreuses œuvres qui abordent le récit à leur hauteur.",
+        "source": "Numerama",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2301663-ce-livre-est-la-meilleure-porte-dentree-pour-faire-decouvrir-lodyssee-aux-plus-jeunes.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "在美国，对数据中心的反对正在增长并变得……",
+        "title": "Aux Etats-Unis, l’opposition aux data centers grandit et devient…",
+        "body": "Un mouvement pour le moment largement « décentralisé et idéologiquement hétérogène » prend forme devant le développement effréné de l’intelligence artificielle et des conflits d’usage qu’elle génère. Donald Trump veut faire payer la facture d’électricité aux grands groupes de l’IA.",
+        "source": "Le Monde",
+        "pub_date": "27 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/07/27/aux-etats-unis-l-opposition-aux-data-centers-grandit-et-devient-un-objet-politique_6733571_3234.html",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人工智能数字“吓唬人”",
+        "title": "Les figures de l’IA «font peur aux gens»",
+        "body": "DÉCRYPTAGE - Le patron de Nvidia, à la tête de l’entreprise la plus valorisée au monde, a estimé dans un long entretien vidéo que le monde de la tech devait «absolument» utiliser les modèles chinois, malgré les restrictions américaines.",
+        "source": "Le Figaro",
+        "pub_date": "25 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/les-figures-de-l-ia-font-peur-aux-gens-les-confidences-de-jensen-huang-l-homme-le-plus-puissant-du-monde-de-la-tech-20260724",
+        "region": "chine"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "瑞恩·高斯林在《恶灵骑士》、《黑豹3》、《死侍》……",
+        "title": "Ryan Gosling en Ghost Rider, Black Panther 3, Deadpool dans…",
+        "body": "Marvel Studios a frappé fort lors de son traditionnel passage au Comic-Con de San Diego. Le studio n'a pas été avare en annonces et surprises, avec de nouveaux projets dévoilés et des révélations sur le chemin que prend le MCU. Voici tout ce qu'il fallait retenir de cette présentation particulièrement chargée.",
+        "source": "Numerama",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2301909-ryan-gosling-en-ghost-rider-black-panther-3-deadpool-dans-avengers-toutes-les-annonces-marvel-de-la-comic-con-2026.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "一家中国芯片制造商将创造最大……",
+        "title": "Un fabricant chinois de puces s’apprête à réaliser la plus…",
+        "body": "Le chinois ChangXin Memory Technologies (CXMT) pourrait dépasser les 1 000 milliards de yuans (129 milliards d’euros) de valorisation lundi 27 juillet, après son introduction en Bourse à Shanghaï.",
+        "source": "Le Monde",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/07/26/un-fabricant-chinois-de-puces-s-apprete-a-realiser-la-plus-grosse-levee-de-fonds-d-asie-grace-au-boom-de-l-ia_6733368_3234.html",
+        "region": "chine"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "Anthropic 发布了 Claude Opus 5，这是一个人工智能模型，呈现为……",
+        "title": "Anthropic sort Claude Opus 5, un modèle d’IA présenté comme…",
+        "body": "Selon Anthropic, Opus 5 «s’approche des capacités de Fable 5 dans de nombreux domaines, pour la moitié du prix», selon un communiqué.",
+        "source": "Le Figaro",
+        "pub_date": "24 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/anthropic-sort-une-nouvelle-intelligence-artificielle-presentee-comme-moins-dangereuse-pour-la-cybersecurite-20260724",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "甘道夫抵达《权力指环》，坐在 IMAX 中……",
+        "title": "Gandalf arrive sur Les Anneaux de Pouvoir, où s’asseoir en IMAX…",
+        "body": "C'est l'heure du récap pop culture de la semaine ! Au programme : l'arrivée enfin confirmée du vrai Gandalf dans Les Anneaux de Pouvoir, les coulisses d'un tournage au rythme infernal pour la série Harry Potter, et notre retour d'expérience pour placer idéalement son siège devant le nouveau choc IMAX de Christopher Nolan. On fait le point sur ce qu'il ne fallait pas rater.",
+        "source": "Numerama",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2301691-gandalf-arrive-sur-les-anneaux-de-pouvoir-ou-sasseoir-en-imax-pour-lodyssee-le-recap.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "希尔科内斯是新北极航线上的小港口……",
+        "title": "Kirkenes, le petit port sur la nouvelle route de l’Arctique où…",
+        "body": "« La ruée sur les ports » (16/16). Le réchauffement climatique pourrait changer le destin de la petite ville norvégienne de 3 500 habitants qui se situe sur une nouvelle route maritime, libérée par la fonte de la banquise, reliant l’Europe et l’Asie. Mais la proximité de la Russie et les tensions géopolitiques contrarient ses ambitions.",
+        "source": "Le Monde",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/07/26/kirkenes-le-petit-port-sur-la-nouvelle-route-de-l-arctique-ou-grouillent-les-espions_6732769_3234.html",
+        "region": "international"
+      }
+    ],
+    "vocab": [],
+    "word_count": 476,
+    "auto": true
+  },
+  {
     "date": "2026-07-26",
     "tags": [
       "Culture",
