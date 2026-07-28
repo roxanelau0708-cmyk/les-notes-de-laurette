@@ -1,5 +1,156 @@
 [
   {
+    "date": "2026-07-28",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "etats-unis",
+      "francophonie",
+      "europe"
+    ],
+    "summary_cn": "社交网络 X 推出付费账户和…… | Apple TV 发布了《神经漫游者》的预告片，改编自…… | 节日 | 人工智能可以让他从“欣快到恐惧”一次…… | 该系列中最暴力的一季？到达者第 4 季…",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "社交网络 X 推出付费账户和……",
+        "title": "Le réseau social X lance les comptes rémunérés et un service de…",
+        "body": "Le produit, gratuit mais réservé aux titulaires d’un compte X Premium (payant) aux États-Unis, inclut une carte de retrait Visa et assure un taux d’intérêt pouvant aller jusqu’à 6%, selon un communiqué.",
+        "source": "Le Figaro",
+        "pub_date": "28 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/le-reseau-social-x-lance-les-comptes-remuneres-et-un-service-de-paiement-20260728",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "Apple TV 发布了《神经漫游者》的预告片，改编自……",
+        "title": "Apple TV dévoile le trailer de Neuromancien, l’adaptation de…",
+        "body": "Apple a dévoilé la bande-annonce de son adaptation de Neuromancien, une série de science-fiction adaptée du roman de William Gibson, paru en 1984.",
+        "source": "Numerama",
+        "pub_date": "27 July 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2302235-apple-tv-devoile-le-trailer-de-neuromancien-ladaptation-de-loeuvre-qui-a-defini-le-cyberpunk.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "节日",
+        "title": "Festivals",
+        "body": "Au-delà des enjeux sanitaires, les aléas climatiques fragilisent un modèle économique déjà mis à mal par la réduction des financements publics.",
+        "source": "Le Monde",
+        "pub_date": "28 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/culture/article/2026/07/28/festivals-le-cout-cache-des-canicules-et-des-fortes-chaleurs_6734705_3246.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人工智能可以让他从“欣快到恐惧”一次……",
+        "title": "L’IA peut le faire passer de « l’euphorie à la terreur » en une…",
+        "body": "C’est l’homme le plus riche du monde avec des ambitions qui dépassent de loin la seule planète Terre. The Economist a rencontré l’homme derrière Tesla et SpaceX. Un long entretien pendant lequel le magazine britannique l’a questionné sur ses opinions controversées, de l’IA à la conquête de Mars en passant par la place de l’argent.",
+        "source": "Challenges",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/lia-peut-le-faire-passer-de-leuphorie-a-la-terreur-en-une-seule-journee-dans-la-tete-delon-musk-lhomme-le-plus-riche-du-monde_645016",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "该系列中最暴力的一季？到达者第 4 季…",
+        "title": "La saison la plus violente de la série ? Reacher Saison 4…",
+        "body": "Du sang sur la vitre du métro, une exécution sur fond de secrets d’État et un Jack Reacher plus traqué que jamais. Révélée à la Comic-Con de San Diego, la première bande-annonce de la saison 4 promet un virage radical, finie la campagne profonde, le colosse débarque à New York pour l'arc le plus sombre et le plus violent de la franchise.",
+        "source": "Numerama",
+        "pub_date": "27 July 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2302141-la-saison-la-plus-violente-de-la-serie-reacher-saison-4-devoile-son-trailer.html",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "吉伦特省火灾凸显了遗址的暴露……",
+        "title": "L’incendie de Gironde met en évidence l’exposition des sites…",
+        "body": "Des dispositifs de protection ont dû être déployés autour des infrastructures industrielles qui utilisent ou stockent des matières inflammables ou explosives. Sur les 35 qui ont été répertoriées dans le département, « Le Monde » en a identifié au moins sept qui sont situées à courte distance du sinistre ou dans des villes évacuées.",
+        "source": "Le Monde",
+        "pub_date": "28 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/07/28/l-incendie-de-gironde-met-en-evidence-l-exposition-des-sites-seveso-aux-risques-des-feux-de-foret_6734494_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "AI 驱动的相机",
+        "title": "Caméras dopées à l’IA",
+        "body": "Portées par les progrès de l’IA, les « caméras intelligentes » suscitent un intérêt croissant chez les élus et les forces de sécurité. Malgré un cadre juridique encore restrictif, les initiatives se multiplient pour en étendre l’usage.",
+        "source": "Challenges",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/cameras-dopees-a-lia-pourquoi-les-elus-veulent-aller-beaucoup-plus-loin-dans-la-videosurveillance_644970",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "博物馆入室盗窃案",
+        "title": "Cambriolages dans les musées",
+        "body": "Le vol d’un trésor, le 24 juillet, au musée de Châtillon-sur-Seine (Côte-d’Or), pose la question de la protection du patrimoine. Pour autant, ce « crime contre la connaissance » ne doit pas faire renoncer à exposer de tels chefs-d’œuvre, soutient l’archéologue Anne Lehoërff, dans une tribune au « Monde ».",
+        "source": "Le Monde",
+        "pub_date": "28 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/idees/article/2026/07/28/cambriolages-dans-les-musees-ce-n-est-pas-aux-criminels-de-decider-ce-que-les-citoyens-ont-le-droit-d-admirer_6734671_3232.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "对高额财富征税，也是一场政治斗争……",
+        "title": "La taxation des hauts patrimoines, une bataille aussi politique…",
+        "body": "Ecarté par la commission d’enquête sur « l’imposition des hauts patrimoines et des revenus les plus élevés », le projet porté par la gauche resurgira lors des discussions sur le budget 2027 à l’automne.",
+        "source": "Le Monde",
+        "pub_date": "28 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/politique/article/2026/07/28/la-taxation-des-hauts-patrimoines-une-bataille-aussi-politique-que-juridique_6734460_823448.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "罚款超过100亿欧元",
+        "title": "Plus de 10 milliards d’euros d’amendes",
+        "body": "Depuis plus de dix ans, la Commission européenne tente de limiter l’influence et les mauvaises pratiques de Google sur le continent en usant d’une armada de sanctions. La nouvelle amende, en date du jeudi 23 juillet, fait grimper la facture totale à plus de 10 milliards d’euros.",
+        "source": "Challenges",
+        "pub_date": "24 July 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/plus-de-10-milliards-deuros-damendes-cette-nouvelle-sanction-choc-qui-relance-le-bras-de-fer-entre-google-et-leurope_645019",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "一件独特的凯尔特珠宝从金丘博物馆被盗，...",
+        "title": "Un joyau celte unique dérobé dans un musée en Côte-d’Or, un…",
+        "body": "Les malfaiteurs se sont fait passer pour des touristes et ont dérobé, vendredi 24 juillet, en plein jour, un trésor inestimable, un torque en or vieux de plus de 2 500 ans, au musée du Pays châtillonnais.",
+        "source": "Le Monde",
+        "pub_date": "28 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/culture/article/2026/07/28/un-joyau-celte-unique-derobe-dans-un-musee-en-cote-d-or-un-cataclysme-pour-les-archeologues_6734602_3246.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "在摩泽尔，巨大的氢矿藏重燃了希望……",
+        "title": "En Moselle, un immense gisement d’hydrogène ravive les espoirs…",
+        "body": "Des scientifiques et l’industriel la Française de l’énergie affirment avoir découvert le plus grand gisement d’hydrogène naturel au monde. La société, soutenue par les politiques locaux, espère obtenir rapidement de l’Etat un permis d’exploitation.",
+        "source": "Le Monde",
+        "pub_date": "28 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/07/28/en-moselle-un-immense-gisement-d-hydrogene-ravive-les-espoirs-de-l-ancien-bassin-minier_6734458_3234.html",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 486,
+    "auto": true
+  },
+  {
     "date": "2026-07-27",
     "tags": [
       "Technologie",
