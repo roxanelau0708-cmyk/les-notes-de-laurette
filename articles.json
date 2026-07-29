@@ -1,5 +1,124 @@
 [
   {
+    "date": "2026-07-29",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "francophonie",
+      "europe",
+      "chine",
+      "etats-unis"
+    ],
+    "summary_cn": "“史无前例”的黑客攻击 | 《蜘蛛侠：全新片尾彩蛋》场景意 | “我们很幸运生活在不可思议的时 | 在意大利普拉托 | 莱因霍尔德·梅斯纳尔 (Rei",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "“史无前例”的黑客攻击",
+        "title": "Piratage «sans précédent»",
+        "body": "L’une d’entre elles a servi de relais pour préparer l’attaque sur Hugging Face, une bibliothèque IA que les deux modèles ont fouillé pour trouver les réponses aux tests soumis par les développeurs d’OpenAI, a annoncé l’entreprise.",
+        "source": "Le Figaro",
+        "pub_date": "29 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/piratage-sans-precedent-openai-annonce-que-ses-modeles-se-sont-introduits-sur-quatre-autres-plateformes-20260729",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "《蜘蛛侠：全新片尾彩蛋》场景意",
+        "title": "Que signifie la scène post-générique de Spider-Man: Brand New",
+        "body": "Alors que le film débarque enfin dans les salles de cinéma, l’attention des fans de Marvel se focalise déjà sur ses dernières secondes. Véritable pont vers Avengers: Doomsday ou simple cache-misère obligatoire ? On décortique le final de Spider-Man: Brand New Day et ce qu’il prépare pour le futur du Tisseur. Si vous avez lu […]",
+        "source": "Numerama",
+        "pub_date": "29 July 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2303377-que-signifie-la-scene-post-generique-de-spider-man-brand-new-day.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "“我们很幸运生活在不可思议的时",
+        "title": "«Nous avons la chance de vivre une époque incroyable»",
+        "body": "«À mesure que chacun disposera d’outils plus puissants, chacun deviendra davantage capable de façonner l’avenir, et non l’inverse», souligne le patron de Meta dans une tribune idéaliste et libéraliste dans le Wall Street Journal",
+        "source": "Le Figaro",
+        "pub_date": "29 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/nous-avons-la-chance-de-vivre-une-epoque-incroyable-le-patron-de-meta-mark-zuckerberg-defend-fermement-l-ia-face-aux-critiques-20260729",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "在意大利普拉托",
+        "title": "A Prato, en Italie, la colère monte contre les dérives de la",
+        "body": "Dans cette province industrielle de Toscane, premier pôle textile d’Europe, les pratiques frauduleuses de certaines entreprises chinoises nourrissent une économie parallèle, fondée sur l’évasion fiscale, le travail clandestin et l’exploitation d’ouvriers migrants.",
+        "source": "Le Monde",
+        "pub_date": "29 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/07/29/a-prato-en-italie-la-colere-monte-contre-les-derives-de-la-fast-fashion-asiatique-gangrenee-par-la-mafia-chinoise_6736360_3234.html",
+        "region": "chine"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "莱因霍尔德·梅斯纳尔 (Rei",
+        "title": "Reinhold Messner devant la caméra du cinéaste Werner Herzog",
+        "body": "« Reinhold Messner, l’ivresse des sommets » (4/6). Une dizaine d’années après la tragédie du Nanga Parbat, dans l’Himalaya, durant laquelle il perd son frère cadet, la star de l’alpinisme est filmée par Werner Herzog. Le réalisateur, adepte des états limites, veut comprendre : « Penses-tu être fou de faire ce que tu fais ? »",
+        "source": "Le Monde",
+        "pub_date": "29 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/series-d-ete/article/2026/07/29/reinhold-messner-devant-la-camera-du-cineaste-werner-herzog-je-me-sens-coupable-d-avoir-survecu_6736384_3451060.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "克劳德神话能否摧毁世界经济并",
+        "title": "Claude Mythos peut-il détruire l’économie mondiale et les",
+        "body": "DÉCRYPTAGE - Le géant de l’IA a annoncé qu’un de ses prototypes avait réussi à percer deux systèmes de chiffrement différents. Ces systèmes sécurisent nos paiements, nos communications et nos fichiers confidentiels.",
+        "source": "Le Figaro",
+        "pub_date": "29 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/claude-mythos-peut-il-detruire-l-economie-mondiale-et-les-communications-l-ia-d-anthropic-a-compromis-les-mecanismes-secrets-qui-securisent-internet-20260728",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "“那我就说不行了",
+        "title": "« Là, j’ai dit non, c’est trop cher »",
+        "body": "Depuis vendredi 24 juillet, les carburants dépassent de nouveau le seuil des 2 euros le litre. Pour la majorité de Français qui, comme ceux rencontrés dans ces stations du Val-de-Marne, dépendent de la voiture, cette hausse est synonyme de privation.",
+        "source": "Le Monde",
+        "pub_date": "29 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/07/29/la-j-ai-dit-non-c-est-trop-cher-l-augmentation-des-prix-de-l-essence-met-les-budgets-sous-pression_6736359_3234.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "随着 DJ Kavinsky",
+        "title": "Avec la mort du DJ Kavinsky, la French touch perd une de ses",
+        "body": "Après avoir joué l’acteur dans les premiers films de Quentin Dupieux, le musicien avait vu sa carrière décoller en 2011 grâce à son tube « Nightcall », popularisé dans le film « Drive ». Il a été retrouvé mort à son domicile parisien.",
+        "source": "Le Monde",
+        "pub_date": "29 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/disparitions/article/2026/07/29/avec-la-mort-du-dj-kavinsky-la-french-touch-perd-une-de-ses-figures-marquantes_6736383_3382.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "唐纳德·特朗普对关税的顽固态度",
+        "title": "L’obstination de Donald Trump sur les droits de douane",
+        "body": "La nouvelle architecture tarifaire élaborée par le président des Etats-Unis pourrait résister à la justice. Mais une victoire devant les juges ne transformera pas une mauvaise politique en miracle économique",
+        "source": "Le Monde",
+        "pub_date": "29 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/idees/article/2026/07/29/l-obstination-de-donald-trump-sur-les-droits-de-douane_6736321_3232.html",
+        "region": "etats-unis"
+      }
+    ],
+    "vocab": [],
+    "word_count": 359,
+    "auto": true
+  },
+  {
     "date": "2026-07-26",
     "tags": [
       "Animaux",
