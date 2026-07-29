@@ -1,611 +1,118 @@
 [
   {
-    "date": "2026-07-29",
-    "tags": [
-      "Technologie",
-      "Culture",
-      "Économie"
-    ],
-    "regions": [
-      "francophonie",
-      "europe",
-      "etats-unis",
-      "international"
-    ],
-    "summary_cn": "克劳德神话能否摧毁世界经济…… | 我们看到了《蜘蛛侠全新一天》，这是最好的漫威…… | “专利悬崖”，即将到来的巨大剧变…… | AI：Anthropic 的老板以及 OpenAI、Meta 和……的领导者 | 放映电影：《蜘蛛侠》",
-    "briefs": [
-      {
-        "tag": "Technologie",
-        "title_cn": "克劳德神话能否摧毁世界经济……",
-        "title": "Claude Mythos peut-il détruire l’économie mondiale et les…",
-        "body": "DÉCRYPTAGE - Le géant de l’IA a annoncé qu’un de ses prototypes avait réussi à percer deux systèmes de chiffrement différents. Ces systèmes sécurisent nos paiements, nos communications et nos fichiers confidentiels.",
-        "source": "Le Figaro",
-        "pub_date": "28 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/claude-mythos-peut-il-detruire-l-economie-mondiale-et-les-communications-l-ia-d-anthropic-a-compromis-les-mecanismes-secrets-qui-securisent-internet-20260728",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "我们看到了《蜘蛛侠全新一天》，这是最好的漫威……",
-        "title": "On a vu Spider-Man Brand New Day, c’est le meilleur Marvel…",
-        "body": "Attendu au tournant après les événements massifs de la phase précédente, le nouveau volet des aventures de Peter Parker débarque enfin en salles. Sous la caméra de Destin Daniel Cretton (Shang-Chi), Spider-Man: Brand New Day ne se contente pas d'être un grand film de super-héros : il redéfinit carrément les standards de la franchise Spider-Man.",
-        "source": "Numerama",
-        "pub_date": "28 July 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2303003-on-a-vu-spider-man-brand-new-day-cest-le-meilleur-de-la-saga-avec-tom-holland.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "“专利悬崖”，即将到来的巨大剧变……",
-        "title": "La « falaise des brevets », ce grand chambardement à venir dans…",
-        "body": "Une vague sans précédent de brevets de médicaments va expirer ces prochaines années. Une aubaine pour les laboratoires spécialisés dans les génériques et les biosimilaires. Et une occasion d’économies pour les systèmes de santé.",
-        "source": "Le Monde",
-        "pub_date": "29 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/07/29/la-falaise-des-brevets-ce-grand-chambardement-a-venir-dans-l-industrie-pharmaceutique-d-ici-a-2035_6735904_3234.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "AI：Anthropic 的老板以及 OpenAI、Meta 和……的领导者",
-        "title": "IA : le patron d’Anthropic et des dirigeants d’OpenAI, Meta et…",
-        "body": "Un millier d’employés d’entreprises à la pointe de l’intelligence artificielle (IA) ont demandé mardi au gouvernement américain d’aider à «temporiser» la sortie des modèles d’IA les plus avancés.",
-        "source": "Le Figaro",
-        "pub_date": "29 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/ia-le-patron-d-anthropic-et-des-dirigeants-d-openai-meta-et-google-demandent-a-temporiser-la-sortie-des-modeles-20260729",
-        "region": "etats-unis"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "放映电影：《蜘蛛侠》",
-        "title": "Les films à l’affiche : « Spider-Man",
-        "body": "Chaque mercredi, dans La Matinale, les journalistes cinéma du « Monde » livrent leurs critiques des films à découvrir en salle. Aujourd’hui, notamment, une œuvre esthétique et politique ayant pour toile de fond la lutte pour l’indépendance de l’Angola au milieu des années 1970.",
-        "source": "Le Monde",
-        "pub_date": "29 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/culture/article/2026/07/29/les-films-a-l-affiche-spider-man-brand-new-day-les-matins-merveilleux-i-want-your-sex-tommy-guns_6735838_3246.html",
-        "region": "international"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "人和婴儿托儿所",
-        "title": "Crèches People & Baby",
-        "body": "Le SNPPE réclame également, dans une lettre adressée à Sébastien Lecornu, « un moratoire sur toute nouvelle autorisation, reprise d’établissement, délégation de service public ou réservation de berceaux au bénéfice du groupe ».",
-        "source": "Le Monde",
-        "pub_date": "29 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/societe/article/2026/07/29/creches-people-baby-le-syndicat-national-des-professionnels-de-la-petite-enfance-demande-une-enquete-administrative_6735871_3224.html",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "股市下跌、Anthropic 的激烈竞争、Xbox 举步维艰……",
-        "title": "Recul en Bourse, rude concurrence d’Anthropic, Xbox à la peine……",
-        "body": "DÉCRYPTAGE - Les marchés regarderont à la loupe les investissements en intelligence artificielle du groupe, qu’ils jugent à un niveau trop élevé face aux revenus générés.",
-        "source": "Le Figaro",
-        "pub_date": "28 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/recul-en-bourse-rude-concurrence-d-anthropic-xbox-a-la-peine-microsoft-s-apprete-a-clore-un-exercice-fiscal-complique-20260728",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "非裔美国艺术的守护者贝蒂耶·萨尔去世",
-        "title": "Betye Saar, figure tutélaire de l’art afro-américain, est morte",
-        "body": "Connue pour ses œuvres d’assemblages comme pour ses engagements politiques, la Calfornienne s’est éteinte dimanche 26 juillet, à Los Angeles, à quatre jours de son centième anniversaire.",
-        "source": "Le Monde",
-        "pub_date": "28 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/disparitions/article/2026/07/28/betye-saar-figure-tutelaire-de-l-art-afro-americain-est-morte_6735604_3382.html",
-        "region": "etats-unis"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "吉伦特省火灾",
-        "title": "Incendie en Gironde",
-        "body": "Benjamin Truchot, de l’Institut national de l’environnement industriel et des risques, évoque les menaces qui pèsent sur les entreprises chimiques ou d’armement en cas de feux de forêts.",
-        "source": "Le Monde",
-        "pub_date": "28 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/07/28/incendie-en-gironde-a-proximite-des-sites-industriels-sous-surveillance-l-exposition-est-mesuree_6735537_3234.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "眼镜隐私不尊重的争议……",
-        "title": "Les polémiques sur le non-respect de la vie privée des lunettes…",
-        "body": "Apple devait dévoiler prochainement ses premières lunettes intelligentes. Mais les critiques entourant les Ray-Ban Meta ont contraint la firme de Cupertino à retarder la sortie de son accessoire.",
-        "source": "Le Figaro",
-        "pub_date": "28 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/les-polemiques-sur-le-non-respect-de-la-vie-privee-des-lunettes-connectees-de-meta-poussent-apple-a-la-prudence-20260728",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "在巴西，电视剧《3%》在电视上探讨了……",
-        "title": "Au Brésil, la série « 3 % » ausculte à la télévision les…",
-        "body": "« Tour du monde en séries » (2/6). Première production brésilienne diffusée sur Netflix, la série créée par Pedro Aguilera a vite acquis une très large audience dans le pays et dans le monde.",
-        "source": "Le Monde",
-        "pub_date": "28 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/culture/article/2026/07/28/au-bresil-la-serie-3-ausculte-a-la-television-les-inegalites-sociales_6735365_3246.html",
-        "region": "international"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "尽管中东冲突，达飞轮船仍实现利润增长",
-        "title": "CMA CGM augmente ses profits malgré le conflit au Moyen-Orient",
-        "body": "Porté par la hausse de la demande et des tarifs, le transporteur maritime français a dégagé 3 milliards de dollars de bénéfice opérationnel au deuxième trimestre.",
-        "source": "Le Monde",
-        "pub_date": "28 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/07/28/cma-cgm-augmente-ses-profits-malgre-le-conflit-au-moyen-orient_6735399_3234.html",
-        "region": "international"
-      }
-    ],
-    "vocab": [],
-    "word_count": 395,
-    "auto": true
-  },
-  {
-    "date": "2026-07-28",
-    "tags": [
-      "Technologie",
-      "Culture",
-      "Économie"
-    ],
-    "regions": [
-      "etats-unis",
-      "francophonie",
-      "europe"
-    ],
-    "summary_cn": "社交网络 X 推出付费账户和…… | Apple TV 发布了《神经漫游者》的预告片，改编自…… | 节日 | 人工智能可以让他从“欣快到恐惧”一次…… | 该系列中最暴力的一季？到达者第 4 季…",
-    "briefs": [
-      {
-        "tag": "Technologie",
-        "title_cn": "社交网络 X 推出付费账户和……",
-        "title": "Le réseau social X lance les comptes rémunérés et un service de…",
-        "body": "Le produit, gratuit mais réservé aux titulaires d’un compte X Premium (payant) aux États-Unis, inclut une carte de retrait Visa et assure un taux d’intérêt pouvant aller jusqu’à 6%, selon un communiqué.",
-        "source": "Le Figaro",
-        "pub_date": "28 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/le-reseau-social-x-lance-les-comptes-remuneres-et-un-service-de-paiement-20260728",
-        "region": "etats-unis"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "Apple TV 发布了《神经漫游者》的预告片，改编自……",
-        "title": "Apple TV dévoile le trailer de Neuromancien, l’adaptation de…",
-        "body": "Apple a dévoilé la bande-annonce de son adaptation de Neuromancien, une série de science-fiction adaptée du roman de William Gibson, paru en 1984.",
-        "source": "Numerama",
-        "pub_date": "27 July 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2302235-apple-tv-devoile-le-trailer-de-neuromancien-ladaptation-de-loeuvre-qui-a-defini-le-cyberpunk.html",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "节日",
-        "title": "Festivals",
-        "body": "Au-delà des enjeux sanitaires, les aléas climatiques fragilisent un modèle économique déjà mis à mal par la réduction des financements publics.",
-        "source": "Le Monde",
-        "pub_date": "28 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/culture/article/2026/07/28/festivals-le-cout-cache-des-canicules-et-des-fortes-chaleurs_6734705_3246.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "人工智能可以让他从“欣快到恐惧”一次……",
-        "title": "L’IA peut le faire passer de « l’euphorie à la terreur » en une…",
-        "body": "C’est l’homme le plus riche du monde avec des ambitions qui dépassent de loin la seule planète Terre. The Economist a rencontré l’homme derrière Tesla et SpaceX. Un long entretien pendant lequel le magazine britannique l’a questionné sur ses opinions controversées, de l’IA à la conquête de Mars en passant par la place de l’argent.",
-        "source": "Challenges",
-        "pub_date": "26 July 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/tech-numerique/lia-peut-le-faire-passer-de-leuphorie-a-la-terreur-en-une-seule-journee-dans-la-tete-delon-musk-lhomme-le-plus-riche-du-monde_645016",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "该系列中最暴力的一季？到达者第 4 季…",
-        "title": "La saison la plus violente de la série ? Reacher Saison 4…",
-        "body": "Du sang sur la vitre du métro, une exécution sur fond de secrets d’État et un Jack Reacher plus traqué que jamais. Révélée à la Comic-Con de San Diego, la première bande-annonce de la saison 4 promet un virage radical, finie la campagne profonde, le colosse débarque à New York pour l'arc le plus sombre et le plus violent de la franchise.",
-        "source": "Numerama",
-        "pub_date": "27 July 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2302141-la-saison-la-plus-violente-de-la-serie-reacher-saison-4-devoile-son-trailer.html",
-        "region": "etats-unis"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "吉伦特省火灾凸显了遗址的暴露……",
-        "title": "L’incendie de Gironde met en évidence l’exposition des sites…",
-        "body": "Des dispositifs de protection ont dû être déployés autour des infrastructures industrielles qui utilisent ou stockent des matières inflammables ou explosives. Sur les 35 qui ont été répertoriées dans le département, « Le Monde » en a identifié au moins sept qui sont situées à courte distance du sinistre ou dans des villes évacuées.",
-        "source": "Le Monde",
-        "pub_date": "28 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/07/28/l-incendie-de-gironde-met-en-evidence-l-exposition-des-sites-seveso-aux-risques-des-feux-de-foret_6734494_3234.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "AI 驱动的相机",
-        "title": "Caméras dopées à l’IA",
-        "body": "Portées par les progrès de l’IA, les « caméras intelligentes » suscitent un intérêt croissant chez les élus et les forces de sécurité. Malgré un cadre juridique encore restrictif, les initiatives se multiplient pour en étendre l’usage.",
-        "source": "Challenges",
-        "pub_date": "26 July 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/tech-numerique/cameras-dopees-a-lia-pourquoi-les-elus-veulent-aller-beaucoup-plus-loin-dans-la-videosurveillance_644970",
-        "region": "etats-unis"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "博物馆入室盗窃案",
-        "title": "Cambriolages dans les musées",
-        "body": "Le vol d’un trésor, le 24 juillet, au musée de Châtillon-sur-Seine (Côte-d’Or), pose la question de la protection du patrimoine. Pour autant, ce « crime contre la connaissance » ne doit pas faire renoncer à exposer de tels chefs-d’œuvre, soutient l’archéologue Anne Lehoërff, dans une tribune au « Monde ».",
-        "source": "Le Monde",
-        "pub_date": "28 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/idees/article/2026/07/28/cambriolages-dans-les-musees-ce-n-est-pas-aux-criminels-de-decider-ce-que-les-citoyens-ont-le-droit-d-admirer_6734671_3232.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "对高额财富征税，也是一场政治斗争……",
-        "title": "La taxation des hauts patrimoines, une bataille aussi politique…",
-        "body": "Ecarté par la commission d’enquête sur « l’imposition des hauts patrimoines et des revenus les plus élevés », le projet porté par la gauche resurgira lors des discussions sur le budget 2027 à l’automne.",
-        "source": "Le Monde",
-        "pub_date": "28 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/politique/article/2026/07/28/la-taxation-des-hauts-patrimoines-une-bataille-aussi-politique-que-juridique_6734460_823448.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "罚款超过100亿欧元",
-        "title": "Plus de 10 milliards d’euros d’amendes",
-        "body": "Depuis plus de dix ans, la Commission européenne tente de limiter l’influence et les mauvaises pratiques de Google sur le continent en usant d’une armada de sanctions. La nouvelle amende, en date du jeudi 23 juillet, fait grimper la facture totale à plus de 10 milliards d’euros.",
-        "source": "Challenges",
-        "pub_date": "24 July 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/tech-numerique/plus-de-10-milliards-deuros-damendes-cette-nouvelle-sanction-choc-qui-relance-le-bras-de-fer-entre-google-et-leurope_645019",
-        "region": "etats-unis"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "一件独特的凯尔特珠宝从金丘博物馆被盗，...",
-        "title": "Un joyau celte unique dérobé dans un musée en Côte-d’Or, un…",
-        "body": "Les malfaiteurs se sont fait passer pour des touristes et ont dérobé, vendredi 24 juillet, en plein jour, un trésor inestimable, un torque en or vieux de plus de 2 500 ans, au musée du Pays châtillonnais.",
-        "source": "Le Monde",
-        "pub_date": "28 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/culture/article/2026/07/28/un-joyau-celte-unique-derobe-dans-un-musee-en-cote-d-or-un-cataclysme-pour-les-archeologues_6734602_3246.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "在摩泽尔，巨大的氢矿藏重燃了希望……",
-        "title": "En Moselle, un immense gisement d’hydrogène ravive les espoirs…",
-        "body": "Des scientifiques et l’industriel la Française de l’énergie affirment avoir découvert le plus grand gisement d’hydrogène naturel au monde. La société, soutenue par les politiques locaux, espère obtenir rapidement de l’Etat un permis d’exploitation.",
-        "source": "Le Monde",
-        "pub_date": "28 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/07/28/en-moselle-un-immense-gisement-d-hydrogene-ravive-les-espoirs-de-l-ancien-bassin-minier_6734458_3234.html",
-        "region": "europe"
-      }
-    ],
-    "vocab": [],
-    "word_count": 486,
-    "auto": true
-  },
-  {
-    "date": "2026-07-27",
-    "tags": [
-      "Technologie",
-      "Culture",
-      "Économie"
-    ],
-    "regions": [
-      "chine",
-      "francophonie",
-      "etats-unis",
-      "europe",
-      "international"
-    ],
-    "summary_cn": "芯片：中国制造商CXMT份额猛增500%...... | 我们敢于将克里斯托弗·诺兰的电影从最差到...... | 热浪 | Instagram 希望禁止在人们不知情的情况下拍摄的内容...... | 您的孩子太小而无法在电影院观看《奥德赛》吗？这…",
-    "briefs": [
-      {
-        "tag": "Technologie",
-        "title_cn": "芯片：中国制造商CXMT份额猛增500%......",
-        "title": "Puces : l’action du fabricant chinois CXMT s'envole de 500% lors…",
-        "body": "L’entreprise est actuellement valorisée à plus de 450 milliards d’euros, devenant la plus élevée de Chine. Fondé en 2016, CXMT est le quatrième plus gros fabricant de puces mémoires DRAM. Pékin veut dorénavant concurrencer Taïwan et la Corée du Sud sur cette industrie en plein essor.",
-        "source": "Le Figaro",
-        "pub_date": "27 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/puces-l-action-du-fabricant-chinois-cxmt-s-envole-de-500-lors-de-sa-premiere-journee-en-bourse-20260727",
-        "region": "chine"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "我们敢于将克里斯托弗·诺兰的电影从最差到......",
-        "title": "On a osé classer les films de Christopher Nolan du pire au…",
-        "body": "À l'occasion de la sortie de L'Odyssée, nouveau blockbuster massif signé Christopher Nolan, on a décidé de dresser un classement des films de la carrière du cinéaste. On s'y est mis à quatre pour une objectivité totale.",
-        "source": "Numerama",
-        "pub_date": "26 July 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2299781-on-a-ose-classer-les-films-de-christopher-nolan-du-pire-au-meilleur.html",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "热浪",
-        "title": "Canicule",
-        "body": "Si les maires ne peuvent passer outre un avis défavorable de l’architecte des bâtiments de France, le Parlement étudie néanmoins un allègement pour les protections solaires.",
-        "source": "Le Monde",
-        "pub_date": "27 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/07/27/canicule-quand-l-architecte-des-batiments-de-france-s-oppose-a-une-climatisation_6733678_3234.html",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "Instagram 希望禁止在人们不知情的情况下拍摄的内容......",
-        "title": "Instagram veut bannir les contenus de gens filmés à leur insu…",
-        "body": "Le patron du réseau social a promis de sévir contre ces vidéos montrant des passants ou salariés harcelés par des créateurs de contenus filmant avec leurs lunettes-caméra.",
-        "source": "Le Figaro",
-        "pub_date": "25 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/instagram-veut-bannir-les-contenus-de-gens-filmes-a-leur-insu-par-ses-lunettes-ray-ban-meta-20260725",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "您的孩子太小而无法在电影院观看《奥德赛》吗？这…",
-        "title": "Vos enfants sont trop jeunes pour voir L’Odyssée au cinéma ? Ce…",
-        "body": "Vous avez vu L’Odyssée de Christopher Nolan au cinéma et vous aimeriez bien montrer le film à vos enfants. Problème : ils sont encore trop jeunes. Il existe heureusement de nombreuses œuvres qui abordent le récit à leur hauteur.",
-        "source": "Numerama",
-        "pub_date": "26 July 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2301663-ce-livre-est-la-meilleure-porte-dentree-pour-faire-decouvrir-lodyssee-aux-plus-jeunes.html",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "在美国，对数据中心的反对正在增长并变得……",
-        "title": "Aux Etats-Unis, l’opposition aux data centers grandit et devient…",
-        "body": "Un mouvement pour le moment largement « décentralisé et idéologiquement hétérogène » prend forme devant le développement effréné de l’intelligence artificielle et des conflits d’usage qu’elle génère. Donald Trump veut faire payer la facture d’électricité aux grands groupes de l’IA.",
-        "source": "Le Monde",
-        "pub_date": "27 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/07/27/aux-etats-unis-l-opposition-aux-data-centers-grandit-et-devient-un-objet-politique_6733571_3234.html",
-        "region": "etats-unis"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "人工智能数字“吓唬人”",
-        "title": "Les figures de l’IA «font peur aux gens»",
-        "body": "DÉCRYPTAGE - Le patron de Nvidia, à la tête de l’entreprise la plus valorisée au monde, a estimé dans un long entretien vidéo que le monde de la tech devait «absolument» utiliser les modèles chinois, malgré les restrictions américaines.",
-        "source": "Le Figaro",
-        "pub_date": "25 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/les-figures-de-l-ia-font-peur-aux-gens-les-confidences-de-jensen-huang-l-homme-le-plus-puissant-du-monde-de-la-tech-20260724",
-        "region": "chine"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "瑞恩·高斯林在《恶灵骑士》、《黑豹3》、《死侍》……",
-        "title": "Ryan Gosling en Ghost Rider, Black Panther 3, Deadpool dans…",
-        "body": "Marvel Studios a frappé fort lors de son traditionnel passage au Comic-Con de San Diego. Le studio n'a pas été avare en annonces et surprises, avec de nouveaux projets dévoilés et des révélations sur le chemin que prend le MCU. Voici tout ce qu'il fallait retenir de cette présentation particulièrement chargée.",
-        "source": "Numerama",
-        "pub_date": "26 July 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2301909-ryan-gosling-en-ghost-rider-black-panther-3-deadpool-dans-avengers-toutes-les-annonces-marvel-de-la-comic-con-2026.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "一家中国芯片制造商将创造最大……",
-        "title": "Un fabricant chinois de puces s’apprête à réaliser la plus…",
-        "body": "Le chinois ChangXin Memory Technologies (CXMT) pourrait dépasser les 1 000 milliards de yuans (129 milliards d’euros) de valorisation lundi 27 juillet, après son introduction en Bourse à Shanghaï.",
-        "source": "Le Monde",
-        "pub_date": "26 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/07/26/un-fabricant-chinois-de-puces-s-apprete-a-realiser-la-plus-grosse-levee-de-fonds-d-asie-grace-au-boom-de-l-ia_6733368_3234.html",
-        "region": "chine"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "Anthropic 发布了 Claude Opus 5，这是一个人工智能模型，呈现为……",
-        "title": "Anthropic sort Claude Opus 5, un modèle d’IA présenté comme…",
-        "body": "Selon Anthropic, Opus 5 «s’approche des capacités de Fable 5 dans de nombreux domaines, pour la moitié du prix», selon un communiqué.",
-        "source": "Le Figaro",
-        "pub_date": "24 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/anthropic-sort-une-nouvelle-intelligence-artificielle-presentee-comme-moins-dangereuse-pour-la-cybersecurite-20260724",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "甘道夫抵达《权力指环》，坐在 IMAX 中……",
-        "title": "Gandalf arrive sur Les Anneaux de Pouvoir, où s’asseoir en IMAX…",
-        "body": "C'est l'heure du récap pop culture de la semaine ! Au programme : l'arrivée enfin confirmée du vrai Gandalf dans Les Anneaux de Pouvoir, les coulisses d'un tournage au rythme infernal pour la série Harry Potter, et notre retour d'expérience pour placer idéalement son siège devant le nouveau choc IMAX de Christopher Nolan. On fait le point sur ce qu'il ne fallait pas rater.",
-        "source": "Numerama",
-        "pub_date": "26 July 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2301691-gandalf-arrive-sur-les-anneaux-de-pouvoir-ou-sasseoir-en-imax-pour-lodyssee-le-recap.html",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "希尔科内斯是新北极航线上的小港口……",
-        "title": "Kirkenes, le petit port sur la nouvelle route de l’Arctique où…",
-        "body": "« La ruée sur les ports » (16/16). Le réchauffement climatique pourrait changer le destin de la petite ville norvégienne de 3 500 habitants qui se situe sur une nouvelle route maritime, libérée par la fonte de la banquise, reliant l’Europe et l’Asie. Mais la proximité de la Russie et les tensions géopolitiques contrarient ses ambitions.",
-        "source": "Le Monde",
-        "pub_date": "26 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/07/26/kirkenes-le-petit-port-sur-la-nouvelle-route-de-l-arctique-ou-grouillent-les-espions_6732769_3234.html",
-        "region": "international"
-      }
-    ],
-    "vocab": [],
-    "word_count": 476,
-    "auto": true
-  },
-  {
     "date": "2026-07-26",
     "tags": [
-      "Culture",
-      "Technologie",
-      "Économie"
+      "Animaux",
+      "Jardin",
+      "Maison",
+      "Actu des mots",
+      "Formule 1",
+      "Politique",
+      "Cinéma",
+      "Musique",
+      "Journal de l'Afrique",
+      "Amériques",
+      "C'est dans ta nature",
+      "Y'a quoi sur tes réseaux?"
     ],
     "regions": [
-      "francophonie",
-      "international",
       "europe",
-      "chine",
-      "etats-unis"
+      "francophonie",
+      "international"
     ],
-    "summary_cn": "甘道夫抵达《权力指环》，坐在 IMAX 中…… | Instagram 希望禁止在人们不知情的情况下拍摄的内容...... | 希尔科内斯是新北极航线上的小港口…… | 银翼杀手 2099 | 人工智能数字“吓唬人”",
+    "summary_cn": "法国森林动物 | 就像在酒店一样 | 非凡的房子 | “莉赛特很好” | 匈牙利大奖赛",
     "briefs": [
       {
-        "tag": "Culture",
-        "title_cn": "甘道夫抵达《权力指环》，坐在 IMAX 中……",
-        "title": "Gandalf arrive sur Les Anneaux de Pouvoir, où s’asseoir en IMAX…",
-        "body": "C'est l'heure du récap pop culture de la semaine ! Au programme : l'arrivée enfin confirmée du vrai Gandalf dans Les Anneaux de Pouvoir, les coulisses d'un tournage au rythme infernal pour la série Harry Potter, et notre retour d'expérience pour placer idéalement son siège devant le nouveau choc IMAX de Christopher Nolan. On fait le point sur ce qu'il ne fallait pas rater.",
-        "source": "Numerama",
+        "tag": "Animaux",
+        "title_cn": "法国森林动物",
+        "title": "Animaux des forêts françaises",
+        "body": "QUIZ - À travers les documentaires, les films ou même les contes, les animaux des forêts font partie de notre culture depuis l’enfance. Nombreux sont ceux qui croient tout savoir sur eux. Et pourtant ! Seul un fin connaisseur saura reconnaître les animaux des forêts présents et répondre sans faute aux 10 questions de ce test.",
+        "source": "Le Figaro",
         "pub_date": "26 July 2026",
         "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2301691-gandalf-arrive-sur-les-anneaux-de-pouvoir-ou-sasseoir-en-imax-pour-lodyssee-le-recap.html",
+        "link": "https://www.lefigaro.fr/animaux/animaux-des-forets-francaises-seuls-les-plus-forts-obtiendront-la-note-maximale-a-ce-quiz-20260726",
+        "region": "europe"
+      },
+      {
+        "tag": "Jardin",
+        "title_cn": "就像在酒店一样",
+        "title": "Comme à l’hôtel",
+        "body": "Installation domestique très prisée, la piscine extérieure continue de faire des émules chez les propriétaires, qui tentent de la rendre toujours plus désirable. Certaines font particulièrement rêver. La preuve en images.",
+        "source": "Le Figaro",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/jardin/comme-a-l-hotel-ces-fabuleuses-piscines-exterieures-tout-droit-sorties-d-un-reve-20260726",
+        "region": "europe"
+      },
+      {
+        "tag": "Maison",
+        "title_cn": "非凡的房子",
+        "title": "Extraordinaires maisons",
+        "body": "Elles résultent d’une créativité sans limite, tournée vers l’extraordinaire. De São Paulo à Mexico, de la baie de Cannes à la Suisse, partez à la découverte de maisons d’architectes hors du commun, dotées d’atouts spectaculaires.",
+        "source": "Le Figaro",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/maison/extraordinaires-maisons-quand-les-architectes-defient-le-rationnel-20260726",
         "region": "francophonie"
       },
       {
-        "tag": "Technologie",
-        "title_cn": "Instagram 希望禁止在人们不知情的情况下拍摄的内容......",
-        "title": "Instagram veut bannir les contenus de gens filmés à leur insu…",
-        "body": "Le patron du réseau social a promis de sévir contre ces vidéos montrant des passants ou salariés harcelés par des créateurs de contenus filmant avec leurs lunettes-caméra.",
+        "tag": "Actu des mots",
+        "title_cn": "“莉赛特很好”",
+        "title": "«Lisette va bien»",
+        "body": "RÉCIT - Il y a tout juste 85 ans, en 1941, les premiers messages cachés par stéganographie étaient diffusés par Radio Londres pour organiser la Résistance. Une technique encore employée de nos jours.",
         "source": "Le Figaro",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/langue-francaise/actu-des-mots/lisette-va-bien-ces-messages-secrets-qui-ont-sauve-la-france-20260726",
+        "region": "europe"
+      },
+      {
+        "tag": "Politique",
+        "title_cn": "“右翼的法国愿景和左翼的法国愿",
+        "title": "« Une vision de droite d’être la France et de gauche d’être",
+        "body": "MACRON ET LES RITUELS DU POUVOIR (5/5) - Cérémonies militaires, hommages nationaux, panthéonisations… Le chef de l’État a tenté de dégager un fil rouge de ses choix en matière de mémoire, non sans distiller des messages politiques.",
+        "source": "Le Figaro",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/politique/une-vision-de-droite-d-etre-la-france-et-de-gauche-d-etre-francais-emmanuel-macron-dix-ans-de-commemorations-sous-le-signe-du-en-meme-temps-20260726",
+        "region": "europe"
+      },
+      {
+        "tag": "Journal de l'Afrique",
+        "title_cn": "“基拉伊，共和爱国者”的新党",
+        "title": "\"Kiiraay, les patriotes républicains\" le nouveau parti du",
+        "body": "Sénégal : la majorité se réorganise, la bataille d'influence est lancée. Le président Bassirou Diomaye Faye dévoile ce samedi le nom de son nouveau parti, Kiiraay, les patriotes républicains, tandis que son Premier ministre Ousmane Sonko consolide les rangs du Pastef. Entre nouvelles adhésions, départs et jeux d'alliances, le paysage politique sénégalais est en pleine recomposition.",
+        "source": "France 24",
         "pub_date": "25 July 2026",
         "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/instagram-veut-bannir-les-contenus-de-gens-filmes-a-leur-insu-par-ses-lunettes-ray-ban-meta-20260725",
-        "region": "francophonie"
+        "link": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260725-kiiraay-les-patriotes-r%C3%A9publicains-le-nouveau-parti-du-pr%C3%A9sident-s%C3%A9n%C3%A9galais-d%C3%A9voil%C3%A9",
+        "region": "europe"
       },
       {
-        "tag": "Économie",
-        "title_cn": "希尔科内斯是新北极航线上的小港口……",
-        "title": "Kirkenes, le petit port sur la nouvelle route de l’Arctique où…",
-        "body": "« La ruée sur les ports » (16/16). Le réchauffement climatique pourrait changer le destin de la petite ville norvégienne de 3 500 habitants qui se situe sur une nouvelle route maritime, libérée par la fonte de la banquise, reliant l’Europe et l’Asie. Mais la proximité de la Russie et les tensions géopolitiques contrarient ses ambitions.",
-        "source": "Le Monde",
+        "tag": "Amériques",
+        "title_cn": "巴西：弗拉维奥·博尔索纳罗被提",
+        "title": "Brésil: Flavio Bolsonaro investi candidat pour la présidentielle",
+        "body": "Après la Coupe du monde, la politique reprend ses droits au Brésil. Le Parti libéral a lancé officiellement ce samedi 25 juillet la candidature de Flavio Bolsonaro à la présidence en vue des élections du 4 octobre. Le sénateur, et surtout fils de l'ancien président d'extrême droite Jair Bolsonaro, détenu pour tentative de coup d'État, affrontera notamment Lula, le président sortant, qui devrait annoncer le week-end prochain sa candidature pour un quatrième mandat.",
+        "source": "RFI",
         "pub_date": "26 July 2026",
         "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/07/26/kirkenes-le-petit-port-sur-la-nouvelle-route-de-l-arctique-ou-grouillent-les-espions_6732769_3234.html",
+        "link": "https://www.rfi.fr/fr/am%C3%A9riques/20260726-br%C3%A9sil-flavio-bolsonaro-investi-candidat-pour-la-pr%C3%A9sidentielle-d-octobre",
         "region": "international"
       },
       {
-        "tag": "Culture",
-        "title_cn": "银翼杀手 2099",
-        "title": "Blade Runner 2099",
-        "body": "50 ans après les événements de Blade Runner 2049, et 80 ans après le récit du premier Blade Runner, l'univers imaginé par Philip K. Dick et porté à l'écran par Ridley Scott et Denis Villeneuve s'apprête à faire son retour sur Prime Video. La série Blade Runner 2099 dévoile enfin son premier trailer, qui, il faut l'avouer, donne sacrément envie.",
-        "source": "Numerama",
-        "pub_date": "25 July 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2301879-blade-runner-2099-le-trailer-devoile-une-nouvelle-chasse-aux-replicants-dans-lesprit-du-film-culte-de-1982.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "人工智能数字“吓唬人”",
-        "title": "Les figures de l’IA «font peur aux gens»",
-        "body": "DÉCRYPTAGE - Le patron de Nvidia, à la tête de l’entreprise la plus valorisée au monde, a estimé dans un long entretien vidéo que le monde de la tech devait «absolument» utiliser les modèles chinois, malgré les restrictions américaines.",
-        "source": "Le Figaro",
-        "pub_date": "25 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/les-figures-de-l-ia-font-peur-aux-gens-les-confidences-de-jensen-huang-l-homme-le-plus-puissant-du-monde-de-la-tech-20260724",
-        "region": "chine"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "关税",
-        "title": "Droits de douane",
-        "body": "Un an après l’accord commercial transatlantique et sa promesse de stabilité, le président américain continue de souffler le chaud et le froid. Il menace désormais de se venger d’une amende européenne infligée à Google en rehaussant les taxes visant l’UE.",
-        "source": "Le Monde",
-        "pub_date": "25 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/07/25/droits-de-douane-les-nouvelles-menaces-de-trump-douchent-les-espoirs-d-apaisement-des-europeens_6732384_3234.html",
-        "region": "etats-unis"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "漫威宣布推出第三部《黑豹》……",
-        "title": "Marvel annonce un troisième volet de « Black Panther » au…",
-        "body": "L’acteur britannique rejoint l’univers cinématographique Marvel en incarnant le fils de T’Challa, le super-héros Black Panther original, joué par l’acteur Chadwick Boseman.",
-        "source": "Le Monde",
+        "tag": "Y'a quoi sur tes réseaux?",
+        "title_cn": "热浪，热浪，还有和萝拉发脾气",
+        "title": "La canicule, les coups de chaud et les coups de colère avec Lola",
+        "body": "Lola a vécu les vagues de chaleur successives dans son studio à Nantes, l'une des villes qui a connu les températures les plus extrêmes du début de l'été. Astuces, débrouille et révolte ont rythmé ses réseaux.",
+        "source": "RFI",
         "pub_date": "26 July 2026",
         "auto": true,
-        "link": "https://www.lemonde.fr/culture/article/2026/07/26/marvel-annonce-un-troisieme-volet-de-black-panther-au-comic-con-avec-david-jonsson-dans-le-role-principal_6733109_3246.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "Anthropic 发布了 Claude Opus 5，这是一个人工智能模型，呈现为……",
-        "title": "Anthropic sort Claude Opus 5, un modèle d’IA présenté comme…",
-        "body": "Selon Anthropic, Opus 5 «s’approche des capacités de Fable 5 dans de nombreux domaines, pour la moitié du prix», selon un communiqué.",
-        "source": "Le Figaro",
-        "pub_date": "24 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/anthropic-sort-une-nouvelle-intelligence-artificielle-presentee-comme-moins-dangereuse-pour-la-cybersecurite-20260724",
-        "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "“我们买了一张两人座的医疗床。能够睡着了......",
-        "title": "« On a acheté un lit médicalisé deux places. Pouvoir m’endormir…",
-        "body": "Quand la maladie, le handicap ou la perte d’autonomie s’invitent dans la vie de couple, l’aimant devient aussi aidant. Préserver le désir et la complicité quand les gestes de soin remplacent peu à peu les caresses est un défi.",
-        "source": "Le Monde",
-        "pub_date": "25 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/intimites/article/2026/07/25/on-a-achete-un-lit-medicalise-deux-places-pouvoir-m-endormir-la-tete-sur-son-epaule-me-ressource-comment-maintenir-le-lien-amoureux-malgre-la-dependance_6732378_6190330.html",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "Christophe Bourseiller，一位不想出名的演员",
-        "title": "Christophe Bourseiller, l’acteur qui ne voulait pas être célèbre",
-        "body": "« Etoiles filantes » (1/4). Fils de comédiens, celui que l’on connaît aujourd’hui comme journaliste et chercheur a débuté devant la caméra dès l’âge de 5 ans, multipliant notamment les apparitions chez Jean-Luc Godard. Ayant toujours pratiqué le cinéma en dilettante, il a fini par reprendre des études, devenant un spécialiste des courants politiques extrêmes.",
-        "source": "Le Monde",
-        "pub_date": "26 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/series-d-ete/article/2026/07/26/christophe-bourseiller-l-acteur-qui-ne-voulait-pas-etre-celebre_6732771_3451060.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "AI 驱动的相机",
-        "title": "Caméras dopées à l’IA",
-        "body": "Portées par les progrès de l’IA, les « caméras intelligentes » suscitent un intérêt croissant chez les élus et les forces de sécurité. Malgré un cadre juridique encore restrictif, les initiatives se multiplient pour en étendre l’usage.",
-        "source": "Challenges",
-        "pub_date": "26 July 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/tech-numerique/cameras-dopees-a-lia-pourquoi-les-elus-veulent-aller-beaucoup-plus-loin-dans-la-videosurveillance_644970",
-        "region": "etats-unis"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "巴斯蒂亚 (Bastia) 在“反对 Airbnb 化的斗争”中声称……",
-        "title": "Bastia, en « lutte contre l’airbnbisation », revendique avoir…",
-        "body": "La ville a mis en place un dispositif qui vise à faire entrer par la fenêtre municipale le « statut de résident » que veulent appliquer les nationalistes dirigeant la collectivité de Corse à l’échelle du territoire.",
-        "source": "Le Monde",
-        "pub_date": "25 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/07/25/bastia-en-lutte-contre-l-airbnbisation-revendique-avoir-rendu-233-logements-aux-residents-a-l-annee_6732240_3234.html",
+        "link": "https://www.rfi.fr/fr/podcasts/y-a-quoi-sur-tes-r%C3%A9seaux/20260726-la-canicule-les-coups-de-chaud-et-les-coups-de-col%C3%A8re-avec-lola-depuis-nantes",
         "region": "europe"
       }
     ],
     "vocab": [],
-    "word_count": 498,
+    "word_count": 457,
     "auto": true
   },
   {
@@ -634,8 +141,8 @@
     "briefs": [
       {
         "tag": "Bons plans Maison",
-        "title_cn": "这款 Silvercrest 设备售价不到 20 欧元，绝对是一款热门产品……",
-        "title": "Cet appareil Silvercrest à moins de 20 € fait un carton absolu…",
+        "title_cn": "这款 Silvercrest",
+        "title": "Cet appareil Silvercrest à moins de 20 € fait un carton absolu",
         "body": "On peut se dire que cuire du riz à la casserole ou au micro-ondes suffit amplement, mais ceux qui ont déjà testé un cuiseur à riz ne sont pas du même avis. Si vous pensez que cet appareil pèse dans le budget, Lidl prouve que non, avec sa version Silvercrest.",
         "source": "Le Figaro",
         "pub_date": "25 July 2026",
@@ -655,17 +162,6 @@
         "region": "europe"
       },
       {
-        "tag": "Jardin",
-        "title_cn": "周末郊游亲近自然",
-        "title": "Sorties week-end nature",
-        "body": "Aux portes de la capitale ou face à la grande bleue, deux lieux où flâner, respirer et admirer une biodiversité foisonnante vous attendent ce samedi ou ce dimanche.",
-        "source": "Le Figaro",
-        "pub_date": "25 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/jardin/sorties-week-end-nature-un-grand-parc-historique-francilien-ou-un-jardin-exotique-face-a-la-mer-20260725",
-        "region": "europe"
-      },
-      {
         "tag": "Maison",
         "title_cn": "装修激情",
         "title": "Passion décoration",
@@ -674,28 +170,6 @@
         "pub_date": "25 July 2026",
         "auto": true,
         "link": "https://www.lefigaro.fr/maison/passion-decoration-saurez-vous-nommer-ces-styles-sans-vous-tromper-20260725",
-        "region": "europe"
-      },
-      {
-        "tag": "Quiz français",
-        "title_cn": "“腔棘鱼”、“弯曲”……您是……专家吗？",
-        "title": "«Cœlacanthe», «Anfractuosité»... Êtes-vous un expert de la…",
-        "body": "QUIZ - L’orthographe française recèle de pièges en tout genre. Saurez-vous les éviter ?",
-        "source": "Le Figaro",
-        "pub_date": "25 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/langue-francaise/quiz-francais/coelacanthe-anfractuosite-etes-vous-un-expert-de-la-langue-francaise-20260725",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Horlogerie",
-        "title_cn": "2026 年环法自行车赛",
-        "title": "Tour de France 2026",
-        "body": "Entre Tissot, Breitling, Tudor et surtout Richard Mille, on n’aura sans doute jamais autant croisé de montres que sur ce Tour de France 2026.",
-        "source": "Le Figaro",
-        "pub_date": "25 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/horlogerie/tour-de-france-2026-ces-marques-de-montres-qui-se-piquent-de-velo-20260725",
         "region": "europe"
       },
       {
@@ -710,20 +184,9 @@
         "region": "europe"
       },
       {
-        "tag": "Politique",
-        "title_cn": "让-吕克·梅朗雄，激进主义和过度行为是唯一的道路……",
-        "title": "Jean-Luc Mélenchon, la radicalité et l’outrance pour seul chemin…",
-        "body": "RÉCIT - La France insoumise a dû faire face ces derniers jours à plusieurs polémiques. Pour autant, aucune secousse ne semble perturber la dynamique du mouvement dans l’opinion.",
-        "source": "Le Figaro",
-        "pub_date": "24 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/elections/presidentielles/jean-luc-melenchon-la-radicalite-et-l-outrance-pour-seul-chemin-vers-2027-20260724",
-        "region": "europe"
-      },
-      {
         "tag": "Journal de l'Afrique",
-        "title_cn": "美国干预马里？巴马科没有证实……",
-        "title": "Vers une intervention américaine au Mali ? Bamako ne confirme…",
+        "title_cn": "美国干预马里",
+        "title": "Vers une intervention américaine au Mali ? Bamako ne confirme",
         "body": "Les États Unis envisagent-elles une prochaine intervention militaire au Mali ? Mercredi, le journal américain Le Washington Post a affirmé que « l’Administration Trump étudie des options militaires au Mali ». Cette information a suscité de nombreux commentaires depuis…",
         "source": "France 24",
         "pub_date": "24 July 2026",
@@ -755,8 +218,8 @@
       },
       {
         "tag": "Amériques",
-        "title_cn": "国际刑事法院总检察长卡里姆·汗被解雇……",
-        "title": "Le procureur général de la CPI Karim Khan démis de ses fonctions…",
+        "title_cn": "国际刑事法院总检察长卡里姆·汗",
+        "title": "Le procureur général de la CPI Karim Khan démis de ses fonctions",
         "body": "La décision était attendue et elle marque un tournant dans l'histoire de la Cour Pénale Internationale : le procureur de la CPI Karim Khan est relevé de ses fonctions pour «faute grave» et «manquement grave aux devoirs de sa charge», a annoncé l'Assemblée. Karim Khan était suspendu depuis 2025, la Cour a donc décidé de le révoquer défintivement après la tenue d'une réunion exceptionnelle vendredi 24 juillet dans l'après-midi au siège de l'ONU à New York.",
         "source": "RFI",
         "pub_date": "24 July 2026",
@@ -793,8 +256,8 @@
     "briefs": [
       {
         "tag": "Animaux",
-        "title_cn": "一只猫失踪九个月，多亏了一个人的帮助才找到了……",
-        "title": "Porté disparu pendant neuf mois, un chat retrouvé grâce à un…",
+        "title_cn": "一只猫失踪九个月",
+        "title": "Porté disparu pendant neuf mois, un chat retrouvé grâce à un",
         "body": "Contactée par le refuge d’un autre département, la famille de Gribouille est venue le récupérer, plusieurs mois après sa disparition. Son identification a été rendue possible grâce à un bon réflexe, malheureusement boudé par de nombreux propriétaires.",
         "source": "Le Figaro",
         "pub_date": "24 July 2026",
@@ -804,8 +267,8 @@
       },
       {
         "tag": "Patrimoine",
-        "title_cn": "巴黎圣母院的当代彩色玻璃窗甚至会吸引“……",
-        "title": "Les vitraux contemporains de Notre-Dame séduiront même « les…",
+        "title_cn": "巴黎圣母院的当代彩色玻璃窗甚至",
+        "title": "Les vitraux contemporains de Notre-Dame séduiront même « les",
         "body": "En visite dans les ateliers Simon-Marq, la ministre de la Culture estime que l’inauguration en décembre sera un « très grand moment ». D’ici là, le tribunal administratif aura rendu son jugement, ce qui semble n’inquiéter personne à Reims.",
         "source": "Le Figaro",
         "pub_date": "24 July 2026",
@@ -815,24 +278,13 @@
       },
       {
         "tag": "Bons plans",
-        "title_cn": "YouScribe：用这个深入你的夏季阅读……",
-        "title": "YouScribe : plongez dans vos lectures de l’été avec cet…",
+        "title_cn": "YouScribe：用这个深入",
+        "title": "YouScribe : plongez dans vos lectures de l’été avec cet",
         "body": "Avec un seul abonnement pour accéder à une galaxie de livres audio, guides de voyages, classiques de la littérature et titres de presse, YouScribe est le compagnon idéal de votre été. Profitez de l’abonnement à un prix inédit !",
         "source": "Le Figaro",
         "pub_date": "24 July 2026",
         "auto": true,
         "link": "https://www.lefigaro.fr/bons-plans/youscribe-plongez-dans-vos-lectures-de-l-ete-avec-cet-abonnement-tout-compris-a-moins-de-10-euros-par-mois-20260724",
-        "region": "europe"
-      },
-      {
-        "tag": "Horlogerie",
-        "title_cn": "法国之夏 – Pierre Lannier x 10 ATM Bora，目的地……",
-        "title": "UN ÉTÉ FRANÇAIS – Pierre Lannier x 10 ATM Bora, destination…",
-        "body": "Tout l’été, focus sur la nouvelle vague des montres françaises...La maison familiale alsacienne s’associe au youtubeur horloger Julien Laufer, le temps d’une édition limitée estivale à prix sage.",
-        "source": "Le Figaro",
-        "pub_date": "24 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/horlogerie/un-ete-francais-pierre-lannier-x-10-atm-bora-destination-polynesie-20260724",
         "region": "europe"
       },
       {
@@ -847,19 +299,8 @@
         "region": "europe"
       },
       {
-        "tag": "Afrique",
-        "title_cn": "桑切斯在阿尔及尔、达喀尔支持萨尔、摩洛哥-尼日利亚天然气管道",
-        "title": "Sanchez à Alger, Dakar soutient Sall, gazoduc Maroc - Nigeria",
-        "body": "Sanchez à Alger, Dakar soutient Sall, gazoduc Maroc - Nigeria",
-        "source": "France 24",
-        "pub_date": "24 July 2026",
-        "auto": true,
-        "link": "https://www.france24.com/fr/afrique/20260724-recap-hebdo-afrique-sanchez-algerie-senegal-onu-sall-gazoduc-maroc-nigeria",
-        "region": "international"
-      },
-      {
         "tag": "Contre-Faits",
-        "title_cn": "梅洛尼，欧洲极右翼领袖？",
+        "title_cn": "梅洛尼，欧洲极右翼领袖",
         "title": "Meloni, cheffe de file de la droite radicale en Europe ?",
         "body": "Giorgia Meloni, présidente du Conseil des ministres italiens depuis octobre 2022 est la première femme à diriger l'Italie. Dès son accession au pouvoir la dirigeante d'extrême droite a voulu être un pont entre l'Amérique de Donald Trump et la droite radicale européenne. Elle a même été la seule dirigeante européenne invitée à l'investiture du milliardaire américain pour son second mandat.",
         "source": "France 24",
@@ -871,7 +312,7 @@
       {
         "tag": "Asie-Pacifique",
         "title_cn": "印度：“蟑螂党”获得主要支持",
-        "title": "Inde: un soutien majeur du «parti des cafards» obtient des…",
+        "title": "Inde: un soutien majeur du «parti des cafards» obtient des",
         "body": "En Inde, la mobilisation étudiante se poursuit avec aujourd'hui une journée de protestation nationale pour réclamer la démission du ministre de l'Éducation sur fond de fraudes à répétition aux examens nationaux et de montée en puissance du « parti des cafards » popularisé sur les réseaux sociaux. Même si son un de ses soutiens majeurs, Sonam Wangchuk, a mis fin jeudi à sa grève de la faim après avoir obtenu des garanties du gouvernement.",
         "source": "RFI",
         "pub_date": "24 July 2026",
@@ -881,8 +322,8 @@
       },
       {
         "tag": "Connaissances",
-        "title_cn": "在冰岛，一项已有 400 年历史的法律允许杀害……",
-        "title": "En Islande, une loi vieille de 400 ans autorisait à tuer les…",
+        "title_cn": "在冰岛，一项已有 400 年历",
+        "title": "En Islande, une loi vieille de 400 ans autorisait à tuer les",
         "body": "En 1615, de nombreux Basques sont massacrés en Islande. Leur mise à mort est alors garantie par un décret local, adopté sur fond de raids et de pillages entre les communautés islandaises et les pêcheurs basques venus chasser la baleine autour de l’île. Cette loi est restée en vigueur pendant quatre cents ans.",
         "source": "RFI",
         "pub_date": "24 July 2026",
@@ -892,8 +333,8 @@
       },
       {
         "tag": "Politique",
-        "title_cn": "“一个过于意识形态化的国务委员会将使自己暴露在......",
-        "title": "«Un Conseil d’État qui deviendrait trop idéologue s’exposerait à…",
+        "title_cn": "“一个过于意识形态化的国务委员",
+        "title": "«Un Conseil d’État qui deviendrait trop idéologue s’exposerait à",
         "body": "FIGAROVOX/TRIBUNE - Les critiques suscitées par la nomination de Christine Maugüe à la tête du Conseil d’Etat, en raison de son engagement auprès de Christiane Taubira, traduisent une inquiétude légitime des Français quant à la politisation de cette institution, estime le juriste Jean-Pierre Camby.",
         "source": "Le Figaro",
         "pub_date": "24 July 2026",
@@ -903,8 +344,8 @@
       },
       {
         "tag": "Amériques",
-        "title_cn": "唐纳德·特朗普重返年度新闻晚会，被中断……",
-        "title": "Donald Trump de retour au gala annuel de la presse, interrompu…",
+        "title_cn": "唐纳德·特朗普重返年度新闻晚会",
+        "title": "Donald Trump de retour au gala annuel de la presse, interrompu",
         "body": "Le président américain Donald Trump doit assister vendredi soir au dîner des correspondants de la Maison Blanche, un évènement reprogrammé trois mois après la tentative d’assassinat présumée l'ayant visé lors de ce gala annuel de la presse.",
         "source": "France 24",
         "pub_date": "24 July 2026",
@@ -929,7 +370,7 @@
     "briefs": [
       {
         "tag": "Société",
-        "title_cn": "厨师 Emily Dader 和辣椒，夏日宝石",
+        "title_cn": "厨师 Emily Dader",
         "title": "La cheffe Emily Dader et le poivron, pépite de l’été",
         "body": "« Surprise de cheffes » (3/6). Tout l’été, une cuisinière raconte son parcours et partage trois recettes autour de son ingrédient fétiche. Emily Dader, 32 ans, a ouvert il y a moins d’un an Trèfle, un restaurant gastronomique 100 % végétal, à Lyon. Son légume estival favori, le poivron, y figure régulièrement au menu.",
         "source": "Le Monde",
@@ -939,38 +380,8 @@
       },
       {
         "tag": "Société",
-        "title_cn": "巴黎Samusocial罢工仍在继续，工会谴责“太多家庭重返街头”",
-        "title": "La grève au Samusocial de Paris se poursuit, les syndicats…",
-        "body": "Selon la direction, le service d’aide fait face à un dépassement de son plafond annuel de dépenses consacrées à l’hébergement, et à un durcissement des critères d’accès.",
-        "source": "Le Monde",
-        "pub_date": "23 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/societe/article/2026/07/23/le-samusocial-de-paris-poursuit-son-mouvement-de-greve-lance-depuis-un-mois-et-denonce-la-remise-a-la-rue-de-familles_6730174_3224.html"
-      },
-      {
-        "tag": "Société",
-        "title_cn": "在巴斯蒂亚，“科西嘉-马格里布”展览回顾了该岛和北非之间的来回迁徙",
-        "title": "A Bastia, l’exposition « Corsica-Maghreb » rappelle les…",
-        "body": "Le musée de la ville propose un passionnant regard croisé sur les relations entre la Corse et le Maghreb, à travers 336 oeuvres, objets et documents.",
-        "source": "Le Monde",
-        "pub_date": "23 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/culture/article/2026/07/23/a-bastia-l-exposition-corsica-maghreb-rappelle-les-allers-retours-migratoires-entre-l-ile-et-l-afrique-du-nord_6730485_3246.html"
-      },
-      {
-        "tag": "Société",
-        "title_cn": "执法中的自卫推定：为何拟议的法律受到争议？",
-        "title": "Présomption de légitime défense pour les forces de l’ordre",
-        "body": "Mardi 21 juillet, l’Assemblée a classé la pétition qui s’oppose à ce texte, elle ne sera donc pas débattue.",
-        "source": "Le Monde",
-        "pub_date": "22 July 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/videos/video/2026/07/22/presomption-de-legitime-defense-pour-les-forces-de-l-ordre-pourquoi-la-proposition-de-loi-fait-debat_6730065_1669088.html"
-      },
-      {
-        "tag": "Société",
-        "title_cn": "CSG、税收减免、资产……随着 2027 年的临近，退休人员领取工资的途径越来越多",
-        "title": "CSG, abattement fiscal, patrimoine... Les pistes pour faire…",
+        "title_cn": "CSG、税收减免、资产随着 2",
+        "title": "CSG, abattement fiscal, patrimoine... Les pistes pour faire",
         "body": "DÉCRYPTAGE - Au-delà de la question de l’âge de départ à la retraite, suspendu jusqu’à la présidentielle, un autre débat s’installe : celui de la fiscalité des 17 millions de retraités français, qui représentent 25 % de la dépense publique.",
         "source": "Le Figaro",
         "pub_date": "23 July 2026",
@@ -979,7 +390,7 @@
       },
       {
         "tag": "Société",
-        "title_cn": "它看起来很自然，但却是：来自孔布卢这个壮丽的人工山湖的独特配方",
+        "title_cn": "它看起来很自然",
         "title": "Il a l’air naturel et pourtant",
         "body": "Filtré par les plantes, le plan d’eau biotope de Combloux nécessite un entretien particulier, une jauge plafonnée et des baigneurs responsables. Mais offre en retour une spectaculaire baignade face au Mont-Blanc et aux géants de Haute-Savoie.",
         "source": "Le Figaro",
@@ -989,17 +400,7 @@
       },
       {
         "tag": "Société",
-        "title_cn": "“他的信仰与普通美国人相似”：乔·罗根，播客之王，肆无忌惮的舆论制造者",
-        "title": "« Ses convictions ressemblent à celles d’un Américain moyen »",
-        "body": "Le plus écouté des podcasteurs du monde a soutenu Donald Trump lors de l’élection présidentielle de 2024, avant de s’en éloigner depuis quelques mois.",
-        "source": "Le Figaro",
-        "pub_date": "23 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/international/ses-convictions-ressemblent-a-celles-d-un-americain-moyen-joe-rogan-le-roi-des-podcasteurs-faiseur-d-opinion-debride-20260723"
-      },
-      {
-        "tag": "Société",
-        "title_cn": "“他们在两天内解决了两起悬案”：巴约讷附近，美国潜水员在阿杜尔河的令人难以置信的行动",
+        "title_cn": "“他们在两天内解决了两起悬案”",
         "title": "«Ils ont résolu deux cold cases en deux jours»",
         "body": "RÉCIT - Les véhicules de Joëlle Pouy et David Stévenin, disparus en 2017 et 2018, ont été retrouvés à quelques heures d’intervalle cette semaine, grâce à l’intervention bénévole d’une équipe spécialisée dans l’élucidation d’affaires classées et qui compte 3,6 millions d’abonnés sur YouTube.",
         "source": "Le Figaro",
@@ -1009,27 +410,7 @@
       },
       {
         "tag": "Société",
-        "title_cn": "莫雷蒂、泽勒、阿弗莱克、赫尔佐格……威尼斯电影节公布入围影片",
-        "title": "Moretti, Zeller, Affleck, Herzog... La Mostra de Venise dévoile…",
-        "body": "La 83e édition de la Mostra de Venise, qui se tiendra du 2 au 12 septembre, a annoncé la liste des films en lice pour le Lion d’or.",
-        "source": "Le Figaro",
-        "pub_date": "23 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/cinema/moretti-mcdonagh-zeller-affleck-la-mostra-de-venise-devoile-sa-selection-20260723"
-      },
-      {
-        "tag": "Société",
-        "title_cn": "法国巴黎银行盈利能力提高并接近其他欧洲领先企业",
-        "title": "BNP Paribas améliore sa rentabilité et se rapproche de celle des…",
-        "body": "Au deuxième trimestre, grâce à la bonne tenue de ses activités, les bénéfices de la première banque française ont bondi de 33%.",
-        "source": "Le Figaro",
-        "pub_date": "23 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/societes/bnp-paribas-ameliore-sa-rentabilite-et-se-rapproche-des-leaders-europeens-20260723"
-      },
-      {
-        "tag": "Société",
-        "title_cn": "2027 年总统大选：马琳·勒庞将参加由 Medef 于 8 月 27 日组织的候选人辩论",
+        "title_cn": "2027 年总统大选：马琳·勒",
         "title": "Présidentielle 2027",
         "body": "INFO LE FIGARO - La candidate RN, qui a répondu favorablement à l’invitation qui lui avait été lancée, participera pour la première fois aux universités d’été de l’organisation patronale, à Roland-Garros.",
         "source": "Le Figaro",
@@ -1039,8 +420,8 @@
       },
       {
         "tag": "Société",
-        "title_cn": "Pierre Paulin 带领设计盛大登陆蒙彼利埃",
-        "title": "Avec Pierre Paulin, le design fait son entrée en fanfare à…",
+        "title_cn": "Pierre Paulin 带",
+        "title": "Avec Pierre Paulin, le design fait son entrée en fanfare à",
         "body": "REPORTAGE - Le Musée Fabre célèbre le créateur français qui révolutionna l’art des sièges, en les gansant de stretch, et bouleversa l’intérieur de l’Élysée, avec le fumoir pour les Pompidou, récemment restauré. Le clou de l’exposition.",
         "source": "Le Figaro",
         "pub_date": "23 July 2026",
@@ -1071,7 +452,7 @@
       {
         "tag": "Technologie / Chine",
         "title_cn": "世界AI大会2026在上海开幕",
-        "title": "La Conférence mondiale sur l'IA s'ouvre à Shanghai avec des…",
+        "title": "La Conférence mondiale sur l'IA s'ouvre à Shanghai avec des",
         "body": "La Conférence mondiale sur l'intelligence artificielle 2026 a ouvert ses portes à Shanghai, réunissant plus de 100 entreprises et 200 produits liés à l'IA. Parmi les annonces marquantes, Morgan Stanley a relevé ses prévisions pour le marché des robots humanoïdes à 50 000 unités en 2026, contre 14 000 auparavant, anticipant un marché de 20 milliards de dollars cette année et de 150 milliards d'ici 2030. UBS a rapporté que les commandes de composants IA sont réservées jusqu'à fin 2027, avec des bénéfices en hausse de 80 à 90 % cette année.",
         "source": "People's Daily / Morgan Stanley",
         "pub_date": "19 juillet 2026"
@@ -1079,7 +460,7 @@
       {
         "tag": "Économie / Chine",
         "title_cn": "中国高技术制造业增长13.3%",
-        "title": "Le secteur high-tech chinois bondit de 13,3 %, porté par l'IA et…",
+        "title": "Le secteur high-tech chinois bondit de 13,3 %, porté par l'IA et",
         "body": "La production de l'industrie high-tech chinoise a bondi de 13,3 % au premier semestre 2026, bien au-dessus de la croissance industrielle globale de 5,4 %, selon les données officielles publiées le 19 juillet. Les secteurs clés incluent la production de robots industriels (+28 %), d'équipements d'impression 3D (+48,5 %) et de circuits intégrés (279,8 milliards d'unités, soit plus de 1,5 milliard de puces par jour). Les bénéfices du secteur high-tech ont grimpé de 44,7 % sur les cinq premiers mois, confirmant la transformation structurelle de l'économie chinoise.",
         "source": "People's Daily / CCTV",
         "pub_date": "19 juillet 2026"
@@ -1149,7 +530,7 @@
       {
         "tag": "Technologie / Chine",
         "title_cn": "CXMT上海IPO",
-        "title": "Le géant chinois des puces mémoire CXMT lève 8,6 milliards $ à…",
+        "title": "Le géant chinois des puces mémoire CXMT lève 8,6 milliards $ à",
         "body": "ChangXin Memory Technologies (CXMT), le premier fabricant chinois de puces mémoire DRAM et le quatrième mondial, a fait son entrée à la Bourse de Shanghai le 27 juillet dans le cadre de la plus grande introduction en bourse d'Asie en 2026. L'opération, d'un montant de 8,6 milliards de dollars (29,5 milliards de yuans), a été 243 fois sursouscrite par les investisseurs particuliers. CXMT, qui détient environ 7,7 % du marché mondial de la DRAM, prévoit d'utiliser ces fonds pour moderniser ses lignes de production et développer de nouvelles technologies.",
         "source": "DealStreetAsia / SCMP",
         "pub_date": "juillet 2026"
@@ -1165,7 +546,7 @@
       {
         "tag": "Régulation / Europe",
         "title_cn": "欧盟AI法案修正通过",
-        "title": "L'UE adopte le Digital Omnibus, premier assouplissement de l'AI…",
+        "title": "L'UE adopte le Digital Omnibus, premier assouplissement de l'AI",
         "body": "Le Conseil de l'Union européenne a officiellement adopté le « Digital Omnibus sur l'IA », le premier amendement majeur à l'AI Act depuis son entrée en vigueur en 2024. Le texte repousse les obligations pour les systèmes d'IA à haut risque au 2 décembre 2027, soit plus d'un an de délai supplémentaire. En revanche, les obligations de transparence entreront en vigueur le 2 août 2026 : les entreprises devront marquer les contenus générés par l'IA et informer les utilisateurs lors d'une interaction avec un système d'IA.",
         "source": "Euronews / Le Monde",
         "pub_date": "29 juin 2026"
@@ -1173,15 +554,15 @@
       {
         "tag": "Technologie / Chine",
         "title_cn": "中国AI芯片爆发增长",
-        "title": "Les alternatives chinoises à Nvidia explosent face aux…",
+        "title": "Les alternatives chinoises à Nvidia explosent face aux",
         "body": "Moore Threads Technology a annoncé une hausse de son chiffre d'affaires de 135 à 149 % au premier semestre 2026, grâce à la demande pour ses GPU et sa puce phare MTT S5000. Hygon Information a enregistré une croissance de 55 à 70 %, portée par ses processeurs et cartes d'accélération IA. Ces résultats illustrent l'émergence d'un écosystème de puces IA chinois, stimulé par les restrictions américaines et les investissements du 15e Plan quinquennal.",
         "source": "South China Morning Post",
         "pub_date": "juillet 2026"
       },
       {
         "tag": "Technologie / International",
-        "title_cn": "Meta拟租云设施给Anthropic",
-        "title": "Meta en négociations pour louer son infrastructure cloud à…",
+        "title_cn": "Meta拟租云设施给Anthr",
+        "title": "Meta en négociations pour louer son infrastructure cloud à",
         "body": "Meta est en discussions avancées pour louer une partie de son infrastructure informatique à Anthropic, la startup américaine d'IA concurrente d'OpenAI. L'accord potentiel, estimé à 10 milliards de dollars sur deux ans, marquerait une nouvelle stratégie de monétisation pour Meta. Pour Anthropic, ce partenariat permettrait d'accéder à davantage de capacités de calcul pour entraîner et déployer ses modèles d'IA, alors que l'entreprise se prépare à entrer en Bourse.",
         "source": "CNN Business",
         "pub_date": "17 juillet 2026"

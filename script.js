@@ -102,7 +102,7 @@ function showArticleView(article, briefIndex) {
       </div>
       </div>
       ${brief.title_cn ? `<div class="av-title-cn">${brief.title_cn}</div>` : ''}
-      <div class="av-title-fr">${brief.title}</div>
+      <div class="av-title-fr">${brief.title.replace(/…+$/, '').trim()}</div>
       <div class="av-body">${brief.body}</div>
       <div class="av-source"><strong>Source :</strong> ${brief.source} · ${brief.pub_date}</div>
       <div class="av-notes">
@@ -219,19 +219,20 @@ function renderTousView(articles, container) {
   container.innerHTML = items.map(item => {
     const dateDisplay = item.date.replace(/-/g, '/');
     const read = isRead(item.link);
-    // 精简中文：截取前 20 个字或到第一个标点
-    let kw = (item.title_cn || '').trim();
+    // 精简短中文标题：句子类不超过15字，去省略号
+    let kw = (item.title_cn || '').trim().replace(/…+/g, '').replace(/\.\.\.+/g, '').trim();
     if (kw) {
-      const punct = kw.search(/[，,。、；：]/);
-      if (punct > 0 && punct <= 25) kw = kw.slice(0, punct);
-      else kw = kw.slice(0, 22);
+      // 只在句子标点（，。！？）出现在第5字以后才截断
+      const m = kw.match(/[，。！？]/);
+      if (m && m.index > 5) kw = kw.slice(0, m.index);
+      else kw = kw.slice(0, 15);
     }
     return `
       <div class="tous-row" data-date="${item.date}" data-brief="${item.briefIndex}" data-link="${item.link}">
         <div class="tous-main">
           <span class="tous-date">${dateDisplay}</span>
           <span class="tous-emoji">${REGION_EMOJI[item.region]}</span>
-          <span class="tous-title-fr">${item.title}</span>
+          <span class="tous-title-fr">${item.title.replace(/…+$/, '').trim()}</span>
           ${read ? '<span class="read-badge">✓</span>' : ''}
           <button class="del-row-btn" title="Supprimer">✕</button>
         </div>
@@ -280,16 +281,16 @@ function renderRegionalView(articles, container) {
         <div class="region-date-header">${dateDisplay}</div>
         ${byDate[d].map(item => {
           const read = isRead(item.link);
-          let kw = (item.title_cn || '').trim();
+          let kw = (item.title_cn || '').trim().replace(/…+/g, '').replace(/\.\.\.+/g, '').trim();
           if (kw) {
             const punct = kw.search(/[，,。、；：]/);
-            if (punct > 0 && punct <= 25) kw = kw.slice(0, punct);
-            else kw = kw.slice(0, 22);
+            if (punct > 0 && punct <= 15) kw = kw.slice(0, punct);
+            else kw = kw.slice(0, 15);
           }
           return `
           <div class="tous-row" data-date="${item.date}" data-brief="${item.briefIndex}" data-link="${item.link}">
             <div class="tous-main">
-              <span class="tous-title-fr" style="padding-left:16px">${item.title}</span>
+              <span class="tous-title-fr" style="padding-left:16px">${item.title.replace(/…+$/, '').trim()}</span>
               ${item.sourceArticle?.briefs?.[item.briefIndex]?.auto ? '<span class="auto-badge auto">Auto</span>' : ''}
               ${read ? '<span class="read-badge">✓</span>' : ''}
               <button class="del-row-btn" title="Supprimer">✕</button>

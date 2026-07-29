@@ -180,6 +180,33 @@ def _clean_html(text):
     return re.sub(r"<[^>]+>", "", text).strip()
 
 
+def clean_title_cn(title_cn):
+    """加工中文标题：去掉省略号、句子类标题不超过15字"""
+    if not title_cn:
+        return ""
+    # 去掉所有省略号
+    title_cn = title_cn.replace("…", "").replace("...", "").strip().strip("，。！？、；：")
+    if not title_cn:
+        return ""
+    # 标点靠前（前5字以内）视为格式符号而非句子标记，不截断
+    # 例如 "巴西：..." 中的冒号不应触发截断
+    punct_pos = None
+    for p in "，。！？":
+        idx = title_cn.find(p)
+        if idx != -1:
+            punct_pos = idx
+            break
+    if punct_pos is not None and punct_pos > 5:
+        # 有句子标点且在合理位置，取标点前的内容
+        t = title_cn[:punct_pos].strip()
+        t = t[:15].rstrip("，。！？、；：").strip()
+        return t if t else title_cn[:15]
+    # 无标点或标点靠前的关键词/短语，超过15字才截
+    if len(title_cn) > 15:
+        return title_cn[:15].rstrip("，。！？、；：").strip()
+    return title_cn
+
+
 def shorten_french_title(title):
     """缩短法语新闻标题——去掉前缀、取冒号前的主干、超出 65 字截断"""
     if not title:
@@ -201,13 +228,13 @@ def shorten_french_title(title):
                 t = before
                 break
 
-    # 65 字截断
+    # 65 字截断（不加省略号，主页标题有省略号很难看）
     if len(t) > 65:
         truncated = t[:65]
         last_space = truncated.rfind(" ")
         if last_space > 30:
             truncated = truncated[:last_space]
-        t = truncated + "…"
+        t = truncated.strip()
 
     return t.strip()
 
@@ -495,6 +522,15 @@ def main():
         if not title_cn:
             title_cn = f"[{item['source_label']}] {item['title']}"
 
+        # 中文标题（加工处理：去省略号、句子类不超过15字）
+        title_cn = clean_title_cn(title_cn)
+
+        # 跳过正文少于 30 词的短资讯
+        body = item["desc"] or item["title"]
+        if len(body.split()) < 30:
+            print(f"    ⏭️  Corps trop court ({len(body.split())} mots) : {item['title'][:40]}")
+            continue
+
         # 中文摘要
         summary_cn = ""
         if item["desc"]:
@@ -512,7 +548,7 @@ def main():
             "tag": item["tag"],
             "title_cn": title_cn or "",
             "title": item["title"],
-            "body": item["desc"] or item["title"],
+            "body": body,
             "source": item["source_label"],
             "pub_date": pub_date_str,
             "auto": True,
