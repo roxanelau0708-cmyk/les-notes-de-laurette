@@ -1,5 +1,112 @@
 [
   {
+    "date": "2026-07-30",
+    "tags": [
+      "Culture",
+      "Technologie",
+      "Économie"
+    ],
+    "regions": [
+      "europe",
+      "francophonie",
+      "etats-unis"
+    ],
+    "summary_cn": "索尼想要为成人（和血腥）推出蜘 | “我们不想让这件事被人知道 | 蜘蛛侠全新一天 | “史无前例”的黑客攻击 | 空中灭火手段缺陷背后",
+    "briefs": [
+      {
+        "tag": "Culture",
+        "title_cn": "索尼想要为成人（和血腥）推出蜘",
+        "title": "Sony veut son Spider-Verse pour adulte (et gore)",
+        "body": "Vous pensiez être débarrassés de la bavouille noire après la fin de la trilogie en live-action ? Peine perdue. Sony Pictures n'a pas du tout l'intention de lâcher le filon. La productrice Amy Pascal vient de l'avouer : un film d'animation Venom est officiellement en préparation. Et le choix des réalisateurs en dit long.",
+        "source": "Numerama",
+        "pub_date": "29 July 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2303817-sony-veut-son-spider-verse-pour-adulte-et-gore-un-film-danimation-venom-est-en-preparation.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "“我们不想让这件事被人知道",
+        "title": "«Nous ne voulons pas que ça se sache»",
+        "body": "RÉCIT - De récents documents judiciaires ont prouvé l’existence du «Projet Panama», une vaste opération secrète d’Anthropic qui a impliqué l’achat de très nombreux livres auprès de libraires du monde entier.",
+        "source": "Le Figaro",
+        "pub_date": "30 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/nous-ne-voulons-pas-que-ca-se-sache-anthropic-a-detruit-dans-l-ombre-des-millions-de-livres-pour-alimenter-son-ia-20260730",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "蜘蛛侠全新一天",
+        "title": "Spider-Man Brand New Day",
+        "body": "La rumeur enflammait la Toile depuis des mois, mais le film vient enfin de lever le voile sur le mystère. L’étoile montante de Stranger Things, Sadie Sink, a officiellement fait son entrée dans le Marvel Cinematic Universe. Et le rôle qu’elle incarne n’a absolument rien d'anecdotique dans Spider-Man: Brand New Day.",
+        "source": "Numerama",
+        "pub_date": "29 July 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2303727-spider-man-brand-new-day-qui-est-le-personnage-joue-par-sadie-sink.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "“史无前例”的黑客攻击",
+        "title": "Piratage «sans précédent»",
+        "body": "L’une d’entre elles a servi de relais pour préparer l’attaque sur Hugging Face, une bibliothèque IA que les deux modèles ont fouillé pour trouver les réponses aux tests soumis par les développeurs d’OpenAI, a annoncé l’entreprise.",
+        "source": "Le Figaro",
+        "pub_date": "29 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/piratage-sans-precedent-openai-annonce-que-ses-modeles-se-sont-introduits-sur-quatre-autres-plateformes-20260729",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "空中灭火手段缺陷背后",
+        "title": "Derrière le défaut des moyens aériens contre les incendies",
+        "body": "Selon les synthèses de la sécurité civile dont « Le Monde » a pris connaissance, depuis le 21 juillet, date du début de l’incendie de Pontevès (Var) et veille de celui de Gironde, pas plus de 8 des 12 Canadair n’ont été opérationnels sur la même journée.",
+        "source": "Le Monde",
+        "pub_date": "30 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/07/30/derriere-le-defaut-des-moyens-aeriens-contre-les-incendies-l-intensite-des-feux-leur-simultaneite-et-une-maintenance-difficile-des-canadair_6736655_3234.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人工智能可以一次性将他从“欣喜",
+        "title": "L’IA peut le faire passer de « l’euphorie à la terreur » en une",
+        "body": "C’est l’homme le plus riche du monde avec des ambitions qui dépassent de loin la seule planète Terre. The Economist a rencontré l’homme derrière Tesla et SpaceX. Un long entretien pendant lequel le magazine britannique l’a questionné sur ses opinions controversées, de l’IA à la conquête de Mars en passant par la place de l’argent.",
+        "source": "Challenges",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/lia-peut-le-faire-passer-de-leuphorie-a-la-terreur-en-une-seule-journee-dans-la-tete-delon-musk-lhomme-le-plus-riche-du-monde_645016",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "AI 驱动的相机",
+        "title": "Caméras dopées à l’IA",
+        "body": "Portées par les progrès de l’IA, les « caméras intelligentes » suscitent un intérêt croissant chez les élus et les forces de sécurité. Malgré un cadre juridique encore restrictif, les initiatives se multiplient pour en étendre l’usage.",
+        "source": "Challenges",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/cameras-dopees-a-lia-pourquoi-les-elus-veulent-aller-beaucoup-plus-loin-dans-la-videosurveillance_644970",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "西南部地区发生火灾",
+        "title": "Incendies dans le Sud-Ouest",
+        "body": "Tous les TGV vers le Sud-Ouest au départ de Paris ont leur terminus à Bordeaux, sauf ceux en direction de Toulouse, « compte tenu de la situation exceptionnelle provoquée par les incendies », a annoncé SNCF Voyageurs.",
+        "source": "Le Monde",
+        "pub_date": "29 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/planete/article/2026/07/29/incendies-dans-le-sud-ouest-la-sncf-maintient-jusqu-a-dimanche-l-annulation-des-tgv-au-sud-de-bordeaux_6736413_3244.html",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 348,
+    "auto": true
+  },
+  {
     "date": "2026-07-29",
     "tags": [
       "Technologie",
