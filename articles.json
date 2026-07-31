@@ -1,5 +1,135 @@
 [
   {
+    "date": "2026-07-31",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "etats-unis",
+      "francophonie",
+      "europe",
+      "international"
+    ],
+    "summary_cn": "Anthropic 透露其人工 | GIGN 完全统治了 Netf | 在皮拉特沙丘周围 | 人工智能可以一次性将他从“欣喜 | Prime Video 对詹姆",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "Anthropic 透露其人工",
+        "title": "Anthropic révèle que son IA a accédé sans autorisation aux",
+        "body": "L’entreprise américaine d’intelligence artificielle a affirmé jeudi que ses modèles avaient «obtenu un accès non autorisé» à trois organisations lors de tests censés les empêcher d’accéder à des systèmes «réels».",
+        "source": "Le Figaro",
+        "pub_date": "31 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/apres-openai-anthropic-revele-que-son-ia-a-accede-sans-autorisation-aux-systemes-informatiques-de-trois-organisations-20260731",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "GIGN 完全统治了 Netf",
+        "title": "Le GIGN est en train de dominer complètement Netflix avec cette",
+        "body": "Propulsée par un casting cinq étoiles et une réalisation musclée signée Julien Leclercq, la série GIGN vient de prendre d'assaut la première place du classement Netflix. Un thriller d'action brut et sous haute tension qui ne laisse aucun répit aux spectateurs.",
+        "source": "Numerama",
+        "pub_date": "30 July 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2304515-le-gign-est-en-train-de-dominer-completement-netflix-avec-cette-serie-francaise.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "在皮拉特沙丘周围",
+        "title": "Autour de la dune du Pilat, malgré le retour des touristes, les",
+        "body": "Les feux de l’été dans les communes proches de Lège-Cap-Ferret, du Porge ou de Biscarrosse réveillent les souvenirs d’il y a quatre ans et rappellent les difficultés engendrées par ces sinistres.",
+        "source": "Le Monde",
+        "pub_date": "31 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/07/31/autour-de-la-dune-du-pilat-malgre-le-retour-des-touristes-les-plaies-de-l-incendie-de-2022-ne-sont-pas-toutes-refermees_6737091_3234.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人工智能可以一次性将他从“欣喜",
+        "title": "L’IA peut le faire passer de « l’euphorie à la terreur » en une",
+        "body": "C’est l’homme le plus riche du monde avec des ambitions qui dépassent de loin la seule planète Terre. The Economist a rencontré l’homme derrière Tesla et SpaceX. Un long entretien pendant lequel le magazine britannique l’a questionné sur ses opinions controversées, de l’IA à la conquête de Mars en passant par la place de l’argent.",
+        "source": "Challenges",
+        "pub_date": "26 July 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/lia-peut-le-faire-passer-de-leuphorie-a-la-terreur-en-une-seule-journee-dans-la-tete-delon-musk-lhomme-le-plus-riche-du-monde_645016",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "Prime Video 对詹姆",
+        "title": "La gifle de Prime Video à James Gunn",
+        "body": "Alors que l’univers DC au cinéma s’embourbe dans des promesses floues et des calendriers chaotiques, la saison 2 de Batman: Caped Crusader débarque sur Prime Video. Verdict ? C'est visiblement une gifle monumentale. Oubliez les reboots en live-action : le seul vrai Chevalier Noir de 2026 est en animation.",
+        "source": "Numerama",
+        "pub_date": "30 July 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2304161-la-gifle-de-prime-video-a-james-gunn-le-seul-batman-qui-compte-arrive.html",
+        "region": "international"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "在法国哪里购物才能享受丰富的文",
+        "title": "Où acheter en France pour bénéficier d’une vie culturelle riche ?",
+        "body": "« Nouveau logis, nouvelle vie » (3/6). Visiter des expositions et des monuments historiques ou assister à des concerts est important pour de nombreux Français. Cela peut même devenir un critère lorsqu’il s’agit de choisir un lieu de vie.",
+        "source": "Le Monde",
+        "pub_date": "31 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/argent/article/2026/07/31/ou-acheter-en-france-pour-beneficier-d-une-vie-culturelle-riche_6737089_1657007.html",
+        "region": "international"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人择人工智能获得了对系统的未经",
+        "title": "L'IA d'Anthropic a accédé sans autorisation aux systèmes",
+        "body": "Quelques jours après un incident similaire chez OpenAI, trois versions de Claude, l'intelligence artificielle d'Anthropic, ont réussi à accéder sans autorisation aux systèmes de trois organisations lors de tests pourtant censés les confiner.",
+        "source": "France 24",
+        "pub_date": "31 July 2026",
+        "auto": true,
+        "link": "https://www.france24.com/fr/%C3%A9co-tech/20260731-anthropic-ia-accede-sans-autorisation-systemes-autres-organisations-claude-openai",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "蜘蛛侠：全新的一天",
+        "title": "Spider-Man: Brand New Day",
+        "body": "Pendant des années, les fans ont réclamé le retour du « vrai » Hulk, brutal et incontrôlable. Spider-Man: Brand New Day vient de leur offrir... mais en y injectant une tragédie dévastatrice. Une séquence choc qui explique au passage pourquoi Bruce Banner sera aux abonnés absents dans Avengers: Doomsday.",
+        "source": "Numerama",
+        "pub_date": "30 July 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2303965-spider-man-brand-new-day-on-sait-enfin-pourquoi-hulk-est-absent-davengers-doomsday.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "达特茅斯会议",
+        "title": "Colloque de Dartmouth",
+        "body": "L'IA avant l'IA (2/3). Près de 70 ans avant la folie des levées de fonds records pour les géants modernes de l’IA comme OpenAI ou Anthropic, la Fondation Rockefeller effectuait ce qui est peut-être le premier investissement de l’histoire de l’IA. En 1956, grâce à 7 500 dollars de cette fondation, quatre mathématiciens de génie vont organiser le colloque de Dartmouth où le terme intelligence artificielle sera prononcé pour la première fois.",
+        "source": "France 24",
+        "pub_date": "30 July 2026",
+        "auto": true,
+        "link": "https://www.france24.com/fr/%C3%A9co-tech/20260730-colloque-de-dartmouth-ces-7-500-dollars-sans-lesquels-l-ia-ne-serait-peut-%C3%AAtre-pas",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "SNCF 突然罢工",
+        "title": "Grève surprise à la SNCF",
+        "body": "Des suppressions de trains sont attendues sur plusieurs axes majeurs en Normandie, alors que la SNCF évoque un mouvement « local et inopiné » pour ce week-end de grands départs.",
+        "source": "Le Monde",
+        "pub_date": "30 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/07/30/greve-surprise-a-la-sncf-le-trafic-perturbe-en-normandie-de-vendredi-a-dimanche-week-end-de-chasse-croise_6737066_3234.html",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 429,
+    "auto": true
+  },
+  {
     "date": "2026-07-30",
     "tags": [
       "Culture",
