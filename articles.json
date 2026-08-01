@@ -1,5 +1,145 @@
 [
   {
+    "date": "2026-08-01",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "etats-unis",
+      "europe",
+      "francophonie"
+    ],
+    "summary_cn": "“滥用总统职权的可耻行为” | 《权力之环》第三季什么时候发布 | 人择人工智能获得了对系统的未经 | 热火2：30年后 | 干旱导致农作物生产“崩溃”",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "“滥用总统职权的可耻行为”",
+        "title": "«Un abus scandaleux de la fonction présidentielle»",
+        "body": "DÉCRYPTAGE - La holding du président américain lance ce samedi un abonnement à 100.000 dollars par mois donnant aux traders un accès anticipé à ses publications sur Truth Social. Une offre qui relance le débat sur la marchandisation du pouvoir.",
+        "source": "Le Figaro",
+        "pub_date": "31 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/un-abus-scandaleux-de-la-fonction-presidentielle-trump-peut-il-monetiser-l-acces-a-ses-publications-sur-truth-social-20260731",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "《权力之环》第三季什么时候发布",
+        "title": "Quand sort la saison 3 des Anneaux de pouvoir, la série sur Le",
+        "body": "La saison 3 de la série Les Anneaux de pouvoir est désormais tournée et presque prête à être diffusée en streaming sur Prime Video. La série télévisée, dérivée de l'univers du Seigneur des anneaux. en est à la moitié du récit désormais. Il restera encore deux saisons pour boucler les aventures de Sauron, Galadriel et Elrond au Deuxième Âge de la Terre du milieu.",
+        "source": "Numerama",
+        "pub_date": "31 July 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/1808354-saison-3-des-anneaux-de-pouvoir.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人择人工智能获得了对系统的未经",
+        "title": "L'IA d'Anthropic a accédé sans autorisation aux systèmes",
+        "body": "Quelques jours après un incident similaire chez OpenAI, trois versions de Claude, l'intelligence artificielle d'Anthropic, ont réussi à accéder sans autorisation aux systèmes de trois organisations lors de tests pourtant censés les confiner.",
+        "source": "France 24",
+        "pub_date": "31 July 2026",
+        "auto": true,
+        "link": "https://www.france24.com/fr/%C3%A9co-tech/20260731-anthropic-ia-accede-sans-autorisation-systemes-autres-organisations-claude-openai",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "热火2：30年后",
+        "title": "Heat 2 : 30 ans après, DiCaprio et Christian Bale succèdent à De",
+        "body": "C'est l'un des projets les plus ambitieux et casse-gueule de la décennie. Trente ans après le choc cinématographique opposant Al Pacino et Robert De Niro, Heat 2 passe enfin à la vitesse supérieure. Casting cinq étoiles, budget pharaonique et révélations sur le scénario, voici tout ce que l'on sait sur le retour du polar ultime.",
+        "source": "Numerama",
+        "pub_date": "31 July 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2304791-heat-2-30-ans-apres-dicaprio-et-christian-bale-succedent-a-de-niro-et-al-pacino.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "干旱导致农作物生产“崩溃”",
+        "title": "La sécheresse provoque un « effondrement » de la production de",
+        "body": "Choux-fleurs, petits pois ou salades souffrent du manque d’eau et des canicules successives. La filière évoque une « catastrophe », notamment sur toute la façade ouest de la France, alors que la capacité à semer les productions pour les saisons suivantes est aussi entravée.",
+        "source": "Le Monde",
+        "pub_date": "1 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/01/la-secheresse-provoque-un-effondrement-de-la-production-de-legumes-meme-irrigues-les-jeunes-plants-n-ont-pas-survecu_6737184_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "达特茅斯会议",
+        "title": "Colloque de Dartmouth",
+        "body": "L'IA avant l'IA (2/3). Près de 70 ans avant la folie des levées de fonds records pour les géants modernes de l’IA comme OpenAI ou Anthropic, la Fondation Rockefeller effectuait ce qui est peut-être le premier investissement de l’histoire de l’IA. En 1956, grâce à 7 500 dollars de cette fondation, quatre mathématiciens de génie vont organiser le colloque de Dartmouth où le terme intelligence artificielle sera prononcé pour la première fois.",
+        "source": "France 24",
+        "pub_date": "30 July 2026",
+        "auto": true,
+        "link": "https://www.france24.com/fr/%C3%A9co-tech/20260730-colloque-de-dartmouth-ces-7-500-dollars-sans-lesquels-l-ia-ne-serait-peut-%C3%AAtre-pas",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "《蜘蛛侠：全新一天》取得了成功",
+        "title": "Spider-Man: Brand New Day est réussi, mais il a quand même un",
+        "body": "Reconquête de l'essence de Peter Parker, retour à un New York plus centré et scènes d'action qui défouraillent, Spider-Man: Brand New Day réussit une bonne partie de son pari. Pourtant, dès qu'on gratte sous le vernis de la nouveauté, un choix scénaristique agace profondément. La victime ? Le méchant du film.",
+        "source": "Numerama",
+        "pub_date": "31 July 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2304731-spider-man-brand-new-day-est-reussi-mais-il-a-quand-meme-un-immense-defaut.html",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "世界之家敲定救援计划并成功逃脱",
+        "title": "Maisons du monde finalise son plan de sauvetage et échappe au",
+        "body": "Le refinancement prévoit une prise de contrôle de 95 % du capital de Maisons du monde par le fonds Alteri Investors, spécialisé dans le commerce de détail en Europe, et le gestionnaire de fonds Eicos Investment Group.",
+        "source": "Le Monde",
+        "pub_date": "31 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/07/31/maisons-du-monde-finalise-son-plan-de-sauvetage-et-echappe-au-redressement-judiciaire_6737168_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人工智能高管担心",
+        "title": "Inquiets, des cadres de l'IA demandent aux États-Unis de les",
+        "body": "Face à la crainte d'une intelligence artificielle qui s'améliore toute seule de façon incontrôlable, plus de 1 100 cadres du secteur ont lancé un appel sous forme de pétition, mardi, pour que le gouvernement américain soutienne une initiative internationale visant à \"temporiser\" la sortie des modèles d'IA les plus avancés.",
+        "source": "France 24",
+        "pub_date": "29 July 2026",
+        "auto": true,
+        "link": "https://www.france24.com/fr/%C3%A9co-tech/20260729-ia-petition-openai-anthropic-google-inquiets-etats-unis-auto-amelioration-recursive",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "做什么、看什么、去哪里",
+        "title": "Que faire, que voir, où aller ? L’agenda culturel et lifestyle à",
+        "body": "Chaque samedi, « Le Goût du Monde » vous propose sa sélection de rendez-vous et d’adresses, à Paris et partout en France. Cette semaine, un corail géant suspendu dans l’église Saint-Eustache, dans la capitale, une trattoria à Marseille ou encore une exposition à Brest sur l’influence qu’ont exercée les codes de la marine à voile sur le théâtre.",
+        "source": "Le Monde",
+        "pub_date": "1 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/m-styles/article/2026/08/01/que-faire-que-voir-ou-aller-l-agenda-culturel-et-lifestyle-a-partir-du-1-aout_6737185_4497319.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "这些地区正在抵制预算削减",
+        "title": "Les régions vent debout contre les coupes budgétaires dans",
+        "body": "Dans le cadre de la préparation du budget 2027, le gouvernement entend supprimer les financements accordés aux centres de formation des apprentis (CFA) et mettre un terme aux pactes d’investissement de compétences destinés à former des demandeurs d’emploi et des personnes peu qualifiées.",
+        "source": "Le Monde",
+        "pub_date": "31 July 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/politique/article/2026/07/31/les-regions-vent-debout-contre-les-coupes-budgetaires-dans-l-apprentissage-et-la-formation_6737113_823448.html",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 547,
+    "auto": true
+  },
+  {
     "date": "2026-07-31",
     "tags": [
       "Technologie",
