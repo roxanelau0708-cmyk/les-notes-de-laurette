@@ -1,5 +1,146 @@
 [
   {
+    "date": "2026-08-02",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "etats-unis",
+      "europe",
+      "chine",
+      "francophonie"
+    ],
+    "summary_cn": "贵了100到200美元 | 哪里可以预订动画电影《回忆的精 | 人工智能 | 中国正在通过掠夺人工智能来增强 | 在哪里可以观看流媒体蜘蛛侠电影",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "贵了100到200美元",
+        "title": "100 à 200 dollars plus cher",
+        "body": "Selon le groupe américain, le prix de ces composants clés destinés aux consoles a été multiplié par plus de 2,5 depuis octobre 2025. Et la hausse est loin d’être finie.",
+        "source": "Le Figaro",
+        "pub_date": "1 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/100-a-200-dollars-plus-cher-microsoft-acte-la-flambee-des-prix-de-ses-xbox-sur-fond-de-penurie-mondiale-de-puces-memoires-20260801",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "哪里可以预订动画电影《回忆的精",
+        "title": "Où précommander le film d’animation Memories dans sa sublime",
+        "body": "[Précommande] Alors oui, on achète de moins en moins de DVD et de Blu-ray ces derniers temps, le dématérialisé étant devenu le principal moyen de consommer des films et des séries. Pourtant, certaines éditions physiques valent encore sacrément le coup, à l’image de ce sublime coffret de Memories, actuellement disponible en précommande.",
+        "source": "Numerama",
+        "pub_date": "1 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2304949-ou-precommander-le-film-danimation-memories-dans-sa-sublime-edition-collector-blu-ray-4k.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "人工智能",
+        "title": "Intelligence artificielle",
+        "body": "Une disposition-clé du règlement européen sur l’intelligence artificielle entre en vigueur dimanche 2 août. Les concepteurs et utilisateurs professionnels de systèmes d’IA devront mentionner que leurs contenus ont été créés par cette technologie, sous peine d’amendes.",
+        "source": "Le Monde",
+        "pub_date": "2 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/02/intelligence-artificielle-la-mention-genere-par-ia-devient-obligatoire-dans-l-ue_6737268_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "中国正在通过掠夺人工智能来增强",
+        "title": "La Chine renforce ses capacités militaires en pillant les IA de",
+        "body": "DÉCRYPTAGE - Une étude ayant analysé plus de 80 brevets et publications académiques chinoises en est arrivée à la conclusion que Pékin se servait abondamment dans les connaissances des IA américaines pour renforcer ses systèmes de défense.",
+        "source": "Le Figaro",
+        "pub_date": "1 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/la-chine-renforce-ses-capacites-militaires-en-pillant-les-ia-de-la-silicon-valley-selon-un-rapport-explosif-20260731",
+        "region": "chine"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "在哪里可以观看流媒体蜘蛛侠电影",
+        "title": "Où voir les films Spider-Man en streaming ?",
+        "body": "La sortie au cinéma de Spider-Man: Brand New Day vous a peut-être donné envie de voir ou revoir les précédents films centrés sur le tr_s apprécié super-héros Marvel. Vous ne savez pas où aller ? Suivez le guide.",
+        "source": "Numerama",
+        "pub_date": "1 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2303693-ou-voir-les-films-spider-man-en-streaming.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "“滥用青瓦台的丑闻”",
+        "title": "«Un abus scandaleux de la fonction présidentielle»",
+        "body": "DÉCRYPTAGE - La holding du président américain lance ce samedi un abonnement à 100.000 dollars par mois donnant aux traders un accès anticipé à ses publications sur Truth Social. Une offre qui relance le débat sur la marchandisation du pouvoir.",
+        "source": "Le Figaro",
+        "pub_date": "31 July 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/un-abus-scandaleux-de-la-fonction-presidentielle-trump-peut-il-monetiser-l-acces-a-ses-publications-sur-truth-social-20260731",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "索伦对抗炎魔",
+        "title": "Sauron contre le Balrog, Spider-Man contre Hulk, il y a de la",
+        "body": "Cette semaine a été rythmée par le dernier film Spider-Man, l’un des événements cinéma de l’année. Difficile donc de passer à travers la toile d’actualité tissée par l’Homme-Araignée, à moins de s’appeler Sauron et d’aller chercher la bagarre avec l’un des ennemis les plus iconiques du Seigneur des Anneaux. Spider-Man: Brand New Day et Les Anneaux de Pouvoirs prennent toute la place, dans le récap pop culture de cette semaine.",
+        "source": "Numerama",
+        "pub_date": "1 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2305137-sauron-contre-le-balrog-spider-man-contre-hulk-il-y-a-de-la-bagarre-dans-le-recap-pop-culture-de-la-semaine.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "Triballat 家族企业",
+        "title": "L’entreprise familiale Triballat, connue pour ses faisselles",
+        "body": "La société, qui compte 17 sites de production et dont le siège se trouve à Rians, dans le Cher, est entrée en négociations exclusives avec le géant mondial en vue d’une cession totale de son capital.",
+        "source": "Le Monde",
+        "pub_date": "1 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/01/l-entreprise-familiale-triballat-connue-pour-ses-faisselles-rians-en-passe-d-etre-rachetee-par-lactalis_6737225_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人择人工智能获得了对系统的未经",
+        "title": "L'IA d'Anthropic a accédé sans autorisation aux systèmes",
+        "body": "Quelques jours après un incident similaire chez OpenAI, trois versions de Claude, l'intelligence artificielle d'Anthropic, ont réussi à accéder sans autorisation aux systèmes de trois organisations lors de tests pourtant censés les confiner.",
+        "source": "France 24",
+        "pub_date": "31 July 2026",
+        "auto": true,
+        "link": "https://www.france24.com/fr/%C3%A9co-tech/20260731-anthropic-ia-accede-sans-autorisation-systemes-autres-organisations-claude-openai",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "文森特·帕斯托雷 (Vince",
+        "title": "Vincent Pastore, connu pour son rôle de « Big Pussy » dans la",
+        "body": "Le comédien, âgé de 80 ans, a également été vu dans « Les Affranchis » de Martin Scorcese et « L’Impasse » de Brian de Palma. Son assassinat à la fin de la deuxième saison des « Soprano » est resté l’une des scènes les plus emblématiques de la série.",
+        "source": "Le Monde",
+        "pub_date": "2 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/disparitions/article/2026/08/02/mort-de-l-acteur-americain-vincent-pastore-connu-pour-son-role-de-big-pussy-dans-la-serie-les-soprano_6737260_3382.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "在美国，围绕不同模式的争论日益",
+        "title": "Aux Etats-Unis, le débat monte autour des différents modèles",
+        "body": "Hormis Anthropic, les plus grosses sociétés américaines travaillant sur l’intelligence artificielle ont récemment demandé à Washington de soutenir le développement de la technologie dite « open weight », plus ouverte, dans laquelle s’illustre la Chine.",
+        "source": "Le Monde",
+        "pub_date": "1 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/01/aux-etats-unis-le-debat-monte-autour-des-differents-modeles-d-ia-sur-fond-de-concurrence-chinoise_6737218_3234.html",
+        "region": "chine"
+      }
+    ],
+    "vocab": [],
+    "word_count": 457,
+    "auto": true
+  },
+  {
     "date": "2026-08-01",
     "tags": [
       "Technologie",
