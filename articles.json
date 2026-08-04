@@ -1,5 +1,155 @@
 [
   {
+    "date": "2026-08-04",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "europe",
+      "francophonie"
+    ],
+    "summary_cn": "Sam Altman、Dari | 力量之环 第三季 | “风险资金卖给了寡妇和孤儿 | “过度乐观” | 取消《刀锋战士》的回归是一种巨",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "Sam Altman、Dari",
+        "title": "Sam Altman, Dario Amodei… Les «maîtres de l’IA», ces nouveaux",
+        "body": "COMMENT L’IA CHANGE LE MONDE (1/5) - La révolution IA a démultiplié leur pouvoir. Ces PDG, pour la plupart inconnus il y a encore cinq ans, n’hésitent pas à afficher leurs liens avec le monde politique, mais aussi à partager leur vision du monde tels de véritables chefs d’État.",
+        "source": "Le Figaro",
+        "pub_date": "3 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/sam-altman-dario-amodei-les-maitres-de-l-ia-ces-nouveaux-visages-qui-dominent-l-economie-mondiale-20260803",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "力量之环 第三季",
+        "title": "Les Anneaux de pouvoir saison 3",
+        "body": "Alors que le casting de la saison 3 des Anneaux de pouvoir est officialisé, le retour de Tom Bombadil pose une difficulté. Si l'interprétation de Rory Kinnear séduit, la puissance démesurée de « l'Aîné » pose un défi aux scénaristes : comment intégrer l'être le plus puissant de la Terre du Milieu sans désamorcer toute la tension dramatique ?",
+        "source": "Numerama",
+        "pub_date": "3 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2305901-les-anneaux-de-pouvoir-saison-3-le-retour-confirme-de-tom-bombadil-pose-un-vrai-casse-tete-scenaristique.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "“风险资金卖给了寡妇和孤儿",
+        "title": "« Des fonds risqués vendus à la veuve et l’orphelin ! »",
+        "body": "« Ces placements qui tournent mal » (3/6). Près d’un millier d’épargnants sont bloqués dans trois fonds immobiliers. Leurs gérants ne parviennent pas à vendre leurs derniers actifs dont la valeur a fortement chuté. Les investisseurs savent qu’ils devront encaisser jusqu’à 80 % de pertes.",
+        "source": "Le Monde",
+        "pub_date": "4 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/argent/article/2026/08/04/des-fonds-risques-vendus-a-la-veuve-et-l-orphelin-cinq-questions-sur-la-degringolade-des-produits-de-keys-reim_6738017_1657007.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "“过度乐观”",
+        "title": "« Il y a eu un excès d’optimisme »",
+        "body": "DÉCRYPTAGE - L’entreprise d’Elon Musk a perdu la moitié de sa valeur au Nasdaq depuis son plus-haut atteint à la mi-juin. Les investisseurs attendent avec impatience la publication des résultats trimestriels, attendus ce mardi, pour se positionner sur le titre.",
+        "source": "Le Figaro",
+        "pub_date": "3 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/il-y-a-eu-un-exces-d-optimisme-apres-des-debuts-stratospheriques-a-wall-street-le-brutal-retour-sur-terre-de-spacex-20260803",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "取消《刀锋战士》的回归是一种巨",
+        "title": "L’annulation du retour de Blade est un immense gâchis et une",
+        "body": "Sept ans après son annonce retentissante au Comic-Con de San Diego, le reboot de Blade a été officiellement enterré par Marvel Studios. Entre rendez-vous manqués, vaines promesses pour l'univers fantastique et gâchis de talent pur, le projet laisse un goût amer. Anatomie d’un fiasco stratégique.",
+        "source": "Numerama",
+        "pub_date": "3 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2305937-lannulation-du-retour-de-blade-est-un-immense-gachis-et-une-grosse-erreur.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "Passerelles 俱乐部",
+        "title": "Les clubs Passerelles facilitent les séjours en famille avec un",
+        "body": "L’association Réseau Passerelles propose des solutions de répit aux parents, avec un accompagnement par des éducateurs, dans des campings ou des villages de vacances. Ce dispositif d’inclusion bénéficie à plus de 600 familles.",
+        "source": "Le Monde",
+        "pub_date": "4 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/societe/article/2026/08/04/les-clubs-passerelles-facilitent-les-sejours-en-famille-avec-un-enfant-handicape-on-souffle-on-se-vide-la-tete-on-est-vraiment-en-vacances_6738014_3224.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "从全能的人工智能到欧洲的混乱",
+        "title": "De l’IA toute-puissante au chaos en Europe, Elon Musk livre ses",
+        "body": "Dans un entretien à The Economist, Elon Musk prédit le sacre absolu de l’IA, la fin de l’argent et des guerres civiles en Europe. Entre utopie technologique et prophéties sombres, l’homme le plus riche du monde livre sa vision sans filtre d’un avenir qu’il entend bien façonner.",
+        "source": "Challenges",
+        "pub_date": "3 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/de-lia-toute-puissante-au-chaos-en-europe-elon-musk-livre-ses-predictions-chocs-sur-les-20-prochaines-annees-dun-monde-quil-faconne_645130",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "龙之屋",
+        "title": "House of the Dragon",
+        "body": "Croyait-on Feux-du-Soleyl hors-jeu ? Son retour surprise à la fin de la saison 3 offre une seconde jeunesse politique à Aegon II. Mais pour Rhaenyra Targaryen, la présence de ce dragon convalescent est bien plus qu'un simple obstacle militaire : c'est l'annonce directe de sa propre fin.",
+        "source": "Numerama",
+        "pub_date": "3 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2305855-house-of-the-dragon-le-retour-de-ce-dragon-scelle-deja-le-destin-de-rhaenyra.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "在上法兰西大区",
+        "title": "Dans les Hauts-de-France, l’euphorie créée par les gigafactories",
+        "body": "Inaugurées en grande pompe, les immenses usines du Nord peinent à monter en cadence. Retards, taux de rebut élevé et coûts de production fragilisent Verkor et ACC, face à des concurrents asiatiques bien plus avancés.",
+        "source": "Le Monde",
+        "pub_date": "4 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/04/dans-les-hauts-de-france-l-euphorie-creee-par-les-gigafactories-de-batteries-electriques-laisse-place-au-doute_6737877_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人工智能",
+        "title": "Intelligence artificielle",
+        "body": "Une loi pionnière sur l’IA entre en vigueur ce dimanche 2 août au sein de l’Union européenne. Adoptée il y a deux ans, elle donne de nouveaux pouvoirs aux institutions et les dote, surtout, d’un large éventail de sanctions.",
+        "source": "Challenges",
+        "pub_date": "2 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/intelligence-artificielle-la-reglementation-la-plus-puissante-au-monde-entre-en-vigueur-dans-lue-dimanche-2-aout_645117",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "对于《芭比2》来说",
+        "title": "Pour Barbie 2, ce n’est pas gagné, Warner juge Margot Robbie et",
+        "body": "Le succès planétaire à 1,4 milliard de dollars n'aura pas suffi à arrondir les angles. Les négociations pour Barbie 2 sont au point mort : le patron de Warner Bros. refuse d'allonger la monnaie pour Margot Robbie, Ryan Gosling et Greta Gerwig.",
+        "source": "Numerama",
+        "pub_date": "3 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2305677-pour-barbie-2-ce-nest-pas-gagne-warner-juge-margot-robbie-et-ryan-gosling-trop-gourmands.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "在 Tarascon",
+        "title": "A Tarascon, les salariés de Fibre Excellence espèrent toujours",
+        "body": "Les 270 employés de l’usine de pâte à papier mise en liquidation, multiplient les actions pour pousser les pouvoirs publics à sauver leur site, dans un bassin d’emploi très fragile.",
+        "source": "Le Monde",
+        "pub_date": "3 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/03/a-tarascon-les-salaries-de-fibre-excellence-esperent-toujours-un-miracle_6737743_3234.html",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 511,
+    "auto": true
+  },
+  {
     "date": "2026-08-03",
     "tags": [
       "Technologie",
