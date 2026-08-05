@@ -1,5 +1,134 @@
 [
   {
+    "date": "2026-08-05",
+    "tags": [
+      "Culture",
+      "Économie",
+      "Technologie"
+    ],
+    "regions": [
+      "etats-unis",
+      "europe",
+      "francophonie"
+    ],
+    "summary_cn": "《权力之环》第三季什么时候发布 | 大型机场扩建工程 | “一切都没有改变” | 唷，索尼影业的衍生产品已经破产 | 从全能的人工智能到欧洲的混乱",
+    "briefs": [
+      {
+        "tag": "Culture",
+        "title_cn": "《权力之环》第三季什么时候发布",
+        "title": "Quand sort la saison 3 des Anneaux de pouvoir, la série sur Le",
+        "body": "La saison 3 de la série Les Anneaux de pouvoir est désormais tournée et presque prête à être diffusée en streaming sur Prime Video. La série télévisée, dérivée de l'univers du Seigneur des anneaux. en est à la moitié du récit désormais. Il restera encore deux saisons pour boucler les aventures de Sauron, Galadriel et Elrond au Deuxième Âge de la Terre du milieu.",
+        "source": "Numerama",
+        "pub_date": "4 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/1808354-saison-3-des-anneaux-de-pouvoir.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "大型机场扩建工程",
+        "title": "Le méga projet d’extension des capacités de l’aéroport",
+        "body": "L’Etat et le groupe ADP viennent de se mettre d’accord sur un grand plan d’investissement de 8,2 milliards d’euros qui permettrait à Roissy d’accueillir près de 90 millions de passagers par an. Un programme qui suscite l’opposition de certaines compagnies aériennes.",
+        "source": "Le Monde",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/05/le-mega-projet-d-extension-des-capacites-de-l-aeroport-charles-de-gaulle-entre-dans-sa-derniere-ligne-droite_6739355_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "“一切都没有改变”",
+        "title": "«Rien n'a changé»",
+        "body": "DÉCRYPTAGE - Plus de 40% des moins de 15 ans continuent de fréquenter des services qui leur sont interdits. La faute à des contrôles défaillants de la part des plateformes.",
+        "source": "Le Figaro",
+        "pub_date": "4 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/rien-n-a-change-trois-mois-apres-le-bilan-peu-flatteur-de-la-loi-australienne-interdisant-les-reseaux-sociaux-aux-ados-20260804",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "唷，索尼影业的衍生产品已经破产",
+        "title": "Ouf, Sony Pictures en a terminé avec les spin-off éclatés au sol",
+        "body": "Après les catastrophes industrielles Madame Web et Kraven le Chasseur, le patron de Sony Pictures vient de porter le coup de grâce à son univers de super-vilains sans Spider-Man. Une décision tardive, mais salvatrice pour la santé mentale des fans de comics.",
+        "source": "Numerama",
+        "pub_date": "4 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2306245-ouf-sony-pictures-en-a-termine-avec-les-spin-off-eclates-au-sol-de-spider-man.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "从全能的人工智能到欧洲的混乱",
+        "title": "De l’IA toute-puissante au chaos en Europe, Elon Musk livre ses",
+        "body": "Dans un entretien à The Economist, Elon Musk prédit le sacre absolu de l’IA, la fin de l’argent et des guerres civiles en Europe. Entre utopie technologique et prophéties sombres, l’homme le plus riche du monde livre sa vision sans filtre d’un avenir qu’il entend bien façonner.",
+        "source": "Challenges",
+        "pub_date": "3 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/de-lia-toute-puissante-au-chaos-en-europe-elon-musk-livre-ses-predictions-chocs-sur-les-20-prochaines-annees-dun-monde-quil-faconne_645130",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "第 79 届洛迦诺电影节上",
+        "title": "Au 79ᵉ Festival de Locarno, un défilé de stars de cinéma et de",
+        "body": "La manifestation suisse, qui se tient du 5 au 15 août, rend notamment hommage à Isabella Rossellini, Virginie Efira et Asia Argento, et accueille à nouveau le réalisateur sud-coréen Hong Sang-soo en compétition.",
+        "source": "Le Monde",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/culture/article/2026/08/05/au-79-festival-de-locarno-un-defile-de-stars-de-cinema-et-de-nouveaux-visages-en-quete-du-leopard-d-or_6739358_3246.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "休达危机",
+        "title": "Crise de Ceuta",
+        "body": "Fin juillet, près de 50 000 migrants venus du Maroc sont entrés dans l’enclave espagnole. Plutôt qu’une crise migratoire, il faut y voir l’échec du pacte de croissance mis en place par les élites marocaines, analyse l’économiste Jamal Bouoiyour dans une tribune au « Monde ».",
+        "source": "Le Monde",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/idees/article/2026/08/05/crise-de-ceuta-le-maroc-n-a-pas-besoin-d-un-nouveau-plan-de-developpement-mais-d-un-nouveau-contrat-social_6739350_3232.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人工智能",
+        "title": "Intelligence artificielle",
+        "body": "Une loi pionnière sur l’IA entre en vigueur ce dimanche 2 août au sein de l’Union européenne. Adoptée il y a deux ans, elle donne de nouveaux pouvoirs aux institutions et les dote, surtout, d’un large éventail de sanctions.",
+        "source": "Challenges",
+        "pub_date": "2 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/intelligence-artificielle-la-reglementation-la-plus-puissante-au-monde-entre-en-vigueur-dans-lue-dimanche-2-aout_645117",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "放映的电影",
+        "title": "Les films à l’affiche",
+        "body": "Chaque mercredi, dans La Matinale, les journalistes cinéma du « Monde » livrent leurs critiques des films à découvrir en salle. Aujourd’hui, notamment, la condition féminine derrière la caméra de Shu Qi, un récit sombre ponctué d’échappées oniriques.",
+        "source": "Le Monde",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/cinema/article/2026/08/05/les-films-a-l-affiche-girl-les-silences-de-riyad-cotton-queen-enamorada_6739181_3476.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "SpaceX 的营业额几乎翻了",
+        "title": "SpaceX double quasiment son chiffre d’affaires, sans enrayer la",
+        "body": "Les pertes du groupe d’Elon Musk inquiètent les marchés malgré des revenus en forte hausse, portés par Starlink et l’intelligence artificielle. Le développement de cette dernière branche exige des investissements massifs.",
+        "source": "Le Monde",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/05/spacex-double-quasiment-son-chiffre-d-affaires-sans-enrayer-la-chute-de-son-titre-recemment-introduit-en-bourse_6739349_3234.html",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 411,
+    "auto": true
+  },
+  {
     "date": "2026-08-04",
     "tags": [
       "Technologie",
