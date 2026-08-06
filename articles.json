@@ -1,5 +1,123 @@
 [
   {
+    "date": "2026-08-06",
+    "tags": [
+      "Culture",
+      "Économie",
+      "Technologie"
+    ],
+    "regions": [
+      "europe",
+      "etats-unis",
+      "francophonie"
+    ],
+    "summary_cn": "如果您只需要在 8 月观看一部 | 纪尧姆·阿莱格尔和泽维尔·廷博 | 特德·拉索回来了 | “一切都没有改变” | 《头号玩家》的续集即将推出",
+    "briefs": [
+      {
+        "tag": "Culture",
+        "title_cn": "如果您只需要在 8 月观看一部",
+        "title": "Si vous ne devez regarder qu’une seule série en août sur",
+        "body": "Oubliez les polars formatés et les enquêtes téléphonées. Avec Furious, Elizabeth Meriwether livre un thriller psychologique sombre et carré sur la traque d'une tueuse en série. Une écriture solide, zéro fioriture, à voir en août sur Disney+.",
+        "source": "Numerama",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2306769-si-vous-ne-devez-regarder-quune-seule-serie-en-aout-sur-disney-cest-furious.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "纪尧姆·阿莱格尔和泽维尔·廷博",
+        "title": "Guillaume Allègre et Xavier Timbeau, économistes",
+        "body": "Pour redresser les comptes publics de la France, les deux experts de l’Observatoire français des conjonctures économiques plaident, dans une tribune au « Monde », pour l’introduction d’un taux du prélèvement forfaitaire unique. Celui-ci permettrait de viser des revenus qui échappent aujourd’hui à l’impôt.",
+        "source": "Le Monde",
+        "pub_date": "6 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/idees/article/2026/08/06/guillaume-allegre-et-xavier-timbeau-economistes-nous-proposons-d-elargir-l-assiette-de-l-impot-sur-le-revenu-a-des-revenus-actuellement-exoneres_6739678_3232.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "特德·拉索回来了",
+        "title": "Ted Lasso est de retour",
+        "body": "Le coach le plus moustachu et le plus bienveillant du petit écran est de retour pour une saison 4 de Ted Lasso, à compter du 5 août sur Apple TV . Numerama est là pour vous aider à rechausser vos crampons !",
+        "source": "Numerama",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2306241-ted-lasso-est-de-retour-6-bonnes-raisons-de-sy-remettre.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "“一切都没有改变”",
+        "title": "«Rien n'a changé»",
+        "body": "DÉCRYPTAGE - Plus de 40% des moins de 15 ans continuent de fréquenter des services qui leur sont interdits. La faute à des contrôles défaillants de la part des plateformes.",
+        "source": "Le Figaro",
+        "pub_date": "4 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/rien-n-a-change-trois-mois-apres-le-bilan-peu-flatteur-de-la-loi-australienne-interdisant-les-reseaux-sociaux-aux-ados-20260804",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "《头号玩家》的续集即将推出",
+        "title": "La suite de Ready Player One arrive et les choses sérieuses",
+        "body": "Le projet d'adaptation de Ready Player Two donne enfin un vrai signe de vie. Le scénariste Zak Penn vient d'officialiser ce que Warner Bros. gardait sous clé, l'écriture du script est bel et bien lancée.",
+        "source": "Numerama",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2306681-la-suite-de-ready-player-one-arrive-et-les-choses-serieuses-commencent.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "虚拟演员和假特技",
+        "title": "Acteurs virtuels et cascades truquées",
+        "body": "Netflix investi 600 millions de dollars pour créer avec l’IA, Google lance un partenariat avec le studio A24. Mais à Hollywood la technologie ne fait toujours pas l’unanimité, George Lucas dit oui et le réalisateur de l’Odyssée préfère travailler sans.",
+        "source": "Challenges",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/acteurs-virtuels-et-cascades-truquees-la-revolution-brutale-de-lia-qui-fait-trembler-les-plus-grands-studios-dhollywood_645153",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "在巴黎北部，Le CiNey",
+        "title": "Dans le nord de Paris, Le CiNey, rêve accompli d’un nouvel",
+        "body": "La réhabilitation d’un ancien Bricorama, boulevard Ney, par l’architecte Olivier Palatre accueille aujourd’hui un lieu qui rassemble un cinéma, une cuisine partagée et une épicerie, les bureaux de la Mission locale de Paris et de l’Armée du salut.",
+        "source": "Le Monde",
+        "pub_date": "6 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/culture/article/2026/08/06/dans-le-nord-de-paris-le-ciney-reve-accompli-d-un-nouvel-espace-culturel-et-solidaire_6739679_3246.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "SpaceX 股市继续暴跌",
+        "title": "SpaceX continue de s'effondrer en Bourse",
+        "body": "Elon Musk a présenté mardi 4 août les premiers résultats de son entreprise depuis son entrée en Bourse en juin. Le CA de 7,8 milliards de dollars, en nette hausse, rassure après des semaines de baisse du cours de l’action. Mais les différentes branches du groupe sont loin d’être rentables et les résultats plombés par de lourds investissements.",
+        "source": "Challenges",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/spacex-continue-de-seffondrer-en-bourse-pourquoi-lempire-delon-musk-inquiete-les-investisseurs-malgre-un-trimestre-record_645150",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "关税",
+        "title": "Droits de douane",
+        "body": "Selon des documents judiciaires mis en ligne mardi, l’administration des douanes a évalué à plus de 128 milliards de dollars les demandes de remboursement en cours de traitement ou déjà réalisées.",
+        "source": "Le Monde",
+        "pub_date": "6 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/international/article/2026/08/06/droits-de-douane-l-administration-trump-a-rembourse-pres-de-100-milliards-de-dollars-aux-entreprises-apres-la-decision-de-la-cour-supreme_6739503_3210.html",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 355,
+    "auto": true
+  },
+  {
     "date": "2026-08-05",
     "tags": [
       "Culture",
