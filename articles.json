@@ -1,5 +1,144 @@
 [
   {
+    "date": "2026-08-07",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "europe",
+      "etats-unis"
+    ],
+    "summary_cn": "虚拟演员和假特技 | 结束的开始？华纳/派拉蒙的合并 | 在法国哪里可以买到满足您对运动 | SpaceX 股市继续暴跌 | 在安特卫普当代艺术博物馆",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "虚拟演员和假特技",
+        "title": "Acteurs virtuels et cascades truquées",
+        "body": "Netflix investi 600 millions de dollars pour créer avec l’IA, Google lance un partenariat avec le studio A24. Mais à Hollywood la technologie ne fait toujours pas l’unanimité, George Lucas dit oui et le réalisateur de l’Odyssée préfère travailler sans.",
+        "source": "Challenges",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/acteurs-virtuels-et-cascades-truquees-la-revolution-brutale-de-lia-qui-fait-trembler-les-plus-grands-studios-dhollywood_645153",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "结束的开始？华纳/派拉蒙的合并",
+        "title": "Le début de la fin ? La fusion Warner/Paramount passe un cap,",
+        "body": "Londres vient de valider la mégafusion entre Paramount Skydance et Warner Bros. Discovery. Un feu vert de plus pour le futur géant du divertissement, mais qui ne règle en rien le vrai problème : aux États-Unis, la justice prend son temps et l'addition commence à faire très mal.",
+        "source": "Numerama",
+        "pub_date": "6 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2307435-le-debut-de-la-fin-la-fusion-warner-paramount-passe-un-cap-mais-tout-nest-pas-joue.html",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "在法国哪里可以买到满足您对运动",
+        "title": "Où acheter pour assouvir sa passion sportive en France ?",
+        "body": "« Nouveau logis, nouvelle vie » (4/6). Si beaucoup d’activités se pratiquent facilement partout, le golf, l’équitation, la natation ou le vol à voile obligent à vivre à proximité d’équipements spécifiques.",
+        "source": "Le Monde",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/argent/article/2026/08/07/ou-acheter-pour-assouvir-sa-passion-sportive-en-france_6740453_1657007.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "SpaceX 股市继续暴跌",
+        "title": "SpaceX continue de s'effondrer en Bourse",
+        "body": "Elon Musk a présenté mardi 4 août les premiers résultats de son entreprise depuis son entrée en Bourse en juin. Le CA de 7,8 milliards de dollars, en nette hausse, rassure après des semaines de baisse du cours de l’action. Mais les différentes branches du groupe sont loin d’être rentables et les résultats plombés par de lourds investissements.",
+        "source": "Challenges",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/spacex-continue-de-seffondrer-en-bourse-pourquoi-lempire-delon-musk-inquiete-les-investisseurs-malgre-un-trimestre-record_645150",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "在安特卫普当代艺术博物馆",
+        "title": "Au Musée d’art contemporain d’Anvers, Nicola L., voix précoce du",
+        "body": "En Belgique, une rétrospective montre la puissance expressive de la plasticienne et performeuse française, qui a pratiqué à peu près tous les modes de création possibles, de la peinture à la vidéo.",
+        "source": "Le Monde",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/culture/article/2026/08/07/au-musee-d-art-contemporain-d-anvers-nicola-l-voix-precoce-du-feminisme-met-a-nu-la-realite-des-corps_6740414_3246.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "热浪",
+        "title": "Canicule",
+        "body": "Six pays de l’Union européenne ont dû mettre à l’arrêt certaines de leurs centrales électriques en raison d’une baisse du niveau des cours d’eau et d’une augmentation de leur température dues aux vagues de chaleur. L’éclipse solaire du 12 août menace, elle, de réduire brutalement la production photovoltaïque.",
+        "source": "Le Monde",
+        "pub_date": "6 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/06/canicule-l-arret-force-de-centrales-a-travers-l-europe-met-le-reseau-electrique-sous-tension_6740047_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "从全能的人工智能到欧洲的混乱",
+        "title": "De l’IA toute-puissante au chaos en Europe, Elon Musk livre ses",
+        "body": "Dans un entretien à The Economist, Elon Musk prédit le sacre absolu de l’IA, la fin de l’argent et des guerres civiles en Europe. Entre utopie technologique et prophéties sombres, l’homme le plus riche du monde livre sa vision sans filtre d’un avenir qu’il entend bien façonner.",
+        "source": "Challenges",
+        "pub_date": "3 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/de-lia-toute-puissante-au-chaos-en-europe-elon-musk-livre-ses-predictions-chocs-sur-les-20-prochaines-annees-dun-monde-quil-faconne_645130",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "REDIFF (LA)HORD",
+        "title": "REDIFF (LA)HORDE, collectif d’artistes et de chorégraphes",
+        "body": "En juillet et en août, le podcast « Le Goût de M », présenté par Géraldine Sarratia et en accès libre dès le vendredi sur toutes les plateformes, se met à l’heure d’été en rediffusant des épisodes des saisons passées. Cette semaine, (LA)HORDE.",
+        "source": "Le Monde",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/podcasts/article/2026/08/07/rediff-la-horde-collectif-d-artistes-et-de-choregraphes-grace-a-tiktok-grace-a-ses-challenges-on-n-a-jamais-vu-autant-de-jeunes-danser-c-est-genial_6740412_5463015.html",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "法国债务面临滚雪球效应威胁",
+        "title": "La dette française sous la menace d’un effet boule de neige",
+        "body": "Au premier semestre, les intérêts payés par l’Etat à ses créanciers ont bondi de 19 %, à 34,5 milliards d’euros. La France semble entrée dans un cycle long combinant faible croissance et dette de plus en plus coûteuse. Avec un risque d’emballement.",
+        "source": "Le Monde",
+        "pub_date": "6 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/politique/article/2026/08/06/dette-la-france-sous-la-menace-d-un-effet-boule-de-neige_6739976_823448.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人工智能",
+        "title": "Intelligence artificielle",
+        "body": "Une loi pionnière sur l’IA entre en vigueur ce dimanche 2 août au sein de l’Union européenne. Adoptée il y a deux ans, elle donne de nouveaux pouvoirs aux institutions et les dote, surtout, d’un large éventail de sanctions.",
+        "source": "Challenges",
+        "pub_date": "2 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/intelligence-artificielle-la-reglementation-la-plus-puissante-au-monde-entre-en-vigueur-dans-lue-dimanche-2-aout_645117",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "史蒂文·斯皮尔伯格和外星人",
+        "title": "Steven Spielberg et les extraterrestres, une affaire très",
+        "body": "« Spielberg, le spectacle d’une vie » (5/6). Le cinéaste a tourné trois films majeurs qui racontent la présence sur Terre d’extraterrestres  « amis » : « Rencontres du troisième type », « E.T. » et, récemment, « Disclosure Day ». Au « Monde », il explique que ces longs-métrages ne sont pas que du cinéma.",
+        "source": "Le Monde",
+        "pub_date": "6 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/06/steven-spielberg-et-les-extraterrestres-une-affaire-tres-serieuse-j-y-crois-vraiment-j-y-crois-depuis-toujours_6739973_3451060.html",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 484,
+    "auto": true
+  },
+  {
     "date": "2026-08-06",
     "tags": [
       "Culture",
