@@ -1,5 +1,123 @@
 [
   {
+    "date": "2026-08-08",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "francophonie",
+      "europe",
+      "etats-unis"
+    ],
+    "summary_cn": "法国为自动驾驶汽车的批准铺平道 | 侏罗纪世界重生的续集在哪里 | 因气候灾害和困难而削弱 | “我们必须走得更远” | Netflix 取消了大卫·芬",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "法国为自动驾驶汽车的批准铺平道",
+        "title": "La France ouvre la voie à l’homologation des véhicules autonomes",
+        "body": "L’Hexagone devient «l’un des premiers pays au monde à se doter d’un cadre permettant l’homologation de robots de livraison autonomes d’une telle dimension», assure le ministère des Transports, ce vendredi.",
+        "source": "Le Figaro",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/la-france-ouvre-la-voie-a-l-homologation-des-vehicules-autonomes-de-livraison-20260807",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "侏罗纪世界重生的续集在哪里",
+        "title": "Où en est la suite de Jurassic World Rebirth avec le retour de",
+        "body": "Porté par le succès colossal du dernier volet au box-office, le prochain film de la saga Jurassic World est officiellement sur les rails. Scarlett Johansson et ses partenaires de jeu préparent leur retour, même si le projet vient d'encaisser un coup dur en coulisses : le départ fracassant du réalisateur Gareth Edwards.",
+        "source": "Numerama",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2308397-ou-en-est-la-suite-de-jurassic-world-rebirth-avec-le-retour-de-scarlett-johansson.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "因气候灾害和困难而削弱",
+        "title": "Fragilisés par les aléas climatiques et les difficultés",
+        "body": "Marsatac, Cabaret Vert, Panorama, Au Foin de la rue, Ecaussystème… De plus en plus de festivals investissent des lieux à l’année ou développent d’autres services afin de s’ancrer davantage dans leur territoire et dégager d’autres ressources financières.",
+        "source": "Le Monde",
+        "pub_date": "8 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/08/fragilises-par-les-aleas-climatiques-et-les-difficultes-budgetaires-des-festivals-musicaux-diversifient-leurs-activites-pour-tenir_6740709_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "“我们必须走得更远”",
+        "title": "«Il faut aller encore plus loin»",
+        "body": "DÉCRYPTAGE - Au-delà du bannissement des moins de 15 ans, la haute-commissaire à l’Enfance veut imposer de nouveaux standards aux plateformes, de leur conception à l’évaluation de leurs effets sur les mineurs.",
+        "source": "Le Figaro",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/il-faut-aller-encore-plus-loin-le-plan-de-sarah-el-hairy-pour-mieux-proteger-les-enfants-sur-les-reseaux-sociaux-20260807",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "Netflix 取消了大卫·芬",
+        "title": "Netflix annule le remake de Squid Game par David Fincher",
+        "body": "Après des mois de rumeurs, le couperet est tombé : la version américaine de Squid Game par David Fincher ne verra jamais le jour. Netflix réoriente sa franchise phénomène, pendant que le réalisateur peaufine les reshoots du très attendu The Adventures of Cliff Booth.",
+        "source": "Numerama",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2308009-netflix-annule-le-remake-de-squid-game-par-david-fincher.html",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "Trenitalia 向日立订",
+        "title": "Trenitalia commande 19 trains à Hitachi et confirme l’ouverture",
+        "body": "Les nouveaux trains de la filiale du groupe ferroviaire italien seront conçus pour circuler sur les principaux réseaux européens à grande vitesse. Ils doivent encore être homologués pour le tunnel sous la Manche et pour le marché britannique.",
+        "source": "Le Monde",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/07/trenitalia-commande-19-trains-a-hitachi-et-confirme-l-ouverture-de-la-liaison-paris-londres-en-2029_6740535_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "“烂透了”的抱怨",
+        "title": "Plainte «pourrie jusqu’au trognon»",
+        "body": "Dans une requête déposée lundi devant un tribunal fédéral à San Jose, Apple dénonce des «actes répétés de vol délibéré», destinés selon elle à «faire avancer le programme et les ambitions d’OpenAI dans le matériel».",
+        "source": "Le Figaro",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/plainte-pourrie-jusqu-au-trognon-la-bataille-d-apple-et-openai-sur-les-futurs-appareils-du-createur-de-chatgpt-s-envenime-20260807",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "电子游戏消失",
+        "title": "Jeux vidéo qui disparaissent, fin du marché de l’occasion... La",
+        "body": "DÉCRYPTAGE - En décidant de ne plus produire, dès 2028, de jeux vidéo sur support physique, Sony accélère une transformation qui s’opère à bas bruit dans le secteur depuis plusieurs années, au désavantage des consommateurs dépossédés de leurs jeux.",
+        "source": "Le Figaro",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/jeux-video-qui-disparaissent-fin-du-marche-de-l-occasion-la-dematerialisation-une-mauvaise-affaire-pour-les-joueurs-20260807",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "工人 Lucien Favre",
+        "title": "Les obsessions en plâtre et ciment de Lucien Favreau, ouvrier",
+        "body": "La France de l’art brut (5/6). Lucien Favreau, décédé en 1990, et sa maison baptisée « Ma Bohême », à Yviers, en Charente, dont les œuvres dressent le portrait d’un humaniste révolté par les tourments du monde.",
+        "source": "Le Monde",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/07/les-obsessions-en-platre-et-ciment-de-lucien-favreau-ouvrier-anarcho-mystique-parti-sans-livrer-tous-ses-secrets_6740528_3451060.html",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 344,
+    "auto": true
+  },
+  {
     "date": "2026-08-07",
     "tags": [
       "Technologie",
