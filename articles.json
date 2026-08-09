@@ -1,5 +1,123 @@
 [
   {
+    "date": "2026-08-09",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "francophonie",
+      "europe",
+      "international"
+    ],
+    "summary_cn": "法国为自动驾驶汽车的批准铺平道 | 龙在《龙之屋》中回归 | 邮票市场 | “我们必须走得更远” | 侏罗纪世界重生的续集在哪里",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "法国为自动驾驶汽车的批准铺平道",
+        "title": "La France ouvre la voie à l’homologation des véhicules autonomes",
+        "body": "L’Hexagone devient «l’un des premiers pays au monde à se doter d’un cadre permettant l’homologation de robots de livraison autonomes d’une telle dimension», assure le ministère des Transports, ce vendredi.",
+        "source": "Le Figaro",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/la-france-ouvre-la-voie-a-l-homologation-des-vehicules-autonomes-de-livraison-20260807",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "龙在《龙之屋》中回归",
+        "title": "Un dragon de retour dans House of the Dragon, Tom Bombadil",
+        "body": "Cette semaine fut placée sous le signe des grands retours héroïques : Feux-du-Soleil n’a pas dit son dernier mot dans la saison 3 de House of the Dragon, tandis que Tom Bombadil vient faire coucou dans la saison 3 des Anneaux de pouvoir — et on parle quand même du personnage le plus puissant de la Terre du Milieu. Entre ces deux come-back, Mario continue de sauter, car c’est ce qu’il sait faire de mieux. C’est le récap pop culture de la semaine, et attention : il y a un peu de divulgâchage dans l’air…",
+        "source": "Numerama",
+        "pub_date": "8 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2308321-un-dragon-de-retour-dans-house-of-the-dragon-tom-bombadil-debarque-dans-les-anneaux-de-pouvoir-et-mario-devoile-son-secret-cest-le-recap-pop-culture-de-la-semaine.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "邮票市场",
+        "title": "Marché du timbre",
+        "body": "Les signatures manuscrites autographes de Jean-Baptiste Charcot, Paul-Emile Victor, Fridtjof Nansen, Richard Byrd ou d’Adolf Erik Nordenskiöld, dispersées dans une vente clôturée le 1ᵉʳ septembre, ne manqueront pas de retenir l’attention des amateurs d’histoire postale polaire.",
+        "source": "Le Monde",
+        "pub_date": "9 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/argent/article/2026/08/09/marche-du-timbre-un-1-franc-vermillon-sur-lettre-de-1851-pour-baden-baden-a-10-000-euros_6741846_1657007.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "“我们必须走得更远”",
+        "title": "«Il faut aller encore plus loin»",
+        "body": "DÉCRYPTAGE - Au-delà du bannissement des moins de 15 ans, la haute-commissaire à l’Enfance veut imposer de nouveaux standards aux plateformes, de leur conception à l’évaluation de leurs effets sur les mineurs.",
+        "source": "Le Figaro",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/il-faut-aller-encore-plus-loin-le-plan-de-sarah-el-hairy-pour-mieux-proteger-les-enfants-sur-les-reseaux-sociaux-20260807",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "侏罗纪世界重生的续集在哪里",
+        "title": "Où en est la suite de Jurassic World Rebirth avec le retour de",
+        "body": "Porté par le succès colossal du dernier volet au box-office, le prochain film de la saga Jurassic World est officiellement sur les rails. Scarlett Johansson et ses partenaires de jeu préparent leur retour, même si le projet vient d'encaisser un coup dur en coulisses : le départ fracassant du réalisateur Gareth Edwards.",
+        "source": "Numerama",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2308397-ou-en-est-la-suite-de-jurassic-world-rebirth-avec-le-retour-de-scarlett-johansson.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "“烂透了”的抱怨",
+        "title": "Plainte «pourrie jusqu’au trognon»",
+        "body": "Dans une requête déposée lundi devant un tribunal fédéral à San Jose, Apple dénonce des «actes répétés de vol délibéré», destinés selon elle à «faire avancer le programme et les ambitions d’OpenAI dans le matériel».",
+        "source": "Le Figaro",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/plainte-pourrie-jusqu-au-trognon-la-bataille-d-apple-et-openai-sur-les-futurs-appareils-du-createur-de-chatgpt-s-envenime-20260807",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "画家兼工人安德烈·帕尤 (An",
+        "title": "Les moulinets hypnotiques d’André Pailloux, peintre-ouvrier",
+        "body": "« La France de l’art brut » (6/6). A Brem-sur-Mer, en Vendée, cet ancien peintre de chantier naval a créé un jardin extraordinaire, jungle de PVC et de bois de récupération.",
+        "source": "Le Monde",
+        "pub_date": "8 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/08/les-moulinets-hypnotiques-d-andre-pailloux-peintre-ouvrier-disciple-du-vent-et-des-couleurs_6741515_3451060.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人工智能本来应该摧毁计算",
+        "title": "L’intelligence artificielle devait détruire l’informatique",
+        "body": "L’intelligence artificielle tarde à bouleverser le secteur informatique indien, qui continue de recruter. Mais pour les jeunes diplômés, l’entrée sur le marché du travail se complique, l’IA menaçant les tâches autrefois sous-traitées en Inde.",
+        "source": "Challenges",
+        "pub_date": "8 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/lintelligence-artificielle-devait-detruire-linformatique-indienne-la-realite-est-bien-differente_645176",
+        "region": "international"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "SpaceX",
+        "title": "SpaceX, le rêve à l’épreuve des chiffres",
+        "body": "L’euphorie autour de l’entreprise spatiale n’est pas totalement retombée malgré une valorisation en forte baisse depuis l’introduction en Bourse, mi-juin. Si extraordinaires soient les ambitions, celles-ci ne doivent pas dispenser de démontrer la rentabilité de la société fondée par Elon Musk.",
+        "source": "Le Monde",
+        "pub_date": "8 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/idees/article/2026/08/08/spacex-le-reve-a-l-epreuve-des-chiffres_6741194_3232.html",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 386,
+    "auto": true
+  },
+  {
     "date": "2026-08-08",
     "tags": [
       "Technologie",
