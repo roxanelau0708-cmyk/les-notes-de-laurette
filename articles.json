@@ -1,5 +1,145 @@
 [
   {
+    "date": "2026-08-10",
+    "tags": [
+      "Culture",
+      "Technologie",
+      "Économie"
+    ],
+    "regions": [
+      "europe",
+      "francophonie",
+      "international"
+    ],
+    "summary_cn": "我们对老版 X 战警电影进行了 | 法国为自动驾驶汽车的批准铺平道 | 空客和波音正在加速发展 | 在纳粹的引导下 | 人工智能本来应该摧毁计算",
+    "briefs": [
+      {
+        "tag": "Culture",
+        "title_cn": "我们对老版 X 战警电影进行了",
+        "title": "On a classé les vieux films X-Men, du pire au meilleur",
+        "body": "Les X-Men s'apprêtent à revenir en force dans le Marvel Cinematic Universe. Les anciens feront une apparition remarquée dans Avengers: Doomsday, et une nouvelle génération est déjà prévue pour l'après Avengers: Secret Wars. L'excuse idéale pour classer les six films produits par la Fox.",
+        "source": "Numerama",
+        "pub_date": "9 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2305835-on-a-classe-les-vieux-films-x-men-du-pire-au-meilleur.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "法国为自动驾驶汽车的批准铺平道",
+        "title": "La France ouvre la voie à l’homologation des véhicules autonomes",
+        "body": "L’Hexagone devient «l’un des premiers pays au monde à se doter d’un cadre permettant l’homologation de robots de livraison autonomes d’une telle dimension», assure le ministère des Transports, ce vendredi.",
+        "source": "Le Figaro",
+        "pub_date": "7 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/la-france-ouvre-la-voie-a-l-homologation-des-vehicules-autonomes-de-livraison-20260807",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "空客和波音正在加速发展",
+        "title": "Airbus et Boeing sur la voie d’une montée en cadence",
+        "body": "Face à une demande mondiale d’avions en plein emballement, les deux géants de l’aéronautique mettent en place des plans industriels massifs pour augmenter leurs capacités productives. Le constructeur européen paraît en mesure de dépasser cette année son plus gros chiffre de livraisons. Et il ne compte pas s’arrêter là.",
+        "source": "Le Monde",
+        "pub_date": "10 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/10/airbus-et-boeing-sur-la-voie-d-une-montee-en-cadence-industrielle-record_6743044_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "在纳粹的引导下",
+        "title": "Sous la botte nazie, l’âge d’or ambigu des théâtres et des",
+        "body": "« Le théâtre sous l’Occupation » (1/5). Les Allemands et le régime de Vichy contribuent à la fertilité de la création, qui atteint des sommets sous l’Occupation. Mais à quel prix ? Des salles « désenjuivées », surveillées, des intimidations, des compromissions, des collaborateurs qui partagent la scène avec des résistants.",
+        "source": "Le Monde",
+        "pub_date": "9 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/09/sous-la-botte-nazie-l-age-d-or-ambigu-des-theatres-et-des-cinemas-qui-font-salle-comble-a-paris_6742774_3451060.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人工智能本来应该摧毁计算",
+        "title": "L’intelligence artificielle devait détruire l’informatique",
+        "body": "L’intelligence artificielle tarde à bouleverser le secteur informatique indien, qui continue de recruter. Mais pour les jeunes diplômés, l’entrée sur le marché du travail se complique, l’IA menaçant les tâches autrefois sous-traitées en Inde.",
+        "source": "Challenges",
+        "pub_date": "8 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/lintelligence-artificielle-devait-detruire-linformatique-indienne-la-realite-est-bien-differente_645176",
+        "region": "international"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "对于西甲主席哈维尔·特巴斯来说",
+        "title": "Pour Javier Tebas, président de la Liga, « l’ère Infantino est",
+        "body": "Le patron du championnat de football espagnol, souvent à l’avant-garde de la lutte contre les instances dirigeantes du ballon rond, dresse un constat sans appel sur la situation à la FIFA.",
+        "source": "Le Monde",
+        "pub_date": "9 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/sport/article/2026/08/09/pour-javier-tebas-president-de-la-liga-l-ere-infantino-est-terminee_6741998_3242.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "虚拟演员和假特技",
+        "title": "Acteurs virtuels et cascades truquées",
+        "body": "Netflix investi 600 millions de dollars pour créer avec l’IA, Google lance un partenariat avec le studio A24. Mais à Hollywood la technologie ne fait toujours pas l’unanimité, George Lucas dit oui et le réalisateur de l’Odyssée préfère travailler sans.",
+        "source": "Challenges",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/acteurs-virtuels-et-cascades-truquees-la-revolution-brutale-de-lia-qui-fait-trembler-les-plus-grands-studios-dhollywood_645153",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "玛丽亚·安杰利库西斯 (Mar",
+        "title": "Maria Angelicoussis, la discrète armatrice la plus puissante de",
+        "body": "Le groupe Angelicoussis, qu’elle dirige depuis 2021, est le plus grand armateur privé du monde en tonnage, et profite de l’essor du gaz naturel liquéfié en Europe. La PDG de 44 ans est la femme la plus riche de Grèce.",
+        "source": "Le Monde",
+        "pub_date": "9 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/09/maria-angelicoussis-la-discrete-armatrice-la-plus-puissante-de-grece_6741918_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "萨尔茨堡音乐节上演动人的《卡门",
+        "title": "Au Festival de Salzbourg, une bouleversante « Carmen » mise en",
+        "body": "Rarement donné dans la ville de Mozart, le chef-d’œuvre de Georges Bizet ajoute au répertoire de la fascinante soprano lituanienne Asmik Grigorian, qui incarne un personnage à la mesure de sa démesure.",
+        "source": "Le Monde",
+        "pub_date": "9 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/culture/article/2026/08/09/au-festival-de-salzbourg-une-bouleversante-carmen-mise-en-scene-par-gabriela-carrizo-et-dirigee-par-teodor-currentzis_6742637_3246.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "SpaceX 股市继续暴跌",
+        "title": "SpaceX continue de s'effondrer en Bourse",
+        "body": "Elon Musk a présenté mardi 4 août les premiers résultats de son entreprise depuis son entrée en Bourse en juin. Le CA de 7,8 milliards de dollars, en nette hausse, rassure après des semaines de baisse du cours de l’action. Mais les différentes branches du groupe sont loin d’être rentables et les résultats plombés par de lourds investissements.",
+        "source": "Challenges",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/spacex-continue-de-seffondrer-en-bourse-pourquoi-lempire-delon-musk-inquiete-les-investisseurs-malgre-un-trimestre-record_645150",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "邮票市场",
+        "title": "Marché du timbre",
+        "body": "Les signatures manuscrites autographes de Jean-Baptiste Charcot, Paul-Emile Victor, Fridtjof Nansen, Richard Byrd ou d’Adolf Erik Nordenskiöld, dispersées dans une vente clôturée le 1ᵉʳ septembre, ne manqueront pas de retenir l’attention des amateurs d’histoire postale polaire.",
+        "source": "Le Monde",
+        "pub_date": "9 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/argent/article/2026/08/09/marche-du-timbre-un-1-franc-vermillon-sur-lettre-de-1851-pour-baden-baden-a-10-000-euros_6741846_1657007.html",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 445,
+    "auto": true
+  },
+  {
     "date": "2026-08-09",
     "tags": [
       "Technologie",
