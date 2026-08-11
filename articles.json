@@ -1,5 +1,146 @@
 [
   {
+    "date": "2026-08-11",
+    "tags": [
+      "Culture",
+      "Technologie",
+      "Économie"
+    ],
+    "regions": [
+      "europe",
+      "francophonie",
+      "international",
+      "etats-unis"
+    ],
+    "summary_cn": "我们看到了Undertone | 错误、滥用职权和“大规模监视” | 阿尔勒会议 | 人工智能本来应该摧毁计算 | 唐纳德·特朗普的网络 Trut",
+    "briefs": [
+      {
+        "tag": "Culture",
+        "title_cn": "我们看到了Undertone",
+        "title": "On a vu Undertone",
+        "body": "Faire peur avec des images, c’est la méthode classique du cinéma d’horreur, qui a déjà fait ses preuves maintes et maintes fois. Mais faire peur avec des sons, seulement des sons, c’est déjà une autre paire de manches. Undertone tente le pari, et c’est une réussite, malgré quelques défauts qui l’empêchent d’être le grand film qu’il aurait pu devenir.",
+        "source": "Numerama",
+        "pub_date": "10 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2308999-on-a-vu-undertone-le-film-dhorreur-a24-que-vous-naviez-pas-vu-venir-est-une-excellente-surprise.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "错误、滥用职权和“大规模监视”",
+        "title": "Erreurs, abus et «surveillance de masse»... La colère gronde aux",
+        "body": "RÉCIT - Ces caméras intelligentes, qui prolifèrent dans le pays, enregistrent les trajets et l’aspect de tous les véhicules. Les dérives se multiplient, tout comme les destructions de ces appareils destinés à la police.",
+        "source": "Le Figaro",
+        "pub_date": "8 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/erreurs-abus-et-surveillance-de-masse-la-colere-gronde-aux-etats-unis-face-aux-cameras-dopees-a-l-ia-de-flock-safety-20260808",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "阿尔勒会议",
+        "title": "Rencontres d’Arles",
+        "body": "Curiosités et trésors d’inventivité alternent au fil du parcours de l’exposition « R comme regarder », qui rassemble une centaine d’ouvrages publiés dans différents pays, des années 1930 à aujourd’hui.",
+        "source": "Le Monde",
+        "pub_date": "10 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/culture/article/2026/08/10/rencontres-d-arles-les-livres-de-photos-pour-enfants-petites-merveilles-et-signatures-prestigieuses_6743505_3246.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人工智能本来应该摧毁计算",
+        "title": "L’intelligence artificielle devait détruire l’informatique",
+        "body": "L’intelligence artificielle tarde à bouleverser le secteur informatique indien, qui continue de recruter. Mais pour les jeunes diplômés, l’entrée sur le marché du travail se complique, l’IA menaçant les tâches autrefois sous-traitées en Inde.",
+        "source": "Challenges",
+        "pub_date": "8 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/lintelligence-artificielle-devait-detruire-linformatique-indienne-la-realite-est-bien-differente_645176",
+        "region": "international"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "唐纳德·特朗普的网络 Trut",
+        "title": "La maison mère de Truth Social, le réseau de Donald Trump,",
+        "body": "A l’issue des trois premiers mois de l’année, Trump Media & Technology Group – dont le milliardaire est le principal actionnaire – avait déjà fait état d’une perte de plus de 400 millions de dollars.",
+        "source": "Le Monde",
+        "pub_date": "11 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/11/la-maison-mere-de-truth-social-le-reseau-de-donald-trump-affiche-240-millions-de-dollars-de-pertes-au-deuxieme-trimestre_6743610_3234.html",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "在占领下，如果没有艺术剧院的保",
+        "title": "Sous l’Occupation, l’impossible défense d’un théâtre d’art sans",
+        "body": "« Le théâtre sous l’Occupation » (2/5). Depuis la fin des années 1920, le talentueux Cartel des quatre, formé par les metteurs en scène Louis Jouvet, Georges Pitoëff, Charles Dullin et Gaston Baty, entend imposer une vision artistique opposée à l’esprit boulevardier et limiter l’affairisme du théâtre privé. Un combat qui ne sera finalement soutenu ni par les Allemands, ni par Vichy.",
+        "source": "Le Monde",
+        "pub_date": "10 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/10/sous-l-occupation-l-impossible-defense-d-un-theatre-d-art-sans-se-compromettre-avec-les-nazis_6743471_3451060.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "虚拟演员和假特技",
+        "title": "Acteurs virtuels et cascades truquées",
+        "body": "Netflix investi 600 millions de dollars pour créer avec l’IA, Google lance un partenariat avec le studio A24. Mais à Hollywood la technologie ne fait toujours pas l’unanimité, George Lucas dit oui et le réalisateur de l’Odyssée préfère travailler sans.",
+        "source": "Challenges",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/acteurs-virtuels-et-cascades-truquees-la-revolution-brutale-de-lia-qui-fait-trembler-les-plus-grands-studios-dhollywood_645153",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "极热",
+        "title": "Fortes chaleurs",
+        "body": "Pour cette journée de dimanche, cinq réacteurs ont dû adapter leur puissance à cause des fortes chaleurs et quatre réacteurs étaient à l’arrêt et le sont toujours à la date de lundi.",
+        "source": "Le Monde",
+        "pub_date": "10 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/planete/article/2026/08/10/fortes-chaleurs-record-de-puissance-indisponible-pour-le-parc-nucleaire-d-edf-dimanche_6743541_3244.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "五大洲花园，伯特兰的绿色植物地",
+        "title": "Le Jardin des cinq continents, l’atlas de verdure de Bertrand",
+        "body": "« Artistes en leur jardin » (1/6). Dans le « jardin du MoCo », ouvert en 2019, le plasticien français a planté des espèces venues de toute la planète, mettant en scène la mondialisation des essences végétales.",
+        "source": "Le Monde",
+        "pub_date": "10 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/10/le-jardin-des-cinq-continents-l-atlas-de-verdure-de-bertrand-lavier-a-montpellier_6743430_3451060.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "SpaceX 股市继续暴跌",
+        "title": "SpaceX continue de s'effondrer en Bourse",
+        "body": "Elon Musk a présenté mardi 4 août les premiers résultats de son entreprise depuis son entrée en Bourse en juin. Le CA de 7,8 milliards de dollars, en nette hausse, rassure après des semaines de baisse du cours de l’action. Mais les différentes branches du groupe sont loin d’être rentables et les résultats plombés par de lourds investissements.",
+        "source": "Challenges",
+        "pub_date": "5 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/spacex-continue-de-seffondrer-en-bourse-pourquoi-lempire-delon-musk-inquiete-les-investisseurs-malgre-un-trimestre-record_645150",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "在美国和加拿大边境",
+        "title": "A la frontière entre les Etats-Unis et le Canada, le nouveau",
+        "body": "Une nouvelle infrastructure routière relie Detroit, dans le Michigan, à Windsor, en Ontario, depuis le 27 juillet. Conçu pour accélérer les échanges transfrontaliers, l’ouvrage est devenu un symbole du climat orageux entre Washington et Ottawa.",
+        "source": "Le Monde",
+        "pub_date": "10 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/10/a-la-frontiere-entre-les-etats-unis-et-le-canada-le-nouveau-pont-gordie-howe-pris-au-piege-des-tensions-commerciales_6743423_3234.html",
+        "region": "etats-unis"
+      }
+    ],
+    "vocab": [],
+    "word_count": 456,
+    "auto": true
+  },
+  {
     "date": "2026-08-10",
     "tags": [
       "Culture",
