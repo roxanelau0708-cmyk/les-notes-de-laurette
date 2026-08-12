@@ -1,5 +1,136 @@
 [
   {
+    "date": "2026-08-12",
+    "tags": [
+      "Culture",
+      "Économie",
+      "Technologie"
+    ],
+    "regions": [
+      "chine",
+      "europe",
+      "francophonie",
+      "etats-unis",
+      "international"
+    ],
+    "summary_cn": "致命武器5 | TotalEnergies 正 | Spotify 将推出新徽章来 | D23 2026 | 日食发生前几个小时",
+    "briefs": [
+      {
+        "tag": "Culture",
+        "title_cn": "致命武器5",
+        "title": "L’arme Fatale 5",
+        "body": "Presque trente ans après avoir rangé le flingue, Riggs et Murtaugh ont toujours du service à revendre. En direct du Fan Expo de Boston, Mel Gibson a balancé du lourd sur l'état réel de L'Arme Fatale 5 : script terminé, approche « low-tech » sans effets spéciaux baveux, et la promesse faite sur son lit de mort au regretté Richard Donner. Seul problème ? Le projet est englué dans l'enfer administratif des studios.",
+        "source": "Numerama",
+        "pub_date": "11 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2309857-larme-fatale-5-mel-gibson-donne-enfin-des-details-sur-la-suite-de-la-saga-culte.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "TotalEnergies 正",
+        "title": "TotalEnergies fait le pari contesté du recyclage chimique du",
+        "body": "En Seine-et-Marne, le groupe développe une technologie pour donner une seconde vie aux déchets les plus complexes, inaugurant la première unité de ce type en France. Un procédé coûteux et critiqué.",
+        "source": "Le Monde",
+        "pub_date": "12 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/12/totalenergies-fait-le-pari-conteste-du-recyclage-chimique-du-plastique-sur-son-ancienne-raffinerie-de-grandpuits_6744496_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "Spotify 将推出新徽章来",
+        "title": "Spotify va lancer un nouveau badge permettant d'identifier la",
+        "body": "«Les auditeurs nous ont clairement fait savoir qu’ils n’aiment pas voir un profil d’artiste qui semble humain, pour découvrir ensuite que la personnalité en question est générée par l’IA», a indiqué le géant du streaming dans un communiqué.",
+        "source": "Le Figaro",
+        "pub_date": "11 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/spotify-va-lancer-un-nouveau-badge-permettant-d-identifier-la-musique-generee-par-l-ia-20260811",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "D23 2026",
+        "title": "D23 2026",
+        "body": "C'est le grand rituel biennal de la firme aux grandes oreilles : du 14 au 16 août 2026, la convention D23 pose ses valises à Anaheim pour une orgie d'annonces, de teasers et de promesses hollywoodiennes.",
+        "source": "Numerama",
+        "pub_date": "11 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2309751-d23-2026-films-marvel-series-star-wars-et-parcs-tout-ce-que-disney-pourrait-devoiler-ce-week-end.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "日食发生前几个小时",
+        "title": "A quelques heures de l’éclipse solaire, la quête des",
+        "body": "Le port d’une protection oculaire certifiée est indispensable pour observer sans risque l’éclipse du 12 août. Les achats ont fortement augmenté à l’approche de l’événement, créant des ruptures de stock dans de nombreux points de vente.",
+        "source": "Le Monde",
+        "pub_date": "12 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/12/a-quelques-heures-de-l-eclipse-solaire-la-quete-des-indispensables-lunettes-vire-a-la-chasse-au-tresor_6744495_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "休达：Meta 和 TikTo",
+        "title": "Ceuta : Meta et TikTok acceptent de muscler leur lutte contre la",
+        "body": "Un accord a alors été trouvé pour créer un outil de communication dédié sur la question des migrations vers Ceuta, réunissant plateformes et fact-checkeurs sous l’égide de l’UE, afin de rendre encore plus rapide le signalement de contenus faux ou trompeurs.",
+        "source": "Le Figaro",
+        "pub_date": "11 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/ceuta-meta-et-tiktok-acceptent-de-muscler-leur-lutte-contre-la-desinformation-annonce-l-ue-20260811",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "克里斯·埃文斯透露漫威如何保守",
+        "title": "Chris Evans révèle comment Marvel a su garder le secret pour",
+        "body": "Chris Evans a révélé l'astuce qui a permis à Marvel Studios et à Disney d'éviter au maximum les fuites sur son retour dans Avengers: Doomsday, jusqu'à l'officialisation dans un premier teaser. Les scénaristes ont rusé.",
+        "source": "Numerama",
+        "pub_date": "11 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2309737-chris-evans-revele-comment-marvel-a-su-garder-le-secret-pour-captain-america-dans-avengers-doomsday.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人工智能本来应该摧毁计算",
+        "title": "L’intelligence artificielle devait détruire l’informatique",
+        "body": "L’intelligence artificielle tarde à bouleverser le secteur informatique indien, qui continue de recruter. Mais pour les jeunes diplômés, l’entrée sur le marché du travail se complique, l’IA menaçant les tâches autrefois sous-traitées en Inde.",
+        "source": "Challenges",
+        "pub_date": "8 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/lintelligence-artificielle-devait-detruire-linformatique-indienne-la-realite-est-bien-differente_645176",
+        "region": "international"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "蜘蛛侠5已经在筹备了吗",
+        "title": "Spider-Man 5 déjà en préparation ? Le réalisateur de Brand New",
+        "body": "Alors que les fans savourent encore les révélations autour de Spider-Man: Brand New Day, l'avenir de l'Homme-Araignée au cinéma semble déjà s'inscrire sur le très long terme. Entre l'enthousiasme des producteurs et l'envie du réalisateur Destin Daniel Cretton d'enchaîner avec un Spider-Man 5, le Tisseur n'a pas fini de faire parler de lui.",
+        "source": "Numerama",
+        "pub_date": "11 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2309443-spider-man-5-deja-en-preparation-le-realisateur-de-brand-new-day-pret-a-rempiler.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "法国企业受海浪影响较小",
+        "title": "Les entreprises françaises encore peu affectées par les vagues",
+        "body": "L’activité des entreprises a un peu ralenti au mois de juillet, mais leurs dirigeants anticipent une légère amélioration en août, selon l’enquête mensuelle de la Banque de France qui suggère, à ce stade, une croissance de 0,2 % au troisième trimestre.",
+        "source": "Le Monde",
+        "pub_date": "11 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/11/les-entreprises-francaises-encore-peu-affectees-par-les-vagues-de-chaleur-et-les-incendies_6744159_3234.html",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 418,
+    "auto": true
+  },
+  {
     "date": "2026-08-11",
     "tags": [
       "Culture",
