@@ -1,5 +1,112 @@
 [
   {
+    "date": "2026-08-13",
+    "tags": [
+      "Culture",
+      "Technologie",
+      "Économie"
+    ],
+    "regions": [
+      "europe",
+      "international",
+      "francophonie"
+    ],
+    "summary_cn": "杀手杰夫 | Eclipse：如果您想这样做 | 除了《怪物史莱克 5》之外 | 超级智能，错位 | 越来越多的单身家庭正在努力寻找",
+    "briefs": [
+      {
+        "tag": "Culture",
+        "title_cn": "杀手杰夫",
+        "title": "Jeff le tueur",
+        "body": "En plein bras de fer pour trouver le nouveau filon qui remplacera les formules essoufflées des studios, Hollywood va piocher directement dans la sous-culture du web. Vingt ans après sa naissance sur les forums, le phénomène creepypasta Jeff the Killer débarque officiellement sur grand écran, porté par la vidéaste Savannah Moss.",
+        "source": "Numerama",
+        "pub_date": "12 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2310407-jeff-le-tueur-apres-backrooms-un-autre-gros-mythe-dinternet-aura-droit-a-son-film.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "Eclipse：如果您想这样做",
+        "title": "Éclipse : ces précautions à prendre si vous voulez faire des",
+        "body": "L’éclipse partielle qui sera visible ce mercredi soir en France offrira un spectacle rare. Mais l’enthousiasme autour de cet événement ne doit pas faire oublier que photographier directement le Soleil exige les mêmes précautions que son observation.",
+        "source": "Le Figaro",
+        "pub_date": "12 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/eclipse-ces-precautions-a-prendre-si-vous-voulez-faire-des-belles-photos-sans-abimer-vos-yeux-ni-votre-materiel-20260812",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "除了《怪物史莱克 5》之外",
+        "title": "En plus de Shrek 5, Le Chat potté revient aussi pour un nouveau",
+        "body": "Alors que les fans d'animation trépignent déjà d'impatience à l'idée de retrouver le célèbre ogre vert sur grand écran avec Shrek 5, DreamWorks prépare une autre surprise de taille dans l'ombre. Le félin le plus téméraire du cinéma s'apprête lui aussi à reprendre du service pour un troisième opus solo.",
+        "source": "Numerama",
+        "pub_date": "12 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2310241-en-plus-de-shrek-5-le-chat-potte-revient-aussi-pour-un-nouveau-film.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "超级智能，错位",
+        "title": "Superintelligence, désalignement",
+        "body": "DÉCRYPTAGE - Des chercheurs et un ancien employé d’OpenAI avaient imaginé, il y a quasiment deux ans, le futur de l’intelligence artificielle. À date, la grande majorité de leurs prédictions se sont réalisées ou sont en passe de l’être. La suite de leur scénario est vertigineuse.",
+        "source": "Le Figaro",
+        "pub_date": "12 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/superintelligence-desalignement-cette-prophetie-catastrophiste-qui-prevoit-une-perte-de-controle-des-modeles-d-ia-des-2027-20260812",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "越来越多的单身家庭正在努力寻找",
+        "title": "Les ménages solos, toujours plus nombreux, peinent à se loger",
+        "body": "Quelque douze millions de personnes vivent seules dans leur logement en France, et leur nombre augmente régulièrement. Le parc résidentiel n’est pas adapté à cette évolution, amplifiant l’effet de la crise de l’immobilier sur ces ménages.",
+        "source": "Le Monde",
+        "pub_date": "13 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/societe/article/2026/08/13/les-menages-solos-toujours-plus-nombreux-peinent-a-se-loger-ce-serait-beaucoup-plus-facile-a-deux-j-ai-un-sentiment-de-double-peine_6745503_3224.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "易捷航空法国机组人员罢工",
+        "title": "Chez easyJet, la grève des personnels de cabine français en",
+        "body": "Les syndicats des hôtesses et stewards de la compagnie à bas coût en France appellent à un arrêt de travail, samedi et dimanche, après l’échec de discussions, mercredi, avec la direction sur l’amélioration des conditions de travail.",
+        "source": "Le Monde",
+        "pub_date": "12 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/12/chez-easyjet-la-greve-des-personnels-de-cabine-francais-en-plein-week-end-du-15-aout-pourrait-etre-tres-suivie_6745136_3234.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "在被占领的巴黎的法兰西喜剧院",
+        "title": "A la Comédie-Française, dans Paris occupé, résistants et",
+        "body": "« Le théâtre sous l’Occupation » (4/5). L’histoire de la Maison de Molière pendant la seconde guerre mondiale, longtemps tue, est faite de combats feutrés, de compromissions et d’éclats. D’un côté, les juifs sont écartés de la troupe et l’Allemagne impose des choix. De l’autre sont créées, ces années-là, « Le Soulier de satin » et « La Reine morte », deux pièces d’anthologie.",
+        "source": "Le Monde",
+        "pub_date": "12 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/12/a-la-comedie-francaise-dans-paris-occupe-resistants-et-collaborateurs-jouent-ensemble-sans-se-denoncer-pour-proteger-leur-theatre_6745093_3451060.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "热浪对经济造成的损失可能会很大",
+        "title": "La facture des canicules risque d’être salée pour l’économie",
+        "body": "Les fortes chaleurs de cet été pourraient obérer jusqu’à un demi-point de croissance en 2026 si l’estimation dévoilée par Monique Barbut en ouverture d’une réunion de crise consacrée à la sécheresse, mercredi, se matérialisait.",
+        "source": "Le Monde",
+        "pub_date": "12 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/12/la-facture-des-canicules-risque-d-etre-salee-pour-l-economie-francaise-jusqu-a-15-milliards-d-euros-selon-la-ministre-de-la-transition-ecologique_6745102_3234.html",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 355,
+    "auto": true
+  },
+  {
     "date": "2026-08-12",
     "tags": [
       "Culture",
