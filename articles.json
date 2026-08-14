@@ -1,5 +1,134 @@
 [
   {
+    "date": "2026-08-14",
+    "tags": [
+      "Culture",
+      "Technologie",
+      "Économie"
+    ],
+    "regions": [
+      "europe",
+      "francophonie",
+      "international"
+    ],
+    "summary_cn": "Pluribus 第二季终于升 | 一只巨鼠，八百个危险信号 | 去哪里买住宿享受节日气氛 | 在洛迦诺音乐节上 | Eclipse：如果您想这样做",
+    "briefs": [
+      {
+        "tag": "Culture",
+        "title_cn": "Pluribus 第二季终于升",
+        "title": "Pluribus saison 2 passe enfin à la vitesse supérieure",
+        "body": "Succès critique et public incontestable dès sa première salve d'épisodes sur Apple TV, la nouvelle série signée par le papa de Breaking Bad franchit un cap décisif. Entre la fin de l'écriture et un tournage imminent, le retour de Pluribus se précise enfin.",
+        "source": "Numerama",
+        "pub_date": "13 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2311137-pluribus-saison-2-passe-enfin-a-la-vitesse-superieure.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "一只巨鼠，八百个危险信号",
+        "title": "Un rat géant, 800 drapeaux rouges",
+        "body": "À l’occasion de la venue d’Asha Sharma dans les locaux du studio pour découvrir The Elder Scrolls VI, des salariés ont organisé une action de protestation contre les licenciements massifs.",
+        "source": "Le Figaro",
+        "pub_date": "13 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/un-rat-geant-800-drapeaux-rouges-l-etonnant-accueil-de-la-patronne-de-xbox-par-les-salaries-de-bethesda-20260813",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "去哪里买住宿享受节日气氛",
+        "title": "Où acheter son logement pour profiter d’une ambiance festive ?",
+        "body": "« Nouveau logis, nouvelle vie » (5/6). Profiter d’une ambiance festive, se retrouver au restaurant ou encore en boîte de nuit peut être un critère d’achat, mais mieux vaut avoir un portefeuille bien garni.",
+        "source": "Le Monde",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/argent/article/2026/08/14/ou-acheter-son-logement-pour-profiter-d-une-ambiance-festive_6746143_1657007.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "在洛迦诺音乐节上",
+        "title": "Au Festival de Locarno, la forêt, à la fois lieu de refuge et",
+        "body": "La 79ᵉ édition du festival de cinéma suisse, qui se clôt samedi 15 août avec la remise du Léopard d’or, a révélé le Vietnamien Lê Bao, réalisateur de l’enivrant « Hearing ».",
+        "source": "Le Monde",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/culture/article/2026/08/14/au-festival-de-locarno-la-foret-a-la-fois-lieu-de-refuge-et-symbole-de-la-nature-en-danger-a-occupe-les-ecrans_6746179_3246.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "Eclipse：如果您想这样做",
+        "title": "Éclipse : ces précautions à prendre si vous voulez faire des",
+        "body": "L’éclipse partielle qui sera visible ce mercredi soir en France offrira un spectacle rare. Mais l’enthousiasme autour de cet événement ne doit pas faire oublier que photographier directement le Soleil exige les mêmes précautions que son observation.",
+        "source": "Le Figaro",
+        "pub_date": "12 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/eclipse-ces-precautions-a-prendre-si-vous-voulez-faire-des-belles-photos-sans-abimer-vos-yeux-ni-votre-materiel-20260812",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "“在法国，数据中心的无政府主义",
+        "title": "« En France, le développement anarchique des data centers relève",
+        "body": "Après le retrait du permis de construire d’un projet de centre de données au Bourget, Stéphane Troussel, président du conseil départemental de Seine-Saint-Denis, appelle, dans une tribune au « Monde », à un temps de pause et de concertation, dans l’intérêt des habitants.",
+        "source": "Le Monde",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/idees/article/2026/08/14/en-france-le-developpement-anarchique-des-data-centers-releve-davantage-du-far-west-que-de-l-eldorado-numerique_6746141_3232.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "人工智能本来应该摧毁计算",
+        "title": "L’intelligence artificielle devait détruire l’informatique",
+        "body": "L’intelligence artificielle tarde à bouleverser le secteur informatique indien, qui continue de recruter. Mais pour les jeunes diplômés, l’entrée sur le marché du travail se complique, l’IA menaçant les tâches autrefois sous-traitées en Inde.",
+        "source": "Challenges",
+        "pub_date": "8 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/lintelligence-artificielle-devait-detruire-linformatique-indienne-la-realite-est-bien-differente_645176",
+        "region": "international"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "马哈茂德·达尔维奇和塔玛尔·本",
+        "title": "Mahmoud Darwich et Tamar Ben Ami, l’amour impossible du poète",
+        "body": "Au début des années 1960, à Haïfa, en Israël, le jeune poète palestinien Mahmoud Darwich s’éprend de Tamar Ben Ami, une danseuse juive israélienne. Entre eux, l’idylle est aussi intense que brève. De cet amour empêché, l’écrivain tirera un poème poignant, « Rita et le fusil », encore chanté dans tout le monde arabe.",
+        "source": "Le Monde",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/m-le-mag/article/2026/08/14/mahmoud-darwich-et-tamar-ben-ami-l-amour-impossible-du-poete-palestinien-et-de-la-danseuse-israelienne_6746144_4500055.html",
+        "region": "international"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "图片中",
+        "title": "En images",
+        "body": "Une partie de l'Espagne a été plongée mercredi dans le noir en plein jour, lorsque la Lune a entièrement masqué le Soleil, sous le regard émerveillé d'une foule massée en plusieurs points du pays. Si le reste de l'Europe a dû pour sa part se contenter d'une éclipse partielle, les photos n'en sont pas moins réussies.",
+        "source": "France 24",
+        "pub_date": "12 August 2026",
+        "auto": true,
+        "link": "https://www.france24.com/fr/%C3%A9co-tech/20260812-en-images-photos-les-plus-marquantes-%C3%A9clipse-solaire-12-ao%C3%BBt",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "英国法官在一次诉讼中驳回了 S",
+        "title": "Shein débouté face à Temu par la justice britannique dans un",
+        "body": "Le différend portait sur des fiches produits mises en ligne sur le site britannique de Temu par des vendeurs tiers, utilisant notamment des photos prises par des employés de Shein mais aussi des images de fournisseurs et d’agences.",
+        "source": "Le Monde",
+        "pub_date": "13 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/13/shein-deboute-face-a-temu-par-la-justice-britannique-dans-un-litige-sur-les-droits-d-auteur_6745815_3234.html",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 401,
+    "auto": true
+  },
+  {
     "date": "2026-08-13",
     "tags": [
       "Culture",
