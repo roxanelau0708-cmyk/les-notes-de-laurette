@@ -1,5 +1,112 @@
 [
   {
+    "date": "2026-08-15",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "europe",
+      "international",
+      "francophonie"
+    ],
+    "summary_cn": "在社交网络禁令审查之后 | 灯笼系列（终于）让我们忘记瑞安 | 澳大利亚、西班牙、巴西哪些国家 | 乔治·桑 (George Sa | 在西西里岛，埃特纳火山喷发导致",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "在社交网络禁令审查之后",
+        "title": "Après la censure de l’interdiction des réseaux sociaux pour les",
+        "body": "Ce vendredi, le Conseil constitutionnel a censuré l’article 1er de la proposition de loi «visant à protéger les mineurs des risques auxquels les expose l’utilisation des réseaux sociaux». Le texte comprend aussi l’extension de l’interdiction des téléphones portables au lycée.",
+        "source": "Le Figaro",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/apres-la-censure-de-l-interdiction-des-reseaux-sociaux-pour-les-moins-de-15-ans-quel-avenir-pour-la-fin-des-portables-au-lycee-20260814",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "灯笼系列（终于）让我们忘记瑞安",
+        "title": "La série Lanterns fait-elle (enfin) oublier le film avec Ryan",
+        "body": "Quinze ans après l'échec du film Green Lantern, Damon Lindelof et HBO font équipe pour ressusciter le super-héros au costume vert de l’univers DC Comics. Diffusée à compter du 17 août prochain sur HBO Max en France, la série Lanterns est attendue de pied ferme par les fans. Numerama vous livre son verdict !",
+        "source": "Numerama",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2310963-la-serie-lanterns-fait-elle-enfin-oublier-le-film-avec-ryan-reynolds.html",
+        "region": "international"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "澳大利亚、西班牙、巴西哪些国家",
+        "title": "Australie, Espagne, Brésil... Quels pays avancent vers",
+        "body": "INFOGRAPHIE - En France, le Conseil constitutionnel a censuré ce vendredi 14 août l’interdiction des réseaux sociaux pour les mineurs de moins de 15 ans. Paris n’est pourtant pas la seule capitale à vouloir légiférer sur ce dossier.",
+        "source": "Le Figaro",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/australie-pologne-bresil-quels-pays-avancent-vers-l-interdiction-des-reseaux-sociaux-pour-les-mineurs-20260721",
+        "region": "international"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "乔治·桑 (George Sa",
+        "title": "Le domaine de George Sand à Nohant, un refuge de verdure et",
+        "body": "« Artistes en leur jardin » (5/6). Dans l’Indre, l’autrice, morte il y a 150 ans, a fait de son lieu d’enfance, omniprésent dans ses livres, une oasis et une métaphore de son œuvre, entre naturel et maîtrise, goût de la collecte et respect du vivant.",
+        "source": "Le Monde",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/14/le-domaine-de-george-sand-a-nohant-un-refuge-de-verdure-et-d-ecriture_6746286_3451060.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "在西西里岛，埃特纳火山喷发导致",
+        "title": "En Sicile, l’éruption de l’Etna provoque l’annulation de plus de",
+        "body": "Depuis plusieurs jours, le principal aéroport sicilien est fermé en raison de cendres crachées par le plus actif des volcans d’Europe, rendant dangereux les vols dans la zone. Une situation d’une ampleur sans précédent depuis 2002 et qui pourrait se prolonger au cours du week-end des 14 et 15 août.",
+        "source": "Le Monde",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/14/a-l-aeroport-de-catane-en-sicile-plus-de-mille-vols-annules-et-des-dizaines-de-milliers-de-voyageurs-bloques-en-raison-de-l-eruption-de-l-etna_6746278_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "一只巨鼠，八百个危险信号",
+        "title": "Un rat géant, 800 drapeaux rouges",
+        "body": "À l’occasion de la venue d’Asha Sharma dans les locaux du studio pour découvrir The Elder Scrolls VI, des salariés ont organisé une action de protestation contre les licenciements massifs.",
+        "source": "Le Figaro",
+        "pub_date": "13 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/un-rat-geant-800-drapeaux-rouges-l-etonnant-accueil-de-la-patronne-de-xbox-par-les-salaries-de-bethesda-20260813",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "“从业四十八年",
+        "title": "« En quarante-huit ans de métier, je n’ai jamais vu ça »",
+        "body": "Les températures élevées de l’année 2026 ont accéléré le cycle de la vigne, déclenchant une récolte très précoce partout en France. Sécheresse et chaleur réduisent la taille et la quantité de jus des raisins.",
+        "source": "Le Monde",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/14/en-quarante-huit-ans-de-metier-je-n-ai-jamais-vu-ca-les-fortes-chaleurs-precipitent-les-vendanges-et-font-craindre-de-faibles-rendements_6746266_3234.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "“不成比例的攻击”",
+        "title": "« Une atteinte disproportionnée »",
+        "body": "Le Conseil constitutionnel a censuré vendredi l’interdiction des réseaux sociaux aux moins de 15 ans, mesure phare du gouvernement. Les Sages jugent cette restriction disproportionnée au regard de la liberté d’expression des mineurs.",
+        "source": "Challenges",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/une-atteinte-disproportionnee-le-conseil-constitutionnel-censure-linterdiction-des-reseaux-sociaux-aux-moins-de-15-ans_645228",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 325,
+    "auto": true
+  },
+  {
     "date": "2026-08-14",
     "tags": [
       "Culture",
