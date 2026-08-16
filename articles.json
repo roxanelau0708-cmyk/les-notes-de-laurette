@@ -1,5 +1,123 @@
 [
   {
+    "date": "2026-08-16",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "europe",
+      "francophonie",
+      "international"
+    ],
+    "summary_cn": "每天步数、睡眠、心率这些 | 28 岁时，Lena Situ | 在社交网络禁令审查之后 | X战警：新选角、导演、上映 | 澳大利亚、西班牙、巴西哪些国家",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "每天步数、睡眠、心率这些",
+        "title": "Nombre de pas par jour, sommeil, fréquence cardiaque... Ces",
+        "body": "De la montre qui compte les pas à la bague qui analyse la sueur, les objets connectés permettent de mesurer toujours plus précisément les performances du corps. Si ces données séduisent un nombre croissant d’utilisateurs, elles peuvent aussi tourner à l’obsession.",
+        "source": "Le Figaro",
+        "pub_date": "15 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/nombre-de-pas-par-jour-sommeil-frequence-cardiaque-ces-francais-devenus-accros-aux-objets-connectes-pour-surveiller-leur-sante-20260815",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "28 岁时，Lena Situ",
+        "title": "A 28 ans, comment Lena Situations a transformé une idée de lycée",
+        "body": "Première influenceuse française invitée au Met Gala, Léna Situations, 28 ans, a bâti un empire business estimé à plusieurs millions d’euros. Portrait de la serial entrepreneuse la plus influente d’Internet.",
+        "source": "Challenges",
+        "pub_date": "15 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/culture/a-28-ans-comment-lena-situations-a-transforme-une-idee-de-lycee-en-business-xxl_645076",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "在社交网络禁令审查之后",
+        "title": "Après la censure de l’interdiction des réseaux sociaux pour les",
+        "body": "Ce vendredi, le Conseil constitutionnel a censuré l’article 1er de la proposition de loi «visant à protéger les mineurs des risques auxquels les expose l’utilisation des réseaux sociaux». Le texte comprend aussi l’extension de l’interdiction des téléphones portables au lycée.",
+        "source": "Le Figaro",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/apres-la-censure-de-l-interdiction-des-reseaux-sociaux-pour-les-moins-de-15-ans-quel-avenir-pour-la-fin-des-portables-au-lycee-20260814",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "X战警：新选角、导演、上映",
+        "title": "X-Men : nouveau casting, réalisateur, sortie, tout savoir sur le",
+        "body": "Les mutants posent enfin leurs valises chez Marvel. Après des années de rumeurs et de patience à toute épreuve pour les fans, le reboot des X-Men prend forme avec une toute nouvelle équipe au casting et aux commandes.",
+        "source": "Numerama",
+        "pub_date": "15 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2308955-x-men-nouveau-casting-tournage-sortie-tout-savoir-sur-le-reboot-du-mcu.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "澳大利亚、西班牙、巴西哪些国家",
+        "title": "Australie, Espagne, Brésil... Quels pays avancent vers",
+        "body": "INFOGRAPHIE - En France, le Conseil constitutionnel a censuré ce vendredi 14 août l’interdiction des réseaux sociaux pour les mineurs de moins de 15 ans. Paris n’est pourtant pas la seule capitale à vouloir légiférer sur ce dossier.",
+        "source": "Le Figaro",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/australie-pologne-bresil-quels-pays-avancent-vers-l-interdiction-des-reseaux-sociaux-pour-les-mineurs-20260721",
+        "region": "international"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "在摩泽尔，高炉的记忆由一个",
+        "title": "En Moselle, la mémoire des hauts-fourneaux entretenue par une",
+        "body": "A Uckange, ex-fleuron de la sidérurgie lorraine, d’anciens ouvriers se mobilisent depuis le début des années 1990 pour préserver le patrimoine industriel local. Ouvert à la visite en 2008, le site du haut-fourneau U4 et ses bâtiments, le seul de la région à ne pas avoir été démantelé, fait cette année l’objet d’importants investissements de la part des collectivités, qui croient en son fort potentiel d’attractivité.",
+        "source": "Le Monde",
+        "pub_date": "15 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/m-le-mag/article/2026/08/15/en-moselle-la-memoire-des-hauts-fourneaux-entretenue-par-une-poignee-d-anciens-ouvriers_6746577_4500055.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "“不成比例的攻击”",
+        "title": "« Une atteinte disproportionnée »",
+        "body": "Le Conseil constitutionnel a censuré vendredi l’interdiction des réseaux sociaux aux moins de 15 ans, mesure phare du gouvernement. Les Sages jugent cette restriction disproportionnée au regard de la liberté d’expression des mineurs.",
+        "source": "Challenges",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/une-atteinte-disproportionnee-le-conseil-constitutionnel-censure-linterdiction-des-reseaux-sociaux-aux-moins-de-15-ans_645228",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "灯笼系列（终于）让我们忘记瑞安",
+        "title": "La série Lanterns fait-elle (enfin) oublier le film avec Ryan",
+        "body": "Quinze ans après l'échec du film Green Lantern, Damon Lindelof et HBO font équipe pour ressusciter le super-héros au costume vert de l’univers DC Comics. Diffusée à compter du 17 août prochain sur HBO Max en France, la série Lanterns est attendue de pied ferme par les fans. Numerama vous livre son verdict !",
+        "source": "Numerama",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2310963-la-serie-lanterns-fait-elle-enfin-oublier-le-film-avec-ryan-reynolds.html",
+        "region": "international"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "“强大的吸引力”",
+        "title": "« Une attraction puissante »",
+        "body": "Selon le chercheur Luc Rouban, qui s’appuie sur des données concernant les attitudes politiques des fonctionnaires en 2026, le parti d’extrême droite est celui dont les agents publics se disent aujourd’hui le plus proches. Une dynamique à l’œuvre aussi bien dans la fonction publique d’Etat que chez les agents de la territoriale et de l’hospitalière.",
+        "source": "Le Monde",
+        "pub_date": "15 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/politique/article/2026/08/15/une-attraction-puissante-pourquoi-le-rassemblement-national-gagne-du-terrain-dans-la-fonction-publique_6746502_823448.html",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 395,
+    "auto": true
+  },
+  {
     "date": "2026-08-15",
     "tags": [
       "Technologie",
