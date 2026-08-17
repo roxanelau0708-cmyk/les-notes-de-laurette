@@ -1,5 +1,145 @@
 [
   {
+    "date": "2026-08-17",
+    "tags": [
+      "Culture",
+      "Économie",
+      "Technologie"
+    ],
+    "regions": [
+      "francophonie",
+      "europe",
+      "international"
+    ],
+    "summary_cn": "28 岁时，Lena Situ | 热浪袭来，屠宰者被尸体淹没 | 窃取税务数据 | 为了发布《橡树街尽头及其恐龙》 | 火灾过后，吉伦特省试图挽救其季",
+    "briefs": [
+      {
+        "tag": "Culture",
+        "title_cn": "28 岁时，Lena Situ",
+        "title": "A 28 ans, comment Lena Situations a transformé une idée de lycée",
+        "body": "Première influenceuse française invitée au Met Gala, Léna Situations, 28 ans, a bâti un empire business estimé à plusieurs millions d’euros. Portrait de la serial entrepreneuse la plus influente d’Internet.",
+        "source": "Challenges",
+        "pub_date": "15 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/culture/a-28-ans-comment-lena-situations-a-transforme-une-idee-de-lycee-en-business-xxl_645076",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "热浪袭来，屠宰者被尸体淹没",
+        "title": "Avec la canicule, les équarrisseurs croulent sous les cadavres",
+        "body": "La surmortalité dans les élevages lors de la vague de chaleur de la fin juin a provoqué un embouteillage des usines chargées de leur traitement, créant des nuisances olfactives qui ont fini par exaspérer les habitants.",
+        "source": "Le Monde",
+        "pub_date": "16 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/16/avec-la-canicule-les-equarrisseurs-croulent-sous-les-cadavres-de-volailles-en-decomposition-dont-l-odeur-exaspere-riverains-et-pouvoirs-publics_6747543_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "窃取税务数据",
+        "title": "Piratage des données du fisc",
+        "body": "678.000 personnes ont vu des données sensibles piratées puis mises en vente sur internet. L’administration fiscale appelle les personnes touchées à la prudence. Quelles sont les bonnes pratiques pour se protéger ?",
+        "source": "Le Figaro",
+        "pub_date": "16 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/piratage-des-donnees-du-fisc-ces-menaces-qui-pesent-desormais-sur-les-particuliers-et-les-entreprises-20260815",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "为了发布《橡树街尽头及其恐龙》",
+        "title": "Pour la sortie de La fin d’Oak Street et ses dinosaures, on a",
+        "body": "La fin d’Oak Street est sortie en salles ce 12 août 2026, et avec elle, le plaisir de voir des dinosaures ailleurs que dans un film Jurassic Park. C’était pour nous l’excuse parfaite pour revenir sur l’heptalogie initiée en 1993 par Steven Spielberg et faire un classement des meilleurs films de la saga.",
+        "source": "Numerama",
+        "pub_date": "16 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2309747-pour-la-sortie-de-la-fin-doak-street-et-ses-dinosaures-on-a-classe-les-films-jurassic-park-du-pire-au-meilleur.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "火灾过后，吉伦特省试图挽救其季",
+        "title": "Après les incendies, la Gironde tente de sauver sa saison",
+        "body": "Si les feux qui ont ravagé 42 000 hectares de terres girondines sont fixés, les conséquences économiques sur le secteur du tourisme sont lourdes. Une campagne de communication a été lancée début août pour inciter les vacanciers à revenir jusqu’à l’arrière-saison.",
+        "source": "Le Monde",
+        "pub_date": "16 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/16/apres-les-incendies-la-gironde-tente-de-sauver-sa-saison-touristique_6747468_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "每天步数、睡眠、心率这些",
+        "title": "Nombre de pas par jour, sommeil, fréquence cardiaque... Ces",
+        "body": "De la montre qui compte les pas à la bague qui analyse la sueur, les objets connectés permettent de mesurer toujours plus précisément les performances du corps. Si ces données séduisent un nombre croissant d’utilisateurs, elles peuvent aussi tourner à l’obsession.",
+        "source": "Le Figaro",
+        "pub_date": "15 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/nombre-de-pas-par-jour-sommeil-frequence-cardiaque-ces-francais-devenus-accros-aux-objets-connectes-pour-surveiller-leur-sante-20260815",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "奎托斯离开后",
+        "title": "Pendant que Kratos s’en va, Mulder et Scully reviennent faire un",
+        "body": "L’acteur initialement choisi pour incarner Kratos dans la série God of War a dû abandonner la production, au grand dam des fans, qui le trouvaient quasi parfait pour interpréter le dieu de la guerre. De leur côté, David Duchovny et Gillian Anderson devraient retrouver leurs personnages de Mulder et Scully pour le reboot de X-Files, tandis que Chris Evans remettra le costume de Captain America pour un retour gardé secret d’une drôle de manière. Le récap pop culture de cette semaine est définitivement riche en come-backs.",
+        "source": "Numerama",
+        "pub_date": "16 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2312059-pendant-que-kratos-sen-va-mulder-et-scully-reviennent-faire-un-petit-coucou-et-captain-america-se-la-joue-incognito-cest-le-recap-pop-culture-de-la-semaine.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "“在福利国家之后",
+        "title": "« Après l’Etat-providence, construisons une société de la",
+        "body": "Florian Guyot, spécialiste de la précarité, estime, dans une tribune au « Monde », que, pour faire face à l’accroissement de la pauvreté et aux crises successives, la France doit dépasser la simple réparation en privilégiant la prévention, l’habitabilité des territoires et l’investissement à long terme.",
+        "source": "Le Monde",
+        "pub_date": "16 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/idees/article/2026/08/16/apres-l-etat-providence-construisons-une-societe-de-la-prevoyance-capable-de-prevenir-les-chocs-notamment-le-rechauffement-climatique_6747435_3232.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "在社交网络禁令审查之后",
+        "title": "Après la censure de l’interdiction des réseaux sociaux pour les",
+        "body": "Ce vendredi, le Conseil constitutionnel a censuré l’article 1er de la proposition de loi «visant à protéger les mineurs des risques auxquels les expose l’utilisation des réseaux sociaux». Le texte comprend aussi l’extension de l’interdiction des téléphones portables au lycée.",
+        "source": "Le Figaro",
+        "pub_date": "14 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/apres-la-censure-de-l-interdiction-des-reseaux-sociaux-pour-les-moins-de-15-ans-quel-avenir-pour-la-fin-des-portables-au-lycee-20260814",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "法比安·甘图瓦",
+        "title": "Fabien Gantois, architecte",
+        "body": "Le vice-président du Conseil national de l’ordre des architectes appelle, dans une tribune au « Monde », à ce que l’architecture et le cadre de vie fassent l’objet d’une grande politique nationale.",
+        "source": "Le Monde",
+        "pub_date": "17 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/idees/article/2026/08/17/fabien-gantois-architecte-ce-que-nous-construisons-mal-aujourd-hui-nos-enfants-devront-l-habiter-le-transformer-ou-le-demolir-demain_6747957_3232.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "中国第一艘集装箱船“迪拜塔”号",
+        "title": "Un premier porte-conteneurs chinois, le « Dubai Tower », a pris",
+        "body": "Ce voyage inaugural, qui doit être hebdomadaire, s’inscrit dans le projet chinois de « route de la soie polaire » et permet d’éviter une région Proche-Moyen-Orient de plus en plus instable.",
+        "source": "Le Monde",
+        "pub_date": "16 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/international/article/2026/08/16/un-premier-porte-conteneurs-chinois-le-dubai-tower-a-pris-la-route-de-l-europe-via-l-arctique_6747232_3210.html",
+        "region": "international"
+      }
+    ],
+    "vocab": [],
+    "word_count": 468,
+    "auto": true
+  },
+  {
     "date": "2026-08-16",
     "tags": [
       "Technologie",
