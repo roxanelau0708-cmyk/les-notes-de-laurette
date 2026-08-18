@@ -1,5 +1,134 @@
 [
   {
+    "date": "2026-08-18",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "etats-unis",
+      "europe",
+      "francophonie"
+    ],
+    "summary_cn": "偷税漏税 | 28 岁时，Lena Situ | 趁着炎热的夏季 | “金钱是主要动力” | 如果《复仇者联盟》中不是一个而",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "偷税漏税",
+        "title": "Piratage du fisc",
+        "body": "Alors que les pirates ont annoncé avoir d’ores et déjà vendu les données dérobées de 678 000 usagers ce lundi 17 août, le premier ministre a demandé l’accélération du plan de sécurisation des systèmes d’information de l’État.",
+        "source": "Le Figaro",
+        "pub_date": "17 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/piratage-du-fisc-sebastien-lecornu-demande-un-audit-approfondi-pour-connaitre-l-origine-des-fuites-20260817",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "28 岁时，Lena Situ",
+        "title": "A 28 ans, comment Lena Situations a transformé une idée de lycée",
+        "body": "Première influenceuse française invitée au Met Gala, Léna Situations, 28 ans, a bâti un empire business estimé à plusieurs millions d’euros. Portrait de la serial entrepreneuse la plus influente d’Internet.",
+        "source": "Challenges",
+        "pub_date": "15 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/culture/a-28-ans-comment-lena-situations-a-transforme-une-idee-de-lycee-en-business-xxl_645076",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "趁着炎热的夏季",
+        "title": "La Côte d’Opale fait le plein, profitant de l’été caniculaire",
+        "body": "La fréquentation du littoral du Pas-de-Calais et du Nord, avec ses immenses plages de sable fin et sa température dépassant rarement les 30 °C, est en nette progression par rapport à 2025.",
+        "source": "Le Monde",
+        "pub_date": "17 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/17/la-cote-d-opale-profite-de-la-quete-de-fraicheur-des-touristes-il-y-a-des-sudistes-qui-montent-ici_6748395_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "“金钱是主要动力”",
+        "title": "«L’argent est la principale motivation»",
+        "body": "Apparu publiquement cet été, ce pseudonyme est depuis associé à une série de fuites de données, qui ont touché des entreprises ou encore une fédération sportive. Ce pirate affirme aujourd’hui être derrière celle ayant concerné 678.000 contribuables il y a quelques semaines.",
+        "source": "Le Figaro",
+        "pub_date": "17 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/l-argent-est-la-principale-motivation-que-sait-on-de-zerobytes-le-mysterieux-cybercriminel-qui-revendique-le-piratage-du-fisc-20260817",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "如果《复仇者联盟》中不是一个而",
+        "title": "Et s’il n’y avait pas un mais deux Dr Doom dans Avengers:",
+        "body": "Certains fans du MCU pensent que Marvel est en train de tromper tout le monde avec le retour de Robert Downey Jr. dans Avengers: Doomsday. Selon eux, ils seraient deux à incarner Dr Doom.",
+        "source": "Numerama",
+        "pub_date": "17 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2312677-et-sil-ny-avait-pas-un-mais-deux-dr-doom-dans-avengers-doomsday-la-folle-theorie-de-certains-fans.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "偷税漏税",
+        "title": "Piratage du fisc",
+        "body": "ZeroBytes, les pirates derrière le vol de données de dizaines de milliers de contribuables, assurent que les informations dérobées ont été acquises par «deux personnes» pour une somme se chiffrant en «milliers d’euros».",
+        "source": "Le Figaro",
+        "pub_date": "17 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/piratage-du-fisc-les-cybercriminels-affirment-avoir-vendu-les-donnees-derobees-20260817",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "小罗伯特唐尼透露他更喜欢扮演末",
+        "title": "Robert Downey Jr. révèle qui il préfère jouer entre Dr Doom et",
+        "body": "Interrogé à l'occasion de l'événement D23 de Disney, Robert Downey Jr. a révélé qu'il avait préféré incarner Dr Doom plutôt que Tony Stark/Iron Man. Jouer le méchant sous un masque a ainsi les préférences de l'acteur, plutôt qu'un richissime homme d'affaires, technophile et mégalomane sur les bords.",
+        "source": "Numerama",
+        "pub_date": "17 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2312503-robert-downey-jr-revele-qui-il-prefere-jouer-entre-dr-doom-et-iron-man.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "四个月后，奥利维尔·诺拉创建了",
+        "title": "Olivier Nora crée sa propre maison d’édition, quatre mois après",
+        "body": "La nouvelle entité, Olivier Nora Editions, dans laquelle Editis prend une participation minoritaire, a vocation à publier, dès janvier 2027, entre une trentaine et une cinquantaine de titres par an.",
+        "source": "Le Monde",
+        "pub_date": "17 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/17/quatre-mois-apres-son-eviction-de-la-presidence-de-grasset-olivier-nora-cree-sa-propre-maison-d-edition_6748180_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "偷税漏税",
+        "title": "Piratage du fisc",
+        "body": "«Les usagers concernés seront contactés individuellement à compter de lundi 17 août, avec le détail des données susceptibles d’avoir été exposées et les mesures de vigilance à adopter», indiquent les services du premier ministre.",
+        "source": "Le Figaro",
+        "pub_date": "17 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/piratage-du-fisc-l-administration-doit-commencer-a-contacter-les-victimes-ce-lundi-20260817",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "当尼克劳斯·曼努埃尔·多伊奇",
+        "title": "Quand Niklaus Manuel Deutsch, iconoclaste du XVIᵉ siècle en",
+        "body": "« Autodestructions artistiques » (1/6). Poussé par les débats de son époque autour de la Réforme protestante, l’artiste suisse, qui fut aussi dramaturge, mercenaire, poète, et homme politique, en vient à se retourner contre ses peintures religieuses, vues comme des incitations à l’idolâtrie.",
+        "source": "Le Monde",
+        "pub_date": "17 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/culture/article/2026/08/17/quand-niklaus-manuel-deutsch-iconoclaste-du-xvi-siecle-en-quete-de-verite-divine-finit-par-vouer-ses-propres-uvres-aux-gemonies_6748406_3246.html",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 362,
+    "auto": true
+  },
+  {
     "date": "2026-08-17",
     "tags": [
       "Culture",
