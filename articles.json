@@ -1,5 +1,145 @@
 [
   {
+    "date": "2026-08-19",
+    "tags": [
+      "Culture",
+      "Technologie",
+      "Économie"
+    ],
+    "regions": [
+      "europe",
+      "etats-unis",
+      "francophonie"
+    ],
+    "summary_cn": "[Challenges] A | [Le Figaro] Gar | 法国中小企业正在努力适应气候变 | [Numerama] Le D | 苹果免除其应用程序商店的税",
+    "briefs": [
+      {
+        "tag": "Culture",
+        "title_cn": "[Challenges] A",
+        "title": "A 28 ans, comment Lena Situations a transformé une idée de lycée",
+        "body": "Première influenceuse française invitée au Met Gala, Léna Situations, 28 ans, a bâti un empire business estimé à plusieurs millions d’euros. Portrait de la serial entrepreneuse la plus influente d’Internet.",
+        "source": "Challenges",
+        "pub_date": "15 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/culture/a-28-ans-comment-lena-situations-a-transforme-une-idee-de-lycee-en-business-xxl_645076",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "[Le Figaro] Gar",
+        "title": "Garant à hauteur de 100 milliards pour le méga-data center",
+        "body": "DÉCRYPTAGE - Après avoir financé une bonne partie de ses clients en montant à leur capital, le fabricant de puces américain mobilise désormais des centaines de milliards de capitaux externes sur son nom et se porte garant des investissements réalisés dans le secteur. Une stratégie qui n’est pas sans risques.",
+        "source": "Le Figaro",
+        "pub_date": "18 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/garant-a-hauteur-de-100-milliards-pour-le-mega-data-center-d-openai-comment-nvidia-devient-la-banque-centrale-de-l-ia-mondiale-20260818",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "法国中小企业正在努力适应气候变",
+        "title": "Les PME françaises s’adaptent mal au dérèglement climatique,",
+        "body": "Pour les dirigeants, cette question passe au second plan derrière des sujets comme la hausse des prix de l’énergie ou des matières premières, les difficultés de recrutement ou la cybersécurité.",
+        "source": "Le Monde",
+        "pub_date": "18 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/18/les-pme-francaises-mal-adaptees-au-rechauffement-climatique-qu-elles-ne-considerent-pas-encore-comme-une-priorite-strategique_6749079_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "[Numerama] Le D",
+        "title": "Le Dernier Refuge est le film du moment sur Netflix, mais ne",
+        "body": "Diffusé sur la plateforme depuis le 7 août 2026, le thriller de science-fiction porté par Greta Lee et Wagner Moura s'est immédiatement hissé au sommet des audiences mondiales de Netflix. Et pourtant...",
+        "source": "Numerama",
+        "pub_date": "18 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2313539-le-dernier-refuge-est-le-film-du-moment-sur-netflix-mais-ne-perdez-pas-votre-temps.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "苹果免除其应用程序商店的税",
+        "title": "Apple renonce à une taxe de son magasin d’application pour se",
+        "body": "Sous la pression de Bruxelles, le géant américain revoit ses règles commerciales dans l’Union européenne en supprimant notamment sa redevance très controversée, la Core Technology Fee. Il conserve des commissions pouvant atteindre 26 % sur les achats réalisés via son système de paiement sur l’App Store.",
+        "source": "Le Figaro",
+        "pub_date": "18 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/apple-renonce-a-une-taxe-de-son-magasin-d-application-pour-se-conformer-au-reglement-europeen-20260818",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "[Le Monde] Pira",
+        "title": "Piratage du site des impôts",
+        "body": "David Amiel, ministre de l’action et des comptes publics, a présenté des « excuses » pour le piratage d’ampleur de la Direction générale des finances publiques (DGFiP) qui a abouti au vol des données personnelles de quelque 700 000 particuliers et entreprises.",
+        "source": "Le Monde",
+        "pub_date": "18 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/pixels/live/2026/08/18/en-direct-piratage-du-site-des-impots-le-gouvernement-detaille-les-trois-fuites-de-donnees-qui-concernent-aussi-les-donnees-cadastrales-et-les-successions_6749047_4408996.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "[Numerama] Pour",
+        "title": "Pourquoi Anakin se montre à Ahsoka, mais jamais à Luke et Leia",
+        "body": "Alors que le trailer de la saison 2 d'Ahsoka montre Anakin Skywalker converser librement avec son ex-apprentie, une question agite les fans : pourquoi le spectre du Jedi se manifeste-t-il si facilement auprès d'elle, tout en semblant délaisser Luke et Leia ? Le lore canon de Star Wars apporte pourtant des clés d'explication.",
+        "source": "Numerama",
+        "pub_date": "18 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2313355-pourquoi-anakin-se-montre-a-ahsoka-mais-jamais-a-luke-et-leia-alors-quil-est-leur-pere.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "学生、老师、家长继税务员之后",
+        "title": "Élèves, enseignants, parents... Après le fisc, ZeroBytes",
+        "body": "ZeroBytes, qui se présente comme un duo de cybercriminels français, affirme avoir exfiltré des milliers de fichiers couvrant une période de plus de vingt ans, contenant notamment des informations personnelles sur des mineurs et des personnels de l’Éducation nationale.",
+        "source": "Le Figaro",
+        "pub_date": "18 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/eleves-enseignants-parents-apres-le-fisc-zerobytes-revendique-le-piratage-massif-de-donnees-de-l-education-nationale-20260818",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "传球手 第 4 季",
+        "title": "Reacher Saison 4",
+        "body": "Après deux saisons au succès colossal et un troisième chapitre qui avait divisé les fans, la franchise phare de Prime Video revient avec un quatrième volet disponible depuis le 12 août 2026. Adaptée de Gone Tomorrow (le 13e roman de la saga littéraire de Lee Child), cette nouvelle saison s'impose sans détour comme la meilleure de la série. Un retour aux sources sanglant, nerveux et impeccablement écrit.",
+        "source": "Numerama",
+        "pub_date": "18 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2313409-reacher-saison-4-la-claque-est-absolue-prime-video-vient-denvoyer-sa-meilleure-saison.html",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "偷税漏税",
+        "title": "Piratage du fisc",
+        "body": "Comme prévu, l’administration fiscale a commencé lundi soir à contacter les victimes du vol de données qui a touché ses services il y a quelques semaines. Les personnes concernées sont appelées à la prudence.",
+        "source": "Le Figaro",
+        "pub_date": "18 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/piratage-du-fisc-ce-que-contient-le-courriel-envoye-cette-semaine-aux-milliers-de-victimes-20260818",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "九月，对许多人的预算来说是可怕",
+        "title": "Septembre, un mois redouté pour le budget d’une grande partie",
+        "body": "La période est, pour la majorité des parents, perçue comme propice aux augmentations de dépenses. Pour nombre de ménages, le versement de l’allocation de rentrée scolaire est une aide indispensable.",
+        "source": "Le Monde",
+        "pub_date": "18 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/18/septembre-un-mois-redoute-pour-le-budget-des-familles_6748730_3234.html",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 453,
+    "auto": true
+  },
+  {
     "date": "2026-08-18",
     "tags": [
       "Technologie",
