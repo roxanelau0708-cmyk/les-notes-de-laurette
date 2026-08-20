@@ -1,5 +1,147 @@
 [
   {
+    "date": "2026-08-20",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "francophonie",
+      "europe",
+      "chine",
+      "etats-unis",
+      "international"
+    ],
+    "summary_cn": "功夫、舞蹈和 45 公里/小时 | 顺便问一下，詹姆斯·冈恩的神奇 | 巴黎 Samusocial 的 | 被视为“中国军事公司” | 《泰勒·雷克 3》招募了最佳詹",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "功夫、舞蹈和 45 公里/小时",
+        "title": "Kung-fu, danse et sprint à 45 km/h",
+        "body": "PORTRAIT - Ses robots l’ont propulsé parmi les stars de cette industrie en plein essor. La société, dont l’action s’est envolée de plus de 600 % au premier jour de son introduction en Bourse mercredi, développe l’un des androïdes les plus compétitifs du marché.",
+        "source": "Le Figaro",
+        "pub_date": "19 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/kung-fu-danse-et-sprint-a-45-km-h-qui-est-unitree-l-etoile-montante-chinoise-des-robots-humanoides-20260819",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "顺便问一下，詹姆斯·冈恩的神奇",
+        "title": "Au fait, que devient le reboot de Wonder Woman par James Gunn ?",
+        "body": "Pendant que James Gunn valide des séries annexes sur Jimmy Olsen ou Gorilla Grodd, la plus grande icône de DC reste au placard. Quatorze mois après la dernière annonce, le reboot de Wonder Woman fait du surplace. Enlisée entre déclarations de façade et projets dérivés gelés, l'héroïne est la dernière roue du carrosse d'un studio en pleine crise de priorités.",
+        "source": "Numerama",
+        "pub_date": "19 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2314277-au-fait-que-devient-le-reboot-de-wonder-woman-par-james-gunn.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "巴黎 Samusocial 的",
+        "title": "La grève au Samusocial de Paris a pris fin après",
+        "body": "L’initiative des agents avait été lancée pour améliorer les salaires et les conditions de travail, ainsi que pour alerter sur le manque de moyens alloués à l’hébergement d’urgence. Des familles sans domicile étaient venus occuper le parvis et les bâtiments du siège du Samusocial.",
+        "source": "Le Monde",
+        "pub_date": "20 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/societe/article/2026/08/20/la-greve-au-samusocial-de-paris-a-pris-fin-apres-cinquante-sept-jours-de-mobilisation-et-des-avancees-importantes-selon-la-cgt_6750336_3224.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "被视为“中国军事公司”",
+        "title": "Considéré comme une « compagnie militaire chinoise » aux",
+        "body": "Près de + 500 % à la Bourse de Shanghai. C’est la performance que signe Unitree, géant chinois spécialisé dans la fabrication de robots humanoïdes. Poussée par la stratégie gouvernementale, la société crée en 2016 enregistre une forte croissance.",
+        "source": "Challenges",
+        "pub_date": "19 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/considere-comme-une-compagnie-militaire-chinoise-aux-etats-unis-le-fabricant-de-robots-humanoides-unitree-senvole-en-bourse_645276",
+        "region": "chine"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "《泰勒·雷克 3》招募了最佳詹",
+        "title": "Tyler Rake 3 recrute le meilleur James Bond pour la suite",
+        "body": "En officialisant l'arrivée de Pierce Brosnan au casting de Tyler Rake 3, Netflix s’offre l'ultime icône du film d'espionnage. Face à un Chris Hemsworth toujours aussi brutal, l’ancien agent 007 apporte une caution de classe britannique à une franchise bien décidée à rouler sur la concurrence en 2027.",
+        "source": "Numerama",
+        "pub_date": "19 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2314213-tyler-rake-3-recrute-le-meilleur-james-bond-pour-la-suite.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "关于人工智能泡沫的警报",
+        "title": "Alerte sur la bulle de l’IA",
+        "body": "Dans une note publiée lundi 17 août, des économistes de la BCE soulignent le risque d’une correction des valorisations boursières des géants de l’IA. Un scénario « probable », indépendant de l’existence d’une bulle et qui aurait « de graves conséquences » pour la zone euro.",
+        "source": "Challenges",
+        "pub_date": "19 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/alerte-sur-la-bulle-de-lia-la-bce-redoute-le-krach-dun-secteur-dope-qui-aura-de-graves-consequences-pour-la-zone-euro_645270",
+        "region": "international"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "泰勒·谢里丹取消颇具争议的黄石",
+        "title": "Taylor Sheridan annule un spin-off Yellowstone assez controversé",
+        "body": "Alors que l’empire Yellowstone continue d’inonder les écrans avec ses déclinaisons en série, Taylor Sheridan vient d’asséner une douche froide aux fans. Le showrunner texan a enterré le projet de spin-off centré sur le mythique ranch 6666.",
+        "source": "Numerama",
+        "pub_date": "19 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2314083-taylor-sheridan-annule-un-spin-off-yellowstone-pourtant-tres-attendu.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "“我正在锯我所在的树枝",
+        "title": "« Je suis en train de scier la branche sur laquelle je suis",
+        "body": "Vendeur de vêtements, coiffeur, garagiste… De plus en plus de salariés enregistrent des images qui serviront à entraîner des robots conçus pour automatiser leurs tâches. Ce qui, à terme, peut menacer leur emploi.",
+        "source": "Le Monde",
+        "pub_date": "19 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/pixels/article/2026/08/19/en-inde-le-paradoxe-des-travailleurs-qui-filment-leurs-gestes-du-quotidien-pour-entrainer-les-ia-je-suis-en-train-de-scier-la-branche-sur-laquelle-je-suis-assis_6749933_4408996.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "送货机器人很快就会出现在我们的",
+        "title": "Des robots livreurs bientôt dans nos rues ? Ce premier pas qui",
+        "body": "La France s’est récemment dotée d’un cadre réglementaire permettant l’homologation de robots de livraison autonomes, destinés à effectuer des trajets de courte distance. Cette avancée, qui constitue une première sur le Vieux Continent, doit permettre le déploiement de ces véhicules sur les routes françaises.",
+        "source": "Challenges",
+        "pub_date": "18 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/des-robots-livreurs-bientot-dans-nos-rues-ce-premier-pas-qui-fait-de-la-france-une-pionniere-en-europe_645256",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "沙丘 3：如果你没有看到它",
+        "title": "Dune 3 : voici ce que vous allez rater si vous ne le voyez pas",
+        "body": "Prévu pour conclure la trilogie monumentale de Denis Villeneuve, Dune 3 franchit un palier technique inédit avec l'annonce de 71 minutes d'images au format élargi exclusif en IMAX. Pour les spectateurs qui se contenteront d'une projection standard en multiplexe, la facture visuelle risque d'être d'une violence rare.",
+        "source": "Numerama",
+        "pub_date": "19 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2313827-dune-3-voici-ce-que-vous-allez-rater-si-vous-ne-le-voyez-pas-en-imax.html",
+        "region": "international"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "[Le Monde] « Qu",
+        "title": "« Quand j’ouvre la porte, ma cheffe et deux collègues hurlent de",
+        "body": "« Bon vent ! » (15/18). Un drôle de coup de fil, un journaliste de « Cash Investigation » qui veut l’interroger : le jour de son départ de la structure associative où elle travaille depuis quatre ans, Louise, 32 ans, va vivre des montagnes russes émotionnelles.",
+        "source": "Le Monde",
+        "pub_date": "19 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/19/quand-j-ouvre-la-porte-ma-cheffe-et-deux-collegues-hurlent-de-rire-le-pot-de-depart-canular-de-louise-encadrante-de-benevoles-dans-une-association_6749889_3451060.html",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 489,
+    "auto": true
+  },
+  {
     "date": "2026-08-19",
     "tags": [
       "Culture",
