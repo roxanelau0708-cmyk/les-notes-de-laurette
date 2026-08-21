@@ -1,5 +1,147 @@
 [
   {
+    "date": "2026-08-21",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "francophonie",
+      "europe",
+      "etats-unis",
+      "chine",
+      "international"
+    ],
+    "summary_cn": "Fortnite、紧张的比赛和 | 阿纳金、帕德梅、欧比旺、梅斯海 | 美国财政部长斯科特·贝森特 ( | 被视为“中国军事公司” | 关于电影《百分之十》您需要了解",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "Fortnite、紧张的比赛和",
+        "title": "Fortnite, matchs sous tension et supporters en folie",
+        "body": "REPORTAGE - Entamée début juillet, la troisième édition de l’Esports World Cup, qui se déroule pour la première fois dans la capitale française, s’achèvera ce dimanche, couronnant la meilleure équipe d’esport du monde. Le Figaro a assisté à une journée de compétition.",
+        "source": "Le Figaro",
+        "pub_date": "20 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/fortnite-matchs-sous-tension-et-supporters-en-folie-dans-les-coulisses-de-la-coupe-du-monde-du-jeu-video-a-paris-20260820",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "阿纳金、帕德梅、欧比旺、梅斯海",
+        "title": "Anakin, Padmé, Obi-Wan, Mace… Hayden Christensen veut « reformer",
+        "body": "Au micro du Jonas Podcast, Hayden Christensen a lâché une bombe : il est totalement partant pour un projet The Clone Wars en prises de vues réelles. L'interprète d'Anakin Skywalker est convaincu qu'il est possible de « reformer le groupe » avec Ewan McGregor, Natalie Portman et même Samuel L. Jackson.",
+        "source": "Numerama",
+        "pub_date": "20 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2314625-anakin-padme-obi-wan-mace-hayden-christensen-veut-reformer-le-groupe-pour-une-serie-clone-wars-en-live-action.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "美国财政部长斯科特·贝森特 (",
+        "title": "Scott Bessent, le secrétaire américain au Trésor, se croit",
+        "body": "En annonçant, mercredi 19 août, que le Trésor américain allait doubler ses rachats de dette américaine à long terme, Scott Bessent cherche à faire baisser les taux longs qui financent l’économie des Etats-Unis.",
+        "source": "Le Monde",
+        "pub_date": "21 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/21/scott-bessent-le-secretaire-americain-au-tresor-se-croit-capable-de-defier-la-toute-puissance-des-marches-obligataires_6751496_3234.html",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "被视为“中国军事公司”",
+        "title": "Considéré comme une « compagnie militaire chinoise » aux",
+        "body": "Près de + 500 % à la Bourse de Shanghai. C’est la performance que signe Unitree, géant chinois spécialisé dans la fabrication de robots humanoïdes. Poussée par la stratégie gouvernementale, la société crée en 2016 enregistre une forte croissance.",
+        "source": "Challenges",
+        "pub_date": "19 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/considere-comme-une-compagnie-militaire-chinoise-aux-etats-unis-le-fabricant-de-robots-humanoides-unitree-senvole-en-bourse_645276",
+        "region": "chine"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "关于电影《百分之十》您需要了解",
+        "title": "Tout savoir sur le film Dix pour cent, avec enfin une date de",
+        "body": "Oui, vous avez bien lu : l'agence ASK va ouvrir à nouveau ses portes, le temps d'un long-métrage, cette fois. Casting, histoire, sortie... Voici tout ce que l'on sait déjà sur le film Dix pour Cent.",
+        "source": "Numerama",
+        "pub_date": "20 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2103669-casting-histoire-sortie-tout-savoir-sur-le-film-dix-pour-cent-sur-netflix-avec-george-clooney.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "Moderna 因其承诺的有效",
+        "title": "Moderna saluée par Wall Street pour l’efficacité promise d’un",
+        "body": "La biotech et le laboratoire Merck ont annoncé, mercredi 19 août, avoir obtenu des résultats probants dans la lutte contre le mélanome, lors de la dernière phase d’un essai clinique. En réaction, l’action Moderna a quasi triplé en une séance boursière.",
+        "source": "Le Monde",
+        "pub_date": "20 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/20/moderna-saluee-par-wall-street-pour-l-efficacite-promise-d-un-traitement-utilisant-l-arn-messager-contre-le-cancer-de-la-peau_6751196_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "关于人工智能泡沫的警报",
+        "title": "Alerte sur la bulle de l’IA",
+        "body": "Dans une note publiée lundi 17 août, des économistes de la BCE soulignent le risque d’une correction des valorisations boursières des géants de l’IA. Un scénario « probable », indépendant de l’existence d’une bulle et qui aurait « de graves conséquences » pour la zone euro.",
+        "source": "Challenges",
+        "pub_date": "19 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/alerte-sur-la-bulle-de-lia-la-bce-redoute-le-krach-dun-secteur-dope-qui-aura-de-graves-consequences-pour-la-zone-euro_645270",
+        "region": "international"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "“在军营里，我们不习惯说我们的",
+        "title": "« A la caserne, nous n’avons pas l’habitude de dire nos",
+        "body": "« Bon vent ! » (16/18). Olivier Dibling a raccroché son casque en avril. Pour le dernier jour de sa carrière, l’adjudant-chef de 59 ans a droit à un drôle de bizutage… et à des hommages émus.",
+        "source": "Le Monde",
+        "pub_date": "20 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/20/a-la-caserne-nous-n-avons-pas-l-habitude-de-dire-nos-sentiments-la-c-est-tout-l-inverse-le-pot-de-depart-avec-gyrophares-d-olivier-pompier-professionnel_6751090_3451060.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "送货机器人很快就会出现在我们的",
+        "title": "Des robots livreurs bientôt dans nos rues ? Ce premier pas qui",
+        "body": "La France s’est récemment dotée d’un cadre réglementaire permettant l’homologation de robots de livraison autonomes, destinés à effectuer des trajets de courte distance. Cette avancée, qui constitue une première sur le Vieux Continent, doit permettre le déploiement de ces véhicules sur les routes françaises.",
+        "source": "Challenges",
+        "pub_date": "18 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/des-robots-livreurs-bientot-dans-nos-rues-ce-premier-pas-qui-fait-de-la-france-une-pionniere-en-europe_645256",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "雷迪夫·帕纳约蒂斯·帕斯科特",
+        "title": "REDIFF Panayotis Pascot, comédien",
+        "body": "En juillet et en août, le podcast « Le Goût de M », présenté par Géraldine Sarratia et en accès libre dès le vendredi sur toutes les plateformes, se met à l’heure d’été en rediffusant des épisodes des saisons passées. Cette semaine, Panayotis Pascot.",
+        "source": "Le Monde",
+        "pub_date": "21 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/podcasts/article/2026/08/21/rediff-panayotis-pascot-comedien-j-ai-commence-a-ecrire-mon-spectacle-en-pensant-que-j-etais-heterosexuel-je-suis-vraiment-le-pire-enqueteur-de-tous-les-temps_6751495_5463015.html",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "缺乏预算和扩展的特别法",
+        "title": "Absence de budget et loi spéciale prolongée",
+        "body": "L’inspection générale des finances a publié, jeudi, le rapport que le gouvernement lui avait demandé sur les conséquences d’une application prolongée en 2027 d’une loi de finances spéciale. Un document que l’exécutif devrait largement mobiliser pour tenter de convaincre le Parlement d’adopter un budget.",
+        "source": "Le Monde",
+        "pub_date": "20 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/politique/article/2026/08/20/absence-de-budget-et-loi-speciale-prolongee-l-inspection-generale-des-finances-alerte-sur-des-risques-majeurs_6751089_823448.html",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 457,
+    "auto": true
+  },
+  {
     "date": "2026-08-20",
     "tags": [
       "Technologie",
