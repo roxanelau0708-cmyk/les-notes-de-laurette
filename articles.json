@@ -1,5 +1,136 @@
 [
   {
+    "date": "2026-08-23",
+    "tags": [
+      "Technologie",
+      "Culture",
+      "Économie"
+    ],
+    "regions": [
+      "francophonie",
+      "europe",
+      "etats-unis",
+      "international",
+      "chine"
+    ],
+    "summary_cn": "[Le Figaro] Ver | [Numerama] Cybe | [Le Monde] Prés | [Le Monde] Quan | [Le Monde] « Me",
+    "briefs": [
+      {
+        "tag": "Technologie",
+        "title_cn": "[Le Figaro] Ver",
+        "title": "Vers une valorisation de 2000 milliards de dollars ? L'entrée en",
+        "body": "Le groupe spatial d’Elon Musk détient depuis juin le record de la plus grosse introduction en Bourse de l’histoire, avec 85,7 milliards de dollars levés pour une valorisation de 1770 milliards.",
+        "source": "Le Figaro",
+        "pub_date": "22 August 2026",
+        "auto": true,
+        "link": "https://www.lefigaro.fr/secteur/high-tech/vers-une-valorisation-de-2000-milliards-de-dollars-l-entree-en-bourse-d-anthropic-pourrait-battre-le-record-de-spacex-20260822",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "[Numerama] Cybe",
+        "title": "Cyberpunk Edgerunners 2 sur Netflix",
+        "body": "Netflix, CD Projekt Red et le studio Trigger préparent une nouvelle saison à la série d’animation à succès Edgerunners, issue de l’univers de Cyberpunk 2077. Date de sortie, histoire, équipe créative et bande-annonce : voici les points à retenir sur cette suite très attendue.",
+        "source": "Numerama",
+        "pub_date": "22 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2028387-cyberpunk-edgerunners-2-sur-netflix-sortie-episodes-histoire-tout-savoir-sur-la-suite.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "[Le Monde] Prés",
+        "title": "Présidentielle 2027",
+        "body": "Les Entrepreneurs (ex-CPME) et le Medef appellent à placer l’économie et la création de richesse au cœur du débat présidentiel, sur fond d’inquiétudes concernant la dette et les finances publiques.",
+        "source": "Le Monde",
+        "pub_date": "22 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/22/presidentielle-2027-les-patrons-appellent-a-placer-l-economie-au-c-ur-du-debat_6753645_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "[Le Monde] Quan",
+        "title": "Quand, en 2018, Banksy vend son œuvre à la découpe",
+        "body": "« Autodestructions artistiques » (6/6). A l’occasion d’enchères à Londres, la figure de proue du street art a déchiqueté sa toile à distance, sous les yeux des acheteurs ébahis. Un pied de nez au marché de l’art qui a démultiplié la valeur de l’œuvre.",
+        "source": "Le Monde",
+        "pub_date": "22 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/culture/article/2026/08/22/quand-en-2018-banksy-vend-son-uvre-a-la-decoupe_6753509_3246.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "[Le Monde] « Me",
+        "title": "« Mes collègues ont même fait un discours d’hommage en mon",
+        "body": "« Bon vent ! » (18/18). Catherine Debaussart, 68 ans, a organisé des pots de départ pour les autres toute sa vie. Mais cette ancienne enseignante en collège avait prévenu : elle n’irait pas au sien !",
+        "source": "Le Monde",
+        "pub_date": "22 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/22/mes-collegues-ont-meme-fait-un-discours-d-hommage-en-mon-absence-le-pot-de-depart-fantome-de-catherine-prof-de-lettres_6753472_3451060.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "[Challenges] Re",
+        "title": "Reddit survivra-t-il à l’ère de l’IA ? La plateforme veut faire",
+        "body": "Face à l’essor des chatbots, Reddit cherche à défendre son modèle et à réduire sa dépendance aux géants de la tech. La plateforme de discussion veut plus d’argent pour ses données… et que les gens y consacrent davantage de temps.",
+        "source": "Challenges",
+        "pub_date": "21 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/reddit-survivra-t-il-a-lere-de-lia-la-plateforme-veut-faire-payer-plus-cher-ses-donnees-aux-geants-de-la-tech_645285",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "[Le Monde] « Uk",
+        "title": "« Ukraine, la culture en guerre », sur Public Sénat",
+        "body": "Dès l’invasion russe du 24 février 2022, monuments, musées et biens culturels ont été pris pour cible. Le réalisateur Thomas Raguet est parti à la rencontre de ceux et celles qui se battent pour sauver l’art ukrainien et documenter ces destructions.",
+        "source": "Le Monde",
+        "pub_date": "22 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/culture/article/2026/08/22/ukraine-la-culture-en-guerre-sur-public-senat-comment-l-armee-de-poutine-tente-de-tuer-l-ame-d-une-nation_6753470_3246.html",
+        "region": "international"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "[Challenges] Co",
+        "title": "Considéré comme une « compagnie militaire chinoise » aux",
+        "body": "Près de + 500 % à la Bourse de Shanghai. C’est la performance que signe Unitree, géant chinois spécialisé dans la fabrication de robots humanoïdes. Poussée par la stratégie gouvernementale, la société crée en 2016 enregistre une forte croissance.",
+        "source": "Challenges",
+        "pub_date": "19 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/considere-comme-une-compagnie-militaire-chinoise-aux-etats-unis-le-fabricant-de-robots-humanoides-unitree-senvole-en-bourse_645276",
+        "region": "chine"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "[Le Monde] Cris",
+        "title": "Cristian Mungiu, réalisateur de « Fjord »",
+        "body": "Le cinéaste roumain revient, dans un entretien au « Monde », sur son septième long-métrage, pour lequel il a reçu une deuxième Palme d’or au 79ᵉ Festival de Cannes après « 4 mois, 3 semaines, 2 jours », en 2007.",
+        "source": "Le Monde",
+        "pub_date": "22 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/culture/article/2026/08/22/cristian-mungiu-realisateur-de-fjord-le-plus-important-pour-moi-est-que-le-film-puisse-incarner-le-point-de-vue-des-diverses-parties_6752557_3246.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "[Le Monde] Au P",
+        "title": "Au Panama, de profondes inégalités sociales, héritage de la",
+        "body": "Dominé par son canal, source de toute la prospérité, le pays demeure à deux vitesses, un siècle après le traitement raciste séparant les employés blancs américains « en or », et les noirs ou métis « en argent ».",
+        "source": "Le Monde",
+        "pub_date": "22 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/22/au-panama-de-profondes-inegalites-sociales-heritage-de-la-segregation-raciale_6753298_3234.html",
+        "region": "etats-unis"
+      }
+    ],
+    "vocab": [],
+    "word_count": 385,
+    "auto": true
+  },
+  {
     "date": "2026-08-22",
     "tags": [
       "Culture",
