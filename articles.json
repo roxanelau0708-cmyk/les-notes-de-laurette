@@ -2,131 +2,41 @@
   {
     "date": "2026-08-24",
     "tags": [
-      "Culture",
-      "Économie",
-      "Technologie"
+      "Actualité"
     ],
     "regions": [
-      "chine",
-      "francophonie",
       "europe",
-      "etats-unis"
+      "francophonie"
     ],
-    "summary_cn": "[Challenges] Ce | [Le Monde] Des | [Numerama] De q | [Le Monde] Avec | [Challenges] Re",
+    "summary_cn": "[France Info] Raphaël Glucksmann, Ségolène Royal... Qui sont (à ce stade) les candidats à la primaire socialiste pour la présidentielle 2027 ? | [France Info] Mort de Philippe Bouvard : l'imitateur Laurent Gerra rend hommage à un homme \"passionnant\"",
     "briefs": [
       {
-        "tag": "Culture",
-        "title_cn": "[Challenges] Ce",
-        "title": "Ce « cancre et énorme flemmard » a levé 30 millions d'euros à 26",
-        "body": "Levées de fonds record, direction d'un des clubs d'e-sport le plus populaires de France et une trentaine de sociétés en portefeuille... A 36 ans, Arthur Perticoz a déjà eu plusieurs vies. Portrait.",
-        "source": "Challenges",
-        "pub_date": "23 August 2026",
+        "tag": "Actualité",
+        "title_cn": "[France Info] Raphaël Glucksmann, Ségolène Royal... Qui sont (à ce stade) les candidats à la primaire socialiste pour la présidentielle 2027 ?",
+        "title": "Raphaël Glucksmann, Ségolène Royal... Qui sont (à ce stade) les candidats à la primaire socialiste pour la présidentielle 2027 ?",
+        "body": "Le cofondateur de Place publique a officialisé dimanche sa participation. Il n'est pas le seul sur la ligne de départ, tandis que d'autres, à gauche, ne souhaitent pas prendre part à ce scrutin. Pour sauvegarder cet article, connectez-vous ou créez un compte franceinfo Article rédigé par franceinfo France Télévisions Publié le 24/08/2026 14:09 Temps de lecture : 3min Jérôme Guedj, Ségolène Royal, Raphaël Glucksmann et Philippe Brun sont les quatre candidats déclarés jusqu'à présent pour la primaire organisée par le Parti socialiste. (APOLLONIA HILVERDA / AFP / MAXPPP) C'est désormais officiel. Après un faux suspense maintenu depuis des mois, Raphaël Glucksmann, cofondateur de Place publique, a annoncé dimanche 23 août sa participation à la primaire socialiste pour être candidat à l'élection présidentielle 2027. \"Dans la vie de chacun, il y a un moment (...) où il faut assumer ses convictions. Je suis candidat à l'élection présidentielle, pas pour faire une candidature de témoignage, mais pour la gagner\", a déclaré l'eurodéputé de 46 ans au \"20 Heures\" de TF1. Soutiens, sondages, programme… Sur quoi s'appuie la candidature de Raphaël Glucksmann, qui lance sa campagne pour la présidentielle 2027 ?",
+        "summary_cn": "",
+        "source": "France Info",
+        "pub_date": "24 August 2026",
         "auto": true,
-        "link": "https://www.challenges.fr/entreprise/culture/ce-cancre-et-enorme-flemmard-a-leve-30-millions-deuros-a-26-ans-lincroyable-parcours-darthur-perticoz_645078",
+        "link": "https://www.franceinfo.fr/elections/presidentielle/raphael-glucksmann-segolene-royal-qui-sont-a-ce-stade-les-candidats-a-la-primaire-socialiste-pour-la-presidentielle-2027_8159171.html#xtor=RSS-3-[lestitres]",
+        "region": "europe"
+      },
+      {
+        "tag": "Actualité",
+        "title_cn": "[France Info] Mort de Philippe Bouvard : l'imitateur Laurent Gerra rend hommage à un homme \"passionnant\"",
+        "title": "Mort de Philippe Bouvard : l'imitateur Laurent Gerra rend hommage à un homme \"passionnant\"",
+        "body": "Article rédigé par Lamis Djemil, Fabien Jannic-Cherbonnel France Télévisions Publié le 24/08/2026 12:06 Mis à jour le 24/08/2026 17:18 Laurent Gerra et Philippe Bouvard lors de la présentation des programmes 2009-2010 de RTL (Paris), le 3 septembre 2009. (PIERRE VERDY / AFP) Laurent Gerra a rendu hommage lundi à Philippe Bouvard, se souvenant d'un homme \"brillantissime\", doté d'\"une culture démente\", mais aussi de sa \"bonne humeur\" et de sa \"joie de vivre\". Il était un monument de la radio et de la télévision françaises. Philippe Bouvard est mort lundi 24 août, à 96 ans. Emmanuel Macron a salué, sur X, une \"figure libre\" qui a \"accompagné des générations de Français\". Sur RTL, Laurent Gerra se souvient d'un homme \"brillantissime\", à la \"culture démente\". \"Philippe était passionnant\", confie l'imitateur, qui retient \"son rire sautillant, sa bonne humeur\" et \"sa joie de vivre\". Suivez notre direct. • Un découvreur de talents. Hyperactif, l'animateur avait notamment présenté à la télévision de 1982 à 1987 \"Le Petit théâtre de Bouvard\" sur Antenne 2. Cette émission de sketchs a révélé toute une génération de nouveaux humoristes (Muriel Robin, Pascal Legitimus, Chevallier et Laspalès...). \"Il m'a permis d'être découverte par 12 à 15 millions de personnes sur Antenne 2\", a réagi sur RTL la comédienne Mimie Mathy. • \"Il nous a fait rêver\", réagit Marc-Olivier Fogiel. \"Il a fait partie des gens qui m'ont donné envie de faire ce métier\", a déclaré lundi matin le journaliste sur RTL. \"Il a créé l'impertinence à la radio et à la télévision. (...) Thierry Ardisson, Marc-Olivier Fogiel, moi peut-être, nous sommes les enfants et petits-enfants de Philippe Bouvard\", s'est ému Laurent Ruquier, qui lui a succédé aux commandes des \"Grosses Têtes\" en 2014. • \"Il m'a tout appris\", témoigne Stéphane Bern. \"Il m'a guidé tout au long de ma carrière. C'était un homme bon. Il était moqueur, railleur, mais il avait un cœur énorme\", a également rendu hommage l'animateur sur franceinfo.",
+        "summary_cn": "",
+        "source": "France Info",
+        "pub_date": "24 August 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/economie/medias/direct-mort-de-philippe-bouvard-emmanuel-macron-salue-une-figure-libre-qui-a-accompagne-des-generations-de-francais_8159447.html#xtor=RSS-3-[lestitres]",
         "region": "francophonie"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "[Le Monde] Des",
-        "title": "Des œufs moins nombreux et plus petits",
-        "body": "Les épisodes de fortes chaleurs ont révélé les inégalités d’adaptation des élevages, alors que jusqu’à 2 % du cheptel est mort lors de la seule vague de juin. Au-delà de la surmortalité, la chaleur entraîne aussi une baisse de la ponte et des œufs de plus petit calibre, soit autant de pertes pour les éleveurs.",
-        "source": "Le Monde",
-        "pub_date": "24 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/08/24/des-ufs-moins-nombreux-et-plus-petits-le-double-effet-de-l-ete-caniculaire-sur-les-elevages-de-poules-pondeuses_6754778_3234.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "[Numerama] De q",
-        "title": "De quelles « vies volées » Dr Doom parle-t-il dans la",
-        "body": "Dans la deuxième bande-annonce d'Avengers: Doomsday, le grand méchant Dr Doom évoque des « vies volées ». Elles sont semble-t-il liées à tous les choix ayant permis à des personnages de revenir ou de survivre, alors qu'ils ne sont plus censés exister.",
-        "source": "Numerama",
-        "pub_date": "23 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2314501-de-quelles-vies-volees-dr-doom-parle-t-il-dans-la-bande-annonce-davengers-doomsday.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "[Le Monde] Avec",
-        "title": "Avec Sonia Mabrouk, BFM-TV parie sur une figure des médias",
-        "body": "Partie de CNews et d’Europe 1 au cours de l’hiver, la journaliste sera sur l’antenne cinq soirs par semaine, dans un créneau qui la verra affronter Christine Kelly et Pascal Praud sur CNews, et David Pujadas et Darius Rochebin sur LCI.",
-        "source": "Le Monde",
-        "pub_date": "24 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/08/24/avec-sonia-mabrouk-bfm-tv-parie-sur-une-figure-des-medias-bollore-pour-reconquerir-des-parts-de-marche_6754777_3234.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "[Challenges] Re",
-        "title": "Reddit survivra-t-il à l’ère de l’IA ? La plateforme veut faire",
-        "body": "Face à l’essor des chatbots, Reddit cherche à défendre son modèle et à réduire sa dépendance aux géants de la tech. La plateforme de discussion veut plus d’argent pour ses données… et que les gens y consacrent davantage de temps.",
-        "source": "Challenges",
-        "pub_date": "21 August 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/tech-numerique/reddit-survivra-t-il-a-lere-de-lia-la-plateforme-veut-faire-payer-plus-cher-ses-donnees-aux-geants-de-la-tech_645285",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "[Numerama] On a",
-        "title": "On a classé les films Pirates des Caraïbes, du pire au meilleur",
-        "body": "Cela fait un petit moment que l'on entend parler d'un sixième film Pirates des Caraïbes. Il se murmure même que Johnny Depp pourrait revenir dans son rôle iconique de Jack Sparrow. En attendant des éléments plus concrets, voici un classement des cinq premiers épisodes.",
-        "source": "Numerama",
-        "pub_date": "23 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2314853-on-a-classe-les-films-pirates-des-caraibes-du-pire-au-meilleur.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "[Le Monde] Au C",
-        "title": "Au Canada, le retour du front commun contre Donald Trump",
-        "body": "En réponse à de nouveaux droits de douane américains, après l’échec des discussions commerciales avec les Etats-Unis, Ottawa choisit la riposte. Cette nouvelle escalade ravive l’unité nationale autour de la défense de la souveraineté du pays.",
-        "source": "Le Monde",
-        "pub_date": "24 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/international/article/2026/08/24/au-canada-le-retour-du-front-commun-contre-donald-trump_6754775_3210.html",
-        "region": "etats-unis"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "[Challenges] Co",
-        "title": "Considéré comme une « compagnie militaire chinoise » aux",
-        "body": "Près de + 500 % à la Bourse de Shanghai. C’est la performance que signe Unitree, géant chinois spécialisé dans la fabrication de robots humanoïdes. Poussée par la stratégie gouvernementale, la société crée en 2016 enregistre une forte croissance.",
-        "source": "Challenges",
-        "pub_date": "19 August 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/tech-numerique/considere-comme-une-compagnie-militaire-chinoise-aux-etats-unis-le-fabricant-de-robots-humanoides-unitree-senvole-en-bourse_645276",
-        "region": "chine"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "[Le Monde] Six",
-        "title": "Six œuvres d’art volontairement détruites par leur auteur",
-        "body": "Plusieurs artistes du XVIᵉ au XXᵉ siècle ont choisi d’éliminer leurs créations, animés par des exigences artistiques, de la quête d’une rupture à celle d’une performance insolite, en passant par un pied de nez au marché de l’art. Un geste radical et lourd de sens.",
-        "source": "Le Monde",
-        "pub_date": "24 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/culture/article/2026/08/24/six-uvres-d-art-volontairement-detruites-par-leur-auteur_6754739_3246.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "[Le Monde] Le g",
-        "title": "Le géant de l’ultra-fast-fashion Shein confirme son entrée en",
-        "body": "Fondée en Chine et désormais basée à Singapour, l’entreprise, régulièrement critiquée pour son modèle de production et de consommation, revendique 273 millions de clients dans le monde, dont 23 millions en France.",
-        "source": "Le Monde",
-        "pub_date": "24 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/08/24/le-geant-de-l-ultra-fast-fashion-shein-confirme-son-entree-en-bourse-a-hongkong-en-septembre_6754706_3234.html",
-        "region": "chine"
       }
     ],
     "vocab": [],
-    "word_count": 406,
+    "word_count": 510,
     "auto": true
   },
   {
