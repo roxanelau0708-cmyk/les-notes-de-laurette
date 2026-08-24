@@ -18,33 +18,23 @@ from datetime import datetime, date, timezone
 from html import unescape
 
 # ── 信源配置 ──
-# 全部为法语媒体，按经济/科技/文化三大类分频道订阅，不再抓综合RSS
+# 锁定 5 家指定信源，不再订阅杂源
 SOURCES = [
-    # ── 经济 ──
-    {"url": "https://www.lemonde.fr/economie/rss_full.xml",          "region": "francophonie", "tag": "Économie",     "label": "Le Monde"},
-    {"url": "https://www.lefigaro.fr/rss/figaro_economie.xml",       "region": "francophonie", "tag": "Économie",     "label": "Le Figaro"},
-    {"url": "https://www.challenges.fr/rss.xml",                     "region": "francophonie", "tag": "Économie",     "label": "Challenges"},
-    {"url": "https://www.bfmtv.com/rss/economie/",                  "region": "francophonie", "tag": "Économie",     "label": "BFM Eco"},
-    {"url": "https://www.france24.com/fr/economie/rss",             "region": "international", "tag": "Économie",    "label": "France 24"},
-
-    # ── 科技 ──
-    {"url": "https://www.lemonde.fr/technologies/rss_full.xml",     "region": "francophonie", "tag": "Technologie",  "label": "Le Monde"},
-    {"url": "https://www.lefigaro.fr/rss/figaro_secteur_high-tech.xml", "region": "francophonie", "tag": "Technologie",  "label": "Le Figaro"},
-    {"url": "https://www.numerama.com/feed/",                       "region": "francophonie", "tag": "Technologie",  "label": "Numerama"},
-    {"url": "https://siecledigital.fr/feed/",                       "region": "francophonie", "tag": "Technologie",  "label": "Siècle Digital"},
-    {"url": "https://www.zdnet.fr/rss/",                            "region": "francophonie", "tag": "Technologie",  "label": "ZDNet"},
-
-    # ── 文化 ──
-    {"url": "https://www.lemonde.fr/culture/rss_full.xml",          "region": "francophonie", "tag": "Culture",      "label": "Le Monde"},
-    {"url": "https://www.lefigaro.fr/rss/figaro_culture.xml",       "region": "francophonie", "tag": "Culture",      "label": "Le Figaro"},
-    {"url": "https://www.france24.com/fr/culture/rss",              "region": "international", "tag": "Culture",     "label": "France 24"},
-    {"url": "https://www.rfi.fr/fr/culture/rss",                    "region": "international", "tag": "Culture",     "label": "RFI"},
+    {"url": "https://www.lemonde.fr/rss/une.xml",       "region": "francophonie",  "tag": "Actualité", "label": "Le Monde"},
+    {"url": "https://www.francetvinfo.fr/titres.rss",   "region": "francophonie",  "tag": "Actualité", "label": "France Info"},
+    {"url": "https://www.rfi.fr/fr/rss",                "region": "international", "tag": "Actualité", "label": "RFI"},
+    {"url": "https://www.latribune.fr/feed.xml",        "region": "francophonie",  "tag": "Économie",   "label": "La Tribune"},
+    {"url": "https://www.slate.fr/rss.xml",             "region": "francophonie",  "tag": "Culture",    "label": "Slate.fr"},
 ]
 
 # ── 路径 ──
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 SITE_DIR = os.path.dirname(SCRIPT_DIR)
 ARTICLES_PATH = os.path.join(SITE_DIR, "articles.json")
+
+# ── 正文目标 ──
+TARGET_WORDS = 300      # 每篇正文目标词数
+MIN_BODY_WORDS = 120    # 低于此词数视为缺乏实质内容，剔除
 
 # ── RSS 抓取 ──
 
@@ -180,63 +170,30 @@ def _clean_html(text):
     return re.sub(r"<[^>]+>", "", text).strip()
 
 
-def clean_title_cn(title_cn):
-    """加工中文标题：去掉省略号、句子类标题不超过15字"""
-    if not title_cn:
-        return ""
-    # 去掉所有省略号
-    title_cn = title_cn.replace("…", "").replace("...", "").strip().strip("，。！？、；：")
-    if not title_cn:
-        return ""
-    # 标点靠前（前5字以内）视为格式符号而非句子标记，不截断
-    # 例如 "巴西：..." 中的冒号不应触发截断
-    punct_pos = None
-    for p in "，。！？":
-        idx = title_cn.find(p)
-        if idx != -1:
-            punct_pos = idx
-            break
-    if punct_pos is not None and punct_pos > 5:
-        # 有句子标点且在合理位置，取标点前的内容
-        t = title_cn[:punct_pos].strip()
-        t = t[:15].rstrip("，。！？、；：").strip()
-        return t if t else title_cn[:15]
-    # 无标点或标点靠前的关键词/短语，超过15字才截
-    if len(title_cn) > 15:
-        return title_cn[:15].rstrip("，。！？、；：").strip()
-    return title_cn
+def first_clause_cn(text, max_len=45):
+    """取中文文本第一个分句（句末/逗号前），用于提炼短标题"""
+    text = (text or "").strip()
+    for sep in "。！？；":
+        i = text.find(sep)
+        if i != -1:
+            text = text[:i]
+    if len(text) > max_len:
+        i = text.find("，")
+        if i != -1 and i <= max_len:
+            text = text[:i]
+    return text.strip()[:max_len]
 
 
-def shorten_french_title(title):
-    """缩短法语新闻标题——去掉前缀、取冒号前的主干、超出 65 字截断"""
-    if not title:
-        return title
-    t = title.strip()
-
-    # 去掉常见前缀
-    for p in ["EN DIRECT, ", "EN DIRECT : ", "EN DIRECT — ", "DIRECT, ", "DIRECT : ",
-              "INFO ", "VIDEO - ", "VIDÉO - ", "EXCLUSIF - ", "EXCLUSIF : "]:
-        if t.upper().startswith(p.upper()):
-            t = t[len(p):]
-            break
-
-    # 取冒号或长破折号前的部分（核心主题）
-    for sep in [" : ", " : ", " — ", " — "]:
-        if sep in t:
-            before = t.split(sep, 1)[0]
-            if 8 <= len(before) <= 70:
-                t = before
-                break
-
-    # 65 字截断（不加省略号，主页标题有省略号很难看）
-    if len(t) > 65:
-        truncated = t[:65]
-        last_space = truncated.rfind(" ")
-        if last_space > 30:
-            truncated = truncated[:last_space]
-        t = truncated.strip()
-
-    return t.strip()
+def make_title_cn(fr_title, summary_cn):
+    """中文标题：完整翻译原标题；原标题过长(句子式)则从中文正文首句提炼"""
+    title_cn = translate(fr_title).strip() if fr_title else ""
+    if title_cn and len(title_cn) <= 45:
+        return title_cn
+    if summary_cn:
+        t = first_clause_cn(summary_cn, 45)
+        if 8 <= len(t) <= 45:
+            return t
+    return title_cn[:45] if title_cn else ""
 
 
 GEO_RULES = [
@@ -304,20 +261,59 @@ CULTURAL = [
 ]
 
 # ── 不要的标签 ──
-# Le Figaro 等媒体的细碎分类：宠物、园艺、装修、钟表、促销/广告、语言小测等
 EXCLUDE_TAGS = {
     "Animaux", "Jardin", "Maison", "Horlogerie", "Bons plans",
     "Quiz français", "À l'Affiche !", "Outre-Mer",
     "Connaissances", "Météo",
 }
 
-EXCLUDE_FLUFF_TITLE = [
+# 游戏（用户要求排除）
+EXCLUDE_GAMES = [
+    "jeu vidéo", "jeux vidéo", "jeu video", "jeux video",
+    "gaming", "esport", "e-sport", "esports",
+    "playstation", "xbox", "nintendo", "steam",
+    "console de jeu", "fortnite", "genshin", "minecraft",
+    "jeu de société", "jeux de société",
+]
+
+# 体育（用户要求排除）
+EXCLUDE_SPORTS = [
+    "football", "tennis", "rugby", "basket", "handball",
+    "cyclisme", "tour de france", "ligue 1", "ligue des champions",
+    "championnat", "coupe du monde", "olympique", "olympiques",
+    "match", "tournoi", "formule 1", "f1 ", "mercat", "transfert",
+    "buteur", "entraîneur", "entraineur", "équipe de france",
+    "golf", "natation", "athlétisme", "athletisme",
+    "judo", "karaté", "karate", "escrime", "sport",
+]
+
+# 天气（用户要求排除）
+EXCLUDE_WEATHER = [
+    "météo", "meteo", "prévisions météo", "previsions meteo",
+    "bulletin météo", "bulletin meteo", "vigilance météo",
+]
+
+# 寻物启事 / 二手 / 租房等分类信息
+EXCLUDE_CLASSIFIED = [
+    "petites annonces", "petite annonce",
+    "à vendre", "a vendre", "à louer", "a louer",
+    "objet trouvé", "objets trouvés", "perdu",
+]
+
+# 广告 / 促销
+EXCLUDE_ADS = [
+    "publicité", "publicite", "sponsorisé", "sponsorise",
+    "offre spéciale", "offre speciale", "réduction", "reduction",
+    "livraison gratuite", "partenariat commercial", "black friday",
+    "promo", "code promo", "soldes", "bons plans", "amazon",
+    "jeu concours", "concours", "horoscope", "astrologie",
     "quiz", "testez", "saurez-vous",
-    "bons plans", "promo", "code promo",
-    "soldes", "amazon",
-    "jeu concours", "concours",
-    "horoscope", "astrologie",
-    "meteo", "météo",
+]
+
+# 纯图片/视频类、无实质内容
+EXCLUDE_MEDIA = [
+    "diaporama", "en images", "en photos", "galerie photo",
+    "photos du jour",
 ]
 
 
@@ -344,45 +340,35 @@ def is_french_text(text):
 
 
 def should_exclude(tag, title, desc):
-    """过滤：边角料标签、宠物/装修/促销等软内容、战争细节、纯人物新闻"""
+    """过滤：边角料标签、游戏/体育/天气/寻物/广告、战争细节、纯人物新闻"""
     if tag in EXCLUDE_TAGS:
         return True
     text = (title + " " + (desc or "")).lower()
     if any(kw in text for kw in CULTURAL):
         return False
-    if any(kw in text for kw in EXCLUDE_WAR):
-        return True
-    if any(kw in text for kw in EXCLUDE_PERSON):
-        return True
-    if any(kw in text for kw in EXCLUDE_FLUFF_TITLE):
-        return True
+    for kw in (EXCLUDE_WAR + EXCLUDE_PERSON + EXCLUDE_GAMES + EXCLUDE_SPORTS
+               + EXCLUDE_WEATHER + EXCLUDE_CLASSIFIED + EXCLUDE_ADS + EXCLUDE_MEDIA):
+        if kw in text:
+            return True
     return False
 
 
-def select_diverse(items, total=12):
-    """轮询各 tag 取文章，保证 topic 丰富度，每 tag 最多 4 条"""
+def select_balanced(items, total=6):
+    """按信源均衡选文：每源最多 2 条，轮询凑够 total（5~6 篇）"""
     from collections import defaultdict
-    by_tag = defaultdict(list)
+    by_src = defaultdict(list)
     for item in items:
-        by_tag[item.get("tag", "Autre")].append(item)
+        by_src[item.get("source_label", "Autre")].append(item)
 
-    sorted_tags = sorted(by_tag, key=lambda t: len(by_tag[t]))
-    counts = defaultdict(int)
     selected = []
-
-    while len(selected) < total:
-        picked = False
-        for t in sorted_tags:
+    idx = defaultdict(int)
+    for round_ in range(2):  # 每源最多 2 条
+        for label in by_src:
             if len(selected) >= total:
                 break
-            if counts[t] >= 4 or counts[t] >= len(by_tag[t]):
-                continue
-            selected.append(by_tag[t][counts[t]])
-            counts[t] += 1
-            picked = True
-        if not picked:
-            break  # 没更多可取了
-
+            if idx[label] < len(by_src[label]):
+                selected.append(by_src[label][idx[label]])
+                idx[label] += 1
     return selected[:total]
 
 
@@ -414,6 +400,142 @@ def translate(text, src="fr", dst="zh-CN"):
     except Exception as e:
         print(f"    ⚠ Traduction échouée: {e}")
     return ""
+
+
+def translate_long(text, dst="zh-CN", chunk=750):
+    """分段翻译长文本（300词法文超过单次800字符限制）"""
+    if not text:
+        return ""
+    sents = split_sentences(text)
+    parts, cur = [], ""
+    for s in sents:
+        if cur and len((cur + " " + s).encode("utf-8")) > chunk:
+            parts.append(cur)
+            cur = s
+        else:
+            cur = (cur + " " + s).strip()
+    if cur:
+        parts.append(cur)
+    out = []
+    for p in parts:
+        t = translate(p, "fr", dst)
+        if t:
+            out.append(t)
+    return "".join(out)
+
+
+# ── 正文抓取 & 压缩 ──
+
+def split_sentences(text):
+    """按句界切分法语文本（. ! ? 后接大写/引号/数字）"""
+    if not text:
+        return []
+    parts = re.split(r'(?<=[.!?])\s+(?=[«"\'“”A-Z0-9])', text)
+    out = []
+    for i, p in enumerate(parts):
+        p = p.strip()
+        if not p:
+            continue
+        # 短缩写残片（M. / Mme. / St. 等）并入下一句，避免把名字切断
+        if len(p) <= 4 and p.endswith(".") and i + 1 < len(parts):
+            parts[i + 1] = p + " " + parts[i + 1].strip()
+            continue
+        out.append(p)
+    return out
+
+
+def clean_body_text(text):
+    """清洗抓取的正文：去标签、压缩空白、去常见残留行"""
+    text = unescape(text)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    for junk in ("Publicité", "S'abonner", "Abonnez-vous", "Accéder à la suite",
+                 "Lire plus", "Lire la suite", "Newsletter", "Recevez les alertes"):
+        text = text.replace(junk, "")
+    return text.strip()
+
+
+def _jsonld_article_body(html):
+    """从 JSON-LD 中提取 articleBody（质量最高）"""
+    m = re.search(
+        r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+        html, re.S | re.I)
+    if not m:
+        return ""
+    try:
+        data = json.loads(m.group(1))
+    except Exception:
+        return ""
+    if isinstance(data, list):
+        data = data[0] if data else {}
+    if isinstance(data, dict):
+        ab = data.get("articleBody")
+        if isinstance(ab, str) and len(ab) > 100:
+            return ab
+    return ""
+
+
+def _article_paragraphs(html):
+    """从 <article> 中提取 <p> 段落"""
+    m = re.search(r"<article[^>]*>(.*?)</article>", html, re.S | re.I)
+    scope = m.group(1) if m else html
+    paras = re.findall(r"<p[^>]*>(.*?)</p>", scope, re.S | re.I)
+    out = []
+    for p in paras:
+        t = _clean_html(unescape(p)).strip()
+        t = re.sub(r"\s+", " ", t)
+        if len(t) >= 40:
+            out.append(t)
+    return "\n\n".join(out)
+
+
+def _og_description(html):
+    """回退：og:description 摘要"""
+    m = re.search(
+        r'<meta[^>]*property=["\']og:description["\'][^>]*content=["\'](.*?)["\']',
+        html, re.S | re.I)
+    if not m:
+        return ""
+    return _clean_html(unescape(m.group(1))).strip()
+
+
+def fetch_article_body(url, timeout=15):
+    """抓文章页正文：JSON-LD → <article> → og:description，返回清洗后的正文"""
+    raw = fetch_url(url, timeout=timeout)
+    if not raw:
+        return ""
+    html = raw.decode("utf-8", errors="replace")
+    body = _jsonld_article_body(html)
+    if body:
+        body = clean_body_text(body)
+        if len(body.split()) >= 60:
+            return body
+    body = _article_paragraphs(html)
+    if body:
+        return clean_body_text(body)
+    return clean_body_text(_og_description(html))
+
+
+def condense_fr(text, target=300):
+    """压缩长文到 target 词左右（浮动 ±80）。
+    新闻倒金字塔：保开头要点，超长时按句界截尾。"""
+    if not text:
+        return ""
+    total = len(text.split())
+    if total <= target + 80:
+        return text.strip()
+    sents = split_sentences(text)
+    out, n = [], 0
+    for s in sents:
+        w = len(s.split())
+        if n >= target and n + w > target + 60:
+            break
+        out.append(s)
+        n += w
+    res = " ".join(out)
+    if len(res.split()) > target + 80:
+        res = " ".join(res.split()[:target + 60]).rstrip(".,;:") + "."
+    return res.strip()
 
 
 # ── 主流程 ──
@@ -499,44 +621,61 @@ def main():
     if eng_count:
         print(f"🗑️  {eng_count} articles non-français exclus")
 
-    # 5. 过滤 + 多样性选文
+    # 5. 过滤（游戏/体育/天气/寻物/广告/无实质）
     candidates = [item for item in french_only
                   if not should_exclude(item.get("tag", ""), item["title"], item.get("desc", ""))]
-    selected = select_diverse(candidates, total=12)
-    print(f"📋 {len(selected)} articles retenus ({len(candidates)} candidats après filtrage)")
+    print(f"📋 {len(candidates)} candidats après filtrage")
+    if not candidates:
+        print("ℹ️  Aucun candidat.")
+        return
 
-    # 6. 翻译 & 构建 briefs
+    # 6. 抓取正文 & 压缩（每源最多抓 6 条页面，避免请求过多）
+    from collections import defaultdict
+    per_src = defaultdict(int)
+    ready = []
+    print("\n📄 Récupération des articles complets…")
+    for item in candidates:
+        if per_src[item["source_label"]] >= 6:
+            continue
+        per_src[item["source_label"]] += 1
+        print(f"  → {item['source_label']}: {item['title'][:45]}")
+        body = fetch_article_body(item["link"])
+        if not body:
+            body = item.get("desc", "")  # 回退 RSS 摘要
+        wc = len(body.split())
+        if wc < MIN_BODY_WORDS:
+            print(f"    ⏭️  Corps trop court ({wc} mots)")
+            continue
+        item["body"] = condense_fr(body, target=TARGET_WORDS)
+        item["word_count"] = len(item["body"].split())
+        ready.append(item)
+
+    # 7. 按信源均衡选 5~6 篇
+    selected = select_balanced(ready, total=6)
+    print(f"\n📋 {len(selected)} articles retenus")
+    if not selected:
+        print("ℹ️  Aucun article valable.")
+        return
+
+    # 8. 翻译 & 构建 briefs
     today = date.today()
     today_str = today.isoformat()
 
     briefs = []
     for item in selected:
-        # 缩短标题 + 检测实际地区
-        item["title"] = shorten_french_title(item["title"])
+        # 完整原标题（不截断）+ 检测实际地区
+        item["title"] = re.sub(r"\s+", " ", item["title"]).strip()
         item["region"] = detect_region(
             item["title"], item.get("desc", ""), item.get("region", "francophonie")
         )
 
-        # 中文标题
-        title_cn = translate(item["title"])
+        # 中文正文（分段翻译长文）
+        summary_cn = translate_long(item["body"])
+
+        # 中文标题：完整翻译原标题；原标题过长则从正文提炼
+        title_cn = make_title_cn(item["title"], summary_cn)
         if not title_cn:
             title_cn = f"[{item['source_label']}] {item['title']}"
-
-        # 中文标题（加工处理：去省略号、句子类不超过15字）
-        title_cn = clean_title_cn(title_cn)
-
-        # 跳过正文少于 30 词的短资讯
-        body = item["desc"] or item["title"]
-        if len(body.split()) < 30:
-            print(f"    ⏭️  Corps trop court ({len(body.split())} mots) : {item['title'][:40]}")
-            continue
-
-        # 中文摘要
-        summary_cn = ""
-        if item["desc"]:
-            summary_cn = translate(item["desc"])
-        if not summary_cn:
-            summary_cn = ""
 
         # 解析发布时间
         dt = parse_date_str(item["pub_date"])
@@ -548,7 +687,8 @@ def main():
             "tag": item["tag"],
             "title_cn": title_cn or "",
             "title": item["title"],
-            "body": body,
+            "body": item["body"],
+            "summary_cn": summary_cn,
             "source": item["source_label"],
             "pub_date": pub_date_str,
             "auto": True,
@@ -556,7 +696,7 @@ def main():
             "region": item["region"],
         })
 
-    # 7. 构建当日文章条目
+    # 9. 构建当日文章条目
     tags = list(dict.fromkeys(b["tag"] for b in briefs))  # 有序去重
     regions = list(dict.fromkeys(item["region"] for item in selected))
     summaries_cn = [b["title_cn"] for b in briefs if b["title_cn"]]
@@ -573,7 +713,7 @@ def main():
         "auto": True,
     }
 
-    # 8. 合并到已有列表
+    # 10. 合并到已有列表
     # 移除今天的 auto 旧版本（如果有）
     existing = [
         a for a in existing
@@ -585,7 +725,7 @@ def main():
 
     kept.insert(0, new_article)
 
-    # 9. 写回
+    # 11. 写回
     with open(ARTICLES_PATH, "w", encoding="utf-8") as f:
         json.dump(kept, f, ensure_ascii=False, indent=2)
 

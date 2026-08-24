@@ -750,6 +750,141 @@ body {
   background: #fef2f2;
 }
 
+/* === Notes Summary (只读) === */
+.notes-btn {
+  border: 1px solid #1e3a5f;
+  background: #fff;
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-size: 0.78rem;
+  cursor: pointer;
+  color: #1e3a5f;
+  font-weight: 500;
+  margin-left: 8px;
+  transition: all 0.15s;
+}
+.notes-btn:hover {
+  background: #1e3a5f;
+  color: #fff;
+}
+
+.notes-view {
+  padding-top: 4px;
+}
+
+.notes-date-group {
+  margin-bottom: 20px;
+}
+
+.notes-date-header {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1e3a5f;
+  padding: 8px 0 6px;
+  border-bottom: 1px solid #e4e7ec;
+  margin-bottom: 8px;
+}
+
+.notes-item {
+  border: 1px solid #e4e7ec;
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+.notes-item:hover { border-color: #1e3a5f; }
+
+.notes-title-fr {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  line-height: 1.4;
+}
+
+.notes-title-cn {
+  font-size: 0.82rem;
+  color: #667085;
+  margin-top: 2px;
+}
+
+.notes-source {
+  font-size: 0.72rem;
+  color: #98a2b3;
+  margin-top: 4px;
+}
+
+.notes-text {
+  font-size: 0.9rem;
+  color: #344054;
+  line-height: 1.7;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed #e4e7ec;
+  white-space: pre-wrap;
+}
+
+.notes-standalone {
+  color: #667085;
+  font-size: 0.85rem;
+}
+
+.notes-add {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #fff;
+  border: 1px solid #e4e7ec;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.notes-add-input {
+  width: 100%;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  line-height: 1.6;
+  resize: vertical;
+  outline: none;
+  color: #1a1a2e;
+}
+.notes-add-input:focus {
+  border-color: #1e3a5f;
+  box-shadow: 0 0 0 3px rgba(30, 58, 95, 0.08);
+}
+
+.notes-add-btn {
+  align-self: flex-end;
+  background: #1e3a5f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 16px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+.notes-add-btn:hover { background: #2d5a87; }
+
+.notes-del-btn {
+  background: none;
+  border: none;
+  font-size: 0.75rem;
+  color: #dc2626;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-top: 8px;
+  transition: background 0.15s;
+}
+.notes-del-btn:hover { background: #fef2f2; }
+
 /* Conjugation link */
 .dr-conj-link {
   display: inline-block;

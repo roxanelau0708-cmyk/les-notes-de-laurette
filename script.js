@@ -1,6 +1,7 @@
 const ARTICLES_JSON = 'articles.json';
 let allArticles = [];
 let activeRegion = null;
+let viewMode = 'list'; // 'list' | 'notes'
 
 const REGION_EMOJI = {
   'chine': '🇨🇳', 'etats-unis': '🇺🇸', 'europe': '🇪🇺', 'international': '🌍', 'francophonie': '🇫🇷'
@@ -77,6 +78,7 @@ function showArticleView(article, briefIndex) {
   const brief = article.briefs[briefIndex];
   if (!brief) return;
 
+  window._returnTo = viewMode;
   const container = document.getElementById('article-list');
   const filters = document.querySelector('.filters');
   const count = document.getElementById('article-count');
@@ -120,7 +122,10 @@ function showArticleView(article, briefIndex) {
     </div>
   `;
 
-  document.getElementById('back-to-list').addEventListener('click', showListView);
+  document.getElementById('back-to-list').addEventListener('click', () => {
+    if (window._returnTo === 'notes') showNotesView();
+    else showListView();
+  });
   window.scrollTo(0, 0);
 
   // Mark as read
@@ -146,6 +151,7 @@ function showArticleView(article, briefIndex) {
     clearTimeout(saveTimer);
     saveTimer = setTimeout(() => {
       localStorage.setItem(noteKey, notesInput.value);
+      localStorage.setItem(`note_ts_${link}`, todayStr());
       document.getElementById('notes-status').textContent = '✓ Sauvegardé';
       setTimeout(() => {
         const st = document.getElementById('notes-status');
@@ -154,10 +160,11 @@ function showArticleView(article, briefIndex) {
     }, 500);
   });
 
-  // Delete note
+  // Delete note (只在文章页可删；汇总页只读)
   document.getElementById('notes-del').addEventListener('click', () => {
     if (notesInput.value.trim()) {
       localStorage.removeItem(noteKey);
+      localStorage.removeItem(`note_ts_${link}`);
       notesInput.value = '';
       document.getElementById('notes-status').textContent = '✓ Note supprimée';
     }
@@ -175,8 +182,11 @@ function showArticleView(article, briefIndex) {
 }
 
 function showListView() {
+  viewMode = 'list';
   const filters = document.querySelector('.filters');
   filters.style.display = 'flex';
+  const filterRow = document.querySelector('.filter-row');
+  if (filterRow) filterRow.style.display = 'flex';
   renderList(allArticles);
 
   // Reset dict UI when returning to list
@@ -187,6 +197,151 @@ function showListView() {
   document.getElementById('dict-status').textContent = '';
 
   window._articleView = null;
+}
+
+// ========== NOTES SUMMARY (只读) ==========
+
+function todayStr() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
+function getAllNotes() {
+  const notes = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (!key || !key.startsWith('note_') || key.startsWith('note_ts_')) continue;
+    const text = (localStorage.getItem(key) || '').trim();
+    if (!text) continue;
+    const link = key.slice('note_'.length);
+    notes.push({ link, text, standalone: link.startsWith('standalone_') });
+  }
+  return notes;
+}
+
+function buildLinkInfo() {
+  const map = {};
+  allArticles.forEach(a => {
+    a.briefs.forEach((b, idx) => {
+      const link = b.link || `${a.date}_${idx}`;
+      map[link] = {
+        date: a.date,
+        title_cn: b.title_cn,
+        title: b.title,
+        source: b.source,
+        region: b.region || regionFromTag(b.tag),
+        briefIndex: idx,
+      };
+    });
+  });
+  return map;
+}
+
+// 汇总笔记页：可添加 / 可删除；笔记与文章删除完全解耦
+function showNotesView() {
+  viewMode = 'notes';
+  const filters = document.querySelector('.filters');
+  filters.style.display = 'none';
+  const filterRow = document.querySelector('.filter-row');
+  if (filterRow) filterRow.style.display = 'none';
+
+  const container = document.getElementById('article-list');
+  const notes = getAllNotes();
+  const infoMap = buildLinkInfo();
+  const grouped = {};
+  notes.forEach(n => {
+    const info = n.standalone ? null : infoMap[n.link];
+    const date = localStorage.getItem(`note_ts_${n.link}`) || (info && info.date) || '未分类';
+    if (!grouped[date]) grouped[date] = [];
+    grouped[date].push({ link: n.link, text: n.text, info, standalone: n.standalone });
+  });
+  const dates = Object.keys(grouped).sort().reverse();
+
+  container.innerHTML = `
+    <div class="notes-view">
+      <div class="av-back" id="notes-back">← Retour aux articles</div>
+      <div class="notes-add">
+        <textarea class="notes-add-input" id="notes-add-input" rows="2" placeholder="记一条新笔记…"></textarea>
+        <button class="notes-add-btn" id="notes-add-btn">➕ 添加笔记</button>
+      </div>
+      ${dates.map(d => `
+        <div class="notes-date-group">
+          <div class="notes-date-header">${d.replace(/-/g, '/')}</div>
+          ${grouped[d].map(n => {
+            let head;
+            if (n.info) {
+              head = `
+                <div class="notes-title-fr">${escHtml(n.info.title)}</div>
+                ${n.info.title_cn ? `<div class="notes-title-cn">${escHtml(n.info.title_cn)}</div>` : ''}
+                <div class="notes-source">${escHtml(n.info.source || '')}</div>`;
+            } else if (n.standalone) {
+              head = `<div class="notes-title-fr notes-standalone">✍️ 自由笔记</div>`;
+            } else {
+              head = `<div class="notes-title-fr">（原文已不在列表）</div>`;
+            }
+            return `
+            <div class="notes-item" data-link="${escAttr(n.link)}">
+              ${head}
+              <div class="notes-text">${escHtml(n.text)}</div>
+              <button class="notes-del-btn" data-link="${escAttr(n.link)}">🗑 删除</button>
+            </div>`;
+          }).join('')}
+        </div>`).join('')}
+      ${notes.length === 0 ? '<div class="empty-state">还没有笔记 📝</div>' : ''}
+    </div>`;
+
+  document.getElementById('notes-back').addEventListener('click', showListView);
+
+  // 添加自由笔记（独立于文章）
+  const addInput = document.getElementById('notes-add-input');
+  const doAdd = () => {
+    const text = addInput.value.trim();
+    if (!text) return;
+    const id = 'standalone_' + Date.now();
+    localStorage.setItem(`note_${id}`, text);
+    localStorage.setItem(`note_ts_${id}`, todayStr());
+    showNotesView();
+  };
+  document.getElementById('notes-add-btn').addEventListener('click', doAdd);
+  addInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) doAdd();
+  });
+
+  // 删除笔记（只删笔记本身，与文章无关）
+  container.querySelectorAll('.notes-del-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (confirm('Supprimer cette note ?')) {
+        localStorage.removeItem(`note_${btn.dataset.link}`);
+        localStorage.removeItem(`note_ts_${btn.dataset.link}`);
+        showNotesView();
+      }
+    });
+  });
+
+  // 点击有原文的笔记 → 打开文章；自由笔记不跳转
+  container.querySelectorAll('.notes-item').forEach(el => {
+    el.addEventListener('click', (e) => {
+      if (e.target.closest('.notes-del-btn')) return;
+      const link = el.dataset.link;
+      if (!link.startsWith('standalone_')) openArticleByLink(link);
+    });
+  });
+}
+
+function openArticleByLink(link) {
+  for (const a of allArticles) {
+    for (let idx = 0; idx < a.briefs.length; idx++) {
+      const b = a.briefs[idx];
+      if ((b.link || `${a.date}_${idx}`) === link) {
+        window._returnTo = viewMode;
+        showArticleView(a, idx);
+        return;
+      }
+    }
+  }
+  // 文章已不在列表（笔记保留）→ 留在汇总页
+  showNotesView();
 }
 
 // ========== LIST RENDER ==========
@@ -532,6 +687,11 @@ document.addEventListener('DOMContentLoaded', () => {
         `<div class="empty-state">⚠️ ${err.message}</div>`;
     });
 
+  document.getElementById('notes-btn').addEventListener('click', () => {
+    if (viewMode === 'notes') showListView();
+    else showNotesView();
+  });
+
   initDict();
 });
 
@@ -587,6 +747,8 @@ function initDict() {
     if (window._articleView) {
       // Return to article
       showArticleView(window._articleView.article, window._articleView.briefIndex);
+    } else if (viewMode === 'notes') {
+      showNotesView();
     } else {
       document.querySelector('.filters').style.display = 'flex';
       window.scrollTo(0, 0);
