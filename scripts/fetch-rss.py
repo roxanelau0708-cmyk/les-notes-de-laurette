@@ -10,7 +10,9 @@ import json
 import os
 import re
 import sys
+import time
 import unicodedata
+import urllib.error
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
@@ -19,10 +21,18 @@ from html import unescape
 
 # ── 信源配置 ──
 # 锁定 5 家指定信源，不再订阅杂源
+BROWSER_UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/125.0.0.0 Safari/537.36"
+)
+# RFI 会 403 浏览器 UA（WAF 拦截），需要用简单 UA
+SIMPLE_UA = "Mozilla/5.0 (compatible; RSSBot/1.0)"
+
 SOURCES = [
     {"url": "https://www.lemonde.fr/rss/une.xml",       "region": "francophonie",  "tag": "Actualité", "label": "Le Monde"},
     {"url": "https://www.francetvinfo.fr/titres.rss",   "region": "francophonie",  "tag": "Actualité", "label": "France Info"},
-    {"url": "https://www.rfi.fr/fr/rss",                "region": "international", "tag": "Actualité", "label": "RFI"},
+    {"url": "https://www.rfi.fr/fr/rss",                "region": "international", "tag": "Actualité", "label": "RFI", "ua": SIMPLE_UA},
     {"url": "https://www.latribune.fr/feed.xml",        "region": "francophonie",  "tag": "Économie",   "label": "La Tribune"},
     {"url": "https://www.slate.fr/rss.xml",             "region": "francophonie",  "tag": "Culture",    "label": "Slate.fr"},
 ]
@@ -38,18 +48,14 @@ MIN_BODY_WORDS = 120    # 低于此词数视为缺乏实质内容，剔除
 
 # ── RSS 抓取 ──
 
-def fetch_url(url, timeout=20):
+def fetch_url(url, timeout=20, ua=None):
     """带超时、User-Agent、gzip 和 SSL 降级的 HTTP GET"""
     import ssl
 
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": (
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/125.0.0.0 Safari/537.36"
-            ),
+            "User-Agent": ua or BROWSER_UA,
             "Accept": "application/rss+xml, application/xml, text/xml, */*",
             "Accept-Encoding": "gzip, deflate",
         }
@@ -374,36 +380,67 @@ def select_balanced(items, total=6):
 
 # ── 翻译 ──
 
-def translate(text, src="fr", dst="zh-CN"):
-    """用 Google Translate 免费接口翻译（不需要 API key）"""
-    if not text or len(text) < 2:
-        return ""
-    # 限制长度避免被拒
-    q = text[:800]
+# client=gtx 自 2026-08-23 起被限流(429)，改用 at/dict-chrome-ex
+TRANSLATE_CLIENTS = ["at", "dict-chrome-ex", "gtx"]
+
+
+def _mymemory(text, dst="zh-CN", timeout=12):
+    """Google 免费接口全挂时的兜底：MyMemory 免费 API（带邮箱提升配额）"""
+    langpair = "fr|zh-CN" if dst == "zh-CN" else f"fr|{dst}"
     url = (
-        "https://translate.googleapis.com/translate_a/single"
-        f"?client=gtx&sl={src}&tl={dst}&dt=t&q={urllib.parse.quote(q)}"
-    )
-    req = urllib.request.Request(
-        url,
-        headers={"User-Agent": "Mozilla/5.0"},
+        "https://api.mymemory.translated.net/get"
+        f"?q={urllib.parse.quote(text[:400])}&langpair={langpair}"
+        "&de=lesnotesdelaurette@gmail.com"
     )
     try:
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-            if isinstance(data, list) and len(data) > 0:
-                parts = []
-                for chunk in data[0]:
-                    if isinstance(chunk, list) and len(chunk) > 0 and chunk[0]:
-                        parts.append(chunk[0])
-                return "".join(parts)
+        with urllib.request.urlopen(url, timeout=timeout) as resp:
+            d = json.loads(resp.read().decode("utf-8"))
+            if d.get("responseStatus") != 200:
+                return ""
+            return d.get("responseData", {}).get("translatedText", "") or ""
     except Exception as e:
-        print(f"    ⚠ Traduction échouée: {e}")
-    return ""
+        print(f"    ⚠ MyMemory échoué: {e}")
+        return ""
 
 
-def translate_long(text, dst="zh-CN", chunk=750):
-    """分段翻译长文本（300词法文超过单次800字符限制）"""
+def translate(text, src="fr", dst="zh-CN"):
+    """用 Google Translate 免费接口翻译（client=at，规避 gtx 的 429）"""
+    if not text or len(text) < 2:
+        return ""
+    q = text[:4000]
+    for attempt in range(2):
+        for client in TRANSLATE_CLIENTS:
+            url = (
+                "https://translate.googleapis.com/translate_a/single"
+                f"?client={client}&sl={src}&tl={dst}&dt=t&q={urllib.parse.quote(q)}"
+            )
+            req = urllib.request.Request(
+                url,
+                headers={"User-Agent": "Mozilla/5.0"},
+            )
+            try:
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    data = json.loads(resp.read().decode("utf-8"))
+                    if isinstance(data, list) and len(data) > 0:
+                        parts = []
+                        for chunk in data[0]:
+                            if isinstance(chunk, list) and len(chunk) > 0 and chunk[0]:
+                                parts.append(chunk[0])
+                        if parts:
+                            return "".join(parts)
+            except urllib.error.HTTPError as e:
+                if e.code == 429:
+                    time.sleep(2)  # 限流 → 等 2s 换下一个 client
+                    continue
+                print(f"    ⚠ Traduction HTTP {e.code}")
+            except Exception as e:
+                print(f"    ⚠ Traduction échouée: {e}")
+        time.sleep(1)
+    return _mymemory(q, dst)
+
+
+def translate_long(text, dst="zh-CN", chunk=2500):
+    """分段翻译长文本（单次请求放宽到约2500字节，300词法文通常1次搞定）"""
     if not text:
         return ""
     sents = split_sentences(text)
@@ -449,9 +486,14 @@ def clean_body_text(text):
     text = unescape(text)
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\s+", " ", text)
+    # France Info 正文开头常带 "Article rédigé par … Publié le …" 元数据，去掉
+    text = re.sub(r"Article rédigé par .*?(?=\d{2}/\d{2}/\d{4})", " ", text)
+    text = re.sub(r"Publié le \d{2}/\d{2}/\d{4} \d{2}:\d{2}", " ", text)
+    text = re.sub(r"Mis à jour le \d{2}/\d{2}/\d{4} \d{2}:\d{2}", " ", text)
     for junk in ("Publicité", "S'abonner", "Abonnez-vous", "Accéder à la suite",
                  "Lire plus", "Lire la suite", "Newsletter", "Recevez les alertes"):
         text = text.replace(junk, "")
+    text = re.sub(r"\s+", " ", text)
     return text.strip()
 
 
@@ -475,18 +517,35 @@ def _jsonld_article_body(html):
     return ""
 
 
-def _article_paragraphs(html):
-    """从 <article> 中提取 <p> 段落"""
-    m = re.search(r"<article[^>]*>(.*?)</article>", html, re.S | re.I)
-    scope = m.group(1) if m else html
-    paras = re.findall(r"<p[^>]*>(.*?)</p>", scope, re.S | re.I)
-    out = []
-    for p in paras:
-        t = _clean_html(unescape(p)).strip()
+def extract_readable(html):
+    """段落密度法提取正文：去掉导航/脚本后，取连续 <p> 段落里最长的一块。
+    Le Monde / La Tribune 的正文不在 <article><p> 里，需要这种通用抽取。"""
+    for tag in ("script", "style", "noscript", "nav", "header", "footer",
+                "aside", "iframe", "form", "button", "select"):
+        html = re.sub(rf"<{tag}[^>]*>.*?</{tag}>", " ", html, flags=re.S | re.I)
+    html = re.sub(r"<!--.*?-->", " ", html, flags=re.S)
+    paras = []
+    for m in re.finditer(r"<p[^>]*>(.*?)</p>", html, flags=re.S | re.I):
+        t = _clean_html(unescape(m.group(1)))
         t = re.sub(r"\s+", " ", t)
         if len(t) >= 40:
-            out.append(t)
-    return "\n\n".join(out)
+            paras.append((m.start(), m.end(), t))
+    if not paras:
+        return ""
+    groups, cur = [], [paras[0]]
+    for i in range(1, len(paras)):
+        if paras[i][0] - paras[i - 1][1] > 400:
+            groups.append(cur)
+            cur = []
+        cur.append(paras[i])
+    if cur:
+        groups.append(cur)
+    best = max(groups, key=lambda g: sum(len(t) for _, _, t in g))
+    # 去掉开头导航残留（如 "Retour à la page d'accueil"、"Les lives en cours"）
+    while best and (len(best[0][2]) < 100
+                    or re.match(r"^(retour|accueil|les lives|l'actualité|menu)", best[0][2].lower())):
+        best = best[1:]
+    return " ".join(t for _, _, t in best)
 
 
 def _og_description(html):
@@ -499,9 +558,9 @@ def _og_description(html):
     return _clean_html(unescape(m.group(1))).strip()
 
 
-def fetch_article_body(url, timeout=15):
-    """抓文章页正文：JSON-LD → <article> → og:description，返回清洗后的正文"""
-    raw = fetch_url(url, timeout=timeout)
+def fetch_article_body(url, timeout=15, ua=None):
+    """抓文章页正文：JSON-LD → 段落密度抽取 → og:description，返回清洗后的正文"""
+    raw = fetch_url(url, timeout=timeout, ua=ua)
     if not raw:
         return ""
     html = raw.decode("utf-8", errors="replace")
@@ -510,7 +569,7 @@ def fetch_article_body(url, timeout=15):
         body = clean_body_text(body)
         if len(body.split()) >= 60:
             return body
-    body = _article_paragraphs(html)
+    body = extract_readable(html)
     if body:
         return clean_body_text(body)
     return clean_body_text(_og_description(html))
@@ -564,7 +623,7 @@ def main():
     all_new = []
     for src in SOURCES:
         print(f"\n🌐 {src['label']} — {src['url']}")
-        raw = fetch_url(src["url"])
+        raw = fetch_url(src["url"], ua=src.get("ua"))
         if not raw:
             continue
         items = parse_rss(raw)
@@ -598,6 +657,7 @@ def main():
                         break
             item["tag"] = tag
             item["source_label"] = src["label"]
+            item["source_ua"] = src.get("ua")
         all_new.extend(items)
 
     # 4. 去重
@@ -639,7 +699,7 @@ def main():
             continue
         per_src[item["source_label"]] += 1
         print(f"  → {item['source_label']}: {item['title'][:45]}")
-        body = fetch_article_body(item["link"])
+        body = fetch_article_body(item["link"], ua=item.get("source_ua"))
         if not body:
             body = item.get("desc", "")  # 回退 RSS 摘要
         wc = len(body.split())
