@@ -1,5 +1,135 @@
 [
   {
+    "date": "2026-08-24",
+    "tags": [
+      "Culture",
+      "Économie",
+      "Technologie"
+    ],
+    "regions": [
+      "chine",
+      "francophonie",
+      "europe",
+      "etats-unis"
+    ],
+    "summary_cn": "[Challenges] Ce | [Le Monde] Des | [Numerama] De q | [Le Monde] Avec | [Challenges] Re",
+    "briefs": [
+      {
+        "tag": "Culture",
+        "title_cn": "[Challenges] Ce",
+        "title": "Ce « cancre et énorme flemmard » a levé 30 millions d'euros à 26",
+        "body": "Levées de fonds record, direction d'un des clubs d'e-sport le plus populaires de France et une trentaine de sociétés en portefeuille... A 36 ans, Arthur Perticoz a déjà eu plusieurs vies. Portrait.",
+        "source": "Challenges",
+        "pub_date": "23 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/culture/ce-cancre-et-enorme-flemmard-a-leve-30-millions-deuros-a-26-ans-lincroyable-parcours-darthur-perticoz_645078",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "[Le Monde] Des",
+        "title": "Des œufs moins nombreux et plus petits",
+        "body": "Les épisodes de fortes chaleurs ont révélé les inégalités d’adaptation des élevages, alors que jusqu’à 2 % du cheptel est mort lors de la seule vague de juin. Au-delà de la surmortalité, la chaleur entraîne aussi une baisse de la ponte et des œufs de plus petit calibre, soit autant de pertes pour les éleveurs.",
+        "source": "Le Monde",
+        "pub_date": "24 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/24/des-ufs-moins-nombreux-et-plus-petits-le-double-effet-de-l-ete-caniculaire-sur-les-elevages-de-poules-pondeuses_6754778_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "[Numerama] De q",
+        "title": "De quelles « vies volées » Dr Doom parle-t-il dans la",
+        "body": "Dans la deuxième bande-annonce d'Avengers: Doomsday, le grand méchant Dr Doom évoque des « vies volées ». Elles sont semble-t-il liées à tous les choix ayant permis à des personnages de revenir ou de survivre, alors qu'ils ne sont plus censés exister.",
+        "source": "Numerama",
+        "pub_date": "23 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2314501-de-quelles-vies-volees-dr-doom-parle-t-il-dans-la-bande-annonce-davengers-doomsday.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "[Le Monde] Avec",
+        "title": "Avec Sonia Mabrouk, BFM-TV parie sur une figure des médias",
+        "body": "Partie de CNews et d’Europe 1 au cours de l’hiver, la journaliste sera sur l’antenne cinq soirs par semaine, dans un créneau qui la verra affronter Christine Kelly et Pascal Praud sur CNews, et David Pujadas et Darius Rochebin sur LCI.",
+        "source": "Le Monde",
+        "pub_date": "24 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/24/avec-sonia-mabrouk-bfm-tv-parie-sur-une-figure-des-medias-bollore-pour-reconquerir-des-parts-de-marche_6754777_3234.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "[Challenges] Re",
+        "title": "Reddit survivra-t-il à l’ère de l’IA ? La plateforme veut faire",
+        "body": "Face à l’essor des chatbots, Reddit cherche à défendre son modèle et à réduire sa dépendance aux géants de la tech. La plateforme de discussion veut plus d’argent pour ses données… et que les gens y consacrent davantage de temps.",
+        "source": "Challenges",
+        "pub_date": "21 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/reddit-survivra-t-il-a-lere-de-lia-la-plateforme-veut-faire-payer-plus-cher-ses-donnees-aux-geants-de-la-tech_645285",
+        "region": "europe"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "[Numerama] On a",
+        "title": "On a classé les films Pirates des Caraïbes, du pire au meilleur",
+        "body": "Cela fait un petit moment que l'on entend parler d'un sixième film Pirates des Caraïbes. Il se murmure même que Johnny Depp pourrait revenir dans son rôle iconique de Jack Sparrow. En attendant des éléments plus concrets, voici un classement des cinq premiers épisodes.",
+        "source": "Numerama",
+        "pub_date": "23 August 2026",
+        "auto": true,
+        "link": "https://www.numerama.com/pop-culture/2314853-on-a-classe-les-films-pirates-des-caraibes-du-pire-au-meilleur.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "[Le Monde] Au C",
+        "title": "Au Canada, le retour du front commun contre Donald Trump",
+        "body": "En réponse à de nouveaux droits de douane américains, après l’échec des discussions commerciales avec les Etats-Unis, Ottawa choisit la riposte. Cette nouvelle escalade ravive l’unité nationale autour de la défense de la souveraineté du pays.",
+        "source": "Le Monde",
+        "pub_date": "24 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/international/article/2026/08/24/au-canada-le-retour-du-front-commun-contre-donald-trump_6754775_3210.html",
+        "region": "etats-unis"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "[Challenges] Co",
+        "title": "Considéré comme une « compagnie militaire chinoise » aux",
+        "body": "Près de + 500 % à la Bourse de Shanghai. C’est la performance que signe Unitree, géant chinois spécialisé dans la fabrication de robots humanoïdes. Poussée par la stratégie gouvernementale, la société crée en 2016 enregistre une forte croissance.",
+        "source": "Challenges",
+        "pub_date": "19 August 2026",
+        "auto": true,
+        "link": "https://www.challenges.fr/entreprise/tech-numerique/considere-comme-une-compagnie-militaire-chinoise-aux-etats-unis-le-fabricant-de-robots-humanoides-unitree-senvole-en-bourse_645276",
+        "region": "chine"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "[Le Monde] Six",
+        "title": "Six œuvres d’art volontairement détruites par leur auteur",
+        "body": "Plusieurs artistes du XVIᵉ au XXᵉ siècle ont choisi d’éliminer leurs créations, animés par des exigences artistiques, de la quête d’une rupture à celle d’une performance insolite, en passant par un pied de nez au marché de l’art. Un geste radical et lourd de sens.",
+        "source": "Le Monde",
+        "pub_date": "24 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/culture/article/2026/08/24/six-uvres-d-art-volontairement-detruites-par-leur-auteur_6754739_3246.html",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "[Le Monde] Le g",
+        "title": "Le géant de l’ultra-fast-fashion Shein confirme son entrée en",
+        "body": "Fondée en Chine et désormais basée à Singapour, l’entreprise, régulièrement critiquée pour son modèle de production et de consommation, revendique 273 millions de clients dans le monde, dont 23 millions en France.",
+        "source": "Le Monde",
+        "pub_date": "24 August 2026",
+        "auto": true,
+        "link": "https://www.lemonde.fr/economie/article/2026/08/24/le-geant-de-l-ultra-fast-fashion-shein-confirme-son-entree-en-bourse-a-hongkong-en-septembre_6754706_3234.html",
+        "region": "chine"
+      }
+    ],
+    "vocab": [],
+    "word_count": 406,
+    "auto": true
+  },
+  {
     "date": "2026-08-23",
     "tags": [
       "Technologie",
