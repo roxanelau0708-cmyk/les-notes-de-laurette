@@ -403,13 +403,20 @@ def _mymemory(text, dst="zh-CN", timeout=12):
         return ""
 
 
+def _is_chinese(text):
+    """目标为中文时校验结果确实含汉字，避免偶发返回英文"""
+    return bool(text and re.search(r"[一-鿿]", text))
+
+
 def translate(text, src="fr", dst="zh-CN"):
-    """用 Google Translate 免费接口翻译（client=at，规避 gtx 的 429）"""
+    """用 Google Translate 免费接口翻译（client=at，规避 gtx 的 429）
+    结果必须含汉字才算成功，否则换下一个接口 / 兜底。"""
     if not text or len(text) < 2:
         return ""
     q = text[:4000]
     for attempt in range(2):
         for client in TRANSLATE_CLIENTS:
+            time.sleep(0.8)  # 限速，避免触发 429
             url = (
                 "https://translate.googleapis.com/translate_a/single"
                 f"?client={client}&sl={src}&tl={dst}&dt=t&q={urllib.parse.quote(q)}"
@@ -426,8 +433,10 @@ def translate(text, src="fr", dst="zh-CN"):
                         for chunk in data[0]:
                             if isinstance(chunk, list) and len(chunk) > 0 and chunk[0]:
                                 parts.append(chunk[0])
-                        if parts:
-                            return "".join(parts)
+                        result = "".join(parts)
+                        if _is_chinese(result):
+                            return result
+                        print(f"    ⚠ Traduction sans chinois (client={client})")
             except urllib.error.HTTPError as e:
                 if e.code == 429:
                     time.sleep(2)  # 限流 → 等 2s 换下一个 client
@@ -436,7 +445,8 @@ def translate(text, src="fr", dst="zh-CN"):
             except Exception as e:
                 print(f"    ⚠ Traduction échouée: {e}")
         time.sleep(1)
-    return _mymemory(q, dst)
+    result = _mymemory(q, dst)
+    return result if _is_chinese(result) else ""
 
 
 def translate_long(text, dst="zh-CN", chunk=2500):
@@ -487,9 +497,11 @@ def clean_body_text(text):
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\s+", " ", text)
     # France Info 正文开头常带 "Article rédigé par … Publié le …" 元数据，去掉
-    text = re.sub(r"Article rédigé par .*?(?=\d{2}/\d{2}/\d{4})", " ", text)
-    text = re.sub(r"Publié le \d{2}/\d{2}/\d{4} \d{2}:\d{2}", " ", text)
-    text = re.sub(r"Mis à jour le \d{2}/\d{2}/\d{4} \d{2}:\d{2}", " ", text)
+    text = re.sub(
+        r"Article rédigé par .*?(?:Publié le |Mis à jour le )?\d{1,2}/\d{1,2}/\d{4} \d{2}:\d{2}",
+        " ", text)
+    text = re.sub(r"(?:Publié le |Mis à jour le )\d{1,2}/\d{1,2}/\d{4} \d{2}:\d{2}", " ", text)
+    text = re.sub(r"^\s*\d{1,2}/\d{1,2}/\d{4} \d{2}:\d{2}", " ", text)
     for junk in ("Publicité", "S'abonner", "Abonnez-vous", "Accéder à la suite",
                  "Lire plus", "Lire la suite", "Newsletter", "Recevez les alertes"):
         text = text.replace(junk, "")
