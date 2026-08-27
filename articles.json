@@ -1,5 +1,97 @@
 [
   {
+    "date": "2026-08-27",
+    "tags": [
+      "Actualité",
+      "Économie",
+      "Technologie"
+    ],
+    "regions": [
+      "europe",
+      "chine",
+      "international",
+      "francophonie"
+    ],
+    "summary_cn": "尼泊尔致命洪水：尼泊尔警方最新临时报告称，这场灾难造成至少 359 人死亡 | 尼泊尔和西藏特大洪水：救援队搜寻1300多名失踪人员 | 爱德华·菲利普希望将失业救济期限缩短至 12 个月：这就是法国在欧洲的地位 | “这是竞选活动的开始”：为什么梅德夫与七位总统候选人组织的辩论对每个阵营都具有战略意义 | “只剩下一堆石头”：尼泊尔发生致命洪水后，失踪者亲属陷入痛苦之中",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "尼泊尔致命洪水：尼泊尔警方最新临时报告称，这场灾难造成至少 359 人死亡",
+        "title": "Crues meurtrières au Népal : la catastrophe a fait au moins 359 morts, selon un nouveau bilan provisoire de la police népalaise",
+        "body": "Une vue aérienne montre des maisons recouvertes de boue après les crues soudaines à Trishuli, dans le district de Nuwakot, au Népal, le 27 août 2026. (ARUN SANKAR / AFP) Plus de 1 300 personnes sont portées disparues dans les impressionnantes coulées de boue survenues mercredi à la frontière du Népal et du Tibet. Le bilan humain est lourd. Les coulées de boue dévastatrices survenues mercredi 26 août à la frontière du Népal et du Tibet ont causé la mort d'au moins 359 personnes au Népal, selon un nouveau bilan de la police népalaise, publié jeudi 27 août en début d'après-midi. Les autorités chinoises ont pour leur part fait état de trois morts sur leur territoire du Tibet. Le Bureau népalais du tourisme annonce que 27 touristes étrangers ont été secourus dans le secteur de la localité de Timure et de la rivière Bhotekoshi, dans le district de Rasuwa. Plus de 1 300 personnes sont toujours portées. Suivez notre direct. • Au moins quatre Français parmi les milliers de disparus. Dans un bilan communiqué jeudi, l'Office du tourisme du Népal a recensé 644 personnes portées disparues, dont au moins quatre Français. Le bilan des autorités népalaises n'évoque pas le nombre de touristes chinois portés disparus au Népal. De son côté, Pékin affirme qu'\"environ 100 ressortissants chinois sont portés disparus dans les zones touchées par le désastre côté népalais\". Côté chinois, les médias d'Etat font état de 558 personnes portées disparues, dont 260 étrangers dont les nationalités n'ont pas été précisées. • Des images terrifiantes. Un puissant torrent d'eau, de boue et de débris a dévalé à grande vitesse mercredi matin les deux côtés de la frontière montagneuse du Népal et du Tibet, territoire chinois. Une caméra de surveillance installée côté chinois a filmé une vague de plusieurs mètres submerger et engloutir en quelques secondes un bâtiment d'une demi-douzaine d'étages. • Un effondrement de glacier à l'origine de la crue.",
+        "summary_cn": "2026 年 8 月 27 日，尼泊尔努瓦科特地区 Trishuli 山洪暴发后，鸟瞰房屋被泥土覆盖。（ARUN SANKAR / 法新社）周三，尼泊尔和西藏边境发生令人印象深刻的泥石流，造成 1,300 多人失踪。人员伤亡惨重。据尼泊尔警方8月27日星期四下午发布的最新报告称，8月26日星期三尼泊尔和西藏边境发生的毁灭性泥石流造成尼泊尔至少359人死亡。中国当局则报告了西藏境内三人死亡的情况。尼泊尔旅游局宣布，27名外国游客在拉苏瓦区蒂穆雷地区和博特科希河地区获救。仍有超过1,300人参加。关注我们的直播。 • 数千名失踪者中至少有四名法国人。在周四发布的一份报告中，尼泊尔旅游局确认有 644 人失踪，其中至少有 4 名法国人。尼泊尔当局的调查结果并未提及在尼泊尔失踪的中国游客人数。北京则声称“尼泊尔一侧受灾地区约有100名中国公民失踪”。中国方面，官方媒体报道称有 558 人失踪，其中包括 260 名国籍不明的外国人。 • 可怕的图像。周三早上，一股强大的水流、泥浆和瓦砾洪流从尼泊尔和中国领土西藏的山区边界两侧高速冲下。中方安装的监控摄像头拍到了数米高的海浪在几秒钟内淹没并吞没了一座六层楼的建筑。 • 冰川崩塌导致洪水。",
+        "source": "France Info",
+        "pub_date": "27 August 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/monde/asie/direct-crue-devastatrice-au-nepal-et-au-tibet-au-moins-quatre-francais-parmi-les-personnes-portees-disparues-selon-les-autorites-nepalaises_8164646.html#xtor=RSS-3-[lestitres]",
+        "region": "europe"
+      },
+      {
+        "tag": "Actualité",
+        "title_cn": "尼泊尔和西藏特大洪水：救援队搜寻1300多名失踪人员",
+        "title": "Crue dévastatrice au Népal et au Tibet: les secours à la recherche de plus de 1300 disparus",
+        "body": "Un enfant devant les dégâts provoqués par la crue éclair qui a dévasté le district de Nuwakot au Népal, le 26 août 2026. AP Photo/Niranjan Shrestha - Niranjan Shrestha Par : RFI avec AFP Vingt-quatre heures après son passage, les autorités népalaises sont jeudi matin sans nouvelles de 823 personnes, selon un décompte de l'autorité népalaise chargée des situations d'urgence. Parmi eux figurent 517 ressortissants étrangers. Selon un bilan diffusé par la police ce jeudi, au moins 270 personnes seraient mortes au Népal. De l'autre côté de la frontière, les médias d'État chinois ont rapporté que 558 personnes, dont 260 étrangers, étaient toujours disparues après le passage des « torrents de boue » qui ont enseveli Gyirong Port. À lire aussiNépal: inondations meurtrières dans le nord du pays après une avalanche de glace Dans un premier temps, les médias d'État chinois ont fait état d'un glissement de terrain du côté tibétain de la frontière, près du poste-frontière de Gyirong situé à 1 800 m d'altitude, évoquant trois morts et 265 disparus. Puis le Népal a, à son tour, été touché, la crue balayant la vallée de la rivière Trishuli dans le district de Nuwakot au nord de Katmandou, et celle de la Bhotekoshi à l'est de la capitale. Un grand nombre de personnes disparues sont des touristes étrangers, et le bilan ne cesse de grimper. En Chine, 558 personnes sont portées disparues, dont 260 étrangers. Les autorités népalaises ont affirmé ce jeudi être sans nouvelles de 517 touristes étrangers, selon un nouveau décompte du bureau népalais du tourisme. Parmi ces ressortissants étrangers figurent 178 Indiens, 65 Américains, 53 Ukrainiens, 51 Malaisiens, 33 Britanniques, 25 Canadiens, 15 Australiens et 12 Israéliens, a détaillé le bureau. Quatre Français seraient également portés disparus. Au cœur de l'Himalaya, le Népal est très prisé des randonneurs et alpinistes du monde entier, qui veulent notamment gravir le mont Everest. Dans une vidéo de surveillance vérifiée par l'AFP, un bâtiment imposant de plusieurs étages ainsi que des personnes qui tentent de fuir sont soudainement engloutis par un torrent très puissant.",
+        "summary_cn": "2026 年 8 月 26 日，一名儿童站在尼泊尔努瓦科特地区的山洪暴发造成的损失前。美联社照片/Niranjan Shrestha - Niranjan Shrestha 来源：RFI 与法新社 根据尼泊尔紧急事务当局的统计，洪水过去 24 小时后，尼泊尔当局在周四早上没有收到 823 人的消息。其中外国人517人。据警方本周四发布的报告，尼泊尔至少有270人死亡。边境另一边，中国官方媒体报道称，“泥浆洪流”掩埋吉隆口岸后，仍有 558 人失踪，其中包括 260 名外国人。另请阅读：尼泊尔：冰崩后该国北部发生致命洪水最初，中国官方媒体报道称，位于海拔1,800米的吉隆边境哨所附近的西藏边境一侧发生山体滑坡，造成3人死亡、265人失踪。随后尼泊尔也受到影响，洪水席卷了加德满都以北努瓦科特地区的特里苏利河谷和首都以东的博特科希河谷。大量失踪人员是外国游客，死亡人数还在持续上升。中国目前有558人失踪，其中外国人260人。根据尼泊尔旅游局的最新统计，尼泊尔当局周四表示，他们没有收到 517 名外国游客的消息。该办公室详细介绍说，这些外国人中有 178 名印度人、65 名美国人、53 名乌克兰人、51 名马来西亚人、33 名英国人、25 名加拿大人、15 名澳大利亚人和 12 名以色列人。还有四名法国人失踪。尼泊尔位于喜马拉雅山脉的中心地带，非常受世界各地的徒步旅行者和登山者的欢迎，他们特别想攀登珠穆朗玛峰。在法新社核实的一段监控视频中，一座雄伟的多层建筑和试图逃生的人们突然被一股非常强大的洪流吞没。",
+        "source": "RFI",
+        "pub_date": "27 August 2026",
+        "auto": true,
+        "link": "https://www.rfi.fr/fr/asie-pacifique/20260827-crue-d%C3%A9vastatrice-au-n%C3%A9pal-et-au-tibet-les-secours-%C3%A0-la-recherche-de-plus-d-un-millier-de-disparus",
+        "region": "chine"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "爱德华·菲利普希望将失业救济期限缩短至 12 个月：这就是法国在欧洲的地位",
+        "title": "Édouard Philippe veut baisser à 12 mois la durée d'indemnisation chômage : voici où se situe la France en Europe",
+        "body": "Édouard Philippe dégaine ses propositions avant le premier débat présidentiel devant le Medef ce jeudi 27 août. Dans un entretien à l'AFP, le candidat Horizons a dit souhaiter abaisser à douze mois la durée d'indemnisation du chômage pour les demandeurs d'emploi de moins de 50 ans. « Sur l'assurance chômage, ma direction, c'est de faire comme l'Allemagne. Douze mois d'indemnisation maximum pour les moins de 50 ans », a déclaré l'ancien Premier ministre. Pour rappel, la durée maximale d'indemnisation est actuellement de 18 mois pour les moins de 55 ans, depuis une réforme intervenue en 2023 qui avait déjà réduit de six mois l'ouverture des droits alors possible jusqu'à 24 mois. Cette durée sera portée à 15 mois en cas de rupture conventionnelle à partir du 1er septembre 2026, selon une nouvelle réforme. Selon l'étude Europ'Info, publiée par l'Unédic en septembre 2025, la durée d'indemnisation maximale est de 12 mois en Allemagne et au Luxembourg, 24 mois en Espagne, en Italie et aux Pays-Bas, 18 mois au Portugal et 18,5 mois en Suisse. Dans ces pays, la durée est calculée en fonction de la durée de travail antérieure à la situation de chômage.",
+        "summary_cn": "8 月 27 日星期四，爱德华·菲利普 (Édouard Philippe) 在 Medef 首次总统辩论前提出了自己的提案。地平线候选人在接受法新社采访时表示，他希望将 50 岁以下求职者的失业救济期限缩短至 12 个月。 “在失业保险方面，我的方向是像德国那样。为50岁以下的人提供十二个月的最高补偿，”这位前总理说。需要提醒的是，自 2023 年改革以来，目前 55 岁以下人士的最长赔偿期限为 18 个月，该改革已将当时可能的权利减少了 6 个月至 24 个月。根据一项新的改革，从 2026 年 9 月 1 日起，如果采用常规终止，则该期限将延长至 15 个月。根据 Unédic 于 2025 年 9 月发布的 Europ'Info 研究显示，德国和卢森堡的最长赔偿期限为 12 个月，西班牙、意大利和荷兰为 24 个月，葡萄牙为 18 个月，瑞士为 18.5 个月。在这些国家，持续时间是根据失业之前的工作持续时间计算的。",
+        "source": "La Tribune",
+        "pub_date": "27 August 2026",
+        "auto": true,
+        "link": "https://www.latribune.fr/article/economie/121442225247414/edouard-philippe-veut-baisser-a-12-mois-la-duree-dindemnisation-chomage-voici-ou-se-situe-la-france-en-europe",
+        "region": "international"
+      },
+      {
+        "tag": "Actualité",
+        "title_cn": "“这是竞选活动的开始”：为什么梅德夫与七位总统候选人组织的辩论对每个阵营都具有战略意义",
+        "title": "\"C'est le lancement de la campagne\" : pourquoi le débat organisé par le Medef avec sept candidats à la présidentielle s'annonce stratégique pour chaque camp",
+        "body": "Temps de lecture : 6min Les sept principaux candidats déclarés à la présidentielle débattront, le 27 août 2026, lors de l'université d'été du Medef, à Paris. (APOLLONIA HILVERDA / MAXPP / AFP / FRANCEINFO) Les balles risquent de fuser sur le court Philippe-Chatrier. Le célèbre central de Roland-Garros s'apprête à accueillir, jeudi 27 août, à partir de 16h45, non pas des champions de tennis, mais les sept principaux candidats déclarés à l'élection présidentielle. Gabriel Attal (Renaissance), Raphaël Glucksmann (Place publique), Jean-Luc Mélenchon (LFI), Edouard Philippe (Horizons), Bruno Retailleau (LR) Marine Tondelier (Les Ecologistes) et Marine Le Pen (RN) doivent participer à un débat sur les sujets économiques, organisé par le Mouvement des entreprises de France (Medef) à l'occasion de son université d'été. \"L'idée de cette plénière de clôture est de confronter les candidats aux attentes concrètes des chefs d'entreprise\", fait savoir l'entourage de Patrick Martin, le président de l'organisation patronale. \"L'idée\" de cette rencontre, en revanche, n'est pas \"qu'ils se tapent dessus\", assure le patronat. Durant près de deux heures, les prétendants à la succession d'Emmanuel Macron devront notamment réagir aux résultats de la consultation de plus de 66 000 chefs d'entreprise sur leurs espoirs pour le prochain quinquennat. Pour cela, ils seront interrogés par cinq dirigeants d'entreprise, parmi lesquels Eric Malenfer, qui sera en charge des questions sur la dette et le déficit. Le président de Gexpertise attend que les candidats \"répondent factuellement, de manière chiffrée et temporisée, à nos questions\". Mais, ajoute-t-il aussitôt, \"il paraît que les promesses n'engagent que ceux qui les croient\". Presque fataliste, il embraye : \"Le timing ne permet pas de traiter les sujets dans le fond, c'est donc plus un exercice médiatique que de fond.\" Les équipes des candidats savent que ce débat, diffusé en direct sur LCI, sera particulièrement scruté : c'est la première fois que les principaux prétendants à la fonction suprême ont l'occasion de débattre de façon aussi précoce dans une campagne présidentielle. \"C'est le lancement de la campagne. Ils vont être tous ensemble interrogés sur des sujets importants\", lance l'entourage de Bruno Retailleau.",
+        "summary_cn": "阅读时间：6分钟 宣布参加总统选举的七位主要候选人将于2026年8月27日在巴黎梅德夫暑期学校期间进行辩论。 （APOLLONIA HILVERDA / MAXPP / 法新社 / FRANCEINFO） Philippe-Chatrier 球场上的球有飞扬的危险。著名的法国网球公开赛中心正准备迎接8月27日星期四下午4点45分，迎接的不是网球冠军，而是宣布参加总统选举的七位主要候选人。 Gabriel Attal（文艺复兴）、Raphaël Glucksmann（公共广场）、Jean-Luc Mélenchon（LFI）、Edouard Philippe（Horizo​​ns）、Bruno Retailleau（LR）、Marine Tondelier（生态学家）和 Marine Le Pen（RN）必须参加由法国公司运动（Medef）在暑期大学期间组织的经济主题辩论。雇主组织主席帕特里克·马丁的随行人员表示：“这次闭幕全体会议的目的是让候选人面对商界领袖的具体期望。”另一方面，雇主们向我们保证，这次会议的“想法”并不是“他们互相攻击”。在近两个小时的时间里，埃马纽埃尔·马克龙(Emmanuel Macron)继任者的竞争者将不得不对66,000多名商界领袖就下一个五年任期的希望进行的磋商结果做出反应。为此，他们将接受五位商界领袖的质询，其中包括埃里克·马伦弗（Eric Malenfer），他将负责债务和赤字问题。 Gexpertise 总裁希望候选人“以量化和及时的方式如实回答我们的问题”。但是，他立即补充道，“看来承诺只会约束那些相信它们的人。”他几乎是宿命地开始说道：“时机不允许我们深入讨论这些主题，因此这更像是一种媒体活动，而不是实质性活动。”候选人团队知道，这场在 LCI 上现场直播的辩论将受到特别关注：这是最高职位的主要竞争者第一次有机会在总统竞选中如此早地进行辩论。 “这是该活动的启动仪式。他们将一起接受有关重要话题的质询，”布鲁诺·雷特尔洛 (Bruno Retailleau) 的随从说道。",
+        "source": "France Info",
+        "pub_date": "27 August 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/elections/presidentielle/c-est-le-lancement-de-la-campagne-pourquoi-le-debat-organise-par-le-medef-avec-sept-candidats-a-la-presidentielle-s-annonce-strategique-pour-chaque-camp_8162018.html#xtor=RSS-3-[lestitres]",
+        "region": "europe"
+      },
+      {
+        "tag": "Actualité",
+        "title_cn": "“只剩下一堆石头”：尼泊尔发生致命洪水后，失踪者亲属陷入痛苦之中",
+        "title": "«Il ne reste plus qu’un tas de pierres»: après la crue meurtrière au Népal, les proches de disparus dans l'angoisse",
+        "body": "Écouter - 01:10 Des secouristes utilisent un engin de terrassement pour mettre en sécurité une victime d'une crue soudaine le long de la rivière Trishuli, mercredi 26 août 2026, dans le district de Nuwakot, au Népal. AP Photo/Niranjan Shrestha - Niranjan Shrestha Par : RFI Sunil Tamang n'a pas décollé les yeux de son téléphone depuis deux jours. Engourdi par la fatigue et la tristesse, le doctorant népalais guette depuis la Nouvelle-Zélande le moindre signe de vie numérique de ses amis. Ceux avec qui il a grandi, dans le village de Syafru Besi. « Sur Facebook, tout ce que je vois, c'est qu'ils se sont connectés il y a des heures, s’inquiète Sunil Tamang. On est sans nouvelles de nombreux proches, dont mon oncle. On pense qu'ils ne sont plus parmi nous. » Le village de Syafru Besi est niché dans une vallée étroite, sur les rives de la rivière Bhote Koshi : une centaine de familles y habitaient. « Ce n'est plus une localité. Il ne reste plus qu'un tas de pierres, c'est horrible, déplore le doctorant. À mesure que j'en apprends plus, je me rends compte qu'il y a bien plus de morts que de survivants. » Les crues sont fréquentes dans sa région natale. Déjà en 2015, un village plus au nord avait été rasé. Mais selon lui, leur fréquence et intensité augmentent : « Les glissements de terrain se sont multipliés. On n'a pas un suivi suffisant, uniquement des systèmes d'alerte. Les gens de la montagne savent qu'il y a des risques de crues, mais personne ne s'attendait à une avalanche équivalente à un immeuble de 20 étages. » Un véhicule est visible au lendemain d'une crue soudaine à Devighat, dans le district de Nuwakot, au Népal. Jeudi 27 août 2026. AP Photo/Niranjan Shrestha - Niranjan Shrestha La crue a causé au moins 359 morts côté népalais, selon les autorités, qui restent sans nouvelle de plus de 800 autres, dont des habitants de cette zone rurale, mais aussi de nombreux touristes étrangers venus randonner sur les pentes de l'Himalaya.",
+        "summary_cn": "听 - 01:10 2026 年 8 月 26 日星期三，尼泊尔努瓦科特区，救援人员使用推土机将山洪暴发的受害者转移到 Trishuli 河沿岸的安全地带。美联社照片/Niranjan Shrestha - Niranjan Shrestha 作者：RFI Sunil Tamang 已经两天没有把目光从手机上移开。这位尼泊尔博士生因疲劳和悲伤而麻木，他从新西兰观察朋友们的数字生活迹象。那些和他一起长大的人，在 Syafru Besi 村。 “在 Facebook 上，我只看到他们几个小时前就联系过，”苏尼尔·塔曼 (Sunil Tamang) 担心道。我们的许多亲戚都没有消息，包括我叔叔。我们认为他们不再和我们在一起了。 » Syafru Besi 村坐落在 Bhote Koshi 河畔的一个狭窄山谷中：大约有一百户家庭居住在那里。 “它不再是一个地方了。剩下的只是一堆石头，太可怕了，”这位博士生感叹道。随着我了解得越来越多，我意识到死亡人数远远多于幸存者。» 他的家乡经常发生洪水。早在 2015 年，更北边的一个村庄就被夷为平地。但据他说，洪水的频率和强度正在增加：“山体滑坡有所增加。”我们没有足够的监控，只有警告系统。山区人民知道有洪水的危险，但没有人想到一场相当于20层楼的雪崩。 » 尼泊尔努瓦科特区德维加特山洪暴发后，可以看到一辆汽车。 2026 年 8 月 27 日，星期四。美联社照片/Niranjan Shrestha - Niranjan Shrestha 据当局称，洪水在尼泊尔一侧造成至少 359 人死亡，目前尚无 800 多人的消息，其中包括该农村地区的居民，还有许多来喜马拉雅山山坡徒步旅行的外国游客。",
+        "source": "RFI",
+        "pub_date": "27 August 2026",
+        "auto": true,
+        "link": "https://www.rfi.fr/fr/asie-pacifique/20260827-il-ne-reste-plus-qu-un-tas-de-pierres-apr%C3%A8s-la-crue-meurtri%C3%A8re-au-n%C3%A9pal-les-proches-de-disparus-dans-l-angoisse",
+        "region": "chine"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "为什么 Nvidia 提供 Hugging Face，它是 AI 生态系统中的重要一环",
+        "title": "Pourquoi Nvidia s’offre Hugging Face, place incontournable de l’écosystème IA",
+        "body": "La somme déboursée par Nvidia est effectivement colossale, d’autant qu’Hugging Face ne générerait « que » 150 millions de dollars en revenu récurrent annuel. Mais la start-up new-yorkaise co-fondée il y a dix ans par trois Français et récemment médiatisée suite à une cyberattaque, est un point de passage quasi incontournable pour l’industrie de l'IA. Les développeurs viennent y déposer, tester et télécharger des modèles libres d’accès. Pour Nvidia, devenir propriétaire d’Hugging Face assoit sa position de défenseur de l’open source. Récemment, l’entreprise de San José a annoncé doubler ses investissements pour améliorer son propre modèle libre d’accès Nemotron 4, et ainsi être capable de rivaliser avec les IA chinoises comme Qwen, Z.AI et Moonshot, de plus en plus utilisées par les développeurs et les entreprises.",
+        "summary_cn": "Nvidia 支付的金额确实是巨大的，特别是考虑到 Hugging Face 每年“只能”产生 1.5 亿美元的经常性收入。但这家纽约初创公司十年前由三名法国人共同创立，最近因网络攻击而曝光，它几乎是人工智能行业的一个重要交叉点。开发人员前来提交、测试和下载可免费访问的模型。对于 Nvidia 来说，成为 Hugging Face 的所有者确立了其开源捍卫者的地位。最近，这家圣何塞公司宣布加倍投资，以改进自己的开放访问模型 Nemotron 4，从而能够与越来越多的开发商和公司使用的 Qwen、Z.AI 和 Moonshot 等中国人工智能竞争。",
+        "source": "La Tribune",
+        "pub_date": "27 August 2026",
+        "auto": true,
+        "link": "https://www.latribune.fr/article/tech/intelligence-artificielle/15118453363328/pourquoi-nvidia-s-offre-hugging-face-place-incontournable-de-l-ecosysteme-ia",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 1668,
+    "auto": true
+  },
+  {
     "date": "2026-08-26",
     "tags": [
       "Actualité",
