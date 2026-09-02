@@ -723,7 +723,7 @@ def main():
         ready.append(item)
 
     # 7. 按信源均衡选 5~6 篇
-    selected = select_balanced(ready, total=6)
+    selected = select_balanced(ready, total=3)
     print(f"\n📋 {len(selected)} articles retenus")
     if not selected:
         print("ℹ️  Aucun article valable.")
