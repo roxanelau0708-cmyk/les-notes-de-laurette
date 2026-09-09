@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-09-09",
+    "tags": [
+      "Actualité",
+      "Économie"
+    ],
+    "regions": [
+      "international",
+      "europe"
+    ],
+    "summary_cn": "法国燃油价格持续上涨并创下新高 | 巴黎举办太空峰会以加强欧洲在该领域的作用 | 面对“电气化热潮”，耐克森首席执行官夸口道：“耐克森正在努力提高产能”",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "法国燃油价格持续上涨并创下新高",
+        "title": "Les prix du carburant continuent de grimper et atteignent de nouveaux records en France",
+        "body": "Le prix du gazole s'établit mercredi à 2,29 euros le litre en moyenne, contre 2,27 euros samedi dernier. Cette moyenne correspond aux prix à la pompe du gazole communiqués ces dernières 24h par 4 451 stations-service à l'État sur environ 9 800 stations en France. L'essence SP95-E10 affiche ce mercredi un prix moyen de 2,12 euros le litre, contre 2,10 euros samedi. Cette moyenne correspond aux prix à la pompe du SP95-E10 communiqués ces dernières 24h par 3 603 stations-service à l'État sur environ 9 800 stations en France. Enfin, l'essence SP98 atteint 2,21 euros le litre en moyenne ce mercredi, contre 2,19 euros samedi. Cette moyenne correspond aux prix à la pompe du SP98 communiqués ces dernières 24h par 246 stations-service à l'État sur environ 9 800 stations en France. Les prix de l'essence et du gazole ont subi une forte hausse depuis le début de la guerre au Moyen-Orient et le blocage du détroit d'Ormuz. Ces carburants étaient autour de 1,72 euro le litre, le 27 février dernier, la veille des premières frappes israélo-américaines en Iran.",
+        "summary_cn": "周三柴油平均价格为每升 2.29 欧元，而上周六为每升 2.27 欧元。该平均值相当于法国约 9,800 个加油站中的 4,451 个加油站在过去 24 小时内向国家通报的柴油泵价格。本周三 SP95-E10 汽油平均价格为每升 2.12 欧元，而周六为每升 2.10 欧元。该平均值相当于法国约 9,800 个加油站中的 3,603 个加油站在过去 24 小时内向国家通报的 SP95-E10 加油价格。最后，本周三 SP98 汽油平均价格达到每升 2.21 欧元，而周六为每升 2.19 欧元。该平均值相当于法国约 9,800 个加油站中的 246 个加油站在过去 24 小时内向国家通报的 SP98 泵价格。自中东战争爆发和霍尔木兹海峡封锁以来，汽油和柴油价格大幅上涨。 2 月 27 日，也就是以美首次袭击伊朗的前一天，这些燃料的价格约为每升 1.72 欧元。",
+        "source": "France Info",
+        "pub_date": "9 September 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/economie/automobile/essence/les-prix-du-carburant-continuent-de-grimper-et-atteignent-de-nouveaux-records-en-france_8184158.html#xtor=RSS-3-[lestitres]",
+        "region": "international"
+      },
+      {
+        "tag": "Actualité",
+        "title_cn": "巴黎举办太空峰会以加强欧洲在该领域的作用",
+        "title": "Paris accueille un sommet sur l'espace pour renforcer le rôle de l'Europe dans le domaine",
+        "body": "Le Grand Palais accueille un sommet de l'espace les 9 et 10 septembre (Image d'illustration). © Igor Gauquelin / RFI Par : RFI La gouvernance internationale du secteur est un enjeu majeur du secteur. L'industrie du spatial en pleine transformation avec la montée en puissance d'acteurs privés, et de velléités de grandes puissances. Paris souhaite conforter les enceintes onusiennes pour favoriser le dialogue. Un dialogue que souhaite provoquer Emmanuel Macron au Grand Palais, via des invitations tous azimuts. 2 000 participants sont espérés, venus de plus de cent pays. Les enjeux industriels, scientifiques et de défense seront parcourus au travers de tables rondes. Au-delà de ce programme, il s'agit pour le président français de pousser une ambition et une industrie européennes. Ceci en s'appuyant sur le budget de l'Agence spatiale européenne, qui dispose de 22 milliards d'euros sur trois ans. Dans les cartons, il y a les lanceurs Ariane 6, le système de navigation Galileo, Copernicus pour l'observation de la Terre. Surtout, un projet de constellation de satellites européen Iris² pour concurrencer les offres chinoises et américaines. Les ambitions françaises se heurtent aux principes de réalité. Ce sommet, qui se voulait franco-allemand, se déroulera sans le chancelier allemand, Friedrich Merz, trop pris par sa politique intérieure. C'est pourtant en Allemagne que, pour la première fois en Europe, une entreprise privée a réussi la mise en orbite d'un satellite. Une autre ombre au tableau est l'absence annoncée des géants américains SpaceX et Blue Origin. « Des annonces avec des entreprises américaines vont être faites pendant le sommet », veut rassurer une source à l'Élysée. À noter néanmoins, des délégations chinoises et indiennes sont attendues. Le continent africain sera également représenté : les présidents rwandais, djiboutien et congolais sont également annoncés. À écouter aussiQuels sont les enjeux militaires du Sommet international sur l’espace à Paris? Les constellations de satellites sont devenues indispensables aux opérations militaires. Multiplication des capteurs, essor du combat collaboratif et robotisation du champ de bataille... Pour garantir les flux de communication de ce triptyque, le combat passe désormais nécessairement par l'espace.",
+        "summary_cn": "大皇宫将于 9 月 9 日至 10 日举办太空峰会（插图）。 © Igor Gauquelin / RFI 作者：RFI 该行业的国际治理是该行业的一个主要问题。随着私营企业的崛起和大国的野心，航天业正在经历快速转型。巴黎希望加强联合国论坛以促进对话。埃马纽埃尔·马克龙希望通过全面邀请在大皇宫引发一场对话。预计将有来自一百多个国家的 2,000 名参与者。工业、科学和国防问题将通过圆桌会议讨论。除了这个计划之外，对于法国总统来说，这还在于推动欧洲的雄心和工业。这是基于欧洲航天局的预算，该局三年预算为 220 亿欧元。盒子里有阿丽亚娜6号发射器、伽利略导航系统、哥白尼地球观测系统。最重要的是，欧洲 Iris² 卫星星座项目将与中国和美国的产品竞争。法国的野心与现实原则发生冲突。这次峰会原定是法德峰会，但德国总理弗里德里希·梅尔茨(Friedrich Merz)将缺席，因为他忙于国内政治。然而，在德国，一家私营公司在欧洲首次成功将卫星送入轨道。另一个缺点是美国巨头 SpaceX 和 Blue Origin 宣布缺席。 “峰会期间将与美国公司一起发布公告”，他想向爱丽舍宫的一位消息人士保证。但请注意，预计将有中国和印度代表团出席。非洲大陆也将派代表出席：卢旺达、吉布提和刚果总统也将出席。另请听：巴黎国际太空峰会的军事问题是什么？卫星星座对于军事行动至关重要。传感器的增多、协同作战的兴起和战场的机器人化……为了保证这三部曲的通信流畅，战斗现在必然涉及到空间。",
+        "source": "RFI",
+        "pub_date": "9 September 2026",
+        "auto": true,
+        "link": "https://www.rfi.fr/fr/france/20260909-paris-accueille-un-sommet-sur-l-espace-pour-renforcer-le-r%C3%B4le-de-l-europe-dans-le-domaine",
+        "region": "europe"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "面对“电气化热潮”，耐克森首席执行官夸口道：“耐克森正在努力提高产能”",
+        "title": "«Nexans se bat pour augmenter ses capacités de production», vante son CEO, face au «boom de l’électrification»",
+        "body": "« Nexans est prêt », promet son nouveau directeur général, Julien Hueber. Prêt à faire face au « boom de l'électrification », comme le qualifie lui-même le dirigeant. Il a constaté une croissance de +4,5 % de ses activités au premier semestre 2026, soit au-dessus des engagements pris auprès des marchés financiers. Celui qui se présente comme l'unique pure-player du marché de l'électrification se dit même confronté à un problème de riche. « Nous tirons sur nos usines au quotidien et nous nous battons pour augmenter nos capacités de production. Nous ne pouvons pas nous permettre d'avoir une heure de capacité de production qui n'est pas utilisée (...) Les États ont compris qu'ils devaient être souverains sur cette énergie, cela amène le monde à s'électrifier de plus en plus », a justifié le dirigeant en poste depuis onze mois lors d'une rencontre avec une poignée de journalistes, mardi 8 septembre. Selon des données de l'Agence internationale de l'énergie, la part d'électricité dans le mix énergétique de l'Union européenne devrait être multipliée par deux d'ici à 2040, pour atteindre 46 %. Dès lors, Nexans s'attend à un marché juteux du renouvellement des réseaux existants, et l'Agence internationale de l'énergie table sur 80 millions de kilomètres de réseau électrique à remplacer avant 2040.",
+        "summary_cn": "“耐克森已经准备好了，”新任总经理 Julien Hueber 承诺。正如领导人本人所描述的那样，准备好面对“电气化热潮”。它指出，2026 年上半年其活动增长了 4.5%，超出了对金融市场的承诺。这位自称是电气化市场唯一纯粹参与者的人甚至表示，他面临着富人的问题。这位执政十一个月的领导人在 9 月 8 日星期二与少数记者会面时辩解道：“我们的工厂每天都在承受压力，我们正在努力提高产能。我们不能承受一小时闲置的产能……各国已经明白，他们必须对这种能源拥有主权，这正在导致世界变得越来越电气化。”到 2040 年将翻一番，达到 46%。因此，耐克森预计现有网络的更新市场利润丰厚，国际能源署预计到2040年将更换8000万公里的电网。",
+        "source": "La Tribune",
+        "pub_date": "9 September 2026",
+        "auto": true,
+        "link": "https://www.latribune.fr/article/entreprises-finance/industrie/81258264417016/nexans-se-bat-pour-augmenter-ses-capacites-de-production-vante-son-ceo-face-au-boom-de-l-electrification",
+        "region": "europe"
+      }
+    ],
+    "vocab": [],
+    "word_count": 731,
+    "auto": true
+  },
+  {
     "date": "2026-09-08",
     "tags": [
       "Actualité",
