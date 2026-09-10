@@ -238,7 +238,7 @@ def detect_region(fr_title, fr_desc, source_region):
     text = _unaccent((fr_title + " " + fr_desc).lower())
     for keywords, region in GEO_RULES:
         for kw in keywords:
-            if _unaccent(kw.lower()) in text:
+            if _kw_hit(kw, text):
                 return region
     return source_region
 
@@ -322,6 +322,110 @@ EXCLUDE_MEDIA = [
     "photos du jour",
 ]
 
+# 党派 / 选举（用户要求排除：党派斗争、选举造势不关心）
+# 只匹配标题，避免正文顺带提及误伤；保留法国国家级重大政治（政府/预算/法案）
+EXCLUDE_POLITICS = [
+    # 选举造势
+    "élection", "élections", "électoral", "électorale", "électorales",
+    "scrutin", "urnes", "législative", "législatives",
+    # municipale 单数会误杀 "piscine/bibliothèque municipale"，只留复数
+    "municipales", "présidentielle",
+    # primaire 单用会误杀 "école primaire"，只留选举语境的说法
+    "la primaire", "primaire du", "primaire de la", "primaire socialiste",
+    "primaire à", "élection primaire",
+    "candidat", "candidats", "candidature", "sondage", "sondages",
+    "premier tour", "second tour", "ballottage", "abstention",
+    "électeur", "électeurs", "votants",
+    "campagne électorale", "campagne présidentielle",
+    # 党派 / 党派斗争
+    "parti politique", "partis politiques", "du parti", "au parti",
+    "chef du parti", "direction du parti", "au sein du parti",
+    "rassemblement national", "front national",
+    "france insoumise", "parti socialiste", "parti communiste",
+    "nouveau front populaire", "nupes",
+    "majorité présidentielle", "l'opposition", "coalition",
+    "front républicain", "cordon sanitaire", "dissidence", "dissidents",
+    "guerre des chefs",
+]
+
+# ── DELF B2 主题（theme.png 高亮话题，选文时优先）──
+# 两组高亮同等优先：经济/环境/交通/消费 + 工作/教育/住房/科技互联网
+THEMES = [
+    ("Économie", [
+        "économie", "économique", "inflation", "croissance", "pib",
+        "budget", "déficit", "dette", "fiscalité", "impôt", "impôts",
+        "taxe", "taxes", "pouvoir d'achat", "bourse", "marché",
+        "marchés", "taux", "banque", "banques", "commerce", "industrie",
+        "investissement", "exportations", "concurrence", "euro",
+        "crise économique", "restrictions budgétaires",
+    ]),
+    ("Environnement", [
+        "environnement", "écologie", "écologique", "climat", "climatique",
+        "réchauffement", "biodiversité", "pollution", "carbone", "co2",
+        "énergie", "énergies", "renouvelable", "renouvelables", "solaire",
+        "éolien", "éoliennes", "nucléaire", "déchets", "recyclage",
+        "forêt", "forêts", "océan", "sécheresse", "inondations",
+        "canicule", "transition énergétique", "agriculture", "agricole",
+        "pesticides", "gaz à effet de serre",
+    ]),
+    ("Transports", [
+        "transport", "transports", "train", "trains", "sncf", "métro",
+        "bus", "tramway", "vélo", "vélos", "piste cyclable",
+        "pistes cyclables", "cyclable", "voiture", "voitures",
+        "automobile", "embouteillages", "circulation", "route", "routes",
+        "autoroute", "avion", "aérien", "aéroport", "gare", "gares",
+        "ferroviaire", "tgv", "covoiturage", "mobilité", "péage",
+        "scooter", "trottinette", "maritime", "portuaire", "camions",
+        "transport en commun", "zones à faibles émissions",
+    ]),
+    ("Consommation", [
+        "consommation", "consommateur", "consommateurs", "achat",
+        "achats", "supermarché", "supermarchés", "hypermarché",
+        "grande distribution", "alimentation", "alimentaire",
+        "obsolescence", "étiquette", "étiquettes", "ticket de caisse",
+        "e-commerce", "achat en ligne",
+    ]),
+    ("Travail", [
+        "travail", "emploi", "chômage", "chômeurs", "salarié",
+        "salariés", "salaire", "salaires", "entreprise", "entreprises",
+        "patron", "patronat", "syndicat", "syndicats", "grève", "grèves",
+        "grévistes", "licenciement", "licenciements", "embauche",
+        "recrutement", "cdd", "cdi", "télétravail", "retraite",
+        "retraites", "congés", "temps de travail", "intérim",
+        "apprentissage", "burn-out", "conditions de travail",
+    ]),
+    ("Éducation", [
+        "école", "écoles", "éducation", "élève", "élèves", "étudiant",
+        "étudiants", "université", "universités", "bac",
+        "baccalauréat", "professeur", "professeurs", "enseignant",
+        "enseignants", "enseignement", "lycée", "collège", "classe",
+        "rentrée scolaire", "parcoursup", "études", "diplôme",
+        "scolarité", "harcèlement scolaire", "cantine",
+    ]),
+    ("Logement", [
+        "logement", "logements", "immobilier", "loyer", "loyers",
+        "locataire", "locataires", "propriétaire", "propriétaires",
+        "hlm", "habitat", "copropriété", "expulsion",
+        "logements sociaux", "passoire thermique", "urbanisme",
+        "foncier", "accession à la propriété",
+    ]),
+    ("Technologies", [
+        "technologie", "technologies", "numérique", "internet",
+        "intelligence artificielle", "ia", "algorithme",
+        "données personnelles", "cyber", "cybersécurité", "piratage",
+        "smartphone", "application", "réseaux sociaux", "cloud",
+        "logiciel", "start-up", "startup", "innovation",
+        "robot", "robotique", "5g", "fibre", "ordinateur",
+        "puce", "semi-conducteurs", "satellite", "spatial", "spatiale",
+        "quantique", "rgpd", "deepfake", "hacker",
+        # 企业与产品名（标题里最常见的形式）
+        "apple", "iphone", "ipad", "mac", "google", "microsoft",
+        "amazon", "samsung", "android", "windows", "huawei", "nvidia",
+        "openai", "chatgpt", "tiktok", "instagram", "facebook",
+        "youtube", "bitcoin", "crypto", "blockchain", "métavers",
+    ]),
+]
+
 
 FRENCH_STOPS = {
     'le', 'la', 'les', 'de', 'des', 'du', 'et', 'est', 'un', 'une',
@@ -345,10 +449,33 @@ def is_french_text(text):
     return french_count >= 2
 
 
+def _kw_hit(kw, text):
+    """关键词整词匹配（自动兼容复数 -s），text 需已 _unaccent + lower"""
+    return re.search(r"\b" + re.escape(_unaccent(kw)) + r"s?\b", text) is not None
+
+
+def match_themes(title):
+    """返回标题命中的 DELF B2 主题名（theme.png 高亮话题），无命中返回 []
+    只看标题：摘要里的顺带提及常造成误判（如 11-Septembre 被判成 Transports）"""
+    text = _unaccent((title or "").lower())
+    hits = []
+    for name, kws in THEMES:
+        for kw in kws:
+            if _kw_hit(kw, text):
+                hits.append(name)
+                break
+    return hits
+
+
 def should_exclude(tag, title, desc):
-    """过滤：边角料标签、游戏/体育/天气/寻物/广告、战争细节、纯人物新闻"""
+    """过滤：边角料标签、党派/选举、游戏/体育/天气/寻物/广告、战争细节、纯人物新闻"""
     if tag in EXCLUDE_TAGS:
         return True
+    title_text = _unaccent((title or "").lower())
+    # 党派 / 选举只看标题：正文顺带提及不算
+    for kw in EXCLUDE_POLITICS:
+        if _kw_hit(kw, title_text):
+            return True
     text = (title + " " + (desc or "")).lower()
     if any(kw in text for kw in CULTURAL):
         return False
@@ -359,23 +486,37 @@ def should_exclude(tag, title, desc):
     return False
 
 
-def select_balanced(items, total=6):
-    """按信源均衡选文：每源最多 2 条，轮询凑够 total（5~6 篇）"""
+def select_themed(items, total=2):
+    """优先选命中 DELF 主题的文章（theme.png），同一信源最多 1 条；
+    主题不够时用其余文章补齐。"""
     from collections import defaultdict
-    by_src = defaultdict(list)
-    for item in items:
-        by_src[item.get("source_label", "Autre")].append(item)
+    themed = [i for i in items if i.get("themes")]
+    others = [i for i in items if not i.get("themes")]
 
-    selected = []
-    idx = defaultdict(int)
-    for round_ in range(2):  # 每源最多 2 条
-        for label in by_src:
-            if len(selected) >= total:
+    chosen = []
+
+    def take(pool, limit):
+        per_src = defaultdict(int)
+        for c in chosen:
+            per_src[c["source_label"]] += 1
+        for it in pool:
+            if len(chosen) >= limit:
                 break
-            if idx[label] < len(by_src[label]):
-                selected.append(by_src[label][idx[label]])
-                idx[label] += 1
-    return selected[:total]
+            if per_src[it["source_label"]] >= 1:
+                continue
+            per_src[it["source_label"]] += 1
+            chosen.append(it)
+
+    take(themed, total)
+    if len(chosen) < total:
+        take(others, total)          # 放宽：允许与已有重复信源之外补
+    if len(chosen) < total:
+        for it in themed + others:   # 最后兜底：不再限制信源
+            if len(chosen) >= total:
+                break
+            if it not in chosen:
+                chosen.append(it)
+    return chosen[:total]
 
 
 # ── 翻译 ──
@@ -693,13 +834,21 @@ def main():
     if eng_count:
         print(f"🗑️  {eng_count} articles non-français exclus")
 
-    # 5. 过滤（游戏/体育/天气/寻物/广告/无实质）
+    # 5. 过滤（党派/选举、游戏/体育/天气/寻物/广告、无实质）
     candidates = [item for item in french_only
                   if not should_exclude(item.get("tag", ""), item["title"], item.get("desc", ""))]
     print(f"📋 {len(candidates)} candidats après filtrage")
     if not candidates:
         print("ℹ️  Aucun candidat.")
         return
+
+    # 5b. 标记 DELF B2 主题，命中主题的排在前面
+    #（每源只抓 6 条正文，先抓主题文，否则抓不到）
+    for item in candidates:
+        item["themes"] = match_themes(item["title"])
+    candidates.sort(key=lambda it: 0 if it["themes"] else 1)
+    themed_n = sum(1 for it in candidates if it["themes"])
+    print(f"🎯 {themed_n} candidats sur un thème DELF B2")
 
     # 6. 抓取正文 & 压缩（每源最多抓 6 条页面，避免请求过多）
     from collections import defaultdict
@@ -722,9 +871,11 @@ def main():
         item["word_count"] = len(item["body"].split())
         ready.append(item)
 
-    # 7. 按信源均衡选 5~6 篇
-    selected = select_balanced(ready, total=3)
+    # 7. 选 2 篇：优先 DELF 主题（theme.png），信源不重复
+    selected = select_themed(ready, total=2)
     print(f"\n📋 {len(selected)} articles retenus")
+    for it in selected:
+        print(f"    · [{it['source_label']}] {'/'.join(it['themes']) or 'hors-thème'} — {it['title'][:50]}")
     if not selected:
         print("ℹ️  Aucun article valable.")
         return
