@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-09-11",
+    "tags": [
+      "Actualité"
+    ],
+    "regions": [
+      "francophonie",
+      "international"
+    ],
+    "summary_cn": "监视、武器、诈骗……Anthropic 表示已停止恶意使用其人工智能 Claude | 世界海洋刚刚经历了连续 100 天创纪录的高温",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "监视、武器、诈骗……Anthropic 表示已停止恶意使用其人工智能 Claude",
+        "title": "Surveillance, armes, escroqueries… Anthropic dit avoir stoppé des utilisations malveillantes de son IA Claude",
+        "body": "\"Elles jouent avec nos vies\" : Anthropic et OpenAI \"croient sincèrement\" que l'IA \"pourrait tous nous tuer\", attaque un chercheur en intelligence artificielle Ces incidents, détectés et neutralisés entre janvier et juillet, provenaient de Chine, d'Iran et d'Afrique de l'Ouest. Dans un cas, des acteurs iraniens ont mis au point un moyen d'identifier des personnes à partir de leurs comptes sur les réseaux sociaux. Dans un autre, un prestataire travaillant pour les autorités de sécurité nationale du Mali a utilisé Claude \"pour concevoir le logiciel sur lequel reposait la collecte de renseignements\". Anthropic rapporte également avoir déjoué des tentatives de concevoir des armes, de mener des recherches biologiques douteuses ou de créer de fausses applications de rencontre afin d'escroquer les utilisateurs. Pour les recherches biologiques bloquées, les intentions des auteurs étaient moins claires et le laboratoire ne les a pas identifiés. \"Les personnes impliquées dans ces études de cas sont des scientifiques en activité. Nous n'affirmons pas qu'elles avaient l'intention de nuire, et les identifier, elles ou leurs laboratoires, pourrait les mettre en danger\", précise le rapport.",
+        "summary_cn": "“他们在玩弄我们的生命”：Anthropic 和 OpenAI “真诚地相信”人工智能“可以杀死我们所有人”，一位人工智能研究人员攻击道 这些事件是在一月至七月期间发现并消除的，这些事件来自中国、伊朗和西非。在一个案例中，伊朗演员开发了一种从社交媒体帐户中识别人员身份的方法。在另一起案件中，为马里国家安全当局工作的一名承包商利用克劳德“设计情报收集所依据的软件”。 Anthropic 还报告称，他们阻止了设计武器、进行可疑的生物研究或创建虚假约会应用程序以欺骗用户的企图。对于受阻的生物学研究，作者的意图不太明确，实验室也没有识别出来。报告称：“参与这些案例研究的个人都是工作科学家。我们并不是声称他们有意造成伤害，识别他们或他们的实验室可能会使他们面临危险。”",
+        "source": "France Info",
+        "pub_date": "11 September 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/internet/intelligence-artificielle/surveillance-armes-escroqueries-anthropic-dit-avoir-stoppe-des-utilisations-malveillantes-de-son-ia-claude_8187704.html#xtor=RSS-3-[lestitres]",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Actualité",
+        "title_cn": "世界海洋刚刚经历了连续 100 天创纪录的高温",
+        "title": "Les océans du globe viennent d'enchaîner 100 jours consécutifs de chaleur record",
+        "body": "Une raie manta dans les Palaos, dans l'océan Pacifique. En 2021, 37% des espèces de requins et de raies étaient menacées par le réchauffement des océans, contre 24% en 2014. © Flickr CC BY 2.0 amanderson2 Par : Géraud Bosman-Delzons Sensibles qu’ils sont au moindre gradient de température, poissons et organismes de l'océan témoignent bien malgré eux, en se déplaçant ou en disparaissant, qu'il fait de plus en plus chaud dans leur milieu. L’océan fournit de multiples autres indicateurs de l’évolution de notre climat à la dérive. Ce 10 septembre, l'océan atteignait son 100e jour consécutif de record de chaleur moyenne par rapport à la période de référence des climatologues qui s'étend de 1991 à 2020. Cent jours, ce n'est pas une durée inédite, mais depuis le 2 juin, les températures n'ont jamais été aussi élevées. Au 9 septembre, le thermostat océanique affichait 21,17°C, une anomalie de +0,79°C par rapport à 1991-2020 et de +0,95°C par rapport à 1982-2010. Ces données devront être consolidées mais « ne devraient très probablement pas changer », admet toutefois Zachary Labe, un climatologue de l'organisation Climate Central, ancien expert de haut niveau au sein de l'Agence américaine d'observation océanique et atmosphérique (NOAA) qui se base sur les données qu'elle produit pour signaler « ce marqueur symbolique », lors d’un point presse en ligne aux côtés d'autres scientifiques. « Une série de 99 jours contre une autre de 102 jours ne changera pas grand-chose en termes d’impact. Le véritable facteur déterminant, c'est la période prolongée de chaleur record que nous continuons d’observer cette année », a-t-il expliqué. Autrement dit, ces relevés ponctuels sont surtout à replacer dans le spectre des multiples records survenus au cours des dernières années. Ces 100 jours ont aussi connu le record de température historique sur une seule journée. Selon deux sources aux jeux de données différentes mais toutes deux valides, il a été atteint le 22 août avec 21,10°C, selon le service d’observation de l’océan de l’agence européenne Copernicus (basé sur le jeu de données ERA5) ou le 23 août avec 21,24°C, selon Climate Reanalyzer (université du Maine), qui se base sur le jeu de données OISST de la NOAA, soit +0,82°C au-dessus de la moyenne.",
+        "summary_cn": "太平洋帕劳的蝠鲼。 2021 年，37% 的鲨鱼和鳐鱼物种受到海洋变暖的威胁，而 2014 年这一比例为 24%。 © Flickr CC BY 2.0 amanderson2 作者：Géraud Bosman-Delzons 由于对最轻微的温度梯度很敏感，鱼类和海洋生物通过移动或消失，不由自主地见证了它们中部的温度越来越高。海洋提供了我们漂移气候演变的多个其他指标。与气候学家的参考期（1991年至2020年）相比，今年9月10日，海洋平均气温连续第100天创下历史新高。一百天的持续时间并不是史无前例的，但自6月2日以来，气温从未如此之高。截至9月9日，海洋恒温器显示21.17°C，与1991-2020年相比异常+0.79°C，与1982-2010年相比异常+0.95°C。然而，气候中心组织的气候学家扎卡里·拉贝（Zachary Labe）承认，这些数据必须得到整合，但“很可能不应该改变”。扎卡里·拉贝曾是美国海洋和大气观测局（NOAA）的高级专家，在与其他科学家一起举行的在线新闻发布会上，他利用该机构产生的数据来表示“这个象征性标记”。 “一系列 99 天与另外 102 天的影响不会有太大变化。真正的决定因素是我们今年继续看到的创纪录高温的长期持续时间，”他解释道。换句话说，这些一次性读数首先应该放在近年来发生的多项记录的范围内。这100天也创下了历史单日气温记录。根据两个具有不同数据集但均有效的来源，根据欧洲机构哥白尼海洋观测服务（基于 ERA5 数据集），该气温于 8 月 22 日达到 21.10°C；根据气候再分析器（缅因大学）的数据，该气温于 8 月 23 日达到 21.24°C，该数据基于 NOAA OISST 数据集，即比平均值高出 +0.82°C。",
+        "source": "RFI",
+        "pub_date": "11 September 2026",
+        "auto": true,
+        "link": "https://www.rfi.fr/fr/environnement/20260911-publi-vendredi-8h-l-oc%C3%A9an-encha%C3%AEne-100-jours-de-chaleur-records",
+        "region": "international"
+      }
+    ],
+    "vocab": [],
+    "word_count": 543,
+    "auto": true
+  },
+  {
     "date": "2026-09-10",
     "tags": [
       "Actualité",
