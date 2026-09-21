@@ -45,10 +45,9 @@
       "Actualité"
     ],
     "regions": [
-      "francophonie",
-      "international"
+      "francophonie"
     ],
-    "summary_cn": "自学年开始以来已收到四次死亡威胁，我们如何解释家长针对教师和教育人员的暴力行为的增加？ | 阿根廷：针对总统米莱及其紧缩政策的“愤怒”游行",
+    "summary_cn": "自学年开始以来已收到四次死亡威胁，我们如何解释家长针对教师和教育人员的暴力行为的增加？",
     "briefs": [
       {
         "tag": "Actualité",
@@ -61,22 +60,10 @@
         "auto": true,
         "link": "https://www.franceinfo.fr/societe/education/apres-quatre-menaces-de-mort-depuis-la-rentree-comment-expliquer-la-hausse-des-violences-des-parents-d-eleves-contre-les-enseignants-et-personnels-educatifs_8197022.html#xtor=RSS-3-[lestitres]",
         "region": "francophonie"
-      },
-      {
-        "tag": "Actualité",
-        "title_cn": "阿根廷：针对总统米莱及其紧缩政策的“愤怒”游行",
-        "title": "Argentine: des marches de «la colère» contre le président Milei et sa politique d'austérité",
-        "body": "En Argentine, des marches de la colère ont eu lieu dans une trentaine de villes samedi 19 septembre. Ici, dans les rues de la capitale, Buenos Aires, les manifestants brandissent le mot «bronca», signifiant «la colère» en français. AP Photo/Rodrigo Abd - Rodrigo Abd Par : RFI « Milei et toute sa clique dehors », scande Miriam, âgée de 69 ans, avec des milliers de manifestants qui sont descendus dans les rues de la capitale argentine samedi pour exprimer leur colère. Une colère dirigée contre le président Javier Milei et sa politique ultralibérale, explique notre correspondant à Buenos Aires, Théo Conscience. En Argentine, la troisième économie d'Amérique latine, le chômage a augmenté pour atteindre 7,9%, son niveau le plus élevé depuis 2021, tandis que le secteur informel s'est encore développé et touche désormais 45% de la population active, selon des données publiées jeudi 17 septembre par l'institut des statistiques Indec. Javier Milei, au pouvoir depuis décembre 2023, se targue d'une stabilisation macro-économique par le biais d'une draconienne politique d'austérité qui a ramené l'inflation sur un an de 161% à son arrivée au pouvoir à 33,5% sur un an en août 2026. Cette politique a impliqué de sévères coupes dans les dépenses publiques, la fermeture d'organismes d'État, des dizaines de milliers de licenciements et une forte perte du pouvoir d'achat pour salariés et retraités. « Ils sont en train de mener une expérimentation très cruelle », estime Maximilano Jeger. Ce retraité a vu son loyer et ses factures de gaz et d’électricité exploser ces trois dernières années : « Tout a été dérégulé pour que le marché soit libre de faire ce qu’il veut. Les seules choses qui n’ont pas été libérées et qui n’augmentent pas, ce sont les salaires et les retraites. Les classes populaires sont en souffrance actuellement. » Afin d’enrayer l’inflation, le gouvernement plafonne les négociations salariales collectives. Dans le cortège, les banderoles des syndicats et des organisations sociales côtoient celles des défenseurs de l’environnement et les foulards verts, symboles du droit à l’avortement.",
-        "summary_cn": "在阿根廷，9 月 19 日星期六，大约 30 个城市发生了愤怒的游行。在首都布宜诺斯艾利斯的街道上，抗议者挥舞着“bronca”一词，在法语中意为“愤怒”。美联社照片/罗德里戈·阿卜德 - 罗德里戈·阿卜德 作者：RFI 周六，69 岁的米里亚姆和数千名走上阿根廷首都街头表达愤怒的示威者高呼“米莱和她所有的派系滚出去”。我们驻布宜诺斯艾利斯的记者 Théo Conscience 解释道，这是针对哈维尔·米莱总统及其极端自由主义政策的愤怒。统计机构 Indec 9 月 17 日周四公布的数据显示，在拉丁美洲第三大经济体阿根​​廷，失业率升至 7.9%，为 2021 年以来的最高水平，而非正规部门进一步扩大，目前影响到 45% 的活跃人口。哈维尔·米莱自 2023 年 12 月起掌权，他为通过严厉的紧缩政策实现宏观经济稳定而感到自豪，该政策将一年多的通胀率从他上台时的 161% 降至 2026 年 8 月一年多的 33.5%。该政策包括大幅削减公共支出、关闭国家机构、裁员数万人以及大幅减少雇员和退休人员的购电能力。 “他们正在进行一项非常残酷的实验，”马克西米兰诺·耶格尔相信。这位退休人员的房租、煤气费和电费在过去三年里呈爆炸式增长：“一切都放松了管制，市场可以自由地为所欲为。唯一没有放开、没有增加的就是工资和养老金。工薪阶层目前正在受苦。”为了遏制通货膨胀，政府正在限制集体工资谈判。在游行队伍中，工会和社会组织的旗帜与环保人士和绿领巾的旗帜并肩而立，绿领巾是权利的象征。堕胎。",
-        "source": "RFI",
-        "pub_date": "20 September 2026",
-        "auto": true,
-        "link": "https://www.rfi.fr/fr/am%C3%A9riques/20260920-argentine-des-marches-de-la-col%C3%A8re-contre-le-pr%C3%A9sident-mileil-et-sa-politique-d-aust%C3%A9rit%C3%A9",
-        "region": "international"
       }
     ],
     "vocab": [],
-    "word_count": 688,
+    "word_count": 352,
     "auto": true
   },
   {
@@ -204,10 +191,9 @@
       "Actualité"
     ],
     "regions": [
-      "francophonie",
-      "international"
+      "francophonie"
     ],
-    "summary_cn": "养老金去指数化或取消税收津贴：政府计划如何让退休人员在 2027 年预算中做出更多贡献 | 伊朗：库尔德政党呼吁全国罢工以纪念马赫萨·阿米尼去世四周年",
+    "summary_cn": "养老金去指数化或取消税收津贴：政府计划如何让退休人员在 2027 年预算中做出更多贡献",
     "briefs": [
       {
         "tag": "Actualité",
@@ -220,22 +206,10 @@
         "auto": true,
         "link": "https://www.franceinfo.fr/economie/budget/desindexer-les-pensions-ou-supprimer-l-abattement-fiscal-comment-le-gouvernement-envisage-de-faire-contribuer-davantage-les-retraites-dans-le-budget-2027_8191946.html#xtor=RSS-3-[lestitres]",
         "region": "francophonie"
-      },
-      {
-        "tag": "Actualité",
-        "title_cn": "伊朗：库尔德政党呼吁全国罢工以纪念马赫萨·阿米尼去世四周年",
-        "title": "Iran: les partis kurdes appellent à une grève nationale pour les quatre ans de la mort de Mahsa Amini",
-        "body": "Écouter - 01:21 Une précédente manifestation à Téhéran, le 8 janvier 2026. (Image d'illustration) AP Par : RFI Malgré les massacres commis par le régime lors du dernier grand mouvement de manifestation en janvier dernier, des manifestations continuent dans tout le pays, affirme la militante politique kurde iranienne, Sibel Khobayi. « Au Kurdistan iranien et plus largement en Iran, il y a des manifestations d'enseignants, de chauffeurs de taxi, d'élèves, d'étudiants de manière quotidienne. Les autorités méprisent le peuple et ne paient pas les salaires des fonctionnaires », explique-t-elle. En ce qui concerne l'appel à la grève de ce mercredi, elle pourrait se rassembler ça et là en manifestations. En prévision, le régime a d'ores et déjà resserré son contrôle, affirme Hawyar Shekhi de l'ONG Hengaw. « Les vagues d'arrestations ont déjà commencé au Kurdistan iranien. Nous avons reçu des rapports sur des dizaines d'arrestations. Nous nous attendons à une importante présence de forces de sécurité comme chaque année ainsi qu'à des pressions sur la famille de Mahsa Amini pour l'empêcher de se recueillir. Si la grève est effectivement respectée aujourd'hui, la répression sur la population pourrait encore augmenter », note-t-elle. Les autorités ont en effet annoncé une répression d'une grande sévérité contre ceux qui répondraient à ce qu'ils définissent comme l'ennemi. Parallèlement ces dernières semaines et comme depuis le début de l'agression israélo-américaine, le régime continue de bombarder les positions des partis politiques kurdes iraniens exilés au Kurdistan irakien. À lire aussiIran: ces hommes activistes du mouvement «Femme, vie, liberté» Recevez toute l'actualité internationale directement dans votre boite mail",
-        "summary_cn": "听 - 01:21 德黑兰之前的示威活动，2026 年 1 月 8 日。（说明图片）美联社来源：RFI 伊朗库尔德政治活动家西贝尔·霍巴伊 (Sibel Khobayi) 表示，尽管去年 1 月的最后一次大型示威活动中，该政权实施了屠杀，但全国各地的示威活动仍在继续。 “在伊朗库尔德斯坦乃至伊朗更广泛的地区，每天都有教师、出租车司机、中学生举行示威活动。当局蔑视人民，也不支付公务员的工资，”她解释道。对于本周三的罢工号召，可能会到处聚集示威。非政府组织 Hengaw 的哈亚尔·谢希 (Hawyar Shekhi) 表示，早有预料，该政权已经加强了控制。 “伊朗库尔德斯坦的逮捕浪潮已经开始。我们收到了数十人被捕的报告。我们预计每年都会有大量安全部队出现，并对马赫萨·阿米尼的家人施加压力，阻止她祈祷。如果今天的罢工得到有效尊重，对民众的镇压可能会进一步加剧，”她指出。事实上，当局已经宣布对那些回应他们所定义的敌人的人进行非常严厉的镇压。与此同时，最近几周以及自以色列-美国侵略开始以来，该政权继续轰炸流亡在伊拉克库尔德斯坦的伊朗库尔德政党的阵地。另请阅读：伊朗：这些“妇女、生命、自由”运动的男性积极分子直接在收件箱中接收所有国际新闻",
-        "source": "RFI",
-        "pub_date": "16 September 2026",
-        "auto": true,
-        "link": "http://www.rfi.fr/fr/moyen-orient/20260916-iran-appel-%C3%A0-la-gr%C3%A8ve-national-pour-les-quatre-ans-de-la-mort-de-mahsa-amini",
-        "region": "international"
       }
     ],
     "vocab": [],
-    "word_count": 583,
+    "word_count": 323,
     "auto": true
   },
   {
@@ -538,23 +512,11 @@
       "Économie"
     ],
     "regions": [
-      "europe",
-      "international"
+      "international",
+      "europe"
     ],
-    "summary_cn": "为什么选择党在萨克森-安哈尔特州选举中的胜利会成为德国的一场政治地震 选择党的得分是 20 | 俄罗斯和朝鲜在图们江上的第一座公路桥落成 | 自噬推进：阿尔法推进有尖牙",
+    "summary_cn": "俄罗斯和朝鲜在图们江上的第一座公路桥落成 | 自噬推进：阿尔法推进有尖牙",
     "briefs": [
-      {
-        "tag": "Actualité",
-        "title_cn": "为什么选择党在萨克森-安哈尔特州选举中的胜利会成为德国的一场政治地震 选择党的得分是 20",
-        "title": "\"Quelque chose a changé au sein de la société européenne\" : la victoire de l'AfD en Saxe-Anhalt, une leçon pour les partis d'extrême droite en Europe",
-        "body": "Pourquoi la victoire de l'AfD lors des élections en Saxe-Anhalt est un séisme politique en Allemagne Le score de l'AfD, plus du double de son pourcentage de 2019, est scruté par les autres formations politiques d'extrême droite en Europe. \"La Saxe-Anhalt est une petite région, et les pouvoirs de son gouvernement sont limités, mais la victoire de l'AfD est symboliquement très forte\", souligne Sabine Volk, chercheuse à l'université de Tübingen et spécialiste de l'extrême droite, auprès de franceinfo. Le succès de la formation politique est l'aboutissement d'un mouvement qui a démarré depuis plusieurs années. \"L'Allemagne, de par son histoire, est un cas particulier. Si l'extrême droite est capable de s'y faire élire, alors cela veut dire que quelque chose a vraiment changé au sein de la société européenne.\" De quoi donner confiance aux différents partis d'extrême droite, qui caracolent déjà en tête des sondages dans de nombreux pays, dont la France. La victoire d'Ulrich Siegmund, chef de file de l'AfD en Saxe-Anhalt, pourrait influencer le programme des autres formations politiques européennes. Le parti \"a ainsi réussi la prouesse de se radicaliser progressivement ces dernières années\", pointait Valérie Dubslaff, enseignante-chercheuse à Rennes 2, à franceinfo. \"Au départ, il s'agissait d'un parti d'eurosceptiques, puis les ailes plus radicales ont pris le pouvoir. Aujourd'hui, on peut dire que c'est un parti d'inspiration nazie\", ajoutait la spécialiste. Le programme de l'AfD en Saxe-Anhalt parle de lui-même. Le parti veut instaurer une ségrégation scolaire entre les enfants de réfugiés et les autres, interdire les symboles LGBT+, supprimer l'audiovisuel public et forcer à la \"remigration\" de populations immigrées. \"Le parti local est l'un des mouvements d'extrême droite les plus radicaux d'Europe\", ajoute Sabine Volk. \"On peut donc conclure que ces partis [d'extrême droite] ne sont pas forcément obligés de se dédiaboliser, ou de se centraliser, pour gagner des élections.\" D'autres éléments sont observés avec attention. D'abord, la capacité du parti à mobiliser les électeurs abstentionnistes. \"La hausse de la participation électorale [77,8%, un record] profite particulièrement à l'AfD.",
-        "summary_cn": "为什么选择党在萨克森-安哈尔特州选举中的胜利会成为德国的一场政治地震 选择党的得分是 2019 年百分比的两倍多，正在受到欧洲其他极右政治团体的密切关注。 “萨克森-安哈特州是一个小地区，政府的权力有限，但德国选择党的胜利具有很强的象征意义，”图宾根大学研究员、极右翼专家萨宾·沃尔克向法国资讯网强调。政治培训的成功是几年前开始的运动的高潮。 “由于其历史，德国是一个特例。如果极右翼能够在那里当选，那就意味着欧洲社会内部确实发生了一些变化。”足以给各个极右翼政党带来信心，这些政党在包括法国在内的许多国家的民意调查中已经名列前茅。萨克森-安哈尔特州选择党领导人乌尔里希·西格蒙德的胜利可能会影响其他欧洲政治团体的计划。雷恩第二大学的教师兼研究员瓦莱丽·杜布斯拉夫（Valérie Dubslaff）向法国资讯网指出，该党“因此实现了近年来逐渐激进化的壮举”。 “一开始，它是一个欧洲怀疑论者的政党，后来更激进的派系掌权。今天，我们可以说它是一个受纳粹启发的政党，”这位专家补充道。萨克森-安哈特州的德国选择党计划不言自明。该党希望在学校中对难民儿童和其他人实行隔离，禁止 LGBT+ 标志，压制公共广播，并强迫移民人口“重新移民”。 “当地政党是欧洲最激进的极右运动之一，”萨宾·沃尔克补充道。 “因此，我们可以得出结论，这些[极右翼]政党不一定有义务去妖魔化自己，或者集中自己来赢得选举。”仔细观察其他元素。首先，该党动员弃权选民的能力。 “选举参与度的提高[77.8%，创纪录]对德国选择党尤其有利。",
-        "source": "France Info",
-        "pub_date": "8 September 2026",
-        "auto": true,
-        "link": "https://www.franceinfo.fr/monde/europe/allemagne/quelque-chose-a-change-au-sein-de-la-societe-europeenne-la-victoire-de-l-afd-en-saxe-anhalt-une-lecon-pour-les-partis-d-extreme-droite-en-europe_8180639.html#xtor=RSS-3-[lestitres]",
-        "region": "europe"
-      },
       {
         "tag": "Actualité",
         "title_cn": "俄罗斯和朝鲜在图们江上的第一座公路桥落成",
@@ -581,7 +543,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 901,
+    "word_count": 569,
     "auto": true
   },
   {
@@ -593,20 +555,8 @@
     "regions": [
       "europe"
     ],
-    "summary_cn": "为什么德国选择党在萨克森-安哈特州选举中获胜会引发德国政治地震 | 德国：极右翼跨越新门槛，“布兰德莫尔”步履蹒跚？ | 欧空局是国际空间站的主要历史合作伙伴",
+    "summary_cn": "德国：极右翼跨越新门槛，“布兰德莫尔”步履蹒跚？ | 欧空局是国际空间站的主要历史合作伙伴",
     "briefs": [
-      {
-        "tag": "Actualité",
-        "title_cn": "为什么德国选择党在萨克森-安哈特州选举中获胜会引发德国政治地震",
-        "title": "Pourquoi la victoire de l'AfD lors des élections en Saxe-Anhalt est un séisme politique en Allemagne",
-        "body": "Temps de lecture : 4min Des membres du parti Alternative pour l'Allemagne (AfD) réagissent après l'annonce des premiers résultats des élections régionales de Saxe-Anhalt à Magdebourg (Allemagne), le 6 septembre 2026. (RONNY HARTMANN / AFP) C'est un choc politique sans précédent. Le parti d'extrême droite Alternative pour l'Allemagne (AfD) est arrivé en première position lors d'élections régionales en Saxe-Anhalt (Allemagne), dimanche 6 septembre, selon des résultats quasi définitifs. Avec 43,8% des voix, la formation distance très largement la CDU du chancelier Friedrich Merz (17,2%). Suivent les sociaux-démocrates du SPD (9,3%), les Verts (8,9%), et le parti de gauche radicale Die Linke (8,6%). Avec 5,3%, l'Alliance Sahra Wagenknecht (BSW) dépasse de peu les 5% nécessaires pour entrer au Parlement du Land. Cette victoire est le résultat d'une campagne de fond menée par la formation politique, aidée par la popularité de son chef de file, Ulrich Siegmund. Les équipes du candidat de 35 ans, télégénique, ont multiplié les évènements de campagne et les rencontres avec les habitants du Land de 2,2 millions d'habitants, déroulant un programme d'extrême droite. Les promesses de mettre fin au \"déclin\" du territoire est-allemand, en visant notamment les réfugiés et les minorités sexuelles, ont fait mouche auprès d'une partie de l'électorat. Si elle accédait au pouvoir, l'AfD aurait une grande marge de manœuvre sur l'éducation et la culture, gérées par les régions allemandes. Le score de l'AfD est \"un bouleversement majeur\", explique à franceinfo Valérie Dubslaff, enseignante-chercheuse à l’université Rennes 2. Lors des précédentes élections, le parti avait obtenu un peu moins de 23%. \"Nous avons écrit l'histoire dans ce pays\", s'est félicité Ulrich Siegmund à l'antenne de l'ARD. \"Nous avons besoin d'un changement politique fondamental dans ce pays\", a-t-il ajouté. Une telle avancée de l'extrême droite, même à la seule échelle régionale, envoie \"un signal très fort\" au gouvernement, expose Valérie Dubslaff. Un sérieux revers, qui \"montre une nécessité de changer de cap\" et de \"mieux communiquer\" pour la coalition au pouvoir à Berlin. Comme le rappelle The Guardian, Friedrich Merz avait promis, dès 2018, de réduire de moitié le score de l'AfD.",
-        "summary_cn": "阅读时间：4 分钟 2026 年 9 月 6 日，德国马格德堡萨克森-安哈尔特州地区选举第一批结果公布后，德国另类选择党 (AfD) 成员做出反应。（RONNY HARTMANN / 法新社）这是前所未有的政治冲击。根据几乎最终的结果，极右翼的德国选择党 (AfD) 在 9 月 6 日星期日在萨克森-安哈尔特州（德国）举行的地区选举中名列第一。该党以 43.8% 的得票率远远超过总理弗里德里希·梅尔茨 (Friedrich Merz) 领导的基民盟 (17.2%)。其次是社民党社会民主党（9.3%）、绿党（8.9%）和激进左翼党（8.6%）。撒哈拉·瓦根克内希特联盟 (BSW) 的得票率为 5.3%，仅略高于进入土地议会所需的 5%。这场胜利是该政党领导的深入竞选的结果，并得到了该党领导人乌尔里希·西格蒙德(Ulrich Siegmund)的支持。这位上镜的 35 岁候选人的团队增加了与这片拥有 220 万居民的土地上居民的竞选活动和会议，推出了一项极右翼计划。承诺结束东德领土的“衰落”，特别是针对难民和性少数群体，这一承诺在部分选民中实现了目标。如果上台，选择党将在由德国各地区管理的教育和文化问题上拥有很大的回旋余地。雷恩第二大学教师兼研究员瓦莱丽·杜布斯拉夫 (Valérie Dubslaff) 向 franceinfo 解释道，德国选择党的得分是“一场重大剧变”。在之前的选举中，该党获得略低于23%的支持率。 “我们在这个国家书写了历史，”乌尔里希·西格蒙德 (Ulrich Siegmund) 在 ARD 上说道。 “我们需要在这个国家进行根本性的政治变革，”他补充道。瓦莱丽·杜布斯拉夫解释说，极右翼的这种进步，即使仅在地区范围内，也向政府发出了“非常强烈的信号”。这是一次严重的挫折，这表明柏林执政联盟“需要改变路线”并“更好地沟通”。据《卫报》回忆，弗里德里希·梅尔茨 (Friedrich Merz) 在 2018 年承诺将选择党的得分减半。",
-        "source": "France Info",
-        "pub_date": "7 September 2026",
-        "auto": true,
-        "link": "https://www.franceinfo.fr/monde/europe/allemagne/pourquoi-la-victoire-de-l-afd-lors-des-elections-en-saxe-anhalt-est-un-seisme-politique-en-allemagne_8176916.html#xtor=RSS-3-[lestitres]",
-        "region": "europe"
-      },
       {
         "tag": "Actualité",
         "title_cn": "德国：极右翼跨越新门槛，“布兰德莫尔”步履蹒跚？",
@@ -633,7 +583,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 1046,
+    "word_count": 700,
     "auto": true
   },
   {
@@ -914,7 +864,7 @@
       "europe",
       "international"
     ],
-    "summary_cn": "“我只让他们参加最低限度的课外活动”：开学之际，家庭信心减弱 | 校服：在法国，一项不令人信服的实验谨慎结束 | G20财经：莫斯科回归掩盖了市场警报 | “我要求你停下来”：爱德华·巴拉杜尔的这句话如何成为邪教 | 上合组织峰会：伊朗比什凯克寻求俄罗斯支持对抗美国",
+    "summary_cn": "“我只让他们参加最低限度的课外活动”：开学之际，家庭信心减弱 | 校服：在法国，一项不令人信服的实验谨慎结束 | G20财经：莫斯科回归掩盖了市场警报 | “我要求你停下来”：爱德华·巴拉杜尔的这句话如何成为邪教 | 上合组织峰会：伊朗比什凯克寻求俄罗斯支持对抗美国 | 观点。 “面对公共赤字，储蓄养老金是一个冒险的选择！”",
     "briefs": [
       {
         "tag": "Actualité",
@@ -1004,7 +954,7 @@
       "international",
       "francophonie"
     ],
-    "summary_cn": "2026 年重返校园：国家教育部长保证，教师缺勤将“微乎其微” | 上合组织峰会：伊朗问题有望成为习近平、普京、莫迪和佩泽什基安讨论的核心 | 观点。 “2027 年总统选举 - 购买力：未来几年的经济挑战” | “我的店已经变成河床了！” ：尼泊尔和西藏发生致命洪水后，幸存者目睹了损失 | 尼日利亚：新缉获苯丙胺及其他合成毒品",
+    "summary_cn": "2026 年重返校园：国家教育部长保证，教师缺勤将“微乎其微” | 上合组织峰会：伊朗问题有望成为习近平、普京、莫迪和佩泽什基安讨论的核心 | “我的店已经变成河床了！” ：尼泊尔和西藏发生致命洪水后，幸存者目睹了损失 | 尼日利亚：新缉获苯丙胺及其他合成毒品 | 房地产：现在还是买房的时候吗？",
     "briefs": [
       {
         "tag": "Actualité",
@@ -1029,18 +979,6 @@
         "auto": true,
         "link": "https://www.rfi.fr/fr/asie-pacifique/20260831-sommet-de-l-ocs-le-dossier-iranien-s-annonce-au-c%C5%93ur-des-discussions-entre-xi-poutine-modi-et-pezeshkian",
         "region": "international"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "观点。 “2027 年总统选举 - 购买力：未来几年的经济挑战”",
-        "title": "OPINION. « Présidentielle 2027 - pouvoir d'achat : le défi économique des prochaines années »",
-        "body": "Selon le TFUE, relancer la croissance est nécessaire pour réduire le chômage. Le redressement doit passer par une politique de l’offre et la levée d’obstacles structurels. Les réformes proposées vont de la flexibilité du marché du travail à l’ouverture des marchés de biens et services, en passant par la simplification fiscale et la réduction des dépenses publiques. Ces mesures, de tendance libérale, suscitent des critiques. On questionne leur efficacité et on dénonce l’austérité imposée à certaines populations. L'Europe continue d’appliquer des recettes pensées pour un autre siècle : \"les réformes structurelles contribuent à stimuler l’emploi, encouragent les créations d’entreprises et améliorent la productivité… Les réformes sur le marché du travail, telles que la baisse des charges patronales et la révision des allocations chômage, peuvent faciliter l’entrée dans les rangs de la main-d’œuvre active et la recherche d’emploi… Outre qu’elles alimentent la croissance économique, les réformes réduisent le poids de la dette publique sur le long terme. La mise en œuvre de réformes sera donc salutaire pour les États à court d’argent\"…Le FMI, en 2017, présentait les réformes structurelles comme salutaires. Les remèdes d’hier suffisent-ils à construire les emplois et le pouvoir d’achat de demain ? Les revenus disponibles et le pouvoir d'achat de 2008 à 2025. Le revenu disponible brut (RDB) est la part du revenu dont dispose un ménage pour consommer, épargner ou investir après paiement des cotisations sociales et des impôts directs. Il sert de base au calcul du pouvoir d’achat. L’unité de consommation (UC) ajuste le revenu selon la composition du ménage pour mesurer sa capacité d’achat réelle. Entre 2008 et 2025 d'après l'Insee, le RDB par UC a augmenté de 39,66%. Cela correspond à un rythme moyen de 1,88% par an. Sur la même période, le pouvoir d’achat par UC n’a progressé que de 20,76%, soit 1,05% par an. L’écart traduit que les prix ont absorbé une part des gains de revenu malgré tous les accords européens de libre-échange.",
-        "summary_cn": "TFEU​​ 表示，促进增长对于减少失业率是必要的。复苏必须涉及供给侧政策和消除结构性障碍。拟议的改革范围从劳动力市场灵活性到开放商品和服务市场，包括简化税收和减少公共支出。这些倾向自由主义的措施招致了批评。我们质疑其有效性，并谴责对某些人群实施的紧缩政策。欧洲继续采用为下一个世纪设计的方案：“结构性改革有助于刺激就业、鼓励企业创造和提高生产率……劳动力市场改革，例如减少雇主缴款和修改失业救济金，可以促进进入活跃劳动力队伍和寻找工作……除了刺激经济增长外，从长远来看，改革还减轻公共债务负担。因此，实施改革将有利于现金短缺的国家”……国际货币基金组织在2017年提出了结构性改革一样有益。昨天的补救措施是否足以创造明天的就业机会和购买力？ 2008 年至 2025 年可支配收入和购买力。可支配总收入 (GDI) 是家庭在缴纳社会保障缴款和直接税后可用于消费、储蓄或投资的收入份额。它作为计算购买力的基础。消费单位（CU）根据家庭构成调整收入，衡量其实际购买能力。根据 INSEE 的数据，2008 年至 2025 年间，每 CU 的 GDI 增长了 39.66%。这相当于每年 1.88% 的平均增长率。同期，每 CU 的购买力仅增长 20.76%，即每年 1.05%。这一差距反映出，尽管有所有欧洲自由贸易协定，但价格已经吸收了部分收入增长。",
-        "source": "La Tribune",
-        "pub_date": "31 August 2026",
-        "auto": true,
-        "link": "https://www.latribune.fr/article/idees/88975637012831/opinion-presidentielle-2027-pouvoir-dachat-le-defi-economique-des-prochaines-annees",
-        "region": "europe"
       },
       {
         "tag": "Actualité",
@@ -1080,7 +1018,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 1894,
+    "word_count": 1571,
     "auto": true
   },
   {
@@ -1090,24 +1028,11 @@
       "Économie"
     ],
     "regions": [
-      "francophonie",
       "europe",
       "international"
     ],
-    "summary_cn": "（新窗口）或franceinfo | 冰岛脱欧公投：“不”即将获胜 | 电子发票：尽管存在税务黑客攻击，改革仍于周二开始 | （新窗口）或franceinfo | 尼泊尔洪水：寻找失踪亲人的家庭冲进医院和太平间",
+    "summary_cn": "冰岛脱欧公投：“不”即将获胜 | 电子发票：尽管存在税务黑客攻击，改革仍于周二开始 | （新窗口）或franceinfo | 尼泊尔洪水：寻找失踪亲人的家庭冲进医院和太平间",
     "briefs": [
-      {
-        "tag": "Actualité",
-        "title_cn": "（新窗口）或franceinfo",
-        "title": "Présidentielle 2027 : Olivier Faure sur le point d'annoncer sa candidature à Blois, Edouard Philippe attendu chez Gérald Darmanin à Tourcoing",
-        "body": "(Nouvelle fenêtre) ou franceinfo.Sans paiement. Sans abonnement. Vous ne pouvez plus participer au liveVous avez posté un message contraire aux règles du Live avec votre compte xxxx@xxx.xxNous vous rappellons que votre participation doit se faire dans le respect de la loi, des personnes et des règles du Live que vous pouvez consulter ici :Consultez les règles du Live ,Bienvenue sur l'espace participatif du Live.Avant de commencer :Participez toujours au Live dans le respect de la loi et des personnes.Consultez les règles du LiveNous ne publions pas tous les messages afin que le Live reste lisible pour tous. Nous faisons aussi de notre mieux pour vous répondre. Participer au liveParticipez toujours dans le respect de la loi et des personnes.Écrivez votre question ou réaction350 caractères max conseillés.Photo (en option) 1.5 Mo max. Format .gif, .jpg, .jpeg, ou .png0 / 9990 sur 999 caractères Votre fichier est trop lourdLa photo n'a pu être ajoutée à votre message car le fichier est trop lourd.Veuillez réessayer avec un fichier image de moins de 1.5 Mo.",
-        "summary_cn": "（新窗口）或franceinfo。无需付款。无需订阅。您不能再参与直播您使用您的账号 xxxx@xxx.xx 发布了违反直播规则的消息。我们提醒您，您的参与必须遵守法律、人民和直播规则，您可以在这里查阅：查阅直播规则，欢迎来到直播参与空间。开始之前：始终尊重法律和人民参与直播。查阅直播规则我们不会发布所有消息，以便所有人都能阅读直播。我们也尽力回复您。参与直播 始终尊重法律和人民。写下您的问题或反应，建议最多 350 个字符。照片（可选） 最大 1.5 MB格式 .gif、.jpg、.jpeg 或 .png0 / 9990（共 999 个字符） 您的文件太大 由于文件太大，无法将照片添加到您的消息中。请使用小于 1.5 MB 的图像文件重试。",
-        "source": "France Info",
-        "pub_date": "30 August 2026",
-        "auto": true,
-        "link": "https://www.franceinfo.fr/elections/presidentielle/direct-presidentielle-2027-olivier-faure-sur-le-point-d-annoncer-sa-candidature-a-blois-edouard-philippe-attendu-chez-gerald-darmanin-a-tourcoing_8169221.html#xtor=RSS-3-[lestitres]",
-        "region": "francophonie"
-      },
       {
         "tag": "Actualité",
         "title_cn": "冰岛脱欧公投：“不”即将获胜",
@@ -1155,22 +1080,10 @@
         "auto": true,
         "link": "https://www.rfi.fr/fr/asie-pacifique/20260830-crues-n%C3%A9pal-h%C3%B4pitaux-et-morgues-pris-assaut-familles-en-qu%C3%AAte-de-leurs-proches-disparus",
         "region": "international"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "养老金、工资、债务：总统候选人在第一次重大辩论中面对梅德夫左派必须提供一条道路",
-        "title": "OPINION. Michaël Delafosse, maire (PS) et président de Montpellier Méditerranée Métropole : « À la primaire de la gauche, je soutiens Raphaël Glucksmann »",
-        "body": "Retraites, salaires, dette : les candidats à la présidentielle face au Medef pour leur premier grand débat La gauche doit offrir un chemin. En octobre, se tiendra la primaire de la gauche, où chacun pourra prendre en main le choix stratégique et voter pour un candidat. La participation de 15 euros financera la campagne du gagnant, loin des emprunts russes ou des influences de Bolloré. C’est un coût, mais c’est celui d’une forme de liberté. Avec cette initiative, le PS offre, en fidélité à la tradition de la gauche, un espace démocratique où la voix de chacun compte. Des leaders portent des propositions stimulantes, comme Philippe Brun, Olivier Faure, Jérôme Guedj, Ségolène Royal et Karim Bouamrane. François Hollande est une voix essentielle. En tant que dernier président de la République socialiste, son expérience est précieuse et sa parole utile. L’engagement d’Emmanuel Maurel et le soutien à Raphaël Glucksmann du leader de l’écologie politique Yannick Jadot préfigurent une coalition arc-en-ciel rassemblant des sensibilités de la gauche. Elle peut contribuer à la création d’une fédération des gauches. Assurément, pour l’emporter, nous devons rassembler. J’appelle chacune et chacun à se mobiliser pour donner de la force au combat pour la présidentielle. Dans cette primaire, mon choix est clair : Raphaël Glucksmann est le mieux placé pour incarner l’espoir de gauche. Arrivé en tête de la gauche aux élections européennes, sa maîtrise des questions internationales est indispensable pour soutenir l’Ukraine face à Poutine et la solution à deux États au Proche Orient, tout comme son engagement résolu pour les droits de l’Homme. Nous attendons d’un Président une stature qui permet d’être à la hauteur de la patrie des droits de l’Homme et de dialoguer avec le monde.",
-        "summary_cn": "养老金、工资、债务：总统候选人在第一次重大辩论中面对梅德夫左派必须提供一条道路。 10月，左翼初选将举行，所有人都可以掌控战略选择，投票选出候选人。 15 欧元的参与将为获胜者的竞选活动提供资金，远离俄罗斯贷款或波洛莱的影响。这是一种成本，但它是一种自由的形式。通过这一举措，社会党忠实于左翼传统，提供了一个每个人的声音都重要的民主空间。 Philippe Brun、Olivier Faure、Jérôme Guedj、Ségolène Royal 和 Karim Bouamrane 等领导人正在提出鼓舞人心的建议。弗朗索瓦·奥朗德是一个重要的声音。作为社会主义共和国最后一任主席，他的经验是宝贵的，他的话是有用的。伊曼纽尔·莫雷尔 (Emmanuel Maurel) 的承诺以及政治生态学领袖雅尼克·贾多 (Yannick Jadot) 对拉斐尔·格鲁克斯曼 (Raphaël Glucksmann) 的支持预示着一个汇集左翼情感的彩虹联盟。它可以为左翼联盟的创建做出贡献。当然，要取得胜利，我们必须团结起来。我呼吁大家动员起来，为总统选举的斗争提供力量。在这次初选中，我的选择很明确：拉斐尔·格鲁克斯曼最适合体现左派的希望。他在欧洲选举中成为左翼领袖，他对国际问题的掌控对于支持乌克兰反对普京和中东两国解决方案至关重要，他对人权的坚定承诺也是如此。我们期望总统的地位能够让我们不辜负人权的家园并与世界对话。",
-        "source": "La Tribune",
-        "pub_date": "30 August 2026",
-        "auto": true,
-        "link": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/5158938475706/opinion-michael-delafosse-maire-ps-et-president-de-montpellier-mediterranee-metropole-a-la-primaire-de-la-gauche-je-soutiens-raphael-glucksmann",
-        "region": "francophonie"
       }
     ],
     "vocab": [],
-    "word_count": 1420,
+    "word_count": 966,
     "auto": true
   },
   {
@@ -1180,24 +1093,11 @@
       "Économie"
     ],
     "regions": [
-      "francophonie",
       "europe",
       "international"
     ],
-    "summary_cn": "今年夏天A400M军机真的在救火中证明了自己吗？ | 冰岛公投：钓鱼，欧盟辩论的核心红线 | 尼泊尔洪灾后的重建可能耗资 40 亿至 50 亿美元 | 从太空观察尼泊尔两个村庄致命泥石流的规模 | 喜马拉雅山洪水：搜索行动和幸存者疏散仍在继续",
+    "summary_cn": "冰岛公投：钓鱼，欧盟辩论的核心红线 | 尼泊尔洪灾后的重建可能耗资 40 亿至 50 亿美元 | 从太空观察尼泊尔两个村庄致命泥石流的规模 | 喜马拉雅山洪水：搜索行动和幸存者疏散仍在继续 | 东比利牛斯山脉终于保留了自己的名字",
     "briefs": [
-      {
-        "tag": "Actualité",
-        "title_cn": "今年夏天A400M军机真的在救火中证明了自己吗？",
-        "title": "L'avion militaire A400M a-t-il vraiment fait ses preuves dans la lutte contre les incendies cet été ?",
-        "body": "\"Une capacité équivalente à trois Canadair\" : on vous présente l'A400M, l'avion militaire transformé qui va être déployé dès samedi pour lutter contre les incendies Les syndicats de sapeurs-pompiers se montrent en tout cas très critiques sur le bilan de cet été. \"C'est une opération de com' du gouvernement pour se donner bonne conscience et montrer à l'opinion publique que la France a des moyens nouveaux pour lutter contre les feux de forêt\", estime Manuel Coullet, secrétaire général de Sud. \"L'impact opérationnel, c'est zéro. J'ai passé huit jours en Gironde sur les feux, je n'ai pas vu de largage de l'A400M\", enfonce Yaël Lecras, vice-président du Syndicat national des sapeurs-pompiers professionnels. \"On ne s'attendait pas à des miracles et effectivement, c'est un appareil qui a été utilisé seulement à quelques reprises\", confirme Xavier Tytelman, ex-aviateur militaire devenu consultant aéronautique. Les chaînes d'information en continu ont bien filmé un passage, mais le nombre exact de largages n'est pas communiqué. Sur le papier pourtant, le nouveau venu dans la flotte semble bien taillé pour affronter les incendies. Grâce au kit développé par Airbus, l'avion, habituellement utilisé par l'armée pour transporter des troupes ou du matériel, peut larguer jusqu'à 20 000 litres d'eau ou de produit retardant le feu, soit l'équivalent de trois Canadair. \"Cette nouvelle capacité vient renforcer les moyens aériens déjà engagés sur le terrain\", s'est félicité le Premier ministre, Sébastien Lecornu, après la première utilisation de l'avion. Pour remplir la vaste cuve semi-cylindrique installée dans la soute, l'appareil ne peut pas écoper en mer comme un Canadair et doit atterrir pour se recharger. Il fonctionne donc comme les Dash 8 et a d'ailleurs été utilisé sur les mêmes missions qui consistent à encercler les feux avec du produit retardant et non pas à déverser de l'eau directement sur les flammes. L'A400M est venu à la rescousse d'une flotte limitée et vieillissante, puisque la France dispose actuellement de 12 Canadair, huit Dash et 39 hélicoptères. L'appareil est d'ailleurs salué pour sa complémentarité, puisqu'il pourrait notamment servir pour des vols de nuit. \"C'est un bel avion, un super outil.",
-        "summary_cn": "“容量相当于三架加拿大航空”：我们向您展示 A400M，这是经过改造的军用飞机，将于周六部署用于灭火。无论如何，消防员工会对今年夏天的结果非常批评。南方联盟秘书长曼努埃尔·库莱表示：“这是政府的一项宣传行动，目的是澄清自己的良心，并向公众表明法国有了抗击森林火灾的新手段。” “操作影响为零。我在吉伦特省的火灾中度过了八天，我没有看到 A400M 发生任何坠落，”全国专业消防员联盟副主席 Yaël Lecras 说道。 “我们并没有期待奇迹，事实上，这个设备只使用过几次，”前军事飞行员、后来成为航空顾问的泽维尔·泰特曼 (Xavier Tytelman) 证实。连续新闻频道确实拍摄了一段视频，但没有透露具体的投放次数。然而，从表面上看，舰队中的新来者似乎非常适合面对火灾。得益于空中客车公司开发的套件，这架通常被军队用来运输部队或装备的飞机可以投放多达 20,000 升水或阻燃剂，相当于三架加拿大航空飞机。 “这种新的能力加强了已经部署在地面的航空资产，”总理塞巴斯蒂安·勒科尔努在首次使用这架飞机后表示欢迎。为了填充安装在货舱内的大型半圆柱形油箱，该设备无法像加拿大航空那样在海上跳出，必须着陆充电。因此，它的工作原理与 Dash 8 类似，并且也用于执行相同的任务，其中包括用阻燃剂包围火灾，而不是将水直接浇在火焰上。 A400M 拯救了有限且老化的机队，因为法国目前拥有 12 架加拿大航空、8 架达西和 39 架直升机。该设备还因其互补性而受到称赞，因为它尤其可以用于夜间飞行。 “这是一架漂亮的飞机，也是一个很棒的工具。",
-        "source": "France Info",
-        "pub_date": "29 August 2026",
-        "auto": true,
-        "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/l-avion-militaire-a400m-a-t-il-vraiment-fait-ses-preuves-dans-la-lutte-contre-les-incendies-cet-ete_8152205.html#xtor=RSS-3-[lestitres]",
-        "region": "francophonie"
-      },
       {
         "tag": "Actualité",
         "title_cn": "冰岛公投：钓鱼，欧盟辩论的核心红线",
@@ -1260,7 +1160,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 1706,
+    "word_count": 1359,
     "auto": true
   },
   {
@@ -1275,7 +1175,7 @@
       "europe",
       "international"
     ],
-    "summary_cn": "（新窗口）或franceinfo | 尼泊尔和西藏发生毁灭性洪水：救援工作因新泥石流的威胁而中断 | 南方特大火灾：保险公司已损失 5 亿欧元 | 2027 年总统选举：社会党重返布卢瓦，瞄准初选 | “山地海啸”如何在尼泊尔和西藏造成致命洪水",
+    "summary_cn": "（新窗口）或franceinfo | 尼泊尔和西藏发生毁灭性洪水：救援工作因新泥石流的威胁而中断 | 南方特大火灾：保险公司已损失 5 亿欧元 | “山地海啸”如何在尼泊尔和西藏造成致命洪水 | 日本央行今年夏天斥资史上最大金额试图提振日元",
     "briefs": [
       {
         "tag": "Actualité",
@@ -1315,18 +1215,6 @@
       },
       {
         "tag": "Actualité",
-        "title_cn": "2027 年总统选举：社会党重返布卢瓦，瞄准初选",
-        "title": "Présidentielle 2027 : le Parti socialiste fait sa rentrée politique à Blois, avec en ligne de mire la primaire",
-        "body": "(Nouvelle fenêtre) ou franceinfo.Sans paiement. Sans abonnement. Vous ne pouvez plus participer au liveVous avez posté un message contraire aux règles du Live avec votre compte xxxx@xxx.xxNous vous rappellons que votre participation doit se faire dans le respect de la loi, des personnes et des règles du Live que vous pouvez consulter ici :Consultez les règles du Live ,Bienvenue sur l'espace participatif du Live.Avant de commencer :Participez toujours au Live dans le respect de la loi et des personnes.Consultez les règles du LiveNous ne publions pas tous les messages afin que le Live reste lisible pour tous. Nous faisons aussi de notre mieux pour vous répondre. Participer au liveParticipez toujours dans le respect de la loi et des personnes.Écrivez votre question ou réaction350 caractères max conseillés.Photo (en option) 1.5 Mo max. Format .gif, .jpg, .jpeg, ou .png0 / 9990 sur 999 caractères Votre fichier est trop lourdLa photo n'a pu être ajoutée à votre message car le fichier est trop lourd.Veuillez réessayer avec un fichier image de moins de 1.5 Mo.",
-        "summary_cn": "（新窗口）或franceinfo。无需付款。无需订阅。您不能再参与直播您使用您的账号 xxxx@xxx.xx 发布了违反直播规则的消息。我们提醒您，您的参与必须遵守法律、人民和直播规则，您可以在这里查阅：查阅直播规则，欢迎来到直播参与空间。开始之前：始终尊重法律和人民参与直播。查阅直播规则我们不会发布所有消息，以便所有人都能阅读直播。我们也尽力回复您。参与直播 始终尊重法律和人民。写下您的问题或反应，建议最多 350 个字符。照片（可选） 最大 1.5 MB格式 .gif、.jpg、.jpeg 或 .png0 / 9990（共 999 个字符） 您的文件太大 由于文件太大，无法将照片添加到您的消息中。请使用小于 1.5 MB 的图像文件重试。",
-        "source": "France Info",
-        "pub_date": "28 August 2026",
-        "auto": true,
-        "link": "https://www.franceinfo.fr/elections/presidentielle/direct-presidentielle-2027-le-parti-socialiste-fait-sa-rentree-politique-a-blois-avec-en-ligne-de-mire-la-primaire-de-la-gauche_8166293.html#xtor=RSS-3-[lestitres]",
-        "region": "europe"
-      },
-      {
-        "tag": "Actualité",
         "title_cn": "“山地海啸”如何在尼泊尔和西藏造成致命洪水",
         "title": "Comment un «tsunami des montagnes» a provoqué la crue meurtrière au Népal et au Tibet",
         "body": "Écouter - 01:17 Un véhicule est visible au lendemain d'une crue soudaine à Devighat, dans le district de Nuwakot, au Népal, le jeudi 27 août 2026. © AP Photo/Niranjan Shrestha Par : RFI La crue dévastatrice qui a ravagé les deux côtés de la frontière montagneuse du Népal et du Tibet, faisant au moins 362 morts et plus de 1 400 disparus mercredi 26 août, a balayé des villages entiers, mais également des routes, ponts et barrages hydroélectriques, en raison d’une avalanche de roches, de glace et de débris. Le phénomène a pu être causé par l’effondrement d’un glacier, en lien avec le changement climatique. Cette espèce de « tsunami des montagnes » pourrait avoir été déclenchée par l'effondrement d'un glacier, un glissement de roche ou encore des conditions liées au changement climatique, explique depuis Katmandou le scientifique Prashant Baral à RFI : « Ce dont nous sommes certains, c'est qu'une énorme masse de débris, de roches et de glace s'est détachée du glacier et a temporairement obstrué le lit de la rivière, explique le responsable du Centre international pour le développement intégré des montagnes. Ensuite ce barrage naturel a cédé, ce qui a entraîné une vague de boue et de débris en aval. Cela a affecté les habitations et les infrastructures situées en dessous. Et tout cela s’est produit en très peu de temps. » Même son de cloche du côté d’autres experts : « Un glacier est effectivement à l'origine de cette catastrophe, confirme Etienne Berthier, glaciologue. C'est un glacier qui s'est écroulé dans une vallée. Mais ce que montrent nos dernières données, c'est que tout un pan de montagne s'est écroulé. Un bloc de montagne entier, sur lequel se trouvait un glacier. C'est l'explication dramatique de cette catastrophe, parce que cette glace va apporter l'eau qui va rendre la coulée extrêmement fluide et liquide.",
@@ -1351,7 +1239,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 1402,
+    "word_count": 1231,
     "auto": true
   },
   {
@@ -1367,7 +1255,7 @@
       "international",
       "francophonie"
     ],
-    "summary_cn": "尼泊尔致命洪水：尼泊尔警方最新临时报告称，这场灾难造成至少 359 人死亡 | 尼泊尔和西藏特大洪水：救援队搜寻1300多名失踪人员 | 爱德华·菲利普希望将失业救济期限缩短至 12 个月：这就是法国在欧洲的地位 | “这是竞选活动的开始”：为什么梅德夫与七位总统候选人组织的辩论对每个阵营都具有战略意义 | “只剩下一堆石头”：尼泊尔发生致命洪水后，失踪者亲属陷入痛苦之中",
+    "summary_cn": "尼泊尔致命洪水：尼泊尔警方最新临时报告称，这场灾难造成至少 359 人死亡 | 尼泊尔和西藏特大洪水：救援队搜寻1300多名失踪人员 | 爱德华·菲利普希望将失业救济期限缩短至 12 个月：这就是法国在欧洲的地位 | “只剩下一堆石头”：尼泊尔发生致命洪水后，失踪者亲属陷入痛苦之中 | 为什么 Nvidia 提供 Hugging Face，它是 AI 生态系统中的重要一环",
     "briefs": [
       {
         "tag": "Actualité",
@@ -1407,18 +1295,6 @@
       },
       {
         "tag": "Actualité",
-        "title_cn": "“这是竞选活动的开始”：为什么梅德夫与七位总统候选人组织的辩论对每个阵营都具有战略意义",
-        "title": "\"C'est le lancement de la campagne\" : pourquoi le débat organisé par le Medef avec sept candidats à la présidentielle s'annonce stratégique pour chaque camp",
-        "body": "Temps de lecture : 6min Les sept principaux candidats déclarés à la présidentielle débattront, le 27 août 2026, lors de l'université d'été du Medef, à Paris. (APOLLONIA HILVERDA / MAXPP / AFP / FRANCEINFO) Les balles risquent de fuser sur le court Philippe-Chatrier. Le célèbre central de Roland-Garros s'apprête à accueillir, jeudi 27 août, à partir de 16h45, non pas des champions de tennis, mais les sept principaux candidats déclarés à l'élection présidentielle. Gabriel Attal (Renaissance), Raphaël Glucksmann (Place publique), Jean-Luc Mélenchon (LFI), Edouard Philippe (Horizons), Bruno Retailleau (LR) Marine Tondelier (Les Ecologistes) et Marine Le Pen (RN) doivent participer à un débat sur les sujets économiques, organisé par le Mouvement des entreprises de France (Medef) à l'occasion de son université d'été. \"L'idée de cette plénière de clôture est de confronter les candidats aux attentes concrètes des chefs d'entreprise\", fait savoir l'entourage de Patrick Martin, le président de l'organisation patronale. \"L'idée\" de cette rencontre, en revanche, n'est pas \"qu'ils se tapent dessus\", assure le patronat. Durant près de deux heures, les prétendants à la succession d'Emmanuel Macron devront notamment réagir aux résultats de la consultation de plus de 66 000 chefs d'entreprise sur leurs espoirs pour le prochain quinquennat. Pour cela, ils seront interrogés par cinq dirigeants d'entreprise, parmi lesquels Eric Malenfer, qui sera en charge des questions sur la dette et le déficit. Le président de Gexpertise attend que les candidats \"répondent factuellement, de manière chiffrée et temporisée, à nos questions\". Mais, ajoute-t-il aussitôt, \"il paraît que les promesses n'engagent que ceux qui les croient\". Presque fataliste, il embraye : \"Le timing ne permet pas de traiter les sujets dans le fond, c'est donc plus un exercice médiatique que de fond.\" Les équipes des candidats savent que ce débat, diffusé en direct sur LCI, sera particulièrement scruté : c'est la première fois que les principaux prétendants à la fonction suprême ont l'occasion de débattre de façon aussi précoce dans une campagne présidentielle. \"C'est le lancement de la campagne. Ils vont être tous ensemble interrogés sur des sujets importants\", lance l'entourage de Bruno Retailleau.",
-        "summary_cn": "阅读时间：6分钟 宣布参加总统选举的七位主要候选人将于2026年8月27日在巴黎梅德夫暑期学校期间进行辩论。 （APOLLONIA HILVERDA / MAXPP / 法新社 / FRANCEINFO） Philippe-Chatrier 球场上的球有飞扬的危险。著名的法国网球公开赛中心正准备迎接8月27日星期四下午4点45分，迎接的不是网球冠军，而是宣布参加总统选举的七位主要候选人。 Gabriel Attal（文艺复兴）、Raphaël Glucksmann（公共广场）、Jean-Luc Mélenchon（LFI）、Edouard Philippe（Horizo​​ns）、Bruno Retailleau（LR）、Marine Tondelier（生态学家）和 Marine Le Pen（RN）必须参加由法国公司运动（Medef）在暑期大学期间组织的经济主题辩论。雇主组织主席帕特里克·马丁的随行人员表示：“这次闭幕全体会议的目的是让候选人面对商界领袖的具体期望。”另一方面，雇主们向我们保证，这次会议的“想法”并不是“他们互相攻击”。在近两个小时的时间里，埃马纽埃尔·马克龙(Emmanuel Macron)继任者的竞争者将不得不对66,000多名商界领袖就下一个五年任期的希望进行的磋商结果做出反应。为此，他们将接受五位商界领袖的质询，其中包括埃里克·马伦弗（Eric Malenfer），他将负责债务和赤字问题。 Gexpertise 总裁希望候选人“以量化和及时的方式如实回答我们的问题”。但是，他立即补充道，“看来承诺只会约束那些相信它们的人。”他几乎是宿命地开始说道：“时机不允许我们深入讨论这些主题，因此这更像是一种媒体活动，而不是实质性活动。”候选人团队知道，这场在 LCI 上现场直播的辩论将受到特别关注：这是最高职位的主要竞争者第一次有机会在总统竞选中如此早地进行辩论。 “这是该活动的启动仪式。他们将一起接受有关重要话题的质询，”布鲁诺·雷特尔洛 (Bruno Retailleau) 的随从说道。",
-        "source": "France Info",
-        "pub_date": "27 August 2026",
-        "auto": true,
-        "link": "https://www.franceinfo.fr/elections/presidentielle/c-est-le-lancement-de-la-campagne-pourquoi-le-debat-organise-par-le-medef-avec-sept-candidats-a-la-presidentielle-s-annonce-strategique-pour-chaque-camp_8162018.html#xtor=RSS-3-[lestitres]",
-        "region": "europe"
-      },
-      {
-        "tag": "Actualité",
         "title_cn": "“只剩下一堆石头”：尼泊尔发生致命洪水后，失踪者亲属陷入痛苦之中",
         "title": "«Il ne reste plus qu’un tas de pierres»: après la crue meurtrière au Népal, les proches de disparus dans l'angoisse",
         "body": "Écouter - 01:10 Des secouristes utilisent un engin de terrassement pour mettre en sécurité une victime d'une crue soudaine le long de la rivière Trishuli, mercredi 26 août 2026, dans le district de Nuwakot, au Népal. AP Photo/Niranjan Shrestha - Niranjan Shrestha Par : RFI Sunil Tamang n'a pas décollé les yeux de son téléphone depuis deux jours. Engourdi par la fatigue et la tristesse, le doctorant népalais guette depuis la Nouvelle-Zélande le moindre signe de vie numérique de ses amis. Ceux avec qui il a grandi, dans le village de Syafru Besi. « Sur Facebook, tout ce que je vois, c'est qu'ils se sont connectés il y a des heures, s’inquiète Sunil Tamang. On est sans nouvelles de nombreux proches, dont mon oncle. On pense qu'ils ne sont plus parmi nous. » Le village de Syafru Besi est niché dans une vallée étroite, sur les rives de la rivière Bhote Koshi : une centaine de familles y habitaient. « Ce n'est plus une localité. Il ne reste plus qu'un tas de pierres, c'est horrible, déplore le doctorant. À mesure que j'en apprends plus, je me rends compte qu'il y a bien plus de morts que de survivants. » Les crues sont fréquentes dans sa région natale. Déjà en 2015, un village plus au nord avait été rasé. Mais selon lui, leur fréquence et intensité augmentent : « Les glissements de terrain se sont multipliés. On n'a pas un suivi suffisant, uniquement des systèmes d'alerte. Les gens de la montagne savent qu'il y a des risques de crues, mais personne ne s'attendait à une avalanche équivalente à un immeuble de 20 étages. » Un véhicule est visible au lendemain d'une crue soudaine à Devighat, dans le district de Nuwakot, au Népal. Jeudi 27 août 2026. AP Photo/Niranjan Shrestha - Niranjan Shrestha La crue a causé au moins 359 morts côté népalais, selon les autorités, qui restent sans nouvelle de plus de 800 autres, dont des habitants de cette zone rurale, mais aussi de nombreux touristes étrangers venus randonner sur les pentes de l'Himalaya.",
@@ -1443,7 +1319,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 1668,
+    "word_count": 1324,
     "auto": true
   },
   {
@@ -1457,7 +1333,7 @@
       "international",
       "europe"
     ],
-    "summary_cn": "乡村音乐偶像多莉·帕顿去世，享年 80 岁 | 叙利亚：库尔德武装领导人正式宣布解散 | 薪资透明：文本发布日期终于知晓 | 2026 年重返校园：国家教育部长表示：“我们需要的不是一项改革，而是一个方向” | 美国乡村音乐偶像多莉帕顿去世，享年80岁",
+    "summary_cn": "乡村音乐偶像多莉·帕顿去世，享年 80 岁 | 叙利亚：库尔德武装领导人正式宣布解散 | 薪资透明：文本发布日期终于知晓 | 美国乡村音乐偶像多莉帕顿去世，享年80岁 | 《塞尔吉》中的《龙珠》：这些亚洲系列可以比悟空更强",
     "briefs": [
       {
         "tag": "Actualité",
@@ -1497,18 +1373,6 @@
       },
       {
         "tag": "Actualité",
-        "title_cn": "2026 年重返校园：国家教育部长表示：“我们需要的不是一项改革，而是一个方向”",
-        "title": "Rentrée scolaire 2026 : \"Ce n'est pas d'une réforme de plus dont nous avons besoin, mais d'un cap\", affirme le ministre de l'Education nationale",
-        "body": "Temps de lecture : 3min Le ministre de l'Education nationale, Edouard Geffray, lors de sa conférence de presse de rentrée au lycée Arago, à Paris, le 25 août 2026. (LOU BENOIST / AFP) \"Cette année, je voudrais faire un peu différemment, il n'y aura pas de réforme Geffray.\" Le ministre de l'Education nationale, Edouard Geffray, a tenu sa traditionnelle conférence de presse de rentrée, mardi 25 août, non pas au ministère comme il est d'usage, mais depuis le lycée Arago, dans le 12e arrondissement de Paris. Habituellement, cet exercice peut aussi être l'occasion, pour le ministre en poste, de dérouler des annonces pour l'année scolaire à venir. \"Ce n'est pas d'une réforme de plus dont nous avons besoin, mais d'un cap\", avec des priorités \"tenues dans la durée\", a-t-il insisté, au côté de Sabrina Roubache, ministre déléguée chargée de l'Enseignement et de la Formation professionnels et de l'Apprentissage. \"Je ne suis pas un grand fan des effets d'annonce et je préfère les engagements.\" \"Ma responsabilité, en tant que ministre, c'est de donner à l'école une vision.\" lors de sa conférence de presse de rentrée Parmi les priorités d'Edouard Geffray pour l'école : \"instruire\", \"unir\", mais aussi \"protéger\". Il est notamment revenu sur la distribution nouvelle, en novembre, d'un questionnaire sur les violences sexistes et sexuelles, à l'intérieur d'un questionnaire sur le harcèlement. \"Nous avons un devoir de libérer la parole. Chaque élève de France [de la grande section à la terminale] pourra s'exprimer sur les violences dont il aurait pu être victime\", a affirmé le ministre. Selon lui, \"88 000 informations préoccupantes ou saisines de la justice\" ont été émises par l'Education nationale l'année dernière, \"contre 55 000 il y a trois ans\". Plusieurs nouveautés pour l'école avaient déjà été communiquées avant les vacances d'été puis dans la presse régionale, lundi, comme l'introduction d'un cours d'éducation financière pour tous les élèves de 4e, la création d'un concours général des collèges ou l'interdiction confirmée du téléphone au lycée.",
-        "summary_cn": "阅读时间：3 分钟 2026 年 8 月 25 日，国民教育部长爱德华·杰弗雷 (Edouard Geffray) 在巴黎阿拉戈高中举行的返校新闻发布会上。（LOU BENOIST / 法新社）“今年，我想采取一些不同的做法，不会有杰弗雷改革。” 8 月 25 日星期二，国家教育部长爱德华·杰弗雷 (Edouard Geffray) 举行了传统的返校新闻发布会，但这次发布会不是按照惯例在教育部举行，而是在巴黎第 12 区的阿拉戈高中举行。通常，这项活动也可以成为在任部长宣布下一学年的一个机会。他与负责职业教育、培训和学徒制度的部长级代表萨布丽娜·鲁巴什 (Sabrina Roubache) 一起坚称，“我们需要的不是又一项改革，而是一个方向”，优先事项“长期保留”。 “我不太喜欢宣布效应，我更喜欢承诺。” “作为部长，我的责任是为学校提供一个愿景。”在返校新闻发布会上，爱德华·杰弗雷（Edouard Geffray）对学校的首要任务是：“指导”、“团结”，但也有“保护”。值得注意的是，他在 11 月份重新分发了一份关于性别暴力和性暴力的调查问卷，其中包含一份关于骚扰的调查问卷。 “我们有责任维护言论自由。法国的每个学生（从主要部分到最后一年）都将能够表达自己可能成为受害者的暴力行为，”部长说。据他介绍，去年国家教育部发布了“88,000份有关信息或司法转介”的信息，“而三年前为55,000份”。学校的几项新进展已经在暑假前公布，然后在周一在地区媒体上公布，例如为所有四年级学生推出金融教育课程、举办普通中学竞赛或确认在高中禁止使用电话。",
-        "source": "France Info",
-        "pub_date": "25 August 2026",
-        "auto": true,
-        "link": "https://www.franceinfo.fr/france/rentree/rentree-scolaire-2026-ce-n-est-pas-d-une-reforme-de-plus-dont-nous-avons-besoin-mais-d-un-cap-affirme-le-ministre-de-l-education-nationale_8160653.html#xtor=RSS-3-[lestitres]",
-        "region": "europe"
-      },
-      {
-        "tag": "Actualité",
         "title_cn": "美国乡村音乐偶像多莉帕顿去世，享年80岁",
         "title": "Dolly Parton, idole américaine de la musique country, est morte à l'âge de 80 ans",
         "body": "Dolly Parton se produit lors d'un événement le lundi 14 août 2023, à Overland Park, Kansas, États-Unis. AP - Charlie Riedel Par : Bastien Brun Dolly Parton, légende américaine de la musique country, est décédée à l'âge de 80 ans, a annoncé sa famille ce mardi 25 août 2026. « Ma famille et moi avons partagé toute une vie de beaux souvenirs avec Dolly, mais vous aussi. Elle a toujours été présente sur votre télévision, votre tourne-disque, vos CD ou dans la playlist de votre téléphone, devenant ainsi un membre à part entière de votre famille », a déclaré son neveu dans une vidéo publiée sur le compte X de la star, que l'on savait malade depuis un certain temps. Citant des représentants de l'artiste, les médias américains ont précisé, un peu plus tard dans la journée, qu'elle était décédée après « un bref combat contre le cancer ». À première vue, Dolly Parton était cette chanteuse à la chevelure platine et aux ongles interminables, qui avait quelque peu forcé sur la chirurgie esthétique. Mais cette image volait en éclats dès que ce petit bout de femme apparaissait sur scène ou prenait la parole. « La magie, c’est que j’ai l’air artificielle mais je suis totalement vraie, confiait-elle au journal USA Today en 2020 (*). Les gens peuvent le voir. Ils me pardonnent d'être tape-à-l'œil. Ils me pardonnent de ne pas être élégante. Ils me pardonnent de ne pas être aussi intelligente que des gens éduqués. Je veux qu’ils me voient. Je ne suis pas timide. » Quatrième d’une fratrie de douze enfants, la fille originaire du Tennessee est née le 19 janvier 1946 dans une famille très pauvre. Elle grandit au pied des Appalaches entre un père cultivateur de tabac et une mère au foyer. C’est un oncle, Bill Owens, qui lui apprend la guitare et la pousse très jeune sur scène. La jeune Dolly chante pour la télé locale. À 13 ans, elle est présentée par Johnny Cash au Grand Ole Opry, une importante émission de radio country.",
@@ -1533,7 +1397,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 1721,
+    "word_count": 1394,
     "auto": true
   },
   {
@@ -1547,7 +1411,7 @@
       "international",
       "europe"
     ],
-    "summary_cn": "龙珠主题、建设工期、工作岗位……关于巴黎附近一处游乐园项目的三个问题这三个公园将在同一地点 | “自迪士尼乐园以来从未见过”：法国和沙特阿拉伯将在巴黎附近建造三个游乐园 | Livret A：提款六个月后，7月存入8000万欧元 | 支持、民意调查、计划……正在发起 2027 年总统选举竞选活动的拉斐尔·格鲁克斯曼 (Ra | 索菲·阿德诺首次离开国际空间站一周后返回太空",
+    "summary_cn": "龙珠主题、建设工期、工作岗位……关于巴黎附近一处游乐园项目的三个问题这三个公园将在同一地点 | “自迪士尼乐园以来从未见过”：法国和沙特阿拉伯将在巴黎附近建造三个游乐园 | Livret A：提款六个月后，7月存入8000万欧元 | 索菲·阿德诺首次离开国际空间站一周后返回太空 | 卓越纤维：奥克西塔尼地区和实业家对圣高登斯工厂提出新的收购要约",
     "briefs": [
       {
         "tag": "Actualité",
@@ -1586,18 +1450,6 @@
         "region": "europe"
       },
       {
-        "tag": "Actualité",
-        "title_cn": "支持、民意调查、计划……正在发起 2027 年总统选举竞选活动的拉斐尔·格鲁克斯曼 (Ra",
-        "title": "Raphaël Glucksmann, Ségolène Royal... Qui sont (à ce stade) les candidats à la primaire socialiste pour la présidentielle 2027 ?",
-        "body": "Soutiens, sondages, programme… Sur quoi s'appuie la candidature de Raphaël Glucksmann, qui lance sa campagne pour la présidentielle 2027 ? Ségolène Royal, Jérôme Guedj, Philippe Brun, Olivier Faure... Franceinfo fait le tour des candidats déjà déclarés et ceux pressentis pour prendre part à ce scrutin d'une partie de la gauche. Raphaël Glucksmann a crevé l'abcès dimanche. \"Si je suis candidat aujourd'hui, c'est pour relever la France (...) Je me prépare depuis des mois\", a déclaré l'eurodéputé, réaffirmant sa vive hostilité à La France insoumise (LFI) \"avec qui il n'y aura plus jamais d'accord si je gagne la primaire\". Ségolène Royal a créé la surprise en faisant savoir, le 10 juillet, qu'elle comptait participer à la primaire socialiste. \"Je prends cette initiative avec humilité, sans ego, et sans posture de supériorité, comme on en voit trop. Pour servir, en étant à l’écoute, avec discernement, expérimentée et respectueuse des différences de points de vue\", a annoncé la finaliste de l'élection présidentielle 2007, battue par Nicolas Sarkozy au second tour. Jérôme Guedj, député PS de l'Essonne, a été le premier socialiste à se déclarer candidat à la présidentielle, dès février. Après avoir entretenu le flou sur sa participation à la primaire, il a lui aussi clarifié sa position dimanche : \"Je prendrai toute ma place dans cette primaire\", a-t-il déclaré à La Tribune dimanche, souhaitant s'adresser aux \"orphelins d'une gauche républicaine\". Philippe Brun, député PS de l'Eure, a quant à lui officialisé sa candidature fin juin. Le parlementaire de 34 ans compte \"porter une ligne populaire\", en se vantant d'être \"le seul à parler de salaire\". Olivier Faure, le numéro un du Parti socialiste, n'a pas encore fait savoir s'il était candidat à la primaire. \"La vraie question qu'il faut se poser à gauche est la suivante : qui est capable de rassembler et donc de gagner au second tour de la présidentielle ?\", a déclaré le patron du PS samedi, lors de son passage aux journées d'été des Ecologistes à Grenoble. Fragilisé par des \"divisions internes\", le député de Seine-et-Marne maintient le suspense car il ne souhaite pas \"rejouer les gauches irréconciliables\".",
-        "summary_cn": "支持、民意调查、计划……正在发起 2027 年总统选举竞选活动的拉斐尔·格鲁克斯曼 (Raphaël Glucksmann) 的候选资格是基于什么？ Ségolène Royal、Jérôme Guedj、Philippe Brun、Olivier Faure...Franceinfo 审视了已经宣布的候选人以及预计将参加本次选举的左翼人士。拉斐尔·格鲁克斯曼于周日破除脓肿。欧洲议会议员宣称：“如果我今天是一名候选人，那就是为了复兴法国……我已经准备了几个月了。”他重申了他对法国不苏米斯（LFI）的强烈敌意，“如果我赢得初选，他们将永远不会再与他们达成协议”。 7 月 10 日，塞戈莱娜·罗亚尔宣布她打算参加社会主义初选，制造了一个惊喜。 “我以谦逊的态度采取这一举措，没有自负，也没有高人一等的姿态，正如我们看到的太多。通过倾听、洞察力、经验丰富和尊重观点差异来服务，”2007年总统选举的决赛选手宣布，他在第二轮中被尼古拉·萨科齐击败。埃松省社会党代表热罗姆·盖吉（Jérôme Guedj）是二月份第一位宣布自己为总统候选人的社会党人。在保持对参加初选的含糊态度后，他还在周日澄清了自己的立场：“我将在这次初选中占据一席之地”，他周日向《论坛报》宣布，希望向“共和党左派的孤儿”发表讲话。厄尔省党议员菲利普·布伦 (Philippe Brun) 于六月底正式确定了自己的候选资格。这位34岁的议员打算“走大众路线”，自诩是“唯一一个谈论工资的人”。社会党第一党魁奥利维耶·福尔尚未宣布他是否是初选候选人。 “左派必须问的真正问题是：谁有能力团结起来并在第二轮总统选举中获胜？”周六，《社会党》老板在访问格勒诺布尔的生态学家夏季活动期间说道。由于“内部分歧”的削弱，塞纳-马恩省代表保留了悬念，因为他不想“重演不可调和的左派”。",
-        "source": "France Info",
-        "pub_date": "24 August 2026",
-        "auto": true,
-        "link": "https://www.franceinfo.fr/elections/presidentielle/raphael-glucksmann-segolene-royal-qui-sont-a-ce-stade-les-candidats-a-la-primaire-socialiste-pour-la-presidentielle-2027_8159171.html#xtor=RSS-3-[lestitres]",
-        "region": "europe"
-      },
-      {
         "tag": "Technologie",
         "title_cn": "索菲·阿德诺首次离开国际空间站一周后返回太空",
         "title": "Une semaine après sa première sortie hors de l'ISS, Sophie Adenot retourne dans l'espace",
@@ -1623,7 +1475,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 1872,
+    "word_count": 1522,
     "auto": true
   },
   {
@@ -1636,20 +1488,8 @@
       "europe",
       "francophonie"
     ],
-    "summary_cn": "支持、民意调查、计划……正在发起 2027 年总统选举竞选活动的拉斐尔·格鲁克斯曼 (Ra | 英国：这段显示警察拦截小偷的视频并不真实 | 2027年预算：政府驳斥了任何空白年度的计划，但为富有的退休人员的努力敞开了大门 | 菲利普·布瓦尔之死：模仿者洛朗·杰拉向一位“迷人”的人致敬 | 法国：干旱导致历史性马铃薯危机",
+    "summary_cn": "英国：这段显示警察拦截小偷的视频并不真实 | 2027年预算：政府驳斥了任何空白年度的计划，但为富有的退休人员的努力敞开了大门 | 菲利普·布瓦尔之死：模仿者洛朗·杰拉向一位“迷人”的人致敬 | 法国：干旱导致历史性马铃薯危机 | 绿色产业税收抵免扩大并重点关注四个重点行业",
     "briefs": [
-      {
-        "tag": "Actualité",
-        "title_cn": "支持、民意调查、计划……正在发起 2027 年总统选举竞选活动的拉斐尔·格鲁克斯曼 (Ra",
-        "title": "Raphaël Glucksmann, Ségolène Royal... Qui sont (à ce stade) les candidats à la primaire socialiste pour la présidentielle 2027 ?",
-        "body": "Soutiens, sondages, programme… Sur quoi s'appuie la candidature de Raphaël Glucksmann, qui lance sa campagne pour la présidentielle 2027 ? Ségolène Royal, Jérôme Guedj, Philippe Brun, Olivier Faure... Franceinfo fait le tour des candidats déjà déclarés et ceux pressentis pour prendre part à ce scrutin d'une partie de la gauche. Raphaël Glucksmann a crevé l'abcès dimanche. \"Si je suis candidat aujourd'hui, c'est pour relever la France (...) Je me prépare depuis des mois\", a déclaré l'eurodéputé, réaffirmant sa vive hostilité à La France insoumise (LFI) \"avec qui il n'y aura plus jamais d'accord si je gagne la primaire\". Ségolène Royal a créé la surprise en faisant savoir, le 10 juillet, qu'elle comptait participer à la primaire socialiste. \"Je prends cette initiative avec humilité, sans ego, et sans posture de supériorité, comme on en voit trop. Pour servir, en étant à l’écoute, avec discernement, expérimentée et respectueuse des différences de points de vue\", a annoncé la finaliste de l'élection présidentielle 2007, battue par Nicolas Sarkozy au second tour. Jérôme Guedj, député PS de l'Essonne, a été le premier socialiste à se déclarer candidat à la présidentielle, dès février. Après avoir entretenu le flou sur sa participation à la primaire, il a lui aussi clarifié sa position dimanche : \"Je prendrai toute ma place dans cette primaire\", a-t-il déclaré à La Tribune dimanche, souhaitant s'adresser aux \"orphelins d'une gauche républicaine\". Philippe Brun, député PS de l'Eure, a quant à lui officialisé sa candidature fin juin. Le parlementaire de 34 ans compte \"porter une ligne populaire\", en se vantant d'être \"le seul à parler de salaire\". Olivier Faure, le numéro un du Parti socialiste, n'a pas encore fait savoir s'il était candidat à la primaire. \"La vraie question qu'il faut se poser à gauche est la suivante : qui est capable de rassembler et donc de gagner au second tour de la présidentielle ?\", a déclaré le patron du PS samedi, lors de son passage aux journées d'été des Ecologistes à Grenoble. Fragilisé par des \"divisions internes\", le député de Seine-et-Marne maintient le suspense car il ne souhaite pas \"rejouer les gauches irréconciliables\".",
-        "summary_cn": "支持、民意调查、计划……正在发起 2027 年总统选举竞选活动的拉斐尔·格鲁克斯曼 (Raphaël Glucksmann) 的候选资格是基于什么？ Ségolène Royal、Jérôme Guedj、Philippe Brun、Olivier Faure...Franceinfo 审视了已经宣布的候选人以及预计将参加本次选举的左翼人士。拉斐尔·格鲁克斯曼于周日破除脓肿。欧洲议会议员宣称：“如果我今天是一名候选人，那就是为了复兴法国……我已经准备了几个月了。”他重申了他对法国不苏米斯（LFI）的强烈敌意，“如果我赢得初选，他们将永远不会再与他们达成协议”。 7 月 10 日，塞戈莱娜·罗亚尔宣布她打算参加社会主义初选，制造了一个惊喜。 “我以谦逊的态度采取这一举措，没有自负，也没有高人一等的姿态，正如我们看到的太多。通过倾听、洞察力、经验丰富和尊重观点差异来服务，”2007年总统选举的决赛选手宣布，他在第二轮中被尼古拉·萨科齐击败。埃松省社会党代表杰罗姆·盖吉（Jérôme Guedj）是二月份第一位宣布自己为总统候选人的社会党人。在保持对参加初选的含糊态度后，他还在周日澄清了自己的立场：“我将在这次初选中占据一席之地”，他周日向《论坛报》宣布，希望向“共和党左派的孤儿”发表讲话。厄尔省党议员菲利普·布伦 (Philippe Brun) 于六月底正式确定了自己的候选资格。这位34岁的议员打算“走大众路线”，自诩是“唯一一个谈论工资的人”。社会党第一党魁奥利维耶·福尔尚未宣布他是否是初选候选人。 “左派必须问的真正问题是：谁有能力团结起来并在第二轮总统选举中获胜？”周六，《社会党》老板在格勒诺布尔参观《生态学家夏季》期间说道。由于“内部分歧”的削弱，塞纳-马恩省代表保留了悬念，因为他不想“重演不可调和的左派”。",
-        "source": "France Info",
-        "pub_date": "24 August 2026",
-        "auto": true,
-        "link": "https://www.franceinfo.fr/elections/presidentielle/raphael-glucksmann-segolene-royal-qui-sont-a-ce-stade-les-candidats-a-la-primaire-socialiste-pour-la-presidentielle-2027_8159171.html#xtor=RSS-3-[lestitres]",
-        "region": "europe"
-      },
       {
         "tag": "Actualité",
         "title_cn": "英国：这段显示警察拦截小偷的视频并不真实",
@@ -1712,7 +1552,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 1937,
+    "word_count": 1587,
     "auto": true
   },
   {
@@ -1725,11 +1565,9 @@
     "regions": [
       "francophonie",
       "europe",
-      "etats-unis",
-      "international",
-      "chine"
+      "etats-unis"
     ],
-    "summary_cn": "[Le Figaro] Ver | [Numerama] Cybe | [Le Monde] Prés | [Le Monde] Quan | [Le Monde] « Me",
+    "summary_cn": "[Le Figaro] Ver | [Numerama] Cybe | [Le Monde] Quan | [Le Monde] « Me | [Challenges] Re | [Le Monde] Cris | [Le Monde] Au P",
     "briefs": [
       {
         "tag": "Technologie",
@@ -1751,17 +1589,6 @@
         "pub_date": "22 August 2026",
         "auto": true,
         "link": "https://www.numerama.com/pop-culture/2028387-cyberpunk-edgerunners-2-sur-netflix-sortie-episodes-histoire-tout-savoir-sur-la-suite.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "[Le Monde] Prés",
-        "title": "Présidentielle 2027",
-        "body": "Les Entrepreneurs (ex-CPME) et le Medef appellent à placer l’économie et la création de richesse au cœur du débat présidentiel, sur fond d’inquiétudes concernant la dette et les finances publiques.",
-        "source": "Le Monde",
-        "pub_date": "22 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/08/22/presidentielle-2027-les-patrons-appellent-a-placer-l-economie-au-c-ur-du-debat_6753645_3234.html",
         "region": "europe"
       },
       {
@@ -1799,28 +1626,6 @@
       },
       {
         "tag": "Culture",
-        "title_cn": "[Le Monde] « Uk",
-        "title": "« Ukraine, la culture en guerre », sur Public Sénat",
-        "body": "Dès l’invasion russe du 24 février 2022, monuments, musées et biens culturels ont été pris pour cible. Le réalisateur Thomas Raguet est parti à la rencontre de ceux et celles qui se battent pour sauver l’art ukrainien et documenter ces destructions.",
-        "source": "Le Monde",
-        "pub_date": "22 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/culture/article/2026/08/22/ukraine-la-culture-en-guerre-sur-public-senat-comment-l-armee-de-poutine-tente-de-tuer-l-ame-d-une-nation_6753470_3246.html",
-        "region": "international"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "[Challenges] Co",
-        "title": "Considéré comme une « compagnie militaire chinoise » aux",
-        "body": "Près de + 500 % à la Bourse de Shanghai. C’est la performance que signe Unitree, géant chinois spécialisé dans la fabrication de robots humanoïdes. Poussée par la stratégie gouvernementale, la société crée en 2016 enregistre une forte croissance.",
-        "source": "Challenges",
-        "pub_date": "19 August 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/tech-numerique/considere-comme-une-compagnie-militaire-chinoise-aux-etats-unis-le-fabricant-de-robots-humanoides-unitree-senvole-en-bourse_645276",
-        "region": "chine"
-      },
-      {
-        "tag": "Culture",
         "title_cn": "[Le Monde] Cris",
         "title": "Cristian Mungiu, réalisateur de « Fjord »",
         "body": "Le cinéaste roumain revient, dans un entretien au « Monde », sur son septième long-métrage, pour lequel il a reçu une deuxième Palme d’or au 79ᵉ Festival de Cannes après « 4 mois, 3 semaines, 2 jours », en 2007.",
@@ -1843,7 +1648,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 385,
+    "word_count": 275,
     "auto": true
   },
   {
@@ -1855,11 +1660,11 @@
     ],
     "regions": [
       "europe",
-      "francophonie",
       "etats-unis",
-      "chine"
+      "chine",
+      "francophonie"
     ],
-    "summary_cn": "漫威正式重命名《复仇者联盟 V | “短缺是前所未有的 | 2027 年将是星球大战的重要 | “复古”游戏机成功的背后是非法 | Fortnite、紧张的比赛和",
+    "summary_cn": "漫威正式重命名《复仇者联盟 V | “短缺是前所未有的 | 2027 年将是星球大战的重要 | “复古”游戏机成功的背后是非法 | Fortnite、紧张的比赛和 | 被吞没 | 尽管大肆宣传 | Reddit 能在人工智能时代 | 迈克尔2，官方宣布这部电影将讨 | “如果债务比率上升",
     "briefs": [
       {
         "tag": "Culture",
@@ -1987,10 +1792,9 @@
       "francophonie",
       "europe",
       "etats-unis",
-      "chine",
       "international"
     ],
-    "summary_cn": "Fortnite、紧张的比赛和 | 阿纳金、帕德梅、欧比旺、梅斯海 | 美国财政部长斯科特·贝森特 ( | 被视为“中国军事公司” | 关于电影《百分之十》您需要了解",
+    "summary_cn": "Fortnite、紧张的比赛和 | 阿纳金、帕德梅、欧比旺、梅斯海 | 美国财政部长斯科特·贝森特 ( | 关于电影《百分之十》您需要了解 | Moderna 因其承诺的有效 | 关于人工智能泡沫的警报 | “在军营里，我们不习惯说我们的 | 送货机器人很快就会出现在我们的 | 雷迪夫·帕纳约蒂斯·帕斯科特 | 缺乏预算和扩展的特别法",
     "briefs": [
       {
         "tag": "Technologie",
@@ -2024,17 +1828,6 @@
         "auto": true,
         "link": "https://www.lemonde.fr/economie/article/2026/08/21/scott-bessent-le-secretaire-americain-au-tresor-se-croit-capable-de-defier-la-toute-puissance-des-marches-obligataires_6751496_3234.html",
         "region": "etats-unis"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "被视为“中国军事公司”",
-        "title": "Considéré comme une « compagnie militaire chinoise » aux",
-        "body": "Près de + 500 % à la Bourse de Shanghai. C’est la performance que signe Unitree, géant chinois spécialisé dans la fabrication de robots humanoïdes. Poussée par la stratégie gouvernementale, la société crée en 2016 enregistre une forte croissance.",
-        "source": "Challenges",
-        "pub_date": "19 August 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/tech-numerique/considere-comme-une-compagnie-militaire-chinoise-aux-etats-unis-le-fabricant-de-robots-humanoides-unitree-senvole-en-bourse_645276",
-        "region": "chine"
       },
       {
         "tag": "Culture",
@@ -2115,7 +1908,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 457,
+    "word_count": 418,
     "auto": true
   },
   {
@@ -2128,11 +1921,9 @@
     "regions": [
       "francophonie",
       "europe",
-      "chine",
-      "etats-unis",
       "international"
     ],
-    "summary_cn": "功夫、舞蹈和 45 公里/小时 | 顺便问一下，詹姆斯·冈恩的神奇 | 巴黎 Samusocial 的 | 被视为“中国军事公司” | 《泰勒·雷克 3》招募了最佳詹",
+    "summary_cn": "功夫、舞蹈和 45 公里/小时 | 顺便问一下，詹姆斯·冈恩的神奇 | 巴黎 Samusocial 的 | 《泰勒·雷克 3》招募了最佳詹 | 关于人工智能泡沫的警报 | 泰勒·谢里丹取消颇具争议的黄石 | “我正在锯我所在的树枝 | 送货机器人很快就会出现在我们的 | 沙丘 3：如果你没有看到它 | [Le Monde] « Qu",
     "briefs": [
       {
         "tag": "Technologie",
@@ -2166,17 +1957,6 @@
         "auto": true,
         "link": "https://www.lemonde.fr/societe/article/2026/08/20/la-greve-au-samusocial-de-paris-a-pris-fin-apres-cinquante-sept-jours-de-mobilisation-et-des-avancees-importantes-selon-la-cgt_6750336_3224.html",
         "region": "europe"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "被视为“中国军事公司”",
-        "title": "Considéré comme une « compagnie militaire chinoise » aux",
-        "body": "Près de + 500 % à la Bourse de Shanghai. C’est la performance que signe Unitree, géant chinois spécialisé dans la fabrication de robots humanoïdes. Poussée par la stratégie gouvernementale, la société crée en 2016 enregistre une forte croissance.",
-        "source": "Challenges",
-        "pub_date": "19 August 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/tech-numerique/considere-comme-une-compagnie-militaire-chinoise-aux-etats-unis-le-fabricant-de-robots-humanoides-unitree-senvole-en-bourse_645276",
-        "region": "chine"
       },
       {
         "tag": "Culture",
@@ -2257,7 +2037,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 489,
+    "word_count": 450,
     "auto": true
   },
   {
@@ -2272,7 +2052,7 @@
       "etats-unis",
       "francophonie"
     ],
-    "summary_cn": "[Challenges] A | [Le Figaro] Gar | 法国中小企业正在努力适应气候变 | [Numerama] Le D | 苹果免除其应用程序商店的税",
+    "summary_cn": "[Challenges] A | [Le Figaro] Gar | 法国中小企业正在努力适应气候变 | [Numerama] Le D | 苹果免除其应用程序商店的税 | [Le Monde] Pira | [Numerama] Pour | 学生、老师、家长继税务员之后 | 传球手 第 4 季 | 偷税漏税 | 九月，对许多人的预算来说是可怕",
     "briefs": [
       {
         "tag": "Culture",
@@ -2409,10 +2189,9 @@
     ],
     "regions": [
       "etats-unis",
-      "europe",
-      "francophonie"
+      "europe"
     ],
-    "summary_cn": "偷税漏税 | 28 岁时，Lena Situ | 趁着炎热的夏季 | “金钱是主要动力” | 如果《复仇者联盟》中不是一个而",
+    "summary_cn": "偷税漏税 | 28 岁时，Lena Situ | 趁着炎热的夏季 | “金钱是主要动力” | 如果《复仇者联盟》中不是一个而 | 偷税漏税 | 小罗伯特唐尼透露他更喜欢扮演末 | 四个月后，奥利维尔·诺拉创建了 | 偷税漏税 | 当尼克劳斯·曼努埃尔·多伊奇",
     "briefs": [
       {
         "tag": "Technologie",
@@ -2537,11 +2316,10 @@
       "Technologie"
     ],
     "regions": [
-      "francophonie",
       "europe",
       "international"
     ],
-    "summary_cn": "28 岁时，Lena Situ | 热浪袭来，屠宰者被尸体淹没 | 窃取税务数据 | 为了发布《橡树街尽头及其恐龙》 | 火灾过后，吉伦特省试图挽救其季",
+    "summary_cn": "28 岁时，Lena Situ | 热浪袭来，屠宰者被尸体淹没 | 窃取税务数据 | 为了发布《橡树街尽头及其恐龙》 | 火灾过后，吉伦特省试图挽救其季 | 每天步数、睡眠、心率这些 | 奎托斯离开后 | “在福利国家之后 | 在社交网络禁令审查之后 | 法比安·甘图瓦 | 中国第一艘集装箱船“迪拜塔”号",
     "briefs": [
       {
         "tag": "Culture",
@@ -2681,7 +2459,7 @@
       "francophonie",
       "international"
     ],
-    "summary_cn": "每天步数、睡眠、心率这些 | 28 岁时，Lena Situ | 在社交网络禁令审查之后 | X战警：新选角、导演、上映 | 澳大利亚、西班牙、巴西哪些国家",
+    "summary_cn": "每天步数、睡眠、心率这些 | 28 岁时，Lena Situ | 在社交网络禁令审查之后 | X战警：新选角、导演、上映 | 澳大利亚、西班牙、巴西哪些国家 | 在摩泽尔，高炉的记忆由一个 | “不成比例的攻击” | 灯笼系列（终于）让我们忘记瑞安 | “强大的吸引力”",
     "briefs": [
       {
         "tag": "Technologie",
@@ -2799,7 +2577,7 @@
       "international",
       "francophonie"
     ],
-    "summary_cn": "在社交网络禁令审查之后 | 灯笼系列（终于）让我们忘记瑞安 | 澳大利亚、西班牙、巴西哪些国家 | 乔治·桑 (George Sa | 在西西里岛，埃特纳火山喷发导致",
+    "summary_cn": "在社交网络禁令审查之后 | 灯笼系列（终于）让我们忘记瑞安 | 澳大利亚、西班牙、巴西哪些国家 | 乔治·桑 (George Sa | 在西西里岛，埃特纳火山喷发导致 | 一只巨鼠，八百个危险信号 | “从业四十八年 | “不成比例的攻击”",
     "briefs": [
       {
         "tag": "Technologie",
@@ -2906,7 +2684,7 @@
       "francophonie",
       "international"
     ],
-    "summary_cn": "Pluribus 第二季终于升 | 一只巨鼠，八百个危险信号 | 去哪里买住宿享受节日气氛 | 在洛迦诺音乐节上 | Eclipse：如果您想这样做",
+    "summary_cn": "Pluribus 第二季终于升 | 一只巨鼠，八百个危险信号 | 去哪里买住宿享受节日气氛 | 在洛迦诺音乐节上 | Eclipse：如果您想这样做 | “在法国，数据中心的无政府主义 | 人工智能本来应该摧毁计算 | 马哈茂德·达尔维奇和塔玛尔·本 | 图片中 | 英国法官在一次诉讼中驳回了 S",
     "briefs": [
       {
         "tag": "Culture",
@@ -3032,10 +2810,9 @@
     ],
     "regions": [
       "europe",
-      "international",
       "francophonie"
     ],
-    "summary_cn": "杀手杰夫 | Eclipse：如果您想这样做 | 除了《怪物史莱克 5》之外 | 超级智能，错位 | 越来越多的单身家庭正在努力寻找",
+    "summary_cn": "杀手杰夫 | Eclipse：如果您想这样做 | 除了《怪物史莱克 5》之外 | 超级智能，错位 | 越来越多的单身家庭正在努力寻找 | 易捷航空法国机组人员罢工 | 在被占领的巴黎的法兰西喜剧院 | 热浪对经济造成的损失可能会很大",
     "briefs": [
       {
         "tag": "Culture",
@@ -3138,13 +2915,11 @@
       "Technologie"
     ],
     "regions": [
-      "chine",
       "europe",
       "francophonie",
-      "etats-unis",
       "international"
     ],
-    "summary_cn": "致命武器5 | TotalEnergies 正 | Spotify 将推出新徽章来 | D23 2026 | 日食发生前几个小时",
+    "summary_cn": "致命武器5 | TotalEnergies 正 | Spotify 将推出新徽章来 | D23 2026 | 日食发生前几个小时 | 休达：Meta 和 TikTo | 克里斯·埃文斯透露漫威如何保守 | 人工智能本来应该摧毁计算 | 蜘蛛侠5已经在筹备了吗 | 法国企业受海浪影响较小",
     "briefs": [
       {
         "tag": "Culture",
@@ -3274,7 +3049,7 @@
       "international",
       "etats-unis"
     ],
-    "summary_cn": "我们看到了Undertone | 错误、滥用职权和“大规模监视” | 阿尔勒会议 | 人工智能本来应该摧毁计算 | 唐纳德·特朗普的网络 Trut",
+    "summary_cn": "我们看到了Undertone | 错误、滥用职权和“大规模监视” | 阿尔勒会议 | 人工智能本来应该摧毁计算 | 唐纳德·特朗普的网络 Trut | 在占领下，如果没有艺术剧院的保 | 虚拟演员和假特技 | 极热 | 五大洲花园，伯特兰的绿色植物地 | SpaceX 股市继续暴跌 | 在美国和加拿大边境",
     "briefs": [
       {
         "tag": "Culture",
@@ -3414,7 +3189,7 @@
       "francophonie",
       "international"
     ],
-    "summary_cn": "我们对老版 X 战警电影进行了 | 法国为自动驾驶汽车的批准铺平道 | 空客和波音正在加速发展 | 在纳粹的引导下 | 人工智能本来应该摧毁计算",
+    "summary_cn": "我们对老版 X 战警电影进行了 | 法国为自动驾驶汽车的批准铺平道 | 空客和波音正在加速发展 | 在纳粹的引导下 | 人工智能本来应该摧毁计算 | 对于西甲主席哈维尔·特巴斯来说 | 虚拟演员和假特技 | 玛丽亚·安杰利库西斯 (Mar | 萨尔茨堡音乐节上演动人的《卡门 | SpaceX 股市继续暴跌 | 邮票市场",
     "briefs": [
       {
         "tag": "Culture",
@@ -3554,7 +3329,7 @@
       "europe",
       "international"
     ],
-    "summary_cn": "法国为自动驾驶汽车的批准铺平道 | 龙在《龙之屋》中回归 | 邮票市场 | “我们必须走得更远” | 侏罗纪世界重生的续集在哪里",
+    "summary_cn": "法国为自动驾驶汽车的批准铺平道 | 龙在《龙之屋》中回归 | 邮票市场 | “我们必须走得更远” | 侏罗纪世界重生的续集在哪里 | “烂透了”的抱怨 | 画家兼工人安德烈·帕尤 (An | 人工智能本来应该摧毁计算 | SpaceX",
     "briefs": [
       {
         "tag": "Technologie",
@@ -3672,7 +3447,7 @@
       "europe",
       "etats-unis"
     ],
-    "summary_cn": "法国为自动驾驶汽车的批准铺平道 | 侏罗纪世界重生的续集在哪里 | 因气候灾害和困难而削弱 | “我们必须走得更远” | Netflix 取消了大卫·芬",
+    "summary_cn": "法国为自动驾驶汽车的批准铺平道 | 侏罗纪世界重生的续集在哪里 | 因气候灾害和困难而削弱 | “我们必须走得更远” | Netflix 取消了大卫·芬 | Trenitalia 向日立订 | “烂透了”的抱怨 | 电子游戏消失 | 工人 Lucien Favre",
     "briefs": [
       {
         "tag": "Technologie",
@@ -3789,7 +3564,7 @@
       "europe",
       "etats-unis"
     ],
-    "summary_cn": "虚拟演员和假特技 | 结束的开始？华纳/派拉蒙的合并 | 在法国哪里可以买到满足您对运动 | SpaceX 股市继续暴跌 | 在安特卫普当代艺术博物馆",
+    "summary_cn": "虚拟演员和假特技 | 结束的开始？华纳/派拉蒙的合并 | 在法国哪里可以买到满足您对运动 | SpaceX 股市继续暴跌 | 在安特卫普当代艺术博物馆 | 热浪 | 从全能的人工智能到欧洲的混乱 | REDIFF (LA)HORD | 法国债务面临滚雪球效应威胁 | 人工智能 | 史蒂文·斯皮尔伯格和外星人",
     "briefs": [
       {
         "tag": "Technologie",
@@ -3926,10 +3701,9 @@
     ],
     "regions": [
       "europe",
-      "etats-unis",
       "francophonie"
     ],
-    "summary_cn": "如果您只需要在 8 月观看一部 | 纪尧姆·阿莱格尔和泽维尔·廷博 | 特德·拉索回来了 | “一切都没有改变” | 《头号玩家》的续集即将推出",
+    "summary_cn": "如果您只需要在 8 月观看一部 | 纪尧姆·阿莱格尔和泽维尔·廷博 | 特德·拉索回来了 | “一切都没有改变” | 《头号玩家》的续集即将推出 | 虚拟演员和假特技 | 在巴黎北部，Le CiNey | SpaceX 股市继续暴跌 | 关税",
     "briefs": [
       {
         "tag": "Culture",
@@ -4043,11 +3817,10 @@
       "Technologie"
     ],
     "regions": [
-      "etats-unis",
       "europe",
       "francophonie"
     ],
-    "summary_cn": "《权力之环》第三季什么时候发布 | 大型机场扩建工程 | “一切都没有改变” | 唷，索尼影业的衍生产品已经破产 | 从全能的人工智能到欧洲的混乱",
+    "summary_cn": "《权力之环》第三季什么时候发布 | 大型机场扩建工程 | “一切都没有改变” | 唷，索尼影业的衍生产品已经破产 | 从全能的人工智能到欧洲的混乱 | 第 79 届洛迦诺电影节上 | 休达危机 | 人工智能 | 放映的电影 | SpaceX 的营业额几乎翻了",
     "briefs": [
       {
         "tag": "Culture",
@@ -4175,7 +3948,7 @@
       "europe",
       "francophonie"
     ],
-    "summary_cn": "Sam Altman、Dari | 力量之环 第三季 | “风险资金卖给了寡妇和孤儿 | “过度乐观” | 取消《刀锋战士》的回归是一种巨",
+    "summary_cn": "Sam Altman、Dari | 力量之环 第三季 | “风险资金卖给了寡妇和孤儿 | “过度乐观” | 取消《刀锋战士》的回归是一种巨 | Passerelles 俱乐部 | 从全能的人工智能到欧洲的混乱 | 龙之屋 | 在上法兰西大区 | 人工智能 | 对于《芭比2》来说 | 在 Tarascon",
     "briefs": [
       {
         "tag": "Technologie",
@@ -4323,10 +4096,9 @@
     ],
     "regions": [
       "europe",
-      "francophonie",
       "etats-unis"
     ],
-    "summary_cn": "“订购并忘记账单” | 我们将蜘蛛侠电影从最灾难性到 | 贵了100到200美元 | 哪里可以预订动画电影《回忆的精 | 唐纳德·特朗普称美国进行了干预",
+    "summary_cn": "“订购并忘记账单” | 我们将蜘蛛侠电影从最灾难性到 | 贵了100到200美元 | 哪里可以预订动画电影《回忆的精 | 唐纳德·特朗普称美国进行了干预 | 人工智能 | 史蒂芬·斯皮尔伯格 | 阿卜杜勒·萨马德·拉比乌 (A | 如果现代人工智能来自控制论怎么 | 儿童演员阿兰·科恩 | 克里斯托弗·诺兰电影《奥德赛》",
     "briefs": [
       {
         "tag": "Technologie",
@@ -4464,10 +4236,10 @@
     "regions": [
       "etats-unis",
       "europe",
-      "chine",
-      "francophonie"
+      "francophonie",
+      "chine"
     ],
-    "summary_cn": "贵了100到200美元 | 哪里可以预订动画电影《回忆的精 | 人工智能 | 中国正在通过掠夺人工智能来增强 | 在哪里可以观看流媒体蜘蛛侠电影",
+    "summary_cn": "贵了100到200美元 | 哪里可以预订动画电影《回忆的精 | 人工智能 | 在哪里可以观看流媒体蜘蛛侠电影 | 索伦对抗炎魔 | Triballat 家族企业 | 人择人工智能获得了对系统的未经 | 文森特·帕斯托雷 (Vince | 在美国，围绕不同模式的争论日益",
     "briefs": [
       {
         "tag": "Technologie",
@@ -4503,17 +4275,6 @@
         "region": "europe"
       },
       {
-        "tag": "Technologie",
-        "title_cn": "中国正在通过掠夺人工智能来增强",
-        "title": "La Chine renforce ses capacités militaires en pillant les IA de",
-        "body": "DÉCRYPTAGE - Une étude ayant analysé plus de 80 brevets et publications académiques chinoises en est arrivée à la conclusion que Pékin se servait abondamment dans les connaissances des IA américaines pour renforcer ses systèmes de défense.",
-        "source": "Le Figaro",
-        "pub_date": "1 August 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/la-chine-renforce-ses-capacites-militaires-en-pillant-les-ia-de-la-silicon-valley-selon-un-rapport-explosif-20260731",
-        "region": "chine"
-      },
-      {
         "tag": "Culture",
         "title_cn": "在哪里可以观看流媒体蜘蛛侠电影",
         "title": "Où voir les films Spider-Man en streaming ?",
@@ -4523,17 +4284,6 @@
         "auto": true,
         "link": "https://www.numerama.com/pop-culture/2303693-ou-voir-les-films-spider-man-en-streaming.html",
         "region": "francophonie"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "“滥用青瓦台的丑闻”",
-        "title": "«Un abus scandaleux de la fonction présidentielle»",
-        "body": "DÉCRYPTAGE - La holding du président américain lance ce samedi un abonnement à 100.000 dollars par mois donnant aux traders un accès anticipé à ses publications sur Truth Social. Une offre qui relance le débat sur la marchandisation du pouvoir.",
-        "source": "Le Figaro",
-        "pub_date": "31 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/un-abus-scandaleux-de-la-fonction-presidentielle-trump-peut-il-monetiser-l-acces-a-ses-publications-sur-truth-social-20260731",
-        "region": "etats-unis"
       },
       {
         "tag": "Culture",
@@ -4592,34 +4342,23 @@
       }
     ],
     "vocab": [],
-    "word_count": 457,
+    "word_count": 380,
     "auto": true
   },
   {
     "date": "2026-08-01",
     "tags": [
-      "Technologie",
       "Culture",
+      "Technologie",
       "Économie"
     ],
     "regions": [
-      "etats-unis",
       "europe",
+      "etats-unis",
       "francophonie"
     ],
-    "summary_cn": "“滥用总统职权的可耻行为” | 《权力之环》第三季什么时候发布 | 人择人工智能获得了对系统的未经 | 热火2：30年后 | 干旱导致农作物生产“崩溃”",
+    "summary_cn": "《权力之环》第三季什么时候发布 | 人择人工智能获得了对系统的未经 | 热火2：30年后 | 干旱导致农作物生产“崩溃” | 达特茅斯会议 | 《蜘蛛侠：全新一天》取得了成功 | 世界之家敲定救援计划并成功逃脱 | 人工智能高管担心 | 做什么、看什么、去哪里 | 这些地区正在抵制预算削减",
     "briefs": [
-      {
-        "tag": "Technologie",
-        "title_cn": "“滥用总统职权的可耻行为”",
-        "title": "«Un abus scandaleux de la fonction présidentielle»",
-        "body": "DÉCRYPTAGE - La holding du président américain lance ce samedi un abonnement à 100.000 dollars par mois donnant aux traders un accès anticipé à ses publications sur Truth Social. Une offre qui relance le débat sur la marchandisation du pouvoir.",
-        "source": "Le Figaro",
-        "pub_date": "31 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/un-abus-scandaleux-de-la-fonction-presidentielle-trump-peut-il-monetiser-l-acces-a-ses-publications-sur-truth-social-20260731",
-        "region": "etats-unis"
-      },
       {
         "tag": "Culture",
         "title_cn": "《权力之环》第三季什么时候发布",
@@ -4732,7 +4471,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 547,
+    "word_count": 507,
     "auto": true
   },
   {
@@ -4748,7 +4487,7 @@
       "europe",
       "international"
     ],
-    "summary_cn": "Anthropic 透露其人工 | GIGN 完全统治了 Netf | 在皮拉特沙丘周围 | 人工智能可以一次性将他从“欣喜 | Prime Video 对詹姆",
+    "summary_cn": "Anthropic 透露其人工 | GIGN 完全统治了 Netf | 在皮拉特沙丘周围 | 人工智能可以一次性将他从“欣喜 | Prime Video 对詹姆 | 在法国哪里购物才能享受丰富的文 | 人择人工智能获得了对系统的未经 | 蜘蛛侠：全新的一天 | 达特茅斯会议 | SNCF 突然罢工",
     "briefs": [
       {
         "tag": "Technologie",
@@ -4877,7 +4616,7 @@
       "francophonie",
       "etats-unis"
     ],
-    "summary_cn": "索尼想要为成人（和血腥）推出蜘 | “我们不想让这件事被人知道 | 蜘蛛侠全新一天 | “史无前例”的黑客攻击 | 空中灭火手段缺陷背后",
+    "summary_cn": "索尼想要为成人（和血腥）推出蜘 | “我们不想让这件事被人知道 | 蜘蛛侠全新一天 | “史无前例”的黑客攻击 | 空中灭火手段缺陷背后 | 人工智能可以一次性将他从“欣喜 | AI 驱动的相机 | 西南部地区发生火灾",
     "briefs": [
       {
         "tag": "Culture",
@@ -4980,12 +4719,12 @@
       "Économie"
     ],
     "regions": [
-      "francophonie",
       "europe",
       "chine",
+      "francophonie",
       "etats-unis"
     ],
-    "summary_cn": "“史无前例”的黑客攻击 | 《蜘蛛侠：全新片尾彩蛋》场景意 | “我们很幸运生活在不可思议的时 | 在意大利普拉托 | 莱因霍尔德·梅斯纳尔 (Rei",
+    "summary_cn": "“史无前例”的黑客攻击 | 《蜘蛛侠：全新片尾彩蛋》场景意 | “我们很幸运生活在不可思议的时 | 在意大利普拉托 | 莱因霍尔德·梅斯纳尔 (Rei | 克劳德神话能否摧毁世界经济并 | “那我就说不行了 | 随着 DJ Kavinsky | 唐纳德·特朗普对关税的顽固态度",
     "briefs": [
       {
         "tag": "Technologie",
@@ -5098,21 +4837,15 @@
       "Jardin",
       "Maison",
       "Actu des mots",
-      "Formule 1",
       "Politique",
-      "Cinéma",
-      "Musique",
       "Journal de l'Afrique",
-      "Amériques",
-      "C'est dans ta nature",
       "Y'a quoi sur tes réseaux?"
     ],
     "regions": [
       "europe",
-      "francophonie",
-      "international"
+      "francophonie"
     ],
-    "summary_cn": "法国森林动物 | 就像在酒店一样 | 非凡的房子 | “莉赛特很好” | 匈牙利大奖赛",
+    "summary_cn": "法国森林动物 | 就像在酒店一样 | 非凡的房子 | “莉赛特很好” | “右翼的法国愿景和左翼的法国愿 | “基拉伊，共和爱国者”的新党 | 热浪，热浪，还有和萝拉发脾气",
     "briefs": [
       {
         "tag": "Animaux",
@@ -5181,17 +4914,6 @@
         "region": "europe"
       },
       {
-        "tag": "Amériques",
-        "title_cn": "巴西：弗拉维奥·博尔索纳罗被提",
-        "title": "Brésil: Flavio Bolsonaro investi candidat pour la présidentielle",
-        "body": "Après la Coupe du monde, la politique reprend ses droits au Brésil. Le Parti libéral a lancé officiellement ce samedi 25 juillet la candidature de Flavio Bolsonaro à la présidence en vue des élections du 4 octobre. Le sénateur, et surtout fils de l'ancien président d'extrême droite Jair Bolsonaro, détenu pour tentative de coup d'État, affrontera notamment Lula, le président sortant, qui devrait annoncer le week-end prochain sa candidature pour un quatrième mandat.",
-        "source": "RFI",
-        "pub_date": "26 July 2026",
-        "auto": true,
-        "link": "https://www.rfi.fr/fr/am%C3%A9riques/20260726-br%C3%A9sil-flavio-bolsonaro-investi-candidat-pour-la-pr%C3%A9sidentielle-d-octobre",
-        "region": "international"
-      },
-      {
         "tag": "Y'a quoi sur tes réseaux?",
         "title_cn": "热浪，热浪，还有和萝拉发脾气",
         "title": "La canicule, les coups de chaud et les coups de colère avec Lola",
@@ -5204,7 +4926,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 457,
+    "word_count": 284,
     "auto": true
   },
   {
@@ -5212,12 +4934,8 @@
     "tags": [
       "Bons plans Maison",
       "Animaux",
-      "Jardin",
       "Maison",
-      "Quiz français",
-      "Horlogerie",
       "Bons plans",
-      "Politique",
       "Journal de l'Afrique",
       "À l'Affiche !",
       "Outre-Mer",
@@ -5225,11 +4943,10 @@
     ],
     "regions": [
       "europe",
-      "francophonie",
       "etats-unis",
       "international"
     ],
-    "summary_cn": "这款 Silvercrest 设备售价不到 20 欧元，绝对是一款热门产品…… | 我与菲莱、皮埃罗和格里苏的生活 | 周末郊游亲近自然 | 装修激情 | “腔棘鱼”、“弯曲”……您是……专家吗？",
+    "summary_cn": "这款 Silvercrest | 我与菲莱、皮埃罗和格里苏的生活 | 装修激情 | 芙蕾达·麦克法登 | 美国干预马里 | 朴赞郁在阿尔勒摄影节上 | 干旱 | 国际刑事法院总检察长卡里姆·汗",
     "briefs": [
       {
         "tag": "Bons plans Maison",
@@ -5321,7 +5038,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 484,
+    "word_count": 390,
     "auto": true
   },
   {
@@ -5330,9 +5047,7 @@
       "Animaux",
       "Patrimoine",
       "Bons plans",
-      "Horlogerie",
       "Outre-Mer",
-      "Afrique",
       "Contre-Faits",
       "Asie-Pacifique",
       "Connaissances",
@@ -5340,11 +5055,11 @@
       "Amériques"
     ],
     "regions": [
-      "international",
       "europe",
-      "etats-unis"
+      "etats-unis",
+      "international"
     ],
-    "summary_cn": "奥伦·卡斯：“唐纳德·特朗普能否超越母亲…… | 一只猫失踪九个月，多亏了一个人的帮助才找到了…… | 巴黎圣母院的当代彩色玻璃窗甚至会吸引“…… | YouScribe：用这个深入你的夏季阅读…… | 法国之夏 – Pierre Lannier x 10 ATM Bora，目的地……",
+    "summary_cn": "一只猫失踪九个月 | 巴黎圣母院的当代彩色玻璃窗甚至 | YouScribe：用这个深入 | 干旱 | 梅洛尼，欧洲极右翼领袖 | 印度：“蟑螂党”获得主要支持 | 在冰岛，一项已有 400 年历 | “一个过于意识形态化的国务委员 | 唐纳德·特朗普重返年度新闻晚会",
     "briefs": [
       {
         "tag": "Animaux",
@@ -5447,7 +5162,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 503,
+    "word_count": 431,
     "auto": true
   },
   {
@@ -5455,10 +5170,8 @@
     "tags": [
       "Société"
     ],
-    "regions": [
-      "francophonie"
-    ],
-    "summary_cn": "厨师 Emily Dader 和辣椒，夏日宝石 | 巴黎Samusocial罢工仍在继续，工会谴责“太多家庭重返街头” | 在巴斯蒂亚，“科西嘉-马格里布”展览回顾了该岛和北非之间的来回迁徙 | 执法中的自卫推定：为何拟议的法律受到争议？ | CSG、税收减免、资产……随着 2027 年的临近，退休人员领取工资的途径越来越多",
+    "regions": [],
+    "summary_cn": "厨师 Emily Dader | CSG、税收减免、资产随着 2 | 它看起来很自然 | “他们在两天内解决了两起悬案” | Pierre Paulin 带",
     "briefs": [
       {
         "tag": "Société",
@@ -5502,16 +5215,6 @@
       },
       {
         "tag": "Société",
-        "title_cn": "2027 年总统大选：马琳·勒",
-        "title": "Présidentielle 2027",
-        "body": "INFO LE FIGARO - La candidate RN, qui a répondu favorablement à l’invitation qui lui avait été lancée, participera pour la première fois aux universités d’été de l’organisation patronale, à Roland-Garros.",
-        "source": "Le Figaro",
-        "pub_date": "23 July 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-marine-le-pen-participera-bien-au-debat-des-candidats-organise-le-27-aout-par-le-medef-20260723"
-      },
-      {
-        "tag": "Société",
         "title_cn": "Pierre Paulin 带",
         "title": "Avec Pierre Paulin, le design fait son entrée en fanfare à",
         "body": "REPORTAGE - Le Musée Fabre célèbre le créateur français qui révolutionna l’art des sièges, en les gansant de stretch, et bouleversa l’intérieur de l’Élysée, avec le fumoir pour les Pompidou, récemment restauré. Le clou de l’exposition.",
@@ -5522,24 +5225,17 @@
       }
     ],
     "vocab": [],
-    "word_count": 386,
+    "word_count": 209,
     "auto": true
   },
   {
     "date": "2026-07-19",
     "tags": [
-      "Société / Environnement",
-      "International / Europe",
-      "International / Politique",
       "Technologie / Chine",
       "Économie / Chine"
     ],
-    "regions": [
-      "europe",
-      "international",
-      "chine"
-    ],
-    "summary_cn": "枫丹白露10%焚毁 | 法德防务历史突破 | 美伊冲突升级 | 世界AI大会上海开幕 | 中国高技术制造业增长13.3%",
+    "regions": [],
+    "summary_cn": "世界AI大会2026在上海开幕 | 中国高技术制造业增长13.3%",
     "briefs": [
       {
         "tag": "Technologie / Chine",
@@ -5600,7 +5296,7 @@
         "definition": "Changement profond de la structure économique d'un pays."
       }
     ],
-    "word_count": 467
+    "word_count": 179
   },
   {
     "date": "2026-07-18",
@@ -5608,16 +5304,10 @@
       "Technologie / Chine",
       "Économie / États-Unis",
       "Régulation / Europe",
-      "Technologie / Chine",
       "Technologie / International"
     ],
-    "regions": [
-      "chine",
-      "etats-unis",
-      "europe",
-      "international"
-    ],
-    "summary_cn": "CXMT上海IPO | Apple市值登顶 | 欧盟AI监管新规 | 中国芯片突围 | Meta租云给Anthropic",
+    "regions": [],
+    "summary_cn": "CXMT上海IPO | Apple市值超越Nvidia | 欧盟AI法案修正通过 | 中国AI芯片爆发增长 | Meta拟租云设施给Anthr",
     "briefs": [
       {
         "tag": "Technologie / Chine",
