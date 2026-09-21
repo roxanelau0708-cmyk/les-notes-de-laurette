@@ -245,11 +245,22 @@ def detect_region(fr_title, fr_desc, source_region):
 
 # ── 内容过滤 & 多样性选择 ──
 
+# 军事冲突（用户要求全挡）。整词匹配，避免 "tue" 误伤 "tueur"/"truquée"
 EXCLUDE_WAR = [
-    "guerre", "conflit arm", "frappe", "bombarde",
-    "offensive", "combat", "tir", "missile", "explosion",
-    "attaque", "drone", "armée", "soldat", "tué", "blessé",
-    "champ de bataille", "incursion", "escarmouche",
+    "guerre", "conflit armé", "conflit israélo", "frappe aérienne",
+    "frappes", "bombardement", "offensive militaire", "combat", "combats",
+    "missile", "missiles", "explosion", "attentat", "drone", "drones",
+    "armée", "soldat", "soldats", "militaire", "militaires", "troupes",
+    "champ de bataille", "incursion", "escarmouche", "cessez-le-feu",
+    "victimes civiles", "civils tués", "front de guerre", "invasion",
+]
+
+# 豁免：这些搭配里的 guerre/conflit 是经济隐喻，不算战争（用户要求保留贸易战）
+GUERRE_ECO = [
+    "guerre commerciale", "guerre économique", "guerre des prix",
+    "guerre tarifaire", "guerre des monnaies", "guerre des taux",
+    "guerre de l'ia", "guerre du streaming", "guerre des écrans",
+    "conflit social", "conflit d'intérêts",
 ]
 
 EXCLUDE_PERSON = [
@@ -339,6 +350,7 @@ EXCLUDE_POLITICS = [
     "campagne électorale", "campagne présidentielle",
     # 党派 / 党派斗争
     "parti politique", "partis politiques", "du parti", "au parti",
+    "partis",
     "chef du parti", "direction du parti", "au sein du parti",
     "rassemblement national", "front national",
     "france insoumise", "parti socialiste", "parti communiste",
@@ -346,7 +358,34 @@ EXCLUDE_POLITICS = [
     "majorité présidentielle", "l'opposition", "coalition",
     "front républicain", "cordon sanitaire", "dissidence", "dissidents",
     "guerre des chefs",
+    # ── 政府高层 / 机构（无歧义，一律挡）──
+    "premier ministre", "chef de l'état", "élysée", "matignon",
+    "conseil des ministres", "garde des sceaux", "remaniement",
+    "motion de censure", "promulgation", "gouvernement minoritaire",
+    # ── 议会 ──
+    "assemblée nationale", "sénat", "sénateur", "sénateurs",
+    "député", "députés", "parlement", "parlementaire", "parlementaires",
+    # ── 外交 / 地缘 ──
+    "diplomatie", "diplomatique", "diplomate", "ambassadeur", "ambassade",
+    "géopolitique",
 ]
+
+# 政治人物：单独出现不判政治，避免误杀"引述部长讲话的补贴政策"
+# （如 "annonce le ministre de l'Économie" 的经济稿）。需满足其一才挡：
+#   a) 同现政治语境词（POLITICAL_CONTEXT），或
+#   b) 出现在标题前 4 个词内（主语位置，如 "Le président Macron en visite…"）
+POLITICAL_FIGURES = [
+    "président", "présidente", "ministre", "porte-parole",
+]
+
+POLITICAL_CONTEXT = [
+    "élection", "présidentielle", "campagne", "candidat", "candidature",
+    "parti", "scrutin", "parlement", "sénat", "assemblée",
+    "gouvernement", "censure", "coalition", "opposition", "majorité",
+    "réforme", "loi", "décret", "politique", "diplomatie", "sommet",
+    "ministère", "vote", "électeur",
+]
+
 
 # ── DELF B2 主题（theme.png 高亮话题，选文时优先）──
 # 两组高亮同等优先：经济/环境/交通/消费 + 工作/教育/住房/科技互联网
@@ -467,19 +506,42 @@ def match_themes(title):
     return hits
 
 
+def is_war(text_un):
+    """军事冲突判定，text_un 需已 _unaccent + lower。
+    "guerre" 命中时先看是否为经济隐喻（贸易战等），是则放行。"""
+    for kw in EXCLUDE_WAR:
+        if not _kw_hit(kw, text_un):
+            continue
+        if kw == "guerre" and any(_kw_hit(ex, text_un) for ex in GUERRE_ECO):
+            continue
+        return True
+    return False
+
+
 def should_exclude(tag, title, desc):
-    """过滤：边角料标签、党派/选举、游戏/体育/天气/寻物/广告、战争细节、纯人物新闻"""
+    """过滤：边角料标签、党派/政治人物、战争、游戏/体育/天气/寻物/广告、纯人物新闻"""
     if tag in EXCLUDE_TAGS:
         return True
     title_text = _unaccent((title or "").lower())
-    # 党派 / 选举只看标题：正文顺带提及不算
+    # 党派 / 选举 / 机构只看标题：正文顺带提及不算
     for kw in EXCLUDE_POLITICS:
         if _kw_hit(kw, title_text):
             return True
+    # 政治人物：需同现政治语境词，或处于标题主语位置
+    figure = next((kw for kw in POLITICAL_FIGURES if _kw_hit(kw, title_text)), None)
+    if figure:
+        if any(_kw_hit(c, title_text) for c in POLITICAL_CONTEXT):
+            return True
+        if _kw_hit(figure, " ".join(title_text.split()[:4])):
+            return True
     text = (title + " " + (desc or "")).lower()
+    # 战争在文化白名单之前判定——白名单不得放行战争
+    if is_war(_unaccent(text)):
+        return True
+    # 文化类白名单：只豁免下方软性过滤，不豁免政治/战争
     if any(kw in text for kw in CULTURAL):
         return False
-    for kw in (EXCLUDE_WAR + EXCLUDE_PERSON + EXCLUDE_GAMES + EXCLUDE_SPORTS
+    for kw in (EXCLUDE_PERSON + EXCLUDE_GAMES + EXCLUDE_SPORTS
                + EXCLUDE_WEATHER + EXCLUDE_CLASSIFIED + EXCLUDE_ADS + EXCLUDE_MEDIA):
         if kw in text:
             return True
