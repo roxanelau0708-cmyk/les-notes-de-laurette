@@ -112,10 +112,9 @@
       "Actualité"
     ],
     "regions": [
-      "francophonie",
-      "international"
+      "francophonie"
     ],
-    "summary_cn": "燃油价格上涨：商务部长宣布对“重担”的援助不会“9月30日停止” | 塞巴斯蒂安·勒科尔努 (Sébastien Lecornu) 在 2026 年 9 月 1",
+    "summary_cn": "燃油价格上涨：商务部长宣布对“重担”的援助不会“9月30日停止”",
     "briefs": [
       {
         "tag": "Actualité",
@@ -128,22 +127,10 @@
         "auto": true,
         "link": "https://www.franceinfo.fr/economie/automobile/essence/direct-crise-energetique-emmanuel-macron-va-recevoir-les-principaux-responsables-politiques-pour-evoquer-les-conflits-internationaux-et-leurs-consequences-en-france_8198486.html#xtor=RSS-3-[lestitres]",
         "region": "francophonie"
-      },
-      {
-        "tag": "Actualité",
-        "title_cn": "塞巴斯蒂安·勒科尔努 (Sébastien Lecornu) 在 2026 年 9 月 1",
-        "title": "France: Sébastien Lecornu présente un budget «offensif» pour 2027, avec 54 milliards d'économies",
-        "body": "Sébastien Lecornu a présenté les grandes lignes du budget 2027 dans un entretien au Figaro paru le 17 septembre 2026. © Ludovic Marin / AFP Par : RFI avec AFP Si le Parlement « endosse » ce « plan de redressement » qui sera présenté en Conseil des ministres le 1er octobre, la cible d'un déficit à 5 % du PIB sera « atteinte » pour 2027, assure le Premier ministre au Figaro. Cet entretien est diffusé à l'issue d'un séminaire gouvernemental à Matignon. Les grandes lignes du budget étaient particulièrement attendues et un très délicat débat parlementaire doit s'ouvrir dès octobre, en pleine campagne pour l'élection présidentielle. Le Premier ministre doit construire ses budgets (de l’État et de la Sécurité sociale) pour l'an prochain sous une multitude de contraintes, y compris internationales, comme la flambée des prix des carburants à cause de la guerre au Moyen-Orient ou la hausse des taux d'emprunt sur la dette. La situation internationale et ses conséquences économiques provoquent une grogne sociale en France. Le président Emmanuel Macron a d'ailleurs convoqué vendredi les chefs de partis pour les informer des derniers développements. Sans mesures d'économies, « le déficit 2027 tutoierait les 6,5 % du PIB », prévient Sébastien Lecornu, alors que la charge de la dette sera alourdie l'an prochain de « 10 milliards d'euros » et que le spectre d'une crise financière venue des États-Unis a ressurgi. Le vieillissement de la population impacte aussi « les comptes sociaux », pointe-t-il, et « sans mesures correctives, les dépenses de la Sécurité sociale seraient en hausse de 22 milliards d'euros ». L’État doit être « exemplaire » et il « contribuera en premier à l'effort », mais les collectivités locales seront aussi mises à contribution, avec un freinage de leurs dépenses de fonctionnement qui ont augmenté de 7 milliards. À lire aussiFrance: pour le budget 2027, Sébastien Lecornu demande ne pas augmenter les dépenses de l'État Quant aux retraités, qui seront aussi mis à contribution, c'est le Parlement qui décidera en partie de leur sort.",
-        "summary_cn": "塞巴斯蒂安·勒科尔努 (Sébastien Lecornu) 在 2026 年 9 月 17 日发表的《费加罗报》采访中介绍了 2027 年预算的总体轮廓。 © Ludovic Marin / 法新社 作者：RFI 与法新社 如果议会“认可”这项将于 10 月 1 日提交给部长会议的“复苏计划”，那么 2027 年赤字占 GDP 5% 的目标将“实现”，总理向费加罗报。这篇采访是在马蒂尼翁政府研讨会结束时播出的。预算的主要内容尤其令人期待，一场非常微妙的议会辩论必须在十月总统选举中期展开。总理必须在多种约束下制定明年的预算（国家和社会保障），其中包括国际约束，例如中东战争导致的燃料价格飙升或债务借款利率上升。国际形势及其经济后果正在引起法国社会不满。总统埃马纽埃尔·马克龙周五还召集了政党领导人，向他们通报最新进展。 Sébastien Lecornu警告说，如果不采取储蓄措施，“2027年赤字将接近GDP的6.5%”，而明年的债务负担将增加“100亿欧元”，来自美国的金融危机幽灵将重新浮现。他指出，人口老龄化也会影响“社会账户”，“如果不采取纠正措施，社会保障支出将增加220亿欧元”。国家必须“表率”，“首先做出贡献”，但地方当局也会参与其中，减少增加了70亿的运营费用。另请阅读法国：对于 2027 年预算，Sébastien Lecornu 要求不要增加国家支出 至于退休人员，他们也将参与其中，议会将部分决定他们的命运。",
-        "source": "RFI",
-        "pub_date": "17 September 2026",
-        "auto": true,
-        "link": "https://www.rfi.fr/fr/france/20260917-france-s%C3%A9bastien-lecornu-pr%C3%A9sente-un-budget-offensif-pour-2027-avec-54-milliards-d-%C3%A9conomies",
-        "region": "international"
       }
     ],
     "vocab": [],
-    "word_count": 680,
+    "word_count": 341,
     "auto": true
   },
   {
@@ -549,13 +536,12 @@
   {
     "date": "2026-09-07",
     "tags": [
-      "Actualité",
-      "Économie"
+      "Actualité"
     ],
     "regions": [
       "europe"
     ],
-    "summary_cn": "德国：极右翼跨越新门槛，“布兰德莫尔”步履蹒跚？ | 欧空局是国际空间站的主要历史合作伙伴",
+    "summary_cn": "德国：极右翼跨越新门槛，“布兰德莫尔”步履蹒跚？",
     "briefs": [
       {
         "tag": "Actualité",
@@ -568,35 +554,21 @@
         "auto": true,
         "link": "https://www.rfi.fr/fr/podcasts/la-fabrique-du-monde/20260907-allemagne-extr%C3%AAme-droite-franchit-nouveau-seuil-le-brandmauer-vacille",
         "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "欧空局是国际空间站的主要历史合作伙伴",
-        "title": "« Nous ne nous arrêterons pas à Mars » : la grande interview avec Daniel Neuenschwander, directeur de l’exploration humaine et robotique à l’ESA",
-        "body": "L’ESA est un partenaire historique majeur de l’ISS, mais la fin de cette dernière approche… Dans le contexte géopolitique actuel, comment voyez-vous la suite ? Tout d'abord, j'aimerais rappeler que l'on travaille tous les jours main dans la main avec chaque partenaire de la Station spatiale internationale (ISS), et que cela se passe très bien. Je tiens à saluer ici cette excellente collaboration, notamment pendant la mission εpsilon de Sophie Adenot, qui va bientôt s’achever. Je me félicite vraiment de cette coopération, qui est rodée et entretenue, alors que nous sommes déjà dans la 26e année d'exploitation continue habitée de l'ISS. Cela dit, nous nous préparons évidemment à la phase post-ISS de manière progressive. En conséquence de cela, se pose la question cruciale du positionnement européen face à un nombre croissant d'acteurs. On voit d'abord l'émergence d'acteurs privés du côté américain, mais aussi d'autres acteurs étatiques comme l'Inde, avec le développement de sa propre station spatiale. Il y a une multiplication manifeste des activités en orbite basse, l'Europe est appelée à se positionner fermement, et cela passera par des capacités propres. Je crois que nous sommes vraiment à une croisée des chemins, et c'est à nous maintenant de prendre notre destin en main pour la phase post-ISS. Cela devra impérativement s'accompagner de décisions sur le transport vers l'orbite basse, mais aussi sur la destination que nous visons et avec laquelle nous souhaitons travailler. Aujourd'hui, nous travaillons à bord de l'ISS avec un horizon qui est officiellement fixé à 2030. Il se pourrait d'ailleurs que l'on prenne assez rapidement la décision de l'étendre jusqu'à l'horizon 2032. Néanmoins, même avec ces deux années supplémentaires, il faut se préparer à la suite. Nous visons des décisions politiques majeures à ce titre lors de la prochaine réunion interministérielle organisée par l'ESA, prévue à la mi-décembre cette année. L'exploration n'y sera peut-être pas le seul sujet à l'agenda, mais ce sera certainement le plus important. C’est là que se posera la question fondamentale : est-ce que l’Europe est prête à s’engager vers un développement de transport habité propre, pour disposer de sa propre capacité à conduire des équipages en orbite basse ?",
-        "summary_cn": "欧空局是国际空间站的主要历史合作伙伴，但后者的末日即将到来……在当前的地缘政治背景下，您如何看待未来？首先，我想提醒大家，我们每天都在与国际空间站（ISS）的各个合作伙伴携手合作，而且进展顺利。我谨向这次出色的合作致敬，特别是在索菲·阿德诺 (Sophie Adenot) 的 ε 任务期间，该任务即将结束。我真的很欢迎这种合作，这种合作已经建立并保持良好，而我们已经进入国际空间站连续载人运行的第 26 个年头。也就是说，我们显然正在逐步为国际空间站后阶段做准备。因此，面对越来越多的参与者，欧洲定位的关键问题出现了。我们首先看到美国方面出现了私人行为体，但也看到了印度等其他国家行为体的出现，并发展了自己的空间站。低轨道活动明显增多，要求欧洲站稳脚跟，这需要欧洲自身的能力。我相信，我们确实处于十字路口，现在要由我们来掌控国际空间站后阶段的命运。这绝对必须伴随着有关低轨道运输的决定，而且还必须伴随着我们瞄准和希望合作的目的地的决定。今天，我们正在国际空间站上开展工作，正式设定的时间为 2030 年。我们也可能很快就决定将时间延长到 2032 年。然而，即使还有这两年的时间，我们也必须为接下来的事情做好准备。我们的目标是在今年 12 月中旬由欧空局组织的下一次部际会议上就这方面做出重大政策决定。探索可能不是议程上的唯一主题，但它肯定是最重要的。这就是出现根本问题的地方：欧洲是否准备好致力于发展自己的载人运输机，拥有自己的将宇航员送入低轨道的能力？",
-        "source": "La Tribune",
-        "pub_date": "7 September 2026",
-        "auto": true,
-        "link": "https://air-cosmos.latribune.fr/article/espace/50604756584965/nous-ne-nous-arreterons-pas-a-mars-la-grande-interview-avec-daniel-neuenschwander-directeur-de-l-exploration-humaine-et-robotique-a-l-esa",
-        "region": "europe"
       }
     ],
     "vocab": [],
-    "word_count": 700,
+    "word_count": 343,
     "auto": true
   },
   {
     "date": "2026-09-06",
     "tags": [
-      "Actualité",
-      "Économie"
+      "Actualité"
     ],
     "regions": [
-      "europe",
-      "international"
+      "europe"
     ],
-    "summary_cn": "“经济衰退的推断”：德国极右翼如何抵达萨克森-安哈特州的权力之门 | 在莫斯科，特朗普的特使与普京讨论了乌克兰的“实质性计划” | “他们的恐惧是正确的！”：在 PS，皇家惊喜",
+    "summary_cn": "“经济衰退的推断”：德国极右翼如何抵达萨克森-安哈特州的权力之门",
     "briefs": [
       {
         "tag": "Actualité",
@@ -609,47 +581,22 @@
         "auto": true,
         "link": "https://www.franceinfo.fr/monde/europe/allemagne/il-y-a-une-extrapolation-du-declin-economique-comment-l-extreme-droite-allemande-est-arrivee-aux-portes-du-pouvoir-en-saxe-anhalt_8175638.html#xtor=RSS-3-[lestitres]",
         "region": "europe"
-      },
-      {
-        "tag": "Actualité",
-        "title_cn": "在莫斯科，特朗普的特使与普京讨论了乌克兰的“实质性计划”",
-        "title": "À Moscou, les émissaires de Trump ont discuté «de plans substantiels» pour l'Ukraine avec Poutine",
-        "body": "Jared Kusher et Steve Witkoff rencontrent Vladimir Poutine à Moscou, le 5 septembre 2026. Mikhail Metzel/Pool Sputnik Krem - Mikhail Metzel Par : RFI avec AFP « Les représentants américains se sont minutieusement préparés pour ce déplacement. Ils ont non seulement réitéré leur intérêt habituel pour une fin rapide des hostilités, mais ils ont également présenté un certain nombre d'idées sur les voies possibles menant à un règlement », a déclaré aux journalistes, dont l'AFP, le conseiller du Kremlin, Youri Ouchakov. « La conversation a été constructive, extrêmement franche et empreinte de confiance », a-t-il ajouté, précisant que la partie russe « s'est dite confiante dans la réalisation des objectifs fixés ». À lire aussiLa course contre la montre de Vladimir Poutine Vladimir Poutine s'est entretenu pendant trois heures dans la soirée avec les deux émissaires. Les deux hommes doivent ensuite se rendre dimanche à Kiev. « La situation n'est bien sûr pas simple », a déclaré le président aux deux envoyés dans une vaste salle du Kremlin, selon des images diffusées par la télévision russe. Les deux émissaires « ont discuté de plans substantiels pour les prochaines étapes, qui seront annoncés dans les semaines à venir, et se réjouissent de tenir demain en Ukraine des réunions tout aussi productives », a déclaré un responsable de la Maison Blanche dans un communiqué à l'AFP. De source russe, les négociations qui ont eu lieu ne se sont pas limitées à un échange de vues sur la résolution de la crise ukrainienne. Les questions économiques et les éventuels grands projets russo-américains mutuellement bénéfiques ont été discutés en détail. La preuve, s’il en fallait encore, qu’une sortie du conflit ukrainien ne se fera pas sans que Moscou ne bénéficie d’importantes contreparties sur le plan économique, rapporte notre correspondant en Russie, Jean-Didier Revoin. Dans la nuit de vendredi à samedi, les aéroports de Kiev ont été la cible de frappes russes, a de son côté dénoncé le chef de l'État ukrainien Volodymyr Zelensky qui y a vu la volonté de la Russie de perturber le voyage dans son pays de Steve Witkoff et Jared Kushner.",
-        "summary_cn": "贾里德·库舍尔和史蒂夫·威特科夫于 2026 年 9 月 5 日在莫斯科会见弗拉基米尔·普京。 米哈伊尔·梅策尔/普尔人造卫星克里姆 - 米哈伊尔·梅策尔 作者：RFI 与法新社 “美国代表为这次访问做了精心准备。他们不仅重申了他们对迅速结束敌对行动的一贯兴趣，而且还就达成和解的可能途径提出了一些想法，”克里姆林宫顾问尤里·乌沙科夫告诉我们记者，包括法新社。他补充说：“这次谈话是建设性的、极其坦诚和充满信任的。”并指出俄罗斯方面“对实现既定目标表示有信心”。另请阅读：弗拉基米尔·普京与时间赛跑 弗拉基米尔·普京晚上与两位特使进行了三个小时的讲话。两人将于周日前往基辅。根据俄罗斯电视台播放的图像，总统在克里姆林宫的一个大房间里对两位特使说：“情况当然不简单。”一位白宫官员在给法新社的声明中表示，两位特使“讨论了下一步的实质性计划，这些计划将在未来几周内宣布，并期待明天在乌克兰举行同样富有成效的会议”。俄罗斯消息人士称，此次谈判不仅限于就解决乌克兰危机交换意见。双方详细讨论了经济问题和可能的俄美重大互利项目。据我们驻俄罗斯记者让-迪迪埃·雷沃恩报道，如果莫斯科没有从重大经济补偿中受益，乌克兰冲突就不会退出，如果还需要任何证据的话。乌克兰国家元首弗拉基米尔·泽伦斯基谴责说，周五至周六夜间，基辅机场成为俄罗斯袭击的目标，他认为这是俄罗斯想要扰乱史蒂夫·威特科夫和贾里德·库什纳前往乌克兰的行程。",
-        "source": "RFI",
-        "pub_date": "6 September 2026",
-        "auto": true,
-        "link": "https://www.rfi.fr/fr/europe/20260906-%C3%A0-moscou-%C3%A9missaires-de-trump-ont-discut%C3%A9-de-plans-substantiels-pour-l-ukraine-avec-poutine",
-        "region": "international"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "“他们的恐惧是正确的！”：在 PS，皇家惊喜",
-        "title": "« Ils ont raison d’avoir peur ! » : Au PS, la surprise Royal",
-        "body": "Déjà qu’il n’avait pas l’intention de participer à une primaire, mais a fini par s’y résoudre faute d’une dynamique suffisamment importante, Raphaël Glucksmann n’imaginait pas, en plus, devoir affronter Ségolène Royal. « Elle va être no limit », soupire d’avance une de ses proches. Grand favori du scrutin, l’eurodéputé sait qu’il est dans le viseur de la finaliste de 2007, elle qui répète un peu partout qu’elle le considère comme n’étant pas assez de gauche. Certains de ses soutiens redoutent les saillies assassines de l’ancienne ministre. En marge de la foire de Châlons-en-Champagne, où elle était vendredi 4 septembre pour un déplacement de campagne, Ségolène Royal éclate de rire. « Ils ont raison d’avoir peur ! » prévient-elle. La candidate annonce la couleur à La Tribune Dimanche : « Je rappelle que Raphaël Glucksmann a assisté au meeting de Nicolas Sarkozy en 2007. Certes, tout le monde a le droit de changer d’avis, mais il devra s’en expliquer pendant les débats. »",
-        "summary_cn": "尽管本来不想参加初选，但由于缺乏足够强劲的势头而最终参加了初选，拉斐尔·格鲁克斯曼更没想到要面对塞戈莱娜·罗亚尔。 “她将没有极限，”她的一位亲戚提前叹息道。这位欧洲议会议员是此次投票中最受欢迎的人，她知道他受到了 2007 年决赛入围者的关注，她几乎在所有地方都重复说她认为他不够左翼。她的一些支持者担心这位前部长的凶残行为。 9 月 4 日星期五，塞戈莱娜·罗亚尔 (Ségolène Royal) 前往香槟沙隆 (Chalons-en-Champagne) 展会进行竞选活动，在展会间隙，她突然大笑起来。她警告说：“他们的恐惧是正确的！”这位候选人向《每日论坛报》宣布了颜色：“我提醒你们，拉斐尔·格鲁克斯曼参加了 2007 年尼古拉斯·萨科齐的会议。当然，每个人都有权改变主意，但他们必须在辩论中对此做出解释。” »",
-        "source": "La Tribune",
-        "pub_date": "6 September 2026",
-        "auto": true,
-        "link": "https://www.latribune.fr/article/la-tribune-dimanche/politique/41733477517485/ils-ont-raison-d-avoir-peur-au-ps-la-surprise-royal",
-        "region": "europe"
       }
     ],
     "vocab": [],
-    "word_count": 859,
+    "word_count": 346,
     "auto": true
   },
   {
     "date": "2026-09-05",
     "tags": [
-      "Actualité",
-      "Économie"
+      "Actualité"
     ],
     "regions": [
       "francophonie",
       "europe"
     ],
-    "summary_cn": "在校学生越来越少......省钱或提高教育质量的机会？ | 移民：五个欧洲国家在为被拒绝的移民建立“返回中心”方面取得进展 | 默兹缺席，SpaceX 和蓝色起源套餐：马克龙可以通过合同挽救他的太空峰会",
+    "summary_cn": "在校学生越来越少......省钱或提高教育质量的机会？ | 移民：五个欧洲国家在为被拒绝的移民建立“返回中心”方面取得进展",
     "briefs": [
       {
         "tag": "Actualité",
@@ -674,22 +621,10 @@
         "auto": true,
         "link": "https://www.rfi.fr/fr/europe/20260905-migrations-cinq-pays-europ%C3%A9ens-mise-en-place-hubs-de-retour-pour-migrants-d%C3%A9bout%C3%A9s",
         "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "默兹缺席，SpaceX 和蓝色起源套餐：马克龙可以通过合同挽救他的太空峰会",
-        "title": "Merz absent, SpaceX et Blue Origin forfaits : Macron peut sauver son sommet spatial par les contrats",
-        "body": "OHB incarne cette ambiguïté. Le fabricant de satellites est engagé dans la constellation européenne IRIS² et a obtenu un contrat proche d’un milliard d’euros pour 18 plateformes satellitaires. Il travaille parallèlement avec Rheinmetall et Airbus sur une constellation militaire destinée à la Bundeswehr. Berlin soutient le programme européen, mais entend aussi consolider ses capacités nationales, là où Paris pousse traditionnellement une mutualisation européenne plus poussée. La divergence s’étend au financement communautaire. Selon le média La Lettre, Berlin refuse les critères de préférence européenne que Paris voudrait appliquer aux 60 milliards d’euros consacrés à l’espace dans le prochain cadre financier pluriannuel de l’Union. Ce montant ne constitue toutefois pas un budget acquis : il relève d’une proposition et reste susceptible d’être réduit, réaffecté ou redécoupé. Les États membres doivent d’abord trouver un compromis, puis le Parlement européen devra l’approuver avant l’entrée en vigueur du cadre financier 2028-2034. Autrement dit, la Commission propose, les gouvernements négocient et le Parlement peut accepter ou bloquer l’accord final. Le budget pluriannuel européen doit, au terme du processus, être adopté à l’unanimité par les États membres avec l’accord du Parlement.",
-        "summary_cn": "OHB 体现了这种模糊性。该卫星制造商参与了欧洲IRIS²星座，并获得了价值近10亿欧元的18个卫星平台的合同。它正在与莱茵金属公司和空中客车公司并行合作，为德国联邦国防军开发一个军事星座。柏林支持欧洲计划，但也打算巩固其国家能力，而巴黎传统上则推动更大的欧洲联合。这种分歧还延伸到了社区资金方面。据媒体 La Lettre 报道，柏林拒绝了巴黎希望对欧盟下一个多年期财政框架中专门用于太空的 600 亿欧元采用的欧洲优惠标准。然而，这一数额并不构成既定预算：它只是一项提案，仍有可能减少、重新分配或重新分配。成员国必须首先找到妥协方案，然后欧洲议会必须在2028-2034年财政框架生效之前批准该方案。换句话说，委员会建议，政府进行谈判，议会可以接受或阻止最终协议。在此过程结束时，欧洲多年预算必须在议会同意的情况下由成员国一致通过。",
-        "source": "La Tribune",
-        "pub_date": "4 September 2026",
-        "auto": true,
-        "link": "https://www.latribune.fr/article/defense-aerospatiale/spatial/11112497685742/merz-absent-spacex-et-blue-origin-forfaits-macron-peut-sauver-son-sommet-spatial-par-les-contrats",
-        "region": "europe"
       }
     ],
     "vocab": [],
-    "word_count": 878,
+    "word_count": 694,
     "auto": true
   },
   {
@@ -700,10 +635,9 @@
     ],
     "regions": [
       "europe",
-      "international",
       "etats-unis"
     ],
-    "summary_cn": "产量最低，农场亏损……经历了“历史性”夏季干旱后，法国农业正陷入生存危机 | 刚果民主共和国：菲利克斯“齐塞克迪是唯一与以色列关系如此密切的非洲领导人之一” | 巴黎太空峰会：美国巨人沙漠",
+    "summary_cn": "产量最低，农场亏损……经历了“历史性”夏季干旱后，法国农业正陷入生存危机 | 巴黎太空峰会：美国巨人沙漠",
     "briefs": [
       {
         "tag": "Actualité",
@@ -716,18 +650,6 @@
         "auto": true,
         "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/secheresse/rendements-au-plus-bas-exploitations-dans-le-rouge-apres-la-secheresse-historique-de-l-ete-l-agriculture-francaise-est-en-pleine-crise-existentielle_8172080.html#xtor=RSS-3-[lestitres]",
         "region": "europe"
-      },
-      {
-        "tag": "Actualité",
-        "title_cn": "刚果民主共和国：菲利克斯“齐塞克迪是唯一与以色列关系如此密切的非洲领导人之一”",
-        "title": "RDC: Félix «Tshisekedi est parmi les seuls dirigeants africains qui soit aussi proche d'Israël»",
-        "body": "Par : Christophe Boisbouvier Voir les autres épisodes Guinée: l'UFDG «existe» et continuera à s'opposer à «la violation des droits de l'homme», prévient Cellou Dalein Diallo En Guinée Conakry, beaucoup sont choqués par la découverte le 24 août, près de Forécariah, d'une fosse commune avec six corps qu'on a retrouvés les mains ligotées et les yeux bandés. S'agit-il d'exécutions extrajudiciaires ? Saura-t-on un jour la vérité ? L'ancien Premier ministre Cellou Dalein Diallo, contraint à l'exil, préside toujours l'Union des forces démocratiques de Guinée (UFDG), malgré sa dissolution officielle, en mars dernier, par le régime du président Doumbouya. De passage à Paris, le principal opposant guinéen répond aux questions de RFI. 03/09/2026 05:03 Sénégal: un accord avec le FMI basé sur «un cadrage macroéconomique, des politiques économiques et des réformes» Au Sénégal, après deux ans d’âpres négociations, le Fonds monétaire international et Dakar ont trouvé un accord sur un prêt de 2,2 milliards de dollars pour appuyer le pays, qui se débat avec une dette vertigineuse de plus de 130% du PIB. Alors que la huitième mission du FMI depuis l’élection de Bassirou Diomaye Faye et la révélation en septembre 2024 des dettes cachées par l’administration précédente s’est achevée mardi 1ᵉʳ septembre, Majdi Debbich, le représentant du FMI au Sénégal, décrypte ce nouvel accord de coopération. 02/09/2026 06:51 RDC: le Front commun pour le Congo «campe sur ces exigences» et «exige des mesures de décrispation» du chef de l'État « Un dialogue national oui, mais avec tout le monde et à l'extérieur de la RDC ». Voilà en substance la position du Front commun pour le Congo (FCC) de l'ancien président Joseph Kabila, qui vit en exil depuis qu'il a été condamné à mort pour trahison à Kinshasa il y a un an. Jeudi dernier, dans une adresse à la nation, le président Tshisekedi a proposé un dialogue national ouvert à l'opposition, mais à l'exclusion des rebelles du M23 et de « ceux qui agissent au service du Rwanda ». De passage à Paris, Marie-Ange Mushobekwa, porte-parole du FCC, est l'invitée de RFI.",
-        "summary_cn": "作者：Christophe Boisbouvier 查看其他剧集 几内亚：UFDG“存在”并将继续反对“侵犯人权”，Cellou Dalein Diallo 警告说，在几内亚科纳克里，8 月 24 日在 Forécariah 附近发现了一个乱葬坑，里面有 6 具双手被绑着、眼睛被蒙住的尸体，这让许多人感到震惊。这些是法外处决吗？我们会知道真相吗？被迫流亡的前总理塞卢·达莱因·迪亚洛仍然担任几内亚民主力量联盟（UFDG）主席，尽管该联盟于去年三月被杜姆布亚总统政权正式解散。在巴黎期间，几内亚的主要对手回答了 RFI 的问题。 03/09/2026 05:03 塞内加尔：与国际货币基金组织达成基于“宏观经济框架、经济政策和改革”的协议 在塞内加尔，经过两年的艰苦谈判，国际货币基金组织和达喀尔达成了一项22亿美元贷款协议，以支持该国债务占国内生产总值130%以上的惊人债务。自巴西鲁·迪奥马耶·法耶当选以及 2024 年 9 月前政府隐藏债务被揭露以来，国际货币基金组织的第八次访问于 9 月 1 日星期二结束，但国际货币基金组织驻塞内加尔代表马吉迪·德比奇解读了这项新的合作协议。 02/09/2026 06:51 刚果民主共和国：刚果共同阵线“坚持这些要求”并“要求采取降级措施”，国家元首“是的，但要与刚果民主共和国以外的所有人进行全国对话”。这本质上是前总统约瑟夫·卡比拉刚果共同阵线（FCC）的立场，卡比拉自一年前在金沙萨因叛国罪被判处死刑以来一直流亡海外。上周四，齐塞克迪总统在向全国发表的讲话中提议举行向反对派开放的全国对话，但不包括“3·23”运动叛乱分子和“为卢旺达服务的人”。在巴黎期间，FCC 发言人 Marie-Ange Mushobekwa 做客了 RFI。",
-        "source": "RFI",
-        "pub_date": "4 September 2026",
-        "auto": true,
-        "link": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260904-rdc-f%C3%A9lix-tshisekedi-est-parmi-les-seuls-dirigeants-africains-qui-soit-aussi-proche-d-isra%C3%ABl",
-        "region": "international"
       },
       {
         "tag": "Économie",
@@ -743,7 +665,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 1036,
+    "word_count": 693,
     "auto": true
   },
   {
@@ -803,28 +725,13 @@
   {
     "date": "2026-09-02",
     "tags": [
-      "Actualité",
-      "Économie"
+      "Actualité"
     ],
     "regions": [
-      "europe",
-      "international",
-      "etats-unis"
+      "international"
     ],
-    "summary_cn": "在帕特里克·布鲁埃尔的巡演被取消后，弗拉维·弗拉门特的律师回应道：“这是一个转变，终于听到 | 全球变暖：联合国表示，全球变暖将超过 1.5°C 的阈值，但仍有可能逆转 | 国际空间站：索菲·阿德诺完成她的第三次太空行走",
+    "summary_cn": "全球变暖：联合国表示，全球变暖将超过 1.5°C 的阈值，但仍有可能逆转",
     "briefs": [
-      {
-        "tag": "Actualité",
-        "title_cn": "在帕特里克·布鲁埃尔的巡演被取消后，弗拉维·弗拉门特的律师回应道：“这是一个转变，终于听到",
-        "title": "\"C’est un basculement, enfin la parole des femmes est entendue\", réagit l'avocate de Flavie Flament, après l'annulation de la tournée de Patrick Bruel",
-        "body": "\"Il n'est pas obstiné\", \"il fait le choix de l'apaisement\", réagit l'avocate de Patrick Bruel, après l'annulation de sa tournée \"Un signe fort\" qui donne envie à ses clientes de continuer \"leur combat\", poursuit l'avocate. Selon Me Corinne Herrmann, elles ont le sentiment que \"quelque chose a basculé dans notre société, que la société civile les a entendues, leurs craintes pour d'autres femmes, parce que c'était vraiment quelque chose qui les préoccupait\". \"C'est pour ça qu'elles sont, pour la plupart, sorties de l'anonymat et ont déposé plainte\", ajoute-t-elle. L'avocate considère que ce \"basculement\" va désormais \"laisser la place au débat judiciaire et à l'instruction\". Il va également bénéficier à \"d'autres affaires qui concernent d'autres personnes qui sont peut-être connues, mais aussi pour des affaires plus habituelles\". Corinne Herrmann demande à la justice de \"prendre la mesure de ce qu'il s'est passé\". Corinne Herrmann assure par ailleurs que le \"dépôt de plusieurs plaintes\" est \"en cours\", sans plus de précision. À 67 ans, le chanteur est mis en examen depuis le 10 juin dans quatre affaires : un viol à Neuilly-sur-Seine (Hauts-de-Seine) en 2008, une tentative de viol à Bruxelles en 2010, une affaire d'agression sexuelle et de harcèlement sexuel à Perpignan (Pyrénées-Orientales) en 2019 et un dossier de harcèlement sexuel à Ajaccio (Corse-du-Sud) en 2019. Il est placé sous le statut de témoin assisté dans quatre autres affaires. Myriam Guedj Benayoun, avocate de plusieurs plaignantes, comptabilise par ailleurs \"31 plaintes\" déposées contre Patrick Bruel auprès du procureur de la République de Nanterre.",
-        "summary_cn": "“他并不固执”，“他选择绥靖”，帕特里克·布鲁尔的律师在他的巡演被取消后反应道，“这是一个强烈的迹象”，这让他的客户想要继续“他们的斗争”，律师继续说道。根据我科琳·赫尔曼的说法，她们感觉“我们的社会发生了一些变化，民间社会听到了她们的声音，听到了她们对其他女性的恐惧，因为这确实让她们感到担忧”。 “这就是为什么他们中的大多数人都匿名提出投诉，”她补充道。律师认为，这种“转变”现在将“为法律辩论和调查留下空间”。它还将有利于“涉及其他可能认识的人的其他案件，但也有利于更常见的案件”。科琳·赫尔曼 (Corinne Herrmann) 要求法院“盘点所发生的事情”。科琳·赫尔曼 (Corinne Herrmann) 还保证，“几项投诉的提交”正在“进行中”，但没有提供更多细节。现年 67 岁的这位歌手自 6 月 10 日起在四起案件中被起诉：2008 年在塞纳河畔讷伊（上塞纳省）发生的强奸案、2010 年在布鲁塞尔发生的强奸未遂案、2019 年在佩皮尼昂（东比利牛斯省）发生的性侵犯和性骚扰案件以及在阿雅克肖（南部）发生的性骚扰案件。科西嘉岛），2019 年。他在另外四起案件中被置于协助证人地位。几名原告的律师 Myriam Guedj Benayoun 还统计了向 Nanterre 检察官提出的针对 Patrick Bruel 的“31 项投诉”。",
-        "source": "France Info",
-        "pub_date": "2 September 2026",
-        "auto": true,
-        "link": "https://www.franceinfo.fr/culture/musique/patrick-bruel/affaire-de-violences-sexuelles/c-est-un-basculement-enfin-la-parole-des-femmes-est-entendue-reagit-l-avocate-de-flavie-flament-apres-l-annulation-de-la-tournee-de-patrick-bruel_8173250.html#xtor=RSS-3-[lestitres]",
-        "region": "europe"
-      },
       {
         "tag": "Actualité",
         "title_cn": "全球变暖：联合国表示，全球变暖将超过 1.5°C 的阈值，但仍有可能逆转",
@@ -836,22 +743,10 @@
         "auto": true,
         "link": "https://www.rfi.fr/fr/environnement/20260902-r%C3%A9chauffement-climatique-le-seuil-de-1-5%C2%B0c-sera-d%C3%A9pass%C3%A9-mais-faire-machine-arri%C3%A8re-reste-possible-selon-l-onu",
         "region": "international"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "国际空间站：索菲·阿德诺完成她的第三次太空行走",
-        "title": "ISS : Sophie Adenot boucle sa troisième sortie spatiale",
-        "body": "C’était seulement la sixième sortie spatiale 100 % féminine de toute l’histoire de la station spatiale internationale, une station pourtant habitée en permanence depuis 26 ans. Ce mardi 1er septembre, l’astronaute française Sophie Adenot, de l’ESA, a réalisé une nouvelle EVA (Extra vehicular activity), en compagnie de Jessica Meir. C’était la troisième sortie pour Sophie Adenot en seulement trois semaines, après deux autres sorties les 18 et 25 août. Certes Jessica Meir est l’actuelle commandante de l’ISS, c’est Sophie Adenot qui, cette fois, a dirigé l’EVA. Les deux précédentes étaient sous le commandement de l’Américain Anil Menon. Tout le monde en a déjà parlé, la première sortie spatiale de Sophie Adenot lui a donné du fil à retordre, à cause de boulons capricieux. Par conséquent, les opérations du remplacement d’une grande antenne de transmission de données ont dû être réparties sur deux sorties. Une expérience qui a permis Sophie Adenot de diriger l’EVA 99 ce mardi. Cette sortie, la 284e de l’Histoire de la station, avait pour objectif le remplacement d’un retroréflecteur du port avant du module américain Harmony, sous-système important pour le guidage des véhicules spatiaux lors des phases d’amarrage et de désamarrage. Sophie Adenot et Jessica Meir ont aussi procédé à d’autres opérations de maintenance : installation de câbles électriques et remplacement d’une caméra. L’EVA était sans encombre, à l’exception de la fin où Sophie Adenot a connu des difficultés à bouger une épaule dans son scaphandre. Le reste des opérations extérieures restantes à faire n’étant pas jugé urgent, c’était probablement la dernière EVA de Sophie Adenot cette année, sa mission actuelle prenant bientôt fin. L’astronaute aura quand même cumulé 19 heures et 42 minutes de sortie en scaphandre, une performance pour elle qui est désormais la première Française à avoir réalisé une sortie spatiale. Sophie Adenot devient également la seconde européenne à avoir passé le plus de temps en EVA, devançant le Français Philippe Perrin (cumul de 19 h 31), et derrière Thomas Pesquet (39 h 54). La fin de la mission Epsilon est attendue au cours de la seconde quinzaine de septembre.",
-        "summary_cn": "这只是国际空间站历史上第六次100%女性太空行走，国际空间站已经连续居住了26年。 9 月 1 日星期二，来自欧空局的法国宇航员索菲·阿德诺在杰西卡·梅尔的陪同下进行了一次新的 EVA（额外飞行器活动）。这是继 8 月 18 日和 25 日两次外出之后，索菲·阿德诺在短短三周内第三次外出。当然，杰西卡·梅尔是国际空间站的现任指挥官，这次领导 EVA 的是索菲·阿德诺。前两艘由美国人阿尼尔·梅农指挥。每个人都已经谈论过，索菲·阿德诺特的第一次太空行走给她带来了困难，因为反复无常的螺栓。因此，更换大型数据传输天线的操作必须分布在两个输出上。这次经历让 Sophie Adenot 在本周二领导了 EVA 99。这次巡演是空间站历史上的第 284 次，旨在更换美国和谐号模块前端口的后向反射器，美国和谐号模块是在对接和脱离对接阶段引导航天器的重要子系统。 Sophie Adenot 和 Jessica Meir 还进行了其他维护操作：安装电缆和更换摄像头。 EVA 很平静，除了最后 Sophie Adenot 在她的西装中移动肩膀时遇到困难。剩下的对外行动并不紧急，这可能是索菲·阿德诺今年最后一次 EVA，她目前的任务也即将结束。这位宇航员仍将累计进行19小时42分钟的太空行走，这对于她来说是一项出色的表现，她现在是第一位进行太空行走的法国女性。 Sophie Adenot 也成为第二位在 EVA 中花费时间最长的欧洲人，领先于法国人 Philippe Perrin（累计时间 19 分 31 秒），落后于 Thomas Pesquet（39 分 54 秒）。 Epsilon 任务预计将于 9 月下旬结束。",
-        "source": "La Tribune",
-        "pub_date": "1 September 2026",
-        "auto": true,
-        "link": "https://air-cosmos.latribune.fr/article/espace/60880641340536/iss-sophie-adenot-boucle-sa-troisieme-sortie-spatiale",
-        "region": "etats-unis"
       }
     ],
     "vocab": [],
-    "word_count": 922,
+    "word_count": 324,
     "auto": true
   },
   {
@@ -864,7 +759,7 @@
       "europe",
       "international"
     ],
-    "summary_cn": "“我只让他们参加最低限度的课外活动”：开学之际，家庭信心减弱 | 校服：在法国，一项不令人信服的实验谨慎结束 | G20财经：莫斯科回归掩盖了市场警报 | “我要求你停下来”：爱德华·巴拉杜尔的这句话如何成为邪教 | 上合组织峰会：伊朗比什凯克寻求俄罗斯支持对抗美国 | 观点。 “面对公共赤字，储蓄养老金是一个冒险的选择！”",
+    "summary_cn": "“我只让他们参加最低限度的课外活动”：开学之际，家庭信心减弱 | 校服：在法国，一项不令人信服的实验谨慎结束 | G20财经：莫斯科回归掩盖了市场警报 | 上合组织峰会：伊朗比什凯克寻求俄罗斯支持对抗美国 | 观点。 “面对公共赤字，储蓄养老金是一个冒险的选择！”",
     "briefs": [
       {
         "tag": "Actualité",
@@ -904,18 +799,6 @@
       },
       {
         "tag": "Actualité",
-        "title_cn": "“我要求你停下来”：爱德华·巴拉杜尔的这句话如何成为邪教",
-        "title": "\"Je vous demande de vous arrêter\" : comment la phrase d'Edouard Balladur est devenue culte",
-        "body": "Temps de lecture : 3min Edouard Balladur à l'Assemblée nationale, le 5 mai 2010. (CHRISTOPHE MORIN / MAXPPP) Le 23 avril 1995, Edouard Balladur lance deux fois cette phrase à ses militants qui le huent. Trente ans après, l'expression est restée et est même rentrée dans le quotidien des Français de la télévision jusqu'à la pop culture, comme les Simpson ou Call of Duty. Il flottait, ce soir-là, une drôle d'ambiance en France : le 23 avril 1995, au soir du premier tour de l'élection présidentielle, Édouard Balladur se présente devant les caméras de télévision à son QG de campagne. Alors Premier ministre de François Mitterrand, il est, depuis longtemps, donné favori dans les sondages, affichant jusqu'à 58 % d'opinions favorables fin 1994. Sa candidature, en concurrence directe avec celle de son \"ami de trente ans\" Jacques Chirac, a fracturé la droite. Sauf que, ce soir-là de printemps, le verdict des urnes est sans appel : Lionel Jospin et Jacques Chirac se qualifient pour le second tour. Edouard Balladur est éliminé. Face à ses partisans qui scandent son prénom, il apparaît d'abord souriant. Puis il annonce la qualification de ses deux rivaux. Des sifflets et des huées éclatent immédiatement. Edouard Balladur, le ton soudain péremptoire, répète alors sèchement : \"Je vous demande de vous arrêter !\". La phrase frappe par son décalage. Le langage reste courtois et quasi-bureaucratique… Alors que la situation, elle, est électrique : il s'agit d'un homme politique tout juste éliminé, qui recadre en direct, à la télévision et à la radio, son propre camp. Cette tension entre la forme (posée, presque cérémonieuse) et le fond (la colère et l'échec) est ce qui transforme une réplique de circonstance en objet culturel. L'écho médiatique est immédiat. Laurent Gerra et Les Guignols de l'info s'emparent de la formule. Et c'est au même titre que \"Ah que coucou\", \"A tchao bonsoir\", que le \"Je vous demande de vous arrêter\" est utilisé en running gag, le plus souvent hors contexte. Quelques années plus tard, Thierry Ardisson en fait un jingle sonore dans Tout le monde en parle, sur France 2, pour réclamer le silence quand le public est trop bruyant.",
-        "summary_cn": "阅读时间：3 分钟 爱德华·巴拉杜尔 (Edouard Balladur) 在国民议会，2010 年 5 月 5 日。 (CHRISTOPHE MORIN / MAXPPP) 1995 年 4 月 23 日，爱德华·巴拉杜尔 (Edouard Balladur) 两次向嘘他的积极分子抛出这句话。三十年后，这个表达方式仍然存在，甚至进入了法国人的日常生活，从电视到流行文化，比如《辛普森一家》或《使命召唤》。那天晚上，法国出现了一种奇怪的气氛：1995年4月23日，第一轮总统选举当晚，爱德华·巴拉杜尔出现在竞选总部的电视摄像机前。时任总理弗朗索瓦·密特朗 (François Mitterrand) 长期以来一直是民意调查中最受欢迎的人，1994 年底的支持率高达 58%。他的候选资格与他的“三十年朋友”雅克·希拉克 (Jacques Chirac) 直接竞争，分裂了右翼。除此之外，那个春天的晚上，民意调查的结果是最终的：莱昂内尔·若斯潘和雅克·希拉克有资格进入第二轮。爱德华·巴拉杜尔被淘汰。面对呼喊他名字的支持者，他首先露出微笑。然后他宣布了两位对手的参赛资格。口哨声和嘘声立即爆发。爱德华·巴拉杜尔的语气突然变得咄咄逼人，然后干巴巴地重复道：“我请你停下来！”这句话的前后矛盾之处令人震惊。语言仍然礼貌而准官僚……虽然情况令人震惊：它涉及一位刚刚被淘汰的政客，他在电视和广播中现场重组了自己的阵营。形式（姿势，几乎是仪式性的）和实质（愤怒和失败）之间的这种张力是将环境的复制品转变为文化对象的原因。媒体立即做出反应。 Laurent Gerra 和 Les Guignols de l'info 采用了这个公式。与“Ah que coucou”、“A tchao bonoir”一样，“我请你停止”也被用于搞笑节目中，通常是断章取义的。几年后，蒂埃里·阿迪森（Thierry Ardisson）在《法国二台》的《世界都在假释》中唱出了一首响亮的歌曲，要求公众在太吵闹时保持安静。",
-        "source": "France Info",
-        "pub_date": "1 September 2026",
-        "auto": true,
-        "link": "https://www.franceinfo.fr/politique/je-vous-demande-de-vous-arreter-comment-la-phrase-d-edouard-balladur-est-devenue-culte_8171597.html#xtor=RSS-3-[lestitres]",
-        "region": "europe"
-      },
-      {
-        "tag": "Actualité",
         "title_cn": "上合组织峰会：伊朗比什凯克寻求俄罗斯支持对抗美国",
         "title": "Sommet de l’OCS: à Bichkek, l’Iran à la recherche du soutien russe face aux États-Unis",
         "body": "Les présidents chinois Xi Jinping, kirghize Sadyr Japarov, russe Vladimir Poutine, le Premier ministre pakistanais Shehbaz Sharif et le président tadjik Emomali Rahmon avant une séance du sommet de l'Organisation de coopération de Shanghai (OCS) à Bichkek, le 1er septembre 2026. © Reuters/Vyacheslav Prokofyev Par : RFI Il y a le sommet officiel, et tout ce qui se trame autour, hors agenda, loin des caméras, où sont souvent abordés les sujets diplomatiques les plus épineux. La 25e édition de l’Organisation de coopération de Shanghai (OCS) ne déroge pas à la règle. Dès lundi soir, le président iranien Massoud Pezeshkian a lancé son marathon diplomatique, indique notre envoyé spécial à Bichkek, Théo Bourgery Gonse. Il a rencontré, entre autres, le Premier ministre indien Narendra Modi, qu’il n’avait pas vu depuis le début de la guerre. Ce mardi 1er septembre, il doit voir Vladimir Poutine et Xi Jinping, afin de s’assurer de leur soutien face à Washington. Accueilli avec les honneurs à Bichkek, le président russe a neuf rencontres prévues, à commencer par son homologue chinois, ce lundi soir. À l’agenda : faire avancer les négociations autour de la construction d’un gazoduc de la Russie vers la Chine. Un projet vieux de 20 ans qui est au point mort. Il doit encore rencontrer le président turc Recep Tayyip Erdogan qui, selon la presse russe, proposera une médiation pour une paix avec l’Ukraine. Enfin, le Premier ministre arménien Nikol Pachinian était lundi avec le président azerbaïdjanais Ilham Aliyev. Une rencontre encore inimaginable il y a un an, alors que les deux pays sortent de 40 ans de guerre. Lundi, le président russe a loué la relation de son pays avec la Chine. Selon Vladimir Poutine, « la coopération stratégique entre Pékin et Moscou constitue un modèle de relations interétatiques ». Isolé par l'Occident, le président russe affiche ses soutiens et doit s'entretenir aujourd'hui avec son homologue iranien. Pour l’Iran, la Russie de Vladimir Poutine est un partenaire de choix. La coopération s'étend sur le plan militaire, elle va du nucléaire civil au spatial.",
@@ -940,7 +823,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 1914,
+    "word_count": 1555,
     "auto": true
   },
   {
@@ -951,10 +834,9 @@
     ],
     "regions": [
       "europe",
-      "international",
       "francophonie"
     ],
-    "summary_cn": "2026 年重返校园：国家教育部长保证，教师缺勤将“微乎其微” | 上合组织峰会：伊朗问题有望成为习近平、普京、莫迪和佩泽什基安讨论的核心 | “我的店已经变成河床了！” ：尼泊尔和西藏发生致命洪水后，幸存者目睹了损失 | 尼日利亚：新缉获苯丙胺及其他合成毒品 | 房地产：现在还是买房的时候吗？",
+    "summary_cn": "2026 年重返校园：国家教育部长保证，教师缺勤将“微乎其微” | “我的店已经变成河床了！” ：尼泊尔和西藏发生致命洪水后，幸存者目睹了损失 | 尼日利亚：新缉获苯丙胺及其他合成毒品 | 房地产：现在还是买房的时候吗？",
     "briefs": [
       {
         "tag": "Actualité",
@@ -967,18 +849,6 @@
         "auto": true,
         "link": "https://www.franceinfo.fr/france/rentree/rentree-2026-les-absences-de-professeurs-au-college-et-au-lycee-seront-marginales-assure-le-ministre-de-l-education-nationale_8170304.html#xtor=RSS-3-[lestitres]",
         "region": "europe"
-      },
-      {
-        "tag": "Actualité",
-        "title_cn": "上合组织峰会：伊朗问题有望成为习近平、普京、莫迪和佩泽什基安讨论的核心",
-        "title": "Sommet de l'OCS: le dossier iranien s'annonce au cœur des discussions entre Xi, Poutine, Modi et Pezeshkian",
-        "body": "Xi Jinping accueilli par le président kirghize Sadyr Zhaparov à l'aéroport international de Bichkek au Kirghizistan où se tient le sommet de l'organisation de coopération de Shanghai, le 31 août 2026. Kyrgyzstan's Presidential Press - Sultan Dosaliev Par : Nicolas Rocca Cette Organisation de coopération de Shanghai, c’est avant tout un rassemblement sans les États-Unis et leurs alliés. Rappelez-vous les images symboliques du rassemblement de l’année dernière en Chine : autour de Xi Jinping avaient défilé Vladimir Poutine, Kim Jong-un et Narendra Modi, une véritable démonstration de force sans Européens ou Étatsuniens. Si le leader nord-coréen n'est pas là, le casting se renouvelle cette année. Pour les dix États membres et la dizaine d’autres pays au statut d’observateurs ou de partenaires, cette organisation a un objectif clair. « C’est nécessairement une occasion pour les pays participants, et les pays qui ont du poids dans l’organisation - Chine, Russie et puis d’autres - de manifester leur capacité d’organiser un forum international régulier qui n’est pas dans la sphère occidentale », nous explique Emmanuel Véron, chercheur au centre associé de géopolitique de HEC. L'organisation ne cesse d'ailleurs de grandir avec l’ajout fréquent de nouveaux membres. Certains pourraient être annoncés à Bichkek. Mais ces États, réunis par leur rejet de l’Occident, ne parlent pas nécessairement d’une seule voix car au sein de l’Organisation de coopération de Shanghai cohabitent des grands rivaux : l’Inde et la Chine, l’Inde et le Pakistan, l’Iran et les différents pays du Golfe dont certains ont même été frappés par Téhéran durant la guerre des 40 jours. Mais ces divergences, c’est aussi l'objectif de la structure créée en 2001 : une organisation politique, sécuritaire fondée sur le consensus, dont le fonctionnement est à l’opposé d’un système d’alliance comme l’Otan. « L’Otan est une organisation militaro-politique avec un système d’alliance contraignant, totalement inexistant au sein de l’Organisation de coopération de Shanghai. Et c’est précisément là que, sans doute, le bât blesse, c’est-à-dire que c’est une organisation qui est force de proposition mais qui a réalisé, en définitive, peu de choses », analyse Emmanuel Lincot, professeur à l’Institut Catholique de Paris et directeur de recherche à l’Iris.",
-        "summary_cn": "2026 年 8 月 31 日，习近平在上海合作组织峰会举办地吉尔吉斯斯坦比什凯克国际机场受到吉尔吉斯斯坦总统萨德尔·扎帕罗夫的欢迎。吉尔吉斯斯坦总统新闻 - 苏丹·多萨利耶夫 作者：尼古拉斯·罗卡 这次上海合作组织首先是一次没有美国及其盟友的聚会。请记住去年中国集会的象征性画面：弗拉基米尔·普京、金正恩和纳伦德拉·莫迪围绕习近平游行，这是一次没有欧洲人和美国人参与的真正的武力展示。如果朝鲜领导人不在，今年将重新选角。对于十个成员国和其他十几个具有观察员或伙伴地位的国家来说，该组织有明确的目标。巴黎高等商学院地缘政治中心研究员伊曼纽尔·贝隆（Emmanuel Véron）解释说：“对于参与国以及在该组织中具有影响力的国家（中国、俄罗斯等）来说，这必然是一个机会，以展示其组织西方领域之外的定期国际论坛的能力。”随着新成员的不断增加，该组织不断发展壮大。其中一些可能会在比什凯克宣布。但这些因拒绝西方而联合起来的国家并不一定会同心协力，因为在上海合作组织内部，巨大的竞争对手并存：印度和中国、印度和巴基斯坦、伊朗和各个海湾国家，其中一些国家甚至在40天的战争中受到了德黑兰的打击。但这些分歧也是2001年创建的结构的目标：一个基于共识的政治和安全组织，其功能与北约等联盟体系相反。 “北约是一个具有约束性联盟体系的军事政治组织，在上海合作组织内部完全不存在。毫无疑问，这正是问题所在，也就是说，它是一个提出建议的组织，但最终却收效甚微。”巴黎天主教学院教授、Iris 研究主任伊曼纽尔·林科特（Emmanuel Lincot）分析道。",
-        "source": "RFI",
-        "pub_date": "31 August 2026",
-        "auto": true,
-        "link": "https://www.rfi.fr/fr/asie-pacifique/20260831-sommet-de-l-ocs-le-dossier-iranien-s-annonce-au-c%C5%93ur-des-discussions-entre-xi-poutine-modi-et-pezeshkian",
-        "region": "international"
       },
       {
         "tag": "Actualité",
@@ -1018,7 +888,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 1571,
+    "word_count": 1215,
     "auto": true
   },
   {
@@ -1246,16 +1116,14 @@
     "date": "2026-08-27",
     "tags": [
       "Actualité",
-      "Économie",
       "Technologie"
     ],
     "regions": [
       "europe",
       "chine",
-      "international",
       "francophonie"
     ],
-    "summary_cn": "尼泊尔致命洪水：尼泊尔警方最新临时报告称，这场灾难造成至少 359 人死亡 | 尼泊尔和西藏特大洪水：救援队搜寻1300多名失踪人员 | 爱德华·菲利普希望将失业救济期限缩短至 12 个月：这就是法国在欧洲的地位 | “只剩下一堆石头”：尼泊尔发生致命洪水后，失踪者亲属陷入痛苦之中 | 为什么 Nvidia 提供 Hugging Face，它是 AI 生态系统中的重要一环",
+    "summary_cn": "尼泊尔致命洪水：尼泊尔警方最新临时报告称，这场灾难造成至少 359 人死亡 | 尼泊尔和西藏特大洪水：救援队搜寻1300多名失踪人员 | “只剩下一堆石头”：尼泊尔发生致命洪水后，失踪者亲属陷入痛苦之中 | 为什么 Nvidia 提供 Hugging Face，它是 AI 生态系统中的重要一环",
     "briefs": [
       {
         "tag": "Actualité",
@@ -1280,18 +1148,6 @@
         "auto": true,
         "link": "https://www.rfi.fr/fr/asie-pacifique/20260827-crue-d%C3%A9vastatrice-au-n%C3%A9pal-et-au-tibet-les-secours-%C3%A0-la-recherche-de-plus-d-un-millier-de-disparus",
         "region": "chine"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "爱德华·菲利普希望将失业救济期限缩短至 12 个月：这就是法国在欧洲的地位",
-        "title": "Édouard Philippe veut baisser à 12 mois la durée d'indemnisation chômage : voici où se situe la France en Europe",
-        "body": "Édouard Philippe dégaine ses propositions avant le premier débat présidentiel devant le Medef ce jeudi 27 août. Dans un entretien à l'AFP, le candidat Horizons a dit souhaiter abaisser à douze mois la durée d'indemnisation du chômage pour les demandeurs d'emploi de moins de 50 ans. « Sur l'assurance chômage, ma direction, c'est de faire comme l'Allemagne. Douze mois d'indemnisation maximum pour les moins de 50 ans », a déclaré l'ancien Premier ministre. Pour rappel, la durée maximale d'indemnisation est actuellement de 18 mois pour les moins de 55 ans, depuis une réforme intervenue en 2023 qui avait déjà réduit de six mois l'ouverture des droits alors possible jusqu'à 24 mois. Cette durée sera portée à 15 mois en cas de rupture conventionnelle à partir du 1er septembre 2026, selon une nouvelle réforme. Selon l'étude Europ'Info, publiée par l'Unédic en septembre 2025, la durée d'indemnisation maximale est de 12 mois en Allemagne et au Luxembourg, 24 mois en Espagne, en Italie et aux Pays-Bas, 18 mois au Portugal et 18,5 mois en Suisse. Dans ces pays, la durée est calculée en fonction de la durée de travail antérieure à la situation de chômage.",
-        "summary_cn": "8 月 27 日星期四，爱德华·菲利普 (Édouard Philippe) 在 Medef 首次总统辩论前提出了自己的提案。地平线候选人在接受法新社采访时表示，他希望将 50 岁以下求职者的失业救济期限缩短至 12 个月。 “在失业保险方面，我的方向是像德国那样。为50岁以下的人提供十二个月的最高补偿，”这位前总理说。需要提醒的是，自 2023 年改革以来，目前 55 岁以下人士的最长赔偿期限为 18 个月，该改革已将当时可能的权利减少了 6 个月至 24 个月。根据一项新的改革，从 2026 年 9 月 1 日起，如果采用常规终止，则该期限将延长至 15 个月。根据 Unédic 于 2025 年 9 月发布的 Europ'Info 研究显示，德国和卢森堡的最长赔偿期限为 12 个月，西班牙、意大利和荷兰为 24 个月，葡萄牙为 18 个月，瑞士为 18.5 个月。在这些国家，持续时间是根据失业之前的工作持续时间计算的。",
-        "source": "La Tribune",
-        "pub_date": "27 August 2026",
-        "auto": true,
-        "link": "https://www.latribune.fr/article/economie/121442225247414/edouard-philippe-veut-baisser-a-12-mois-la-duree-dindemnisation-chomage-voici-ou-se-situe-la-france-en-europe",
-        "region": "international"
       },
       {
         "tag": "Actualité",
@@ -1319,7 +1175,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 1324,
+    "word_count": 1131,
     "auto": true
   },
   {
@@ -1329,24 +1185,11 @@
       "Économie"
     ],
     "regions": [
-      "etats-unis",
       "international",
       "europe"
     ],
-    "summary_cn": "乡村音乐偶像多莉·帕顿去世，享年 80 岁 | 叙利亚：库尔德武装领导人正式宣布解散 | 薪资透明：文本发布日期终于知晓 | 美国乡村音乐偶像多莉帕顿去世，享年80岁 | 《塞尔吉》中的《龙珠》：这些亚洲系列可以比悟空更强",
+    "summary_cn": "叙利亚：库尔德武装领导人正式宣布解散 | 薪资透明：文本发布日期终于知晓",
     "briefs": [
-      {
-        "tag": "Actualité",
-        "title_cn": "乡村音乐偶像多莉·帕顿去世，享年 80 岁",
-        "title": "L'icône de la musique country Dolly Parton est morte à l'âge de 80 ans, annonce sa famille",
-        "body": "Dolly Parton, qui a publié une cinquantaine d'albums durant sa longue carrière étalée sur six décennies, laisse une œuvre prolifique forte de quelque 3 000 chansons, dont les plus connues restent Jolene, dédiée à son mari dévoué, et I Will Always Love You. Au-delà de la musique, elle était une des personnalités publiques les plus aimées des Etats-Unis. \"Elle a toujours été présente sur votre télévision, votre tourne-disque, vos CD ou dans la playlist de votre téléphone, devenant ainsi un membre à part entière de votre famille\", commente son neveu dans la vidéo annonçant sa mort. Dolly Parton était aussi connue pour son engagement politique, notamment auprès de la communauté LGBT+. Son mari, Carl Dean, rencontré à l'âge de 18 ans, est décédé un an avant elle. Née le 19 janvier 1946 dans le Tennessee, au sein d'une famille d'agriculteurs très modeste de douze enfants, Dolly Rebecca Parton se fait remarquer très tôt par sa voix claire et son talent de mélodiste. Grâce à un oncle qui travaille à la radio locale, elle interprète une première chanson sur les ondes alors qu'elle est encore adolescente. Une fois le lycée terminé, elle décide de poser ses valises à Nashville, la capitale de la country, où elle est déterminée à se faire un nom. Repérée lors d'un passage dans l'émission radio du chanteur Porter Wagoner à la fin des années 1960, elle entame une carrière solo. Ses textes souvent autobiographiques et sa voix limpide et puissante à l'accent traînant l'imposent rapidement. En 1973, Jolene devient un tube planétaire et la hisse au rang de star internationale. L'année suivante, I Will Always Love You, dédiée à son mentor Porter Wagoner et que Whitney Houston reprendra avec le succès que l'on sait vingt ans plus tard, confirme son talent de compositrice. Sa singularité repose au plan musical sur son art de mêler la musique country à des sonorités pop, un mariage qui séduit bien au-delà des auditeurs de country pure et dure. Mais elle conquiert aussi les cœurs par ses textes aux accents sincères, qui racontent les espoirs et les douleurs des gens modestes et des femmes déçues en amour, auxquels s'identifient ses fans.",
-        "summary_cn": "多莉·帕顿 (Dolly Parton) 在长达 6 年的漫长职业生涯中发行了约 50 张专辑，留下了约 3,000 首歌曲的丰富作品，其中最著名的是献给她忠诚的丈夫的《Jolene》和《我将永远爱你》。除了音乐之外，她还是美国最受欢迎的公众人物之一。 “她总是出现在你的电视、电唱机、CD 或手机的播放列表中，从而成为你家庭的正式成员，”她的侄子在宣布她去世的视频中评论道。多莉·帕顿还因其政治参与而闻名，尤其是 LGBT+ 群体。她 18 岁时认识的丈夫卡尔·迪恩 (Carl Dean) 比她早一年去世。多莉·丽贝卡·帕顿 (Dolly Rebecca Parton) 1946 年 1 月 19 日出生于田纳西州一个有 12 个孩子的普通农业家庭，她很早就因其清晰的嗓音和旋律演奏家的天赋而脱颖而出。感谢一位在当地电台工作的叔叔，她在十几岁的时候就在广播电台上表演了她的第一首歌。高中毕业后，她决定在乡村音乐之都纳什维尔定居，并决心在那里成名。 20 世纪 60 年代末，她在歌手波特·瓦格纳 (Porter Wagoner) 的广播节目中露面时被发现，从此开始了她的独唱生涯。他的自传式文本和清澈有力的声音以及慢吞吞的口音很快就奠定了他的地位。 1973年，乔琳红遍全球，跻身国际巨星行列。第二年，献给她的导师波特·瓦格纳（Porter Wagoner）的《我将永远爱你》（I Will Always Love You）和惠特尼·休斯顿（Whitney Houston）在二十年后翻唱的歌曲获得了我们所知的成功，证实了她作为作曲家的天赋。它的音乐独特性在于其将乡村音乐与流行音乐相结合的艺术，这种结合远远超出了纯粹的乡村听众的吸引力。但她也用真诚的歌词征服了人们的心，这些歌词讲述了她的粉丝认同的谦虚人和失恋的女性的希望和痛苦。",
-        "source": "France Info",
-        "pub_date": "25 August 2026",
-        "auto": true,
-        "link": "https://www.franceinfo.fr/monde/usa/l-icone-de-la-musique-country-dolly-parton-est-morte-a-l-age-de-80-ans-annonce-sa-famille_8161295.html#xtor=RSS-3-[lestitres]",
-        "region": "etats-unis"
-      },
       {
         "tag": "Actualité",
         "title_cn": "叙利亚：库尔德武装领导人正式宣布解散",
@@ -1370,61 +1213,23 @@
         "auto": true,
         "link": "https://www.latribune.fr/article/economie/46634608984512/transparence-salariale-la-date-de-presentation-du-texte-est-enfin-connue",
         "region": "europe"
-      },
-      {
-        "tag": "Actualité",
-        "title_cn": "美国乡村音乐偶像多莉帕顿去世，享年80岁",
-        "title": "Dolly Parton, idole américaine de la musique country, est morte à l'âge de 80 ans",
-        "body": "Dolly Parton se produit lors d'un événement le lundi 14 août 2023, à Overland Park, Kansas, États-Unis. AP - Charlie Riedel Par : Bastien Brun Dolly Parton, légende américaine de la musique country, est décédée à l'âge de 80 ans, a annoncé sa famille ce mardi 25 août 2026. « Ma famille et moi avons partagé toute une vie de beaux souvenirs avec Dolly, mais vous aussi. Elle a toujours été présente sur votre télévision, votre tourne-disque, vos CD ou dans la playlist de votre téléphone, devenant ainsi un membre à part entière de votre famille », a déclaré son neveu dans une vidéo publiée sur le compte X de la star, que l'on savait malade depuis un certain temps. Citant des représentants de l'artiste, les médias américains ont précisé, un peu plus tard dans la journée, qu'elle était décédée après « un bref combat contre le cancer ». À première vue, Dolly Parton était cette chanteuse à la chevelure platine et aux ongles interminables, qui avait quelque peu forcé sur la chirurgie esthétique. Mais cette image volait en éclats dès que ce petit bout de femme apparaissait sur scène ou prenait la parole. « La magie, c’est que j’ai l’air artificielle mais je suis totalement vraie, confiait-elle au journal USA Today en 2020 (*). Les gens peuvent le voir. Ils me pardonnent d'être tape-à-l'œil. Ils me pardonnent de ne pas être élégante. Ils me pardonnent de ne pas être aussi intelligente que des gens éduqués. Je veux qu’ils me voient. Je ne suis pas timide. » Quatrième d’une fratrie de douze enfants, la fille originaire du Tennessee est née le 19 janvier 1946 dans une famille très pauvre. Elle grandit au pied des Appalaches entre un père cultivateur de tabac et une mère au foyer. C’est un oncle, Bill Owens, qui lui apprend la guitare et la pousse très jeune sur scène. La jeune Dolly chante pour la télé locale. À 13 ans, elle est présentée par Johnny Cash au Grand Ole Opry, une importante émission de radio country.",
-        "summary_cn": "多莉·帕顿 (Dolly Parton) 于 2023 年 8 月 14 日星期一在美国堪萨斯州欧弗兰帕克举行的活动中表演。美联社 - 查理·里德尔 (Charlie Riedel) 作者：巴斯蒂安·布伦 (Bastien Brun) 多莉·帕顿 (Dolly Parton)，美国乡村音乐传奇人物，她的家人于 2026 年 8 月 25 日周二宣布去世，享年 80 岁。“我和我的家人与多莉分享了一生美好的回忆，你也一样。她一直出现在你的电视、电唱机、CD 或手机的播放列表中，从而成为你家庭的正式成员，”她的侄子在明星网站上发布的视频中说道。 X帐号，已知患病已有一段时间了。当天晚些时候，美国媒体援引这位艺术家的代表的话说，她在“与癌症进行了短暂的斗争”后去世了。乍一看，多莉·帕顿就是这个有着白金头发和无尽指甲的歌手，多少有些强迫自己做过整容手术。但当这个小女人一出现在舞台上或说话时，这个形象就被打破了。 “神奇的是，我看起来很人造，但我是完全真实的，”她在 2020 年向《今日美国》透露 (*)。人们可以看到它。他们原谅我的浮夸。他们原谅我不优雅。他们原谅我不如受过教育的人聪明。我想让他们看到我。我不害羞。 » 这位来自田纳西州的女孩于 1946 年 1 月 19 日出生在一个非常贫困的家庭，在 12 个孩子中排行第四。她在阿巴拉契亚山脉脚下长大，父亲是烟草农民，母亲是全职母亲。叔叔比尔·欧文斯（Bill Owens）教她吉他，并在她很小的时候就将她推上舞台。年轻的多莉为当地电视台唱歌。 13 岁时，约翰尼·卡什 (Johnny Cash) 在大型乡村广播节目 Grand Ole Opry 上认识了她。",
-        "source": "RFI",
-        "pub_date": "25 August 2026",
-        "auto": true,
-        "link": "https://www.rfi.fr/fr/monde/20260825-dolly-parton-l%C3%A9gende-de-la-musique-country-est-morte-%C3%A0-l-%C3%A2ge-de-80-ans",
-        "region": "etats-unis"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "《塞尔吉》中的《龙珠》：这些亚洲系列可以比悟空更强",
-        "title": "Dragon Ball à Cergy : ces franchises asiatiques qui peuvent faire plus fort que Goku",
-        "body": "L’Élysée a annoncé, le 24 août, un protocole d’accord avec Qiddiya Investment Company pour construire trois parcs à thème à Cergy-Pontoise, financés par 6 milliards d’euros d’investissements saoudiens. L’un d’eux doit être consacré à l’univers du manga Dragon Ball Z. Mais le véritable enjeu n’est pas un dessin animé devenu manège. C’est une propriété intellectuelle (intellectual property, IP), un univers protégé dont l’ayant droit peut vendre l’exploitation. Celle-ci passe par un billet, une chambre d’hôtel, un restaurant, une figurine, une expérience numérique ou un spectacle. Dans ce modèle, le parc prolonge la durée de vie commerciale d’une œuvre. Il concentre en un lieu des dépenses jusque-là dispersées entre streaming, jeu, librairie et commerce de détail. Dragon Ball possède les codes les plus immédiatement convertibles en attractions physiques : vol, combat, créatures géantes, tournois, transformations et décors identifiables. Qiddiya construit déjà en Arabie saoudite un parc dédié de plus de 500 000 mètres carrés, organisé autour de sept zones et de plus de 30 attractions. Le projet prévoit aussi cinq attractions majeures, des hôtels et des restaurants.",
-        "summary_cn": "8月24日，爱丽舍宫宣布与Qiddiya投资公司签署谅解备忘录，在塞尔吉蓬图瓦兹建设三个主题公园，由沙特投资60亿欧元资助。其中之一肯定致力于《龙珠Z》漫画的宇宙。但真正的问题并不是一部卡通片变成了一种交通工具。它是一种知识产权 (IP)，是一个受保护的领域，受益人可以出售其使用权。这涉及门票、酒店房间、餐厅、雕像、数字体验或表演。在这个模型中，公园延长了作品的商业寿命。它将以前分散在流媒体、游戏、书店和零售之间的支出集中在一处。 《龙珠》的代码可以最直接地转化为物理吸引力：飞行、战斗、巨型生物、锦标赛、变形和可识别的场景。 Qiddiya 已经在沙特阿拉伯建造了一个面积超过 500,000 平方米的专用公园，围绕七个区域和 30 多个景点进行组织。该项目还包括五个主要景点、酒店和餐厅。",
-        "source": "La Tribune",
-        "pub_date": "25 August 2026",
-        "auto": true,
-        "link": "https://www.latribune.fr/article/economie/international/45344944743520/dragon-ball-a-cergy-ces-franchises-asiatiques-qui-peuvent-faire-plus-fort-que-goku",
-        "region": "europe"
       }
     ],
     "vocab": [],
-    "word_count": 1394,
+    "word_count": 518,
     "auto": true
   },
   {
     "date": "2026-08-25",
     "tags": [
       "Actualité",
-      "Économie",
-      "Technologie"
+      "Économie"
     ],
     "regions": [
-      "international",
       "europe"
     ],
-    "summary_cn": "龙珠主题、建设工期、工作岗位……关于巴黎附近一处游乐园项目的三个问题这三个公园将在同一地点 | “自迪士尼乐园以来从未见过”：法国和沙特阿拉伯将在巴黎附近建造三个游乐园 | Livret A：提款六个月后，7月存入8000万欧元 | 索菲·阿德诺首次离开国际空间站一周后返回太空 | 卓越纤维：奥克西塔尼地区和实业家对圣高登斯工厂提出新的收购要约",
+    "summary_cn": "“自迪士尼乐园以来从未见过”：法国和沙特阿拉伯将在巴黎附近建造三个游乐园 | Livret A：提款六个月后，7月存入8000万欧元 | 卓越纤维：奥克西塔尼地区和实业家对圣高登斯工厂提出新的收购要约",
     "briefs": [
-      {
-        "tag": "Actualité",
-        "title_cn": "龙珠主题、建设工期、工作岗位……关于巴黎附近一处游乐园项目的三个问题这三个公园将在同一地点",
-        "title": "Emmanuel Macron et le prince héritier saoudien annoncent un mégaprojet de trois parcs d'attractions près de Paris, avec 22 000 emplois attendus",
-        "body": "Thème Dragon Ball, durée du chantier, emplois… Trois questions sur le projet de parcs d'attractions sur un site près de Paris Ce sont trois parcs qui vont voir le jour sur le même site, et l'un d'eux plongera probablement les visiteurs dans l'univers des mangas. Emmanuel Macron et le prince héritier se sont découvert cette passion commune lors de la visite du président français en Arabie saoudite en décembre 2024, raconte volontiers l'Elysée. Cette discussion informelle se transforme quelques semaines plus tard en négociation entre pays et nous amène à l'annonce de lundi soir : 6 milliards d'euros d'investissements saoudiens sur plusieurs années, 22 000 emplois directs créés ainsi que des milliers de logements pour les futurs salariés et leurs familles. Les trois parcs n'auront pas forcément tous le même thème, le même univers. C'est aux Saoudiens de décider, dit l'Élysée, qui ne confirme pas - mais ne dément pas non plus - que le premier parc serait dédié à Dragon Ball. L'information qui circule dans la presse depuis une quinzaine de jours. Le parc saoudien sera implanté de l'autre côté de l'Île-de-France, à seulement 1 heure 30 de voiture de Disneyland, mais cette proximité n'est pas vue comme un inconvénient. Au contraire, l'idée des investisseurs est de proposer aux touristes venus du monde entier de rentabiliser leur séjour dans la métropole parisienne : Disney le lundi, la Tour Eiffel le mardi et puis pourquoi pas une journée de plus pour leur parc le mercredi. Cergy-Pontoise permet cette connectivité et dispose d'assez de terrain, puisque la ville a accueilli Mirapolis, un parc d'attractions dédié aux contes et légendes français, mais qui a mis la clé sous la porte en 1991 après seulement quatre années d'existence. Quant à la potentielle date d'ouverture, l'Élysée dit simplement qu'un projet de cette ampleur prend du temps. Rendez-vous dans plusieurs années pour l'ouverture du premier parc, ça c'est sûr. Les six milliards d'euros d'investissement sont découpés en plusieurs vagues. Il faut aussi garder en tête que c'est un projet. L'Élysée insiste sur le rôle d'Emmanuel Macron dans cet accord.",
-        "summary_cn": "龙珠主题、建设工期、工作岗位……关于巴黎附近一处游乐园项目的三个问题这三个公园将在同一地点投入使用，其中一个可能会让游客沉浸在漫画世界中。据爱丽舍宫报道，法国总统马克龙和王储在 2024 年 12 月访问沙特阿拉伯期间发现了这种共同的热情。几周后，这种非正式讨论转变为国家之间的谈判，并导致我们在周一晚上宣布了这一消息：沙特将在几年内投资 60 亿欧元，创造 22,000 个直接就业机会，并为未来员工及其家人建造数千套住房。这三个公园不一定都有相同的主题、相同的宇宙。爱丽舍宫表示，这取决于沙特人的决定，爱丽舍宫没有证实（但也不否认）第一个公园将专门用于龙珠。该信息已经在媒体上流传了两周。沙特公园将位于法兰西岛的另一边，距离迪士尼乐园仅 1 小时 30 分钟车程，但这种距离并不被视为劣势。相反，投资者的想法是为来自世界各地的游客提供在巴黎大都市逗留有利可图的机会：周一参观迪士尼，周二参观埃菲尔铁塔，周三为什么不在他们的公园多待一天。塞尔吉-蓬图瓦兹允许这种连通性，并且拥有足够的土地，因为该市拥有米拉波利斯（Mirapolis），这是一个致力于法国故事和传说的游乐园，但该公园在成立仅四年后就于 1991 年关闭。至于可能的开业日期，爱丽舍宫只是表示，如此规模的项目需要时间。这是肯定的，几年后第一个公园开业时再见。这60亿欧元的投资分为几波。您还必须记住，这是一个项目。爱丽舍宫坚持埃马纽埃尔·马克龙在该协议中扮演的角色。",
-        "source": "France Info",
-        "pub_date": "24 August 2026",
-        "auto": true,
-        "link": "https://www.franceinfo.fr/economie/6-milliards-d-euros-et-22-000-emplois-potentiels-le-projet-saoudien-d-un-nouveau-parc-d-attraction-en-region-parisienne_8159990.html#xtor=RSS-3-[lestitres]",
-        "region": "international"
-      },
       {
         "tag": "Actualité",
         "title_cn": "“自迪士尼乐园以来从未见过”：法国和沙特阿拉伯将在巴黎附近建造三个游乐园",
@@ -1450,18 +1255,6 @@
         "region": "europe"
       },
       {
-        "tag": "Technologie",
-        "title_cn": "索菲·阿德诺首次离开国际空间站一周后返回太空",
-        "title": "Une semaine après sa première sortie hors de l'ISS, Sophie Adenot retourne dans l'espace",
-        "body": "L'astronaute française Sophie Adenot lors de sa première sortie dans l'espace, mardi 18 août. via REUTERS - NASA Par : RFI Une seconde sortie pour terminer le travail. Pour la deuxième fois en l'espace d'une semaine, l'astronaute française Sophie Adenot, qui se trouve à bord de la Station spatiale internationale (ISS) depuis plus de six mois, va de nouveau se lancer dans le vide spatial, ce mardi 25 août, pour y achever sa première mission. Entamée mardi 18 août, cette dernière n'avait, en effet, pu être menée à son terme car elle avait donné beaucoup de fil à retordre à la Française et à son collègue américain Anil Menon. Si le duo avait, certes, réussi à atteindre le premier objectif qu'il s'était assigné - retirer une antenne de communication défectueuse de l'ISS -, l'opération n'avait été couronnée de succès qu'au prix d'un retard considérable. Le binôme avait notamment buté sur des connecteurs et des boulons récalcitrants qui ne leur avaient pas laissé ensuite suffisamment de temps et d'oxygène dans les scaphandres pour installer l'antenne de rechange, contre-temps qui rappelle la difficulté de ces opérations de maintenance dans le vide spatial y compris après des heures d'entraînement sur Terre, en piscine, où les gestes sont répétés et mêmes chorégraphiés. Anticipée par la NASA, cette difficulté offre donc à Sophie Adenot l'opportunité de sortir une seconde fois en sept jours hors de l'ISS. Et de s'habituer un peu plus encore à cet environnement dans lequel elle a semblé être très à son aise quelques minutes seulement après y avoir pénétré. À lire aussiSophie Adenot devient la première Française à sortir dans l'espace Recevez toute l'actualité internationale directement dans votre boite mail",
-        "summary_cn": "法国宇航员索菲·阿德诺 (Sophie Adenot) 首次太空行走，8 月 18 日星期二。来源：路透社 - NASA 来源：RFI 第二次太空行走是为了完成这项工作。法国宇航员索菲·阿德诺 (Sophie Adenot) 在国际空间站 (ISS) 上呆了六个月多，将于 8 月 25 日星期二再次进入太空，完成她的首次任务，这是一周内的第二次。后者于 8 月 18 日星期二开始，事实上无法得出结论，因为它给法国妇女和她的美国同事阿尼尔·梅农带来了很多麻烦。如果两人确实成功实现了他们为自己设定的第一个目标——从国际空间站上拆除有故障的通信天线——那么这次行动的成功只是以相当大的延误为代价。两人特别偶然发现了顽固的连接器和螺栓，这些连接器和螺栓没有让他们在宇航服中有足够的时间和氧气来安装替换天线，这一挫折让人回想起在太空真空中进行这些维护操作的困难，包括在地球上、在游泳池里进行数小时的训练之后，在那里重复甚至精心设计手势。因此，正如 NASA 所预料的，这一困难为索菲·阿德诺提供了 7 天内第二次走出国际空间站的机会。而且是为了稍微适应一下这个环境，刚进去几分钟就感觉很舒服。另请阅读：索菲·阿德诺 (Sophie Adenot) 成为第一位进入太空的法国女性 直接在收件箱中接收所有国际新闻",
-        "source": "RFI",
-        "pub_date": "25 August 2026",
-        "auto": true,
-        "link": "https://www.rfi.fr/fr/science/20260825-une-semaine-apr%C3%A8s-sa-premi%C3%A8re-sortie-hors-de-l-iss-sophie-adenot-retourne-dans-l-espace",
-        "region": "europe"
-      },
-      {
         "tag": "Économie",
         "title_cn": "卓越纤维：奥克西塔尼地区和实业家对圣高登斯工厂提出新的收购要约",
         "title": "Fibre Excellence : une nouvelle offre de reprise du site de Saint-Gaudens par la région Occitanie et des industriels",
@@ -1475,7 +1268,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 1522,
+    "word_count": 899,
     "auto": true
   },
   {
@@ -1485,10 +1278,9 @@
       "Économie"
     ],
     "regions": [
-      "europe",
-      "francophonie"
+      "europe"
     ],
-    "summary_cn": "英国：这段显示警察拦截小偷的视频并不真实 | 2027年预算：政府驳斥了任何空白年度的计划，但为富有的退休人员的努力敞开了大门 | 菲利普·布瓦尔之死：模仿者洛朗·杰拉向一位“迷人”的人致敬 | 法国：干旱导致历史性马铃薯危机 | 绿色产业税收抵免扩大并重点关注四个重点行业",
+    "summary_cn": "英国：这段显示警察拦截小偷的视频并不真实 | 2027年预算：政府驳斥了任何空白年度的计划，但为富有的退休人员的努力敞开了大门 | 法国：干旱导致历史性马铃薯危机 | 绿色产业税收抵免扩大并重点关注四个重点行业",
     "briefs": [
       {
         "tag": "Actualité",
@@ -1516,18 +1308,6 @@
       },
       {
         "tag": "Actualité",
-        "title_cn": "菲利普·布瓦尔之死：模仿者洛朗·杰拉向一位“迷人”的人致敬",
-        "title": "Mort de Philippe Bouvard : l'imitateur Laurent Gerra rend hommage à un homme \"passionnant\"",
-        "body": "Laurent Gerra et Philippe Bouvard lors de la présentation des programmes 2009-2010 de RTL (Paris), le 3 septembre 2009. (PIERRE VERDY / AFP) Laurent Gerra a rendu hommage lundi à Philippe Bouvard, se souvenant d'un homme \"brillantissime\", doté d'\"une culture démente\", mais aussi de sa \"bonne humeur\" et de sa \"joie de vivre\". Il était un monument de la radio et de la télévision françaises. Philippe Bouvard est mort lundi 24 août, à 96 ans. Emmanuel Macron a salué, sur X, une \"figure libre\" qui a \"accompagné des générations de Français\". Sur RTL, Laurent Gerra se souvient d'un homme \"brillantissime\", à la \"culture démente\". \"Philippe était passionnant\", confie l'imitateur, qui retient \"son rire sautillant, sa bonne humeur\" et \"sa joie de vivre\". Suivez notre direct. • Un découvreur de talents. Hyperactif, l'animateur avait notamment présenté à la télévision de 1982 à 1987 \"Le Petit théâtre de Bouvard\" sur Antenne 2. Cette émission de sketchs a révélé toute une génération de nouveaux humoristes (Muriel Robin, Pascal Legitimus, Chevallier et Laspalès...). \"Il m'a permis d'être découverte par 12 à 15 millions de personnes sur Antenne 2\", a réagi sur RTL la comédienne Mimie Mathy. • \"Il nous a fait rêver\", réagit Marc-Olivier Fogiel. \"Il a fait partie des gens qui m'ont donné envie de faire ce métier\", a déclaré lundi matin le journaliste sur RTL. \"Il a créé l'impertinence à la radio et à la télévision. (...) Thierry Ardisson, Marc-Olivier Fogiel, moi peut-être, nous sommes les enfants et petits-enfants de Philippe Bouvard\", s'est ému Laurent Ruquier, qui lui a succédé aux commandes des \"Grosses Têtes\" en 2014. • \"Il m'a tout appris\", témoigne Stéphane Bern. \"Il m'a guidé tout au long de ma carrière. C'était un homme bon. Il était moqueur, railleur, mais il avait un cœur énorme\", a également rendu hommage l'animateur sur franceinfo. \"Il avait eu une invention géniale, celle d'unir le rire à la culture\", a réagi l'actrice Macha Méril.",
-        "summary_cn": "洛朗·杰拉 (Laurent Gerra) 和菲利普·布瓦尔 (Philippe Bouvard) 于 2009 年 9 月 3 日在 RTL（巴黎）介绍 2009-2010 年计划时。（PIERRE VERDY / 法新社）洛朗·杰拉 (Laurent Gerra) 周一向菲利普·布瓦尔 (Philippe Bouvard) 致敬，缅怀这位“才华横溢”的人，赋予他“疯狂的文化”，同时也纪念他的“幽默感”和“生活乐趣”。他是法国广播电视界的一座丰碑。菲利普·布瓦尔 (Philippe Bouvard) 于 8 月 24 日星期一去世，享年 96 岁。埃马纽埃尔·马克龙 (Emmanuel Macron) 在 X 上称赞他是一位“陪伴了几代法国人”的“自由人物”。在 RTL 中，洛朗·杰拉 (Laurent Gerra) 记得一个“才华横溢”的人，有着“疯狂的文化”。 “菲利普很迷人”，模仿者吐露道，他记得“他欢快的笑声、他的幽默感”和“他的生活乐趣”。关注我们的直播。 • 星探。主持人非常活跃，从 1982 年到 1987 年，他在 Antenne 2 上的电视节目《Le Petit théâtre de Bouvard》中备受瞩目。这个小品节目揭示了整整一代新喜剧演员（穆里尔·罗宾 (Muriel Robin)、帕斯卡·雷吉蒂穆斯 (Pascal Legitimus)、舍瓦利埃 (Chevallier) 和拉斯帕莱斯 (Laspalès)...）。 “这让我在 Antenne 2 上被 12 到 1500 万人发现，”女演员 Mimie Mathy 在 RTL 上回应道。 • “他让我们梦想成真，”Marc-Olivier Fogiel 反应道。 “他是让我想做这份工作的人之一，”这位记者周一早上在 RTL 上宣称。 “他在广播和电视上制造了无礼的行为。（……）蒂埃里·阿迪森、马克·奥利维尔·福吉尔，也许还有我，我们是菲利普·布瓦尔的子孙，”2014 年接替他掌管“Grosses Têtes”的劳伦特·鲁奎尔 (Laurent Ruquier) 说道。 • “他教会了我一切，”斯特凡·伯恩 (Stéphane Bern) 说道。 “他在我的整个职业生涯中指导了我。他是一个好人。他在嘲笑、嘲笑，但他有一颗宽广的心，”主持人也在franceinfo上表达了敬意。 “他有一项出色的发明，即将笑声与文化结合起来，”女演员玛莎·梅里尔 (Macha Méril) 反应道。",
-        "source": "France Info",
-        "pub_date": "24 August 2026",
-        "auto": true,
-        "link": "https://www.franceinfo.fr/economie/medias/direct-mort-de-philippe-bouvard-emmanuel-macron-salue-une-figure-libre-qui-a-accompagne-des-generations-de-francais_8159447.html#xtor=RSS-3-[lestitres]",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Actualité",
         "title_cn": "法国：干旱导致历史性马铃薯危机",
         "title": "France: la sécheresse provoque une crise historique de la pomme de terre",
         "body": "Des pommes de terre ratatinées gisent dans un champ touché par la sécheresse. En France comme dans le reste de l'Europe, de fortes baisses de production sont attendue (Photo d'illustration). © Virginia Mayo / AP Photo Par : RFI Durement frappés par la sécheresse qui sévit depuis plusieurs mois en France, les producteurs de pommes de terre anticipent l'une des plus fortes baisses de production jamais enregistrées et réclament un soutien « exceptionnel » face à des pertes massives. La France a connu cinq épisodes successifs de canicule ainsi qu'un déficit en eau exceptionnel pour les cultures. Du jamais vu pour les producteurs de pomme de terre. « L'année dernière, on était à un peu plus de 43,5 tonnes en 2025 de rendement à l'hectare. Et cette année, pour l'instant, la projection estimée aux alentours de 34,5 tonnes. C'est encore moins qu'en 2022 où on était déjà dans un rendement historiquement faible », alerte Geoffroy D'Evry, président de l'Union nationale des producteurs de pommes de terre français (UNPT). L'été 2026 est marqué en France par une succession d'épisodes caniculaires et un sévère déficit de pluies depuis la fin mai. Outre une sécheresse des sols déjà à des niveaux historiques, des incendies ont ravagé des hectares de végétation et de culture dans plusieurs régions françaises. Pour les producteurs de pommes de terre, ce choc climatique intervient alors qu'ils avaient déjà dû réduire leurs surfaces de production, « de 10% en France et de 11% en Europe du Nord-Ouest », après la surproduction de 2025. Un agriculteur examine son champ de pommes de terre touché par la sécheresse à Poortvliet, aux Pays-Bas, le mardi 11 août 2026. © Virginia Mayo / AP Photo Des pertes catastrophiques Conséquence, près de 400 millions d'euros de pertes économiques pour la filière de la pomme de terre française. Un coût qui aura forcément des répercussions pour le consommateur, explique Geoffroy D'Evry. « L'aléa climatique ne peut pas être supporté financièrement que par l'agriculteur. Il va falloir que l'ensemble de nos acheteurs, de nos clients, comprennent que produire de la pomme de terre, ça coûte cher et c'est risqué ».",
@@ -1552,14 +1332,13 @@
       }
     ],
     "vocab": [],
-    "word_count": 1587,
+    "word_count": 1266,
     "auto": true
   },
   {
     "date": "2026-08-23",
     "tags": [
       "Technologie",
-      "Culture",
       "Économie"
     ],
     "regions": [
@@ -1567,7 +1346,7 @@
       "europe",
       "etats-unis"
     ],
-    "summary_cn": "[Le Figaro] Ver | [Numerama] Cybe | [Le Monde] Quan | [Le Monde] « Me | [Challenges] Re | [Le Monde] Cris | [Le Monde] Au P",
+    "summary_cn": "[Le Figaro] Ver | [Le Monde] « Me | [Challenges] Re | [Le Monde] Au P",
     "briefs": [
       {
         "tag": "Technologie",
@@ -1579,28 +1358,6 @@
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/vers-une-valorisation-de-2000-milliards-de-dollars-l-entree-en-bourse-d-anthropic-pourrait-battre-le-record-de-spacex-20260822",
         "region": "francophonie"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "[Numerama] Cybe",
-        "title": "Cyberpunk Edgerunners 2 sur Netflix",
-        "body": "Netflix, CD Projekt Red et le studio Trigger préparent une nouvelle saison à la série d’animation à succès Edgerunners, issue de l’univers de Cyberpunk 2077. Date de sortie, histoire, équipe créative et bande-annonce : voici les points à retenir sur cette suite très attendue.",
-        "source": "Numerama",
-        "pub_date": "22 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2028387-cyberpunk-edgerunners-2-sur-netflix-sortie-episodes-histoire-tout-savoir-sur-la-suite.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "[Le Monde] Quan",
-        "title": "Quand, en 2018, Banksy vend son œuvre à la découpe",
-        "body": "« Autodestructions artistiques » (6/6). A l’occasion d’enchères à Londres, la figure de proue du street art a déchiqueté sa toile à distance, sous les yeux des acheteurs ébahis. Un pied de nez au marché de l’art qui a démultiplié la valeur de l’œuvre.",
-        "source": "Le Monde",
-        "pub_date": "22 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/culture/article/2026/08/22/quand-en-2018-banksy-vend-son-uvre-a-la-decoupe_6753509_3246.html",
-        "region": "europe"
       },
       {
         "tag": "Économie",
@@ -1625,17 +1382,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "[Le Monde] Cris",
-        "title": "Cristian Mungiu, réalisateur de « Fjord »",
-        "body": "Le cinéaste roumain revient, dans un entretien au « Monde », sur son septième long-métrage, pour lequel il a reçu une deuxième Palme d’or au 79ᵉ Festival de Cannes après « 4 mois, 3 semaines, 2 jours », en 2007.",
-        "source": "Le Monde",
-        "pub_date": "22 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/culture/article/2026/08/22/cristian-mungiu-realisateur-de-fjord-le-plus-important-pour-moi-est-que-le-film-puisse-incarner-le-point-de-vue-des-diverses-parties_6752557_3246.html",
-        "region": "europe"
-      },
-      {
         "tag": "Économie",
         "title_cn": "[Le Monde] Au P",
         "title": "Au Panama, de profondes inégalités sociales, héritage de la",
@@ -1648,35 +1394,24 @@
       }
     ],
     "vocab": [],
-    "word_count": 275,
+    "word_count": 147,
     "auto": true
   },
   {
     "date": "2026-08-22",
     "tags": [
-      "Culture",
       "Technologie",
-      "Économie"
+      "Économie",
+      "Culture"
     ],
     "regions": [
-      "europe",
       "etats-unis",
       "chine",
-      "francophonie"
+      "francophonie",
+      "europe"
     ],
-    "summary_cn": "漫威正式重命名《复仇者联盟 V | “短缺是前所未有的 | 2027 年将是星球大战的重要 | “复古”游戏机成功的背后是非法 | Fortnite、紧张的比赛和 | 被吞没 | 尽管大肆宣传 | Reddit 能在人工智能时代 | 迈克尔2，官方宣布这部电影将讨 | “如果债务比率上升",
+    "summary_cn": "“短缺是前所未有的 | “复古”游戏机成功的背后是非法 | Fortnite、紧张的比赛和 | 被吞没 | Reddit 能在人工智能时代 | “如果债务比率上升",
     "briefs": [
-      {
-        "tag": "Culture",
-        "title_cn": "漫威正式重命名《复仇者联盟 V",
-        "title": "C’est officiel, Marvel renomme le méchant dans la VF d’Avengers",
-        "body": "Ce n'est pas une surprise totale, mais la confirmation officielle est tombée. La récente bande-annonce doublée en français d'Avengers: Doomsday vient de sceller le débat linguistique qui agitait la communauté des fans : le grand méchant incarné par Robert Downey Jr. s'appellera bien « Victor Von Doom » (ou Doctor Doom) dans la version française, et non pas Fatalis comme habituellement en français.",
-        "source": "Numerama",
-        "pub_date": "21 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2316117-cest-officiel-marvel-renomme-le-mechant-dans-la-vf-davengers-doomsday.html",
-        "region": "europe"
-      },
       {
         "tag": "Technologie",
         "title_cn": "“短缺是前所未有的",
@@ -1687,17 +1422,6 @@
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/la-penurie-est-sans-precedent-et-les-prix-ne-feront-qu-augmenter-l-avertissement-du-geant-americain-hp-sur-la-crise-des-memoires-qui-secoue-l-informatique-20260821",
         "region": "etats-unis"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "2027 年将是星球大战的重要",
-        "title": "2027 sera une année majeure pour Star Wars",
-        "body": "L'année 2027 ne sera pas une année comme les autres pour la galaxie lointaine, très lointaine : elle marquera le 50e anniversaire de la création de la saga. Entre la saison 2 d'Ahsoka, la ressortie événement d'Un nouvel espoir en IMAX, la Star Wars Celebration et l'arrivée du film Starfighter, le calendrier promet d'être très dense.",
-        "source": "Numerama",
-        "pub_date": "21 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2315933-2027-sera-une-annee-majeure-pour-star-wars-le-calendrier-du-demi-siecle-dexistence-de-la-licence.html",
-        "region": "europe"
       },
       {
         "tag": "Économie",
@@ -1733,17 +1457,6 @@
         "region": "europe"
       },
       {
-        "tag": "Économie",
-        "title_cn": "尽管大肆宣传",
-        "title": "Les ventes décevantes de Boualem Sansal malgré un battage",
-        "body": "Paru le 2 juin, « La Légende », publiée chez Grasset, a été vendue à 48 000 exemplaires. Hachette Livre avait accordé un à-valoir exceptionnel de 1 million d’euros à l’auteur.",
-        "source": "Le Monde",
-        "pub_date": "21 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/08/21/les-ventes-decevantes-de-boualem-sansal-malgre-un-battage-mediatique-hors-norme_6752265_3234.html",
-        "region": "europe"
-      },
-      {
         "tag": "Technologie",
         "title_cn": "Reddit 能在人工智能时代",
         "title": "Reddit survivra-t-il à l’ère de l’IA ? La plateforme veut faire",
@@ -1753,17 +1466,6 @@
         "auto": true,
         "link": "https://www.challenges.fr/entreprise/tech-numerique/reddit-survivra-t-il-a-lere-de-lia-la-plateforme-veut-faire-payer-plus-cher-ses-donnees-aux-geants-de-la-tech_645285",
         "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "迈克尔2，官方宣布这部电影将讨",
-        "title": "Michael 2, c’est officiel le film parlera bien des problèmes",
-        "body": "Après le braquage au box-office du premier volet, le biopic sur Michael Jackson s'apprête à repousser les limites du genre. Jaafar Jackson, qui incarne son propre oncle à l'écran, a brisé le silence dans une interview accordée au magazine GQ Middle East. Il l'affirme sans détour : la suite du film, Michael 2, ne cherchera pas à contourner les scandales et abordera directement la période la plus sombre et controversée de la star.",
-        "source": "Numerama",
-        "pub_date": "21 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2315721-michael-2-cest-officiel-le-film-parlera-bien-des-problemes-judiciaires-du-roi-de-la-pop.html",
-        "region": "francophonie"
       },
       {
         "tag": "Économie",
@@ -1778,23 +1480,21 @@
       }
     ],
     "vocab": [],
-    "word_count": 487,
+    "word_count": 264,
     "auto": true
   },
   {
     "date": "2026-08-21",
     "tags": [
       "Technologie",
-      "Culture",
       "Économie"
     ],
     "regions": [
       "francophonie",
       "europe",
-      "etats-unis",
       "international"
     ],
-    "summary_cn": "Fortnite、紧张的比赛和 | 阿纳金、帕德梅、欧比旺、梅斯海 | 美国财政部长斯科特·贝森特 ( | 关于电影《百分之十》您需要了解 | Moderna 因其承诺的有效 | 关于人工智能泡沫的警报 | “在军营里，我们不习惯说我们的 | 送货机器人很快就会出现在我们的 | 雷迪夫·帕纳约蒂斯·帕斯科特 | 缺乏预算和扩展的特别法",
+    "summary_cn": "Fortnite、紧张的比赛和 | Moderna 因其承诺的有效 | 关于人工智能泡沫的警报 | “在军营里，我们不习惯说我们的 | 送货机器人很快就会出现在我们的 | 缺乏预算和扩展的特别法",
     "briefs": [
       {
         "tag": "Technologie",
@@ -1806,39 +1506,6 @@
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/fortnite-matchs-sous-tension-et-supporters-en-folie-dans-les-coulisses-de-la-coupe-du-monde-du-jeu-video-a-paris-20260820",
         "region": "francophonie"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "阿纳金、帕德梅、欧比旺、梅斯海",
-        "title": "Anakin, Padmé, Obi-Wan, Mace… Hayden Christensen veut « reformer",
-        "body": "Au micro du Jonas Podcast, Hayden Christensen a lâché une bombe : il est totalement partant pour un projet The Clone Wars en prises de vues réelles. L'interprète d'Anakin Skywalker est convaincu qu'il est possible de « reformer le groupe » avec Ewan McGregor, Natalie Portman et même Samuel L. Jackson.",
-        "source": "Numerama",
-        "pub_date": "20 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2314625-anakin-padme-obi-wan-mace-hayden-christensen-veut-reformer-le-groupe-pour-une-serie-clone-wars-en-live-action.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "美国财政部长斯科特·贝森特 (",
-        "title": "Scott Bessent, le secrétaire américain au Trésor, se croit",
-        "body": "En annonçant, mercredi 19 août, que le Trésor américain allait doubler ses rachats de dette américaine à long terme, Scott Bessent cherche à faire baisser les taux longs qui financent l’économie des Etats-Unis.",
-        "source": "Le Monde",
-        "pub_date": "21 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/08/21/scott-bessent-le-secretaire-americain-au-tresor-se-croit-capable-de-defier-la-toute-puissance-des-marches-obligataires_6751496_3234.html",
-        "region": "etats-unis"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "关于电影《百分之十》您需要了解",
-        "title": "Tout savoir sur le film Dix pour cent, avec enfin une date de",
-        "body": "Oui, vous avez bien lu : l'agence ASK va ouvrir à nouveau ses portes, le temps d'un long-métrage, cette fois. Casting, histoire, sortie... Voici tout ce que l'on sait déjà sur le film Dix pour Cent.",
-        "source": "Numerama",
-        "pub_date": "20 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2103669-casting-histoire-sortie-tout-savoir-sur-le-film-dix-pour-cent-sur-netflix-avec-george-clooney.html",
-        "region": "europe"
       },
       {
         "tag": "Économie",
@@ -1885,17 +1552,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "雷迪夫·帕纳约蒂斯·帕斯科特",
-        "title": "REDIFF Panayotis Pascot, comédien",
-        "body": "En juillet et en août, le podcast « Le Goût de M », présenté par Géraldine Sarratia et en accès libre dès le vendredi sur toutes les plateformes, se met à l’heure d’été en rediffusant des épisodes des saisons passées. Cette semaine, Panayotis Pascot.",
-        "source": "Le Monde",
-        "pub_date": "21 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/podcasts/article/2026/08/21/rediff-panayotis-pascot-comedien-j-ai-commence-a-ecrire-mon-spectacle-en-pensant-que-j-etais-heterosexuel-je-suis-vraiment-le-pire-enqueteur-de-tous-les-temps_6751495_5463015.html",
-        "region": "etats-unis"
-      },
-      {
         "tag": "Économie",
         "title_cn": "缺乏预算和扩展的特别法",
         "title": "Absence de budget et loi spéciale prolongée",
@@ -1908,14 +1564,13 @@
       }
     ],
     "vocab": [],
-    "word_count": 418,
+    "word_count": 254,
     "auto": true
   },
   {
     "date": "2026-08-20",
     "tags": [
       "Technologie",
-      "Culture",
       "Économie"
     ],
     "regions": [
@@ -1923,7 +1578,7 @@
       "europe",
       "international"
     ],
-    "summary_cn": "功夫、舞蹈和 45 公里/小时 | 顺便问一下，詹姆斯·冈恩的神奇 | 巴黎 Samusocial 的 | 《泰勒·雷克 3》招募了最佳詹 | 关于人工智能泡沫的警报 | 泰勒·谢里丹取消颇具争议的黄石 | “我正在锯我所在的树枝 | 送货机器人很快就会出现在我们的 | 沙丘 3：如果你没有看到它 | [Le Monde] « Qu",
+    "summary_cn": "功夫、舞蹈和 45 公里/小时 | 巴黎 Samusocial 的 | 关于人工智能泡沫的警报 | “我正在锯我所在的树枝 | 送货机器人很快就会出现在我们的 | [Le Monde] « Qu",
     "briefs": [
       {
         "tag": "Technologie",
@@ -1937,17 +1592,6 @@
         "region": "francophonie"
       },
       {
-        "tag": "Culture",
-        "title_cn": "顺便问一下，詹姆斯·冈恩的神奇",
-        "title": "Au fait, que devient le reboot de Wonder Woman par James Gunn ?",
-        "body": "Pendant que James Gunn valide des séries annexes sur Jimmy Olsen ou Gorilla Grodd, la plus grande icône de DC reste au placard. Quatorze mois après la dernière annonce, le reboot de Wonder Woman fait du surplace. Enlisée entre déclarations de façade et projets dérivés gelés, l'héroïne est la dernière roue du carrosse d'un studio en pleine crise de priorités.",
-        "source": "Numerama",
-        "pub_date": "19 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2314277-au-fait-que-devient-le-reboot-de-wonder-woman-par-james-gunn.html",
-        "region": "europe"
-      },
-      {
         "tag": "Économie",
         "title_cn": "巴黎 Samusocial 的",
         "title": "La grève au Samusocial de Paris a pris fin après",
@@ -1956,17 +1600,6 @@
         "pub_date": "20 August 2026",
         "auto": true,
         "link": "https://www.lemonde.fr/societe/article/2026/08/20/la-greve-au-samusocial-de-paris-a-pris-fin-apres-cinquante-sept-jours-de-mobilisation-et-des-avancees-importantes-selon-la-cgt_6750336_3224.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "《泰勒·雷克 3》招募了最佳詹",
-        "title": "Tyler Rake 3 recrute le meilleur James Bond pour la suite",
-        "body": "En officialisant l'arrivée de Pierce Brosnan au casting de Tyler Rake 3, Netflix s’offre l'ultime icône du film d'espionnage. Face à un Chris Hemsworth toujours aussi brutal, l’ancien agent 007 apporte une caution de classe britannique à une franchise bien décidée à rouler sur la concurrence en 2027.",
-        "source": "Numerama",
-        "pub_date": "19 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2314213-tyler-rake-3-recrute-le-meilleur-james-bond-pour-la-suite.html",
         "region": "europe"
       },
       {
@@ -1979,17 +1612,6 @@
         "auto": true,
         "link": "https://www.challenges.fr/entreprise/tech-numerique/alerte-sur-la-bulle-de-lia-la-bce-redoute-le-krach-dun-secteur-dope-qui-aura-de-graves-consequences-pour-la-zone-euro_645270",
         "region": "international"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "泰勒·谢里丹取消颇具争议的黄石",
-        "title": "Taylor Sheridan annule un spin-off Yellowstone assez controversé",
-        "body": "Alors que l’empire Yellowstone continue d’inonder les écrans avec ses déclinaisons en série, Taylor Sheridan vient d’asséner une douche froide aux fans. Le showrunner texan a enterré le projet de spin-off centré sur le mythique ranch 6666.",
-        "source": "Numerama",
-        "pub_date": "19 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2314083-taylor-sheridan-annule-un-spin-off-yellowstone-pourtant-tres-attendu.html",
-        "region": "europe"
       },
       {
         "tag": "Économie",
@@ -2014,17 +1636,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "沙丘 3：如果你没有看到它",
-        "title": "Dune 3 : voici ce que vous allez rater si vous ne le voyez pas",
-        "body": "Prévu pour conclure la trilogie monumentale de Denis Villeneuve, Dune 3 franchit un palier technique inédit avec l'annonce de 71 minutes d'images au format élargi exclusif en IMAX. Pour les spectateurs qui se contenteront d'une projection standard en multiplexe, la facture visuelle risque d'être d'une violence rare.",
-        "source": "Numerama",
-        "pub_date": "19 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2313827-dune-3-voici-ce-que-vous-allez-rater-si-vous-ne-le-voyez-pas-en-imax.html",
-        "region": "international"
-      },
-      {
         "tag": "Économie",
         "title_cn": "[Le Monde] « Qu",
         "title": "« Quand j’ouvre la porte, ma cheffe et deux collègues hurlent de",
@@ -2037,34 +1648,22 @@
       }
     ],
     "vocab": [],
-    "word_count": 450,
+    "word_count": 258,
     "auto": true
   },
   {
     "date": "2026-08-19",
     "tags": [
-      "Culture",
       "Technologie",
       "Économie"
     ],
     "regions": [
-      "europe",
       "etats-unis",
+      "europe",
       "francophonie"
     ],
-    "summary_cn": "[Challenges] A | [Le Figaro] Gar | 法国中小企业正在努力适应气候变 | [Numerama] Le D | 苹果免除其应用程序商店的税 | [Le Monde] Pira | [Numerama] Pour | 学生、老师、家长继税务员之后 | 传球手 第 4 季 | 偷税漏税 | 九月，对许多人的预算来说是可怕",
+    "summary_cn": "[Le Figaro] Gar | 法国中小企业正在努力适应气候变 | 苹果免除其应用程序商店的税 | [Le Monde] Pira | 学生、老师、家长继税务员之后 | 偷税漏税 | 九月，对许多人的预算来说是可怕",
     "briefs": [
-      {
-        "tag": "Culture",
-        "title_cn": "[Challenges] A",
-        "title": "A 28 ans, comment Lena Situations a transformé une idée de lycée",
-        "body": "Première influenceuse française invitée au Met Gala, Léna Situations, 28 ans, a bâti un empire business estimé à plusieurs millions d’euros. Portrait de la serial entrepreneuse la plus influente d’Internet.",
-        "source": "Challenges",
-        "pub_date": "15 August 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/culture/a-28-ans-comment-lena-situations-a-transforme-une-idee-de-lycee-en-business-xxl_645076",
-        "region": "europe"
-      },
       {
         "tag": "Technologie",
         "title_cn": "[Le Figaro] Gar",
@@ -2086,17 +1685,6 @@
         "auto": true,
         "link": "https://www.lemonde.fr/economie/article/2026/08/18/les-pme-francaises-mal-adaptees-au-rechauffement-climatique-qu-elles-ne-considerent-pas-encore-comme-une-priorite-strategique_6749079_3234.html",
         "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "[Numerama] Le D",
-        "title": "Le Dernier Refuge est le film du moment sur Netflix, mais ne",
-        "body": "Diffusé sur la plateforme depuis le 7 août 2026, le thriller de science-fiction porté par Greta Lee et Wagner Moura s'est immédiatement hissé au sommet des audiences mondiales de Netflix. Et pourtant...",
-        "source": "Numerama",
-        "pub_date": "18 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2313539-le-dernier-refuge-est-le-film-du-moment-sur-netflix-mais-ne-perdez-pas-votre-temps.html",
-        "region": "francophonie"
       },
       {
         "tag": "Technologie",
@@ -2121,17 +1709,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "[Numerama] Pour",
-        "title": "Pourquoi Anakin se montre à Ahsoka, mais jamais à Luke et Leia",
-        "body": "Alors que le trailer de la saison 2 d'Ahsoka montre Anakin Skywalker converser librement avec son ex-apprentie, une question agite les fans : pourquoi le spectre du Jedi se manifeste-t-il si facilement auprès d'elle, tout en semblant délaisser Luke et Leia ? Le lore canon de Star Wars apporte pourtant des clés d'explication.",
-        "source": "Numerama",
-        "pub_date": "18 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2313355-pourquoi-anakin-se-montre-a-ahsoka-mais-jamais-a-luke-et-leia-alors-quil-est-leur-pere.html",
-        "region": "europe"
-      },
-      {
         "tag": "Technologie",
         "title_cn": "学生、老师、家长继税务员之后",
         "title": "Élèves, enseignants, parents... Après le fisc, ZeroBytes",
@@ -2140,17 +1717,6 @@
         "pub_date": "18 August 2026",
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/eleves-enseignants-parents-apres-le-fisc-zerobytes-revendique-le-piratage-massif-de-donnees-de-l-education-nationale-20260818",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "传球手 第 4 季",
-        "title": "Reacher Saison 4",
-        "body": "Après deux saisons au succès colossal et un troisième chapitre qui avait divisé les fans, la franchise phare de Prime Video revient avec un quatrième volet disponible depuis le 12 août 2026. Adaptée de Gone Tomorrow (le 13e roman de la saga littéraire de Lee Child), cette nouvelle saison s'impose sans détour comme la meilleure de la série. Un retour aux sources sanglant, nerveux et impeccablement écrit.",
-        "source": "Numerama",
-        "pub_date": "18 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2313409-reacher-saison-4-la-claque-est-absolue-prime-video-vient-denvoyer-sa-meilleure-saison.html",
         "region": "francophonie"
       },
       {
@@ -2177,21 +1743,20 @@
       }
     ],
     "vocab": [],
-    "word_count": 453,
+    "word_count": 271,
     "auto": true
   },
   {
     "date": "2026-08-18",
     "tags": [
       "Technologie",
-      "Culture",
       "Économie"
     ],
     "regions": [
       "etats-unis",
       "europe"
     ],
-    "summary_cn": "偷税漏税 | 28 岁时，Lena Situ | 趁着炎热的夏季 | “金钱是主要动力” | 如果《复仇者联盟》中不是一个而 | 偷税漏税 | 小罗伯特唐尼透露他更喜欢扮演末 | 四个月后，奥利维尔·诺拉创建了 | 偷税漏税 | 当尼克劳斯·曼努埃尔·多伊奇",
+    "summary_cn": "偷税漏税 | 趁着炎热的夏季 | “金钱是主要动力” | 偷税漏税 | 偷税漏税",
     "briefs": [
       {
         "tag": "Technologie",
@@ -2203,17 +1768,6 @@
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/piratage-du-fisc-sebastien-lecornu-demande-un-audit-approfondi-pour-connaitre-l-origine-des-fuites-20260817",
         "region": "etats-unis"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "28 岁时，Lena Situ",
-        "title": "A 28 ans, comment Lena Situations a transformé une idée de lycée",
-        "body": "Première influenceuse française invitée au Met Gala, Léna Situations, 28 ans, a bâti un empire business estimé à plusieurs millions d’euros. Portrait de la serial entrepreneuse la plus influente d’Internet.",
-        "source": "Challenges",
-        "pub_date": "15 August 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/culture/a-28-ans-comment-lena-situations-a-transforme-une-idee-de-lycee-en-business-xxl_645076",
-        "region": "europe"
       },
       {
         "tag": "Économie",
@@ -2238,17 +1792,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "如果《复仇者联盟》中不是一个而",
-        "title": "Et s’il n’y avait pas un mais deux Dr Doom dans Avengers:",
-        "body": "Certains fans du MCU pensent que Marvel est en train de tromper tout le monde avec le retour de Robert Downey Jr. dans Avengers: Doomsday. Selon eux, ils seraient deux à incarner Dr Doom.",
-        "source": "Numerama",
-        "pub_date": "17 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2312677-et-sil-ny-avait-pas-un-mais-deux-dr-doom-dans-avengers-doomsday-la-folle-theorie-de-certains-fans.html",
-        "region": "europe"
-      },
-      {
         "tag": "Technologie",
         "title_cn": "偷税漏税",
         "title": "Piratage du fisc",
@@ -2257,28 +1800,6 @@
         "pub_date": "17 August 2026",
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/piratage-du-fisc-les-cybercriminels-affirment-avoir-vendu-les-donnees-derobees-20260817",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "小罗伯特唐尼透露他更喜欢扮演末",
-        "title": "Robert Downey Jr. révèle qui il préfère jouer entre Dr Doom et",
-        "body": "Interrogé à l'occasion de l'événement D23 de Disney, Robert Downey Jr. a révélé qu'il avait préféré incarner Dr Doom plutôt que Tony Stark/Iron Man. Jouer le méchant sous un masque a ainsi les préférences de l'acteur, plutôt qu'un richissime homme d'affaires, technophile et mégalomane sur les bords.",
-        "source": "Numerama",
-        "pub_date": "17 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2312503-robert-downey-jr-revele-qui-il-prefere-jouer-entre-dr-doom-et-iron-man.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "四个月后，奥利维尔·诺拉创建了",
-        "title": "Olivier Nora crée sa propre maison d’édition, quatre mois après",
-        "body": "La nouvelle entité, Olivier Nora Editions, dans laquelle Editis prend une participation minoritaire, a vocation à publier, dès janvier 2027, entre une trentaine et une cinquantaine de titres par an.",
-        "source": "Le Monde",
-        "pub_date": "17 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/08/17/quatre-mois-apres-son-eviction-de-la-presidence-de-grasset-olivier-nora-cree-sa-propre-maison-d-edition_6748180_3234.html",
         "region": "europe"
       },
       {
@@ -2291,27 +1812,15 @@
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/piratage-du-fisc-l-administration-doit-commencer-a-contacter-les-victimes-ce-lundi-20260817",
         "region": "etats-unis"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "当尼克劳斯·曼努埃尔·多伊奇",
-        "title": "Quand Niklaus Manuel Deutsch, iconoclaste du XVIᵉ siècle en",
-        "body": "« Autodestructions artistiques » (1/6). Poussé par les débats de son époque autour de la Réforme protestante, l’artiste suisse, qui fut aussi dramaturge, mercenaire, poète, et homme politique, en vient à se retourner contre ses peintures religieuses, vues comme des incitations à l’idolâtrie.",
-        "source": "Le Monde",
-        "pub_date": "17 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/culture/article/2026/08/17/quand-niklaus-manuel-deutsch-iconoclaste-du-xvi-siecle-en-quete-de-verite-divine-finit-par-vouer-ses-propres-uvres-aux-gemonies_6748406_3246.html",
-        "region": "europe"
       }
     ],
     "vocab": [],
-    "word_count": 362,
+    "word_count": 178,
     "auto": true
   },
   {
     "date": "2026-08-17",
     "tags": [
-      "Culture",
       "Économie",
       "Technologie"
     ],
@@ -2319,19 +1828,8 @@
       "europe",
       "international"
     ],
-    "summary_cn": "28 岁时，Lena Situ | 热浪袭来，屠宰者被尸体淹没 | 窃取税务数据 | 为了发布《橡树街尽头及其恐龙》 | 火灾过后，吉伦特省试图挽救其季 | 每天步数、睡眠、心率这些 | 奎托斯离开后 | “在福利国家之后 | 在社交网络禁令审查之后 | 法比安·甘图瓦 | 中国第一艘集装箱船“迪拜塔”号",
+    "summary_cn": "热浪袭来，屠宰者被尸体淹没 | 窃取税务数据 | 火灾过后，吉伦特省试图挽救其季 | 每天步数、睡眠、心率这些 | “在福利国家之后 | 在社交网络禁令审查之后 | 中国第一艘集装箱船“迪拜塔”号",
     "briefs": [
-      {
-        "tag": "Culture",
-        "title_cn": "28 岁时，Lena Situ",
-        "title": "A 28 ans, comment Lena Situations a transformé une idée de lycée",
-        "body": "Première influenceuse française invitée au Met Gala, Léna Situations, 28 ans, a bâti un empire business estimé à plusieurs millions d’euros. Portrait de la serial entrepreneuse la plus influente d’Internet.",
-        "source": "Challenges",
-        "pub_date": "15 August 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/culture/a-28-ans-comment-lena-situations-a-transforme-une-idee-de-lycee-en-business-xxl_645076",
-        "region": "europe"
-      },
       {
         "tag": "Économie",
         "title_cn": "热浪袭来，屠宰者被尸体淹没",
@@ -2352,17 +1850,6 @@
         "pub_date": "16 August 2026",
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/piratage-des-donnees-du-fisc-ces-menaces-qui-pesent-desormais-sur-les-particuliers-et-les-entreprises-20260815",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "为了发布《橡树街尽头及其恐龙》",
-        "title": "Pour la sortie de La fin d’Oak Street et ses dinosaures, on a",
-        "body": "La fin d’Oak Street est sortie en salles ce 12 août 2026, et avec elle, le plaisir de voir des dinosaures ailleurs que dans un film Jurassic Park. C’était pour nous l’excuse parfaite pour revenir sur l’heptalogie initiée en 1993 par Steven Spielberg et faire un classement des meilleurs films de la saga.",
-        "source": "Numerama",
-        "pub_date": "16 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2309747-pour-la-sortie-de-la-fin-doak-street-et-ses-dinosaures-on-a-classe-les-films-jurassic-park-du-pire-au-meilleur.html",
         "region": "europe"
       },
       {
@@ -2388,17 +1875,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "奎托斯离开后",
-        "title": "Pendant que Kratos s’en va, Mulder et Scully reviennent faire un",
-        "body": "L’acteur initialement choisi pour incarner Kratos dans la série God of War a dû abandonner la production, au grand dam des fans, qui le trouvaient quasi parfait pour interpréter le dieu de la guerre. De leur côté, David Duchovny et Gillian Anderson devraient retrouver leurs personnages de Mulder et Scully pour le reboot de X-Files, tandis que Chris Evans remettra le costume de Captain America pour un retour gardé secret d’une drôle de manière. Le récap pop culture de cette semaine est définitivement riche en come-backs.",
-        "source": "Numerama",
-        "pub_date": "16 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2312059-pendant-que-kratos-sen-va-mulder-et-scully-reviennent-faire-un-petit-coucou-et-captain-america-se-la-joue-incognito-cest-le-recap-pop-culture-de-la-semaine.html",
-        "region": "europe"
-      },
-      {
         "tag": "Économie",
         "title_cn": "“在福利国家之后",
         "title": "« Après l’Etat-providence, construisons une société de la",
@@ -2421,17 +1897,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "法比安·甘图瓦",
-        "title": "Fabien Gantois, architecte",
-        "body": "Le vice-président du Conseil national de l’ordre des architectes appelle, dans une tribune au « Monde », à ce que l’architecture et le cadre de vie fassent l’objet d’une grande politique nationale.",
-        "source": "Le Monde",
-        "pub_date": "17 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/idees/article/2026/08/17/fabien-gantois-architecte-ce-que-nous-construisons-mal-aujourd-hui-nos-enfants-devront-l-habiter-le-transformer-ou-le-demolir-demain_6747957_3232.html",
-        "region": "europe"
-      },
-      {
         "tag": "Économie",
         "title_cn": "中国第一艘集装箱船“迪拜塔”号",
         "title": "Un premier porte-conteneurs chinois, le « Dubai Tower », a pris",
@@ -2444,22 +1909,21 @@
       }
     ],
     "vocab": [],
-    "word_count": 468,
+    "word_count": 267,
     "auto": true
   },
   {
     "date": "2026-08-16",
     "tags": [
       "Technologie",
-      "Culture",
       "Économie"
     ],
     "regions": [
       "europe",
-      "francophonie",
-      "international"
+      "international",
+      "francophonie"
     ],
-    "summary_cn": "每天步数、睡眠、心率这些 | 28 岁时，Lena Situ | 在社交网络禁令审查之后 | X战警：新选角、导演、上映 | 澳大利亚、西班牙、巴西哪些国家 | 在摩泽尔，高炉的记忆由一个 | “不成比例的攻击” | 灯笼系列（终于）让我们忘记瑞安 | “强大的吸引力”",
+    "summary_cn": "每天步数、睡眠、心率这些 | 在社交网络禁令审查之后 | 澳大利亚、西班牙、巴西哪些国家 | 在摩泽尔，高炉的记忆由一个 | “不成比例的攻击” | “强大的吸引力”",
     "briefs": [
       {
         "tag": "Technologie",
@@ -2473,17 +1937,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "28 岁时，Lena Situ",
-        "title": "A 28 ans, comment Lena Situations a transformé une idée de lycée",
-        "body": "Première influenceuse française invitée au Met Gala, Léna Situations, 28 ans, a bâti un empire business estimé à plusieurs millions d’euros. Portrait de la serial entrepreneuse la plus influente d’Internet.",
-        "source": "Challenges",
-        "pub_date": "15 August 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/culture/a-28-ans-comment-lena-situations-a-transforme-une-idee-de-lycee-en-business-xxl_645076",
-        "region": "europe"
-      },
-      {
         "tag": "Technologie",
         "title_cn": "在社交网络禁令审查之后",
         "title": "Après la censure de l’interdiction des réseaux sociaux pour les",
@@ -2493,17 +1946,6 @@
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/apres-la-censure-de-l-interdiction-des-reseaux-sociaux-pour-les-moins-de-15-ans-quel-avenir-pour-la-fin-des-portables-au-lycee-20260814",
         "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "X战警：新选角、导演、上映",
-        "title": "X-Men : nouveau casting, réalisateur, sortie, tout savoir sur le",
-        "body": "Les mutants posent enfin leurs valises chez Marvel. Après des années de rumeurs et de patience à toute épreuve pour les fans, le reboot des X-Men prend forme avec une toute nouvelle équipe au casting et aux commandes.",
-        "source": "Numerama",
-        "pub_date": "15 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2308955-x-men-nouveau-casting-tournage-sortie-tout-savoir-sur-le-reboot-du-mcu.html",
-        "region": "francophonie"
       },
       {
         "tag": "Technologie",
@@ -2539,17 +1981,6 @@
         "region": "francophonie"
       },
       {
-        "tag": "Culture",
-        "title_cn": "灯笼系列（终于）让我们忘记瑞安",
-        "title": "La série Lanterns fait-elle (enfin) oublier le film avec Ryan",
-        "body": "Quinze ans après l'échec du film Green Lantern, Damon Lindelof et HBO font équipe pour ressusciter le super-héros au costume vert de l’univers DC Comics. Diffusée à compter du 17 août prochain sur HBO Max en France, la série Lanterns est attendue de pied ferme par les fans. Numerama vous livre son verdict !",
-        "source": "Numerama",
-        "pub_date": "14 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2310963-la-serie-lanterns-fait-elle-enfin-oublier-le-film-avec-ryan-reynolds.html",
-        "region": "international"
-      },
-      {
         "tag": "Économie",
         "title_cn": "“强大的吸引力”",
         "title": "« Une attraction puissante »",
@@ -2562,14 +1993,13 @@
       }
     ],
     "vocab": [],
-    "word_count": 395,
+    "word_count": 273,
     "auto": true
   },
   {
     "date": "2026-08-15",
     "tags": [
       "Technologie",
-      "Culture",
       "Économie"
     ],
     "regions": [
@@ -2577,7 +2007,7 @@
       "international",
       "francophonie"
     ],
-    "summary_cn": "在社交网络禁令审查之后 | 灯笼系列（终于）让我们忘记瑞安 | 澳大利亚、西班牙、巴西哪些国家 | 乔治·桑 (George Sa | 在西西里岛，埃特纳火山喷发导致 | 一只巨鼠，八百个危险信号 | “从业四十八年 | “不成比例的攻击”",
+    "summary_cn": "在社交网络禁令审查之后 | 澳大利亚、西班牙、巴西哪些国家 | 在西西里岛，埃特纳火山喷发导致 | 一只巨鼠，八百个危险信号 | “从业四十八年 | “不成比例的攻击”",
     "briefs": [
       {
         "tag": "Technologie",
@@ -2591,17 +2021,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "灯笼系列（终于）让我们忘记瑞安",
-        "title": "La série Lanterns fait-elle (enfin) oublier le film avec Ryan",
-        "body": "Quinze ans après l'échec du film Green Lantern, Damon Lindelof et HBO font équipe pour ressusciter le super-héros au costume vert de l’univers DC Comics. Diffusée à compter du 17 août prochain sur HBO Max en France, la série Lanterns est attendue de pied ferme par les fans. Numerama vous livre son verdict !",
-        "source": "Numerama",
-        "pub_date": "14 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2310963-la-serie-lanterns-fait-elle-enfin-oublier-le-film-avec-ryan-reynolds.html",
-        "region": "international"
-      },
-      {
         "tag": "Technologie",
         "title_cn": "澳大利亚、西班牙、巴西哪些国家",
         "title": "Australie, Espagne, Brésil... Quels pays avancent vers",
@@ -2611,17 +2030,6 @@
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/australie-pologne-bresil-quels-pays-avancent-vers-l-interdiction-des-reseaux-sociaux-pour-les-mineurs-20260721",
         "region": "international"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "乔治·桑 (George Sa",
-        "title": "Le domaine de George Sand à Nohant, un refuge de verdure et",
-        "body": "« Artistes en leur jardin » (5/6). Dans l’Indre, l’autrice, morte il y a 150 ans, a fait de son lieu d’enfance, omniprésent dans ses livres, une oasis et une métaphore de son œuvre, entre naturel et maîtrise, goût de la collecte et respect du vivant.",
-        "source": "Le Monde",
-        "pub_date": "14 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/14/le-domaine-de-george-sand-a-nohant-un-refuge-de-verdure-et-d-ecriture_6746286_3451060.html",
-        "region": "francophonie"
       },
       {
         "tag": "Économie",
@@ -2669,13 +2077,12 @@
       }
     ],
     "vocab": [],
-    "word_count": 325,
+    "word_count": 225,
     "auto": true
   },
   {
     "date": "2026-08-14",
     "tags": [
-      "Culture",
       "Technologie",
       "Économie"
     ],
@@ -2684,19 +2091,8 @@
       "francophonie",
       "international"
     ],
-    "summary_cn": "Pluribus 第二季终于升 | 一只巨鼠，八百个危险信号 | 去哪里买住宿享受节日气氛 | 在洛迦诺音乐节上 | Eclipse：如果您想这样做 | “在法国，数据中心的无政府主义 | 人工智能本来应该摧毁计算 | 马哈茂德·达尔维奇和塔玛尔·本 | 图片中 | 英国法官在一次诉讼中驳回了 S",
+    "summary_cn": "一只巨鼠，八百个危险信号 | 去哪里买住宿享受节日气氛 | Eclipse：如果您想这样做 | “在法国，数据中心的无政府主义 | 人工智能本来应该摧毁计算 | 图片中 | 英国法官在一次诉讼中驳回了 S",
     "briefs": [
-      {
-        "tag": "Culture",
-        "title_cn": "Pluribus 第二季终于升",
-        "title": "Pluribus saison 2 passe enfin à la vitesse supérieure",
-        "body": "Succès critique et public incontestable dès sa première salve d'épisodes sur Apple TV, la nouvelle série signée par le papa de Breaking Bad franchit un cap décisif. Entre la fin de l'écriture et un tournage imminent, le retour de Pluribus se précise enfin.",
-        "source": "Numerama",
-        "pub_date": "13 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2311137-pluribus-saison-2-passe-enfin-a-la-vitesse-superieure.html",
-        "region": "europe"
-      },
       {
         "tag": "Technologie",
         "title_cn": "一只巨鼠，八百个危险信号",
@@ -2717,17 +2113,6 @@
         "pub_date": "14 August 2026",
         "auto": true,
         "link": "https://www.lemonde.fr/argent/article/2026/08/14/ou-acheter-son-logement-pour-profiter-d-une-ambiance-festive_6746143_1657007.html",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "在洛迦诺音乐节上",
-        "title": "Au Festival de Locarno, la forêt, à la fois lieu de refuge et",
-        "body": "La 79ᵉ édition du festival de cinéma suisse, qui se clôt samedi 15 août avec la remise du Léopard d’or, a révélé le Vietnamien Lê Bao, réalisateur de l’enivrant « Hearing ».",
-        "source": "Le Monde",
-        "pub_date": "14 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/culture/article/2026/08/14/au-festival-de-locarno-la-foret-a-la-fois-lieu-de-refuge-et-symbole-de-la-nature-en-danger-a-occupe-les-ecrans_6746179_3246.html",
         "region": "francophonie"
       },
       {
@@ -2764,17 +2149,6 @@
         "region": "international"
       },
       {
-        "tag": "Culture",
-        "title_cn": "马哈茂德·达尔维奇和塔玛尔·本",
-        "title": "Mahmoud Darwich et Tamar Ben Ami, l’amour impossible du poète",
-        "body": "Au début des années 1960, à Haïfa, en Israël, le jeune poète palestinien Mahmoud Darwich s’éprend de Tamar Ben Ami, une danseuse juive israélienne. Entre eux, l’idylle est aussi intense que brève. De cet amour empêché, l’écrivain tirera un poème poignant, « Rita et le fusil », encore chanté dans tout le monde arabe.",
-        "source": "Le Monde",
-        "pub_date": "14 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/m-le-mag/article/2026/08/14/mahmoud-darwich-et-tamar-ben-ami-l-amour-impossible-du-poete-palestinien-et-de-la-danseuse-israelienne_6746144_4500055.html",
-        "region": "international"
-      },
-      {
         "tag": "Technologie",
         "title_cn": "图片中",
         "title": "En images",
@@ -2798,33 +2172,22 @@
       }
     ],
     "vocab": [],
-    "word_count": 401,
+    "word_count": 272,
     "auto": true
   },
   {
     "date": "2026-08-13",
     "tags": [
-      "Culture",
       "Technologie",
-      "Économie"
+      "Économie",
+      "Culture"
     ],
     "regions": [
       "europe",
       "francophonie"
     ],
-    "summary_cn": "杀手杰夫 | Eclipse：如果您想这样做 | 除了《怪物史莱克 5》之外 | 超级智能，错位 | 越来越多的单身家庭正在努力寻找 | 易捷航空法国机组人员罢工 | 在被占领的巴黎的法兰西喜剧院 | 热浪对经济造成的损失可能会很大",
+    "summary_cn": "Eclipse：如果您想这样做 | 超级智能，错位 | 越来越多的单身家庭正在努力寻找 | 易捷航空法国机组人员罢工 | 在被占领的巴黎的法兰西喜剧院 | 热浪对经济造成的损失可能会很大",
     "briefs": [
-      {
-        "tag": "Culture",
-        "title_cn": "杀手杰夫",
-        "title": "Jeff le tueur",
-        "body": "En plein bras de fer pour trouver le nouveau filon qui remplacera les formules essoufflées des studios, Hollywood va piocher directement dans la sous-culture du web. Vingt ans après sa naissance sur les forums, le phénomène creepypasta Jeff the Killer débarque officiellement sur grand écran, porté par la vidéaste Savannah Moss.",
-        "source": "Numerama",
-        "pub_date": "12 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2310407-jeff-le-tueur-apres-backrooms-un-autre-gros-mythe-dinternet-aura-droit-a-son-film.html",
-        "region": "europe"
-      },
       {
         "tag": "Technologie",
         "title_cn": "Eclipse：如果您想这样做",
@@ -2834,17 +2197,6 @@
         "pub_date": "12 August 2026",
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/eclipse-ces-precautions-a-prendre-si-vous-voulez-faire-des-belles-photos-sans-abimer-vos-yeux-ni-votre-materiel-20260812",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "除了《怪物史莱克 5》之外",
-        "title": "En plus de Shrek 5, Le Chat potté revient aussi pour un nouveau",
-        "body": "Alors que les fans d'animation trépignent déjà d'impatience à l'idée de retrouver le célèbre ogre vert sur grand écran avec Shrek 5, DreamWorks prépare une autre surprise de taille dans l'ombre. Le félin le plus téméraire du cinéma s'apprête lui aussi à reprendre du service pour un troisième opus solo.",
-        "source": "Numerama",
-        "pub_date": "12 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2310241-en-plus-de-shrek-5-le-chat-potte-revient-aussi-pour-un-nouveau-film.html",
         "region": "europe"
       },
       {
@@ -2904,34 +2256,21 @@
       }
     ],
     "vocab": [],
-    "word_count": 355,
+    "word_count": 254,
     "auto": true
   },
   {
     "date": "2026-08-12",
     "tags": [
-      "Culture",
       "Économie",
       "Technologie"
     ],
     "regions": [
       "europe",
-      "francophonie",
       "international"
     ],
-    "summary_cn": "致命武器5 | TotalEnergies 正 | Spotify 将推出新徽章来 | D23 2026 | 日食发生前几个小时 | 休达：Meta 和 TikTo | 克里斯·埃文斯透露漫威如何保守 | 人工智能本来应该摧毁计算 | 蜘蛛侠5已经在筹备了吗 | 法国企业受海浪影响较小",
+    "summary_cn": "TotalEnergies 正 | Spotify 将推出新徽章来 | 日食发生前几个小时 | 休达：Meta 和 TikTo | 人工智能本来应该摧毁计算 | 法国企业受海浪影响较小",
     "briefs": [
-      {
-        "tag": "Culture",
-        "title_cn": "致命武器5",
-        "title": "L’arme Fatale 5",
-        "body": "Presque trente ans après avoir rangé le flingue, Riggs et Murtaugh ont toujours du service à revendre. En direct du Fan Expo de Boston, Mel Gibson a balancé du lourd sur l'état réel de L'Arme Fatale 5 : script terminé, approche « low-tech » sans effets spéciaux baveux, et la promesse faite sur son lit de mort au regretté Richard Donner. Seul problème ? Le projet est englué dans l'enfer administratif des studios.",
-        "source": "Numerama",
-        "pub_date": "11 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2309857-larme-fatale-5-mel-gibson-donne-enfin-des-details-sur-la-suite-de-la-saga-culte.html",
-        "region": "europe"
-      },
       {
         "tag": "Économie",
         "title_cn": "TotalEnergies 正",
@@ -2952,17 +2291,6 @@
         "pub_date": "11 August 2026",
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/spotify-va-lancer-un-nouveau-badge-permettant-d-identifier-la-musique-generee-par-l-ia-20260811",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "D23 2026",
-        "title": "D23 2026",
-        "body": "C'est le grand rituel biennal de la firme aux grandes oreilles : du 14 au 16 août 2026, la convention D23 pose ses valises à Anaheim pour une orgie d'annonces, de teasers et de promesses hollywoodiennes.",
-        "source": "Numerama",
-        "pub_date": "11 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2309751-d23-2026-films-marvel-series-star-wars-et-parcs-tout-ce-que-disney-pourrait-devoiler-ce-week-end.html",
         "region": "europe"
       },
       {
@@ -2988,17 +2316,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "克里斯·埃文斯透露漫威如何保守",
-        "title": "Chris Evans révèle comment Marvel a su garder le secret pour",
-        "body": "Chris Evans a révélé l'astuce qui a permis à Marvel Studios et à Disney d'éviter au maximum les fuites sur son retour dans Avengers: Doomsday, jusqu'à l'officialisation dans un premier teaser. Les scénaristes ont rusé.",
-        "source": "Numerama",
-        "pub_date": "11 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2309737-chris-evans-revele-comment-marvel-a-su-garder-le-secret-pour-captain-america-dans-avengers-doomsday.html",
-        "region": "francophonie"
-      },
-      {
         "tag": "Technologie",
         "title_cn": "人工智能本来应该摧毁计算",
         "title": "L’intelligence artificielle devait détruire l’informatique",
@@ -3008,17 +2325,6 @@
         "auto": true,
         "link": "https://www.challenges.fr/entreprise/tech-numerique/lintelligence-artificielle-devait-detruire-linformatique-indienne-la-realite-est-bien-differente_645176",
         "region": "international"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "蜘蛛侠5已经在筹备了吗",
-        "title": "Spider-Man 5 déjà en préparation ? Le réalisateur de Brand New",
-        "body": "Alors que les fans savourent encore les révélations autour de Spider-Man: Brand New Day, l'avenir de l'Homme-Araignée au cinéma semble déjà s'inscrire sur le très long terme. Entre l'enthousiasme des producteurs et l'envie du réalisateur Destin Daniel Cretton d'enchaîner avec un Spider-Man 5, le Tisseur n'a pas fini de faire parler de lui.",
-        "source": "Numerama",
-        "pub_date": "11 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2309443-spider-man-5-deja-en-preparation-le-realisateur-de-brand-new-day-pret-a-rempiler.html",
-        "region": "europe"
       },
       {
         "tag": "Économie",
@@ -3033,7 +2339,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 418,
+    "word_count": 221,
     "auto": true
   },
   {
@@ -3049,7 +2355,7 @@
       "international",
       "etats-unis"
     ],
-    "summary_cn": "我们看到了Undertone | 错误、滥用职权和“大规模监视” | 阿尔勒会议 | 人工智能本来应该摧毁计算 | 唐纳德·特朗普的网络 Trut | 在占领下，如果没有艺术剧院的保 | 虚拟演员和假特技 | 极热 | 五大洲花园，伯特兰的绿色植物地 | SpaceX 股市继续暴跌 | 在美国和加拿大边境",
+    "summary_cn": "我们看到了Undertone | 错误、滥用职权和“大规模监视” | 阿尔勒会议 | 人工智能本来应该摧毁计算 | 在占领下，如果没有艺术剧院的保 | 虚拟演员和假特技 | 极热 | SpaceX 股市继续暴跌 | 在美国和加拿大边境",
     "briefs": [
       {
         "tag": "Culture",
@@ -3096,17 +2402,6 @@
         "region": "international"
       },
       {
-        "tag": "Économie",
-        "title_cn": "唐纳德·特朗普的网络 Trut",
-        "title": "La maison mère de Truth Social, le réseau de Donald Trump,",
-        "body": "A l’issue des trois premiers mois de l’année, Trump Media & Technology Group – dont le milliardaire est le principal actionnaire – avait déjà fait état d’une perte de plus de 400 millions de dollars.",
-        "source": "Le Monde",
-        "pub_date": "11 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/08/11/la-maison-mere-de-truth-social-le-reseau-de-donald-trump-affiche-240-millions-de-dollars-de-pertes-au-deuxieme-trimestre_6743610_3234.html",
-        "region": "etats-unis"
-      },
-      {
         "tag": "Culture",
         "title_cn": "在占领下，如果没有艺术剧院的保",
         "title": "Sous l’Occupation, l’impossible défense d’un théâtre d’art sans",
@@ -3140,17 +2435,6 @@
         "region": "francophonie"
       },
       {
-        "tag": "Culture",
-        "title_cn": "五大洲花园，伯特兰的绿色植物地",
-        "title": "Le Jardin des cinq continents, l’atlas de verdure de Bertrand",
-        "body": "« Artistes en leur jardin » (1/6). Dans le « jardin du MoCo », ouvert en 2019, le plasticien français a planté des espèces venues de toute la planète, mettant en scène la mondialisation des essences végétales.",
-        "source": "Le Monde",
-        "pub_date": "10 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/10/le-jardin-des-cinq-continents-l-atlas-de-verdure-de-bertrand-lavier-a-montpellier_6743430_3451060.html",
-        "region": "europe"
-      },
-      {
         "tag": "Technologie",
         "title_cn": "SpaceX 股市继续暴跌",
         "title": "SpaceX continue de s'effondrer en Bourse",
@@ -3174,34 +2458,23 @@
       }
     ],
     "vocab": [],
-    "word_count": 456,
+    "word_count": 384,
     "auto": true
   },
   {
     "date": "2026-08-10",
     "tags": [
-      "Culture",
       "Technologie",
-      "Économie"
+      "Économie",
+      "Culture"
     ],
     "regions": [
-      "europe",
       "francophonie",
+      "europe",
       "international"
     ],
-    "summary_cn": "我们对老版 X 战警电影进行了 | 法国为自动驾驶汽车的批准铺平道 | 空客和波音正在加速发展 | 在纳粹的引导下 | 人工智能本来应该摧毁计算 | 对于西甲主席哈维尔·特巴斯来说 | 虚拟演员和假特技 | 玛丽亚·安杰利库西斯 (Mar | 萨尔茨堡音乐节上演动人的《卡门 | SpaceX 股市继续暴跌 | 邮票市场",
+    "summary_cn": "法国为自动驾驶汽车的批准铺平道 | 空客和波音正在加速发展 | 在纳粹的引导下 | 人工智能本来应该摧毁计算 | 虚拟演员和假特技 | 萨尔茨堡音乐节上演动人的《卡门 | SpaceX 股市继续暴跌 | 邮票市场",
     "briefs": [
-      {
-        "tag": "Culture",
-        "title_cn": "我们对老版 X 战警电影进行了",
-        "title": "On a classé les vieux films X-Men, du pire au meilleur",
-        "body": "Les X-Men s'apprêtent à revenir en force dans le Marvel Cinematic Universe. Les anciens feront une apparition remarquée dans Avengers: Doomsday, et une nouvelle génération est déjà prévue pour l'après Avengers: Secret Wars. L'excuse idéale pour classer les six films produits par la Fox.",
-        "source": "Numerama",
-        "pub_date": "9 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2305835-on-a-classe-les-vieux-films-x-men-du-pire-au-meilleur.html",
-        "region": "europe"
-      },
       {
         "tag": "Technologie",
         "title_cn": "法国为自动驾驶汽车的批准铺平道",
@@ -3247,17 +2520,6 @@
         "region": "international"
       },
       {
-        "tag": "Économie",
-        "title_cn": "对于西甲主席哈维尔·特巴斯来说",
-        "title": "Pour Javier Tebas, président de la Liga, « l’ère Infantino est",
-        "body": "Le patron du championnat de football espagnol, souvent à l’avant-garde de la lutte contre les instances dirigeantes du ballon rond, dresse un constat sans appel sur la situation à la FIFA.",
-        "source": "Le Monde",
-        "pub_date": "9 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/sport/article/2026/08/09/pour-javier-tebas-president-de-la-liga-l-ere-infantino-est-terminee_6741998_3242.html",
-        "region": "francophonie"
-      },
-      {
         "tag": "Technologie",
         "title_cn": "虚拟演员和假特技",
         "title": "Acteurs virtuels et cascades truquées",
@@ -3266,17 +2528,6 @@
         "pub_date": "5 August 2026",
         "auto": true,
         "link": "https://www.challenges.fr/entreprise/tech-numerique/acteurs-virtuels-et-cascades-truquees-la-revolution-brutale-de-lia-qui-fait-trembler-les-plus-grands-studios-dhollywood_645153",
-        "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "玛丽亚·安杰利库西斯 (Mar",
-        "title": "Maria Angelicoussis, la discrète armatrice la plus puissante de",
-        "body": "Le groupe Angelicoussis, qu’elle dirige depuis 2021, est le plus grand armateur privé du monde en tonnage, et profite de l’essor du gaz naturel liquéfié en Europe. La PDG de 44 ans est la femme la plus riche de Grèce.",
-        "source": "Le Monde",
-        "pub_date": "9 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/08/09/maria-angelicoussis-la-discrete-armatrice-la-plus-puissante-de-grece_6741918_3234.html",
         "region": "europe"
       },
       {
@@ -3314,14 +2565,13 @@
       }
     ],
     "vocab": [],
-    "word_count": 445,
+    "word_count": 330,
     "auto": true
   },
   {
     "date": "2026-08-09",
     "tags": [
       "Technologie",
-      "Culture",
       "Économie"
     ],
     "regions": [
@@ -3329,7 +2579,7 @@
       "europe",
       "international"
     ],
-    "summary_cn": "法国为自动驾驶汽车的批准铺平道 | 龙在《龙之屋》中回归 | 邮票市场 | “我们必须走得更远” | 侏罗纪世界重生的续集在哪里 | “烂透了”的抱怨 | 画家兼工人安德烈·帕尤 (An | 人工智能本来应该摧毁计算 | SpaceX",
+    "summary_cn": "法国为自动驾驶汽车的批准铺平道 | 邮票市场 | “我们必须走得更远” | “烂透了”的抱怨 | 人工智能本来应该摧毁计算 | SpaceX",
     "briefs": [
       {
         "tag": "Technologie",
@@ -3341,17 +2591,6 @@
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/la-france-ouvre-la-voie-a-l-homologation-des-vehicules-autonomes-de-livraison-20260807",
         "region": "francophonie"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "龙在《龙之屋》中回归",
-        "title": "Un dragon de retour dans House of the Dragon, Tom Bombadil",
-        "body": "Cette semaine fut placée sous le signe des grands retours héroïques : Feux-du-Soleil n’a pas dit son dernier mot dans la saison 3 de House of the Dragon, tandis que Tom Bombadil vient faire coucou dans la saison 3 des Anneaux de pouvoir — et on parle quand même du personnage le plus puissant de la Terre du Milieu. Entre ces deux come-back, Mario continue de sauter, car c’est ce qu’il sait faire de mieux. C’est le récap pop culture de la semaine, et attention : il y a un peu de divulgâchage dans l’air…",
-        "source": "Numerama",
-        "pub_date": "8 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2308321-un-dragon-de-retour-dans-house-of-the-dragon-tom-bombadil-debarque-dans-les-anneaux-de-pouvoir-et-mario-devoile-son-secret-cest-le-recap-pop-culture-de-la-semaine.html",
-        "region": "europe"
       },
       {
         "tag": "Économie",
@@ -3376,17 +2615,6 @@
         "region": "francophonie"
       },
       {
-        "tag": "Culture",
-        "title_cn": "侏罗纪世界重生的续集在哪里",
-        "title": "Où en est la suite de Jurassic World Rebirth avec le retour de",
-        "body": "Porté par le succès colossal du dernier volet au box-office, le prochain film de la saga Jurassic World est officiellement sur les rails. Scarlett Johansson et ses partenaires de jeu préparent leur retour, même si le projet vient d'encaisser un coup dur en coulisses : le départ fracassant du réalisateur Gareth Edwards.",
-        "source": "Numerama",
-        "pub_date": "7 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2308397-ou-en-est-la-suite-de-jurassic-world-rebirth-avec-le-retour-de-scarlett-johansson.html",
-        "region": "francophonie"
-      },
-      {
         "tag": "Technologie",
         "title_cn": "“烂透了”的抱怨",
         "title": "Plainte «pourrie jusqu’au trognon»",
@@ -3395,17 +2623,6 @@
         "pub_date": "7 August 2026",
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/plainte-pourrie-jusqu-au-trognon-la-bataille-d-apple-et-openai-sur-les-futurs-appareils-du-createur-de-chatgpt-s-envenime-20260807",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "画家兼工人安德烈·帕尤 (An",
-        "title": "Les moulinets hypnotiques d’André Pailloux, peintre-ouvrier",
-        "body": "« La France de l’art brut » (6/6). A Brem-sur-Mer, en Vendée, cet ancien peintre de chantier naval a créé un jardin extraordinaire, jungle de PVC et de bois de récupération.",
-        "source": "Le Monde",
-        "pub_date": "8 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/08/les-moulinets-hypnotiques-d-andre-pailloux-peintre-ouvrier-disciple-du-vent-et-des-couleurs_6741515_3451060.html",
         "region": "europe"
       },
       {
@@ -3432,22 +2649,20 @@
       }
     ],
     "vocab": [],
-    "word_count": 386,
+    "word_count": 208,
     "auto": true
   },
   {
     "date": "2026-08-08",
     "tags": [
       "Technologie",
-      "Culture",
       "Économie"
     ],
     "regions": [
       "francophonie",
-      "europe",
-      "etats-unis"
+      "europe"
     ],
-    "summary_cn": "法国为自动驾驶汽车的批准铺平道 | 侏罗纪世界重生的续集在哪里 | 因气候灾害和困难而削弱 | “我们必须走得更远” | Netflix 取消了大卫·芬 | Trenitalia 向日立订 | “烂透了”的抱怨 | 电子游戏消失 | 工人 Lucien Favre",
+    "summary_cn": "法国为自动驾驶汽车的批准铺平道 | 因气候灾害和困难而削弱 | “我们必须走得更远” | Trenitalia 向日立订 | “烂透了”的抱怨 | 电子游戏消失",
     "briefs": [
       {
         "tag": "Technologie",
@@ -3458,17 +2673,6 @@
         "pub_date": "7 August 2026",
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/la-france-ouvre-la-voie-a-l-homologation-des-vehicules-autonomes-de-livraison-20260807",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "侏罗纪世界重生的续集在哪里",
-        "title": "Où en est la suite de Jurassic World Rebirth avec le retour de",
-        "body": "Porté par le succès colossal du dernier volet au box-office, le prochain film de la saga Jurassic World est officiellement sur les rails. Scarlett Johansson et ses partenaires de jeu préparent leur retour, même si le projet vient d'encaisser un coup dur en coulisses : le départ fracassant du réalisateur Gareth Edwards.",
-        "source": "Numerama",
-        "pub_date": "7 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2308397-ou-en-est-la-suite-de-jurassic-world-rebirth-avec-le-retour-de-scarlett-johansson.html",
         "region": "francophonie"
       },
       {
@@ -3492,17 +2696,6 @@
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/il-faut-aller-encore-plus-loin-le-plan-de-sarah-el-hairy-pour-mieux-proteger-les-enfants-sur-les-reseaux-sociaux-20260807",
         "region": "francophonie"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "Netflix 取消了大卫·芬",
-        "title": "Netflix annule le remake de Squid Game par David Fincher",
-        "body": "Après des mois de rumeurs, le couperet est tombé : la version américaine de Squid Game par David Fincher ne verra jamais le jour. Netflix réoriente sa franchise phénomène, pendant que le réalisateur peaufine les reshoots du très attendu The Adventures of Cliff Booth.",
-        "source": "Numerama",
-        "pub_date": "7 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2308009-netflix-annule-le-remake-de-squid-game-par-david-fincher.html",
-        "region": "etats-unis"
       },
       {
         "tag": "Économie",
@@ -3536,35 +2729,24 @@
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/jeux-video-qui-disparaissent-fin-du-marche-de-l-occasion-la-dematerialisation-une-mauvaise-affaire-pour-les-joueurs-20260807",
         "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "工人 Lucien Favre",
-        "title": "Les obsessions en plâtre et ciment de Lucien Favreau, ouvrier",
-        "body": "La France de l’art brut (5/6). Lucien Favreau, décédé en 1990, et sa maison baptisée « Ma Bohême », à Yviers, en Charente, dont les œuvres dressent le portrait d’un humaniste révolté par les tourments du monde.",
-        "source": "Le Monde",
-        "pub_date": "7 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/07/les-obsessions-en-platre-et-ciment-de-lucien-favreau-ouvrier-anarcho-mystique-parti-sans-livrer-tous-ses-secrets_6740528_3451060.html",
-        "region": "francophonie"
       }
     ],
     "vocab": [],
-    "word_count": 344,
+    "word_count": 211,
     "auto": true
   },
   {
     "date": "2026-08-07",
     "tags": [
       "Technologie",
-      "Culture",
-      "Économie"
+      "Économie",
+      "Culture"
     ],
     "regions": [
       "europe",
       "etats-unis"
     ],
-    "summary_cn": "虚拟演员和假特技 | 结束的开始？华纳/派拉蒙的合并 | 在法国哪里可以买到满足您对运动 | SpaceX 股市继续暴跌 | 在安特卫普当代艺术博物馆 | 热浪 | 从全能的人工智能到欧洲的混乱 | REDIFF (LA)HORD | 法国债务面临滚雪球效应威胁 | 人工智能 | 史蒂文·斯皮尔伯格和外星人",
+    "summary_cn": "虚拟演员和假特技 | 在法国哪里可以买到满足您对运动 | SpaceX 股市继续暴跌 | 热浪 | REDIFF (LA)HORD | 法国债务面临滚雪球效应威胁 | 人工智能",
     "briefs": [
       {
         "tag": "Technologie",
@@ -3576,17 +2758,6 @@
         "auto": true,
         "link": "https://www.challenges.fr/entreprise/tech-numerique/acteurs-virtuels-et-cascades-truquees-la-revolution-brutale-de-lia-qui-fait-trembler-les-plus-grands-studios-dhollywood_645153",
         "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "结束的开始？华纳/派拉蒙的合并",
-        "title": "Le début de la fin ? La fusion Warner/Paramount passe un cap,",
-        "body": "Londres vient de valider la mégafusion entre Paramount Skydance et Warner Bros. Discovery. Un feu vert de plus pour le futur géant du divertissement, mais qui ne règle en rien le vrai problème : aux États-Unis, la justice prend son temps et l'addition commence à faire très mal.",
-        "source": "Numerama",
-        "pub_date": "6 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2307435-le-debut-de-la-fin-la-fusion-warner-paramount-passe-un-cap-mais-tout-nest-pas-joue.html",
-        "region": "etats-unis"
       },
       {
         "tag": "Économie",
@@ -3611,17 +2782,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "在安特卫普当代艺术博物馆",
-        "title": "Au Musée d’art contemporain d’Anvers, Nicola L., voix précoce du",
-        "body": "En Belgique, une rétrospective montre la puissance expressive de la plasticienne et performeuse française, qui a pratiqué à peu près tous les modes de création possibles, de la peinture à la vidéo.",
-        "source": "Le Monde",
-        "pub_date": "7 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/culture/article/2026/08/07/au-musee-d-art-contemporain-d-anvers-nicola-l-voix-precoce-du-feminisme-met-a-nu-la-realite-des-corps_6740414_3246.html",
-        "region": "europe"
-      },
-      {
         "tag": "Économie",
         "title_cn": "热浪",
         "title": "Canicule",
@@ -3630,17 +2790,6 @@
         "pub_date": "6 August 2026",
         "auto": true,
         "link": "https://www.lemonde.fr/economie/article/2026/08/06/canicule-l-arret-force-de-centrales-a-travers-l-europe-met-le-reseau-electrique-sous-tension_6740047_3234.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "从全能的人工智能到欧洲的混乱",
-        "title": "De l’IA toute-puissante au chaos en Europe, Elon Musk livre ses",
-        "body": "Dans un entretien à The Economist, Elon Musk prédit le sacre absolu de l’IA, la fin de l’argent et des guerres civiles en Europe. Entre utopie technologique et prophéties sombres, l’homme le plus riche du monde livre sa vision sans filtre d’un avenir qu’il entend bien façonner.",
-        "source": "Challenges",
-        "pub_date": "3 August 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/tech-numerique/de-lia-toute-puissante-au-chaos-en-europe-elon-musk-livre-ses-predictions-chocs-sur-les-20-prochaines-annees-dun-monde-quil-faconne_645130",
         "region": "europe"
       },
       {
@@ -3675,69 +2824,24 @@
         "auto": true,
         "link": "https://www.challenges.fr/entreprise/tech-numerique/intelligence-artificielle-la-reglementation-la-plus-puissante-au-monde-entre-en-vigueur-dans-lue-dimanche-2-aout_645117",
         "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "史蒂文·斯皮尔伯格和外星人",
-        "title": "Steven Spielberg et les extraterrestres, une affaire très",
-        "body": "« Spielberg, le spectacle d’une vie » (5/6). Le cinéaste a tourné trois films majeurs qui racontent la présence sur Terre d’extraterrestres  « amis » : « Rencontres du troisième type », « E.T. » et, récemment, « Disclosure Day ». Au « Monde », il explique que ces longs-métrages ne sont pas que du cinéma.",
-        "source": "Le Monde",
-        "pub_date": "6 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/06/steven-spielberg-et-les-extraterrestres-une-affaire-tres-serieuse-j-y-crois-vraiment-j-y-crois-depuis-toujours_6739973_3451060.html",
-        "region": "europe"
       }
     ],
     "vocab": [],
-    "word_count": 484,
+    "word_count": 301,
     "auto": true
   },
   {
     "date": "2026-08-06",
     "tags": [
+      "Technologie",
       "Culture",
-      "Économie",
-      "Technologie"
+      "Économie"
     ],
     "regions": [
-      "europe",
-      "francophonie"
+      "europe"
     ],
-    "summary_cn": "如果您只需要在 8 月观看一部 | 纪尧姆·阿莱格尔和泽维尔·廷博 | 特德·拉索回来了 | “一切都没有改变” | 《头号玩家》的续集即将推出 | 虚拟演员和假特技 | 在巴黎北部，Le CiNey | SpaceX 股市继续暴跌 | 关税",
+    "summary_cn": "“一切都没有改变” | 虚拟演员和假特技 | 在巴黎北部，Le CiNey | SpaceX 股市继续暴跌 | 关税",
     "briefs": [
-      {
-        "tag": "Culture",
-        "title_cn": "如果您只需要在 8 月观看一部",
-        "title": "Si vous ne devez regarder qu’une seule série en août sur",
-        "body": "Oubliez les polars formatés et les enquêtes téléphonées. Avec Furious, Elizabeth Meriwether livre un thriller psychologique sombre et carré sur la traque d'une tueuse en série. Une écriture solide, zéro fioriture, à voir en août sur Disney+.",
-        "source": "Numerama",
-        "pub_date": "5 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2306769-si-vous-ne-devez-regarder-quune-seule-serie-en-aout-sur-disney-cest-furious.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "纪尧姆·阿莱格尔和泽维尔·廷博",
-        "title": "Guillaume Allègre et Xavier Timbeau, économistes",
-        "body": "Pour redresser les comptes publics de la France, les deux experts de l’Observatoire français des conjonctures économiques plaident, dans une tribune au « Monde », pour l’introduction d’un taux du prélèvement forfaitaire unique. Celui-ci permettrait de viser des revenus qui échappent aujourd’hui à l’impôt.",
-        "source": "Le Monde",
-        "pub_date": "6 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/idees/article/2026/08/06/guillaume-allegre-et-xavier-timbeau-economistes-nous-proposons-d-elargir-l-assiette-de-l-impot-sur-le-revenu-a-des-revenus-actuellement-exoneres_6739678_3232.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "特德·拉索回来了",
-        "title": "Ted Lasso est de retour",
-        "body": "Le coach le plus moustachu et le plus bienveillant du petit écran est de retour pour une saison 4 de Ted Lasso, à compter du 5 août sur Apple TV . Numerama est là pour vous aider à rechausser vos crampons !",
-        "source": "Numerama",
-        "pub_date": "5 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2306241-ted-lasso-est-de-retour-6-bonnes-raisons-de-sy-remettre.html",
-        "region": "francophonie"
-      },
       {
         "tag": "Technologie",
         "title_cn": "“一切都没有改变”",
@@ -3747,17 +2851,6 @@
         "pub_date": "4 August 2026",
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/rien-n-a-change-trois-mois-apres-le-bilan-peu-flatteur-de-la-loi-australienne-interdisant-les-reseaux-sociaux-aux-ados-20260804",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "《头号玩家》的续集即将推出",
-        "title": "La suite de Ready Player One arrive et les choses sérieuses",
-        "body": "Le projet d'adaptation de Ready Player Two donne enfin un vrai signe de vie. Le scénariste Zak Penn vient d'officialiser ce que Warner Bros. gardait sous clé, l'écriture du script est bel et bien lancée.",
-        "source": "Numerama",
-        "pub_date": "5 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2306681-la-suite-de-ready-player-one-arrive-et-les-choses-serieuses-commencent.html",
         "region": "europe"
       },
       {
@@ -3806,13 +2899,12 @@
       }
     ],
     "vocab": [],
-    "word_count": 355,
+    "word_count": 197,
     "auto": true
   },
   {
     "date": "2026-08-05",
     "tags": [
-      "Culture",
       "Économie",
       "Technologie"
     ],
@@ -3820,19 +2912,8 @@
       "europe",
       "francophonie"
     ],
-    "summary_cn": "《权力之环》第三季什么时候发布 | 大型机场扩建工程 | “一切都没有改变” | 唷，索尼影业的衍生产品已经破产 | 从全能的人工智能到欧洲的混乱 | 第 79 届洛迦诺电影节上 | 休达危机 | 人工智能 | 放映的电影 | SpaceX 的营业额几乎翻了",
+    "summary_cn": "大型机场扩建工程 | “一切都没有改变” | 休达危机 | 人工智能 | SpaceX 的营业额几乎翻了",
     "briefs": [
-      {
-        "tag": "Culture",
-        "title_cn": "《权力之环》第三季什么时候发布",
-        "title": "Quand sort la saison 3 des Anneaux de pouvoir, la série sur Le",
-        "body": "La saison 3 de la série Les Anneaux de pouvoir est désormais tournée et presque prête à être diffusée en streaming sur Prime Video. La série télévisée, dérivée de l'univers du Seigneur des anneaux. en est à la moitié du récit désormais. Il restera encore deux saisons pour boucler les aventures de Sauron, Galadriel et Elrond au Deuxième Âge de la Terre du milieu.",
-        "source": "Numerama",
-        "pub_date": "4 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/1808354-saison-3-des-anneaux-de-pouvoir.html",
-        "region": "europe"
-      },
       {
         "tag": "Économie",
         "title_cn": "大型机场扩建工程",
@@ -3853,39 +2934,6 @@
         "pub_date": "4 August 2026",
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/rien-n-a-change-trois-mois-apres-le-bilan-peu-flatteur-de-la-loi-australienne-interdisant-les-reseaux-sociaux-aux-ados-20260804",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "唷，索尼影业的衍生产品已经破产",
-        "title": "Ouf, Sony Pictures en a terminé avec les spin-off éclatés au sol",
-        "body": "Après les catastrophes industrielles Madame Web et Kraven le Chasseur, le patron de Sony Pictures vient de porter le coup de grâce à son univers de super-vilains sans Spider-Man. Une décision tardive, mais salvatrice pour la santé mentale des fans de comics.",
-        "source": "Numerama",
-        "pub_date": "4 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2306245-ouf-sony-pictures-en-a-termine-avec-les-spin-off-eclates-au-sol-de-spider-man.html",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "从全能的人工智能到欧洲的混乱",
-        "title": "De l’IA toute-puissante au chaos en Europe, Elon Musk livre ses",
-        "body": "Dans un entretien à The Economist, Elon Musk prédit le sacre absolu de l’IA, la fin de l’argent et des guerres civiles en Europe. Entre utopie technologique et prophéties sombres, l’homme le plus riche du monde livre sa vision sans filtre d’un avenir qu’il entend bien façonner.",
-        "source": "Challenges",
-        "pub_date": "3 August 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/tech-numerique/de-lia-toute-puissante-au-chaos-en-europe-elon-musk-livre-ses-predictions-chocs-sur-les-20-prochaines-annees-dun-monde-quil-faconne_645130",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "第 79 届洛迦诺电影节上",
-        "title": "Au 79ᵉ Festival de Locarno, un défilé de stars de cinéma et de",
-        "body": "La manifestation suisse, qui se tient du 5 au 15 août, rend notamment hommage à Isabella Rossellini, Virginie Efira et Asia Argento, et accueille à nouveau le réalisateur sud-coréen Hong Sang-soo en compétition.",
-        "source": "Le Monde",
-        "pub_date": "5 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/culture/article/2026/08/05/au-79-festival-de-locarno-un-defile-de-stars-de-cinema-et-de-nouveaux-visages-en-quete-du-leopard-d-or_6739358_3246.html",
         "region": "europe"
       },
       {
@@ -3911,17 +2959,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "放映的电影",
-        "title": "Les films à l’affiche",
-        "body": "Chaque mercredi, dans La Matinale, les journalistes cinéma du « Monde » livrent leurs critiques des films à découvrir en salle. Aujourd’hui, notamment, la condition féminine derrière la caméra de Shu Qi, un récit sombre ponctué d’échappées oniriques.",
-        "source": "Le Monde",
-        "pub_date": "5 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/cinema/article/2026/08/05/les-films-a-l-affiche-girl-les-silences-de-riyad-cotton-queen-enamorada_6739181_3476.html",
-        "region": "europe"
-      },
-      {
         "tag": "Économie",
         "title_cn": "SpaceX 的营业额几乎翻了",
         "title": "SpaceX double quasiment son chiffre d’affaires, sans enrayer la",
@@ -3934,44 +2971,21 @@
       }
     ],
     "vocab": [],
-    "word_count": 411,
+    "word_count": 187,
     "auto": true
   },
   {
     "date": "2026-08-04",
     "tags": [
-      "Technologie",
-      "Culture",
-      "Économie"
+      "Économie",
+      "Technologie"
     ],
     "regions": [
       "europe",
       "francophonie"
     ],
-    "summary_cn": "Sam Altman、Dari | 力量之环 第三季 | “风险资金卖给了寡妇和孤儿 | “过度乐观” | 取消《刀锋战士》的回归是一种巨 | Passerelles 俱乐部 | 从全能的人工智能到欧洲的混乱 | 龙之屋 | 在上法兰西大区 | 人工智能 | 对于《芭比2》来说 | 在 Tarascon",
+    "summary_cn": "“风险资金卖给了寡妇和孤儿 | “过度乐观” | Passerelles 俱乐部 | 在上法兰西大区 | 人工智能 | 在 Tarascon",
     "briefs": [
-      {
-        "tag": "Technologie",
-        "title_cn": "Sam Altman、Dari",
-        "title": "Sam Altman, Dario Amodei… Les «maîtres de l’IA», ces nouveaux",
-        "body": "COMMENT L’IA CHANGE LE MONDE (1/5) - La révolution IA a démultiplié leur pouvoir. Ces PDG, pour la plupart inconnus il y a encore cinq ans, n’hésitent pas à afficher leurs liens avec le monde politique, mais aussi à partager leur vision du monde tels de véritables chefs d’État.",
-        "source": "Le Figaro",
-        "pub_date": "3 August 2026",
-        "auto": true,
-        "link": "https://www.lefigaro.fr/secteur/high-tech/sam-altman-dario-amodei-les-maitres-de-l-ia-ces-nouveaux-visages-qui-dominent-l-economie-mondiale-20260803",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "力量之环 第三季",
-        "title": "Les Anneaux de pouvoir saison 3",
-        "body": "Alors que le casting de la saison 3 des Anneaux de pouvoir est officialisé, le retour de Tom Bombadil pose une difficulté. Si l'interprétation de Rory Kinnear séduit, la puissance démesurée de « l'Aîné » pose un défi aux scénaristes : comment intégrer l'être le plus puissant de la Terre du Milieu sans désamorcer toute la tension dramatique ?",
-        "source": "Numerama",
-        "pub_date": "3 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2305901-les-anneaux-de-pouvoir-saison-3-le-retour-confirme-de-tom-bombadil-pose-un-vrai-casse-tete-scenaristique.html",
-        "region": "europe"
-      },
       {
         "tag": "Économie",
         "title_cn": "“风险资金卖给了寡妇和孤儿",
@@ -3995,17 +3009,6 @@
         "region": "francophonie"
       },
       {
-        "tag": "Culture",
-        "title_cn": "取消《刀锋战士》的回归是一种巨",
-        "title": "L’annulation du retour de Blade est un immense gâchis et une",
-        "body": "Sept ans après son annonce retentissante au Comic-Con de San Diego, le reboot de Blade a été officiellement enterré par Marvel Studios. Entre rendez-vous manqués, vaines promesses pour l'univers fantastique et gâchis de talent pur, le projet laisse un goût amer. Anatomie d’un fiasco stratégique.",
-        "source": "Numerama",
-        "pub_date": "3 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2305937-lannulation-du-retour-de-blade-est-un-immense-gachis-et-une-grosse-erreur.html",
-        "region": "europe"
-      },
-      {
         "tag": "Économie",
         "title_cn": "Passerelles 俱乐部",
         "title": "Les clubs Passerelles facilitent les séjours en famille avec un",
@@ -4015,28 +3018,6 @@
         "auto": true,
         "link": "https://www.lemonde.fr/societe/article/2026/08/04/les-clubs-passerelles-facilitent-les-sejours-en-famille-avec-un-enfant-handicape-on-souffle-on-se-vide-la-tete-on-est-vraiment-en-vacances_6738014_3224.html",
         "region": "francophonie"
-      },
-      {
-        "tag": "Technologie",
-        "title_cn": "从全能的人工智能到欧洲的混乱",
-        "title": "De l’IA toute-puissante au chaos en Europe, Elon Musk livre ses",
-        "body": "Dans un entretien à The Economist, Elon Musk prédit le sacre absolu de l’IA, la fin de l’argent et des guerres civiles en Europe. Entre utopie technologique et prophéties sombres, l’homme le plus riche du monde livre sa vision sans filtre d’un avenir qu’il entend bien façonner.",
-        "source": "Challenges",
-        "pub_date": "3 August 2026",
-        "auto": true,
-        "link": "https://www.challenges.fr/entreprise/tech-numerique/de-lia-toute-puissante-au-chaos-en-europe-elon-musk-livre-ses-predictions-chocs-sur-les-20-prochaines-annees-dun-monde-quil-faconne_645130",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "龙之屋",
-        "title": "House of the Dragon",
-        "body": "Croyait-on Feux-du-Soleyl hors-jeu ? Son retour surprise à la fin de la saison 3 offre une seconde jeunesse politique à Aegon II. Mais pour Rhaenyra Targaryen, la présence de ce dragon convalescent est bien plus qu'un simple obstacle militaire : c'est l'annonce directe de sa propre fin.",
-        "source": "Numerama",
-        "pub_date": "3 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2305855-house-of-the-dragon-le-retour-de-ce-dragon-scelle-deja-le-destin-de-rhaenyra.html",
-        "region": "europe"
       },
       {
         "tag": "Économie",
@@ -4061,17 +3042,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "对于《芭比2》来说",
-        "title": "Pour Barbie 2, ce n’est pas gagné, Warner juge Margot Robbie et",
-        "body": "Le succès planétaire à 1,4 milliard de dollars n'aura pas suffi à arrondir les angles. Les négociations pour Barbie 2 sont au point mort : le patron de Warner Bros. refuse d'allonger la monnaie pour Margot Robbie, Ryan Gosling et Greta Gerwig.",
-        "source": "Numerama",
-        "pub_date": "3 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2305677-pour-barbie-2-ce-nest-pas-gagne-warner-juge-margot-robbie-et-ryan-gosling-trop-gourmands.html",
-        "region": "francophonie"
-      },
-      {
         "tag": "Économie",
         "title_cn": "在 Tarascon",
         "title": "A Tarascon, les salariés de Fibre Excellence espèrent toujours",
@@ -4084,21 +3054,19 @@
       }
     ],
     "vocab": [],
-    "word_count": 511,
+    "word_count": 222,
     "auto": true
   },
   {
     "date": "2026-08-03",
     "tags": [
-      "Technologie",
-      "Culture",
-      "Économie"
+      "Technologie"
     ],
     "regions": [
       "europe",
       "etats-unis"
     ],
-    "summary_cn": "“订购并忘记账单” | 我们将蜘蛛侠电影从最灾难性到 | 贵了100到200美元 | 哪里可以预订动画电影《回忆的精 | 唐纳德·特朗普称美国进行了干预 | 人工智能 | 史蒂芬·斯皮尔伯格 | 阿卜杜勒·萨马德·拉比乌 (A | 如果现代人工智能来自控制论怎么 | 儿童演员阿兰·科恩 | 克里斯托弗·诺兰电影《奥德赛》",
+    "summary_cn": "“订购并忘记账单” | 贵了100到200美元 | 人工智能 | 如果现代人工智能来自控制论怎么",
     "briefs": [
       {
         "tag": "Technologie",
@@ -4112,17 +3080,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "我们将蜘蛛侠电影从最灾难性到",
-        "title": "On a classé les films Spider-Man du plus catastrophique au",
-        "body": "Alors que le très attendu Spider-Man: Brand New Day vient enfin de sortir au cinéma, la rédaction a tranché, voici notre classement ultime des films Spider-Man en prises de vues réelles. Du pire naufrage de la franchise au chef-d’œuvre absolu, découvrez où se situe le nouveau film avec Tom Holland.",
-        "source": "Numerama",
-        "pub_date": "2 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2304369-on-a-classe-les-meilleurs-films-spider-man-du-meilleur-au-plus-catastrophique.html",
-        "region": "europe"
-      },
-      {
         "tag": "Technologie",
         "title_cn": "贵了100到200美元",
         "title": "100 à 200 dollars plus cher",
@@ -4131,28 +3088,6 @@
         "pub_date": "1 August 2026",
         "auto": true,
         "link": "https://www.lefigaro.fr/secteur/high-tech/100-a-200-dollars-plus-cher-microsoft-acte-la-flambee-des-prix-de-ses-xbox-sur-fond-de-penurie-mondiale-de-puces-memoires-20260801",
-        "region": "etats-unis"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "哪里可以预订动画电影《回忆的精",
-        "title": "Où précommander le film d’animation Memories dans sa sublime",
-        "body": "[Précommande] Alors oui, on achète de moins en moins de DVD et de Blu-ray ces derniers temps, le dématérialisé étant devenu le principal moyen de consommer des films et des séries. Pourtant, certaines éditions physiques valent encore sacrément le coup, à l’image de ce sublime coffret de Memories, actuellement disponible en précommande.",
-        "source": "Numerama",
-        "pub_date": "1 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2304949-ou-precommander-le-film-danimation-memories-dans-sa-sublime-edition-collector-blu-ray-4k.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "唐纳德·特朗普称美国进行了干预",
-        "title": "Donald Trump affirme que les Etats-Unis sont intervenus pour",
-        "body": "La Réserve fédérale de New York a orchestré une vente d’euros inédite pour acheter des yens. La monnaie nippone avait enregistré en juillet ses plus bas niveaux depuis près de quarante ans.",
-        "source": "Le Monde",
-        "pub_date": "3 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/08/03/donald-trump-affirme-que-les-etats-unis-sont-intervenus-pour-soutenir-le-yen-par-amitie-pour-le-japon_6737321_3234.html",
         "region": "etats-unis"
       },
       {
@@ -4167,28 +3102,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "史蒂芬·斯皮尔伯格",
-        "title": "Steven Spielberg, un cinéma à grand spectacle voué à",
-        "body": "« Spielberg, le spectacle d’une vie » (1/6). Enfant, le futur cinéaste souffre des fréquents déménagements imposés pour suivre aux quatre coins des Etats-Unis un père absent à la brillante carrière d’ingénieur. C’est en multipliant les courts-métrages, adolescent, qu’il invente son monde avant de faire de la famille un thème central de ses films.",
-        "source": "Le Monde",
-        "pub_date": "2 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/02/steven-spielberg-un-cinema-a-grand-spectacle-voue-a-exorciser-une-enfance-douloureuse_6737307_3451060.html",
-        "region": "etats-unis"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "阿卜杜勒·萨马德·拉比乌 (A",
-        "title": "Abdul Samad Rabiu, l’autre industriel multimilliardaire qui veut",
-        "body": "« Fortunes africaines ». Son parcours rappelle celui d’Aliko Dangote, première fortune d’Afrique. Plus discret, le patron du groupe BUA a lui aussi bâti un empire dans le ciment et le sucre. Et lui aussi est originaire de Kano, carrefour millénaire du commerce transsaharien.",
-        "source": "Le Monde",
-        "pub_date": "2 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/afrique/article/2026/08/02/abdul-samad-rabiu-l-autre-industriel-multimilliardaire-qui-veut-changer-le-nigeria_6737313_3212.html",
-        "region": "europe"
-      },
-      {
         "tag": "Technologie",
         "title_cn": "如果现代人工智能来自控制论怎么",
         "title": "Et si l’IA moderne venait de la cybernétique ? Le legs méconnu",
@@ -4198,48 +3111,24 @@
         "auto": true,
         "link": "https://www.france24.com/fr/%C3%A9co-tech/20260802-histoire-ia-moderne-venait-de-la-cybern%C3%A9tique-le-legs-m%C3%A9connu-de-norbert-wiener",
         "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "儿童演员阿兰·科恩",
-        "title": "L’enfant acteur Alain Cohen, alter ego éphémère de Claude Berri",
-        "body": "« Etoiles filantes » (2/4). Choisi à 7 ans par le cinéaste Claude Berri pour jouer le garçon juif caché du « Vieil Homme et l’Enfant », film autobiographique et grand succès en 1967, Alain Cohen sera le double du réalisateur dans deux autres films. Le jeune homme, qui se trouve mauvais acteur, exercera ensuite bien d’autres métiers, pour devenir marchand de primeurs à Rungis.",
-        "source": "Le Monde",
-        "pub_date": "2 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/02/l-enfant-acteur-alain-cohen-alter-ego-ephemere-de-claude-berri_6737271_3451060.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Économie",
-        "title_cn": "克里斯托弗·诺兰电影《奥德赛》",
-        "title": "La sortie du film « L’Odyssée » de Christopher Nolan dope les",
-        "body": "Anticipant l’effet boomerang lié à la sortie du blockbuster, les éditeurs ont multiplié depuis le mois de mai les rééditions de l’épopée du roi d’Ithaque. Les libraires profitent ainsi de l’engouement pour le film de Christopher Nolan.",
-        "source": "Le Monde",
-        "pub_date": "2 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/economie/article/2026/08/02/la-sortie-du-film-l-odyssee-de-christopher-nolan-dope-les-ventes-en-librairie-du-classique-d-homere_6737283_3234.html",
-        "region": "europe"
       }
     ],
     "vocab": [],
-    "word_count": 498,
+    "word_count": 164,
     "auto": true
   },
   {
     "date": "2026-08-02",
     "tags": [
       "Technologie",
-      "Culture",
       "Économie"
     ],
     "regions": [
       "etats-unis",
       "europe",
-      "francophonie",
       "chine"
     ],
-    "summary_cn": "贵了100到200美元 | 哪里可以预订动画电影《回忆的精 | 人工智能 | 在哪里可以观看流媒体蜘蛛侠电影 | 索伦对抗炎魔 | Triballat 家族企业 | 人择人工智能获得了对系统的未经 | 文森特·帕斯托雷 (Vince | 在美国，围绕不同模式的争论日益",
+    "summary_cn": "贵了100到200美元 | 人工智能 | Triballat 家族企业 | 人择人工智能获得了对系统的未经 | 在美国，围绕不同模式的争论日益",
     "briefs": [
       {
         "tag": "Technologie",
@@ -4253,17 +3142,6 @@
         "region": "etats-unis"
       },
       {
-        "tag": "Culture",
-        "title_cn": "哪里可以预订动画电影《回忆的精",
-        "title": "Où précommander le film d’animation Memories dans sa sublime",
-        "body": "[Précommande] Alors oui, on achète de moins en moins de DVD et de Blu-ray ces derniers temps, le dématérialisé étant devenu le principal moyen de consommer des films et des séries. Pourtant, certaines éditions physiques valent encore sacrément le coup, à l’image de ce sublime coffret de Memories, actuellement disponible en précommande.",
-        "source": "Numerama",
-        "pub_date": "1 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2304949-ou-precommander-le-film-danimation-memories-dans-sa-sublime-edition-collector-blu-ray-4k.html",
-        "region": "europe"
-      },
-      {
         "tag": "Économie",
         "title_cn": "人工智能",
         "title": "Intelligence artificielle",
@@ -4272,28 +3150,6 @@
         "pub_date": "2 August 2026",
         "auto": true,
         "link": "https://www.lemonde.fr/economie/article/2026/08/02/intelligence-artificielle-la-mention-genere-par-ia-devient-obligatoire-dans-l-ue_6737268_3234.html",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "在哪里可以观看流媒体蜘蛛侠电影",
-        "title": "Où voir les films Spider-Man en streaming ?",
-        "body": "La sortie au cinéma de Spider-Man: Brand New Day vous a peut-être donné envie de voir ou revoir les précédents films centrés sur le tr_s apprécié super-héros Marvel. Vous ne savez pas où aller ? Suivez le guide.",
-        "source": "Numerama",
-        "pub_date": "1 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2303693-ou-voir-les-films-spider-man-en-streaming.html",
-        "region": "francophonie"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "索伦对抗炎魔",
-        "title": "Sauron contre le Balrog, Spider-Man contre Hulk, il y a de la",
-        "body": "Cette semaine a été rythmée par le dernier film Spider-Man, l’un des événements cinéma de l’année. Difficile donc de passer à travers la toile d’actualité tissée par l’Homme-Araignée, à moins de s’appeler Sauron et d’aller chercher la bagarre avec l’un des ennemis les plus iconiques du Seigneur des Anneaux. Spider-Man: Brand New Day et Les Anneaux de Pouvoirs prennent toute la place, dans le récap pop culture de cette semaine.",
-        "source": "Numerama",
-        "pub_date": "1 August 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2305137-sauron-contre-le-balrog-spider-man-contre-hulk-il-y-a-de-la-bagarre-dans-le-recap-pop-culture-de-la-semaine.html",
         "region": "europe"
       },
       {
@@ -4319,17 +3175,6 @@
         "region": "europe"
       },
       {
-        "tag": "Culture",
-        "title_cn": "文森特·帕斯托雷 (Vince",
-        "title": "Vincent Pastore, connu pour son rôle de « Big Pussy » dans la",
-        "body": "Le comédien, âgé de 80 ans, a également été vu dans « Les Affranchis » de Martin Scorcese et « L’Impasse » de Brian de Palma. Son assassinat à la fin de la deuxième saison des « Soprano » est resté l’une des scènes les plus emblématiques de la série.",
-        "source": "Le Monde",
-        "pub_date": "2 August 2026",
-        "auto": true,
-        "link": "https://www.lemonde.fr/disparitions/article/2026/08/02/mort-de-l-acteur-americain-vincent-pastore-connu-pour-son-role-de-big-pussy-dans-la-serie-les-soprano_6737260_3382.html",
-        "region": "europe"
-      },
-      {
         "tag": "Économie",
         "title_cn": "在美国，围绕不同模式的争论日益",
         "title": "Aux Etats-Unis, le débat monte autour des différents modèles",
@@ -4342,34 +3187,23 @@
       }
     ],
     "vocab": [],
-    "word_count": 380,
+    "word_count": 170,
     "auto": true
   },
   {
     "date": "2026-08-01",
     "tags": [
-      "Culture",
       "Technologie",
-      "Économie"
+      "Économie",
+      "Culture"
     ],
     "regions": [
       "europe",
       "etats-unis",
       "francophonie"
     ],
-    "summary_cn": "《权力之环》第三季什么时候发布 | 人择人工智能获得了对系统的未经 | 热火2：30年后 | 干旱导致农作物生产“崩溃” | 达特茅斯会议 | 《蜘蛛侠：全新一天》取得了成功 | 世界之家敲定救援计划并成功逃脱 | 人工智能高管担心 | 做什么、看什么、去哪里 | 这些地区正在抵制预算削减",
+    "summary_cn": "人择人工智能获得了对系统的未经 | 干旱导致农作物生产“崩溃” | 达特茅斯会议 | 世界之家敲定救援计划并成功逃脱 | 人工智能高管担心 | 做什么、看什么、去哪里 | 这些地区正在抵制预算削减",
     "briefs": [
-      {
-        "tag": "Culture",
-        "title_cn": "《权力之环》第三季什么时候发布",
-        "title": "Quand sort la saison 3 des Anneaux de pouvoir, la série sur Le",
-        "body": "La saison 3 de la série Les Anneaux de pouvoir est désormais tournée et presque prête à être diffusée en streaming sur Prime Video. La série télévisée, dérivée de l'univers du Seigneur des anneaux. en est à la moitié du récit désormais. Il restera encore deux saisons pour boucler les aventures de Sauron, Galadriel et Elrond au Deuxième Âge de la Terre du milieu.",
-        "source": "Numerama",
-        "pub_date": "31 July 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/1808354-saison-3-des-anneaux-de-pouvoir.html",
-        "region": "europe"
-      },
       {
         "tag": "Technologie",
         "title_cn": "人择人工智能获得了对系统的未经",
@@ -4379,17 +3213,6 @@
         "pub_date": "31 July 2026",
         "auto": true,
         "link": "https://www.france24.com/fr/%C3%A9co-tech/20260731-anthropic-ia-accede-sans-autorisation-systemes-autres-organisations-claude-openai",
-        "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "热火2：30年后",
-        "title": "Heat 2 : 30 ans après, DiCaprio et Christian Bale succèdent à De",
-        "body": "C'est l'un des projets les plus ambitieux et casse-gueule de la décennie. Trente ans après le choc cinématographique opposant Al Pacino et Robert De Niro, Heat 2 passe enfin à la vitesse supérieure. Casting cinq étoiles, budget pharaonique et révélations sur le scénario, voici tout ce que l'on sait sur le retour du polar ultime.",
-        "source": "Numerama",
-        "pub_date": "31 July 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2304791-heat-2-30-ans-apres-dicaprio-et-christian-bale-succedent-a-de-niro-et-al-pacino.html",
         "region": "europe"
       },
       {
@@ -4413,17 +3236,6 @@
         "auto": true,
         "link": "https://www.france24.com/fr/%C3%A9co-tech/20260730-colloque-de-dartmouth-ces-7-500-dollars-sans-lesquels-l-ia-ne-serait-peut-%C3%AAtre-pas",
         "region": "europe"
-      },
-      {
-        "tag": "Culture",
-        "title_cn": "《蜘蛛侠：全新一天》取得了成功",
-        "title": "Spider-Man: Brand New Day est réussi, mais il a quand même un",
-        "body": "Reconquête de l'essence de Peter Parker, retour à un New York plus centré et scènes d'action qui défouraillent, Spider-Man: Brand New Day réussit une bonne partie de son pari. Pourtant, dès qu'on gratte sous le vernis de la nouveauté, un choix scénaristique agace profondément. La victime ? Le méchant du film.",
-        "source": "Numerama",
-        "pub_date": "31 July 2026",
-        "auto": true,
-        "link": "https://www.numerama.com/pop-culture/2304731-spider-man-brand-new-day-est-reussi-mais-il-a-quand-meme-un-immense-defaut.html",
-        "region": "etats-unis"
       },
       {
         "tag": "Économie",
@@ -4471,7 +3283,7 @@
       }
     ],
     "vocab": [],
-    "word_count": 507,
+    "word_count": 337,
     "auto": true
   }
 ]
