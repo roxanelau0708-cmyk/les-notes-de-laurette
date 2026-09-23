@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-09-23",
+    "tags": [
+      "Actualité"
+    ],
+    "regions": [
+      "francophonie",
+      "etats-unis"
+    ],
+    "summary_cn": "法国电视台使用您的电子邮件地址向您发送时事通讯“L'actu à 6:30 p.m.”并且 | “他们夺走了我的一切”：对特朗普政府大规模驱逐墨西哥的调查",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "法国电视台使用您的电子邮件地址向您发送时事通讯“L'actu à 6:30 p.m.”并且",
+        "title": "Carburants : il faut agir sur les \"revenus et les salaires\" plutôt que sur \"des baisses de prix de l'essence\", préconise l'économiste Jean Tirole",
+        "body": "France Télévisions utilise votre adresse e-mail pour vous adresser la newsletter \"L’actu à 18h30\" et elle est susceptible d'être personnalisée. En vous inscrivant à nos newsletters, vous consentez également à l’utilisation de pixels de suivi et de liens traçants. En savoir plus Ils nous permettent de personnaliser nos communications et de vous proposer des contenus adaptés à vos centres d'intérêt sur d'autres supports. Ces traceurs nous informent notamment de l'ouverture de vos courriels, des liens cliqués et de certaines informations relatives à votre terminal. Ce consentement peut être retiré à tout moment via le lien en bas de chaque newsletter. France Télévisions utilise aussi les pixels de suivi et les liens traçants pour garder la date de dernière ouverture des courriels afin de vous désinscrire automatiquement en cas d'inactivité. Vous pouvez vous désinscrire de ces newsletters à tout moment via le lien en bas de ces newsletters.",
+        "summary_cn": "法国电视台使用您的电子邮件地址向您发送时事通讯“L'actu à 6:30 p.m.”并且它可能是个性化的。通过订阅我们的新闻通讯，您还同意使用跟踪像素和跟踪链接。了解更多 它们使我们能够个性化我们的通信，并在其他媒体上为您提供适合您兴趣的内容。这些跟踪器会特别通知我们您的电子邮件的打开情况、点击的链接以及与您的终端相关的某些信息。您可以随时通过每份新闻通讯底部的链接撤回此同意。法国电视台还使用跟踪像素和跟踪链接来保留上次打开电子邮件的日期，以便在不活动时自动取消订阅。您可以随时通过这些新闻通讯底部的链接取消订阅这些新闻通讯。",
+        "source": "France Info",
+        "pub_date": "23 September 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/economie/budget/il-faut-agir-sur-les-revenus-et-les-salaires-plutot-que-sur-des-baisses-de-prix-de-l-essence-preconise-l-economiste-jean-tirole_8205851.html#xtor=RSS-3-[lestitres]",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Actualité",
+        "title_cn": "“他们夺走了我的一切”：对特朗普政府大规模驱逐墨西哥的调查",
+        "title": "«Ils m’ont tout pris»: enquête sur les expulsions de masse de l’administration Trump vers le Mexique",
+        "body": "RFI et France 24 participent avec 24 autres médias à une enquête coordonnée par Forbidden Stories intitulée « The Deportation Project ». © Studio graphique FMM Par : Achim Lippold | Forbidden Stories Entre janvier 2025 et août 2026, plus de 25 000 migrants ont été expulsés des États-Unis vers des pays tiers. Parmi eux, 20 000 ont été envoyés au Mexique, faisant de ce pays le premier récepteur de ces mesures. Les Cubains en constituent le groupe le plus important, souvent laissés dans un vide juridique et humanitaire. José Alejandro Aponte Delgado, 66 ans, est l’un de ces expulsés. Le Cubain a vécu 31 ans aux États-Unis avant d’être arrêté par la police fédérale de l’immigration (ICE) pour une affaire de drogue vieille de 30 ans. Après un trajet de 30 heures en bus, il a été abandonné à Villahermosa, dans l’État de Tabasco, sans ressources ni contacts. « Je ne touche plus ma retraite des États-Unis. Ils m’ont aussi pris mon permis de conduire et ma carte de sécurité sociale – qui me servaient de papiers d’identité. Ils m’ont tout pris », explique-t-il à Forbidden Stories. Comme environ 4 300 autres Cubains expulsés depuis 2025, José est devenu apatride : Cuba refuse de rapatrier ceux qui sont partis. À Villahermosa, Forbidden Stories a rencontré plusieurs de ces exilés forcés. Sans hébergement, certains dorment dans la rue. Tous décrivent une réalité brutale : ces expulsions reposent sur une coopération tacite avec les autorités mexicaines, sans aucun accord officiel. Salvador Guerrero, coordinateur de la Clinica Juridica Alaide Foppa, un service d’aide juridique gratuit pour les réfugiés à Mexico, dénonce l’opacité administrative dans laquelle se déroule ses refoulements. « Les expulsions de ressortissants étrangers vers le Mexique sont restées très discrètes. On n’a pratiquement aucune déclaration des responsables publics sur les conditions de ces retours, déplore Salvador Guerrero. Les données sur les personnes expulsées qui ne sont pas mexicaines sont presque impossibles à obtenir. » En fait, selon lui, aucune politique d’accueil n’est prévue pour ces migrants. Mais pire encore, souligne-t-il : aucun cadre juridique ne leur permet de s’installer légalement au Mexique.",
+        "summary_cn": "RFI 和 France 24 正在与其他 24 家媒体一起参与由 Forbidden Stories 协调的一项题为“驱逐项目”的调查。 © FMM Graphic Studio 作者：Achim Lippold |禁忌故事 2025 年 1 月至 2026 年 8 月期间，超过 25,000 名移民被从美国驱逐到第三国。其中，2万人被送往墨西哥，使该国成为该措施的第一个受惠国。古巴人是最大的群体，常常处于法律和人道主义真空状态。 66 岁的何塞·亚历杭德罗·阿蓬特·德尔加多 (José Alejandro Aponte Delgado) 是被驱逐者之一。这名古巴人在美国生活了 31 年，之后因一起 30 年前的毒品案被联邦移民警察 (ICE) 逮捕。经过 30 个小时的巴士车程后，他被遗弃在塔巴斯科州比亚埃尔莫萨，没有任何资源或联系方式。 “我不再从美国领取养老金。他们还拿走了我的驾驶执照和社会保障卡——我用它们作为我的身份证件。他们拿走了我的一切，”他向《禁忌故事》解释道。与 2025 年以来约 4,300 名被驱逐的古巴人一样，何塞已经成为无国籍人：古巴拒绝遣返那些离开的人。在比亚埃尔莫萨，《禁忌故事》遇到了几位被迫流放的人。有些人没有住宿，就露宿街头。所有这些都描述了一个残酷的现实：这些驱逐是基于与墨西哥当局的默契合作，没有任何官方协议。为墨西哥难民提供免费法律援助服务的 Clinica Juridica Alaide Foppa 协调员萨尔瓦多·格雷罗 (Salvador Guerrero) 谴责了导致他遭到抵制的行政不透明行为。 “将外国人驱逐到墨西哥的行为仍然非常谨慎。萨尔瓦多·格雷罗感到遗憾的是，我们几乎没有公职人员就这些返回的条件发表任何声明。几乎不可能获得非墨西哥人的被驱逐者的数据。”事实上，据他说，没有为这些移民制定接收政策。但更糟糕的是，他强调：没有法律框架允许他们在墨西哥合法定居。",
+        "source": "RFI",
+        "pub_date": "23 September 2026",
+        "auto": true,
+        "link": "https://www.rfi.fr/fr/am%C3%A9riques/20260923-ils-m-ont-tout-pris-enqu%C3%AAte-sur-les-expulsions-de-masse-de-l-administration-trump-vers-le-mexique",
+        "region": "etats-unis"
+      }
+    ],
+    "vocab": [],
+    "word_count": 499,
+    "auto": true
+  },
+  {
     "date": "2026-09-22",
     "tags": [
       "Actualité"
