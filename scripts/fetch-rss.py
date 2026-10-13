@@ -933,6 +933,15 @@ def main():
         item["word_count"] = len(item["body"].split())
         ready.append(item)
 
+    # 6b. 锁定法国：只保留地区判定为法国（francophonie）的稿件，
+    #     别国/国际稿（RFI 国际频道等）整条剔除；不足 2 篇则降到 1 篇
+    for it in ready:
+        it["region"] = detect_region(
+            it["title"], it.get("desc", ""), it.get("region", "francophonie")
+        )
+    ready = [it for it in ready if it["region"] == "francophonie"]
+    print(f"\n🇫🇷 {len(ready)} articles France après verrouillage")
+
     # 7. 选 2 篇：优先 DELF 主题（theme.png），信源不重复
     selected = select_themed(ready, total=2)
     print(f"\n📋 {len(selected)} articles retenus")
