@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-10-18",
+    "tags": [
+      "Actualité",
+      "Économie"
+    ],
+    "regions": [
+      "francophonie"
+    ],
+    "summary_cn": "法国电视台使用您的电子邮件地址向您发送“La Quotidienne Société”时事 | “受够了”：巴黎高中生、黄背心和老师聚集在街上",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "法国电视台使用您的电子邮件地址向您发送“La Quotidienne Société”时事",
+        "title": "Lors des manifestations et émeutes du 17 octobre, les forces de l'ordre ont été \"complètement débordées\" par un niveau de violences \"rarement vécu\", souligne le syndicat Unsa-Police",
+        "body": "France Télévisions utilise votre adresse e-mail pour vous adresser la newsletter \"La Quotidienne Société\" et elle est susceptible d'être personnalisée. En vous inscrivant à nos newsletters, vous consentez également à l’utilisation de pixels de suivi et de liens traçants. En savoir plus Ils nous permettent de personnaliser nos communications et de vous proposer des contenus adaptés à vos centres d'intérêt sur d'autres supports. Ces traceurs nous informent notamment de l'ouverture de vos courriels, des liens cliqués et de certaines informations relatives à votre terminal. Ce consentement peut être retiré à tout moment via le lien en bas de chaque newsletter. France Télévisions utilise aussi les pixels de suivi et les liens traçants pour garder la date de dernière ouverture des courriels afin de vous désinscrire automatiquement en cas d'inactivité. Vous pouvez vous désinscrire de ces newsletters à tout moment via le lien en bas de ces newsletters.",
+        "summary_cn": "法国电视台使用您的电子邮件地址向您发送“La Quotidienne Société”时事通讯，并且该通讯可能是个性化的。通过订阅我们的新闻通讯，您还同意使用跟踪像素和跟踪链接。了解更多 它们使我们能够个性化我们的通信，并在其他媒体上为您提供适合您兴趣的内容。这些跟踪器会特别通知我们您的电子邮件的打开情况、点击的链接以及与您的终端相关的某些信息。您可以随时通过每份新闻通讯底部的链接撤回此同意。法国电视台还使用跟踪像素和跟踪链接来保留上次打开电子邮件的日期，以便在不活动时自动取消订阅。您可以随时通过这些新闻通讯底部的链接取消订阅这些新闻通讯。",
+        "source": "France Info",
+        "pub_date": "18 October 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/faits-divers/lors-des-manifestations-et-emeutes-du-17-octobre-les-forces-de-l-ordre-ont-ete-completement-debordees-par-un-niveau-de-violences-rarement-vecu-souligne-le-syndicat-unsa-police_8242504.html#xtor=RSS-3-[lestitres]",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "“受够了”：巴黎高中生、黄背心和老师聚集在街上",
+        "title": "« Énorme ras-le-bol » : à Paris, lycéens, Gilets jaunes et enseignants réunis dans la rue",
+        "body": "Dès 13 heures, dans le métro parisien, les slogans fusent. « Bismillah, c’est les ténèbres » : un groupe de quatre lycéens du 17e arrondissement tente de rejoindre la place de la République pour manifester. Le wagon se vide à la station Temple, où, déjà, les gaz lacrymogènes piquent la gorge. La foule remplit les rues de Turbigo et du Temple. Il faut patienter, les forces de l’ordre n’ont laissé qu’un passage de quelques mètres pour rejoindre le cortège. Laure-Anne, 19 ans, salariée dans la restauration, porte un gilet jaune et une cagoule noire : « Je suis là pour protester contre la hausse des prix. On n’a pas assez pour vivre quand on est jeune. J’ai rejoint les Gilets jaunes parce qu’ils ont besoin de nous, et nous d’eux. » Sur son dos, on lit : « Je suis venue réclamer mon “salaire”. ACAB. »",
+        "summary_cn": "从下午1点开始，巴黎地铁里，标语满天飞。 “比斯米拉，天黑了”：来自第 17 区的四名高中生试图前往共和国广场示威。车子在坦普尔车站空了，催泪瓦斯已经刺痛了喉咙。图尔比戈和圣殿的街道上挤满了人群。一定要有耐心，警察只留了几米的通道让大家加入游行队伍。 19 岁的餐厅工作人员劳尔-安妮 (Laure-Anne) 身穿黄色背心，头戴黑色巴拉克拉法帽：“我来这里是为了抗议物价上涨。我们年轻时没有足够的钱维持生计。我加入黄背心是因为他们需要我们，我们也需要他们。”在他的背上，我们写着：“我来领取我的“工资”。 ACAB。 »",
+        "source": "La Tribune",
+        "pub_date": "17 October 2026",
+        "auto": true,
+        "link": "https://www.latribune.fr/article/la-tribune-dimanche/politique/3258466310826714/enorme-ras-le-bol-a-paris-lyceens-gilets-jaunes-et-enseignants-reunis-dans-la-rue",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 293,
+    "auto": true
+  },
+  {
     "date": "2026-10-17",
     "tags": [
       "Actualité",
