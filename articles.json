@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-10-21",
+    "tags": [
+      "Économie",
+      "Culture"
+    ],
+    "regions": [
+      "francophonie"
+    ],
+    "summary_cn": "航空领域的量子：使各个层面的运营更加高效 | 这项技术使发现 Covid-19 成为可能，可能会彻底改变医学诊断",
+    "briefs": [
+      {
+        "tag": "Économie",
+        "title_cn": "航空领域的量子：使各个层面的运营更加高效",
+        "title": "Quantique dans l'aérien : rendre plus efficace l’exploitation à tous les niveaux",
+        "body": "En mars 2026, la compagnie Vueling, membre du groupe IAG, a annoncé avoir conclu un partenariat avec l’anglaise Oxford Quantum Circuits (OQC), spécialisée dans la conception, la production et l’exploitation d’ordinateurs quantiques. Grâce à cet accord, la compagnie veut explorer des solutions innovantes axées sur l’efficacité de ses opérations. « Ce projet est mené dans le cadre de notre Innovation Lab, en collaboration avec OQC et Lighthouse (une autre start-up spécialisée dans le domaine), afin d’étudier le potentiel de l’informatique quantique pour résoudre des problèmes d’optimisation complexes. Cette collaboration nous permet de travailler sur du matériel quantique réel, en utilisant l’ordinateur quantique Toshiko d’OQC, situé au Japon, et d’y exécuter notre propre code. Nous pouvons ainsi développer nos connaissances et évaluer comment cette technologie pourrait être appliquée à nos opérations à moyen terme », explique Daniel Mendez Gil, directeur de l’innovation chez Vueling. Parmi les domaines étudiés par la low cost espagnole, figurent la planification des routes, la maintenance et l’affectation des avions et des équipages. Elle analyse également d’autres problématiques d’optimisation, afin de déterminer dans quels cas cette technologie pourrait apporter une réelle valeur ajoutée par rapport aux méthodes classiques",
+        "summary_cn": "2026年3月，IAG集团成员Vueling公司宣布与英国公司Oxford Quantum Circuits（OQC）建立合作伙伴关系，专门从事量子计算机的设计、生产和运营。通过这项协议，该公司希望探索专注于运营效率的创新解决方案。 “这个项目是我们创新实验室的一部分，与 OQC 和 Lighthouse（另一家专门从事该领域的初创公司）合作，研究量子计算解决复杂优化问题的潜力。这种合作使我们能够使用位于日本的 OQC 的 Toshiko 量子计算机来开发真正的量子硬件，并在其上运行我们自己的代码。因此，我们可以发展我们的知识并评估如何将这项技术应用于我们的中期运营，”该公司创新总监 Daniel Mendez Gil 解释道。伏林航空。这家西班牙低成本公司研究的领域包括航线规划、飞机和机组人员的维护和分配。它还分析其他优化问题，以确定在哪些情况下该技术与传统方法相比可以提供真正的附加值。",
+        "source": "La Tribune",
+        "pub_date": "21 October 2026",
+        "auto": true,
+        "link": "https://air-cosmos.latribune.fr/article/innovation-technologies/564058159496214/quantique-dans-laerien-rendre-plus-efficace-l-exploitation-a-tous-les-niveaux",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "这项技术使发现 Covid-19 成为可能，可能会彻底改变医学诊断",
+        "title": "Cette technologie qui a permis de découvrir le Covid-19 pourrait révolutionner le diagnostic médical",
+        "body": "L'analyse métagénomique permet d'adapter les traitements et d'éviter certaines interventions. | Karolina Grabowska via Unsplash+ Par Laurène Bruncher En décembre 2019, des scientifiques chinois ont étudié des prélèvements effectués sur des patients atteints de pneumonies graves. Avant de tomber malades, tous s'étaient rendus au marché de fruits de mer de Huanan, à Wuhan. En analysant leurs échantillons, les virologues n'ont découvert aucun agent pathogène connu. Dans ce contexte, les médecins se sont tournés vers une nouvelle technique de dépistage: l'analyse métagénomique. Cette méthode permet de révéler tous les micro-organismes présents dans les échantillons, qu'ils soient déjà connus ou non. Selon la BBC, les chercheurs ont ainsi détecté un agent pathogène qui ressemblait fortement à la famille des coronavirus. Les scientifiques venaient alors de découvrir le Covid-19. «Cela a changé la donne par rapport aux pandémies précédentes», explique Niranjan Nagarajan, professeur de médecine à l'université nationale de Singapour. L'identification de l'agent pathogène a permis de développer rapidement des tests de diagnostic et de lancer la course aux traitements et aux vaccins à travers le monde. L'analyse métagénomique est aujourd'hui de plus en plus utilisée dans les hôpitaux. Du diagnostic d'une septicémie à l'identification des causes de maladies encore inexpliquées, elle sauve déjà des vies. En identifiant les micro-organismes présents dans un échantillon, cette technique permet de déterminer l'origine de maladies graves et donc de savoir si celles-ci sont liées à un virus, une bactérie ou une réaction auto-immune. Les médecins peuvent ensuite adapter le traitement en conséquence. Exemple très pratique: une patiente atteinte de méningite et d'insuffisance hépatique devait subir une greffe du foie. L'analyse métagénomique de son liquide céphalo-rachidien a révélé qu'elle était en réalité infectée par le virus de l'hépatite E. «Nous lui avons administré un médicament antiviral, son état s'est amélioré et nous lui avons évité une transplantation», étaye Charles Chiu, médecin spécialiste des maladies infectieuses à l'université de Californie à San Francisco, aux États-Unis. Jusqu'à récemment, cette méthode était limitée par la durée des analyses, qui pouvait prendre plusieurs jours, voire une semaine.",
+        "summary_cn": "宏基因组分析使得调整治疗方法和避免某些干预成为可能。 |卡罗琳娜·格拉博斯卡 (Karolina Grabowska)，来自 Unsplash+ 作者：Laurène Bruncher 2019 年 12 月，中国科学家研究了从重症肺炎患者身上采集的样本。发病前，所有人都去过武汉华南海鲜市场。病毒学家分析了他们的样本，没有发现已知的病原体。在这种背景下，医生转向了一种新的筛查技术：宏基因组分析。这种方法可以揭示样品中存在的所有微生物，无论它们是否已知。据英国广播公司报道，研究人员因此检测到了一种与冠状病毒家族非常相似的病原体。当时科学家们刚刚发现了 Covid-19。新加坡国立大学医学教授 Niranjan Nagarajan 表示：“与之前的流行病相比，这改变了游戏规则。”病原体的鉴定使得诊断测试得以快速发展，并在世界范围内启动了治疗方法和疫苗的竞赛。宏基因组分析现在越来越多地在医院中使用。从诊断败血症到确定不明原因疾病的原因，它已经在拯救生命。通过识别样本中存在的微生物，该技术可以确定严重疾病的起源，从而了解它们是否与病毒、细菌或自身免疫反应有关。然后医生可以相应地调整治疗方案。非常实际的例子：一位患有脑膜炎和肝功能衰竭的患者计划接受肝脏移植手术。对她脑脊液的宏基因组分析显示，她实际上感染了戊型肝炎病毒。美国旧金山加利福尼亚大学的传染病医生查尔斯·邱 (Charles Chiu) 说：“我们给她服用了抗病毒药物，她的病情有所改善，并免于接受移植手术。”直到最近，这种方法还受到分析持续时间的限制，分析可能需要几天甚至一周。",
+        "source": "Slate.fr",
+        "pub_date": "19 October 2026",
+        "auto": true,
+        "link": "https://www.slate.fr/sciences/technique-genetique-detecter-infections-adn-coronavirus-epidemie-virus",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 527,
+    "auto": true
+  },
+  {
     "date": "2026-10-20",
     "tags": [
       "Actualité",
