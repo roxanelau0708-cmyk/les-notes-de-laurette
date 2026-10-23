@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-10-23",
+    "tags": [
+      "Actualité",
+      "Économie"
+    ],
+    "regions": [
+      "francophonie"
+    ],
+    "summary_cn": "这是“有记录以来最糟糕的夏天”：今年夏天热浪导致欧洲城市5万人死亡 | 核电站扩建：ASNR启动重大磋商",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "这是“有记录以来最糟糕的夏天”：今年夏天热浪导致欧洲城市5万人死亡",
+        "title": "C'est \"le pire été jamais enregistré\" : la canicule a tué 50 000 personnes dans les villes européennes cet été",
+        "body": "Temps de lecture : 1min D'après l'étude, l'Italie est le pays d'Europe qui a été le plus touché par la vague de chaleur qui a commencé en juin, comme ici à Rome (26 juin 2026). (ANDREAS SOLARO / AFP) Les auteurs d'une étude britannique, publiée en octobre dans la revue Nature et dans le magazine de l'Imperial college London, parlent du \"pire été jamais enregistré\" en Europe. Pas moins de 50 000 décès ont été décomptés à la suite des fortes chaleurs, dans les villes des 27 pays de l'UE, du Royaume-Uni, de la Norvège et de la Suisse, loin devant les records de 2022 et 2003. Dans le détail, l'étude parle de 13 000 morts en Italie, 7 200 en France, 6 800 en Espagne. Les chercheurs ont étudié 854 agglomérations, passant au crible les températures de juin, juillet et août. Puis ils ont utilisé un modèle mathématique très précis pour évaluer les effets de la chaleur sur les populations. Parmi les nombreux facteurs pris en compte, l'âge de la population ou le système de santé dans les villes étudiées. Résultat : à elle seule, la canicule historique de juin est responsable d'un tiers des décès, cet été. L'ouest et le sud de l'Europe ont été particulièrement touchés. Mais certains pays plus au Nord ont aussi été durement frappés, comme le Royaume-Uni, avec 4 300 morts. Autre enseignement : les personnes les plus âgées ne sont pas les seules à être exposées à cette surmortalité. 6 000 personnes de moins 65 ans ont succombé à la chaleur. Avec la même méthode, les chercheurs ont estimé et comparé le nombre de morts chaque année, depuis 2000. L'été 2026 a été plus meurtrier encore que les étés de 2022 et de 2003. L'un des auteurs de l'étude prévient que ce bilan est \"un rappel dramatique que le changement climatique est le problème de chacun et que nos villes ne sont pas adaptées à la hausse des températures\".",
+        "summary_cn": "阅读时间：1分钟 根据研究，意大利是欧洲受6月份开始的热浪影响最严重的国家，比如罗马（2026年6月26日）。 （安德烈亚斯·索拉罗 / 法新社） 10 月在《自然》杂志和伦敦帝国理工学院杂志上发表的一项英国研究的作者谈到了欧洲“有记录以来最糟糕的夏天”。据统计，欧盟 27 个国家、英国、挪威和瑞士的城市在极端高温下死亡人数不少于 5 万人，远远高于 2022 年和 2003 年的记录。具体而言，该研究显示意大利死亡人数为 13,000 人，法国死亡人数为 7,200 人，西班牙死亡人数为 6,800 人。研究人员研究了 854 个定居点，筛选了 6 月、7 月和 8 月的气温。然后他们使用非常精确的数学模型来评估高温对人群的影响。在考虑的众多因素中，人口年龄或所研究城市的卫生系统是其中之一。结果：仅历史性的六月热浪就造成了今年夏天三分之一的死亡。西欧和南欧受到的影响尤其严重。但一些更靠北的国家也受到重创，例如英国，有 4,300 人死亡。另一个教训是：最年长的人并不是唯一面临这种过高死亡率的人。 6000名65岁以下的人死于高温。研究人员使用相同的方法估算并比较了 2000 年以来每年的死亡人数。2026 年夏季的死亡人数甚至比 2022 年和 2003 年夏季的死亡人数还要多。该研究的一位作者警告说，这一死亡人数“戏剧性地提醒人们，气候变化是每个人的问题，而我们的城市还没有适应气温上升”。",
+        "source": "France Info",
+        "pub_date": "23 October 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/c-est-le-pire-ete-jamais-enregistre-la-canicule-a-tue-50-000-personnes-dans-les-villes-europeennes-cet-ete_8249155.html#xtor=RSS-3-[lestitres]",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "核电站扩建：ASNR启动重大磋商",
+        "title": "Prolongation des centrales nucléaires : l’ASNR lance une grande consultation",
+        "body": "C’est pourquoi, sans attendre leur retraite théorique dans les années 2040, le régulateur, encore appelé Autorité de sûreté nucléaire, a demandé, dès 2022, à EDF d’étudier la poursuite du fonctionnement des réacteurs au-delà de 60 ans. Objectif : identifier les éventuels obstacles et les sujets techniques majeurs. Tant et si bien qu’en 2024, l’énergéticien a réalisé une feuille de route en ce sens. Deux ans plus tard, le résultat est là : « au terme de son analyse technique », la désormais Autorité de sûreté nucléaire et de radioprotection (ASNR) fait savoir qu’elle n’a pas identifié d’obstacles à la poursuite de fonctionnement des réacteurs au-delà de leurs 60 ans. À la nuance près que « plusieurs sujets techniques nécessitent encore des travaux conséquents de la part d’EDF afin de confirmer l’efficacité des leviers correspondants et de constituer une démonstration de sûreté ».",
+        "summary_cn": "这就是为什么监管机构（也称为核安全局）没有等到理论上的 2040 年代退役，就要求 EDF 从 2022 年开始研究反应堆的持续运行超过 60 年。目标：确定可能的障碍和主要技术主题。以至于到 2024 年，该能源公司已经制定了这个方向的路线图。两年后，结果就出来了：“在技术分析结束时”，现在的核安全和辐射防护局 (ASNR) 宣布，它没有发现任何阻碍反应堆在 60 年后继续运行的障碍。但“有几个技术课题仍需要 EDF 进行大量工作，以确认相应杠杆的有效性并构成安全性证明”。",
+        "source": "La Tribune",
+        "pub_date": "22 October 2026",
+        "auto": true,
+        "link": "https://www.latribune.fr/article/entreprises-finance/energie-environnement/43028912261868/prolongation-des-centrales-nucleaires-l-asnr-lance-une-grande-consultation",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 468,
+    "auto": true
+  },
+  {
     "date": "2026-10-22",
     "tags": [
       "Actualité",
