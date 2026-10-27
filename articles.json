@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-10-27",
+    "tags": [
+      "Actualité",
+      "Technologie"
+    ],
+    "regions": [
+      "francophonie"
+    ],
+    "summary_cn": "社交网络是否审查了 10 月 24 日示威的视频？ | SpaceX借债400亿购买AI芯片 预计该行业将迎来一波破产潮",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "社交网络是否审查了 10 月 24 日示威的视频？",
+        "title": "Les réseaux sociaux ont-ils censuré des vidéos de la manifestation du 24 octobre ?",
+        "body": "Temps de lecture : 2min Les internautes cherchent les vidéos du 24 octobre (photo d'illustration) (Oscar Wong / Moment RF) Les réseaux sociaux ont-ils durci leur modération lors des manifestations du 24 octobre ? C'est ce qu'affirment de nombreux utilisateurs de TikTok, X ou encore Instagram. Ils accusent les plateformes d'avoir supprimé des lives, des vidéos tournées en direct des manifestations, ou des images postées juste après la journée de mobilisation de samedi dernier. \"Elles sont où les vidéos du 24 octobre ?\", demande un tiktokeur. Moi, je n'y suis pas allé, mais j'ai essayé de rechercher ce qui s'était passé. Il n'y a rien du tout\". C'est juste de la censure, assure un autre. Ils sont en train de censurer toutes les vidéos, tous les lives et toutes les images de grands rassemblements\". D'autres créateurs de contenu accusent les plateformes d'avoir soudainement choisi de donner moins de visibilité à leurs publications. C’est le cas de l'activiste Charlotte Ensaigne, très suivie sur TikTok et Instagram. \"Si vous ne voyez pas mes contenus ou ceux de vos créateurs et créatrices de contenus engagés sur la manifestation du 24 octobre, c'est normal. On est en train de vivre \"un shadow banning d'Etat\" affirme-t-elle. On parle de \"shadow banning\" lorsqu'une plateforme cesse de recommander certaines vidéos aux utilisateurs. Il y a bien des vidéos des manifestations du samedi 24 octobre, mais la modération a été plus forte. Pour le moment, seule TikTok nous a détaillé sa politique. Pour ce qui est des lives, la plateforme ne confirme pas avoir supprimé des vidéos en direct. Cependant, elle dit avoir limité \"temporairement\" la monétisation, c'est-à-dire la rémunération de ce type de contenus. Il s'agirait d'éviter \"l'exploitation de ce type d'événements à des fins lucratives\". Pour ce qui est des outils de recommandation aux utilisateurs, TikTok explique avoir interdit certains termes pour la recherche de contenus, notamment les mots qui \"encouragent activement la violence ou les comportements criminels\". Il est difficile de mesurer l'impact précis de cette politique de modération. Toutefois, l'écho des manifestations sur les réseaux a été beaucoup moins fort que lors du samedi 17 octobre.",
+        "summary_cn": "阅读时间：2分钟 互联网用户正在寻找10月24日以来的视频（图解）（Oscar Wong / Moment RF） 社交网络在10月24日的示威活动中是否收紧了节制？这是 TikTok、X 甚至 Instagram 的许多用户的说法。他们指责这些平台删除了生活、示威现场拍摄的视频或上周六动员日后发布的图像。 “10 月 24 日的视频在哪里？”一位 TikTok 用户问道。我没有去那里，但我试图了解发生了什么事。什么都没有。”另一个人保证道，这只是审查制度。他们正在审查大型集会的所有视频、所有生活和所有图像。其他内容创作者指责这些平台突然选择降低其出版物的可见度。活动家夏洛特·恩赛涅 (Charlotte Ensaigne) 就是这样的例子，她在 TikTok 和 Instagram 上受到广泛关注。 “如果你没有看到我的内容或你的内容创作者参与10月24日的示威活动，那是正常的。我们正在经历“国家影子禁令”。她说。我们所说的“影子禁令”是指平台停止向用户推荐某些视频。10月24日周六的示威视频有很多，但审核力度更强。目前只有TikTok为我们详细说明了政策。至于直播，该平台没有确认是否删除了直播视频。但它表示它“暂时”限制了此类内容的货币化，这将是为了避免“利用此类活动谋取利益”。然而，网络上的示威活动的反响远不如10月17日星期六那么强烈。",
+        "source": "France Info",
+        "pub_date": "26 October 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/internet/reseaux-sociaux/les-reseaux-sociaux-ont-ils-censure-des-videos-de-la-manifestation_8254285.html#xtor=RSS-3-[lestitres]",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "SpaceX借债400亿购买AI芯片 预计该行业将迎来一波破产潮",
+        "title": "SpaceX emprunte 40 milliards pour acheter des puces IA et prédit une vague de faillites dans le secteur",
+        "body": "Cecilia Rikap (économiste) : « Les décisions concernant l’IA se prennent de manière totalement antidémocratique » Cette rareté du capital amorce une phase de restructurations chez les hébergeurs d'IA dits « néoclouds », tels que CoreWeave ou Nebius. Elon Musk anticipe une consolidation brutale (« guppy-level death ») touchant plus de 200 acteurs spécialisés surendettés. Le dirigeant a exclu tout rachat de ces infrastructures concurrentes par SpaceX, qualifiant l'opération d'« inutile ». À moyen terme, la stratégie de SpaceX vise l'autonomie sur la fabrication des puces. La coentreprise Terafab, créée entre SpaceX et Tesla à Austin (Texas), doit fabriquer sa première puce de test entre mai et juin 2027, avant une production en volume ciblée pour le troisième trimestre 2028. En amont de son projet d'introduction en Bourse, SpaceX avait inscrit le coût de développement de ses propres processeurs parmi les risques financiers majeurs figurant dans son document d'enregistrement S-1.",
+        "summary_cn": "Cecilia Rikap（经济学家）：“有关人工智能的决定是以完全不民主的方式做出的”这种资本稀缺正在引发所谓的“neocloud”人工智能主机（例如 CoreWeave 或 Nebius）之间的重组阶段。埃隆·马斯克 (Elon Musk) 预计，一场残酷的整合（“孔雀鱼级别的死亡”）将影响超过 200 家过度负债的专业玩家。该经理排除了 SpaceX 购买这些竞争基础设施的可能性，称该行动“毫无用处”。从中期来看，SpaceX 的战略目标是实现芯片制造的自主化。 SpaceX 和特斯拉在奥斯汀（德克萨斯州）创建的 Terafab 合资企业必须在 2027 年 5 月至 6 月之间制造其首款测试芯片，然后在 2028 年第三季度实现量产。在 IPO 项目之前，SpaceX 将开发自己的处理器的成本列为其 S-1 注册文件中出现的主要财务风险之一。",
+        "source": "La Tribune",
+        "pub_date": "26 October 2026",
+        "auto": true,
+        "link": "https://www.latribune.fr/article/tech/intelligence-artificielle/2931623862999514/spacex-emprunte-40-milliards-pour-acheter-des-puces-ia-et-predit-une-vague-de-faillites-dans-le-secteur",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 502,
+    "auto": true
+  },
+  {
     "date": "2026-10-26",
     "tags": [
       "Actualité",
