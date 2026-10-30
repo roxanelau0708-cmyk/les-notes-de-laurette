@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-10-30",
+    "tags": [
+      "Actualité",
+      "Culture"
+    ],
+    "regions": [
+      "francophonie"
+    ],
+    "summary_cn": "法国2026年第三季度GDP下降0.1% 经济部长恳求通过预算“恢复信心” | 人工智能刚刚动摇了三十年来的数学确定性",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "法国2026年第三季度GDP下降0.1% 经济部长恳求通过预算“恢复信心”",
+        "title": "Le PIB recule de 0,1 % au troisième trimestre 2026 en France, le ministre de l'Economie plaide pour \"redonner confiance\" en adoptant un budget",
+        "body": "Budget 2027 : croissance, dette, déficit, chômage… Quelle est la situation économique de la France ? Le recul de l'activité s'explique principalement par une forte contraction des exportations – après une baisse de 1,7% malgré une hausse de 2,8% au deuxième trimestre –, en particulier dans les matériels de transport – avec une baisse de 9,1% en dépit de la hausse de 20,8% au deuxième trimestre –, notamment l'aéronautique. Les importations sont pour leur part restées quasiment stables, avec une humble hausse de 0,1%, le tout se traduisant par une contribution négative de 0,6 point du commerce extérieur à la croissance du troisième trimestre. La demande intérieure finale atténue cependant ce recul. La consommation des ménages progresse sur le trimestre à hauteur de 0,4% après une hausse de 0,2% au printemps, portée notamment par les achats de véhicules électriques, le rebond des dépenses d'énergie et la hausse de la consommation de services, en particulier dans l'hébergement-restauration et les loisirs. La consommation des administrations publiques augmente également de 0,3%. A l'inverse, l'investissement recule encore, marqué par une baisse de 0,6, en particulier du fait d'une baisse de l'investissement en construction (-0,5%), tandis que l'investissement en produits manufacturés chute de 1,9%, particulièrement l'investissement en matériels de transport. Au total, la demande intérieure contribue à l'évolution du PIB pour +0,1 point au troisième trimestre. Du côté de l'offre, la production manufacturière se contracte de 1,4%, avec une baisse marquée dans les matériels de transport (-3,5%) et l'agroalimentaire (-1,5%). La construction recule également (-0,4%). Les services marchands continuent en revanche de progresser (+0,3%), grâce en particulier à l'information-communication, aux services aux ménages et aux services de transport.",
+        "summary_cn": "2027年预算：增长、债务、赤字、失业……法国经济状况如何？经济活动下降的主要原因是出口急剧萎缩，尽管第二季度增长了 2.8%，但仍下降了 1.7%，尤其是运输设备，尽管第二季度增长了 20.8%，但出口却下降了 9.1%，特别是航空设备。进口基本保持稳定，小幅增长0.1%，导致三季度外贸增长负贡献0.6个百分点。然而，最终国内需求减弱了这种下降。家庭消费继春季增长 0.2% 之后，本季度增长 0.4%，主要受到电动汽车购买、能源支出反弹以及服务消费（特别是住宿、餐饮和休闲领域）消费增长的推动。公共行政消费也增长了0.3%。相反，投资进一步下降，下降了0.6%，主要是由于建筑业投资下降（-0.5%），而制成品投资下降了1.9%，特别是运输设备投资。总体而言，内需对第三季度GDP增长的贡献为+0.1个百分点。在供给方面，制造业生产收缩1.4%，其中运输设备（-3.5%）和农产品（-1.5%）显着下降。建筑业也在下降（-0.4%）。然而，市场服务继续进步（+0.3%），尤其得益于信息通信、家庭服务和交通服务。",
+        "source": "France Info",
+        "pub_date": "30 October 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/economie/victime-d-une-baisse-des-exportations-le-pib-recule-de-0-1-au-troisieme-trimestre-2026-en-france-selon-l-insee_8260019.html#xtor=RSS-3-[lestitres]",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Culture",
+        "title_cn": "人工智能刚刚动摇了三十年来的数学确定性",
+        "title": "Une IA vient de faire vaciller trente ans de certitudes mathématiques",
+        "body": "OpenAI vient peut-être de bouleverser une théorie mathématique. | Pramod Tiwari via Unsplash Par Léa Polverini C'est une nouvelle prise revendiquée par OpenAI, l'entreprise qui a développé ChatGPT: l'un de ses modèles d'intelligence artificielle (IA) aurait réfuté l'hypothèse du temps exponentiel (ETH, pour Exponential Time Hypothesis). Il s'agit d'une hypothèse fondamentale, qui sous-tend l'informatique. Énoncée il y a près de trente ans, cette hypothèse est liée à la théorie de la complexité algorithmique. Elle tente de limiter la vitesse à laquelle les ordinateurs sont capables de résoudre certains problèmes logiques. L'ETH suggère que même s'il est possible d'accélérer le processus de résolution de problème avec des raccourcis, la quantité de travail nécessaire croît exponentiellement avec le nombre de combinaisons possibles, détaille le New Scientist. L'ETH permet notamment de comprendre les limites de l'efficacité des algorithmes et leur complexité. De nombreux travaux en informatique se sont fondés sur la validité de cette hypothèse. Mais le 26 octobre, OpenAI a annoncé que ses modèles ont mis au point un algorithme capable de dépasser la limite de vitesse jusqu'ici admise pour la résolution de problèmes logiques. Ce qui remet en cause la validité de l'ETH. L'entreprise affirme également avoir vérifié ses résultats à l'aide de Lean, un logiciel de vérification de démonstrations mathématiques. Le géant de l'IA a mobilisé des moyens considérables pour tenter de résoudre des problèmes mathématiques et imposer son autorité dans le domaine scientifique. La rapidité de ses résultats suscite toutefois la controverse dans le secteur, entre inquiétude et enthousiasme. Magnus Wahlström, professeur de sciences informatiques à l'université de Londres, se montre critique de ce qu'il appelle un phénomène de «mathématiques appliquées par la presse». Il s'inquiète que des modèles propriétaires puissent anéantir des mois de travail de recherche. Pour autant il considère qu'«on ne devrait pas se plaindre d'avoir trop de découvertes mathématiques intéressantes à assimiler». À l'université de Sydney, Clément Canonne, spécialiste des algorithmes et de la théorie du calcul, souligne la différence entre démontrer un résultat et en comprendre les raisons profondes. Si ce qui portait l'ETH semble s'être effondré avec les résultats d'OpenAI, «pour le moment, nous ignorons encore pourquoi», rappelle-t-il.",
+        "summary_cn": "OpenAI 可能刚刚颠覆了数学理论。 | Pramod Tiwari 来自 Unsplash 作者：Léa Polverini 这是 OpenAI（开发 ChatGPT 的公司）声称的新观点：其人工智能 (AI) 模型之一将反驳指数时间假说（ETH，指数时间假说）。这是计算机科学的基本假设。大约三十年前，这个假设与算法复杂性理论相关。它试图限制计算机解决某些逻辑问题的速度。 《新科学家》详细介绍，ETH 表示，虽然可以通过捷径加快解决问题的过程，但所需的工作量随着可能的组合数量呈指数级增长。 ETH 特别使人们有可能了解算法的效率及其复杂性的极限。计算机科学领域的许多著作都基于这一假设的有效性。但在 10 月 26 日，OpenAI 宣布其模型已经开发出一种算法，能够超过迄今为止解决逻辑问题所接受的速度限制。这让人质疑 ETH 的有效性。该公司还声称已经使用数学证明验证软件 Lean 验证了其结果。这家人工智能巨头调动了大量资源，试图解决数学问题，并在科学领域树立自己的权威。然而，其结果的速度在业内引起了关注和热情之间的争议。伦敦大学计算机科学教授马格努斯·瓦尔斯特罗姆 (Magnus Wahlström) 对他所说的“媒体应用数学”现象持批评态度。他担心专有模型可能会毁掉数月的研究工作。然而，他认为“我们不应该抱怨有太多有趣的数学发现需要吸收”。悉尼大学的算法和计算理论专家 Clément Canonne 强调了展示结果和理解其根本原因之间的区别。如果说承载 ETH 的东西似乎随着 OpenAI 的结果而崩溃了，“目前我们仍然不知道为什么，”他回忆道。",
+        "source": "Slate.fr",
+        "pub_date": "30 October 2026",
+        "auto": true,
+        "link": "https://www.slate.fr/tech-internet/intelligence-artificielle-ia-mathematique-temps-exponentiel-informatique-algorithme-science-maths",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 628,
+    "auto": true
+  },
+  {
     "date": "2026-10-29",
     "tags": [
       "Actualité",
