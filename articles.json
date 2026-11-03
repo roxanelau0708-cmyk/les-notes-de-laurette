@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-03",
+    "tags": [
+      "Actualité",
+      "Économie"
+    ],
+    "regions": [
+      "francophonie"
+    ],
+    "summary_cn": "私人出版商谴责法兰西岛地区继续在高中提供类似于“免费教科书”的内容 | 太空：在发射器危机中，阿尔法动力号在图卢兹的规模扩大了一倍",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "私人出版商谴责法兰西岛地区继续在高中提供类似于“免费教科书”的内容",
+        "title": "La région Ile-de-France continue de proposer des contenus similaires à ses \"manuels libres\" dans les lycées, dénoncent les éditeurs privés",
+        "body": "Temps de lecture : 3min Des manuels scolaires de plusieurs matières pour le niveau première au lycée. (Illustration) (RICHARD VIVION / RADIO FRANCE) La région Île-de-France continue de proposer des contenus scolaires numériques similaires à ses anciens \"manuels libres\" dans les lycées franciliens, dénoncent les éditeurs privés auprès de France Culture mardi 3 novembre, alors que la justice administrative lui avait ordonné de retirer ces manuels au plus tard le 2 novembre. La région dirigée par Valérie Pécresse (LR) éditait et proposait gratuitement depuis plusieurs années aux lycées franciliens des manuels scolaires numériques, présentés comme \"libres\" et modifiables par les enseignants et les élèves, accessibles sur une plateforme en ligne, Pearltrees. Les éditeurs privés, via leur association Les Editeurs d'éducation, avaient dénoncé une concurrence déloyale. Contactée par France Culture, la région Île-de-France assure s'être pliée à la décision de justice et avoir retiré ses manuels de la plateforme Pearltrees. Toutefois, Pearltrees est entre-temps devenu éditeur et propose désormais aux lycéens franciliens des manuels dont le contenu est sensiblement identique à celui des anciens manuels de la région. \"Bien sûr qu'il y a des contenus communs entre les anciens manuels libres édités par la région Île-de-France et les nouveaux manuels ouverts édités par Pearltrees\", reconnaît Patrice Lamotte, PDG de Pearltrees. \"C'est un détournement de la décision de justice, ce sont les mêmes manuels mais la couverture, c'est Pearltrees\", dénonce Me Emmanuel Glaser, l'avocat de l'association Les Éditeurs d'éducation, qui représente 32 éditeurs privés. Ces derniers déplorent auprès de France Culture une baisse de 80% de leurs revenus en Île-de-France. \"La région est chargée par la loi de l'entretien des bâtiments, pas d'éditer des manuels scolaires\", rappelle l'avocat. Il souligne qu'il est impossible de connaître, à partir des comptes de la région, le coût de création de ces manuels. Depuis 2019, la région dirigée par Valérie Pécresse (LR) s'est lancée dans une vaste entreprise de numérisation des lycées, en équipant les élèves de tablettes et d'ordinateurs. En 2023, elle a conclu un marché de 18 millions d'euros avec la plateforme Pearltrees pour diffuser des contenus scolaires numériques conçus par ses soins.",
+        "summary_cn": "阅读时间：3 分钟 高中一级多个科目的教科书。 （插图）（RICHARD VIVION / RADIO FRANCE）法兰西岛地区继续在法兰西岛高中提供类似于以前“免费教科书”的数字学校内容，私人出版商于 11 月 3 日星期二向法国文化报谴责，而行政司法部门已命令其最晚在 11 月 2 日之前撤回这些教科书。由 Valérie Pécresse (LR) 领导的地区多年来一直在向法兰西岛高中出版和提供免费的数字学校教科书，这些教科书以“免费”的形式呈现，可供教师和学生修改，可以在在线平台 Pearltrees 上访问。私人出版商通过其协会 Les Editeurs d'enseignement 谴责了不公平竞争。法兰西岛大区在接受《法国文化》采访后，确保其已遵守法院的裁决，并将其教科书从 Pearltrees 平台上删除。然而，Pearltrees 后来成为了一家出版商，现在为法兰西岛地区的高中生提供教科书，其内容与该地区旧教科书的内容基本相同。 “当然，法兰西岛地区出版的旧开放教科书和 Pearltrees 出版的新开放教科书之间存在共同内容，”Pearltrees 首席执行官 Patrice Lamotte 承认。代表 32 家私人出版商的 Les Éditeurs d’enseignement 协会的律师 Me Emmanuel Glaser 谴责说：“这是对法院判决的滥用，它们是相同的教科书，但封面是 Pearltrees。”后者对法兰西岛的收入下降 80% 感到遗憾。 “根据法律，该地区负责建筑物的维护，而不是出版学校教科书，”该律师回忆道。他强调，从该地区的账目中不可能知道制作这些手册的成本。自 2019 年以来，Valérie Pécresse (LR) 领导的地区启动了一项大规模的高中数字化计划，为学生配备平板电脑和电脑。 2023年，它与Pearltrees平台达成了一项价值1800万欧元的协议，分发由其设计的数字学校内容。",
+        "source": "France Info",
+        "pub_date": "3 November 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/societe/education/info-radio-france-la-region-ile-de-france-continue-de-proposer-des-contenus-similaires-a-ses-manuels-libres-dans-les-lycees_8265410.html#xtor=RSS-3-[lestitres]",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "太空：在发射器危机中，阿尔法动力号在图卢兹的规模扩大了一倍",
+        "title": "Spatial : en pleine crise des lanceurs, Alpha Impulsion double de taille à Toulouse",
+        "body": "C'est une décision qui déstabilise tout un pan du NewSpace : SpaceX a stoppé depuis le printemps dernier son programme Rideshare de prise en charge des petites charges utiles (200 kg ou moins) comme passagers secondaires à partir de 2029. Plus aucun vol n’est réservable sur le site internet de la société américaine qui prépare une transition du Falcon 9 vers le Starship. « SpaceX pèse 80% du marché mondial. Cette décision va créer une pénurie de lanceurs sur dix à quinze ans. Les mégaconstellations de plusieurs milliers de satellites ne sont pas concernées par cette crise, d'autres acteurs vont se positionner pour les lancer. Les plus touchés, ce sont les startups, les universités et tous ceux qui mènent des démonstrations en orbite. Ces derniers lancent un seul satellite, sur des contrats peu rentables », analyse Marius Celette, CEO d'Alpha Impulsion. Fondée en 2022 par des ingénieurs toulousains issus de l’Isae-Supaero, Alpha Impulsion développe une technologie de rupture qui pourrait offrir une réponse à cette pénurie de lanceurs pour les petits satellites. La pépite du NewSpace compte faire voler des fusées autophages, autrement dit des lanceurs dont la propulsion est générée par la combustion du fuselage, lequel sert de carburant… En progressant dans l’atmosphère, le système se consume à la manière d’une bougie. À la fin du vol, il ne reste plus que le moteur et le satellite à envoyer en orbite. De quoi casser les prix de lancement : « Grâce à la propulsion autophage, le lanceur est environ deux fois plus petit pour le même satellite, ce qui réduit la quantité de carburant à emporter et allège la masse du véhicule », résume le dirigeant.",
+        "summary_cn": "这一决定破坏了 NewSpace 整个部门的稳定：自去年春天以来，SpaceX 已停止其 Rideshare 计划，该计划从 2029 年起支持小型有效载荷（200 公斤或以下）作为次要乘客。这家美国公司的网站上无法预订任何航班，该公司正在准备从猎鹰 9 号过渡到星际飞船。 Alpha Impulsion 首席执行官马吕斯·塞莱特 (Marius Celette) 分析道：“SpaceX 占据了全球 80% 的市场。这一决定将导致未来十到十五年内发射器短缺。由数千颗卫星组成的巨型星座不会受到这场危机的影响；其他参与者将自行发射它们。受影响最大的是初创公司、大学和所有在轨道上进行演示的人。后者以无利可图的合同发射一颗卫星。” Alpha Impulsion 由 Isae-Supaero 的图卢兹工程师于 2022 年创立，正在开发一项颠覆性技术，可以解决小型卫星发射器短缺的问题。 NewSpace 宝石计划发射自噬火箭，换句话说，发射器的推进力是由机身燃烧产生的，机身作为燃料……当它穿过大气层时，系统像蜡烛一样燃烧。飞行结束后，只剩下发动机和卫星需要送入轨道。足以降低发射价格：“由于采用自噬推进，发射器的体积大约是同一颗卫星的一半，这减少了携带的燃料量并减轻了飞行器的质量，”经理总结道。",
+        "source": "La Tribune",
+        "pub_date": "3 November 2026",
+        "auto": true,
+        "link": "https://www.latribune.fr/article/defense-aerospatiale/spatial/3696171178677/spatial-en-pleine-crise-des-lanceurs-alpha-impulsion-double-de-taille-a-toulouse",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 626,
+    "auto": true
+  },
+  {
     "date": "2026-11-02",
     "tags": [
       "Actualité",
