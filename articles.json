@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-05",
+    "tags": [
+      "Actualité",
+      "Technologie"
+    ],
+    "regions": [
+      "francophonie"
+    ],
+    "summary_cn": "“我们无法赶上一切”：高中的封锁是否会威胁到学年和学士学位的准备？ | “我想和人工智能特工交谈！” »：ElevenLabs 正在寻求一种为客户提出索赔的新方式",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "“我们无法赶上一切”：高中的封锁是否会威胁到学年和学士学位的准备？",
+        "title": "\"On ne pourra pas tout rattraper\" : les blocages des lycées menacent-ils l'année scolaire et la préparation du bac ?",
+        "body": "\"Il ne faut pas arrêter, c'est maintenant que ça se joue\" : à Aubervilliers, des lycéens déterminés à poursuivre les blocages \"pour se faire entendre\" Lundi matin, sur France Inter, Edouard Geffray a alerté sur les conséquences des blocages. \"L'année scolaire est maintenant en [danger] pour plusieurs centaines de milliers d'élèves, et on ne peut pas se permettre ça\", a déclaré le ministre de l'Education nationale, évoquant des cours suspendus \"parfois plusieurs semaines\". Quelle est l'ampleur du phénomène, et dans quelle mesure ces interruptions menacent-elles les apprentissages et la préparation du baccalauréat ? A la mi-octobre, le ministre de l'Education faisait savoir aux sénateurs qu'un tiers des quelque 3 700 lycées français n'avait connu aucune perturbation depuis le début du mouvement, un autre tiers des perturbations \"très modérées\" et limitées dans le temps, et le dernier tiers des perturbations plus importantes, comme le rapportait Le Monde. Mercredi 4 novembre, les services du ministère recensaient 19 lycées bloqués, contre 48 mardi matin et 41 lundi. L'Union syndicale lycéenne avançait des chiffres nettement supérieurs pour les deux premiers jours de la semaine, avec 500 lycées dont le fonctionnement était perturbé mardi et 150 lundi, selon l'AFP. Dans certains établissements, les cours ont largement pu être maintenus. C'est le cas au lycée Louis-Rascol d'Albi (Tarn), comme l'explique sa proviseure, Christelle Kauffmann, également secrétaire générale adjointe du syndicat SNPDEN-Unsa. A l'exception de la \"dernière semaine de septembre\", marquée par un fort taux d'absentéisme, les cours ont repris normalement dans son lycée. Même constat chez un proviseur d'un lycée public parisien, qui souhaite rester anonyme : \"Malgré les blocages, une majorité d'élèves a pu rentrer, et les cours ont pu globalement se tenir\", rapporte-t-il. Il décrit toutefois des situations plus difficiles dans d'autres établissements de l'académie, certains ayant dû basculer à distance pendant quinze jours avant les vacances, dégradant de fait les conditions d'enseignement. \"Il faudra voir ça au cas par cas, mais je crois qu'il ne faut pas dramatiser\", relativise ce chef d'établissement, qui refuse de conclure dès maintenant à des conséquences sur les résultats des élèves.",
+        "summary_cn": "“我们不能停止，这种事现在正在发生”：在奥贝维利耶，高中生们决心继续封锁，“让自己的声音被听到”。周一早上，爱德华·格弗雷在法国国际米兰的节目中警告了封锁的后果。国家教育部长宣称：“数十万名学生的学年现在处于[危险]之中，我们无法承受”，他指的是课程“有时停课数周”。这种现象的严重程度如何？这些干扰在多大程度上威胁到学士学位的学习和准备？据《世界报》报道，10 月中旬，教育部长告知参议员，自运动开始以来，大约 3,700 所法国高中中，有三分之一没有经历过任何干扰，另外三分之一的干扰“非常温和”且时间有限，最后三分之一的干扰更为严重。 11 月 4 日星期三，教育部的服务部门确定了 19 所被封锁的高中，而周二早上有 48 所学校，周一有 41 所学校。据法新社报道，高中联盟提出的本周前两天的数字要高得多，周二有 500 所高中停课，周一有 150 所高中停课。在某些机构中，课程基本上能够维持。阿尔比（塔恩省）Louis-Rascol 高中的情况就是如此，该校校长兼 SNPDEN-Unsa 工会副秘书长 Christelle Kauffmann 解释道。除了旷课率较高的“九月最后一周”外，他所在的高中都正常恢复上课。一位不愿透露姓名的巴黎公立高中校长也提出了同样的看法：“尽管出现封锁，但大多数学生仍能返回，并且课程总体上能够正常上课，”他报道道。然而，他描述了学院其他机构的更困难的情况，一些机构不得不在假期前两周转向远程学习，这实际上降低了教学条件。这位校长表示：“我们必须根据具体情况来看待这一问题，但我认为我们不应该夸大其词。”他拒绝立即得出这会对学生成绩产生影响的结论。",
+        "source": "France Info",
+        "pub_date": "5 November 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/on-ne-pourra-pas-tout-rattraper-les-blocages-des-lycees-menacent-ils-l-annee-scolaire-et-la-preparation-du-bac_8266037.html#xtor=RSS-3-[lestitres]",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "“我想和人工智能特工交谈！” »：ElevenLabs 正在寻求一种为客户提出索赔的新方式",
+        "title": "« Je veux parler à un agent IA ! » : ElevenLabs mise sur une nouvelle façon de faire une réclamation pour les clients",
+        "body": "La jeune pousse s'adressait d'abord aux créateurs de contenus, qui utilisent les voix synthétiques d'ElevenLabs pour doubler des vidéos notamment. Mais sa clientèle s'est élargie aux entreprises, qui constituent désormais 55 % de son chiffre d'affaires. Et Elevenlabs ne vend plus des voix, mais des \"agents IA\" complets, qui peuvent converser mais aussi agir : se connecter à des logiciels, prendre des rendez-vous, qualifier un prospect... La start-up avait par ailleurs intérêt à se tourner davantage vers les entreprises et l'IA agentique, puisque d'autres voix synthétiques moins chères, comme celles d'Alibaba ou de l'étasunien Fish Audio, existent sur le marché. Pour gérer sa croissance, ElevenLabs a récemment recruté sa première responsable des revenus, Ashley Kramer, ex vice-présidente entreprise d'OpenAI, que La Tribune a rencontré début novembre à Paris.",
+        "summary_cn": "这家年轻的公司主要针对内容创作者，他们特别使用 ElevenLabs 的合成声音来配音视频。但其客户群体已扩大到企业，目前企业营业额占其营业额的 55%。 Elevenlabs 不再销售声音，而是销售完整的“人工智能代理”，它可以交谈，也可以行动：连接到软件、预约、筛选潜在客户……这家初创公司也有兴趣更多地转向商业和代理人工智能，因为市场上存在其他更便宜的合成声音，例如来自阿里巴巴或美国鱼音频的声音。为了管理其增长，ElevenLabs 最近聘请了第一位收入经理 Ashley Kramer，他是 OpenAI 的前公司副总裁，La Tribune 于 11 月初在巴黎会见了他。",
+        "source": "La Tribune",
+        "pub_date": "5 November 2026",
+        "auto": true,
+        "link": "https://www.latribune.fr/article/tech/1213016613557414/je-veux-parler-a-un-agent-ia-elevenlabs-mise-sur-une-nouvelle-facon-de-faire-une-reclamation-pour-les-clients",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 471,
+    "auto": true
+  },
+  {
     "date": "2026-11-04",
     "tags": [
       "Actualité",
