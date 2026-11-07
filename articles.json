@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-07",
+    "tags": [
+      "Actualité",
+      "Technologie"
+    ],
+    "regions": [
+      "francophonie"
+    ],
+    "summary_cn": "国家教育部发邮件要求举报教师罢课，声援高中生动员了吗？ | 冰箱黑客攻击迫使医院审核其联网对象",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "国家教育部发邮件要求举报教师罢课，声援高中生动员了吗？",
+        "title": "Le ministère de l'Education nationale a-t-il envoyé un mail demandant de signaler les enseignants grévistes solidaires de la mobilisation des lycéens ?",
+        "body": "Un lycée bloqué, à Rennes (Ille-et-Vilaine), le 9 octobre 2026. (JEANNE MERCIER / AFP) Un message a bien été envoyé aux recteurs, le 15 octobre, afin de pouvoir appliquer une retenue sur le salaire des professeurs en grève ou qui n'ont pas assuré leurs heures de cours lors des blocages. Mais ces consignes ne semblent pas avoir été suivies d'effets. Lundi 2 novembre, la députée insoumise d'Ille-et-Vilaine, Marie Mesmeur, a partagé sur le réseau social X la capture d'écran d'un message émanant du ministère de l'Education nationale envoyé aux recteurs, leur donnant des consignes pour décompter les enseignants grévistes. Dans ce courriel envoyé le 15 octobre, la secrétaire générale du ministère de l'Education nationale demande à l'ensemble des recteurs d'académies de France de décompter des jours de paie sur le salaire des professeurs en grève lors des journées de mobilisation lycéenne. Même requête pour les enseignants non déclarés qui \"ne réalisent pas leur service\", peut-on lire dans cet e-mail. ⚠️ Les retraits des jours de grève vont pleuvoir pour les enseignants en lycée, même ceux qui sont fermés/bloqués. Voilà les consignes envoyés aux recteurs. https://t.co/oIoMdBuu4C Cela concerne les \"professeurs absents sans motif\" et ceux \"refusant d'accueillir leurs élèves\" dans des lycées où les cours sont assurés, précise le ministère dans le courriel. Dans les lycées bloqués, les enseignants ayant refusé \"d'assurer la continuité pédagogique\" avec l'organisation de cours en visioconférence ou de devoirs maison font partie du décompte. Le ministère demande enfin de veiller à ce que \"les enseignants qui ont participé aux blocages aux côtés des lycées\" et \"identifiés\" par la direction d'établissement soient \"bien comptés comme grévistes\". La publication a alerté de nombreux internautes inquiets d'une \"chasse aux profs solidaires\" de la mobilisation lycéenne tandis que la députée insoumise Marie Mesmeur a dénoncé une \"dérive autoritaire\". De son côté, le ministre de l'Education nationale, Edouard Geffray, a affirmé le 3 novembre, lors d'un déplacement au lycée René-Descartes à Champs-sur-Marne, en banlieue parisienne, qu'il s'agissait d'un \"mail circulaire (...) envoyé par l'administration à chaque fois qu'il y a un mouvement de grève ou un mouvement de contestation\".",
+        "summary_cn": "雷恩（伊勒-维莱讷省）一所被封锁的高中，2026 年 10 月 9 日。（JEANNE MERCIER / 法新社）10 月 15 日，我们向校长发送了一条消息，以便能够从罢工教师或在封锁期间无法保证上课时间的教师的工资中扣除。但这些指示似乎并没有产生任何效果。 11月2日星期一，伊勒-维莱讷省反叛议员玛丽·梅斯梅尔(Marie Mesmeur)在社交网络上分享了10月15日发送的这封电子邮件，国民教育部秘书长要求所有法国院校校长在高中动员日期间从罢工教师的工资中扣除发薪日。对于“不履行其服务”的未申报教师的同样要求，我们可以在这封电子邮件中看到。 ⚠️ 罢工日的退学对于高中教师来说将是一场大雨，即使是那些被关闭/封锁的教师。这些是发送给校长的指示。 https://t.co/oIoMdBuu4C 该部在电子邮件中指出，这涉及到在上课的高中“教师无故缺席”和“拒绝欢迎学生”的问题。在被封锁的高中，拒绝通过组织视频会议课程或家庭作业来“确保教育连续性”的教师也被纳入统计范围。该部最后要求确保“参与高中封锁的教师”并被学校管理层“认定”为“罢工者”。该出版物提醒许多互联网用户担心高中动员会“寻找声援教师”，而叛逆的议员玛丽·梅斯梅尔则谴责了“独裁倾向”。国民教育部长爱德华·格弗雷 (Edouard Geffray) 于 11 月 3 日在参观巴黎郊区马恩河畔香榭丽舍的勒内·笛卡尔高中时确认，这是“政府每次发生罢工或抗议运动时发送的循环电子邮件（……）”。",
+        "source": "France Info",
+        "pub_date": "7 November 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/vrai-ou-fake/vrai-ou-faux-le-ministere-de-l-education-nationale-a-t-il-envoye-un-mail-demandant-de-signaler-les-enseignants-grevistes-solidaires-de-la-mobilisation-des-lyceens_8269187.html#xtor=RSS-3-[lestitres]",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Technologie",
+        "title_cn": "冰箱黑客攻击迫使医院审核其联网对象",
+        "title": "Le piratage de réfrigérateurs force les hôpitaux à auditer leurs objets connectés",
+        "body": "Cyberattaque des supermarchés : un test inédit révèle qu'il a suffi de 28 minutes à l'IA Claude pour pirater les frigos connectés Quelques jours après la cyberattaque contre ces réfrigérateurs, on peut affirmer sans risque de se tromper que les systèmes de réfrigération, en Europe, et en France bien plus qu’ailleurs, sont ciblés par une ou plusieurs équipes de pirates. Dans son communiqué publié le 4 novembre 2026, le prestataire Coolworld, à l’origine de l’installation des réfrigérateurs, explique que l’incident concernait un logiciel de surveillance à distance utilisé dans ses systèmes de réfrigération, sans mentionner Danfoss ou Dixell, les deux logiciels de gestion ciblés par les hackeurs dans la vague contre les grandes enseignes. La faille initiale peut être considérée comme un manquement à la sécurité puisque la correction était publique, mais elle révèle aussi qu’il s’agissait d’une vulnérabilité classique, presque anecdotique, dans un système essentiel, et que l’on peut naturellement supposer que d’autres n’ont pas encore été découvertes. Les opérateurs d’importance vitale (OIV) sont donc en pleine phase d’audit après ce nouvel épisode.",
+        "summary_cn": "对超市的网络攻击：一项史无前例的测试显示，人工智能克劳德花了 28 分钟入侵联网冰箱。在这些冰箱遭受网络攻击几天后，我们可以有把握地说，欧洲和法国的制冷系统比其他地方更多地成为一个或多个黑客团队的目标。在 2026 年 11 月 4 日发布的新闻稿中，负责安装冰箱的服务提供商 Coolworld 解释说，该事件涉及其制冷系统中使用的远程监控软件，但没有提及丹佛斯或 Dixell 这两款在针对主要品牌的黑客浪潮中被黑客攻击的管理软件。由于修复是公开的，最初的缺陷可以被视为安全漏洞，但它也表明这是关键系统中的一个经典的、几乎是轶事的漏洞，人们自然可以假设其他漏洞尚未被发现。因此，在这一新事件发生后，至关重要的运营商 (OIV) 正处于审核阶段。",
+        "source": "La Tribune",
+        "pub_date": "6 November 2026",
+        "auto": true,
+        "link": "https://www.latribune.fr/article/tech/72309925020066/le-piratage-de-refrigateurs-force-les-hopitaux-a-auditer-leurs-objets-connectes",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 522,
+    "auto": true
+  },
+  {
     "date": "2026-11-06",
     "tags": [
       "Actualité",
