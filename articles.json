@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-09",
+    "tags": [
+      "Actualité",
+      "Économie"
+    ],
+    "regions": [
+      "francophonie"
+    ],
+    "summary_cn": "社会会议：CGT警告称，“愤怒不会消失，因为政府将宣布最低工资降低几欧元” | “财政冲击”：2017年以来增幅最大的税收和减少的税收",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "社会会议：CGT警告称，“愤怒不会消失，因为政府将宣布最低工资降低几欧元”",
+        "title": "Conférence sociale : \"La colère ne va pas disparaître parce que le gouvernement aura annoncé quelques euros sur le smic\", prévient la CGT",
+        "body": "Sébastien Lecornu reçoit ce matin à Matignon le patronat et les syndicats pour une \"conférence sociale\" consacrée à la crise sociale du moment. La hausse du Smic est à l'étude. \"La colère ne va pas disparaître parce que le gouvernement aura annoncé quelques euros supplémentaires sur le smic\", prévient la secrétaire générale de la CGT, Sophie Binet. Suivez notre direct. • #COP31 La 31e conférence mondiale sur le climat (COP) s'ouvre aujourd'hui à Antalya, en Turquie, sur fond de crise énergétique et de tensions géopolitiques. Pendant quinze jours, environ 60 000 personnes et quelques dizaines de dirigeants (mais pas Emmanuel Macron) vont se réunir sur la riviera turque. • #POLOGNE L'auteur de l'attentat qui a fait six morts et quinze blessés à Cracovie est mort, annonce la police polonaise. L'individu, âgé de 24 ans, était \"fasciné\" par les idées d'extrême droite, selon les autorités. Blessé par des tirs de policiers, il avait été transporté à l'hôpital. NVIDIA \"Le conseil d’administration de Nvidia lance une enquête indépendante\" au sujet du patron et fondateur de la firme, soupçonné d'avoir entretenu une relation avec une espionne recrutée par Pékin, selon plusieurs médias.",
+        "summary_cn": "今天上午，塞巴斯蒂安·勒科尔努 (Sébastien Lecornu) 在马蒂尼翁接待雇主和工会，参加专门讨论当前社会危机的“社会会议”。提高最低工资标准正在研究中。 CGT 秘书长索菲·比奈 (Sophie Binet) 警告说：“愤怒不会消失，因为政府将宣布在最低工资上增加几欧元。”关注我们的直播。 • #COP31 第31届世界气候大会(COP)今天在土耳其安塔利亚开幕，背景是能源危机和地缘政治紧张局势。两周内，大约 6 万人和几十位领导人（但马克龙除外）将在土耳其里维埃拉举行会议。 • #波兰 波兰警方宣布，克拉科夫袭击事件造成六人死亡、十五人受伤的肇事者已死亡。据当局称，这名 24 岁的人对极右思想“着迷”。他被警察开枪打伤，被送往医院。据多家媒体报道，英伟达“英伟达董事会对该公司老板和创始人发起独立调查”，涉嫌与北京招募的一名间谍保持关系。",
+        "source": "France Info",
+        "pub_date": "9 November 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/economie/greve/direct-conference-sociale-pour-repondre-a-la-colere-le-premier-ministre-reunit-lundi-matin-les-syndicats_8273954.html#xtor=RSS-3-[lestitres]",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "“财政冲击”：2017年以来增幅最大的税收和减少的税收",
+        "title": "« Choc fiscal » : les impôts qui ont le plus augmenté depuis 2017, et ceux qui ont baissé",
+        "body": "La France a battu un nouveau record le 28 octobre dernier : les prélèvements obligatoires ont dépassé 46 % du PIB (contre 45,3 % en 2017). Alors qu’Emmanuel Macron promettait des baisses d’impôts « financées par nos économies » au début de son premier mandat, dix ans plus tard, aucun autre pays de l’Union européenne ne ponctionne autant sa richesse nationale, confirme Eurostat. Or, dans le même temps, depuis 2017, les baisses d’impôts et de cotisations ont représenté un manque à gagner annuel de 62 milliards d’euros pour les finances publiques en 2023, selon la Cour des comptes. Ces deux tendances, en apparence contraires, peuvent cohabiter pour une raison simple : les dépenses publiques sont restées à des niveaux gargantuesques, quand les déficits se sont, eux, creusés. À cela s’ajoute une croissance du PIB plus morose que prévu. Résultat : face à une dette publique qui atteint près de 3 600 milliards d’euros, soit 119 % du PIB, il faut continuer à lever massivement l’impôt. « Nos problèmes sont d’abord des problèmes de dépenses. Toute la fiscalité du monde ne les réglera pas, cela serait toujours insuffisant », a même reconnu le Premier ministre Sébastien Lecornu. Avant lui, l’ancien ministre de l’Économie Bruno Le Maire l’avait martelé en 2021, 2023, 2024… : il n’y a plus de « marge de manœuvre » pour augmenter encore la pression fiscale sur les Français. Pourtant, les impôts ont continué d’augmenter ces dix dernières années. Et selon la trajectoire budgétaire interne du gouvernement, la pression pourrait encore monter après les élections de 2027. Parmi les baisses emblématiques de la décennie, la baisse du taux d’imposition des sociétés (de 33,33 % à 25 % en 2022). Coût pour les finances publiques : entre 11 et 16 milliards d’euros par an.",
+        "summary_cn": "法国10月28日打破新纪录：强制扣除额超过GDP的46%（2017年为45.3%）。欧盟统计局证实，尽管埃马纽埃尔·马克龙在上任之初就承诺“由我们的经济资助”减税，但十年后，欧盟没有其他国家消耗了如此多的国民财富。然而，与此同时，根据审计法院的数据，自 2017 年以来，税收和缴费的削减意味着 2023 年公共财政年度缺口达 620 亿欧元。这两种明显相反的趋势可以共存，原因很简单：公共支出仍然保持在庞大的水平，而赤字却在扩大。除此之外，GDP 增长也比预期更为缓慢。结果：面对接近3.6万亿欧元（占GDP的119%）的公共债务，我们必须继续大规模增税。 “我们的问题主要是支出问题。世界上所有的税收都无法解决这些问题，它永远是不够的，”甚至总理塞巴斯蒂安·勒科尔努也承认。在他之前，前经济部长布鲁诺·勒梅尔（Bruno Le Maire）在2021年、2023年、2024年……已经强调：不再有“回旋余地”进一步增加法国人的税收压力。然而，过去十年税收持续上涨。根据政府的内部预算轨迹，2027 年选举后压力可能会进一步加大。这十年来的标志性削减包括企业税率的降低（2022 年从 33.33% 降至 25%）。公共财政成本：每年 11 至 160 亿欧元。",
+        "source": "La Tribune",
+        "pub_date": "9 November 2026",
+        "auto": true,
+        "link": "https://www.latribune.fr/article/economie/fiscalite/15852195100293/choc-fiscal-les-impots-qui-ont-le-plus-augmente-depuis-2017-et-ceux-qui-ont-baisse",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 484,
+    "auto": true
+  },
+  {
     "date": "2026-11-08",
     "tags": [
       "Actualité",
