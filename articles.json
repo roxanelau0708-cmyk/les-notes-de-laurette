@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-10",
+    "tags": [
+      "Actualité",
+      "Économie"
+    ],
+    "regions": [
+      "francophonie"
+    ],
+    "summary_cn": "支持课程、缩减项目、修改考试……高中动员是否应该对学士学位进行调整？ | 面对全球变暖，普罗旺斯运河公司使其供水系统变得智能化",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "支持课程、缩减项目、修改考试……高中动员是否应该对学士学位进行调整？",
+        "title": "Cours de soutien, allégement du programme, modification des épreuves… Le bac doit-il être adapté en raison de la mobilisation lycéenne ?",
+        "body": "Manifestations du 10 novembre : étudiants, lycéens et enseignants appellent à une nouvelle journée d'action mardi Malgré ces perturbations, le gouvernement n'envisage pas de décaler la date des épreuves du baccalauréat 2027. \"Je vais être très clair : je n'ai pas l'intention de toucher aux examens\", a déclaré samedi 7 novembre le ministre de l'Education au Parisien. \"On ne change pas le bac. C'est un principe. Le bac, c'est le bac\", a insisté lundi matin Edouard Geffray au micro des \"4V\" sur France 2. Les premières épreuves sont prévues le 24 mai pour la filière professionnelle, et le 14 juin pour le bac général et technologique. Mais, dans les établissements les plus fortement mobilisés cet automne, le retard pris dans l'apprentissage des programmes sera difficile à rattraper et cette situation peut générer du stress chez les élèves et leurs professeurs. Pour Lætitia Aresu, secrétaire générale CFDT Education, rattraper les heures de cours perdues sera \"une charge mentale en plus qui va peser sur les enseignants\". \"Ça leur fait porter une responsabilité de réussite au bac alors que ce n'est pas eux qui maîtrisent les événements\", affirme-t-elle. Les syndicats interrogés par franceinfo sont toutefois d'accord sur l'idée de préserver les dates des épreuves. \"Si on voulait gagner un peu de temps, c'est-à-dire a minima deux semaines, il faudrait décaler les épreuves écrites à fin juin, puis les oraux au début du mois de juillet\", affirme Sophie Vénétitay, secrétaire générale du Snes-FSU. \"On ne voit pas trop comment ça pourrait s'organiser\", ajoute Lætitia Aresu, en rappelant que le calendrier des épreuves a été décidé en septembre, après concertation des organisations syndicales, lycéennes et étudiantes. Un tel chamboulement de calendrier perturberait l'année scolaire sur plusieurs niveaux. Selon la secrétaire générale du Snes-FSU, cela poserait des difficultés pour \"l'organisation du service des enseignants\" pendant les jours d'examen. En effet, il faudrait mobiliser du personnel sur des dates plus tardives. Cela décalerait aussi les procédures d'admission dans les établissements supérieurs, conditionnées à l'obtention du baccalauréat.",
+        "summary_cn": "11 月 10 日的示威活动：学生、高中生和教师呼吁周二采取新的行动 尽管存在这些干扰，政府并不打算推迟 2027 年学士学位考试的日期。 11 月 7 日星期六，教育部长向《巴黎人报》表示：“我会非常明确地表示：我不打算触及考试。” “我们不会改变学士学位。这是一个原则。学士学位就是学士学位”，周一早上，Edouard Geffray 在 France 2 的“4V”麦克风中坚称。专业领域的首次测试定于 5 月 24 日进行，普通和技术学士学位的首次测试定于 6 月 14 日进行。但是，在今年秋天动员最频繁的机构中，学习课程的延迟将很难弥补，这种情况可能会给学生和老师带来压力。 CFDT Education 秘书长 Lætitia Aresu 认为，弥补损失的课时将“给教师带来额外的精神负担”。 “当事情不是由他们控制时，这让他们有责任通过学士学位，”她说。然而，接受 franceinfo 采访的工会都同意保留测试日期的想法。 “如果我们想节省一点时间，也就是说至少两周，我们就必须将笔试推迟到六月底，然后将口试推迟到七月初，”Snes-FSU 秘书长 Sophie Vénétitay 说。 “我们真的不知道如何组织它，”Lætitia Aresu 补充道，她回忆说，测试的时间表是在与工会组织、高中生和学生协商后于 9 月份决定的。日历上的这种变化会在多个层面上扰乱学年。 Snes-FSU 秘书长表示，这会给考试期间的“教学服务组织”带来困难。事实上，稍后必须动员工作人员。这也将把入学程序转移到高等教育机构，以获得学士学位为条件。",
+        "source": "France Info",
+        "pub_date": "10 November 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/societe/education/cours-de-soutien-allegement-du-programme-modification-des-epreuves-le-bac-doit-il-etre-adapte-en-raison-de-la-mobilisation-lyceenne_8274485.html#xtor=RSS-3-[lestitres]",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "面对全球变暖，普罗旺斯运河公司使其供水系统变得智能化",
+        "title": "Confrontée au réchauffement climatique, la Société du Canal de Provence rend ses systèmes hydriques intelligents",
+        "body": "Or, Julien Lecollinet le reconnaît, la SCP reste soumise à une problématique et ce, depuis toujours : le multi-usage de l’eau qui sert plusieurs secteurs : les municipalités (50 % de l’eau brute de Marseille, par exemple), l’industrie, l’agriculture. Cette dernière met particulièrement le système en tension. « Ce sont les usages de l’eau par l’agriculture qui apportent le plus de variabilité », admet l’ingénieur. Entre mars et septembre, en pleine haute saison pour les agriculteurs, ce sont de très forts volumes d’eau qui sont demandés. « C’est un usage de l’eau beaucoup plus difficile à prévoir et gérer que les besoins des urbains qui se concentrent sur des périodes temps délimitées le matin, le midi et en soirée », poursuit-il. D’autant plus que l’agriculture – qui exploite 28 % de la surface régionale – subit de plein fouet les contraintes météorologiques, à l’instar du célèbre vent Mistral ou des épisodes de sécheresse de plus en plus nombreux, qui influent sur les besoins en eau en fonction des types de récoltes et des sols.",
+        "summary_cn": "然而，Julien Lecollinet 认识到，SCP 仍然面临着一个问题，并且一直如此：水的多用途服务于多个部门：市政当局（例如，马赛 50% 的原水）、工业、农业。后者尤其使系统处于紧张状态。 “农业用水带来了最大的变化，”工程师承认。三月至九月是农民的旺季，需要大量的水。他继续说道：“与城市居民的用水需求相比，这种用水方式更难预测和管理，城市居民只关注早上、中午和晚上的特定时间段。”特别是因为农业（占区域面积的 28%）首当其冲地受到天气限制，例如著名的米斯特拉尔风或越来越多的干旱事件，这会影响水的需求，具体取决于作物和土壤的类型。",
+        "source": "La Tribune",
+        "pub_date": "9 November 2026",
+        "auto": true,
+        "link": "https://www.latribune.fr/article/economie/65285387410134/confrontee-au-rechauffement-climatique-la-societe-du-canal-de-provence-rend-ses-systemes-hydriques-intelligents",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 504,
+    "auto": true
+  },
+  {
     "date": "2026-11-09",
     "tags": [
       "Actualité",
