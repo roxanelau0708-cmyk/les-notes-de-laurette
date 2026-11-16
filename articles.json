@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-16",
+    "tags": [
+      "Actualité",
+      "Économie"
+    ],
+    "regions": [
+      "francophonie"
+    ],
+    "summary_cn": "社会危机：南特纳尔逊·曼德拉高中在火灾影响学校设施六周后重新开放 | 2027年预算：政府面临不可持续的5%赤字目标困惑？",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "社会危机：南特纳尔逊·曼德拉高中在火灾影响学校设施六周后重新开放",
+        "title": "Crise sociale : le lycée Nelson-Mandela rouvre ses portes à Nantes, six semaines après l'incendie qui a touché l'établissement",
+        "body": "• #MANIFESTATIONS Les rassemblements et cortèges ont été interdits autour de plusieurs lycées et universités en Ile-de-France, à la veille d'une nouvelle journée de mobilisation sociale. A Nantes, la matinée est marquée par la réouverture partielle du lycée incendié en octobre. Suivez notre direct. • #UKRAINE L'Ukraine a \"frappé\" le pont reliant la Russie à la péninsule de Crimée annexée par Moscou, restreignant la circulation sur cet ouvrage stratégique, selon les autorités locales. En Russie, l'armée affirme avoir \"détruit\" plus de 1 300 drones cette nuit, notamment près de Moscou. • La Chine a confirmé que le président Xi Jinping et ses homologues américain et russe, Donald Trump et Vladimir Poutine, tiendraient leur premier sommet trilatéral jeudi à Shenzhen. Ils procèderont à \"des échanges approfondis sur la préservation de la paix mondiale\", selon la diplomatie chinoise. • #NARCOTRAFIC La cour d'assises d'Aix doit rendre aujourd'hui son verdict au procès d'un triple narchomicide sanglant commis près de Marseille en 2020, ayant notamment tué le frère aîné du militant antinarcotrafic Amine Kessaci. Récit d'un mois de débats sous haute tension.",
+        "summary_cn": "• #PROTESTS 在新的社会动员日前夕，法兰西岛的几所高中和大学周围禁止集会和游行。在南特，十月被烧毁的高中部分重新开放是今天早上的标志。关注我们的直播。 • #UKRAINE 据地方当局称，乌克兰“击中”了连接俄罗斯与莫斯科吞并的克里米亚半岛的桥梁，限制了这一战略结构的交通。在俄罗斯，军队声称昨晚“摧毁”了 1,300 多架无人机，特别是在莫斯科附近。 • 中国已确认，习近平主席与美国和俄罗斯总统唐纳德·特朗普和弗拉基米尔·普京将于周四在深圳举行首次三边峰会。据中国外交报道，他们将“就维护世界和平进行深入讨论”。 • #NARCOTRAFIC 艾克斯巡回法院今天必须对 2020 年马赛附近发生的三起血腥麻醉品杀人案进行审判，该案特别杀害了反毒品贩运活动人士 Amine Kessaci 的哥哥。一个月的紧张辩论的故事。",
+        "source": "France Info",
+        "pub_date": "16 November 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/direct-mouvement-lyceen-le-lycee-nelson-mandela-rouvre-ses-portes-a-nantes-six-semaines-apres-l-incendie-dont-il-a-ete-victime_8284130.html#xtor=RSS-3-[lestitres]",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "2027年预算：政府面临不可持续的5%赤字目标困惑？",
+        "title": "Budget 2027 : le gouvernement face au casse-tête d’une cible de déficit à 5 % intenable ?",
+        "body": "Ce choix n’a pas manqué de créer la surprise chez les députés, qui s’attendaient à voir le chiffre corrigé à la hausse compte tenu de la dégradation de la conjoncture, l’Insee ayant annoncé le 30 octobre un recul de l’activité de 0,1 % au troisième trimestre. « On n’a aucune raison de revoir notre prévision à 5,4 % au vu des informations dont on dispose », a pourtant balayé, mercredi 4 novembre, le ministre de l’Économie, Roland Lescure, face aux parlementaires. Pour 2027, le gouvernement table sur une hypothèse de croissance de 1 %. C’est ce chiffre qu’il a retenu pour bâtir le cadrage macroéconomique du projet de loi de finances (PLF). Mais plus l’automne avance, plus cette prévision apparaît éloignée du consensus des économistes. Dès le 1er octobre, le Haut Conseil des finances publiques (HCFP), rattaché à la Cour des comptes, la jugeait « optimiste » dans son avis sur le PLF, estimant qu’elle se situait « entre un et trois dixièmes » de point au-dessus des prévisions des différentes institutions et organismes privés. L’actualité qui compte pour vous, chaque jour dans votre boîte mail.",
+        "summary_cn": "这一选择并没有让代表们感到意外，他们预计鉴于经济恶化，该数字将会向上修正，INSEE 于 10 月 30 日宣布第三季度经济活动下降 0.1%。然而，11 月 4 日星期三，经济部长罗兰·莱斯库尔 (Roland Lescure) 在议员面前驳斥道：“鉴于我们掌握的信息，我们没有理由将预测修改为 5.4%。”政府预计 2027 年的增长假设为 1%。他正是用这个数字构建了财政法案（PLF）的宏观经济框架。但随着秋季的进展，这一预测似乎与经济学家的共识相去甚远。截至 10 月 1 日，审计院下属的公共财政高级委员会 (HCFP) 对 PLF 的意见判断为“乐观”，估计比各机构和私人组织的预测高出“十分之三”一个百分点。每天您的收件箱中都有对您重要的新闻。",
+        "source": "La Tribune",
+        "pub_date": "16 November 2026",
+        "auto": true,
+        "link": "https://www.latribune.fr/article/economie/59716640632010/budget-2027-le-gouvernement-face-au-casse-tete-d-une-cible-de-deficit-a-5-intenable",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 364,
+    "auto": true
+  },
+  {
     "date": "2026-11-15",
     "tags": [
       "Actualité",
