@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-21",
+    "tags": [
+      "Actualité",
+      "Économie"
+    ],
+    "regions": [
+      "francophonie"
+    ],
+    "summary_cn": "“日益自动化的攻击活动”：网络犯罪分子如何将人工智能置于其行动的核心 | 其后果是可以预见的：利润压缩、投资受阻以及失业的强烈威胁",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "“日益自动化的攻击活动”：网络犯罪分子如何将人工智能置于其行动的核心",
+        "title": "\"Des campagnes d'attaques de plus en plus automatisées\" : comment les cybercriminels ont placé l'intelligence artificielle au cœur de leurs opérations",
+        "body": "\"L'attaquant connaît souvent mieux le système que sa victime\" : pourquoi la France semble-t-elle si vulnérable en matière de cybersécurité ? Un élément de cette menace est particulièrement pointé du doigt : l'intelligence artificielle (IA). \"L'intelligence artificielle, c'est un multiplicateur de force\", a souligné Vincent Strubel, le directeur général de l'Agence nationale de la sécurité des systèmes d'information (Anssi), jeudi, au côté de Sébastien Lecornu. \"Cela permet aux mêmes attaquants de mener mille fois plus d'attaques, mille fois plus vite\", et \"c'est une réalité que nous voyons déjà à l'œuvre dans une partie de ces attaques, qu'il s'agisse de criminels ou d'Etats, mais dans une proportion limitée\", décrit-il. \"La réalité à laquelle il faut se préparer, c'est que l'IA va continuer à accélérer l'attaque, à augmenter la volumétrie (…). Il faut se préparer à ce que ce soit bien pire, en intensité comme en célérité.\" Toutes les pannes informatiques de ces dernières semaines ne sont pas liées à l'IA, loin de là : la panne des services cloud de Microsoft n'est pas concernée, selon un vice-président de l'entreprise, pas plus que les perturbations des vols dans tous les aéroports américains, d'après l'administration Trump. Mais les exemples récents de piratages assistés par IA ne manquent pas. La Commission européenne a révélé jeudi avoir été victime d'une cyberattaque liée à un \"usage abusif d'un outil d'IA\", selon le porte-parole de la Commission, Thomas Regnier. \"A ce stade de l'enquête, nous n'avons trouvé aucun élément attestant d'une violation de données affectant l'ensemble du personnel de la Commission\", a précisé le porte-parole. Plusieurs cyberattaques menées de manière autonome par des IA d'OpenAI et Anthropic ont par ailleurs défrayé la chronique cet été. \"Il y a une vraie accélération de l'usage de l'IA par les cybercriminels : il y a encore six ou neuf mois, ce n'étaient que des tests, mais on est en train de passer dans des campagnes d'attaques de plus en plus automatisées\", confirme auprès de franceinfo Gérôme Billois, associé spécialiste de la cybersécurité au sein du cabinet Wavestone. Il évoque notamment le développement d'outils qui facilitent l'usage de l'IA par les criminels, comme Artex.",
+        "summary_cn": "“攻击者往往比受害者更了解系统”：为什么法国在网络安全方面似乎如此脆弱？这种威胁的一个要素尤其突出：人工智能（AI）。 “人工智能是力量倍增器，”国家信息系统安全局 (Anssi) 局长文森特·斯特鲁贝尔 (Vincent Strubel) 周四与塞巴斯蒂安·勒科尔努 (Sébastien Lecornu) 一起强调。他描述道：“这使得同一攻击者能够实施多一千倍的攻击，速度快一千倍”，“这是我们已经在其中一些攻击中看到的现实，无论是犯罪分子还是国家发起的，但比例有限”。 “我们必须做好准备的现实是，人工智能将继续加速攻击，增加攻击量（……）。我们必须做好准备，让它在强度和速度上变得更糟。”并非最近几周所有的计算机故障都与人工智能有关，远非如此：微软副总裁表示，微软云服务的故障并未受到影响，特朗普政府表示，美国所有机场的航班中断也没有受到影响。但最近不乏人工智能辅助黑客攻击的例子。欧盟委员会发言人托马斯·雷尼耶 (Thomas Regnier) 表示，欧盟委员会周四透露，它是与“滥用人工智能工具”有关的网络攻击的受害者。 “在调查的现阶段，我们没有发现影响所有委员会工作人员的数据泄露的证据，”发言人说。 OpenAI 和 Anthropic 的人工智能自主发起的几起网络攻击也成为今年夏天的头条新闻。 Wavestone 专门从事网络安全的合作伙伴 franceinfo Gérôme Billois 向 franceinfo 证实：“网络犯罪分子对人工智能的使用确实在加速：六、九个月前，这些还只是测试，但我们正在转向日益自动化的攻击活动。”他特别提到了促进犯罪分子使用人工智能的工具的开发，例如 Artex。",
+        "source": "France Info",
+        "pub_date": "21 November 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/des-campagnes-d-attaques-de-plus-en-plus-automatisees-comment-les-cybercriminels-ont-place-l-intelligence-artificielle-au-c-ur-de-leurs-operations_8292092.html#xtor=RSS-3-[lestitres]",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "其后果是可以预见的：利润压缩、投资受阻以及失业的强烈威胁",
+        "title": "OPINION. « Proclamer la souveraineté alimentaire et taxer les entreprises qui la produise : en finir avec l’illusion du en même temps », par Jean-François Loiseau",
+        "body": "Les conséquences sont prévisibles : des marges compressées, des investissements empêchés et des menaces fortes de suppression d’emplois. Au bout de la chaîne, la taxe pèsera aussi sur les prix alors que le pouvoir d’achat est une préoccupation majeure des Français et qu’ils attendent que leur travail paie davantage. On ne peut pas promouvoir un meilleur salaire net tout en alourdissant sans cesse le coût de production dans les usines. À l’approche d’une échéance électorale nationale décisive, la France ne manque pas de discours sur la compétitivité. Ce qui manque, c’est la cohérence entre ces discours et les décisions fiscales. Au fond, la taxe sucre n’est qu’un exemple, qu’un symptôme du grand mal français : toujours plus de taxes, toujours plus de charges. Qu’en deviendra-t-il de l’objectif de souveraineté alimentaire ? Les 23.000 entreprises agroalimentaires ne peuvent pas répondre à des injonctions contradictoires à la fois en assurant la rémunération des agriculteurs via les lois Egalim et en subissant les pressions excessives des distributeurs sur l’autel de la maîtrise de l’inflation et de l’hyperréglementation. Les produits alimentaires doivent être rémunérés au juste prix. Les entreprises ne doivent pas pallier la défaillance de l’État. La souveraineté alimentaire ne sera atteinte que lorsque tous les acteurs des filières seront respectés.",
+        "summary_cn": "其后果是可以预见的：利润压缩、投资受阻以及失业的强烈威胁。在链条的末端，税收也会对价格造成压力，而购买力是法国人主要关心的问题，他们希望自己的工作能得到更多的报酬。我们无法在不断增加工厂生产成本的同时，促进更好的净工资。随着决定性的全国选举最后期限的临近，法国不乏有关竞争力的演讲。缺少的是这些演讲和税收决策之间的一致性。基本上，糖税只是一个例子，只是法国大罪恶的一个症状：总是更多的税收，总是更多的收费。粮食主权的目标将会怎样？ 23,000家农业食品公司既无法通过Egalim法确保农民的报酬，也无法通过分销商在控制通货膨胀和过度监管方面承受过度压力来应对相互矛盾的禁令。食品必须支付公平的价格。公司不得补偿国家的失败。只有当各部门的所有利益相关者都受到尊重时，粮食主权才能实现。",
+        "source": "La Tribune",
+        "pub_date": "20 November 2026",
+        "auto": true,
+        "link": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/17426564935155/opinion-proclamer-la-souverainete-alimentaire-et-taxer-les-entreprises-qui-la-produise-en-finir-avec-l-illusion-du-en-meme-temps-par-jean-francois-loiseau",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 561,
+    "auto": true
+  },
+  {
     "date": "2026-11-20",
     "tags": [
       "Actualité",
