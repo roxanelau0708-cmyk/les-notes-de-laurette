@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-24",
+    "tags": [
+      "Actualité",
+      "Économie"
+    ],
+    "regions": [
+      "francophonie"
+    ],
+    "summary_cn": "市政警察、消防、税务……法国市长协会大会以来十五位市长回答您的问题 | 主权：这些仍依赖法国工厂的老板",
+    "briefs": [
+      {
+        "tag": "Actualité",
+        "title_cn": "市政警察、消防、税务……法国市长协会大会以来十五位市长回答您的问题",
+        "title": "Police municipale, incendie, fiscalité… Quinze maires répondent à vos questions depuis le congrès de l'Association des maires de France",
+        "body": "Article rédigé par franceinfo, Ludovic Pauchant Radio France franceinfo est en direct depuis le congrès de l’Association des maires de France le 24 novembre de midi à 15 h pour trois heures d’émission en direct sur YouTube, TikTok et Twitch avec vos questions dans le tchat. Quand une classe ferme, que peut vraiment faire le maire ? Et lorsqu'un incendie a ravagé sa commune ? A quelques mois de l'élection présidentielle, franceinfo reçoit quinze élu.es pour trois heures de direct sur YouTube, Twitch et TikTok mardi 24 novembre, de midi à 15 heures, depuis le 108e Congrès des maires et des présidents d'intercommunalité de France. >> Venez poser vos questions en direct dans le tchat sur Twitch : c'est par ici Au programme, quatre thèmes, modérés et animés par Aurélie Herbemont, cheffe adjointe du service politique de franceinfo et Ludovic Pauchant, journaliste à franceinfo : 12h / 12h 35 > Les communes rurales : quels besoins ? 12h45 / 13h25 > Fiscalité locale : quels moyens pour quelles ambitions ? 13h30 / 14h10 > Sécurité : quelle police municipale pour demain ? 14h15 / 15h > Incendies, inondations : les communes face aux catastrophes climatiques",
+        "summary_cn": "文章由 franceinfo 撰写，法国广播电台 Ludovic Pauchant 于 11 月 24 日中午至下午 3 点对法国市长协会大会进行现场直播。在 YouTube、TikTok 和 Twitch 上进行三个小时的直播，并在聊天中提问。当课程结束时，市长到底能做什么？当一场大火蹂躏他的城镇时？距离总统大选还有几个月，franceinfo 将于 11 月 24 日星期二中午至下午 3 点在 YouTube、Twitch 和 TikTok 上对第 108 届法国市长和市际主席大会的 15 名当选官员进行三个小时的直播。 >> 来 Twitch 上的聊天室现场提问：就在这里 节目有四个主题，由 franceinfo 政治部副主任 Aurélie Herbemont 和 franceinfo 记者 Ludovic Pauchant 主持：中午 12 点/ 中午 12:35 > 农村社区：有什么需求？中午 12:45 / 下午 1:25 > 地方税收：意味着什么、实现什么野心？下午 1:30 / 下午 2:10 > 保安：明天有什么市警察？下午 2:15 / 下午 3 点> 火灾、洪水：面临气候灾害的城市",
+        "source": "France Info",
+        "pub_date": "24 November 2026",
+        "auto": true,
+        "link": "https://www.franceinfo.fr/politique/direct-police-municipale-incendie-fiscalite-quinze-maires-repondent-a-vos-questions-depuis-le-congres-de-l-association-des-maires-de-france_8295998.html#xtor=RSS-3-[lestitres]",
+        "region": "francophonie"
+      },
+      {
+        "tag": "Économie",
+        "title_cn": "主权：这些仍依赖法国工厂的老板",
+        "title": "Souveraineté : ces patrons qui misent encore sur l'usine France",
+        "body": "Parmi ces nouveautés, le fabricant de drones militaires Alta Ares a annoncé un investissement de « plusieurs millions d'euros » sur le bassin toulousain pour une usine, selon des informations de La Tribune. « Le site est opérationnel depuis quelques semaines », confie Hadrien Canter, le CEO et cofondateur de cette entreprise. Un autre droniste voisin, Delair, a profité de ce sommet économique - où l'optimisme de circonstance a fait oublier la morosité financière des derniers mois - pour annoncer un investissement de 30 millions d'euros dans une nouvelle usine. L'industriel, qui vise les 70 millions d'euros de chiffre d'affaires en 2026, est désormais propriétaire de la friche industrielle qui abritait autrefois Latelec, filiale de Latécoère.« Avec cette nouvelle usine, nous pourrons atteindre un chiffre d'affaires maximum de 250 millions d'euros, contre 80 avec l'actuelle », justifie le patron de la PME à la tête de 250 collaborateurs.",
+        "summary_cn": "据《论坛报》报道，在这些新进展中，军用无人机制造商 Alta Ares 宣布在图卢兹地区投资“数百万欧元”建设工厂。 “该网站已经运营几周了，”该公司首席执行官兼联合创始人哈德里安·坎特 (Hadrien Canter) 透露道。另一家邻近的无人机制造商Delair利用这次经济峰会的机会——会议上的乐观情绪让我们忘记了近几个月的金融低迷——宣布投资3000万欧元建设新工厂。这位实业家的目标是到 2026 年营业额达到 7000 万欧元，现在是 Latécoère 子公司 Latelec 所在工业荒地的所有者。 “有了这个新工厂，我们将能够实现最高 2.5 亿欧元的营业额，而目前的营业额为 80 欧元，”这家拥有 250 名员工的中小企业老板解释道。",
+        "source": "La Tribune",
+        "pub_date": "23 November 2026",
+        "auto": true,
+        "link": "https://www.latribune.fr/article/entreprises-finance/industrie/1880040158449/souverainete-industrielle-ces-patrons-dusine-qui-misent-encore-sur-le-made-in-france",
+        "region": "francophonie"
+      }
+    ],
+    "vocab": [],
+    "word_count": 343,
+    "auto": true
+  },
+  {
     "date": "2026-11-23",
     "tags": [
       "Actualité",
