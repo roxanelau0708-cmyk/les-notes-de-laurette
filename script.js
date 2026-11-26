@@ -62,7 +62,6 @@ function flattenBriefs(articles) {
         link: link,
         region: b.region || regionFromTag(b.tag) || 'international',
         topic: b.tag.split(' / ')[0],
-        title_cn: b.title_cn,
         title: b.title,
         briefIndex: idx,
         sourceArticle: a,
@@ -103,7 +102,6 @@ function showArticleView(article, briefIndex) {
         ${isRead ? '<span class="read-badge">✓ Lu</span>' : ''}
       </div>
       </div>
-      ${brief.title_cn ? `<div class="av-title-cn">${brief.title_cn}</div>` : ''}
       <div class="av-title-fr">${brief.title.replace(/…+$/, '').trim()}</div>
       <div class="av-body">${brief.body}</div>
       <div class="av-source"><strong>Source :</strong> ${brief.source} · ${brief.pub_date}</div>
@@ -226,7 +224,6 @@ function buildLinkInfo() {
       const link = b.link || `${a.date}_${idx}`;
       map[link] = {
         date: a.date,
-        title_cn: b.title_cn,
         title: b.title,
         source: b.source,
         region: b.region || regionFromTag(b.tag),
@@ -272,7 +269,6 @@ function showNotesView() {
             if (n.info) {
               head = `
                 <div class="notes-title-fr">${escHtml(n.info.title)}</div>
-                ${n.info.title_cn ? `<div class="notes-title-cn">${escHtml(n.info.title_cn)}</div>` : ''}
                 <div class="notes-source">${escHtml(n.info.source || '')}</div>`;
             } else if (n.standalone) {
               head = `<div class="notes-title-fr notes-standalone">✍️ 自由笔记</div>`;
@@ -374,14 +370,6 @@ function renderTousView(articles, container) {
   container.innerHTML = items.map(item => {
     const dateDisplay = item.date.replace(/-/g, '/');
     const read = isRead(item.link);
-    // 精简短中文标题：句子类不超过15字，去省略号
-    let kw = (item.title_cn || '').trim().replace(/…+/g, '').replace(/\.\.\.+/g, '').trim();
-    if (kw) {
-      // 只在句子标点（，。！？）出现在第5字以后才截断
-      const m = kw.match(/[，。！？]/);
-      if (m && m.index > 5) kw = kw.slice(0, m.index);
-      else kw = kw.slice(0, 15);
-    }
     return `
       <div class="tous-row" data-date="${item.date}" data-brief="${item.briefIndex}" data-link="${item.link}">
         <div class="tous-main">
@@ -391,7 +379,6 @@ function renderTousView(articles, container) {
           ${read ? '<span class="read-badge">✓</span>' : ''}
           <button class="del-row-btn" title="Supprimer">✕</button>
         </div>
-        ${kw ? `<div class="tous-kw">${kw}</div>` : ''}
       </div>
     `;
   }).join('');
@@ -436,12 +423,6 @@ function renderRegionalView(articles, container) {
         <div class="region-date-header">${dateDisplay}</div>
         ${byDate[d].map(item => {
           const read = isRead(item.link);
-          let kw = (item.title_cn || '').trim().replace(/…+/g, '').replace(/\.\.\.+/g, '').trim();
-          if (kw) {
-            const punct = kw.search(/[，,。、；：]/);
-            if (punct > 0 && punct <= 15) kw = kw.slice(0, punct);
-            else kw = kw.slice(0, 15);
-          }
           return `
           <div class="tous-row" data-date="${item.date}" data-brief="${item.briefIndex}" data-link="${item.link}">
             <div class="tous-main">
@@ -450,7 +431,6 @@ function renderRegionalView(articles, container) {
               ${read ? '<span class="read-badge">✓</span>' : ''}
               <button class="del-row-btn" title="Supprimer">✕</button>
             </div>
-            ${kw ? `<div class="tous-kw" style="padding-left:16px">${kw}</div>` : ''}
           </div>`;
         }).join('')}
       </div>

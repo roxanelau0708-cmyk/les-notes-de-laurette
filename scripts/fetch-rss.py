@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 fetch-rss.py — RSS 新闻聚合器
-每天从法语媒体抓取资讯，自动翻译标题/摘要为中文，更新 articles.json
+每天从法语媒体抓取一篇资讯（只保留法语原文），更新 articles.json
+超过 RETENTION_DAYS 天的旧新闻自动清除
 使用 Python 标准库，无外部依赖
 """
 
@@ -10,13 +11,10 @@ import json
 import os
 import re
 import sys
-import time
 import unicodedata
-import urllib.error
 import urllib.request
-import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime, date, timezone
+from datetime import datetime, date, timedelta
 from html import unescape
 
 # ── 信源配置 ──
@@ -45,6 +43,7 @@ ARTICLES_PATH = os.path.join(SITE_DIR, "articles.json")
 # ── 正文目标 ──
 TARGET_WORDS = 300      # 每篇正文目标词数
 MIN_BODY_WORDS = 120    # 低于此词数视为缺乏实质内容，剔除
+RETENTION_DAYS = 30     # 只保留最近 30 天，更早的新闻自动删除
 
 # ── RSS 抓取 ──
 
@@ -174,32 +173,6 @@ def parse_rss(xml_data):
 def _clean_html(text):
     """去除 HTML 标签"""
     return re.sub(r"<[^>]+>", "", text).strip()
-
-
-def first_clause_cn(text, max_len=45):
-    """取中文文本第一个分句（句末/逗号前），用于提炼短标题"""
-    text = (text or "").strip()
-    for sep in "。！？；":
-        i = text.find(sep)
-        if i != -1:
-            text = text[:i]
-    if len(text) > max_len:
-        i = text.find("，")
-        if i != -1 and i <= max_len:
-            text = text[:i]
-    return text.strip()[:max_len]
-
-
-def make_title_cn(fr_title, summary_cn):
-    """中文标题：完整翻译原标题；原标题过长(句子式)则从中文正文首句提炼"""
-    title_cn = translate(fr_title).strip() if fr_title else ""
-    if title_cn and len(title_cn) <= 45:
-        return title_cn
-    if summary_cn:
-        t = first_clause_cn(summary_cn, 45)
-        if 8 <= len(t) <= 45:
-            return t
-    return title_cn[:45] if title_cn else ""
 
 
 GEO_RULES = [
@@ -548,7 +521,7 @@ def should_exclude(tag, title, desc):
     return False
 
 
-def select_themed(items, total=2):
+def select_themed(items, total=1):
     """优先选命中 DELF 主题的文章（theme.png），同一信源最多 1 条；
     主题不够时用其余文章补齐。"""
     from collections import defaultdict
@@ -579,99 +552,6 @@ def select_themed(items, total=2):
             if it not in chosen:
                 chosen.append(it)
     return chosen[:total]
-
-
-# ── 翻译 ──
-
-# client=gtx 自 2026-08-23 起被限流(429)，改用 at/dict-chrome-ex
-TRANSLATE_CLIENTS = ["at", "dict-chrome-ex", "gtx"]
-
-
-def _mymemory(text, dst="zh-CN", timeout=12):
-    """Google 免费接口全挂时的兜底：MyMemory 免费 API（带邮箱提升配额）"""
-    langpair = "fr|zh-CN" if dst == "zh-CN" else f"fr|{dst}"
-    url = (
-        "https://api.mymemory.translated.net/get"
-        f"?q={urllib.parse.quote(text[:400])}&langpair={langpair}"
-        "&de=lesnotesdelaurette@gmail.com"
-    )
-    try:
-        with urllib.request.urlopen(url, timeout=timeout) as resp:
-            d = json.loads(resp.read().decode("utf-8"))
-            if d.get("responseStatus") != 200:
-                return ""
-            return d.get("responseData", {}).get("translatedText", "") or ""
-    except Exception as e:
-        print(f"    ⚠ MyMemory échoué: {e}")
-        return ""
-
-
-def _is_chinese(text):
-    """目标为中文时校验结果确实含汉字，避免偶发返回英文"""
-    return bool(text and re.search(r"[一-鿿]", text))
-
-
-def translate(text, src="fr", dst="zh-CN"):
-    """用 Google Translate 免费接口翻译（client=at，规避 gtx 的 429）
-    结果必须含汉字才算成功，否则换下一个接口 / 兜底。"""
-    if not text or len(text) < 2:
-        return ""
-    q = text[:4000]
-    for attempt in range(2):
-        for client in TRANSLATE_CLIENTS:
-            time.sleep(0.8)  # 限速，避免触发 429
-            url = (
-                "https://translate.googleapis.com/translate_a/single"
-                f"?client={client}&sl={src}&tl={dst}&dt=t&q={urllib.parse.quote(q)}"
-            )
-            req = urllib.request.Request(
-                url,
-                headers={"User-Agent": "Mozilla/5.0"},
-            )
-            try:
-                with urllib.request.urlopen(req, timeout=15) as resp:
-                    data = json.loads(resp.read().decode("utf-8"))
-                    if isinstance(data, list) and len(data) > 0:
-                        parts = []
-                        for chunk in data[0]:
-                            if isinstance(chunk, list) and len(chunk) > 0 and chunk[0]:
-                                parts.append(chunk[0])
-                        result = "".join(parts)
-                        if _is_chinese(result):
-                            return result
-                        print(f"    ⚠ Traduction sans chinois (client={client})")
-            except urllib.error.HTTPError as e:
-                if e.code == 429:
-                    time.sleep(2)  # 限流 → 等 2s 换下一个 client
-                    continue
-                print(f"    ⚠ Traduction HTTP {e.code}")
-            except Exception as e:
-                print(f"    ⚠ Traduction échouée: {e}")
-        time.sleep(1)
-    result = _mymemory(q, dst)
-    return result if _is_chinese(result) else ""
-
-
-def translate_long(text, dst="zh-CN", chunk=2500):
-    """分段翻译长文本（单次请求放宽到约2500字节，300词法文通常1次搞定）"""
-    if not text:
-        return ""
-    sents = split_sentences(text)
-    parts, cur = [], ""
-    for s in sents:
-        if cur and len((cur + " " + s).encode("utf-8")) > chunk:
-            parts.append(cur)
-            cur = s
-        else:
-            cur = (cur + " " + s).strip()
-    if cur:
-        parts.append(cur)
-    out = []
-    for p in parts:
-        t = translate(p, "fr", dst)
-        if t:
-            out.append(t)
-    return "".join(out)
 
 
 # ── 正文抓取 & 压缩 ──
@@ -814,6 +694,20 @@ def condense_fr(text, target=300):
 
 # ── 主流程 ──
 
+def prune_old(articles, today=None):
+    """只保留最近 RETENTION_DAYS 天内的新闻（按文章 date 字段）。"""
+    cutoff = (today or date.today()) - timedelta(days=RETENTION_DAYS)
+    kept = []
+    for a in articles:
+        try:
+            d = date.fromisoformat(a.get("date") or "")
+        except (ValueError, TypeError):
+            continue
+        if d > cutoff:
+            kept.append(a)
+    return kept
+
+
 def main():
     print(f"=== 📡 Fetch RSS @ {datetime.now().isoformat()} ===\n")
 
@@ -825,6 +719,15 @@ def main():
         print(f"📦 {len(existing)} articles existants chargés")
     else:
         print("📦 Aucun articles.json trouvé, création d'un nouveau")
+
+    # 1b. 自动清理：删除超过 RETENTION_DAYS 天的旧新闻
+    pruned = prune_old(existing)
+    if len(pruned) < len(existing):
+        print(f"🧹 {len(existing) - len(pruned)} articles de plus de "
+              f"{RETENTION_DAYS} jours supprimés")
+        existing = pruned
+        with open(ARTICLES_PATH, "w", encoding="utf-8") as f:
+            json.dump(existing, f, ensure_ascii=False, indent=2)
 
     # 2. 收集已有标题用于去重
     existing_titles = set()
@@ -934,7 +837,7 @@ def main():
         ready.append(item)
 
     # 6b. 锁定法国：只保留地区判定为法国（francophonie）的稿件，
-    #     别国/国际稿（RFI 国际频道等）整条剔除；不足 2 篇则降到 1 篇
+    #     别国/国际稿（RFI 国际频道等）整条剔除
     for it in ready:
         it["region"] = detect_region(
             it["title"], it.get("desc", ""), it.get("region", "francophonie")
@@ -942,8 +845,8 @@ def main():
     ready = [it for it in ready if it["region"] == "francophonie"]
     print(f"\n🇫🇷 {len(ready)} articles France après verrouillage")
 
-    # 7. 选 2 篇：优先 DELF 主题（theme.png），信源不重复
-    selected = select_themed(ready, total=2)
+    # 7. 每天只选 1 篇：优先 DELF 主题（theme.png）
+    selected = select_themed(ready, total=1)
     print(f"\n📋 {len(selected)} articles retenus")
     for it in selected:
         print(f"    · [{it['source_label']}] {'/'.join(it['themes']) or 'hors-thème'} — {it['title'][:50]}")
@@ -951,7 +854,7 @@ def main():
         print("ℹ️  Aucun article valable.")
         return
 
-    # 8. 翻译 & 构建 briefs
+    # 8. 构建 briefs（只保留法语原文，不做中文翻译）
     today = date.today()
     today_str = today.isoformat()
 
@@ -963,14 +866,6 @@ def main():
             item["title"], item.get("desc", ""), item.get("region", "francophonie")
         )
 
-        # 中文正文（分段翻译长文）
-        summary_cn = translate_long(item["body"])
-
-        # 中文标题：完整翻译原标题；原标题过长则从正文提炼
-        title_cn = make_title_cn(item["title"], summary_cn)
-        if not title_cn:
-            title_cn = f"[{item['source_label']}] {item['title']}"
-
         # 解析发布时间
         dt = parse_date_str(item["pub_date"])
         pub_date_str = (
@@ -979,10 +874,8 @@ def main():
 
         briefs.append({
             "tag": item["tag"],
-            "title_cn": title_cn or "",
             "title": item["title"],
             "body": item["body"],
-            "summary_cn": summary_cn,
             "source": item["source_label"],
             "pub_date": pub_date_str,
             "auto": True,
@@ -993,14 +886,11 @@ def main():
     # 9. 构建当日文章条目
     tags = list(dict.fromkeys(b["tag"] for b in briefs))  # 有序去重
     regions = list(dict.fromkeys(item["region"] for item in selected))
-    summaries_cn = [b["title_cn"] for b in briefs if b["title_cn"]]
-    summary_line = " | ".join(summaries_cn[:5]) if summaries_cn else ""
 
     new_article = {
         "date": today_str,
         "tags": tags,
         "regions": regions,
-        "summary_cn": summary_line,
         "briefs": briefs,
         "vocab": [],
         "word_count": sum(len(b["body"].split()) for b in briefs),
@@ -1014,7 +904,7 @@ def main():
         if not (a.get("auto") and a["date"] == today_str)
     ]
 
-    # 保留全部文章，不做自动删除（用户看完后手动清理）
+    # 旧文章已在加载时按 RETENTION_DAYS 清理
     kept = list(existing)
 
     kept.insert(0, new_article)
